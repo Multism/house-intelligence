@@ -10,13 +10,14 @@
 // - seul un post au statut "approved" est publié (validation humaine), un seul par lancement, dans l'ordre de n ;
 //   un champ facultatif "not_before": "AAAA-MM-JJ" le retient jusqu'à cette date ;
 // - les images sont celles de social/media/<nn>-<slug>/01.jpg, 02.jpg… (rendues par `node tools/instagram.mjs media <n>`),
-//   servies en https par le site déployé ; la légende est social/media/<nn>-<slug>/caption.txt ;
+//   servies en https depuis le dépôt public (raw.githubusercontent.com) ; la légende est social/media/<nn>-<slug>/caption.txt ;
 // - après publication, le post passe en "published" avec la date, l'identifiant et le lien Instagram.
 //
 // Secrets (jamais dans le dépôt, uniquement en secrets GitHub ou variables d'environnement) :
 //   IG_USER_ID       identifiant du compte Instagram professionnel (nombre de ~17 chiffres)
 //   IG_ACCESS_TOKEN  jeton d'utilisateur système (SUAT) de l'app Meta « HOUSE INTEL PUBLISHER » : n'expire pas
-// Facultatif : SITE_URL (défaut https://house-intelligence.pages.dev), GRAPH_VERSION (défaut v23.0),
+// Facultatif : MEDIA_BASE_URL (défaut : la branche main du dépôt public sur raw.githubusercontent.com, en ligne dès la
+// fusion, sans attendre un déploiement du site), GRAPH_VERSION (défaut v23.0),
 // GRAPH_HOST (défaut graph.facebook.com ; graph.instagram.com pour un jeton « Instagram Login », qui dure 60 jours
 // et se prolonge avec --refresh).
 //
@@ -28,7 +29,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const QUEUE_FILE = join(ROOT, "social", "posts.json");
-const SITE = (process.env.SITE_URL || "https://house-intelligence.pages.dev").replace(/\/$/, "");
+const SITE = (process.env.MEDIA_BASE_URL || process.env.SITE_URL || "https://raw.githubusercontent.com/Multism/house-intelligence/main").replace(/\/$/, "");
 // Jeton « Instagram Login » (commence par IG…) → graph.instagram.com ; jeton Facebook (EAA…) → graph.facebook.com.
 const HOST = process.env.GRAPH_HOST || ((process.env.IG_ACCESS_TOKEN || "").trim().startsWith("IG") ? "graph.instagram.com" : "graph.facebook.com");
 const GRAPH = `https://${HOST}/${process.env.GRAPH_VERSION || "v23.0"}`;
@@ -88,7 +89,7 @@ async function assertOnline(urls) {
   for (const u of urls) {
     const res = await fetch(u, { method: "HEAD" });
     const type = res.headers.get("content-type") || "";
-    if (!res.ok || !type.includes("jpeg")) fail(`Image pas encore en ligne : ${u} (HTTP ${res.status}, ${type || "sans type"}). Le site est-il déployé ?`);
+    if (!res.ok || !type.includes("jpeg")) fail(`Image pas encore en ligne : ${u} (HTTP ${res.status}, ${type || "sans type"}). Le post est-il bien fusionné sur main ?`);
   }
 }
 

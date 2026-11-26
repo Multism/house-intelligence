@@ -6,7 +6,7 @@ Compte : @house.intelligence.archive (professionnel, relié à la Page Facebook 
 
 1. **Rédaction** : chaque post est une entrée de `posts.json` (accroche, légende, hashtags), au statut `draft`.
 2. **Rendu** : `node tools/instagram.mjs media <n>` produit `social/media/<nn>-<slug>/01.jpg…` et `caption.txt`.
-   Ces fichiers sont versionnés : une fois sur `main`, Cloudflare Pages les sert en https, ce dont l'API Instagram a besoin.
+   Ces fichiers sont versionnés : une fois sur `main`, ils sont servis en https par raw.githubusercontent.com (le dépôt est public), ce dont l'API Instagram a besoin. Si le dépôt devient privé, il faudra un autre hébergement (variable MEDIA_BASE_URL).
 3. **Validation humaine** : on passe le post en `"status": "approved"` (facultatif : `"not_before": "2026-12-01"`).
    Rien n'est publié sans ce statut.
 4. **Publication** : `.github/workflows/instagram.yml` tourne lundi, mercredi et vendredi vers 18 h (Paris),
