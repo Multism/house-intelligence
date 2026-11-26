@@ -1,4 +1,4 @@
-// Publication Instagram automatique (API de Meta, « Instagram API with Instagram Login » : graph.instagram.com).
+// Publication Instagram automatique (API Graph de Meta, Instagram API « connexion unifiée », jeton d'utilisateur système).
 // Lancé par .github/workflows/instagram.yml ; utilisable aussi à la main.
 //
 //   node tools/publish-instagram.mjs --check     → vérifie le jeton et le compte, ne publie rien
@@ -15,9 +15,10 @@
 //
 // Secrets (jamais dans le dépôt, uniquement en secrets GitHub ou variables d'environnement) :
 //   IG_USER_ID       identifiant du compte Instagram professionnel (nombre de ~17 chiffres)
-//   IG_ACCESS_TOKEN  jeton Instagram généré dans l'app Meta (valable 60 jours, renouvelable tant qu'il est valide)
+//   IG_ACCESS_TOKEN  jeton d'utilisateur système (SUAT) de l'app Meta « HOUSE INTEL PUBLISHER » : n'expire pas
 // Facultatif : SITE_URL (défaut https://house-intelligence.pages.dev), GRAPH_VERSION (défaut v23.0),
-// GRAPH_HOST (défaut graph.instagram.com ; graph.facebook.com pour un jeton de Page Facebook).
+// GRAPH_HOST (défaut graph.facebook.com ; graph.instagram.com pour un jeton « Instagram Login », qui dure 60 jours
+// et se prolonge avec --refresh).
 //
 // Limite de l'API : la musique Instagram ne peut pas être ajoutée à un post publié ainsi.
 
@@ -28,7 +29,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const QUEUE_FILE = join(ROOT, "social", "posts.json");
 const SITE = (process.env.SITE_URL || "https://house-intelligence.pages.dev").replace(/\/$/, "");
-const HOST = process.env.GRAPH_HOST || "graph.instagram.com";
+const HOST = process.env.GRAPH_HOST || "graph.facebook.com";
 const GRAPH = `https://${HOST}/${process.env.GRAPH_VERSION || "v23.0"}`;
 const IG = (process.env.IG_USER_ID || "").trim();
 const TOKEN = (process.env.IG_ACCESS_TOKEN || "").trim();

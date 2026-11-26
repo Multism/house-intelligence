@@ -18,8 +18,7 @@ Lancement à la main : GitHub → Actions → Instagram → Run workflow, avec `
 ## Secrets (GitHub → Settings → Secrets and variables → Actions)
 
 - `IG_USER_ID` : identifiant du compte Instagram professionnel.
-- `IG_ACCESS_TOKEN` : jeton Instagram généré dans l'app Meta « HOUSE INTEL PUBLISHER » (cas d'usage Instagram, connexion Instagram). Valable 60 jours.
-- `GH_SECRETS_TOKEN` (conseillé) : jeton GitHub fine-grained, droit *Secrets : read and write* sur ce dépôt. Il permet au workflow de renouveler `IG_ACCESS_TOKEN` à chaque passage ; sans lui, il faut le regénérer à la main avant 60 jours.
+- `IG_ACCESS_TOKEN` : jeton d'utilisateur système de l'app Meta « HOUSE INTEL PUBLISHER » (cas d'usage Instagram API, connexion unifiée). N'expire pas.
 
 Jamais dans le dépôt.
 
