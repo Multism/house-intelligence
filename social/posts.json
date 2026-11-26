@@ -1,16 +1,17 @@
 {
   "_meta": {
     "account": "house.intelligence.archive",
-    "format": "1080x1080 PNG, une image par post (carrousels plus tard)",
-    "status_values": "draft | approved | scheduled | published",
-    "note": "File d'attente des premiers posts. Les textes viennent de data/tracks.json du site."
+    "format": "Carrousels JPEG 1080x1350 (4:5), rendus dans social/media/<slug>/ par `node tools/instagram.mjs media <n>`",
+    "status_values": "draft (à relire) | approved (validé, publié automatiquement au prochain créneau) | published",
+    "note": "File d'attente des premiers posts. Les textes viennent de data/tracks.json du site.",
+    "publication": "GitHub Action .github/workflows/instagram.yml : un post approved par créneau, dans l'ordre de n ; champ facultatif not_before AAAA-MM-JJ"
   },
   "posts": [
     {
       "n": 1,
       "slug": "welcome",
       "kind": "feature",
-      "status": "draft",
+      "status": "published",
       "kicker": "Open archive",
       "color": "#d4ff3a",
       "title": "House Intelligence",
@@ -44,7 +45,9 @@
         "#clubculture",
         "#vinyl",
         "#electronicmusichistory"
-      ]
+      ],
+      "published_at": "2026-11-26",
+      "note": "publié à la main"
     },
     {
       "n": 2,

@@ -12,3 +12,5 @@
 social/*
 !social/posted.json
 !social/posts.json
+# Images approuvées, servies en https pour l'API Instagram
+!social/media/

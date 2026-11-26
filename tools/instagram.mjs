@@ -10,6 +10,8 @@
 //   node tools/instagram.mjs ligne L7               → une ligne de métro entière (style B)
 //   node tools/instagram.mjs --next 4               → les 4 prochains disques ni dans la file ni publiés
 //   node tools/instagram.mjs --posted on-and-on     → marque un disque comme publié (social/posted.json)
+//   node tools/instagram.mjs media 3                → rend le post n° 3 dans social/media/<slug>/ (versionné, servi en https
+//                                                     par Cloudflare Pages) : c'est ce que publie tools/publish-instagram.mjs
 //
 // social/posts.json est la file éditoriale (accroches, légendes et hashtags écrits à la main, statut).
 // Quand un disque y figure, son accroche, sa légende et ses hashtags remplacent le texte généré.
@@ -285,12 +287,12 @@ const fromQueue = (q) =>
   : null;
 
 // ---------- rendu ----------
-async function render(posts) {
+async function render(posts, outDir = "out") {
   const { chromium } = createRequire(import.meta.url)("playwright");
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 });
   for (const p of posts) {
-    const dir = join(ROOT, "social", "out", p.slug + (FR ? "-fr" : ""));
+    const dir = join(ROOT, "social", outDir, p.slug + (FR ? "-fr" : ""));
     rmSync(dir, { recursive: true, force: true });
     mkdirSync(dir, { recursive: true });
     for (let i = 0; i < p.slides.length; i++) {
@@ -309,7 +311,7 @@ async function render(posts) {
       await page.screenshot({ path: join(dir, String(i + 1).padStart(2, "0") + ".jpg"), type: "jpeg", quality: 90 });
     }
     writeFileSync(join(dir, "caption.txt"), p.caption + "\n");
-    console.log(`social/out/${p.slug}${FR ? "-fr" : ""}/ : ${p.slides.length} slides + caption.txt`);
+    console.log(`social/${outDir}/${p.slug}${FR ? "-fr" : ""}/ : ${p.slides.length} slides + caption.txt`);
   }
   await browser.close();
 }
@@ -328,6 +330,11 @@ if (cmd === "--posted") {
   const q = queue.find((p) => String(p.n) === arg || p.slug === arg);
   if (!q) throw new Error(`Post introuvable dans social/posts.json : ${arg}`);
   await render([fromQueue(q)]);
+} else if (cmd === "media") {
+  const q = queue.find((p) => String(p.n) === arg || p.slug === arg);
+  if (!q) throw new Error(`Post introuvable dans social/posts.json : ${arg}`);
+  if (FR) throw new Error("Le compte publie en anglais : pas de --fr pour media.");
+  await render([fromQueue(q)], "media");
 } else if (cmd === "--next") {
   const done = new Set([...posted.map((p) => p.id), ...queue.map((q) => q.track).filter(Boolean)]);
   const next = [...tracks].sort((a, b) => a.year - b.year).filter((t) => !done.has(t.id)).slice(0, Number(arg) || 1);
@@ -337,6 +344,6 @@ else if (cmd === "machine" && byMachine[arg]) await render([machinePost(byMachin
 else if (cmd === "station" && metro.stations[arg]) await render([stationPost(arg)]);
 else if (cmd === "ligne" && metro.lines.some((l) => l.id === arg)) await render([linePost(arg)]);
 else {
-  console.log("Usage : node tools/instagram.mjs post <n|slug> | --queue | disque <id> | machine <id> | station <id> | ligne <L1…L9> | --next <n> | --posted <id>  [--fr]");
+  console.log("Usage : node tools/instagram.mjs post <n|slug> | --queue | disque <id> | machine <id> | station <id> | ligne <L1…L9> | --next <n> | --posted <id> | media <n|slug>  [--fr]");
   process.exit(1);
 }
