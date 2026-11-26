@@ -1,0 +1,878 @@
+{
+  "_meta": {
+    "note": "Plan du métro généalogique. Coordonnées dans un viewBox 1200×700, tracés à 0°/45°/90°. Une station renvoie à des disques par genre (genres) et/ou par identifiant (tracks)."
+  },
+  "lines": [
+    {
+      "id": "L1",
+      "num": 1,
+      "name": "Chicago & Acid",
+      "color": "#ff5500",
+      "path": [
+        [
+          100,
+          140
+        ],
+        [
+          790,
+          140
+        ]
+      ],
+      "stations": [
+        "loft",
+        "warehouse",
+        "chicago",
+        "acid",
+        "hiphouse",
+        "footwork"
+      ],
+      "name_en": "Chicago & Acid"
+    },
+    {
+      "id": "L2",
+      "num": 2,
+      "name": "NYC, Garage & Tribal",
+      "color": "#e6007e",
+      "path": [
+        [
+          240,
+          320
+        ],
+        [
+          850,
+          320
+        ]
+      ],
+      "stations": [
+        "paradise",
+        "garage",
+        "zanzibar",
+        "ballroom",
+        "soundfactory",
+        "tribal"
+      ],
+      "name_en": "NYC, Garage & Tribal"
+    },
+    {
+      "id": "L3",
+      "num": 3,
+      "name": "Deep & gospel",
+      "color": "#00e5a8",
+      "path": [
+        [
+          380,
+          230
+        ],
+        [
+          470,
+          320
+        ]
+      ],
+      "stations": [
+        "deep",
+        "zanzibar"
+      ],
+      "name_en": "Deep & gospel"
+    },
+    {
+      "id": "L4",
+      "num": 4,
+      "name": "UK Sound System & Bass",
+      "color": "#ffd000",
+      "path": [
+        [
+          500,
+          230
+        ],
+        [
+          1010,
+          230
+        ],
+        [
+          1100,
+          320
+        ],
+        [
+          1100,
+          620
+        ]
+      ],
+      "stations": [
+        "soundsystem",
+        "shoom",
+        "bleep",
+        "hardcore",
+        "ukg",
+        "dubstep",
+        "charthouse"
+      ],
+      "name_en": "UK Sound System & Bass"
+    },
+    {
+      "id": "L5",
+      "num": 5,
+      "name": "Escales européennes",
+      "color": "#3b82f6",
+      "path": [
+        [
+          610,
+          60
+        ],
+        [
+          1000,
+          60
+        ],
+        [
+          1100,
+          160
+        ]
+      ],
+      "stations": [
+        "balearic",
+        "italo",
+        "french",
+        "techhouse"
+      ],
+      "name_en": "European Stopovers"
+    },
+    {
+      "id": "L6",
+      "num": 6,
+      "name": "Futurisme & Machines",
+      "color": "#a855f7",
+      "path": [
+        [
+          670,
+          440
+        ],
+        [
+          900,
+          440
+        ],
+        [
+          1010,
+          550
+        ]
+      ],
+      "stations": [
+        "electro",
+        "detroit",
+        "soundsig",
+        "lofi"
+      ],
+      "name_en": "Futurism & Machines"
+    },
+    {
+      "id": "L7",
+      "num": 7,
+      "name": "Ballroom & queer",
+      "name_en": "Ballroom & queer",
+      "color": "#f9a8d4",
+      "path": [
+        [
+          600,
+          320
+        ],
+        [
+          600,
+          720
+        ],
+        [
+          680,
+          800
+        ],
+        [
+          940,
+          800
+        ]
+      ],
+      "stations": [
+        "ballroom",
+        "qweenbeat",
+        "renaissance"
+      ],
+      "badge": [
+        976,
+        800
+      ]
+    },
+    {
+      "id": "L8",
+      "num": 8,
+      "name": "Afriques",
+      "name_en": "Africas",
+      "color": "#84cc16",
+      "path": [
+        [
+          560,
+          410
+        ],
+        [
+          560,
+          640
+        ]
+      ],
+      "stations": [
+        "afro",
+        "gqom",
+        "amapiano"
+      ],
+      "badge": [
+        560,
+        678
+      ]
+    },
+    {
+      "id": "L9",
+      "num": 9,
+      "name": "Techno & Europe",
+      "name_en": "Techno & Europe",
+      "color": "#94a3b8",
+      "path": [
+        [
+          780,
+          440
+        ],
+        [
+          840,
+          500
+        ],
+        [
+          840,
+          600
+        ],
+        [
+          930,
+          690
+        ]
+      ],
+      "stations": [
+        "detroit",
+        "trance",
+        "berlin"
+      ]
+    }
+  ],
+  "stations": {
+    "loft": {
+      "name": "Disco / The Loft",
+      "years": "1970–1979",
+      "x": 100,
+      "y": 140,
+      "label": "above",
+      "summary": "En 1970, David Mancuso ouvre le Loft à New York : des fêtes privées sur invitation où le son, la sélection et la nuit entière deviennent un art. Tom Moulton invente le remix dansant, le breakdown et le format 12\" (acétates dès 1974) ; Salsoul commercialise en 1976 le premier 12\" vendu au public, « Ten Percent ».",
+      "genres": [
+        "disco"
+      ],
+      "machines": [
+        "moog-modular"
+      ],
+      "links": [
+        "paradise"
+      ],
+      "summary_en": "In 1970 David Mancuso opened the Loft in New York: private, invitation-only parties where sound, selection and the whole night became an art. Tom Moulton invented the dance remix, the breakdown and the 12\" format (acetates from 1974); in 1976 Salsoul released the first 12\" sold to the public, \"Ten Percent\".",
+      "tracks": [
+        "ten-percent"
+      ]
+    },
+    "warehouse": {
+      "name": "The Warehouse",
+      "years": "1977–1982",
+      "x": 240,
+      "y": 140,
+      "label": "above",
+      "summary": "Le club de Chicago où Frankie Knuckles mixe de 1977 à novembre 1982 (départ pour le Power Plant) pour un public majoritairement noir et gay. L'origine du mot « house » circule en trois versions concurrentes : un panneau vu par Knuckles, les bacs « As heard at the Warehouse » du disquaire Importes Etc., ou un terme générique pour la disco.",
+      "tracks": [
+        "your-love",
+        "love-is-the-message"
+      ],
+      "machines": [
+        "tr-909"
+      ],
+      "summary_en": "The Chicago club where Frankie Knuckles played from 1977 to November 1982 (when he left for the Power Plant) to a mostly Black and gay crowd. The origin of the word \"house\" circulates in three competing versions: a sign Knuckles saw, the \"As heard at the Warehouse\" bins at the Importes Etc. record shop, or a generic term for disco."
+    },
+    "chicago": {
+      "name": "Chicago House",
+      "years": "1984–1989",
+      "x": 380,
+      "y": 140,
+      "label": "above",
+      "summary": "Ron Hardy à la Music Box, la radio WBMX, Trax et DJ International : la disco se reprogramme sur des boîtes à rythmes bon marché. Jack, piano house et deep house naissent en trois ans.",
+      "genres": [
+        "chicago"
+      ],
+      "machines": [
+        "tr-808",
+        "tr-707"
+      ],
+      "links": [
+        "detroit",
+        "french"
+      ],
+      "summary_en": "Ron Hardy at the Music Box, WBMX radio, Trax and DJ International: disco reprogrammed on cheap drum machines. Jack, piano house and deep house were all born within three years."
+    },
+    "acid": {
+      "name": "Acid House",
+      "years": "1985–1989",
+      "x": 520,
+      "y": 140,
+      "label": "above",
+      "summary": "Phuture tourne en direct les potentiomètres d'une TB-303 d'occasion, et Ron Hardy joue la cassette à la Music Box. La basse se met à « parler » : l'acid est née d'un détournement.",
+      "genres": [
+        "acid"
+      ],
+      "machines": [
+        "tb-303",
+        "tr-707"
+      ],
+      "summary_en": "Phuture twisted the knobs of a second-hand TB-303 live, and Ron Hardy played the tape at the Music Box. The bass started to \"talk\": acid was born from a hijack.",
+      "tracks": [
+        "higher-state-of-consciousness"
+      ]
+    },
+    "hiphouse": {
+      "name": "Hip-House",
+      "years": "1988–1990",
+      "x": 660,
+      "y": 140,
+      "label": "above",
+      "summary": "Chicago et New York tentent de marier le kick house et le flow rap. Le MC remplace la diva, et le genre sert de format crossover vers les clubs hétéros et les charts.",
+      "genres": [
+        "hip-house"
+      ],
+      "machines": [
+        "tr-808",
+        "sp-1200"
+      ],
+      "summary_en": "Chicago and New York tried to marry the house kick and the rap flow. The MC replaced the diva, and the genre served as a crossover format for straight clubs and the charts."
+    },
+    "paradise": {
+      "name": "Paradise Garage",
+      "years": "1977–1987",
+      "x": 240,
+      "y": 320,
+      "label": "below",
+      "summary": "Au 84 King Street, Larry Levan fait de la piste une église pour un public noir et latino majoritairement gay : soul, gospel, effets dub et un système son légendaire. Le mot « garage » vient de là.",
+      "tracks": [
+        "dont-make-me-wait",
+        "love-is-the-message",
+        "love-sensation",
+        "is-it-all-over-my-face"
+      ],
+      "machines": [
+        "tr-808"
+      ],
+      "links": [
+        "loft"
+      ],
+      "summary_en": "At 84 King Street, Larry Levan turned the dancefloor into a church for a mostly gay Black and Latino crowd: soul, gospel, dub effects and a legendary sound system. The word \"garage\" comes from here."
+    },
+    "garage": {
+      "name": "Garage House (NYC/NJ)",
+      "years": "1988–1999",
+      "x": 355,
+      "y": 320,
+      "label": "above",
+      "summary": "La house vocale de New York et du New Jersey : voix gospel, orgues, grooves souples. Masters At Work, Strictly Rhythm et Nervous Records en font un son mondial, que Londres accélérera en UK garage.",
+      "genres": [
+        "garage-nyc"
+      ],
+      "machines": [
+        "korg-m1",
+        "mpc60",
+        "sp-1200"
+      ],
+      "links": [
+        "ukg"
+      ],
+      "summary_en": "Vocal house from New York and New Jersey: gospel voices, organs, loose grooves. Masters At Work, Strictly Rhythm and Nervous Records made it a global sound, which London would speed up into UK garage."
+    },
+    "zanzibar": {
+      "name": "Club Zanzibar (NJ)",
+      "years": "1979–années 90",
+      "x": 470,
+      "y": 320,
+      "label": "below-left",
+      "interchange": true,
+      "summary": "À Newark (New Jersey), le Zanzibar ouvre en 1979 ; Tony Humphries y est résident de 1982 à 1994. Après la fermeture du Paradise Garage en 1987, le club devient un centre de la house de la région new-yorkaise. Le « Jersey sound » est gospel, porté notamment par Movin' Records (1987).",
+      "tracks": [
+        "reachin"
+      ],
+      "years_en": "1979–1990s",
+      "summary_en": "In Newark, New Jersey, Zanzibar opened in 1979; Tony Humphries was resident from 1982 to 1994. After the Paradise Garage closed in 1987, the club became a centre of house in the New York area. The \"Jersey sound\" is gospel, carried notably by Movin' Records (1987)."
+    },
+    "ballroom": {
+      "name": "Ballroom & Voguing",
+      "years": "1920s–",
+      "x": 600,
+      "y": 320,
+      "label": "below-left",
+      "summary": "La ballroom précède la house : ses origines remontent à la Harlem Renaissance. Le « Old Way » s'impose dans les années 1980 (House of LaBeija, House of Corey), le « New Way » au début des années 1990. Le lien avec la house arrive avec le Sound Factory (1989–1995) et « The Ha Dance » (1991) : chaque « Ha » appelle une pose.",
+      "tracks": [
+        "ha-dance",
+        "gypsy-woman",
+        "show-me-love",
+        "mighty-real",
+        "vogue"
+      ],
+      "sources": [
+        "paris-is-burning"
+      ],
+      "summary_en": "Ballroom predates house: its origins go back to the Harlem Renaissance. \"Old Way\" took hold in the 1980s (House of LaBeija, House of Corey), \"New Way\" in the early 1990s. The link with house came with the Sound Factory (1989–1995) and \"The Ha Dance\" (1991): every \"Ha\" calls for a pose.",
+      "years_en": "1920s–"
+    },
+    "soundfactory": {
+      "name": "Sound Factory",
+      "years": "1989–1995",
+      "x": 710,
+      "y": 320,
+      "label": "below",
+      "summary": "Le club du 530 West 27th Street (1989–1995) où Junior Vasquez mixe des nuits entières pour un public majoritairement gay et de couleur, et fait entrer les houses de la ballroom dans le club. Le lieu devient ensuite le Twilo (1995–2001).",
+      "tracks": [
+        "beautiful-people",
+        "show-me-love"
+      ],
+      "sources": [
+        "beat-scene-sound"
+      ],
+      "summary_en": "The club at 530 West 27th Street (1989–1995) where Junior Vasquez played all night for a mostly gay crowd of colour and brought the ballroom houses into the club. The space later became Twilo (1995–2001)."
+    },
+    "tribal": {
+      "name": "Tribal House NYC",
+      "years": "1995–2002",
+      "x": 850,
+      "y": 320,
+      "label": "below",
+      "summary": "Toms en cascade, percussions roulantes et remixes de divas pour les grands clubs gays de Manhattan (Twilo, Roxy) et les circuit parties. Danny Tenaglia et Victor Calderone en sont les architectes.",
+      "genres": [
+        "tribal-nyc"
+      ],
+      "machines": [
+        "tr-909"
+      ],
+      "summary_en": "Cascading toms, rolling percussion and diva remixes for Manhattan's big gay clubs (Twilo, Roxy) and the circuit parties. Danny Tenaglia and Victor Calderone were its architects."
+    },
+    "deep": {
+      "name": "Deep House (Mr. Fingers)",
+      "years": "1986–",
+      "x": 380,
+      "y": 230,
+      "label": "left",
+      "summary": "Larry Heard, ancien batteur de jazz-fusion, apporte à la house des accords de septième, des nappes chaudes et un tempo retenu. La deep house nourrit le garage gospel du New Jersey ; son influence sur la house sud-africaine est une influence importée parmi d'autres, pas une filiation directe.",
+      "genres": [
+        "deep"
+      ],
+      "machines": [
+        "tr-909"
+      ],
+      "summary_en": "Larry Heard, a former jazz-fusion drummer, brought seventh chords, warm pads and a held-back tempo to house. Deep house fed New Jersey's gospel garage; its influence on South African house is one imported influence among others, not a direct lineage."
+    },
+    "afro": {
+      "name": "Afro House (Afrique du Sud)",
+      "years": "fin 1980s–",
+      "x": 560,
+      "y": 410,
+      "label": "left",
+      "summary": "La house sud-africaine naît à Hillbrow et à Pretoria à la fin des années 1980 et coexiste avec le kwaito dans les années 1990. Black Coffee fonde Soulistic Music en 2005 : l'afro house devient une industrie. La house spirituelle américaine d'Osunlade (Yoruba Records) relève d'une autre histoire.",
+      "genres": [
+        "afro"
+      ],
+      "summary_en": "South African house was born in Hillbrow and Pretoria in the late 1980s and coexisted with kwaito in the 1990s. Black Coffee founded Soulistic Music in 2005: afro house became an industry. Osunlade's American spiritual house (Yoruba Records) belongs to another story.",
+      "name_en": "Afro House (South Africa)",
+      "years_en": "late 1980s–"
+    },
+    "amapiano": {
+      "name": "Amapiano (Log Drum)",
+      "years": "2016–",
+      "x": 560,
+      "y": 640,
+      "label": "left",
+      "summary": "Né au milieu des années 2010 dans le Gauteng, l'amapiano mêle kwaito, percussions bacardi, jazz, synthés de deep house et log drum, une basse percussive le plus souvent produite sur FL Studio, logiciel partagé dans les townships. Il se répand dans le monde à partir de 2020.",
+      "genres": [
+        "amapiano"
+      ],
+      "machines": [
+        "log-drum"
+      ],
+      "summary_en": "Born in the mid-2010s in Gauteng, amapiano blends kwaito, bacardi percussion, jazz, deep house synths and the log drum, a percussive bass most often produced on FL Studio, software shared across the townships. It spread worldwide from 2020."
+    },
+    "soundsystem": {
+      "name": "Sound Systems Dub & Jazz-Funk",
+      "years": "1975–1988",
+      "x": 500,
+      "y": 230,
+      "label": "below-right",
+      "summary": "Avant l'acid house, la Grande-Bretagne danse sur les sound systems jamaïcains (le dub et la culture de la basse) et dans les all-dayers jazz-funk. Soul II Soul naît d'un sound system. La house britannique héritera de ce culte du sub-bass.",
+      "tracks": [
+        "keep-on-movin"
+      ],
+      "sources": [
+        "join-the-future",
+        "carl-cox-oh-yes"
+      ],
+      "summary_en": "Before acid house, Britain danced to Jamaican sound systems (dub and bass culture) and at jazz-funk all-dayers. Soul II Soul grew out of a sound system. British house would inherit this cult of sub-bass."
+    },
+    "shoom": {
+      "name": "Shoom & Haçienda",
+      "years": "1987–1989",
+      "x": 610,
+      "y": 230,
+      "label": "above-right",
+      "interchange": true,
+      "summary": "À Manchester, la soirée Nude de Mike Pickering joue de la house dès 1986 ; la nuit acid Hot (Pickering et Jon Dasilva) suit en 1988 (juillet ou novembre selon les sources). À Londres, Danny Rampling ouvre Shoom à l'automne 1987 au retour d'Ibiza, pour quelque 300 personnes. L'acid de Chicago devient le Second Summer of Love.",
+      "tracks": [
+        "promised-land",
+        "voodoo-ray",
+        "pacific-state",
+        "stakker-humanoid",
+        "acid-tracks",
+        "blue-monday"
+      ],
+      "sources": [
+        "adventures-wonderland",
+        "hacienda-hook"
+      ],
+      "summary_en": "In Manchester, Mike Pickering's Nude night played house from 1986; the acid night Hot (Pickering and Jon Dasilva) followed in 1988 (July or November depending on sources). In London, Danny Rampling opened Shoom in autumn 1987 after returning from Ibiza, for some 300 people. Chicago acid became the Second Summer of Love."
+    },
+    "bleep": {
+      "name": "UK Bleep",
+      "years": "1989–1991",
+      "x": 780,
+      "y": 230,
+      "label": "above-right",
+      "interchange": true,
+      "summary": "À Sheffield, Leeds et Bradford, des producteurs nourris de techno de Detroit et de sound systems inventent le bleep : des tonalités pures et un sub-bass énorme. Warp naît à Sheffield en 1989. C'est la première musique bass britannique.",
+      "tracks": [
+        "lfo"
+      ],
+      "sources": [
+        "join-the-future"
+      ],
+      "summary_en": "In Sheffield, Leeds and Bradford, producers raised on Detroit techno and sound systems invented bleep: pure tones and enormous sub-bass. Warp was born in Sheffield in 1989. Britain's first bass music."
+    },
+    "hardcore": {
+      "name": "Hardcore & Jungle",
+      "years": "1991–1996",
+      "x": 900,
+      "y": 230,
+      "label": "below",
+      "summary": "La rave accélère : breakbeats samplés, stabs de synthé, basses reggae. Le hardcore se scinde vers 1994 en jungle et drum & bass, au cœur de ce que Simon Reynolds appelle le « hardcore continuum ».",
+      "genres": [
+        "rave-jungle"
+      ],
+      "sources": [
+        "state-of-bass",
+        "energy-flash"
+      ],
+      "summary_en": "Rave speeds up: sampled breakbeats, synth stabs, reggae basslines. Around 1994 hardcore splits into jungle and drum & bass, at the heart of what Simon Reynolds calls the \"hardcore continuum\"."
+    },
+    "ukg": {
+      "name": "UK Garage (2-Step)",
+      "years": "1997–2002",
+      "x": 1010,
+      "y": 230,
+      "label": "above",
+      "summary": "Le garage new-yorkais accéléré et syncopé : le kick saute des temps, les voix R&B dansent. Sunday sessions, radios pirates et MCs en font une culture noire britannique.",
+      "genres": [
+        "ukg"
+      ],
+      "links": [
+        "garage"
+      ],
+      "summary_en": "New York garage sped up and syncopated: the kick skips beats, R&B vocals dance. Sunday sessions, pirate radio and MCs made it a Black British culture."
+    },
+    "dubstep": {
+      "name": "Dark Garage / Dubstep",
+      "years": "2000–",
+      "x": 1100,
+      "y": 430,
+      "label": "right",
+      "summary": "Né vers 2000 de la dark garage (Zed Bias, El-B, Horsepower Productions) à Croydon et dans le sud de Londres. Les soirées FWD>> et DMZ en sont les lieux clés ; « Midnight Request Line » (Skream, 2005) ouvre la scène au monde, avant le virage « brostep » vers 2011.",
+      "tracks": [
+        "midnight-request-line"
+      ],
+      "sources": [
+        "energy-flash"
+      ],
+      "summary_en": "Born around 2000 out of dark garage (Zed Bias, El-B, Horsepower Productions) in Croydon and south London. The FWD>> and DMZ nights were the key venues; \"Midnight Request Line\" (Skream, 2005) opened the scene to the world, before the \"brostep\" turn around 2011.",
+      "years_en": "2000–"
+    },
+    "balearic": {
+      "name": "Balearic House (Ibiza)",
+      "years": "1984–1990",
+      "x": 610,
+      "y": 60,
+      "label": "left",
+      "interchange": true,
+      "summary": "Alfredo est DJ à l'Amnesia dès 1984 et y mélange pop, rock indé et house en plein air : le balearic existe avant les Anglais. En septembre 1987, Oakenfold, Rampling, Holloway et Walker y vivent une révélation qu'ils exportent à Londres : c'est la correspondance avec Shoom.",
+      "genres": [
+        "balearic"
+      ],
+      "summary_en": "Alfredo was DJing at Amnesia from 1984, mixing pop, indie rock and house under the open sky: balearic existed before the British arrived. In September 1987 Oakenfold, Rampling, Holloway and Walker had a revelation there and exported it to London: hence the transfer to Shoom.",
+      "years_en": "1984–1990"
+    },
+    "italo": {
+      "name": "Italo-House",
+      "years": "1988–1995",
+      "x": 740,
+      "y": 60,
+      "label": "above",
+      "summary": "Les studios italiens recyclent house de Chicago, piano et mélodie méditerranéenne : Sueño Latino, Black Box, puis la « dream house » de Robert Miles. Un son de juke-box européen, souvent fait de samples.",
+      "tracks": [
+        "sueno-latino",
+        "children"
+      ],
+      "summary_en": "Italian studios recycled Chicago house, piano and Mediterranean melody: Sueño Latino, Black Box, then Robert Miles's \"dream house\". A European jukebox sound, often built from samples."
+    },
+    "trance": {
+      "name": "Trance",
+      "years": "1988–",
+      "x": 840,
+      "y": 600,
+      "label": "left",
+      "summary": "La trance sort de la techno de Francfort : Mixmag décrit l'Omen (1988) comme le lieu où la techno a muté en trance. Arpèges, montées et breaks euphoriques s'étendent ensuite aux clubs britanniques et ibizencs, jusqu'aux grands rassemblements néerlandais (borne 2005 du livre Hypnotised).",
+      "genres": [
+        "trance"
+      ],
+      "sources": [
+        "hypnotised"
+      ],
+      "summary_en": "Trance came out of Frankfurt techno: Mixmag describes the Omen (1988) as the place where techno mutated into trance. Arpeggios, builds and euphoric breakdowns then spread to British and Ibizan clubs, up to the big Dutch gatherings (the 2005 cut-off is that of the book Hypnotised).",
+      "years_en": "1988–"
+    },
+    "french": {
+      "name": "French Touch",
+      "years": "1994–2002",
+      "x": 1000,
+      "y": 60,
+      "label": "above",
+      "summary": "Paris filtre la disco et la répète jusqu'à l'extase (Daft Punk, Cassius, Stardust). L'étiquette « French Touch » est forgée par la presse britannique vers 1996 ; Laurent Garnier et St Germain en sont des précurseurs ou des voisins, plus techno ou plus jazz. La bulle éclate au début des années 2000, avant une seconde vague électro (Ed Banger, Justice) en 2007.",
+      "genres": [
+        "french-touch"
+      ],
+      "links": [
+        "chicago"
+      ],
+      "summary_en": "Paris filtered disco and looped it to ecstasy (Daft Punk, Cassius, Stardust). The \"French Touch\" label was coined by the British press around 1996; Laurent Garnier and St Germain are precursors or neighbours, more techno or more jazz. The bubble burst in the early 2000s, before a second, electro wave (Ed Banger, Justice) in 2007."
+    },
+    "techhouse": {
+      "name": "Tech House (Wiggle Londres)",
+      "years": "1994–",
+      "x": 1100,
+      "y": 160,
+      "label": "right",
+      "summary": "Les soirées Wiggle démarrent en mars 1994 (Terry Francis, Nathan Coles, Eddie Richards) ; Heart & Soul et The End sont les autres berceaux londoniens. La rigueur de la techno y rencontre la chaleur de la house, avant que la tech house ne devienne le son des méga-clubs d'Ibiza puis des festivals.",
+      "genres": [
+        "tech-house"
+      ],
+      "name_en": "Tech House (Wiggle London)",
+      "summary_en": "The Wiggle parties started in March 1994 (Terry Francis, Nathan Coles, Eddie Richards); Heart & Soul and The End were London's other cradles. Techno's rigour met house's warmth there, before tech house became the sound of Ibiza's megaclubs and then of festivals.",
+      "years_en": "1994–"
+    },
+    "detroit": {
+      "name": "Detroit Techno-Soul",
+      "years": "1983–",
+      "x": 780,
+      "y": 440,
+      "label": "below-left",
+      "interchange": true,
+      "summary": "Juan Atkins, Derrick May et Kevin Saunderson imaginent une musique pour une ville que l'industrie abandonne : de la soul jouée par des machines. Underground Resistance en fera une éthique d'indépendance.",
+      "genres": [
+        "detroit"
+      ],
+      "machines": [
+        "tr-909",
+        "tr-808"
+      ],
+      "links": [
+        "chicago"
+      ],
+      "summary_en": "Juan Atkins, Derrick May and Kevin Saunderson imagined music for a city abandoned by industry: soul played by machines. Underground Resistance turned it into an ethic of independence."
+    },
+    "soundsig": {
+      "name": "Sound Signature (Detroit Deep)",
+      "years": "1997–",
+      "x": 900,
+      "y": 440,
+      "label": "below",
+      "summary": "Le label de Theo Parrish, fondé en 1997. Né à Washington D.C. en 1972, élevé à Chicago, formé à Kansas City, installé dans le Michigan en 1994 : des samples soul et jazz bruts, filtrés, saturés, et des tempos qui flottent. Son influence sur l'outsider house est une lecture éditoriale, à sourcer.",
+      "tracks": [
+        "summertime-is-here"
+      ],
+      "summary_en": "Theo Parrish's label, founded in 1997. Born in Washington D.C. in 1972, raised in Chicago, trained in Kansas City, based in Michigan from 1994: raw, filtered, saturated soul and jazz samples and floating tempos. Its influence on outsider house is an editorial reading, to be sourced."
+    },
+    "lofi": {
+      "name": "Outsider / Lo-Fi House",
+      "years": "2015–",
+      "x": 1010,
+      "y": 550,
+      "label": "below",
+      "summary": "Vers 2015-2016, YouTube et SoundCloud diffusent une house saturée et voilée (DJ Seinfeld, Ross From Friends, DJ Boring) : une scène internationale plus que londonienne, de l'Australie à la Suède. Le rapprochement avec le grain de Sound Signature est une lecture éditoriale, pas une filiation établie.",
+      "genres": [
+        "lofi"
+      ],
+      "sources": [
+        "how-music-works"
+      ],
+      "summary_en": "Around 2015–2016, YouTube and SoundCloud spread a saturated, hazy house (DJ Seinfeld, Ross From Friends, DJ Boring): an international scene more than a London one, from Australia to Sweden. The comparison with Sound Signature's grit is an editorial reading, not an established lineage."
+    },
+    "electro": {
+      "name": "Électro",
+      "name_en": "Electro",
+      "years": "1979–1984",
+      "x": 670,
+      "y": 440,
+      "label": "above",
+      "summary": "Tokyo, le Bronx, Manchester. Avant Detroit, trois villes programment la machine : Tokyo avec YMO, le Bronx avec Planet Rock, Manchester avec Blue Monday. Kraftwerk en est le point commun. C'est l'origine de la ligne Futurisme & Machines.",
+      "summary_en": "Tokyo, the Bronx, Manchester. Before Detroit, three cities programmed the machine: Tokyo with YMO, the Bronx with Planet Rock, Manchester with Blue Monday. Kraftwerk is the common thread. This is where the Futurism & Machines line begins.",
+      "genres": [
+        "electro"
+      ],
+      "machines": [
+        "tr-808"
+      ],
+      "links": [
+        "shoom",
+        "detroit"
+      ]
+    },
+    "footwork": {
+      "name": "Footwork & ghetto house",
+      "name_en": "Footwork & ghetto house",
+      "years": "1990s–",
+      "years_en": "1990s–",
+      "x": 790,
+      "y": 140,
+      "label": "above",
+      "summary": "La ghetto house de Chicago (Dance Mania, DJ Funk) accélère jusqu'au footwork, autour de 160 BPM, né des battles de danse. DJ Rashad et le collectif Teklife l'exportent au début des années 2010.",
+      "summary_en": "Chicago ghetto house (Dance Mania, DJ Funk) sped up into footwork, around 160 BPM, born from dance battles. DJ Rashad and the Teklife crew took it worldwide in the early 2010s.",
+      "genres": [
+        "footwork"
+      ]
+    },
+    "gqom": {
+      "name": "Gqom (Durban)",
+      "name_en": "Gqom (Durban)",
+      "years": "2010s–",
+      "years_en": "2010s–",
+      "x": 560,
+      "y": 520,
+      "label": "left",
+      "summary": "À Durban, une house brute aux kicks lourds et brisés circule par les taxis et WhatsApp, puis s'exporte via des labels européens (Gqom Oh!, Goon Club Allstars) au milieu des années 2010.",
+      "summary_en": "In Durban, a raw house of heavy, broken kicks circulated through taxis and WhatsApp, then spread via European labels (Gqom Oh!, Goon Club Allstars) in the mid-2010s.",
+      "genres": [
+        "gqom"
+      ]
+    },
+    "qweenbeat": {
+      "name": "Qween Beat",
+      "name_en": "Qween Beat",
+      "years": "2005–",
+      "years_en": "2005–",
+      "x": 720,
+      "y": 800,
+      "label": "below",
+      "summary": "MikeQ et le collectif Qween Beat fabriquent la musique des balls contemporains à partir du « ha » et du crash de « The Ha Dance ». Leur travail est samplé par Beyoncé en 2022.",
+      "summary_en": "MikeQ and the Qween Beat collective make the music of contemporary balls out of the \"ha\" and the crash of \"The Ha Dance\". Their work was sampled by Beyoncé in 2022.",
+      "genres": [
+        "ballroom"
+      ]
+    },
+    "renaissance": {
+      "name": "Renaissance",
+      "name_en": "Renaissance",
+      "years": "2022–",
+      "years_en": "2022–",
+      "x": 940,
+      "y": 800,
+      "label": "below",
+      "summary": "En 2022, Beyoncé (Renaissance) et Honey Dijon (Black Girl Magic) ramènent la house noire et queer au cœur de la pop, en citant explicitement ses pionniers et la ballroom.",
+      "summary_en": "In 2022 Beyoncé (Renaissance) and Honey Dijon (Black Girl Magic) brought Black and queer house back to the heart of pop, explicitly citing its pioneers and ballroom.",
+      "tracks": [
+        "not-about-you",
+        "break-my-soul"
+      ]
+    },
+    "berlin": {
+      "name": "Berlin, Berghain & minimale",
+      "name_en": "Berlin, Berghain & minimal",
+      "years": "2004–",
+      "years_en": "2004–",
+      "x": 930,
+      "y": 690,
+      "label": "right",
+      "summary": "Berghain ouvre en 2004 dans une ancienne centrale ; Ostgut Ton, lancé fin 2005, publie en 2006 son premier maxi. Avec la minimale et la microhouse, Berlin devient le pont entre Detroit et l'Europe.",
+      "summary_en": "Berghain opened in 2004 in a former power station; Ostgut Ton, launched in late 2005, released its first 12\" in 2006. With minimal and microhouse, Berlin became the bridge between Detroit and Europe.",
+      "genres": [
+        "techno"
+      ],
+      "sources": [
+        "rave-on"
+      ]
+    },
+    "charthouse": {
+      "name": "House dans les charts",
+      "name_en": "Chart house",
+      "years": "2013–",
+      "years_en": "2013–",
+      "x": 1100,
+      "y": 620,
+      "label": "right",
+      "summary": "En 2013, Duke Dumont puis Disclosure placent la house en tête des classements britanniques : le genre sort des sous-sols vers les radios et Ibiza.",
+      "summary_en": "In 2013 Duke Dumont, then Disclosure, took house to the top of the UK charts: the genre left the basements for radio and Ibiza.",
+      "genres": [
+        "chart-house"
+      ]
+    }
+  },
+  "transfers": [
+    {
+      "a": "warehouse",
+      "b": "paradise",
+      "title": "Le Warehouse ↔ Paradise Garage",
+      "text": "Frankie Knuckles et Larry Levan sont deux amis new-yorkais, formés ensemble dans la scène disco (notamment aux Continental Baths). En 1977, Knuckles part pour Chicago et le Warehouse, tandis que Levan prend le Paradise Garage. Les deux clubs viennent d'une même école : la house et le garage sont des cousins germains.",
+      "title_en": "The Warehouse ↔ Paradise Garage",
+      "text_en": "Frankie Knuckles and Larry Levan were two New York friends who came up together in the disco scene (notably at the Continental Baths). In 1977 Knuckles left for Chicago and the Warehouse, while Levan took over the Paradise Garage. Both clubs come from the same school: house and garage are first cousins."
+    },
+    {
+      "a": "chicago",
+      "b": "deep",
+      "title": "Chicago House ↔ Deep House",
+      "text": "La deep house ne vient pas d'ailleurs : elle naît à Chicago en 1986, quand Larry Heard (Mr. Fingers) sort « Can You Feel It » sur Trax, au milieu du jack. On change de ligne sans changer de ville.",
+      "title_en": "Chicago House ↔ Deep House",
+      "text_en": "Deep house didn't come from elsewhere: it was born in Chicago in 1986, when Larry Heard (Mr. Fingers) released \"Can You Feel It\" on Trax, right in the middle of jack. You change lines without changing cities."
+    },
+    {
+      "a": "acid",
+      "b": "shoom",
+      "title": "Acid House ↔ Shoom & Haçienda",
+      "text": "La TB-303 traverse l'Atlantique en 1987-1988 sous forme de maxis importés et de cassettes. À Londres (Shoom) et à Manchester (Haçienda), « Acid Tracks » devient la bande-son d'une jeunesse britannique, puis A Guy Called Gerald et 808 State en tirent un acid mancunien. Ce transfert a aussi déraciné le son de son public noir et gay d'origine.",
+      "title_en": "Acid House ↔ Shoom & Haçienda",
+      "text_en": "The TB-303 crossed the Atlantic in 1987–1988 as imported 12\"s and tapes. In London (Shoom) and Manchester (Haçienda), \"Acid Tracks\" became the soundtrack of British youth, and A Guy Called Gerald and 808 State drew a Mancunian acid from it. The transfer also uprooted the sound from its original Black and gay crowd."
+    },
+    {
+      "a": "balearic",
+      "b": "shoom",
+      "title": "Ibiza ↔ Shoom",
+      "text": "En 1987, Paul Oakenfold, Danny Rampling et leurs amis découvrent à Ibiza l'éclectisme d'Alfredo à l'Amnesia. De retour à Londres, ils recréent l'esprit balearic dans de petites soirées (Shoom, Spectrum) qui allument le Second Summer of Love.",
+      "title_en": "Ibiza ↔ Shoom",
+      "text_en": "In 1987 Paul Oakenfold, Danny Rampling and friends discovered Alfredo's eclecticism at Amnesia in Ibiza. Back in London they recreated the balearic spirit at small parties (Shoom, Spectrum) that lit the fuse of the Second Summer of Love."
+    },
+    {
+      "a": "bleep",
+      "b": "detroit",
+      "title": "UK Bleep ↔ Detroit",
+      "text": "À Sheffield et Leeds, les maxis de Detroit importés rencontrent la culture des sound systems caribéens. Les producteurs britanniques gardent le futurisme des machines et y ajoutent un sub-bass monumental. Matt Anniss raconte ce pont dans « Join the Future ».",
+      "title_en": "UK Bleep ↔ Detroit",
+      "text_en": "In Sheffield and Leeds, imported Detroit 12\"s met Caribbean sound-system culture. British producers kept the machine futurism and added monumental sub-bass. Matt Anniss tells this story in Join the Future."
+    },
+    {
+      "a": "zanzibar",
+      "b": "afro",
+      "title": "Deep & gospel ↔ house sud-africaine (influence importée)",
+      "title_en": "Deep & gospel ↔ South African house (imported influence)",
+      "text": "Une influence, pas une filiation : la deep house new-yorkaise et du New Jersey arrive en Afrique du Sud par les disques et la radio, et s'y mêle au kwaito. Resident Advisor décrit l'amapiano comme un composite de deep house de style new-yorkais, de R&B et de kwaito.",
+      "text_en": "An influence, not a lineage: New York and New Jersey deep house reached South Africa through records and radio, and mixed there with kwaito. Resident Advisor describes amapiano as a composite of New York-style deep house, R&B and kwaito."
+    }
+  ]
+}

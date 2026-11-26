@@ -23,13 +23,31 @@
       "desc_en": "House crosses the Atlantic and splinters: New York tribal, Parisian filters, London 2-step, warehouse tech house."
     },
     {
-      "id": "era-3",
-      "name": "III · Héritages Globaux",
-      "range": "2005–aujourd'hui",
-      "desc": "Johannesburg, Pretoria, YouTube : la house devient une grammaire mondiale, réécrite par les townships et les algorithmes.",
-      "name_en": "III · Global Legacies",
-      "range_en": "2005–today",
-      "desc_en": "Johannesburg, Pretoria, YouTube: house becomes a global grammar, rewritten by the townships and the algorithms."
+      "id": "era-3a",
+      "name": "III-a · Berlin, bass & blogs",
+      "name_en": "III-a · Berlin, bass & blogs",
+      "range": "2005–2012",
+      "range_en": "2005–2012",
+      "desc": "Berghain et la minimale, le dubstep de Croydon, la seconde vague French Touch, la house sud-africaine qui s'organise en labels : la house se fragmente entre clubs, blogs et forums.",
+      "desc_en": "Berghain and minimal, Croydon's dubstep, the French Touch's second wave, South African house organising into labels: house splinters between clubs, blogs and forums."
+    },
+    {
+      "id": "era-3b",
+      "name": "III-b · Crossover & revivals",
+      "name_en": "III-b · Crossover & revivals",
+      "range": "2013–2019",
+      "range_en": "2013–2019",
+      "desc": "La house revient en tête des charts, le footwork de Chicago s'exporte, le gqom de Durban arrive en Europe, la lo-fi naît sur YouTube et la ballroom devient une référence mondiale.",
+      "desc_en": "House returns to the top of the charts, Chicago footwork goes global, Durban's gqom reaches Europe, lo-fi is born on YouTube and ballroom becomes a worldwide reference."
+    },
+    {
+      "id": "era-3c",
+      "name": "III-c · Sud global & réappropriation",
+      "name_en": "III-c · Global South & reclamation",
+      "range": "2020–",
+      "range_en": "2020–",
+      "desc": "Pandémie, amapiano mondial, retour du dubstep, house noire et queer au cœur de la pop : la house se raconte depuis ses communautés d'origine et depuis le Sud global.",
+      "desc_en": "Pandemic, global amapiano, dubstep's return, Black and queer house at the heart of pop: house is told from its original communities and from the Global South."
     }
   ],
   "genres": [
@@ -146,7 +164,7 @@
     {
       "id": "afro",
       "name": "Afro House",
-      "era": "era-3",
+      "era": "era-3a",
       "color": "#ff9f1c",
       "groove": "afro",
       "swing": 0.1,
@@ -156,7 +174,7 @@
     {
       "id": "lofi",
       "name": "Lo-Fi House",
-      "era": "era-3",
+      "era": "era-3b",
       "color": "#c9a0ff",
       "groove": "lofi",
       "swing": 0.14,
@@ -166,7 +184,7 @@
     {
       "id": "amapiano",
       "name": "Amapiano",
-      "era": "era-3",
+      "era": "era-3c",
       "color": "#ffe14d",
       "groove": "amapiano",
       "swing": 0.18,
@@ -218,6 +236,78 @@
       "family": "cousin",
       "style": "Arpèges en spirale, montées et breaks euphoriques : la ramification européenne de la house.",
       "style_en": "Spiralling arpeggios, builds and euphoric breakdowns: house's European offshoot."
+    },
+    {
+      "id": "uk-bass",
+      "name": "Bleep, sound system & dubstep",
+      "name_en": "Bleep, sound system & dubstep",
+      "era": "era-1",
+      "color": "#facc15",
+      "groove": "breakbeat",
+      "swing": 0.08,
+      "family": "cousin",
+      "style": "Sound systems jamaïcains, sub-bass, tonalités pures puis wobble : la lignée bass britannique, de Soul II Soul à Skream.",
+      "style_en": "Jamaican sound systems, sub-bass, pure tones then wobble: the British bass lineage, from Soul II Soul to Skream."
+    },
+    {
+      "id": "techno",
+      "name": "Techno européenne (Francfort → Berlin)",
+      "name_en": "European techno (Frankfurt → Berlin)",
+      "era": "era-3a",
+      "color": "#94a3b8",
+      "groove": "four",
+      "swing": 0.0,
+      "family": "cousin",
+      "style": "Kick sec, basses sourdes et nuits sans fin : la techno de Detroit réécrite à Francfort puis à Berlin.",
+      "style_en": "Dry kick, muffled basslines and endless nights: Detroit techno rewritten in Frankfurt, then Berlin."
+    },
+    {
+      "id": "footwork",
+      "name": "Footwork & ghetto house",
+      "name_en": "Footwork & ghetto house",
+      "era": "era-3b",
+      "color": "#fb923c",
+      "groove": "breakbeat",
+      "swing": 0.04,
+      "family": "cousin",
+      "style": "La ghetto house de Chicago accélérée autour de 160 BPM : samples hachés, kicks en triolets, danse en battles.",
+      "style_en": "Chicago ghetto house sped up to around 160 BPM: chopped samples, triplet kicks, dance battles."
+    },
+    {
+      "id": "gqom",
+      "name": "Gqom (Durban)",
+      "name_en": "Gqom (Durban)",
+      "era": "era-3b",
+      "color": "#84cc16",
+      "groove": "afro",
+      "swing": 0.06,
+      "family": "cousin",
+      "style": "Kicks lourds et brisés, percussions sèches, sans ligne de basse classique : la house brute des townships de Durban.",
+      "style_en": "Heavy, broken kicks, dry percussion, no conventional bassline: the raw house of Durban's townships."
+    },
+    {
+      "id": "ballroom",
+      "name": "Ballroom & Qween Beat",
+      "name_en": "Ballroom & Qween Beat",
+      "era": "era-3a",
+      "color": "#f9a8d4",
+      "groove": "tribal",
+      "swing": 0.04,
+      "family": "cousin",
+      "style": "Le « ha », le crash et les chants des commentateurs : la musique faite pour les catégories et le vogue.",
+      "style_en": "The \"ha\", the crash and the commentators' chants: music made for the categories and for vogue."
+    },
+    {
+      "id": "chart-house",
+      "name": "House dans les charts (2013–)",
+      "name_en": "Chart house (2013–)",
+      "era": "era-3b",
+      "color": "#38bdf8",
+      "groove": "four",
+      "swing": 0.03,
+      "family": "cousin",
+      "style": "Basses rondes, voix pop et radio : la deep house et le garage reviennent en tête des classements.",
+      "style_en": "Round basslines, pop vocals and radio: deep house and garage return to the top of the charts."
     }
   ],
   "tracks": [
@@ -241,7 +331,7 @@
       "construction": "Une TR-808 programmée en boucle, une basse synthétique qui rebondit et une voix réduite à un mantra. Saunders recrée de mémoire un edit bootleg qu'il jouait en club et qu'on lui avait volé : la house commence comme une copie domestique d'un disque disparu.",
       "producer_origins": "DJ du club The Playground, Saunders travaille avec Vince Lawrence et fait presser le disque à l'usine Musical Products de Larry Sherman, future maison de Trax Records. Le modèle est posé : un DJ, une machine d'occasion, un pressage indépendant et une sortie directe vers les bacs locaux.",
       "club_sociology": "Chicago sort du « Disco Demolition Night » de 1979, quand la radio rock a déclaré la disco morte. Elle survit pourtant dans les clubs du South Side et sur WBMX, où les Hot Mix 5 diffusent des mixes que les ados enregistrent sur cassette. Le 12\" auto-produit répond à une pénurie : il n'y a plus assez de disco neuve pour nourrir les pistes.",
-      "queer_ballroom_axis": "Le mot « house » vient du Warehouse, club fréquenté majoritairement par des hommes gays noirs où Frankie Knuckles mixe de 1977 à 1982. Saunders appartient à une scène plus mixte et plus jeune, ce qui montre que le son a quitté très tôt son berceau queer pour circuler dans toute la ville.",
+      "queer_ballroom_axis": "Selon la version la plus répandue, le mot « house » viendrait du Warehouse, club fréquenté majoritairement par des hommes gays noirs où Frankie Knuckles mixe de 1977 à 1982 (l'étymologie reste disputée). Saunders appartient à une scène plus mixte et plus jeune : le son a quitté très tôt son berceau queer pour circuler dans toute la ville.",
       "archive_ref": {
         "source": "history-of-house",
         "note": "Débats sur le « premier disque house » et rôle des pressages indépendants de Chicago.",
@@ -266,7 +356,7 @@
       "construction_en": "A looped TR-808, a bouncing synth bass and a vocal pared down to a mantra. Saunders rebuilt from memory a bootleg edit he used to play out and that had been stolen from him: house begins as a home-made copy of a vanished record.",
       "producer_origins_en": "A DJ at The Playground, Saunders worked with Vince Lawrence and had the record pressed at Larry Sherman's Musical Products plant, the future home of Trax Records. The template was set: a DJ, a second-hand machine, an independent pressing and a straight line to the local record shops.",
       "club_sociology_en": "Chicago was coming out of the 1979 \"Disco Demolition Night\", when rock radio declared disco dead. Yet disco survived in South Side clubs and on WBMX, where the Hot Mix 5 broadcast mixes that teenagers taped off the radio. The self-released 12\" answered a shortage: there simply wasn't enough new disco left to feed the dancefloors.",
-      "queer_ballroom_axis_en": "The word \"house\" comes from the Warehouse, a club whose crowd was mostly Black gay men and where Frankie Knuckles played from 1977 to 1982. Saunders belonged to a younger, more mixed scene, proof that the sound left its queer cradle very early and spread across the whole city.",
+      "queer_ballroom_axis_en": "According to the most common version, the word \"house\" comes from the Warehouse, a club whose crowd was mostly Black gay men and where Frankie Knuckles played from 1977 to 1982 (the etymology is disputed). Saunders belonged to a younger, more mixed scene: the sound left its queer cradle very early and spread across the city.",
       "why_this_record_en": "It is the record most often cited as the first house 12\" ever pressed. It matters less for its music than for the gesture it embodies: from now on, anyone with an 808 can make a record.",
       "verified": false
     },
@@ -1295,7 +1385,7 @@
       ],
       "construction": "Une basse roulante, des percussions sèches et un sample vocal funk répété en boucle. On y trouve la rigueur de la techno et la chaleur de la house, sans mélodie envahissante.",
       "producer_origins": "Graeme Reedie et Craig Morrison viennent de la scène écossaise du Sub Club et de Soma : une culture de la discothèque de quartier très ancrée.",
-      "club_sociology": "La tech house naît dans les warehouses et after-hours londoniens de la fin des années 90 (soirées Wiggle de Terry Francis et Nathan Coles, club The End de Mr C et Layo). C'est une musique de nuit longue, pensée pour les DJs.",
+      "club_sociology": "La tech house naît dans les warehouses et after-hours londoniens à partir de 1994 (soirées Wiggle de Terry Francis, Nathan Coles et Eddie Richards, Heart & Soul, club The End de Mr C et Layo). C'est une musique de nuit longue, pensée pour les DJs.",
       "queer_ballroom_axis": "La tech house britannique se développe dans des scènes majoritairement blanches et hétéros. Elle illustre la manière dont la house s'est détachée de son origine queer noire en se « technicisant ».",
       "archive_ref": {
         "source": "brickwork-arches",
@@ -1322,7 +1412,7 @@
       ],
       "construction_en": "A rolling bassline, dry percussion and a looped funk vocal sample. The rigour of techno meets the warmth of house, with no intrusive melody.",
       "producer_origins_en": "Graeme Reedie and Craig Morrison came out of Glasgow's Sub Club and Soma scene: a deeply rooted local club culture.",
-      "club_sociology_en": "Tech house was born in London's late-90s warehouses and after-hours (Terry Francis and Nathan Coles's Wiggle parties, Mr C and Layo's club The End). Long-night music, made for DJs.",
+      "club_sociology_en": "Tech house was born in London's warehouses and after-hours from 1994 onwards (the Wiggle parties of Terry Francis, Nathan Coles and Eddie Richards, Heart & Soul, Mr C and Layo's club The End). Long-night music, made for DJs.",
       "queer_ballroom_axis_en": "British tech house grew up in mostly white, straight scenes. It illustrates how house drifted away from its Black queer origins as it became more \"technical\".",
       "why_this_record_en": "A successful junction of Detroit and Chicago, seen from Glasgow.",
       "country_en": "United Kingdom",
@@ -1338,7 +1428,7 @@
       "country": "Australie",
       "continent": "Océanie",
       "genre": "tech-house",
-      "era": "era-3",
+      "era": "era-3b",
       "bpm": 125,
       "camelot_key": "1A",
       "energy": 9,
@@ -1445,7 +1535,7 @@
       "country": "Afrique du Sud",
       "continent": "Afrique",
       "genre": "afro",
-      "era": "era-3",
+      "era": "era-3a",
       "bpm": 120,
       "camelot_key": "3A",
       "energy": 5,
@@ -1495,7 +1585,7 @@
       "country": "Afrique du Sud",
       "continent": "Afrique",
       "genre": "afro",
-      "era": "era-3",
+      "era": "era-3a",
       "bpm": 126,
       "camelot_key": "12A",
       "energy": 8,
@@ -1548,7 +1638,7 @@
       "country": "Royaume-Uni",
       "continent": "Europe",
       "genre": "lofi",
-      "era": "era-3",
+      "era": "era-3b",
       "bpm": 118,
       "camelot_key": "4A",
       "energy": 4,
@@ -1602,7 +1692,7 @@
       "country": "Royaume-Uni",
       "continent": "Europe",
       "genre": "lofi",
-      "era": "era-3",
+      "era": "era-3b",
       "bpm": 121,
       "camelot_key": "7B",
       "energy": 5,
@@ -1641,7 +1731,10 @@
       "why_this_record_en": "It connects sample culture with internet irony.",
       "city_en": "London",
       "country_en": "United Kingdom",
-      "verified": false
+      "verified": false,
+      "verify": [
+        "Année de sortie : 2015 (site) ou 2016 (Resident Advisor)"
+      ]
     },
     {
       "id": "ke-star",
@@ -1653,7 +1746,7 @@
       "country": "Afrique du Sud",
       "continent": "Afrique",
       "genre": "amapiano",
-      "era": "era-3",
+      "era": "era-3c",
       "bpm": 113,
       "camelot_key": "5A",
       "energy": 6,
@@ -1706,7 +1799,7 @@
       "country": "Afrique du Sud",
       "continent": "Afrique",
       "genre": "amapiano",
-      "era": "era-3",
+      "era": "era-3c",
       "bpm": 117,
       "camelot_key": "10A",
       "energy": 6,
@@ -3090,7 +3183,7 @@
         "Synthétiseurs"
       ],
       "construction": "Une 909 lancée à pleine vitesse, des synthés qui s'emballent et une tension qui ne retombe jamais. C'est l'aile techno de la scène française, à l'opposé du filtre disco.",
-      "producer_origins": "Laurent Garnier a fait son éducation de DJ à l'Haçienda, à Manchester, à la fin des années 80. De retour en France, il cofonde F Communications avec Éric Morand.",
+      "producer_origins": "Laurent Garnier a fait son éducation de DJ à l'Haçienda, à Manchester, à la fin des années 80. De retour en France, il cofonde F Communications avec Éric Morand. Il est souvent rangé parmi les précurseurs de la French Touch plutôt qu'en son cœur : sa musique reste techno.",
       "club_sociology": "Dans Electrochoc, il raconte la répression des raves en France, les fermetures et la mauvaise réputation de la techno dans les médias des années 90.",
       "queer_ballroom_axis": "À Paris, la house trouve d'abord ses publics dans les clubs gays et mondains, comme le Palace. Garnier en hérite avant de lancer ses soirées Wake Up au Rex.",
       "archive_ref": {
@@ -3118,7 +3211,7 @@
         "ASGVULb7X6U"
       ],
       "construction_en": "A 909 at full throttle, runaway synths and tension that never drops: the techno wing of the French scene, the opposite of the disco filter.",
-      "producer_origins_en": "Laurent Garnier learned his craft as a DJ at Manchester's Haçienda in the late 80s. Back in France he co-founded F Communications with Éric Morand.",
+      "producer_origins_en": "Laurent Garnier learned his craft as a DJ at Manchester's Haçienda in the late 80s. Back in France he co-founded F Communications with Éric Morand. He is often counted among the French Touch's precursors rather than at its core: his music remains techno.",
       "club_sociology_en": "In Electrochoc he recounts the crackdown on raves in France, the closures and techno's bad press in the 1990s.",
       "queer_ballroom_axis_en": "In Paris, house first found its audiences in gay and society clubs such as Le Palace. Garnier inherited that before launching his Wake Up nights at the Rex.",
       "why_this_record_en": "The France of raves, not only of the filter.",
@@ -5236,7 +5329,7 @@
       "country": "USA",
       "continent": "Amérique du Nord",
       "genre": "garage-nyc",
-      "era": "era-3",
+      "era": "era-3c",
       "gear": [
         "Samples : « Show Me Love » (Robin S), « Explode » (Big Freedia)"
       ],
@@ -5298,7 +5391,7 @@
       "continent": "Afrique",
       "continent_en": "Africa",
       "genre": "amapiano",
-      "era": "era-3",
+      "era": "era-3c",
       "gear": [
         "log-drum",
         "DAW"
@@ -5346,6 +5439,756 @@
       "spotify": {
         "id": "54seQV7MCcppBrznALCdlT"
       }
+    },
+    {
+      "id": "reachin",
+      "title": "Reachin'",
+      "artist": "Phase II",
+      "year": 1988,
+      "label": "Movin' Records",
+      "city": "New Jersey",
+      "country": "USA",
+      "continent": "Amérique du Nord",
+      "genre": "garage-nyc",
+      "era": "era-1",
+      "bpm": 120,
+      "camelot_key": "8A",
+      "energy": 6,
+      "gear": [
+        "Boîte à rythmes",
+        "Synthétiseurs"
+      ],
+      "construction": "Un groove garage souple, des accords chauds et une voix soul qui « tend la main » : le son gospel et deep du New Jersey, moins frontal que celui de Manhattan.",
+      "construction_en": "A loose garage groove, warm chords and a soul vocal \"reaching\" out: New Jersey's gospel, deep sound, less frontal than Manhattan's.",
+      "producer_origins": "Phase II est un nom collectif utilisé par des figures des clubs du New Jersey, dont les membres de Blaze (Josh Milan, Kevin Hedge, Chris Herbert). Le disque est l'un des premiers succès de Movin' Records, label du New Jersey.",
+      "producer_origins_en": "Phase II was a collective name used by New Jersey club figures, including the members of Blaze (Josh Milan, Kevin Hedge, Chris Herbert). The record was one of the first hits for the New Jersey label Movin' Records.",
+      "club_sociology": "C'est le son du Club Zanzibar de Newark, où Tony Humphries est résident de 1982 à 1994 et qui devient, après la fermeture du Paradise Garage en 1987, un centre de la house de la région.",
+      "club_sociology_en": "This is the sound of Newark's Club Zanzibar, where Tony Humphries was resident from 1982 to 1994 and which became, after the Paradise Garage closed in 1987, a centre of the region's house.",
+      "queer_ballroom_axis": "Le garage du New Jersey prolonge la ferveur gospel des clubs noirs et gays new-yorkais ; la composition du public du Zanzibar reste à documenter précisément.",
+      "queer_ballroom_axis_en": "New Jersey garage extends the gospel fervour of New York's Black and gay clubs; the exact make-up of Zanzibar's crowd still needs documenting.",
+      "why_this_record": "Il fait exister le New Jersey comme matrice distincte de New York.",
+      "why_this_record_en": "It makes New Jersey exist as a matrix distinct from New York.",
+      "archive_ref": {
+        "source": "beat-scene-sound",
+        "note": "Le Zanzibar et la scène du New Jersey dans le récit de DJ Disciple (pages à relever).",
+        "note_en": "Zanzibar and the New Jersey scene in DJ Disciple's account (pages to be added)."
+      },
+      "tags": [
+        "roots",
+        "gospel",
+        "us"
+      ],
+      "verified": false,
+      "continent_en": "North America",
+      "gear_en": [
+        "Drum machine",
+        "Synthesizers"
+      ],
+      "further_reading": [
+        "last-night-dj"
+      ],
+      "verify": [
+        "Crédits exacts de Phase II sur ce disque"
+      ],
+      "youtube": [
+        "rV_mmxsaPeM",
+        "1Gobukd4y5s"
+      ],
+      "spotify": {
+        "id": "6KlbbkiO0VC9mqdNWT3XtI",
+        "version": "Brotherhood Mix"
+      }
+    },
+    {
+      "id": "keep-on-movin",
+      "title": "Keep On Movin'",
+      "artist": "Soul II Soul",
+      "year": 1989,
+      "label": "Ten Records",
+      "city": "Londres",
+      "country": "Royaume-Uni",
+      "continent": "Europe",
+      "genre": "uk-bass",
+      "era": "era-1",
+      "bpm": 94,
+      "camelot_key": "5A",
+      "energy": 5,
+      "gear": [
+        "Boîtes à rythmes",
+        "Cordes",
+        "Basse"
+      ],
+      "construction": "Un tempo lent et chaloupé (le « Funki Dred beat »), une basse ronde, des cordes et la voix de Caron Wheeler. Le groove vient du sound system plus que du club house.",
+      "construction_en": "A slow, swaying tempo (the \"Funki Dred beat\"), a round bassline, strings and Caron Wheeler's voice. The groove comes from the sound system more than from the house club.",
+      "producer_origins": "Soul II Soul naît d'un sound system londonien mené par Jazzie B, avec Nellee Hooper à la production. Le collectif est à la fois un groupe, une boutique et une soirée.",
+      "producer_origins_en": "Soul II Soul grew out of a London sound system led by Jazzie B, with Nellee Hooper producing. The collective was a band, a shop and a party all at once.",
+      "club_sociology": "Les soirées du dimanche du collectif, à l'Africa Centre de Covent Garden, font le lien entre culture sound system caribéenne, soul et house naissante. Le single entre au top 5 britannique.",
+      "club_sociology_en": "The collective's Sunday sessions at the Africa Centre in Covent Garden linked Caribbean sound-system culture, soul and emerging house. The single made the UK top 5.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite : c'est une culture noire britannique du sound system.",
+      "queer_ballroom_axis_en": "No explicit queer axis: this is Black British sound-system culture.",
+      "why_this_record": "La station Sound System prend vie : la basse britannique avant l'acid.",
+      "why_this_record_en": "The Sound System station comes alive: British bass before acid.",
+      "archive_ref": {
+        "source": "join-the-future",
+        "note": "Culture sound system et sub-bass britannique (pages à relever).",
+        "note_en": "Sound-system culture and British sub-bass (pages to be added)."
+      },
+      "tags": [
+        "uk",
+        "black-british",
+        "roots"
+      ],
+      "verified": false,
+      "continent_en": "Europe",
+      "city_en": "London",
+      "country_en": "United Kingdom",
+      "gear_en": [
+        "Drum machines",
+        "Strings",
+        "Bass"
+      ],
+      "further_reading": [
+        "energy-flash"
+      ],
+      "verify": [
+        "Classement exact au Royaume-Uni"
+      ],
+      "youtube": [
+        "1iQl46-zIcM"
+      ]
+    },
+    {
+      "id": "lfo",
+      "title": "LFO",
+      "artist": "LFO",
+      "year": 1990,
+      "label": "Warp",
+      "city": "Leeds",
+      "country": "Royaume-Uni",
+      "continent": "Europe",
+      "genre": "uk-bass",
+      "era": "era-2",
+      "bpm": 125,
+      "camelot_key": "10A",
+      "energy": 8,
+      "gear": [
+        "Synthétiseurs",
+        "Boîte à rythmes"
+      ],
+      "construction": "Des tonalités pures (les « bleeps »), un sub-bass énorme et une rythmique sèche : la techno de Detroit passée au filtre des sound systems du Yorkshire.",
+      "construction_en": "Pure tones (the \"bleeps\"), an enormous sub-bass and a dry rhythm: Detroit techno filtered through Yorkshire's sound systems.",
+      "producer_origins": "Mark Bell et Gez Varley, deux jeunes de Leeds, signent chez Warp, label fondé à Sheffield en 1989.",
+      "producer_origins_en": "Mark Bell and Gez Varley, two young Leeds producers, signed to Warp, the label founded in Sheffield in 1989.",
+      "club_sociology": "Le disque entre dans le top 20 britannique : la bleep devient la première musique bass britannique à toucher le grand public.",
+      "club_sociology_en": "The record entered the UK top 20: bleep became the first British bass music to reach a mass audience.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "why_this_record": "La station Bleep prend vie, et la correspondance avec Detroit devient audible.",
+      "why_this_record_en": "The Bleep station comes alive, and the transfer to Detroit becomes audible.",
+      "archive_ref": {
+        "source": "join-the-future",
+        "note": "Leeds, Sheffield, Warp et la bleep (pages à relever).",
+        "note_en": "Leeds, Sheffield, Warp and bleep (pages to be added)."
+      },
+      "tags": [
+        "uk",
+        "machine"
+      ],
+      "verified": false,
+      "continent_en": "Europe",
+      "country_en": "United Kingdom",
+      "gear_en": [
+        "Synthesizers",
+        "Drum machine"
+      ],
+      "further_reading": [
+        "energy-flash"
+      ],
+      "verify": [
+        "Classement exact au Royaume-Uni"
+      ],
+      "youtube": [
+        "s-1Y2EqThyQ"
+      ],
+      "spotify": {
+        "id": "5AMGYRhiqZoCYkJEK3yqgi",
+        "version": "Leeds Warehouse Mix"
+      }
+    },
+    {
+      "id": "midnight-request-line",
+      "title": "Midnight Request Line",
+      "artist": "Skream",
+      "year": 2005,
+      "label": "Tempa",
+      "city": "Croydon",
+      "country": "Royaume-Uni",
+      "continent": "Europe",
+      "genre": "uk-bass",
+      "era": "era-3a",
+      "bpm": 140,
+      "camelot_key": "6A",
+      "energy": 7,
+      "gear": [
+        "DAW",
+        "Sub-bass"
+      ],
+      "construction": "Une mélodie de synthé obsédante, un sub-bass profond et une rythmique en demi-temps à 140 BPM : le dubstep dans sa forme la plus mélodique.",
+      "construction_en": "A haunting synth melody, deep sub-bass and a half-time rhythm at 140 BPM: dubstep at its most melodic.",
+      "producer_origins": "Skream (Oliver Jones), adolescent de Croydon, gravite autour du disquaire Big Apple Records, foyer de la dark garage puis du dubstep.",
+      "producer_origins_en": "Skream (Oliver Jones), a Croydon teenager, orbited around Big Apple Records, the shop at the heart of dark garage and then dubstep.",
+      "club_sociology": "Les soirées FWD>> et DMZ sont les lieux clés de la scène ; ce disque marque son passage à une audience mondiale.",
+      "club_sociology_en": "The FWD>> and DMZ nights were the scene's key venues; this record marked its move to a worldwide audience.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite : la scène dubstep est d'abord une culture de la basse et des sound systems.",
+      "queer_ballroom_axis_en": "No explicit queer axis: the dubstep scene is first of all a culture of bass and sound systems.",
+      "why_this_record": "La station Dubstep prend vie.",
+      "why_this_record_en": "The Dubstep station comes alive.",
+      "archive_ref": {
+        "source": "energy-flash",
+        "note": "Le hardcore continuum et ses prolongements (pages à relever).",
+        "note_en": "The hardcore continuum and its extensions (pages to be added)."
+      },
+      "tags": [
+        "uk",
+        "black-british"
+      ],
+      "verified": false,
+      "continent_en": "Europe",
+      "country_en": "United Kingdom",
+      "further_reading": [
+        "state-of-bass"
+      ],
+      "youtube": [
+        "lcMAbnZy8l8"
+      ],
+      "spotify": {
+        "id": "5FbqI4BGhhKMykDiLoJSad"
+      }
+    },
+    {
+      "id": "summertime-is-here",
+      "title": "Summertime Is Here",
+      "artist": "Theo Parrish",
+      "year": 1999,
+      "label": "Sound Signature",
+      "city": "Detroit",
+      "country": "USA",
+      "continent": "Amérique du Nord",
+      "genre": "detroit",
+      "era": "era-2",
+      "bpm": 116,
+      "camelot_key": "4A",
+      "energy": 5,
+      "gear": [
+        "Sampler",
+        "Filtres"
+      ],
+      "construction": "Une boucle soul samplée, filtrée et laissée respirer pendant plus de dix minutes, avec un tempo qui semble flotter. Le grain est volontairement brut.",
+      "construction_en": "A sampled soul loop, filtered and left to breathe for more than ten minutes, with a tempo that seems to float. The grit is deliberately raw.",
+      "producer_origins": "Theo Parrish, né à Washington D.C. en 1972, élevé à Chicago et installé dans le Michigan en 1994, fonde Sound Signature en 1997.",
+      "producer_origins_en": "Theo Parrish, born in Washington D.C. in 1972, raised in Chicago and based in Michigan from 1994, founded Sound Signature in 1997.",
+      "club_sociology": "Le morceau devient un classique des DJs deep ; il est repressé à plusieurs reprises et repris sur la compilation Parallel Dimensions.",
+      "club_sociology_en": "The track became a classic for deep DJs; it has been repressed several times and included on the Parallel Dimensions compilation.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "why_this_record": "La station Sound Signature prend vie.",
+      "why_this_record_en": "The Sound Signature station comes alive.",
+      "archive_ref": {
+        "source": "techno-rebels",
+        "note": "Detroit après la première vague techno (pages à relever).",
+        "note_en": "Detroit after the first techno wave (pages to be added)."
+      },
+      "tags": [
+        "us",
+        "deep",
+        "sample"
+      ],
+      "verified": false,
+      "continent_en": "North America",
+      "gear_en": [
+        "Sampler",
+        "Filters"
+      ],
+      "verify": [
+        "Année de première sortie (1999, 2000 ou 2003 selon les sources)"
+      ],
+      "youtube": [
+        "76E-thr2I14",
+        "UMMrF6wPnxo"
+      ],
+      "spotify": {
+        "id": "6mJIX7DpkImJLybaKDBPLA"
+      }
+    },
+    {
+      "id": "ice-drop",
+      "title": "Ice Drop",
+      "artist": "DJ Lag",
+      "year": 2016,
+      "label": "Goon Club Allstars",
+      "city": "Durban",
+      "country": "Afrique du Sud",
+      "continent": "Afrique",
+      "genre": "gqom",
+      "era": "era-3b",
+      "bpm": 126,
+      "camelot_key": "7A",
+      "energy": 8,
+      "gear": [
+        "DAW",
+        "Kicks"
+      ],
+      "construction": "Des kicks lourds et décalés, des percussions sèches et presque pas de mélodie : le gqom tient sur la tension rythmique.",
+      "construction_en": "Heavy, off-kilter kicks, dry percussion and almost no melody: gqom runs on rhythmic tension.",
+      "producer_origins": "DJ Lag (Lwazi Asanda Gwala) écrit le morceau à 17 ans ; il circule à Durban vers 2013 avant de sortir fin 2016 sur l'EP publié par le label londonien Goon Club Allstars.",
+      "producer_origins_en": "DJ Lag (Lwazi Asanda Gwala) wrote the track at 17; it circulated in Durban around 2013 before coming out in late 2016 on an EP released by the London label Goon Club Allstars.",
+      "club_sociology": "Le gqom circule d'abord par les taxis, WhatsApp et les fêtes de township, puis s'exporte via des labels européens : le Sud global devient un centre de création.",
+      "club_sociology_en": "Gqom first circulated through taxis, WhatsApp and township parties, then spread through European labels: the Global South becomes a centre of creation.",
+      "queer_ballroom_axis": "Sujet à documenter avant d'affirmer quoi que ce soit.",
+      "queer_ballroom_axis_en": "To be documented before asserting anything.",
+      "why_this_record": "Il donne à Durban sa station sur la ligne des Afriques.",
+      "why_this_record_en": "It gives Durban its station on the Africas line.",
+      "archive_ref": {
+        "source": "rave-on",
+        "note": "Scènes électroniques hors d'Europe et des États-Unis (pages à relever).",
+        "note_en": "Electronic scenes beyond Europe and the US (pages to be added)."
+      },
+      "tags": [
+        "africa",
+        "diaspora"
+      ],
+      "verified": false,
+      "continent_en": "Africa",
+      "country_en": "South Africa",
+      "youtube": [
+        "9ycr4BI8I94"
+      ],
+      "spotify": {
+        "id": "1AUkzwumfpusZ9wkUVSaQX"
+      }
+    },
+    {
+      "id": "double-cup",
+      "title": "Double Cup",
+      "artist": "DJ Rashad feat. DJ Spinn",
+      "year": 2013,
+      "label": "Hyperdub",
+      "city": "Chicago",
+      "country": "USA",
+      "continent": "Amérique du Nord",
+      "genre": "footwork",
+      "era": "era-3b",
+      "bpm": 160,
+      "camelot_key": "9A",
+      "energy": 8,
+      "gear": [
+        "Sampler",
+        "Boîte à rythmes (808)"
+      ],
+      "construction": "Des kicks en triolets autour de 160 BPM, des samples vocaux hachés et des nappes plus douces que le footwork de battle : le footwork tourné vers l'écoute.",
+      "construction_en": "Triplet kicks around 160 BPM, chopped vocal samples and softer pads than battle footwork: footwork turned towards listening.",
+      "producer_origins": "DJ Rashad, figure du collectif Teklife, vient de la ghetto house de Chicago (Dance Mania, DJ Funk). Il meurt en 2014, un an après la sortie de l'album.",
+      "producer_origins_en": "DJ Rashad, a leading figure of the Teklife crew, came out of Chicago ghetto house (Dance Mania, DJ Funk). He died in 2014, a year after the album came out.",
+      "club_sociology": "L'album sort chez Hyperdub, à Londres : le footwork, né des battles de danse du South Side et du West Side, trouve une audience internationale.",
+      "club_sociology_en": "The album came out on Hyperdub in London: footwork, born from South Side and West Side dance battles, found an international audience.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite : le footwork est d'abord une culture de danse de la jeunesse noire de Chicago.",
+      "queer_ballroom_axis_en": "No explicit queer axis: footwork is first a dance culture of Chicago's Black youth.",
+      "why_this_record": "Il prolonge la ligne de Chicago au-delà de 2005.",
+      "why_this_record_en": "It extends the Chicago line beyond 2005.",
+      "archive_ref": {
+        "source": "underground-massive",
+        "note": "La dance music américaine des années 2010 (pages à relever).",
+        "note_en": "American dance music in the 2010s (pages to be added)."
+      },
+      "tags": [
+        "us",
+        "machine"
+      ],
+      "verified": false,
+      "continent_en": "North America",
+      "gear_en": [
+        "Sampler",
+        "Drum machine (808)"
+      ],
+      "youtube": [
+        "dPv33vCU3k8",
+        "qc2CZDezGHQ"
+      ]
+    },
+    {
+      "id": "feels-like",
+      "title": "Feels Like",
+      "artist": "MikeQ feat. Kevin JZ Prodigy",
+      "year": 2011,
+      "label": "Fade to Mind",
+      "city": "New Jersey",
+      "country": "USA",
+      "continent": "Amérique du Nord",
+      "genre": "ballroom",
+      "era": "era-3a",
+      "bpm": 130,
+      "camelot_key": "4A",
+      "energy": 8,
+      "gear": [
+        "DAW",
+        "Samples (« The Ha Dance »)"
+      ],
+      "construction": "Le « ha » et le crash hérités de « The Ha Dance », une rythmique tendue et les chants de Kevin JZ Prodigy, commentateur de ballroom : un morceau fait pour les catégories.",
+      "construction_en": "The \"ha\" and the crash inherited from \"The Ha Dance\", a tense rhythm and the chants of ballroom commentator Kevin JZ Prodigy: a track made for the categories.",
+      "producer_origins": "MikeQ, producteur du New Jersey, publie le morceau sur l'EP Let It All Out (Fade to Mind, 2011) ; il anime le collectif et label Qween Beat, consacré au vogue et à la ballroom (fondé en 2005 ou 2012 selon les sources).",
+      "producer_origins_en": "MikeQ, a New Jersey producer, released the track on the Let It All Out EP (Fade to Mind, 2011); he leads the Qween Beat collective and label, devoted to vogue and ballroom (founded in 2005 or 2012 depending on sources).",
+      "club_sociology": "Le morceau est samplé en 2022 par Beyoncé sur « Pure/Honey » (album Renaissance) : la ballroom passe de scène fermée à référence pop.",
+      "club_sociology_en": "The track was sampled in 2022 by Beyoncé on \"Pure/Honey\" (Renaissance): ballroom moves from a closed scene to a pop reference.",
+      "queer_ballroom_axis": "C'est la musique des balls contemporains, faite par et pour les houses queer et trans noires et latinas.",
+      "queer_ballroom_axis_en": "This is the music of contemporary balls, made by and for Black and Latina queer and trans houses.",
+      "why_this_record": "Le chaînon entre « The Ha Dance » et Renaissance.",
+      "why_this_record_en": "The link between \"The Ha Dance\" and Renaissance.",
+      "archive_ref": {
+        "source": "paris-is-burning",
+        "note": "Le contexte ballroom que ce beat prolonge (minutage à relever).",
+        "note_en": "The ballroom context this beat extends (timecodes to be added)."
+      },
+      "tags": [
+        "ballroom",
+        "queer",
+        "us"
+      ],
+      "verified": false,
+      "continent_en": "North America",
+      "gear_en": [
+        "DAW",
+        "Samples (\"The Ha Dance\")"
+      ],
+      "further_reading": [
+        "do-you-remember-house"
+      ],
+      "verify": [
+        "Date de fondation de Qween Beat"
+      ],
+      "youtube": [
+        "tW8curhicTQ",
+        "zAddWB67PGo"
+      ],
+      "spotify": {
+        "id": "607iqTCELM1TcCdziMcRrT"
+      }
+    },
+    {
+      "id": "dawning",
+      "title": "Dawning",
+      "artist": "Dettmann & Klock",
+      "year": 2006,
+      "label": "Ostgut Ton",
+      "city": "Berlin",
+      "country": "Allemagne",
+      "continent": "Europe",
+      "genre": "techno",
+      "era": "era-3a",
+      "bpm": 130,
+      "camelot_key": "8A",
+      "energy": 8,
+      "gear": [
+        "Boîte à rythmes",
+        "Synthétiseurs"
+      ],
+      "construction": "Un kick sec, des nappes sourdes et une montée lente : la techno de Berghain, austère et hypnotique.",
+      "construction_en": "A dry kick, muffled pads and a slow build: Berghain techno, austere and hypnotic.",
+      "producer_origins": "Marcel Dettmann et Ben Klock, résidents de Berghain, signent leur première collaboration ; c'est le premier maxi du label Ostgut Ton (O-Ton 001), lancé fin 2005.",
+      "producer_origins_en": "Marcel Dettmann and Ben Klock, Berghain residents, made their first collaboration; it was the first 12\" on the Ostgut Ton label (O-Ton 001), launched in late 2005.",
+      "club_sociology": "Berghain ouvre en 2004 dans une ancienne centrale électrique : Berlin devient le centre de la techno européenne, dans la continuité de Detroit.",
+      "club_sociology_en": "Berghain opened in 2004 in a former power station: Berlin became the centre of European techno, in Detroit's lineage.",
+      "queer_ballroom_axis": "Berghain et Panorama Bar héritent de la scène gay berlinoise (Ostgut, Snax) ; la présence queer y est structurelle.",
+      "queer_ballroom_axis_en": "Berghain and Panorama Bar grew out of Berlin's gay scene (Ostgut, Snax); the queer presence there is structural.",
+      "why_this_record": "Il ouvre la ligne Techno & Berlin.",
+      "why_this_record_en": "It opens the Techno & Berlin line.",
+      "archive_ref": {
+        "source": "rave-on",
+        "note": "Berlin après le Mur et Berghain (pages à relever).",
+        "note_en": "Berlin after the Wall and Berghain (pages to be added)."
+      },
+      "tags": [
+        "europe",
+        "machine",
+        "queer"
+      ],
+      "verified": false,
+      "continent_en": "Europe",
+      "country_en": "Germany",
+      "gear_en": [
+        "Drum machine",
+        "Synthesizers"
+      ],
+      "verify": [
+        "Filiation Ostgut / Snax à sourcer"
+      ],
+      "youtube": [
+        "QVad8r5FTsk",
+        "-z4QdShPw_A"
+      ],
+      "spotify": {
+        "id": "2E6WTPlkw9uCQgZ9QzcSBg"
+      }
+    },
+    {
+      "id": "not-about-you",
+      "title": "Not About You",
+      "artist": "Honey Dijon feat. Hadiya George",
+      "year": 2022,
+      "label": "Classic Music Company",
+      "city": "Chicago / New York",
+      "country": "USA",
+      "continent": "Amérique du Nord",
+      "genre": "chicago",
+      "era": "era-3c",
+      "bpm": 124,
+      "camelot_key": "8B",
+      "energy": 7,
+      "gear": [
+        "DAW",
+        "Voix"
+      ],
+      "construction": "Une house vocale lumineuse, une basse ronde et la voix soul de Hadiya George : la house de Chicago réécrite pour 2022.",
+      "construction_en": "Bright vocal house, a round bassline and Hadiya George's soul voice: Chicago house rewritten for 2022.",
+      "producer_origins": "Honey Dijon, DJ et productrice née à Chicago, femme trans noire, coécrit l'album Black Girl Magic avec Luke Solomon ; elle travaille aussi sur Renaissance de Beyoncé.",
+      "producer_origins_en": "Honey Dijon, a Chicago-born DJ and producer and a Black trans woman, co-wrote the album Black Girl Magic with Luke Solomon; she also worked on Beyoncé's Renaissance.",
+      "club_sociology": "Le single tourne sur BBC Radio 1 avant la sortie de l'album en novembre 2022 : la house noire et queer revient au cœur de la pop.",
+      "club_sociology_en": "The single was playlisted on BBC Radio 1 before the album's release in November 2022: Black and queer house returns to the heart of pop.",
+      "queer_ballroom_axis": "Honey Dijon dit vouloir réancrer la house dans ses communautés d'origine, noires et queer.",
+      "queer_ballroom_axis_en": "Honey Dijon says she wants to re-root house in its original Black and queer communities.",
+      "why_this_record": "La réappropriation, par celles et ceux qui ont inventé la house.",
+      "why_this_record_en": "Reclamation, by those who invented house.",
+      "archive_ref": {
+        "source": "do-you-remember-house",
+        "note": "La house queer noire de Chicago et sa mémoire (pages à relever).",
+        "note_en": "Chicago's Black queer house and its memory (pages to be added)."
+      },
+      "tags": [
+        "queer",
+        "diva",
+        "us"
+      ],
+      "verified": false,
+      "continent_en": "North America",
+      "gear_en": [
+        "DAW",
+        "Vocals"
+      ],
+      "further_reading": [
+        "energy-never-dies"
+      ],
+      "youtube": [
+        "3fzuzLkzL2w",
+        "XULoHyXfVXk"
+      ],
+      "spotify": {
+        "id": "3F152F42cdRCeKMCP9by6X"
+      }
+    },
+    {
+      "id": "u-seinfeld",
+      "title": "U",
+      "artist": "DJ Seinfeld",
+      "year": 2017,
+      "label": "Lobster Fury",
+      "city": "Malmö",
+      "country": "Suède",
+      "continent": "Europe",
+      "genre": "lofi",
+      "era": "era-3b",
+      "bpm": 120,
+      "camelot_key": "3A",
+      "energy": 5,
+      "gear": [
+        "Saturation",
+        "Sampler"
+      ],
+      "construction": "Des accords voilés, un kick étouffé et un sample vocal pitché, sous une couche de souffle et de poussière analogique.",
+      "construction_en": "Hazy chords, a muffled kick and a pitched vocal sample, under a layer of hiss and analogue dust.",
+      "producer_origins": "DJ Seinfeld (Armand Jakobsson), producteur suédois, sort son premier EP en 2016 chez Lobster Fury ; « U » circule en ligne avant de paraître sur l'album Time Spent Away From U (2017).",
+      "producer_origins_en": "DJ Seinfeld (Armand Jakobsson), a Swedish producer, released his first EP in 2016 on Lobster Fury; \"U\" circulated online before appearing on the album Time Spent Away From U (2017).",
+      "club_sociology": "Le morceau doit une grande partie de sa diffusion à YouTube : la lo-fi house est une scène internationale, de l'Australie à la Suède.",
+      "club_sociology_en": "The track owes much of its spread to YouTube: lo-fi house is an international scene, from Australia to Sweden.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "why_this_record": "Il montre le caractère international de la lo-fi house.",
+      "why_this_record_en": "It shows lo-fi house's international character.",
+      "archive_ref": {
+        "source": "how-music-works",
+        "note": "Le son façonné par son lieu d'écoute (pages à relever).",
+        "note_en": "Sound shaped by where it is heard (pages to be added)."
+      },
+      "tags": [
+        "internet",
+        "nostalgia",
+        "europe"
+      ],
+      "verified": false,
+      "continent_en": "Europe",
+      "country_en": "Sweden",
+      "verify": [
+        "Label et date de la première diffusion de « U »",
+        "Ville de résidence de l'artiste"
+      ],
+      "youtube": [
+        "6F6Sxrd7rw4",
+        "g6eu1Wb8CVE"
+      ]
+    },
+    {
+      "id": "black-mahogani",
+      "title": "Black Mahogani",
+      "artist": "Moodymann",
+      "year": 2004,
+      "label": "Peacefrog",
+      "city": "Detroit",
+      "country": "USA",
+      "continent": "Amérique du Nord",
+      "genre": "detroit",
+      "era": "era-2",
+      "bpm": 115,
+      "camelot_key": "5A",
+      "energy": 5,
+      "gear": [
+        "Sampler",
+        "Instruments live"
+      ],
+      "construction": "Un album de deep house lent et soul, entre samples, instruments joués et ambiance de fin de nuit.",
+      "construction_en": "A slow, soulful deep house album, between samples, played instruments and an end-of-night atmosphere.",
+      "producer_origins": "Moodymann (Kenny Dixon Jr.), producteur de Detroit et patron du label KDJ, publie l'album chez Peacefrog après une série de maxis rares.",
+      "producer_origins_en": "Moodymann (Kenny Dixon Jr.), a Detroit producer and head of the KDJ label, released the album on Peacefrog after a run of rare 12\"s.",
+      "club_sociology": "C'est l'une des œuvres les plus révérées de la seconde vague de Detroit, celle qui revendique la soul et la culture noire de la ville.",
+      "club_sociology_en": "It is one of the most revered works of Detroit's second wave, the one that claims the city's soul and Black culture.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "why_this_record": "Detroit en continu après la techno de la première vague.",
+      "why_this_record_en": "Detroit carrying on after first-wave techno.",
+      "archive_ref": {
+        "source": "techno-rebels",
+        "note": "Detroit après la première vague (pages à relever).",
+        "note_en": "Detroit after the first wave (pages to be added)."
+      },
+      "tags": [
+        "us",
+        "deep",
+        "soul"
+      ],
+      "verified": false,
+      "continent_en": "North America",
+      "gear_en": [
+        "Sampler",
+        "Live instruments"
+      ],
+      "verify": [
+        "Date de sortie exacte (mai ou juillet 2004)"
+      ],
+      "youtube": [
+        "I579xnM6ocQ"
+      ],
+      "spotify": {
+        "id": "495oT3dvrhlsppXTlXHpQx"
+      }
+    },
+    {
+      "id": "dance-justice",
+      "title": "D.A.N.C.E.",
+      "artist": "Justice",
+      "year": 2007,
+      "label": "Ed Banger Records",
+      "city": "Paris",
+      "country": "France",
+      "continent": "Europe",
+      "genre": "french-touch",
+      "era": "era-3a",
+      "bpm": 113,
+      "camelot_key": "11B",
+      "energy": 8,
+      "gear": [
+        "Sampler",
+        "Basse saturée"
+      ],
+      "construction": "Une chorale d'enfants, une basse disco saturée et un hommage à Michael Jackson : la French Touch passe de la boucle filtrée à l'électro saturée.",
+      "construction_en": "A children's choir, a distorted disco bassline and a tribute to Michael Jackson: the French Touch moves from the filtered loop to saturated electro.",
+      "producer_origins": "Gaspard Augé et Xavier de Rosnay signent chez Ed Banger, le label de Pedro Winter, ancien manager de Daft Punk.",
+      "producer_origins_en": "Gaspard Augé and Xavier de Rosnay signed to Ed Banger, the label of Pedro Winter, Daft Punk's former manager.",
+      "club_sociology": "Le disque, tiré de l'album Cross (2007), incarne la seconde vague French Touch, portée par les blogs et MySpace.",
+      "club_sociology_en": "Taken from the album Cross (2007), the record embodies the French Touch's second wave, carried by blogs and MySpace.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "why_this_record": "La seconde vague French Touch.",
+      "why_this_record_en": "The French Touch's second wave.",
+      "archive_ref": {
+        "source": "musique-house-bidder",
+        "note": "La French Touch et ses suites (pages à relever).",
+        "note_en": "The French Touch and what followed (pages to be added)."
+      },
+      "tags": [
+        "europe",
+        "crossover"
+      ],
+      "verified": false,
+      "continent_en": "Europe",
+      "gear_en": [
+        "Sampler",
+        "Distorted bass"
+      ],
+      "youtube": [
+        "sy1dYFGkPUE",
+        "tCnBrrnOefs"
+      ],
+      "spotify": {
+        "id": "33yAEqzKXexYM3WlOYtTfQ"
+      }
+    },
+    {
+      "id": "need-u",
+      "title": "Need U (100%)",
+      "artist": "Duke Dumont feat. A*M*E",
+      "year": 2013,
+      "label": "Blasé Boys Club / Ministry of Sound",
+      "city": "Londres",
+      "country": "Royaume-Uni",
+      "continent": "Europe",
+      "genre": "chart-house",
+      "era": "era-3b",
+      "bpm": 124,
+      "camelot_key": "7A",
+      "energy": 8,
+      "gear": [
+        "DAW",
+        "Orgue (preset)"
+      ],
+      "construction": "Un riff d'orgue, une basse ronde et une voix pop pitchée : la deep house des années 90 remise au goût des radios.",
+      "construction_en": "An organ riff, a round bassline and a pitched pop vocal: 90s deep house updated for radio.",
+      "producer_origins": "Duke Dumont (Adam Dyment), producteur londonien, s'appuie sur la voix de la chanteuse A*M*E.",
+      "producer_origins_en": "Duke Dumont (Adam Dyment), a London producer, built the track around singer A*M*E's voice.",
+      "club_sociology": "Numéro 1 au Royaume-Uni en avril 2013, avec « White Noise » de Disclosure (n°2) : la house sort des sous-sols pour revenir dans les charts et à Ibiza.",
+      "club_sociology_en": "Number 1 in the UK in April 2013, alongside Disclosure's \"White Noise\" (number 2): house leaves the basements to return to the charts and Ibiza.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "why_this_record": "Le crossover de 2013.",
+      "why_this_record_en": "The 2013 crossover.",
+      "archive_ref": {
+        "source": "underground-massive",
+        "note": "La house redevenue grand public (pages à relever).",
+        "note_en": "House going mainstream again (pages to be added)."
+      },
+      "tags": [
+        "uk",
+        "crossover",
+        "pop"
+      ],
+      "verified": false,
+      "continent_en": "Europe",
+      "city_en": "London",
+      "country_en": "United Kingdom",
+      "gear_en": [
+        "DAW",
+        "Organ (preset)"
+      ],
+      "youtube": [
+        "_B-DscDxsmw",
+        "CgTB1ay_nnA"
+      ]
     }
   ]
 }
