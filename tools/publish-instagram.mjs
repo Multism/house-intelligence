@@ -29,7 +29,8 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const QUEUE_FILE = join(ROOT, "social", "posts.json");
 const SITE = (process.env.SITE_URL || "https://house-intelligence.pages.dev").replace(/\/$/, "");
-const HOST = process.env.GRAPH_HOST || "graph.facebook.com";
+// Jeton « Instagram Login » (commence par IG…) → graph.instagram.com ; jeton Facebook (EAA…) → graph.facebook.com.
+const HOST = process.env.GRAPH_HOST || ((process.env.IG_ACCESS_TOKEN || "").trim().startsWith("IG") ? "graph.instagram.com" : "graph.facebook.com");
 const GRAPH = `https://${HOST}/${process.env.GRAPH_VERSION || "v23.0"}`;
 const IG = (process.env.IG_USER_ID || "").trim();
 const TOKEN = (process.env.IG_ACCESS_TOKEN || "").trim();
