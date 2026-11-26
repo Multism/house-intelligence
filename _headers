@@ -45,3 +45,5 @@
   X-Robots-Tag: noindex, nofollow
 /CLAUDE.md
   X-Robots-Tag: noindex, nofollow
+/social/*
+  X-Robots-Tag: noindex, nofollow
