@@ -336,7 +336,7 @@
         [h("dt", {}, en ? c.k_en : c.k[0].toUpperCase() + c.k.slice(1)), h("dd", {}, en ? c.v_en : c.v)]))] : null,
       t.book_refs?.length ? [h("h4", {}, _t("h.books")), h("ul", { class: "book-refs" }, ...t.book_refs.filter((r) => S.sourceById[r.source]).map((r) =>
         h("li", {}, h("button", { class: "chip", onclick: () => openSource(r.source) }, S.sourceById[r.source].title.split(":")[0]),
-          h("span", {}, ` ${en ? r.where_en : r.where} · `), h("em", {}, r.pages ? _t("book.pages", { p: r.pages }) : _t("book.noPages")))))] : null,
+          h("span", {}, ` ${en ? r.where_en : r.where}${r.pages ? " · " : ""}`), r.pages ? h("em", {}, _t("book.pages", { p: r.pages })) : null)))] : null,
       t.references?.length ? [h("h4", {}, _t("h.web")), h("ul", { class: "web-refs" }, ...t.references.map((u) =>
         h("li", {}, h("a", { href: u, target: "_blank", rel: "noopener" }, host(u) + " ↗"))))] : null,
     ].flat().filter(Boolean));

@@ -1910,4 +1910,52 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/need-u/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/need-u/"/>
   </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/spongebob/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/spongebob/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/spongebob/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/spongebob/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/spongebob/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/spongebob/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/spongebob/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/spongebob/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/white-noise/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/white-noise/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/white-noise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/white-noise/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/white-noise/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/white-noise/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/white-noise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/white-noise/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/fizheuer-zieheuer/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/fizheuer-zieheuer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/fizheuer-zieheuer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/fizheuer-zieheuer/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/fizheuer-zieheuer/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/fizheuer-zieheuer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/fizheuer-zieheuer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/fizheuer-zieheuer/"/>
+  </url>
 </urlset>
