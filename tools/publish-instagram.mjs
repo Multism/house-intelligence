@@ -1,9 +1,10 @@
-// Publication Instagram automatique (API Graph de Meta, « Instagram API with Facebook Login »).
+// Publication Instagram automatique (API de Meta, « Instagram API with Instagram Login » : graph.instagram.com).
 // Lancé par .github/workflows/instagram.yml ; utilisable aussi à la main.
 //
 //   node tools/publish-instagram.mjs --check     → vérifie le jeton et le compte, ne publie rien
 //   node tools/publish-instagram.mjs --dry-run   → montre ce qui serait publié, ne publie rien
 //   node tools/publish-instagram.mjs             → publie le prochain post « approved » de social/posts.json
+//   node tools/publish-instagram.mjs --refresh   → renouvelle le jeton (60 jours) et l'écrit dans social/.token-refreshed
 //
 // Règles :
 // - seul un post au statut "approved" est publié (validation humaine), un seul par lancement, dans l'ordre de n ;
@@ -14,8 +15,9 @@
 //
 // Secrets (jamais dans le dépôt, uniquement en secrets GitHub ou variables d'environnement) :
 //   IG_USER_ID       identifiant du compte Instagram professionnel (nombre de ~17 chiffres)
-//   IG_ACCESS_TOKEN  jeton d'accès de la Page Facebook reliée (sans expiration)
-// Facultatif : SITE_URL (défaut https://house-intelligence.pages.dev), GRAPH_VERSION (défaut v23.0).
+//   IG_ACCESS_TOKEN  jeton Instagram généré dans l'app Meta (valable 60 jours, renouvelable tant qu'il est valide)
+// Facultatif : SITE_URL (défaut https://house-intelligence.pages.dev), GRAPH_VERSION (défaut v23.0),
+// GRAPH_HOST (défaut graph.instagram.com ; graph.facebook.com pour un jeton de Page Facebook).
 //
 // Limite de l'API : la musique Instagram ne peut pas être ajoutée à un post publié ainsi.
 
@@ -26,11 +28,13 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const QUEUE_FILE = join(ROOT, "social", "posts.json");
 const SITE = (process.env.SITE_URL || "https://house-intelligence.pages.dev").replace(/\/$/, "");
-const GRAPH = `https://graph.facebook.com/${process.env.GRAPH_VERSION || "v23.0"}`;
+const HOST = process.env.GRAPH_HOST || "graph.instagram.com";
+const GRAPH = `https://${HOST}/${process.env.GRAPH_VERSION || "v23.0"}`;
 const IG = (process.env.IG_USER_ID || "").trim();
 const TOKEN = (process.env.IG_ACCESS_TOKEN || "").trim();
 const args = process.argv.slice(2);
 const CHECK = args.includes("--check");
+const REFRESH = args.includes("--refresh");
 const DRY = args.includes("--dry-run") || process.env.DRY_RUN === "true";
 
 const summary = (line) => {
@@ -97,6 +101,18 @@ async function waitReady(id) {
 }
 
 // ---------------------------------------------------------------------------
+if (REFRESH) {
+  // Un jeton Instagram dure 60 jours ; on le prolonge à chaque passage. Le nouveau jeton est écrit dans un fichier
+  // non versionné que le workflow enregistre comme secret GitHub, puis supprime.
+  if (!TOKEN) fail("Secret IG_ACCESS_TOKEN manquant.");
+  const r = await fetch(`https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${encodeURIComponent(TOKEN)}`);
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok || !j.access_token) fail(`Renouvellement du jeton impossible : ${j.error?.message || r.status}. Il faut en générer un nouveau dans l'app Meta.`);
+  writeFileSync(join(ROOT, "social", ".token-refreshed"), j.access_token, { mode: 0o600 });
+  summary(`🔑 Jeton renouvelé, valable ${Math.round((j.expires_in || 0) / 86400)} jours.`);
+  process.exit(0);
+}
+
 const queueJson = JSON.parse(readFileSync(QUEUE_FILE, "utf8"));
 const post = nextPost(queueJson.posts);
 

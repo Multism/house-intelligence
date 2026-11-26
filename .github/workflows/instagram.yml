@@ -26,6 +26,8 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      HAS_GH_SECRETS_TOKEN: ${{ secrets.GH_SECRETS_TOKEN != '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -43,6 +45,19 @@ jobs:
             dry-run) node tools/publish-instagram.mjs --dry-run ;;
             *)       node tools/publish-instagram.mjs ;;
           esac
+      - name: Renouveler le jeton Instagram (60 jours)
+        # Nécessite le secret GH_SECRETS_TOKEN (jeton GitHub « fine-grained » avec Secrets : read and write sur ce dépôt).
+        # Sans lui, cette étape est sautée et il faut regénérer IG_ACCESS_TOKEN à la main avant 60 jours.
+        # Meta refuse de renouveler un jeton de moins de 24 h : un échec ici ne bloque pas la publication.
+        if: always() && env.HAS_GH_SECRETS_TOKEN == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          node tools/publish-instagram.mjs --refresh
+          gh secret set IG_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" < social/.token-refreshed
+          rm -f social/.token-refreshed
       - name: Enregistrer le statut publié
         if: steps.pub.outputs.slug != ''
         run: |
