@@ -6,13 +6,15 @@
 //   node tools/instagram.mjs --queue                → tous les posts de la file encore en draft ou approved
 //   node tools/instagram.mjs disque on-and-on       → un disque hors file (accroche et légende générées)
 //   node tools/instagram.mjs machine tr-909         → une machine
-//   node tools/instagram.mjs station warehouse      → une station
+//   node tools/instagram.mjs station warehouse      → une station (style B, ligne de métro)
+//   node tools/instagram.mjs ligne L7               → une ligne de métro entière (style B)
 //   node tools/instagram.mjs --next 4               → les 4 prochains disques ni dans la file ni publiés
 //   node tools/instagram.mjs --posted on-and-on     → marque un disque comme publié (social/posted.json)
 //
 // social/posts.json est la file éditoriale (accroches, légendes et hashtags écrits à la main, statut).
 // Quand un disque y figure, son accroche, sa légende et ses hashtags remplacent le texte généré.
-// Un post de type "feature" (présentation du site, tempos de The Booth…) n'est lié à aucun disque.
+// Types de post (champ kind) : "track" et "feature" (présentation, tempos de The Booth…) en style A, fiche d'archive sombre ;
+// "station" (champ station) et "line" (champ line, ex. "L7") en style B, ligne de métro sur papier clair.
 //
 // Sortie : social/out/<nn>-<slug>/01.jpg … + caption.txt (légende + hashtags, prête à coller).
 
@@ -104,10 +106,30 @@ h2{font:400 84px/1 "Instrument Serif",serif;margin:28px 0 36px}
 .badge{border:2px solid #3a352f;border-radius:16px;padding:16px 20px 14px;min-width:170px}
 .badge small{display:block;font:600 18px/1 "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:#948c7f}
 .badge strong{display:block;font:700 38px/1.1 "JetBrains Mono",monospace;margin-top:10px;white-space:nowrap}
-.cover .meta{margin-top:28px;font:400 22px/1.3 "JetBrains Mono",monospace;color:#948c7f;letter-spacing:.04em}`;
+.cover .meta{margin-top:28px;font:400 22px/1.3 "JetBrains Mono",monospace;color:#948c7f;letter-spacing:.04em}
+/* style B : la ligne de métro, papier clair (posts sur les lignes et les scènes) */
+body.light{background:#f4efe4;color:#111}
+body.light .glow,body.light .grain,body.light .bar{display:none}
+body.light .k{color:#111}
+body.light .k:before{content:"";display:inline-block;width:22px;height:22px;border-radius:50%;background:var(--c);margin-right:14px;vertical-align:-2px}
+body.light h2{font:700 76px/1 "Space Grotesk",sans-serif;letter-spacing:-.03em}
+body.light .list li{border-color:#d8d0c2}body.light .list span{color:#6b645a}
+body.light .cta b{color:#111;background:var(--c);display:inline-block;padding:6px 12px;border-radius:8px}
+body.light .foot{color:#6b645a}body.light .foot b{color:#111}body.light .swipe{color:#111}
+.lineB{position:absolute;left:80px;top:80px;display:flex;align-items:center;gap:20px}
+.lineB .num{width:72px;height:72px;border-radius:50%;background:var(--c);font:700 36px/72px "Space Grotesk",sans-serif;text-align:center;color:#111}
+.lineB .lbl{font:700 28px/1.15 "Space Grotesk",sans-serif;text-transform:uppercase;letter-spacing:.04em}.lineB .lbl span{font-weight:500;color:#6b645a}
+.brandB{position:absolute;right:80px;top:92px;font:700 24px/1.25 "JetBrains Mono",monospace;letter-spacing:.12em;text-transform:uppercase;text-align:right}
+.brandB span{display:block;font-weight:400;color:#6b645a}
+.bodyB{position:absolute;left:80px;right:80px;top:700px;bottom:280px;display:flex;flex-direction:column}
+.bodyB h1{font:700 120px/.95 "Space Grotesk",sans-serif;letter-spacing:-.035em;margin:0}
+.bodyB .sub{font:500 40px/1.2 "Space Grotesk",sans-serif;margin-top:16px;color:#3b362f}
+.bodyB .q{font:italic 400 42px/1.25 "Instrument Serif",serif;margin-top:28px;color:#3b362f}
+.ticket{position:absolute;left:0;right:0;bottom:140px;height:120px;background:#111;color:#f4efe4;display:flex;align-items:center;padding:0 80px;gap:40px;font:600 26px/1 "JetBrains Mono",monospace;letter-spacing:.08em;text-transform:uppercase}
+.ticket b{color:var(--c)}`;
 
-const slide = (color, n, total, inner) => `<!doctype html><html><head><meta charset="utf-8">${FONTS}<style>${CSS}</style></head>
-<body style="--c:${color}"><div class="glow"></div><div class="grain"></div><div class="bar"></div>${inner}
+const slide = (color, n, total, inner, theme = "dark") => `<!doctype html><html><head><meta charset="utf-8">${FONTS}<style>${CSS}</style></head>
+<body class="${theme}" style="--c:${color}"><div class="glow"></div><div class="grain"></div><div class="bar"></div>${inner}
 <div class="foot"><span>${n}/${total}${n < total ? ' <span class="swipe">→</span>' : ""}</span><b>HOUSE<span>/</span>INTELLIGENCE</b></div></body></html>`;
 const content = (inner) => `<div class="in">${inner}</div>`;
 const textSlide = (kicker, title, text, extra = "") => content(`<div class="k">${esc(kicker)}</div><h2>${esc(title)}</h2><div class="fit"><p>${esc(text)}</p>${extra}</div>`);
@@ -125,6 +147,29 @@ ${badges.length ? `<div class="badges">${badges.map(([k, v]) => `<div class="bad
 ${meta ? `<div class="meta">${esc(meta)}</div>` : ""}
 </div>`;
 }
+
+// Couverture style B : un tronçon de ligne de métro (5 stations), la station du post en gros.
+const SHORT = { loft: "The Loft", warehouse: "Warehouse", chicago: "Chicago", acid: "Acid", hiphouse: "Hip-House", footwork: "Footwork",
+  paradise: "Paradise Garage", garage: "Garage", zanzibar: "Zanzibar", ballroom: "Ballroom", soundfactory: "Sound Factory", tribal: "Tribal",
+  deep: "Deep", afro: "Afro House", amapiano: "Amapiano", detroit: "Detroit", electro: "Electro", soundsig: "Sound Signature", lofi: "Lo-Fi",
+  soundsystem: "Sound Systems", shoom: "Shoom", bleep: "Bleep", hardcore: "Jungle", ukg: "UK Garage", dubstep: "Dubstep", charthouse: "Charts",
+  balearic: "Balearic", italo: "Italo", french: "French Touch", techhouse: "Tech House", qweenbeat: "Qween Beat", renaissance: "Renaissance",
+  gqom: "Gqom", trance: "Trance", berlin: "Berlin" };
+function coverB({ line, station, title, sub, hook, badges = [] }) {
+  const all = line.stations, ci = station ? all.indexOf(station) : 0, N = Math.min(5, all.length);
+  const a0 = Math.max(0, Math.min(ci - 2, all.length - N)), sts = all.slice(a0, a0 + N);
+  const x0 = 150, x1 = 930, y = 230, xs = sts.map((_, i) => (N > 1 ? x0 + (i * (x1 - x0)) / (N - 1) : 540));
+  const svg = `<svg width="1080" height="440" style="position:absolute;left:0;top:200px" viewBox="0 0 1080 440">
+<line x1="0" y1="${y}" x2="1080" y2="${y}" stroke="${line.color}" stroke-width="28"/>
+${sts.map((s, i) => { const on = s === station, up = i % 2 === 0;
+  return `<circle cx="${xs[i]}" cy="${y}" r="${on ? 46 : 22}" fill="#f4efe4" stroke="#111" stroke-width="${on ? 12 : 8}"/>
+<text x="${xs[i]}" y="${up ? y - (on ? 76 : 50) : y + (on ? 104 : 76)}" text-anchor="middle" font-family="Space Grotesk" font-weight="${on ? 700 : 500}" font-size="${on ? 36 : 26}" fill="${on ? "#111" : "#6b645a"}">${esc(SHORT[s] || short(metro.stations[s]?.name || s))}</text>`; }).join("")}</svg>`;
+  return `${svg}<div class="lineB"><div class="num">${line.num}</div><div class="lbl">${FR ? "Ligne" : "Line"} ${line.num}<br><span>${esc(f(line, "name"))}</span></div></div>
+<div class="brandB">House Intelligence<span>${esc(SITE_SHORT)}</span></div>
+<div class="bodyB"><h1 style="font-size:${title.length > 20 ? 92 : 120}px">${esc(title)}</h1><div class="sub">${esc(sub)}</div>${hook ? `<div class="q">${esc(hook)}</div>` : ""}</div>
+<div class="ticket">${badges.slice(0, 3).map(([k, v]) => `<span>${esc(k)} <b>${esc(v)}</b></span>`).join("")}</div>`;
+}
+const mainLine = (sid) => (stationLines[sid] || []).find((l) => l.stations.length > 2) || stationLines[sid]?.[0];
 
 // ---------- contenus ----------
 const queued = (id) => queue.find((p) => p.kind === "track" && p.track === id);
@@ -189,23 +234,55 @@ function machinePost(m) {
   return { slug: `machine-${m.id}`, color: c, slides, caption };
 }
 
-function stationPost(sid) {
-  const s = metro.stations[sid], ls = stationLines[sid] || [], c = ls[0]?.color || "#d4ff3a";
-  const recs = [...new Set([...(s.tracks || []), ...tracks.filter((t) => (s.genres || []).includes(t.genre)).map((t) => t.id)])].map((id) => byTrack[id]).filter(Boolean).sort((a, b) => a.year - b.year);
+// Posts sur les scènes (stations) et les lignes : style B, ligne de métro sur papier clair.
+const stationRecords = (sid) => { const s = metro.stations[sid];
+  return [...new Set([...(s.tracks || []), ...tracks.filter((t) => (s.genres || []).includes(t.genre)).map((t) => t.id)])].map((id) => byTrack[id]).filter(Boolean).sort((a, b) => a.year - b.year); };
+
+function stationPost(sid, q) {
+  const s = metro.stations[sid], line = mainLine(sid), c = q?.color || line?.color || "#d4ff3a";
+  const recs = stationRecords(sid);
   const url = `${SITE_SHORT}/${FR ? "" : "en/"}stations/${sid}/`;
   const name = f(s, "name");
+  const hook = q?.hook || firstSentence(f(s, "summary"));
   const slides = [
-    cover({ kicker: `${W.station} · ${s.years}`, title: name, sub: ls.map((l) => `L${l.num} ${f(l, "name")}`).join(" · "), hook: firstSentence(f(s, "summary")),
-      badges: [[W.year, s.years], [W.listen, W.records(recs.length)]] }),
+    line ? coverB({ line, station: sid, title: short(name), sub: s.years, hook, badges: [[W.station, SHORT[sid] || short(name)], [W.year, s.years], [W.listen, W.records(recs.length)]] })
+         : cover({ kicker: `${W.station} · ${s.years}`, title: name, sub: "", hook, badges: [[W.year, s.years]] }),
     textSlide(W.storyK, W.story, f(s, "summary")),
     content(`<div class="k">${W.listen}</div><h2>${W.records(recs.length)}</h2><ul class="list">${recs.slice(0, 7).map((t) => `<li>${esc(short(t.title))} — ${esc(t.artist)}<span>${t.year}</span></li>`).join("")}</ul>
      <div class="cta">${W.onMap}<b>${esc(url)}</b></div>`),
   ];
-  const caption = joinCaption([`${name} (${s.years})`, "", f(s, "summary"), "", `🔗 ${url} (${W.linkBio})`, "", [tag(s.name), ...BASE_TAGS].join(" ")]);
-  return { slug: `station-${sid}`, color: c, slides, caption };
+  const caption = q?.caption && !FR ? joinCaption([q.caption, "", (q.hashtags || []).join(" ")])
+    : joinCaption([`${name} (${s.years})`, "", f(s, "summary"), "", `🔗 ${url} (${W.linkBio})`, "", [tag(s.name), ...BASE_TAGS].join(" ")]);
+  return { slug: q ? `${String(q.n).padStart(2, "0")}-${q.slug}` : `station-${sid}`, color: c, theme: "light", slides, caption };
 }
 
-const fromQueue = (q) => (q.kind === "feature" ? featurePost(q) : q.kind === "track" && byTrack[q.track] ? recordPost(byTrack[q.track], q) : null);
+function linePost(lid, q) {
+  const line = metro.lines.find((l) => l.id === lid), c = line.color;
+  const sts = line.stations.filter((sid) => metro.stations[sid]);
+  const recs = [...new Set(sts.flatMap((sid) => stationRecords(sid)))].sort((a, b) => a.year - b.year);
+  const years = recs.length ? `${recs[0].year} → ${recs.at(-1).year}` : "";
+  const name = f(line, "name");
+  const url = `${SITE_SHORT}/${FR ? "" : "en/"}stations/`;
+  const hook = q?.hook || "";
+  const slides = [
+    coverB({ line, station: null, title: name, sub: years, hook, badges: [[FR ? "Ligne" : "Line", line.num], [FR ? "Stations" : "Stations", sts.length], [FR ? "Disques" : "Records", recs.length]] }),
+    content(`<div class="k">${FR ? "Les stations" : "The stations"}</div><h2>${esc(name)}</h2><ul class="list">${sts.map((sid) => `<li>${esc(short(f(metro.stations[sid], "name")))}<span>${esc(metro.stations[sid].years)}</span></li>`).join("")}</ul>`),
+    content(`<div class="k">${W.listen}</div><h2>${W.records(recs.length)}</h2><ul class="list">${recs.slice(0, 7).map((t) => `<li>${esc(short(t.title))} — ${esc(t.artist)}<span>${t.year}</span></li>`).join("")}</ul>
+     <div class="cta">${FR ? "Toutes les stations sur le plan :" : "Every station on the map:"}<b>${esc(url)}</b></div>`),
+  ];
+  const caption = q?.caption && !FR ? joinCaption([q.caption, "", (q.hashtags || []).join(" ")])
+    : joinCaption([`${FR ? "Ligne" : "Line"} ${line.num} · ${name}${years ? ` · ${years}` : ""}`, "", sts.map((sid) => `${short(f(metro.stations[sid], "name"))} (${metro.stations[sid].years})`).join(" → "), "",
+        `🔗 ${url} (${W.linkBio})`, "", [tag(name), ...BASE_TAGS].join(" ")]);
+  return { slug: q ? `${String(q.n).padStart(2, "0")}-${q.slug}` : `ligne-${lid}`, color: c, theme: "light", slides, caption };
+}
+
+// Style selon le type : disques et fonctions du site en style A (sombre), stations et lignes en style B (clair).
+const fromQueue = (q) =>
+  q.kind === "feature" ? featurePost(q)
+  : q.kind === "track" && byTrack[q.track] ? recordPost(byTrack[q.track], q)
+  : q.kind === "station" && metro.stations[q.station] ? stationPost(q.station, q)
+  : q.kind === "line" && metro.lines.some((l) => l.id === q.line) ? linePost(q.line, q)
+  : null;
 
 // ---------- rendu ----------
 async function render(posts) {
@@ -217,7 +294,7 @@ async function render(posts) {
     rmSync(dir, { recursive: true, force: true });
     mkdirSync(dir, { recursive: true });
     for (let i = 0; i < p.slides.length; i++) {
-      await page.setContent(slide(p.color, i + 1, p.slides.length, p.slides[i]), { waitUntil: "networkidle" });
+      await page.setContent(slide(p.color, i + 1, p.slides.length, p.slides[i], p.theme), { waitUntil: "networkidle" });
       await page.evaluate(async () => {
         await document.fonts.ready;
         for (const box of document.querySelectorAll(".fit")) {
@@ -258,7 +335,8 @@ if (cmd === "--posted") {
 } else if (cmd === "disque" && byTrack[arg]) await render([recordPost(byTrack[arg])]);
 else if (cmd === "machine" && byMachine[arg]) await render([machinePost(byMachine[arg])]);
 else if (cmd === "station" && metro.stations[arg]) await render([stationPost(arg)]);
+else if (cmd === "ligne" && metro.lines.some((l) => l.id === arg)) await render([linePost(arg)]);
 else {
-  console.log("Usage : node tools/instagram.mjs post <n|slug> | --queue | disque <id> | machine <id> | station <id> | --next <n> | --posted <id>  [--fr]");
+  console.log("Usage : node tools/instagram.mjs post <n|slug> | --queue | disque <id> | machine <id> | station <id> | ligne <L1…L9> | --next <n> | --posted <id>  [--fr]");
   process.exit(1);
 }
