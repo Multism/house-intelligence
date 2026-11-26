@@ -195,6 +195,8 @@
 
   let lang = "fr";
   try { const s = localStorage.getItem("hi.lang"); if (s === "en" || s === "fr") lang = s; } catch { /* stockage indisponible */ }
+  // ?lang=en (liens depuis les pages statiques /en/…) : prioritaire sur la préférence enregistrée.
+  try { const q = new URLSearchParams(location.search).get("lang"); if (q === "en" || q === "fr") { lang = q; localStorage.setItem("hi.lang", q); } } catch { /* ignore */ }
 
   const t = (key, vars = {}) => {
     let s = STR[lang][key] ?? STR.fr[key] ?? key;

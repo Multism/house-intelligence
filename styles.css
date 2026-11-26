@@ -653,3 +653,4 @@ body { padding-bottom: 0; }
   .metro-scroll::after { content: "⇠ faites glisser le plan ⇢"; position: sticky; left: 0; display: block; padding: 6px 12px; font: 12px var(--mono); color: var(--ink-3); }
   html[lang="en"] .metro-scroll::after { content: "⇠ swipe the map ⇢"; }
 }
+.foot-links a { color: var(--ink-2); }
