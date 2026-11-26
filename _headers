@@ -11,6 +11,14 @@
   Cache-Control: public, max-age=0, must-revalidate
 /*.html
   Cache-Control: public, max-age=0, must-revalidate
+/disques/*
+  Cache-Control: public, max-age=0, must-revalidate
+/stations/*
+  Cache-Control: public, max-age=0, must-revalidate
+/en/*
+  Cache-Control: public, max-age=0, must-revalidate
+/og/*
+  Cache-Control: public, max-age=86400
 
 # Fichiers non hachés : cache court (5 min) pour qu'un déploiement soit visible vite,
 # et service de la version précédente pendant la revalidation.
