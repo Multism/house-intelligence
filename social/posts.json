@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "account": "house.intelligence.archive",
+    "format": "Carrousels JPEG 1080x1350 (4:5), rendus dans social/media/<slug>/ par `node tools/instagram.mjs media <n>`",
+    "status_values": "draft (à relire) | approved (validé, publié automatiquement au prochain créneau) | published",
+    "note": "File d'attente des premiers posts. Les textes viennent de data/tracks.json du site.",
+    "publication": "GitHub Action .github/workflows/instagram.yml : un post approved par créneau, dans l'ordre de n ; champ facultatif not_before AAAA-MM-JJ"
+  },
+  "posts": [
+    {
+      "n": 1,
+      "slug": "welcome",
+      "kind": "feature",
+      "status": "published",
+      "kicker": "Open archive",
+      "color": "#d4ff3a",
+      "title": "House Intelligence",
+      "sub": "82 records · 9 lines · 1973 → 2024",
+      "hook": "A history of house music, told through its records, its machines and the people who danced first.",
+      "badges": [
+        [
+          "Records",
+          "82"
+        ],
+        [
+          "Lines",
+          "9"
+        ],
+        [
+          "Since",
+          "1973"
+        ]
+      ],
+      "foot": "",
+      "station": "warehouse",
+      "caption": "House didn't start in a studio. It started on dancefloors: the Loft, the Warehouse, the Music Box, the Paradise Garage, built by Black, Latino and queer crowds who kept disco alive after radio declared it dead.\n\nHouse Intelligence is an open archive of that story: 82 records mapped like a metro, from MFSB in 1973 to amapiano in 2024. For each one, how it was built, who made it, which club it belonged to, and why it still matters.\n\nOne record a post, starting now.\n\n🔗 house-intelligence.pages.dev (link in bio)",
+      "hashtags": [
+        "#housemusic",
+        "#househistory",
+        "#chicagohouse",
+        "#garagehouse",
+        "#ballroom",
+        "#djculture",
+        "#musicarchive",
+        "#clubculture",
+        "#vinyl",
+        "#electronicmusichistory"
+      ],
+      "published_at": "2026-11-26",
+      "note": "publié à la main"
+    },
+    {
+      "n": 2,
+      "slug": "on-and-on",
+      "kind": "track",
+      "track": "on-and-on",
+      "status": "draft",
+      "hook": "From now on, anyone with an 808 can make a record.",
+      "caption": "On and On · Jesse Saunders · Chicago, 1984\n\nThe record most often cited as the first house 12\" ever pressed. A looped TR-808, a bouncing synth bass, a vocal pared down to a mantra.\n\nThe story is better than the music: Saunders rebuilt from memory a bootleg edit he used to play out and that had been stolen from him. House begins as a home-made copy of a vanished record.\n\nThe template was set: a DJ, a second-hand machine, an independent pressing (Larry Sherman's plant, the future home of Trax) and a straight line to the local record shops.\n\n120 BPM · 5A · Energy 6/10\n\n🔗 Full record card on house-intelligence.pages.dev",
+      "hashtags": [
+        "#jessesaunders",
+        "#chicagohouse",
+        "#tr808",
+        "#firsthouserecord",
+        "#housemusic",
+        "#househistory",
+        "#trax",
+        "#djculture",
+        "#vinyl"
+      ]
+    },
+    {
+      "n": 3,
+      "slug": "acid-tracks",
+      "kind": "track",
+      "track": "acid-tracks",
+      "status": "draft",
+      "hook": "A bass machine designed to back up guitarists, turned into a voice that squeals and chokes.",
+      "caption": "Acid Tracks · Phuture · Chicago, 1987\n\nDJ Pierre, Earl \"Spanky\" Smith Jr. and Herb J got hold of a second-hand Roland TB-303 without knowing how to use it. The accident became the method: Spanky programmed, Pierre twisted the cutoff and resonance until that sound appeared.\n\nRon Hardy played the tape several times in one night at the Music Box. The crowd rejected it, then demanded it. The name \"acid\" came from a rumour that the DJ was spiking the water.\n\nAcid was born in a Black and gay club. Once it crossed the Atlantic, the smiley partly erased where it came from.\n\n120 BPM · 10A · TB-303 + TR-707\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#acidhouse",
+        "#phuture",
+        "#djpierre",
+        "#tb303",
+        "#ronhardy",
+        "#musicbox",
+        "#chicagohouse",
+        "#housemusic",
+        "#househistory",
+        "#roland"
+      ]
+    },
+    {
+      "n": 4,
+      "slug": "your-love",
+      "kind": "track",
+      "track": "your-love",
+      "status": "draft",
+      "hook": "Proof that Chicago house could be tender and sensual.",
+      "caption": "Your Love · Frankie Knuckles presents Jamie Principle · Chicago, 1987\n\nAn endlessly cycling arpeggio, a minimal bassline and an almost whispered vocal. Jamie Principle wrote it at home; Frankie Knuckles played it from a reel-to-reel tape at the Power Plant for years before it was ever released.\n\nThat is how Chicago worked: the DJ is the first broadcaster, the record comes later.\n\nKnuckles, the Godfather of House, was a Black gay DJ from the Bronx and the Continental Baths. \"Your Love\" is one of the founding love songs of queer house.\n\n120 BPM · 1A · Energy 6/10\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#frankieknuckles",
+        "#jamieprinciple",
+        "#yourlove",
+        "#chicagohouse",
+        "#queerhistory",
+        "#warehouse",
+        "#housemusic",
+        "#househistory",
+        "#trax"
+      ]
+    },
+    {
+      "n": 5,
+      "slug": "strings-of-life",
+      "kind": "track",
+      "track": "strings-of-life",
+      "status": "draft",
+      "hook": "The bridge between house and techno: orchestral emotion carried by the machine.",
+      "caption": "Strings of Life · Rhythim Is Rhythim · Detroit, 1987\n\nSampled strings and a piano improvisation by Michael James, cut into syncopated riffs over a relentless 909. No conventional bassline, so the tension never resolves: an orchestra in free fall.\n\nDerrick May saw the machine as a way out of a city the car industry had left behind. In Europe, the record became a rave anthem.\n\nThe techno story often forgets its queer debts, starting with Ken Collier, the Black gay Detroit DJ whose sets schooled a whole generation.\n\n125 BPM · 4B · Energy 9/10\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#stringsoflife",
+        "#derrickmay",
+        "#detroittechno",
+        "#tr909",
+        "#transmat",
+        "#kencollier",
+        "#housemusic",
+        "#techno",
+        "#househistory"
+      ]
+    },
+    {
+      "n": 6,
+      "slug": "ha-dance",
+      "kind": "track",
+      "track": "ha-dance",
+      "status": "draft",
+      "hook": "Every “ha” calls for a pose, every crash for a dip.",
+      "caption": "The Ha Dance · Masters At Work · New York, 1991\n\nA \"ha!\" sampled from Trading Places, a crash cymbal, a nervy rhythm. Louie Vega and Kenny \"Dope\" Gonzalez made an instrumental; ballroom made it a choreography. The crash on the fourth beat became the cue for vogue femme's dip.\n\nThe sample comes from a scene full of blackface and slurs. Black and Latina, queer and trans ballroom turned it around, and has been reissuing and remixing it for more than thirty years.\n\n122 BPM · 4A · SP-1200 + MPC60\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#thehadance",
+        "#mastersatwork",
+        "#louievega",
+        "#kennydope",
+        "#ballroom",
+        "#voguefemme",
+        "#voguing",
+        "#garagehouse",
+        "#housemusic",
+        "#queerhistory"
+      ],
+      "station": "ballroom"
+    },
+    {
+      "n": 7,
+      "slug": "tempo",
+      "kind": "feature",
+      "status": "draft",
+      "kicker": "The Booth · Pulse",
+      "color": "#ffe14d",
+      "title": "113 · 121 · 132",
+      "sub": "Amapiano · Chicago · UK Garage",
+      "hook": "Three tempos, three ways to move. Press play in The Booth and feel the difference.",
+      "badges": [
+        [
+          "Ke Star",
+          "113"
+        ],
+        [
+          "Move Your Body",
+          "121"
+        ],
+        [
+          "Re-Rewind",
+          "132"
+        ]
+      ],
+      "foot": "Focalistic & Vigro Deep · Marshall Jefferson · Artful Dodger",
+      "caption": "Same pulse, three bodies.\n\n113 BPM: Ke Star (Focalistic & Vigro Deep, 2020). Amapiano sways more than it pushes; the log drum carries the melody.\n121 BPM: Move Your Body (Marshall Jefferson, 1986). Chicago jack, the house anthem.\n132 BPM: Re-Rewind (Artful Dodger feat. Craig David, 1999). UK garage, skipping on a 2-step.\n\nIn The Booth, a small drum machine plays each record's exact tempo with a 909 kick, an 808 sub or a 303 line, and suggests the next record by Camelot key and BPM, like a DJ would.\n\n🔗 Try it: house-intelligence.pages.dev",
+      "hashtags": [
+        "#amapiano",
+        "#chicagohouse",
+        "#ukgarage",
+        "#bpm",
+        "#camelot",
+        "#harmonicmixing",
+        "#djtips",
+        "#housemusic",
+        "#beatmatching"
+      ]
+    },
+    {
+      "n": 8,
+      "slug": "ke-star",
+      "kind": "track",
+      "track": "ke-star",
+      "status": "draft",
+      "hook": "House can slow down without losing its power to move a floor.",
+      "caption": "Ke Star · Focalistic & Vigro Deep · Pretoria, 2020\n\nThe log drum, a percussive bass with a signature glide, carries the melody. Constant shakers, a discreet kick, Focalistic's Sepitori flow floating on top. The groove is horizontal.\n\nVigro Deep, a teenage producer from Mabopane, belongs to the generation that shaped amapiano on FL Studio in Gauteng's townships. Born at neighbourhood parties, in taxis and taverns, the genre was pushed across the continent by the 2020 lockdown.\n\nForty years after Chicago, the same question: who holds the keys to house? Black youth, this time in Africa.\n\n113 BPM · 5A · Log drum\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#amapiano",
+        "#kestar",
+        "#focalistic",
+        "#vigrodeep",
+        "#logdrum",
+        "#southafrica",
+        "#pretoria",
+        "#housemusic",
+        "#afrohouse",
+        "#househistory"
+      ],
+      "station": "amapiano"
+    }
+  ]
+}
