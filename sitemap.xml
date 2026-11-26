@@ -1,9 +1,1913 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- généré par tools/build-pages.mjs — ne pas éditer -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://house-intelligence.pages.dev/</loc>
-    <lastmod>2026-11-25</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-11-26</lastmod>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/loft/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/loft/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/loft/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/loft/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/loft/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/loft/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/loft/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/loft/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/warehouse/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/warehouse/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/warehouse/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/warehouse/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/warehouse/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/warehouse/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/warehouse/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/warehouse/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/chicago/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/chicago/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/chicago/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/chicago/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/chicago/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/chicago/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/chicago/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/chicago/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/acid/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/acid/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/acid/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/acid/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/acid/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/acid/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/acid/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/acid/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/hiphouse/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/hiphouse/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/hiphouse/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/hiphouse/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/hiphouse/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/hiphouse/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/hiphouse/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/hiphouse/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/paradise/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/paradise/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/paradise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/paradise/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/paradise/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/paradise/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/paradise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/paradise/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/garage/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/garage/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/garage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/garage/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/garage/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/garage/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/garage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/garage/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/zanzibar/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/zanzibar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/zanzibar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/zanzibar/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/zanzibar/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/zanzibar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/zanzibar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/zanzibar/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/ballroom/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/ballroom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/ballroom/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/ballroom/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/ballroom/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/ballroom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/ballroom/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/ballroom/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/soundfactory/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/soundfactory/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/soundfactory/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/soundfactory/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/soundfactory/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/soundfactory/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/soundfactory/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/soundfactory/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/tribal/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/tribal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/tribal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/tribal/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/tribal/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/tribal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/tribal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/tribal/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/deep/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/deep/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/deep/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/deep/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/deep/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/deep/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/deep/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/deep/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/afro/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/afro/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/afro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/afro/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/afro/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/afro/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/afro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/afro/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/amapiano/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/amapiano/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/amapiano/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/amapiano/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/amapiano/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/amapiano/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/amapiano/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/amapiano/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/soundsystem/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/soundsystem/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/soundsystem/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/soundsystem/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/soundsystem/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/soundsystem/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/soundsystem/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/soundsystem/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/shoom/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/shoom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/shoom/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/shoom/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/shoom/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/shoom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/shoom/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/shoom/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/bleep/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/bleep/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/bleep/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/bleep/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/bleep/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/bleep/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/bleep/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/bleep/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/hardcore/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/hardcore/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/hardcore/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/hardcore/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/hardcore/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/hardcore/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/hardcore/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/hardcore/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/ukg/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/ukg/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/ukg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/ukg/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/ukg/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/ukg/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/ukg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/ukg/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/dubstep/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/dubstep/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/dubstep/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/dubstep/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/dubstep/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/dubstep/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/dubstep/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/dubstep/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/balearic/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/balearic/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/balearic/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/balearic/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/balearic/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/balearic/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/balearic/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/balearic/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/italo/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/italo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/italo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/italo/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/italo/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/italo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/italo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/italo/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/trance/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/trance/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/trance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/trance/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/trance/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/trance/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/trance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/trance/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/french/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/french/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/french/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/french/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/french/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/french/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/french/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/french/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/techhouse/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/techhouse/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/techhouse/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/techhouse/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/techhouse/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/techhouse/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/techhouse/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/techhouse/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/detroit/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/detroit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/detroit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/detroit/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/detroit/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/detroit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/detroit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/detroit/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/soundsig/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/soundsig/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/soundsig/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/soundsig/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/soundsig/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/soundsig/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/soundsig/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/soundsig/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/lofi/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/lofi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/lofi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/lofi/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/lofi/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/lofi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/lofi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/lofi/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/electro/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/electro/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/electro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/electro/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/electro/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/electro/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/electro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/electro/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/footwork/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/footwork/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/footwork/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/footwork/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/footwork/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/footwork/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/footwork/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/footwork/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/gqom/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/gqom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/gqom/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/gqom/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/gqom/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/gqom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/gqom/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/gqom/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/qweenbeat/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/qweenbeat/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/qweenbeat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/qweenbeat/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/qweenbeat/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/qweenbeat/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/qweenbeat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/qweenbeat/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/renaissance/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/renaissance/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/renaissance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/renaissance/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/renaissance/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/renaissance/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/renaissance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/renaissance/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/berlin/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/berlin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/berlin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/berlin/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/berlin/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/berlin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/berlin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/berlin/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/stations/charthouse/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/charthouse/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/charthouse/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/charthouse/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/stations/charthouse/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/charthouse/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/charthouse/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/stations/charthouse/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/on-and-on/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/on-and-on/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/on-and-on/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/on-and-on/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/on-and-on/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/on-and-on/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/on-and-on/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/on-and-on/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/move-your-body/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/move-your-body/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/move-your-body/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/move-your-body/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/move-your-body/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/move-your-body/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/move-your-body/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/move-your-body/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/acid-tracks/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/acid-tracks/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/acid-tracks/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/acid-tracks/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/acid-tracks/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/acid-tracks/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/acid-tracks/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/acid-tracks/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/voodoo-ray/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/voodoo-ray/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/voodoo-ray/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/voodoo-ray/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/voodoo-ray/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/voodoo-ray/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/voodoo-ray/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/voodoo-ray/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/dont-make-me-wait/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dont-make-me-wait/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dont-make-me-wait/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/dont-make-me-wait/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/dont-make-me-wait/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dont-make-me-wait/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dont-make-me-wait/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/dont-make-me-wait/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/ha-dance/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ha-dance/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ha-dance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/ha-dance/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/ha-dance/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ha-dance/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ha-dance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/ha-dance/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/yo-yo-get-funky/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/yo-yo-get-funky/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/yo-yo-get-funky/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/yo-yo-get-funky/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/yo-yo-get-funky/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/yo-yo-get-funky/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/yo-yo-get-funky/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/yo-yo-get-funky/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/ill-house-you/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ill-house-you/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ill-house-you/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/ill-house-you/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/ill-house-you/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ill-house-you/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ill-house-you/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/ill-house-you/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/strings-of-life/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/strings-of-life/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/strings-of-life/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/strings-of-life/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/strings-of-life/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/strings-of-life/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/strings-of-life/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/strings-of-life/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/big-fun/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/big-fun/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/big-fun/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/big-fun/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/big-fun/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/big-fun/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/big-fun/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/big-fun/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/can-you-feel-it/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/can-you-feel-it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/can-you-feel-it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/can-you-feel-it/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/can-you-feel-it/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/can-you-feel-it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/can-you-feel-it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/can-you-feel-it/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/frozen-calderone/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/frozen-calderone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/frozen-calderone/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/frozen-calderone/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/frozen-calderone/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/frozen-calderone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/frozen-calderone/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/frozen-calderone/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/music-is-the-answer/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/music-is-the-answer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/music-is-the-answer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/music-is-the-answer/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/music-is-the-answer/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/music-is-the-answer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/music-is-the-answer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/music-is-the-answer/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/sueno-latino/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/sueno-latino/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/sueno-latino/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/sueno-latino/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/sueno-latino/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/sueno-latino/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/sueno-latino/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/sueno-latino/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/da-funk/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/da-funk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/da-funk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/da-funk/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/da-funk/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/da-funk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/da-funk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/da-funk/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/music-sounds-better/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/music-sounds-better/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/music-sounds-better/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/music-sounds-better/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/music-sounds-better/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/music-sounds-better/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/music-sounds-better/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/music-sounds-better/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/right-on/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/right-on/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/right-on/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/right-on/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/right-on/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/right-on/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/right-on/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/right-on/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/losing-it/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/losing-it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/losing-it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/losing-it/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/losing-it/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/losing-it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/losing-it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/losing-it/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/re-rewind/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/re-rewind/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/re-rewind/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/re-rewind/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/re-rewind/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/re-rewind/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/re-rewind/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/re-rewind/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/superman/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/superman/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/superman/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/superman/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/superman/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/superman/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/superman/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/superman/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/township-funk/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/township-funk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/township-funk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/township-funk/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/township-funk/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/township-funk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/township-funk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/township-funk/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/winona/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/winona/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/winona/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/winona/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/winona/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/winona/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/winona/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/winona/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/talk-to-me/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/talk-to-me/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/talk-to-me/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/talk-to-me/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/talk-to-me/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/talk-to-me/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/talk-to-me/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/talk-to-me/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/ke-star/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ke-star/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ke-star/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/ke-star/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/ke-star/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ke-star/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ke-star/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/ke-star/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/water-tyla/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/water-tyla/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/water-tyla/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/water-tyla/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/water-tyla/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/water-tyla/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/water-tyla/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/water-tyla/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/love-is-the-message/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/love-is-the-message/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/love-is-the-message/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/love-is-the-message/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/love-is-the-message/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/love-is-the-message/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/love-is-the-message/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/love-is-the-message/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/i-feel-love/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/i-feel-love/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/i-feel-love/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/i-feel-love/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/i-feel-love/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/i-feel-love/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/i-feel-love/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/i-feel-love/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/mighty-real/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/mighty-real/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/mighty-real/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/mighty-real/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/mighty-real/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/mighty-real/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/mighty-real/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/mighty-real/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/love-sensation/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/love-sensation/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/love-sensation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/love-sensation/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/love-sensation/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/love-sensation/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/love-sensation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/love-sensation/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/your-love/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/your-love/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/your-love/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/your-love/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/your-love/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/your-love/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/your-love/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/your-love/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/love-cant-turn-around/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/love-cant-turn-around/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/love-cant-turn-around/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/love-cant-turn-around/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/love-cant-turn-around/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/love-cant-turn-around/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/love-cant-turn-around/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/love-cant-turn-around/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/jack-your-body/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/jack-your-body/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/jack-your-body/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/jack-your-body/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/jack-your-body/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/jack-your-body/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/jack-your-body/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/jack-your-body/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/promised-land/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/promised-land/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/promised-land/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/promised-land/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/promised-land/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/promised-land/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/promised-land/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/promised-land/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/french-kiss/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/french-kiss/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/french-kiss/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/french-kiss/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/french-kiss/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/french-kiss/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/french-kiss/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/french-kiss/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/pacific-state/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/pacific-state/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/pacific-state/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/pacific-state/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/pacific-state/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/pacific-state/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/pacific-state/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/pacific-state/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/stakker-humanoid/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/stakker-humanoid/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/stakker-humanoid/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/stakker-humanoid/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/stakker-humanoid/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/stakker-humanoid/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/stakker-humanoid/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/stakker-humanoid/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/gypsy-woman/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/gypsy-woman/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/gypsy-woman/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/gypsy-woman/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/gypsy-woman/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/gypsy-woman/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/gypsy-woman/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/gypsy-woman/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/show-me-love/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/show-me-love/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/show-me-love/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/show-me-love/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/show-me-love/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/show-me-love/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/show-me-love/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/show-me-love/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/thats-the-way-love-is/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/thats-the-way-love-is/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/thats-the-way-love-is/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/thats-the-way-love-is/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/thats-the-way-love-is/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/thats-the-way-love-is/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/thats-the-way-love-is/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/thats-the-way-love-is/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/clear/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/clear/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/clear/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/clear/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/clear/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/clear/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/clear/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/clear/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/no-ufos/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/no-ufos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/no-ufos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/no-ufos/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/no-ufos/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/no-ufos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/no-ufos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/no-ufos/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/knights-of-the-jaguar/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/knights-of-the-jaguar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/knights-of-the-jaguar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/knights-of-the-jaguar/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/knights-of-the-jaguar/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/knights-of-the-jaguar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/knights-of-the-jaguar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/knights-of-the-jaguar/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/crispy-bacon/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/crispy-bacon/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/crispy-bacon/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/crispy-bacon/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/crispy-bacon/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/crispy-bacon/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/crispy-bacon/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/crispy-bacon/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/cassius-1999/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/cassius-1999/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/cassius-1999/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/cassius-1999/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/cassius-1999/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/cassius-1999/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/cassius-1999/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/cassius-1999/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/lady-modjo/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/lady-modjo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/lady-modjo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/lady-modjo/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/lady-modjo/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/lady-modjo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/lady-modjo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/lady-modjo/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/positive-education/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/positive-education/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/positive-education/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/positive-education/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/positive-education/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/positive-education/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/positive-education/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/positive-education/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/charly/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/charly/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/charly/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/charly/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/charly/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/charly/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/charly/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/charly/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/i-want-you-forever/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/i-want-you-forever/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/i-want-you-forever/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/i-want-you-forever/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/i-want-you-forever/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/i-want-you-forever/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/i-want-you-forever/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/i-want-you-forever/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/go-moby/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/go-moby/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/go-moby/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/go-moby/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/go-moby/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/go-moby/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/go-moby/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/go-moby/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/music-bukem/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/music-bukem/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/music-bukem/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/music-bukem/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/music-bukem/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/music-bukem/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/music-bukem/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/music-bukem/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/inner-city-life/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/inner-city-life/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/inner-city-life/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/inner-city-life/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/inner-city-life/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/inner-city-life/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/inner-city-life/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/inner-city-life/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/incredible/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/incredible/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/incredible/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/incredible/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/incredible/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/incredible/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/incredible/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/incredible/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/age-of-love/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/age-of-love/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/age-of-love/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/age-of-love/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/age-of-love/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/age-of-love/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/age-of-love/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/age-of-love/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/cafe-del-mar/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/cafe-del-mar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/cafe-del-mar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/cafe-del-mar/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/cafe-del-mar/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/cafe-del-mar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/cafe-del-mar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/cafe-del-mar/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/for-an-angel/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/for-an-angel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/for-an-angel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/for-an-angel/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/for-an-angel/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/for-an-angel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/for-an-angel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/for-an-angel/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/children/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/children/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/children/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/children/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/children/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/children/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/children/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/children/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/alabama-blues/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/alabama-blues/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/alabama-blues/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/alabama-blues/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/alabama-blues/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/alabama-blues/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/alabama-blues/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/alabama-blues/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/beautiful-people/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/beautiful-people/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/beautiful-people/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/beautiful-people/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/beautiful-people/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/beautiful-people/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/beautiful-people/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/beautiful-people/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/blue-monday/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/blue-monday/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/blue-monday/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/blue-monday/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/blue-monday/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/blue-monday/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/blue-monday/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/blue-monday/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/planet-rock/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/planet-rock/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/planet-rock/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/planet-rock/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/planet-rock/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/planet-rock/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/planet-rock/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/planet-rock/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/ten-percent/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ten-percent/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ten-percent/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/ten-percent/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/ten-percent/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ten-percent/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ten-percent/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/ten-percent/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/is-it-all-over-my-face/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/is-it-all-over-my-face/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/is-it-all-over-my-face/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/is-it-all-over-my-face/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/is-it-all-over-my-face/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/is-it-all-over-my-face/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/is-it-all-over-my-face/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/is-it-all-over-my-face/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/energy-flash-beltram/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/energy-flash-beltram/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/energy-flash-beltram/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/energy-flash-beltram/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/energy-flash-beltram/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/energy-flash-beltram/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/energy-flash-beltram/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/energy-flash-beltram/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/higher-state-of-consciousness/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/higher-state-of-consciousness/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/higher-state-of-consciousness/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/higher-state-of-consciousness/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/higher-state-of-consciousness/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/higher-state-of-consciousness/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/higher-state-of-consciousness/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/higher-state-of-consciousness/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/technopolis/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/technopolis/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/technopolis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/technopolis/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/technopolis/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/technopolis/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/technopolis/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/technopolis/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/vogue/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/vogue/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/vogue/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/vogue/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/vogue/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/vogue/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/vogue/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/vogue/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/break-my-soul/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/break-my-soul/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/break-my-soul/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/break-my-soul/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/break-my-soul/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/break-my-soul/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/break-my-soul/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/break-my-soul/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/tshwala-bam/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/tshwala-bam/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/tshwala-bam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/tshwala-bam/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/tshwala-bam/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/tshwala-bam/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/tshwala-bam/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/tshwala-bam/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/reachin/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/reachin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/reachin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/reachin/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/reachin/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/reachin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/reachin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/reachin/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/keep-on-movin/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/keep-on-movin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/keep-on-movin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/keep-on-movin/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/keep-on-movin/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/keep-on-movin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/keep-on-movin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/keep-on-movin/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/lfo/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/lfo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/lfo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/lfo/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/lfo/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/lfo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/lfo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/lfo/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/midnight-request-line/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/midnight-request-line/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/midnight-request-line/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/midnight-request-line/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/midnight-request-line/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/midnight-request-line/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/midnight-request-line/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/midnight-request-line/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/summertime-is-here/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/summertime-is-here/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/summertime-is-here/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/summertime-is-here/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/summertime-is-here/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/summertime-is-here/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/summertime-is-here/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/summertime-is-here/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/ice-drop/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ice-drop/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ice-drop/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/ice-drop/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/ice-drop/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ice-drop/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ice-drop/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/ice-drop/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/double-cup/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/double-cup/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/double-cup/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/double-cup/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/double-cup/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/double-cup/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/double-cup/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/double-cup/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/feels-like/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/feels-like/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/feels-like/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/feels-like/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/feels-like/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/feels-like/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/feels-like/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/feels-like/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/dawning/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dawning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dawning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/dawning/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/dawning/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dawning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dawning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/dawning/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/not-about-you/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/not-about-you/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/not-about-you/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/not-about-you/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/not-about-you/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/not-about-you/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/not-about-you/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/not-about-you/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/u-seinfeld/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/u-seinfeld/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/u-seinfeld/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/u-seinfeld/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/u-seinfeld/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/u-seinfeld/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/u-seinfeld/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/u-seinfeld/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/black-mahogani/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/black-mahogani/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/black-mahogani/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/black-mahogani/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/black-mahogani/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/black-mahogani/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/black-mahogani/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/black-mahogani/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/dance-justice/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dance-justice/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dance-justice/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/dance-justice/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/dance-justice/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dance-justice/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dance-justice/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/dance-justice/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/need-u/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/need-u/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/need-u/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/need-u/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/need-u/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/need-u/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/need-u/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/need-u/"/>
   </url>
 </urlset>
