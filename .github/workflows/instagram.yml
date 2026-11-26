@@ -5,8 +5,6 @@
 name: Instagram
 
 on:
-  push:
-    branches: [claude/project-thread-cts05y]  # TEMPORAIRE : test du jeton (mode check) avant fusion
   schedule:
     - cron: "0 17 * * 1,3,5"
   workflow_dispatch:
@@ -29,8 +27,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
       - name: Publier
@@ -39,7 +37,7 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: |
-          MODE="${{ github.event.inputs.mode || (github.event_name == 'push' && 'check') || 'publish' }}"
+          MODE="${{ github.event.inputs.mode || 'publish' }}"
           case "$MODE" in
             check)   node tools/publish-instagram.mjs --check ;;
             dry-run) node tools/publish-instagram.mjs --dry-run ;;
