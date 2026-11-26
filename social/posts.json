@@ -54,7 +54,7 @@
       "slug": "on-and-on",
       "kind": "track",
       "track": "on-and-on",
-      "status": "draft",
+      "status": "approved",
       "hook": "From now on, anyone with an 808 can make a record.",
       "caption": "On and On · Jesse Saunders · Chicago, 1984\n\nThe record most often cited as the first house 12\" ever pressed. A looped TR-808, a bouncing synth bass, a vocal pared down to a mantra.\n\nThe story is better than the music: Saunders rebuilt from memory a bootleg edit he used to play out and that had been stolen from him. House begins as a home-made copy of a vanished record.\n\nThe template was set: a DJ, a second-hand machine, an independent pressing (Larry Sherman's plant, the future home of Trax) and a straight line to the local record shops.\n\n120 BPM · 5A · Energy 6/10\n\n🔗 Full record card on house-intelligence.pages.dev",
       "hashtags": [
@@ -67,7 +67,8 @@
         "#trax",
         "#djculture",
         "#vinyl"
-      ]
+      ],
+      "not_before": "2026-11-27"
     },
     {
       "n": 3,
