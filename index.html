@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>House Intelligence — généalogie, machines et sociologie de la house (1970 → aujourd'hui)</title>
+  <meta name="description" content="82 disques, 35 stations et 9 lignes pour comprendre l'histoire de la house : Chicago, Detroit, New York, Londres, Paris, Johannesburg. Fiches, machines, transitions Camelot et sources.">
+  <link rel="canonical" href="https://house-intelligence.pages.dev/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="House Intelligence">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:locale:alternate" content="en_GB">
+  <meta property="og:title" content="House Intelligence — le plan généalogique de la house">
+  <meta property="og:description" content="82 disques, 35 stations, 9 lignes : histoire, machines et sociologie de la house, de 1970 à aujourd'hui.">
+  <meta property="og:url" content="https://house-intelligence.pages.dev/">
+  <meta property="og:image" content="https://house-intelligence.pages.dev/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="House Intelligence — plan du métro généalogique de la house">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="House Intelligence — le plan généalogique de la house">
+  <meta name="twitter:description" content="82 disques, 35 stations, 9 lignes : histoire, machines et sociologie de la house.">
+  <meta name="twitter:image" content="https://house-intelligence.pages.dev/og-image.png">
+  <meta name="theme-color" content="#0d0c0b">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "House Intelligence", "url": "https://house-intelligence.pages.dev/", "description": "Généalogie, machines et sociologie de la musique house : 82 disques, 35 stations, 9 lignes.", "inLanguage": ["fr", "en"], "publisher": {"@type": "Organization", "name": "House Intelligence"}}</script>
+</head>
+<body>
+  <a class="skip" href="#views" data-i18n="skip">Aller au contenu</a>
+  <header class="top">
+    <div class="brand">
+      <a href="#metro" class="logo" data-i18n-attr="aria-label=logo.aria" aria-label="House Intelligence, retour au plan du métro">HOUSE<span>/</span>INTELLIGENCE</a>
+      <p class="tagline" data-i18n="tagline">Booth éditorial · histoire, machines &amp; sociologie de la house · 1970 → aujourd'hui</p>
+      <nav class="viewnav" data-i18n-attr="aria-label=nav.aria" aria-label="Vues">
+        <a href="#metro" data-view-link="metro" data-i18n="nav.metro">Plan du Métro <small>(Généalogie)</small></a>
+        <a href="#booth" data-view-link="booth" data-i18n="nav.booth">The Booth</a>
+        <a href="#bibliotheque" data-view-link="bibliotheque" data-i18n="nav.library">Bibliothèque</a>
+      </nav>
+      <div class="lang-switch" role="group" data-i18n-attr="aria-label=lang.aria" aria-label="Langue">
+        <button type="button" data-lang="fr" aria-pressed="true" lang="fr">FR</button><button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="views" tabindex="-1">
+  <div class="view" data-view="booth" hidden>
+  <h1 class="sr-only">The Booth</h1>
+  <nav class="filters" data-i18n-attr="aria-label=filters.aria" aria-label="Filtres">
+      <div class="filter-row" role="group" data-i18n-attr="aria-label=filters.eras.aria" aria-label="Époques">
+        <span class="filter-label" data-i18n="filters.eras">Ères</span>
+        <div id="era-filters" class="chips"></div>
+      </div>
+      <div class="filter-row" role="group" data-i18n-attr="aria-label=filters.genres.aria" aria-label="Sous-genres">
+        <span class="filter-label" data-i18n="filters.genres">Genres</span>
+        <div id="genre-filters" class="chips scroll"></div>
+      </div>
+      <div class="filter-row" role="group" aria-label="Machines">
+        <span class="filter-label" data-i18n="filters.machines">Machines</span>
+        <div id="machine-filters" class="chips scroll"></div>
+      </div>
+    </nav>
+  <div class="layout">
+    <!-- CRATE -->
+    <aside class="panel crate" aria-labelledby="crate-title">
+      <div class="panel-head">
+        <h2 id="crate-title" data-i18n="crate.title">Le Bac</h2>
+        <span class="count" id="crate-count"></span>
+      </div>
+      <p class="era-desc" id="era-desc"></p>
+      <ol id="crate-list" class="crate-list"></ol>
+    </aside>
+
+    <!-- BOOTH -->
+    <section class="booth" aria-labelledby="booth-title">
+      <h2 id="booth-title" class="sr-only">The Booth</h2>
+
+      <article class="deck now" id="now-playing">
+        <div class="vinyl-wrap"><div class="vinyl" id="vinyl"><div class="vinyl-label" id="vinyl-label"></div></div></div>
+        <div class="deck-info">
+          <p class="kicker"><span data-i18n="deck.kicker">Sur la platine</span> · <span id="now-genre"></span></p>
+          <h3 class="title" id="now-title"></h3>
+          <p class="artist" id="now-artist"></p>
+          <ul class="badges" id="now-badges"></ul>
+          <p class="why" id="now-why"></p>
+          <div class="deck-actions">
+            <button class="btn listen" id="btn-listen" data-i18n="deck.listen">▶ Écouter le disque</button>
+            <a class="ext" id="now-spotify" target="_blank" rel="noopener" data-i18n="deck.spotify">Ouvrir dans Spotify ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <section class="transition" aria-labelledby="tr-title">
+        <div class="section-head">
+          <h3 id="tr-title" data-i18n="tr.title">Transition recommandée</h3>
+          <details class="glossary"><summary data-i18n="tr.how">Comment ça marche ?</summary><div data-i18n="tr.how.body">
+            <p><b>Camelot</b> : les 24 tonalités sont rangées sur une roue de 1 à 12 (A = mineur, B = majeur). Deux disques voisins sur la roue se superposent sans fausse note.</p>
+            <p><b>Pitch</b> : le curseur de vitesse d'une platine, généralement ±8 %. Au-delà, on ne peut plus caler les deux disques.</p>
+            <p><b>Compatibilité</b> : un score sur 100 qui combine l'harmonie (48 %), la proximité de tempo (37 %) et l'intention choisie dans « Steer the Room ».</p></div>
+          </details>
+        </div>
+        <div class="tr-grid">
+          <svg id="camelot-wheel" class="wheel" viewBox="-110 -110 220 220" role="img" data-i18n-attr="aria-label=tr.wheel" aria-label="Roue Camelot"></svg>
+          <div class="tr-body">
+            <div class="tr-next" id="tr-next"></div>
+            <div class="tempo" data-i18n-attr="aria-label=tr.tempo" aria-label="Delta de tempo">
+              <div class="tempo-scale" id="tempo-scale"></div>
+              <div class="tempo-legend" id="tempo-legend"></div>
+            </div>
+            <div class="tr-metrics" id="tr-metrics"></div>
+            <p class="tr-narrative" id="tr-narrative"></p>
+            <div class="tr-actions">
+              <button class="btn primary" id="btn-mix" data-i18n="tr.mix">Enchaîner →</button>
+              <div class="alts" id="tr-alts"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="steer" aria-labelledby="steer-title">
+        <div class="section-head">
+          <h3 id="steer-title">Steer the Room</h3>
+          <span class="algo-note" id="steer-state"></span>
+        </div>
+        <div class="steer-grid" id="steer-grid"></div>
+      </section>
+
+      <section class="pulse" aria-labelledby="pulse-title">
+        <div class="section-head">
+          <h3 id="pulse-title" data-i18n="pulse.title">Pulse · boîte à rythmes</h3>
+          <span class="algo-note" id="pulse-groove"></span>
+        </div>
+        <div class="pulse-row">
+          <button class="btn play" id="btn-play" aria-pressed="false"><span class="ico">▶</span> <span class="lbl">Lancer le pulse</span></button>
+          <div class="bpm-readout"><span id="pulse-bpm">—</span><small>BPM</small></div>
+          <div class="seg" role="radiogroup" data-i18n-attr="aria-label=pulse.engine" aria-label="Moteur sonore" id="engine-seg">
+            <button role="radio" data-engine="909" aria-checked="true">Kick 909</button>
+            <button role="radio" data-engine="808" aria-checked="false">Sub 808</button>
+            <button role="radio" data-engine="303" aria-checked="false">Acid 303</button>
+            <button role="radio" data-engine="log" aria-checked="false">Log drum</button>
+          </div>
+          <label class="vol"><span data-i18n="pulse.vol">Vol</span> <input type="range" id="vol" min="0" max="1" step="0.01" value="0.7"></label>
+        </div>
+        <div class="steps" id="steps" aria-hidden="true"></div>
+        <div class="feel">
+          <span class="filter-label" data-i18n="pulse.feel">Ressentir le tempo</span>
+          <div class="chips" id="feel-chips"></div>
+        </div>
+      </section>
+    </section>
+
+    <!-- RIGHT -->
+    <aside class="side">
+      <section class="panel archaeo" aria-labelledby="arch-title">
+        <div class="panel-head"><h2 id="arch-title" data-i18n="arch.title">Archéologie culturelle</h2></div>
+        <div class="tabs" role="tablist" id="tabs">
+          <button role="tab" id="tab-story" aria-controls="tp-story" aria-selected="false" tabindex="-1" data-i18n="tab.story" hidden>Histoire &amp; chronologie</button>
+          <button role="tab" id="tab-machines" aria-controls="tp-machines" aria-selected="true" data-i18n="tab.machines">Machines &amp; construction</button>
+          <button role="tab" id="tab-origins" aria-controls="tp-origins" aria-selected="false" tabindex="-1" data-i18n="tab.origins">Origines</button>
+          <button role="tab" id="tab-queer" aria-controls="tp-queer" aria-selected="false" tabindex="-1" data-i18n="tab.queer">Ballroom &amp; queer</button>
+          <button role="tab" id="tab-socio" aria-controls="tp-socio" aria-selected="false" tabindex="-1" data-i18n="tab.socio">Sociologie &amp; source</button>
+        </div>
+        <div class="tabpanel" role="tabpanel" id="tp-story" aria-labelledby="tab-story" hidden></div>
+        <div class="tabpanel" role="tabpanel" id="tp-machines" aria-labelledby="tab-machines"></div>
+        <div class="tabpanel" role="tabpanel" id="tp-origins" aria-labelledby="tab-origins" hidden></div>
+        <div class="tabpanel" role="tabpanel" id="tp-queer" aria-labelledby="tab-queer" hidden></div>
+        <div class="tabpanel" role="tabpanel" id="tp-socio" aria-labelledby="tab-socio" hidden></div>
+      </section>
+
+      <section class="panel memory" aria-labelledby="mem-title">
+        <div class="panel-head">
+          <h2 id="mem-title">The Memory</h2>
+          <div class="mem-actions">
+            <button class="btn ghost sm" id="exp-md">.md</button>
+            <button class="btn ghost sm" id="exp-json">.json</button>
+            <button class="btn ghost sm" id="mem-clear" data-i18n-attr="title=mem.clear;aria-label=mem.clear" title="Effacer la session">✕</button>
+          </div>
+        </div>
+        <ol class="timeline" id="timeline"></ol>
+      </section>
+    </aside>
+  </div>
+
+  </div><!-- /booth -->
+
+  <section class="view metro-view" data-view="metro" aria-labelledby="metro-title" hidden>
+    <div class="view-head">
+      <h1 id="metro-title" data-i18n="metro.title">Plan du Métro <small>Généalogie de la house</small></h1>
+      <p data-i18n="metro.intro">Neuf lignes, de la disco du Loft à l'amapiano. Cliquez sur une station pour son histoire et ses disques, sur une correspondance (trait en pointillé) pour le pont entre deux scènes.</p>
+    </div>
+    <div class="metro-tools">
+      <ul class="metro-legend" id="metro-legend" data-i18n-attr="aria-label=metro.lines" aria-label="Lignes"></ul>
+      <div class="metro-actions">
+        <button class="btn sm" id="metro-share" data-i18n="metro.share">Partager la vue</button>
+        <button class="btn sm" id="metro-export" data-i18n="metro.export">Exporter (SVG)</button>
+      </div>
+    </div>
+    <div class="metro-grid">
+      <div class="metro-scroll"><svg id="metro-svg" viewBox="40 0 1200 860" role="group" data-i18n-attr="aria-label=metro.svg" aria-label="Plan du métro généalogique de la house"></svg>
+        <div class="metro-bubble" id="metro-bubble" role="dialog" aria-live="polite" hidden></div></div>
+      <aside class="panel metro-panel" id="metro-panel" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <section class="view lib-view" data-view="bibliotheque" aria-labelledby="biblio-title" hidden>
+    <div class="view-head">
+      <h1 id="biblio-title" data-i18n="lib.title">La Bibliothèque</h1>
+      <p data-i18n="lib.intro">Toutes les références du projet (livres, films, magazines) et les disques qu'elles éclairent.</p>
+    </div>
+    <div class="lib-tools">
+      <div class="chips" id="lib-types"></div>
+      <input type="search" id="lib-search" placeholder="Chercher un titre, un auteur, un thème…" aria-label="Chercher dans la bibliothèque" data-i18n-attr="placeholder=lib.search;aria-label=lib.searchAria">
+    </div>
+    <div class="lib-grid" id="lib-grid"></div>
+  </section>
+  </main><!-- /views -->
+
+  <!-- FENÊTRE D'ÉCOUTE PERSISTANTE -->
+  <aside class="fw" id="fw" data-size="mini" data-i18n-attr="aria-label=fw.aria" aria-label="Fenêtre d'écoute">
+    <div class="fw-head">
+      <span class="fw-dot" aria-hidden="true"></span>
+      <span class="fw-label" data-i18n="fw.label">Fenêtre d'écoute</span>
+      <button class="fw-icon" id="fw-side" data-i18n-attr="aria-label=fw.side;title=fw.sideTitle" aria-label="Déplacer la fenêtre de l'autre côté" title="Changer de côté">⇆</button>
+      <button class="fw-icon" id="fw-size" aria-label="Réduire la fenêtre" >▁</button>
+      <button class="fw-icon" id="fw-close" data-i18n-attr="aria-label=fw.close;title=fw.close" aria-label="Fermer la fenêtre" title="Fermer la fenêtre">✕</button>
+      <button class="fw-icon" id="fw-big" aria-label="Agrandir la fenêtre" >⤢</button>
+    </div>
+    <div class="fw-video"><div id="yt-player"></div><div class="yt-empty" id="yt-empty" data-i18n="fw.empty">Cliquez ▶ sur un disque</div></div>
+    <div class="fw-info" id="fw-info"><span class="fw-title" data-i18n="fw.none">Aucun disque en cours</span><span class="fw-meta" data-i18n="fw.noneHint">Le Bac, le Booth ou une station du métro</span></div>
+    <div class="fw-controls">
+      <button class="btn sm" id="fw-prev" data-i18n-attr="aria-label=fw.prev" aria-label="Disque précédent">⏮</button>
+      <button class="btn sm primary" id="fw-toggle" data-i18n-attr="aria-label=fw.toggle" aria-label="Lecture ou pause">▶</button>
+      <button class="btn sm" id="fw-next" data-i18n-attr="aria-label=fw.next" aria-label="Disque suivant">⏭</button>
+      <label class="fw-mode"><span class="sr-only" data-i18n="fw.mode">Enchaînement</span>
+        <select id="fw-mode"><option value="list" data-i18n="fw.mode.list">Suite de la liste</option><option value="algo" data-i18n="fw.mode.algo">Transition Camelot</option><option value="shuffle" data-i18n="fw.mode.shuffle">Aléatoire</option></select></label>
+      <button class="btn sm ghost" id="fw-open" disabled data-i18n="fw.open">Voir dans The Booth</button>
+    </div>
+  </aside>
+
+  <footer class="foot">
+    <p><span data-i18n="foot">House Intelligence · v1 — BPM et clés : valeurs éditoriales indicatives. Sources : </span></p>
+    <details class="foot-src"><summary data-i18n="foot.sources">Les sources du projet</summary><p id="foot-sources"></p></details>
+  </footer>
+
+  <dialog id="modal" class="modal">
+    <form method="dialog"><button class="close" data-i18n-attr="aria-label=mod.close" aria-label="Fermer">✕</button></form>
+    <div id="modal-body"></div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="i18n.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="metro.js" defer></script>
+</body>
+</html>

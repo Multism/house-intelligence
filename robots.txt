@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Remplacer par le domaine définitif le jour où il sera attaché.
+Sitemap: https://house-intelligence.pages.dev/sitemap.xml

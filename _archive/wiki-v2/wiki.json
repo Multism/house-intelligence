@@ -1,0 +1,101 @@
+{
+  "_meta": { "note": "Contenu éditorial du wiki : récit d'accueil, chronologie, récits de genres. Les récits complets (story) existent pour 5 genres prioritaires ; les autres ont une introduction." },
+  "home": {
+    "lede": "La house est née à la fin des années 70 dans les clubs noirs, latinos et gays de New York et de Chicago, quand la disco, déclarée morte par la radio, a continué de vivre sur les pistes. Des DJs l'ont rallongée, découpée, puis reprogrammée sur des boîtes à rythmes bon marché. Quarante ans plus tard, cette grammaire s'est répandue de Manchester à Paris et de Detroit à Johannesburg.",
+    "paragraphs": [
+      "Ce wiki suit cette histoire par les disques. Chaque morceau est relié à son genre, sa ville, son label, aux machines qui l'ont fabriqué et aux livres qui en parlent. On peut le lire comme une encyclopédie, l'écouter comme une radio, ou, pour les DJs, l'explorer comme une platine.",
+      "Trois fils traversent tout le site : les machines détournées (la 808, la 909, la 303 et le log drum, nés pour d'autres usages), les communautés qui ont inventé ces musiques et qu'on a souvent effacées du récit, et la circulation de la house entre villes et continents."
+    ]
+  },
+  "timeline": [
+    { "year": 1970, "title": "Le Loft ouvre à New York", "text": "David Mancuso organise sur invitation des fêtes privées dans son loft. Le son, la sélection et la nuit entière deviennent un art : c'est la matrice de toute la culture club.", "genre": "disco" },
+    { "year": 1977, "title": "Le Warehouse et le Paradise Garage", "text": "Frankie Knuckles s'installe au Warehouse de Chicago ; Larry Levan prend les platines du Paradise Garage à New York. Les deux amis d'enfance vont donner leur nom à la house et au garage.", "genre": "garage-nyc" },
+    { "year": 1979, "title": "« Disco Demolition Night »", "text": "À Chicago, une radio rock fait exploser des disques disco dans un stade. La disco quitte les charts mais survit dans les clubs noirs et gays, où elle va muter.", "genre": "chicago", "track": "love-is-the-message" },
+    { "year": 1983, "title": "Cybotron, « Clear »", "text": "À Detroit, Juan Atkins mêle Kraftwerk et funk sur une 808 : la future techno se dessine.", "genre": "detroit", "track": "clear" },
+    { "year": 1984, "title": "Le premier 12\" house", "text": "Jesse Saunders presse « On and On » : avec une boîte à rythmes et un pressage indépendant, n'importe quel DJ peut faire un disque.", "genre": "chicago", "track": "on-and-on" },
+    { "year": 1987, "title": "« Jack Your Body » n° 1 au Royaume-Uni, « Acid Tracks » sort", "text": "La house de Chicago conquiert les charts britanniques, et la TB-303 détournée par Phuture invente l'acid house.", "genre": "acid", "track": "acid-tracks" },
+    { "year": 1988, "title": "Second Summer of Love", "text": "Shoom, Spectrum, l'Haçienda et les warehouses : l'acid house devient un mouvement de masse en Grande-Bretagne.", "genre": "acid", "track": "voodoo-ray" },
+    { "year": 1990, "title": "« Paris Is Burning »", "text": "Le documentaire de Jennie Livingston montre au monde la ballroom new-yorkaise, dont le vogue danse sur la house.", "genre": "garage-nyc", "track": "ha-dance" },
+    { "year": 1994, "title": "Criminal Justice Act", "text": "La loi britannique vise les rassemblements sur de la musique « caractérisée par des rythmes répétitifs » : la rave devient un enjeu politique.", "genre": "rave-jungle", "track": "charly" },
+    { "year": 1997, "title": "« Homework » et la French Touch", "text": "Le premier album de Daft Punk installe Paris sur la carte : boucles disco filtrées et export mondial.", "genre": "french-touch", "track": "da-funk" },
+    { "year": 1999, "title": "Le 2-step britannique", "text": "Artful Dodger et Craig David portent l'UK garage dans les charts : la house syncopée de Londres, d'où sortiront le grime et le dubstep.", "genre": "ukg", "track": "re-rewind" },
+    { "year": 2009, "title": "La house sud-africaine", "text": "Black Coffee devient la figure d'une scène qui fait de la house une musique populaire de masse en Afrique du Sud.", "genre": "afro", "track": "superman" },
+    { "year": 2016, "title": "La lo-fi house", "text": "YouTube et ses algorithmes diffusent une house saturée et nostalgique, écoutée au casque avant d'être jouée en club.", "genre": "lofi", "track": "winona" },
+    { "year": 2020, "title": "L'amapiano déborde des townships", "text": "Né dans le Gauteng, porté par le log drum, l'amapiano se répand pendant le confinement via les réseaux sociaux.", "genre": "amapiano", "track": "ke-star" },
+    { "year": 2024, "title": "Un Grammy pour l'amapiano", "text": "« Water » de Tyla remporte le premier Grammy de la meilleure performance musicale africaine.", "genre": "amapiano", "track": "water-tyla" }
+  ],
+  "genres": {
+    "chicago": {
+      "featured": true,
+      "lede": "La house porte le nom d'un club : le Warehouse de Chicago. Elle est née de la rencontre entre la disco que la radio avait abandonnée, des DJs qui la refusaient morte et des boîtes à rythmes vendues au rabais.",
+      "story": [
+        "Le 12 juillet 1979, une radio rock de Chicago fait exploser des caisses de disques disco au milieu d'un stade : c'est la « Disco Demolition Night ». L'industrie tourne la page, mais la disco continue de vivre dans les clubs du South Side et du West Loop, fréquentés par des hommes gays noirs et latinos. Au Warehouse, ouvert en 1977, Frankie Knuckles, venu de New York, mixe disco, soul de Philadelphie et électronique européenne. Il rallonge les morceaux au magnétophone à bandes et les renforce à la boîte à rythmes. Chez les disquaires de la ville, on se met à étiqueter « house » la musique qu'on entend là-bas.",
+        "À partir de 1983, Ron Hardy impose à la Music Box un son plus brut et plus rapide, tandis que les Hot Mix 5 diffusent leurs mixes sur la radio WBMX et que les adolescents les enregistrent sur cassette. La disco neuve se fait rare : il faut fabriquer de quoi nourrir les pistes. En 1984, Jesse Saunders presse « On and On » avec une TR-808. Trax Records et DJ International publient ensuite à bas coût des centaines de maxis : des pressages souvent médiocres et des contrats que de nombreux artistes contesteront.",
+        "Trois branches se dessinent très vite. Le jack (Steve « Silk » Hurley, Farley « Jackmaster » Funk) commande le corps avec des voix samplées et martelées. Le piano house (Marshall Jefferson, Joe Smooth) apporte la ferveur du gospel. La deep house (Larry Heard) introduit l'harmonie du jazz. En janvier 1987, « Jack Your Body » est numéro 1 au Royaume-Uni : la house a quitté Chicago avant même que Chicago ne la reconnaisse.",
+        "L'histoire officielle a longtemps raconté la house comme une affaire de machines et de pionniers. Des travaux récents, comme « Do You Remember House? » de Micah Salkind ou « Energy Never Dies » d'Ayana Contreras, la replacent dans les communautés queer noires et latines qui l'ont inventée et dans une tradition d'afro-optimisme propre à Chicago."
+      ],
+      "places": ["The Warehouse (1977–1982)", "Music Box", "Power Plant", "Radio WBMX (Hot Mix 5)"],
+      "figures": ["Frankie Knuckles", "Ron Hardy", "Jesse Saunders", "Marshall Jefferson", "Larry Heard", "Steve « Silk » Hurley"]
+    },
+    "acid": {
+      "featured": true,
+      "lede": "Une basse ratée de Roland, quelques jeunes de Chicago qui ne savent pas s'en servir, puis toute une génération britannique : l'acid house est l'histoire d'un accident devenu mouvement de masse.",
+      "story": [
+        "La TB-303 est un échec commercial : censée remplacer le bassiste des guitaristes solitaires, elle ne ressemble à aucune basse. Vers 1985, à Chicago, DJ Pierre, Spanky et Herb J (Phuture) en récupèrent une d'occasion et tournent ses potentiomètres de filtre et de résonance en temps réel. Ron Hardy joue leur cassette à la Music Box : « Acid Tracks » sort en 1987.",
+        "En Angleterre, le son rencontre une génération. En 1987, à Ibiza, quelques DJs londoniens (Paul Oakenfold, Danny Rampling) découvrent l'éclectisme balearic. De retour à Londres, ils ouvrent Shoom et Spectrum. À Manchester, l'Haçienda lance ses nuits Hot. L'été 1988 devient le « Second Summer of Love » : warehouses, smileys, ecstasy, puis raves géantes le long de l'autoroute M25.",
+        "La panique morale suit : la presse tabloïd traque les « acid parties » et la police multiplie les saisies. Le Criminal Justice and Public Order Act de 1994 vise explicitement les rassemblements sur de la musique « caractérisée par des rythmes répétitifs ». La rave est devenue un enjeu politique.",
+        "Ce transfert a un coût. Né dans l'espace noir et gay de la Music Box, l'acid devient au Royaume-Uni la musique d'une jeunesse majoritairement blanche, et le smiley efface en partie ses origines. Les producteurs britanniques en font aussi une langue propre : A Guy Called Gerald et 808 State à Manchester, Humanoid à Londres."
+      ],
+      "places": ["Music Box (Chicago)", "Shoom & Spectrum (Londres)", "L'Haçienda (Manchester)", "Raves de la M25"],
+      "figures": ["DJ Pierre", "Ron Hardy", "Danny Rampling", "Paul Oakenfold", "A Guy Called Gerald", "808 State"]
+    },
+    "detroit": {
+      "featured": true,
+      "lede": "À une heure de route de Chicago, trois lycéens de Belleville imaginent une musique pour une ville que l'industrie automobile abandonne : la techno, cousine futuriste de la house.",
+      "story": [
+        "Juan Atkins, Derrick May et Kevin Saunderson, les « Belleville Three », grandissent dans la classe moyenne noire de la banlieue de Detroit. À la radio, l'animateur The Electrifying Mojo mélange Kraftwerk, Parliament et Prince. Atkins en tire avec Cybotron (« Clear », 1983) une électro froide et funky, puis fonde son label Metroplex.",
+        "May (Transmat) et Saunderson (KMS) suivent. « Strings of Life » (1987) ou « Big Fun » d'Inner City (1988) montrent l'éventail : orchestral et tendu d'un côté, pop et euphorique de l'autre. En 1988, une compilation britannique, « Techno! The New Dance Sound of Detroit », donne son nom au genre.",
+        "Detroit vit cette musique à petite échelle, au Music Institute (1988-1989), dans les fêtes de lycéens et grâce à des DJs comme Ken Collier, figure gay noire trop souvent oubliée du récit. L'Europe, elle, l'adopte massivement. Une deuxième vague, Underground Resistance (Mike Banks, Jeff Mills, Robert Hood), en fait une éthique : anonymat, indépendance et refus de l'industrie.",
+        "Le lien avec la house est constant : mêmes machines (TR-909), mêmes clubs et même circulation de disques, si bien qu'Inner City fait chanter Paris Grey, une voix de Chicago. Dan Sicko (« Techno Rebels ») et Simon Reynolds (« Energy Flash ») ont raconté cette histoire en détail."
+      ],
+      "places": ["Belleville", "Music Institute (1988–1989)", "Radio (The Electrifying Mojo)"],
+      "figures": ["Juan Atkins", "Derrick May", "Kevin Saunderson", "Ken Collier", "Underground Resistance"]
+    },
+    "french-touch": {
+      "featured": true,
+      "lede": "À la fin des années 90, Paris devient une capitale mondiale de la house. Le son de Daft Punk et de leurs proches est fait de boucles disco filtrées, mais la scène française a aussi une face techno et une face jazz.",
+      "story": [
+        "Au début des années 90, la house arrive à Paris par les clubs gays et mondains comme le Palace, par les premières raves et par des passeurs comme Laurent Garnier, formé à l'Haçienda de Manchester. Il lance ses soirées Wake Up au Rex et cofonde F Communications avec Éric Morand. Les raves sont réprimées : une circulaire ministérielle de 1995 les présente comme des situations « à hauts risques ».",
+        "La génération suivante vient du rock indé, du rap et du crate digging. Daft Punk sort « Da Funk » sur le label écossais Soma en 1995, puis l'album « Homework » en 1997. Le principe de la filter house tient en un geste : une boucle disco répétée, qu'un filtre ouvre et referme. Les labels Roulé, Crydamoure et Yellow Productions (Dimitri from Paris, Bob Sinclar) déclinent ce son, et les soirées Respect au Queen lui donnent une scène.",
+        "Le succès passe par l'export : Cassius, Stardust et Modjo entrent dans les charts britanniques, et la presse impose l'étiquette « French Touch ». En parallèle, St Germain (Ludovic Navarre) tire la house vers le jazz et le blues, et Garnier défend une techno exigeante.",
+        "La French Touch recycle beaucoup de disco, la bande-son des pistes noires et gays des années 70, pour un public plus large. On peut y entendre un hommage ou une forme d'appropriation, et le débat traverse les livres de référence comme « Electrochoc » ou « Musique house » de Sean Bidder."
+      ],
+      "places": ["Le Palace", "Rex Club (Wake Up)", "Queen (soirées Respect)"],
+      "figures": ["Laurent Garnier", "Daft Punk", "Cassius", "Dimitri from Paris", "Ludovic Navarre (St Germain)"]
+    },
+    "garage-nyc": {
+      "featured": true,
+      "lede": "Avant la house, il y a le garage : le nom vient du Paradise Garage, le club où Larry Levan a fait de la piste une église, entre soul, gospel et effets dub.",
+      "story": [
+        "En 1970, David Mancuso ouvre le Loft, des fêtes privées sur invitation où le son et la sélection priment sur tout. Nicky Siano (The Gallery) et deux amis du Bronx, Larry Levan et Frankie Knuckles, apprennent le métier dans cet écosystème, notamment aux Continental Baths. Tim Lawrence (« Love Saves the Day ») et Vince Aletti (« The Disco Files ») ont documenté cette décennie.",
+        "En 1977, Levan prend les platines du Paradise Garage, au 84 King Street. Le club fonctionne sur adhésion, ne sert pas d'alcool et reste ouvert jusqu'au dimanche matin, avec le système son de Richard Long. Ses sets, surnommés « Saturday Mass », mêlent soul, disco, gospel, électro et dub. Le « garage » désigne ce son : des voix de ferveur, des grooves souples et beaucoup d'espace.",
+        "Le Garage ferme en 1987 et Levan meurt en 1992, sur fond d'épidémie de sida qui décime sa communauté. La relève se fait au Sound Factory (Junior Vasquez), au Shelter, puis à Body & Soul. Masters At Work, Strictly Rhythm ou Nervous Records font du garage new-yorkais un son mondial, et la ballroom s'en empare avec « The Ha Dance ».",
+        "À la fin des années 90, la politique de « qualité de vie » de la mairie Giuliani et l'application stricte de la vieille loi sur les cabarets ferment de nombreux clubs. DJ Disciple raconte cette « chute » puis la renaissance de la scène dans « The Beat, The Scene, The Sound »."
+      ],
+      "places": ["The Loft (1970)", "Paradise Garage (1977–1987)", "Sound Factory", "Shelter", "Body & Soul"],
+      "figures": ["David Mancuso", "Larry Levan", "Masters At Work", "Junior Vasquez", "François Kevorkian"]
+    },
+    "hip-house": { "lede": "À la fin des années 80, Chicago et New York tentent de marier les deux musiques noires dominantes : le kick house et le flow rap. Le MC remplace la diva, et le hip-house devient un format crossover, entre ouverture et tentative de « dé-queeriser » la house." },
+    "deep": { "lede": "La deep house naît de la retenue. Avec Larry Heard, ancien batteur de jazz-fusion, la house s'enrichit d'accords de septième et de neuvième, de nappes chaudes et de tempos posés. C'est la house qu'on écoute les yeux fermés, et la matrice des scènes deep du monde entier." },
+    "balearic": { "lede": "À Ibiza, à la fin des années 80, Alfredo mixe à l'Amnesia, en plein air, de la pop, du rock indé et de la house. Le balearic est moins un genre qu'une attitude : tempos lents, guitares, sons de mer, et un éclectisme que les DJs londoniens rapportent chez eux en 1987." },
+    "tribal-nyc": { "lede": "Dans les grands clubs gays de Manhattan des années 90 (Twilo, Sound Factory, Roxy), la house se couvre de toms et de percussions. Le tribal, de Danny Tenaglia à Victor Calderone, fait des montées dramatiques et des remixes de divas la bande-son des nuits et des circuit parties post-sida." },
+    "tech-house": { "lede": "Dans les warehouses et after-hours de Londres et de Glasgow de la fin des années 90, la tech house prend la rigueur de la techno et la chaleur de la house. Musique de DJ et de longues nuits, elle deviendra vingt ans plus tard le son dominant des festivals." },
+    "ukg": { "lede": "À Londres, à la fin des années 90, le garage new-yorkais accélère et se syncope : c'est le 2-step. Sunday sessions, radios pirates, MCs et dress code chic composent une culture noire britannique d'où sortiront le grime et le dubstep." },
+    "afro": { "lede": "L'Afrique du Sud est l'un des plus grands marchés house au monde. Du kwaito des années 90 à Black Coffee, la house y est une musique populaire de masse, réécrite avec des percussions boisées, des polyrythmies et une mélancolie propre." },
+    "lofi": { "lede": "Vers 2015-2017, une génération de producteurs de chambre fabrique sur logiciel l'imperfection que leurs aînés subissaient avec le matériel : saturation, souffle, samples voilés. Diffusée par YouTube, la lo-fi house fait de la house sa propre archive." },
+    "amapiano": { "lede": "Né au milieu des années 2010 dans les townships du Gauteng (Pretoria, Johannesburg), l'amapiano ralentit la house autour de 110-115 BPM. Il confie la mélodie au log drum, une basse percussive sculptée sur FL Studio, puis conquiert le monde via les réseaux sociaux." },
+    "disco": { "lede": "Tout commence ici. La disco des années 70, du Loft à Salsoul et de Philadelphie à Munich, invente le DJ comme auteur, le maxi 12\", le remix et la piste comme espace de libération gay, noir et féminin. Quand la radio la déclare morte en 1979, la house prend la relève." },
+    "rave-jungle": { "lede": "Au Royaume-Uni, la rave accélère : breakbeats samplés, stabs de synthé, basses héritées des sound systems jamaïcains. Du hardcore de 1991 à la jungle et au drum & bass vers 1994, c'est la lignée que Simon Reynolds a appelée le « hardcore continuum »." },
+    "trance": { "lede": "Au début des années 90, entre Francfort, Berlin, Ibiza et les clubs britanniques, la house et la techno se chargent d'arpèges, de montées et de breaks euphoriques. La trance devient en dix ans une culture de masse européenne, jusqu'aux grands rassemblements néerlandais." }
+  }
+}

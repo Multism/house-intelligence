@@ -1,0 +1,39 @@
+# Cloudflare Pages — en-têtes HTTP (https://developers.cloudflare.com/pages/configuration/headers/)
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), camera=(), microphone=()
+  X-Frame-Options: SAMEORIGIN
+
+# Le HTML est revalidé à chaque visite.
+/
+  Cache-Control: public, max-age=0, must-revalidate
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Fichiers non hachés : cache court (5 min) pour qu'un déploiement soit visible vite,
+# et service de la version précédente pendant la revalidation.
+/*.css
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/*.js
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/data/*
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+
+/og-image.png
+  Cache-Control: public, max-age=604800
+/favicon*
+  Cache-Control: public, max-age=604800
+/apple-touch-icon-180.png
+  Cache-Control: public, max-age=604800
+/icon-*
+  Cache-Control: public, max-age=604800
+
+# Fichiers de travail : à ne pas indexer (mieux : ne pas les déployer).
+/_archive/*
+  X-Robots-Tag: noindex, nofollow
+/tools/*
+  X-Robots-Tag: noindex, nofollow
+/CLAUDE.md
+  X-Robots-Tag: noindex, nofollow

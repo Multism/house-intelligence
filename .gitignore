@@ -1,0 +1,10 @@
+# Système
+.DS_Store
+# Secrets éventuels
+.env
+.env.*
+.claude/settings.local.json
+# Documents de travail hors site
+*.rtf
+*.docx
+*.pdf

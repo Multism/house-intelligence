@@ -1,0 +1,1079 @@
+{
+  "_meta": {
+    "note": "Résumés éditoriaux de l'apport de chaque œuvre au projet. Les entrées marquées « to_verify » doivent être complétées (éditeur, date exacte) par l'équipe."
+  },
+  "sources": [
+    {
+      "id": "modulations",
+      "title": "Modulations",
+      "author": "Iara Lee (film) · Peter Shapiro (dir., livre)",
+      "year": 1998,
+      "type": "Film documentaire + livre",
+      "contribution": "C'est une généalogie panoramique de la musique électronique, des avant-gardes (Stockhausen, musique concrète) jusqu'à la techno, la house et la jungle. Sa thèse traverse tout le projet : les machines sont des instruments détournés, et chaque scène réinvente un outil prévu pour autre chose.",
+      "themes": [
+        "machines",
+        "généalogie",
+        "Detroit",
+        "Chicago"
+      ],
+      "genres": [
+        "chicago",
+        "acid",
+        "detroit",
+        "french-touch"
+      ],
+      "to_verify": false,
+      "author_en": "Iara Lee (film) · Peter Shapiro (ed., book)",
+      "type_en": "Documentary film + book",
+      "themes_en": [
+        "machines",
+        "genealogy",
+        "Detroit",
+        "Chicago"
+      ],
+      "contribution_en": "A panoramic genealogy of electronic music, from the avant-garde (Stockhausen, musique concrète) to techno, house and jungle. Its thesis runs through the whole project: machines are hijacked instruments, and every scene reinvents a tool designed for something else."
+    },
+    {
+      "id": "paris-is-burning",
+      "title": "Paris Is Burning",
+      "author": "Jennie Livingston",
+      "year": 1990,
+      "type": "Film documentaire",
+      "contribution": "Le documentaire filme la ballroom new-yorkaise de la fin des années 80 : les houses, les mothers, les catégories, le « realness », le vogue (Willi Ninja), le shade et le reading. C'est la référence de l'axe queer et ballroom. Il aide aussi à penser la question de l'appropriation (Madonna, French Touch) et les débats sur le regard porté par une réalisatrice extérieure à la communauté.",
+      "themes": [
+        "ballroom",
+        "vogue",
+        "queer",
+        "trans",
+        "New York"
+      ],
+      "genres": [
+        "garage-nyc",
+        "tribal-nyc",
+        "french-touch"
+      ],
+      "to_verify": false,
+      "type_en": "Documentary film",
+      "themes_en": [
+        "ballroom",
+        "vogue",
+        "queer",
+        "trans",
+        "New York"
+      ],
+      "contribution_en": "The documentary films late-80s New York ballroom: houses, mothers, categories, realness, vogue (Willi Ninja), shade and reading. It is the reference for our queer and ballroom axis, and helps think through appropriation (Madonna, the French Touch) and the debates over the gaze of a filmmaker from outside the community."
+    },
+    {
+      "id": "last-night-dj",
+      "title": "Last Night a DJ Saved My Life",
+      "author": "Bill Brewster & Frank Broughton",
+      "year": 1999,
+      "type": "Livre",
+      "contribution": "C'est l'histoire de référence du DJ, du sound system jamaïcain à la superstar des années 90. Elle documente la Loft de David Mancuso, le Paradise Garage, le Warehouse et la Music Box, et fait du DJ un auteur. Le livre sert d'ossature à nos récits de clubs et de filiation entre DJs. Mixmag et les communautés de DJs le citent régulièrement comme lecture fondatrice.",
+      "themes": [
+        "DJ",
+        "disco",
+        "clubs",
+        "New York",
+        "Chicago"
+      ],
+      "genres": [
+        "chicago",
+        "garage-nyc",
+        "tribal-nyc",
+        "hip-house",
+        "french-touch"
+      ],
+      "to_verify": false,
+      "type_en": "Book",
+      "themes_en": [
+        "DJ",
+        "disco",
+        "clubs",
+        "New York",
+        "Chicago"
+      ],
+      "contribution_en": "The reference history of the DJ, from the Jamaican sound system to the 90s superstar. It documents David Mancuso's Loft, the Paradise Garage, the Warehouse and the Music Box, and casts the DJ as an author. It is the backbone of our club stories and DJ lineages; Mixmag and DJ communities regularly cite it as a foundational read."
+    },
+    {
+      "id": "history-of-house",
+      "title": "History of House",
+      "author": "Chris Kempster (dir.)",
+      "year": 1996,
+      "type": "Livre (recueil d'articles)",
+      "contribution": "Cette anthologie d'articles et d'entretiens publiés à chaud dans la presse musicale fait entendre les acteurs de Chicago, New York et du Royaume-Uni. Elle est précieuse pour les querelles de paternité (premier disque house, inventeur du hip-house) et pour saisir comment la scène se racontait elle-même.",
+      "themes": [
+        "Chicago",
+        "témoignages",
+        "presse",
+        "paternité"
+      ],
+      "genres": [
+        "chicago",
+        "deep",
+        "hip-house",
+        "acid"
+      ],
+      "to_verify": false,
+      "author_en": "Chris Kempster (ed.)",
+      "type_en": "Book (collected articles)",
+      "themes_en": [
+        "Chicago",
+        "testimonies",
+        "press",
+        "authorship"
+      ],
+      "contribution_en": "An anthology of articles and interviews published in the music press as things happened, giving voice to the players of Chicago, New York and the UK. Invaluable for authorship disputes (the first house record, who invented hip-house) and for how the scene told its own story."
+    },
+    {
+      "id": "join-the-future",
+      "title": "Join the Future: Bleep Techno and the Birth of British Bass Music",
+      "author": "Matt Anniss",
+      "year": 2019,
+      "type": "Livre",
+      "contribution": "Le livre retrace la manière dont Sheffield, Leeds et Bradford ont transformé la house et la techno importées en « bleep », fondée sur le sub-bass et la culture sound system des Caraïbes. Il fournit le cadre de la lignée britannique des musiques bass qui mène à l'UK garage et au-delà.",
+      "themes": [
+        "Royaume-Uni",
+        "sound system",
+        "basses",
+        "diaspora caribéenne"
+      ],
+      "genres": [
+        "detroit",
+        "ukg",
+        "afro"
+      ],
+      "to_verify": false,
+      "type_en": "Book",
+      "themes_en": [
+        "United Kingdom",
+        "sound system",
+        "bass",
+        "Caribbean diaspora"
+      ],
+      "contribution_en": "How Sheffield, Leeds and Bradford turned imported house and techno into \"bleep\", built on sub-bass and Caribbean sound-system culture. It frames the British bass-music lineage that leads to UK garage and beyond."
+    },
+    {
+      "id": "you-better-work",
+      "title": "« You Better Work! » Underground Dance Music in New York City",
+      "author": "Kai Fikentscher",
+      "year": 2000,
+      "type": "Livre (ethnomusicologie)",
+      "contribution": "C'est une ethnographie de la piste underground new-yorkaise des années 90, analysée comme un espace rituel afro-américain et gay. L'auteur étudie le DJ comme officiant, la danse comme langage et la musique comme lien communautaire. Le livre est central pour notre onglet sociologie.",
+      "themes": [
+        "ethnographie",
+        "New York",
+        "queer",
+        "rituel",
+        "danse"
+      ],
+      "genres": [
+        "garage-nyc",
+        "tribal-nyc"
+      ],
+      "to_verify": false,
+      "type_en": "Book (ethnomusicology)",
+      "themes_en": [
+        "ethnography",
+        "New York",
+        "queer",
+        "ritual",
+        "dance"
+      ],
+      "contribution_en": "An ethnography of the 1990s New York underground dancefloor as an African-American and gay ritual space: the DJ as officiant, dance as language, music as communal bond. Central to our sociology tab."
+    },
+    {
+      "id": "adventures-wonderland",
+      "title": "Adventures in Wonderland: Acid House, Rave and the UK Club Explosion",
+      "author": "Sheryl Garratt",
+      "year": 1998,
+      "type": "Livre",
+      "contribution": "C'est le récit journalistique de la culture club britannique, d'Ibiza 1987 au Second Summer of Love, des raves aux superclubs. Garratt est attentive aux femmes, aux clubs gays et aux tensions de classe, et nous sert de source pour l'acid britannique et le balearic. (Réédité sous ce sous-titre ; première édition 1998 : « A Decade of Club Culture ».)",
+      "themes": [
+        "Royaume-Uni",
+        "rave",
+        "Ibiza",
+        "club culture"
+      ],
+      "genres": [
+        "acid",
+        "balearic",
+        "tech-house"
+      ],
+      "to_verify": false,
+      "type_en": "Book",
+      "themes_en": [
+        "United Kingdom",
+        "rave",
+        "Ibiza",
+        "club culture"
+      ],
+      "contribution_en": "A journalistic account of British club culture, from Ibiza 1987 and the Second Summer of Love to raves and superclubs. Garratt pays attention to women, gay clubs and class tensions; our source for British acid and balearic. (Reissued under this subtitle; first edition 1998: \"A Decade of Club Culture\".)"
+    },
+    {
+      "id": "soul-underground",
+      "title": "Soul Underground",
+      "author": "Dave Pearce (fondateur et rédacteur en chef), avec Mark Webster, Gilles Peterson, Norman Jay, Chris Bangs, Judge Jules, Tony Monson, Maxine Gordon…",
+      "year": 1987,
+      "type": "Magazine mensuel (Londres, 1987–1991) · anthologie « Catch the Beat: Soul Underground 1987–91 » (DJhistory.com / Omnibus Press, 2021)",
+      "contribution": "Ce mensuel londonien indépendant et culte a documenté en temps réel, avant la presse musicale mainstream, la scène rare groove, l'arrivée du hip-hop, l'explosion de la house de Chicago, le garage new-yorkais et les premières raves britanniques. Sa rédaction réunit des DJs et acteurs majeurs de la scène (Gilles Peterson, Norman Jay, Judge Jules…). C'est une archive presse de première main, rééditée en anthologie en 2021.",
+      "themes": [
+        "presse",
+        "Londres",
+        "rare groove",
+        "hip-hop",
+        "Chicago house",
+        "garage",
+        "raves"
+      ],
+      "genres": [
+        "chicago",
+        "hip-house",
+        "deep",
+        "garage-nyc",
+        "acid"
+      ],
+      "to_verify": false,
+      "author_en": "Dave Pearce (founder and editor), with Mark Webster, Gilles Peterson, Norman Jay, Chris Bangs, Judge Jules, Tony Monson, Maxine Gordon…",
+      "type_en": "Monthly magazine (London, 1987–1991) · anthology \"Catch the Beat: Soul Underground 1987–91\" (DJhistory.com / Omnibus Press, 2021)",
+      "themes_en": [
+        "press",
+        "London",
+        "rare groove",
+        "hip-hop",
+        "Chicago house",
+        "garage",
+        "raves"
+      ],
+      "contribution_en": "A cult independent London monthly that documented in real time, ahead of the mainstream music press, the rare groove scene, the arrival of hip-hop, the Chicago house explosion, New York garage and the first British raves. Its contributors included key DJs and players (Gilles Peterson, Norman Jay, Judge Jules…). A first-hand press archive, reissued as an anthology in 2021."
+    },
+    {
+      "id": "energy-never-dies",
+      "title": "Energy Never Dies: Afro-Optimism and Creativity in Chicago",
+      "author": "Ayana Contreras",
+      "year": 2021,
+      "type": "Livre (University of Illinois Press, 184 p.)",
+      "contribution": "Une histoire de la créativité noire de Chicago à travers l'« afro-optimisme » : comment musiciens, DJs, radios, labels et entrepreneurs culturels ont imaginé un avenir positif malgré la ségrégation et le déclin urbain. Le livre replace la house dans une généalogie locale plus longue (soul, radio, culture noire de Chicago) et nourrit notre lecture de la house comme projet d'espoir collectif.",
+      "themes": [
+        "Chicago",
+        "afro-optimisme",
+        "culture noire",
+        "radio",
+        "mémoire"
+      ],
+      "genres": [
+        "chicago",
+        "deep",
+        "hip-house",
+        "acid"
+      ],
+      "to_verify": false,
+      "type_en": "Book (University of Illinois Press, 184 pp.)",
+      "themes_en": [
+        "Chicago",
+        "Afro-optimism",
+        "Black culture",
+        "radio",
+        "memory"
+      ],
+      "contribution_en": "A history of Black creativity in Chicago through \"Afro-optimism\": how musicians, DJs, radio, labels and cultural entrepreneurs imagined a positive future despite segregation and urban decline. It places house within a longer local genealogy (soul, radio, Black Chicago culture) and informs our reading of house as a project of collective hope."
+    },
+    {
+      "id": "rave-art",
+      "title": "Rave Art: Flyers, Invitations and Membership Cards from the Birth of Acid House Clubs and Raves",
+      "author": "Chelsea Louise Berlin",
+      "year": 2009,
+      "type": "Livre (iconographie)",
+      "contribution": "Une archive visuelle des flyers, invitations et cartes de membre de l'acid house et des raves (1987-1992). C'est notre source pour l'esthétique visuelle : le smiley, le futurisme, les numéros de téléphone secrets. Le graphisme y apparaît aussi comme un outil d'organisation clandestine.",
+      "themes": [
+        "flyers",
+        "graphisme",
+        "rave",
+        "Royaume-Uni"
+      ],
+      "genres": [
+        "acid",
+        "rave-jungle"
+      ],
+      "to_verify": false,
+      "type_en": "Book (visual archive)",
+      "themes_en": [
+        "flyers",
+        "graphic design",
+        "rave",
+        "United Kingdom"
+      ],
+      "contribution_en": "A visual archive of acid house and rave flyers, invitations and membership cards (1987–1992). Our source for the visual aesthetic: the smiley, futurism, secret phone numbers. Graphic design emerges as a tool of clandestine organisation."
+    },
+    {
+      "id": "hacienda-hook",
+      "title": "The Haçienda: How Not to Run a Club",
+      "author": "Peter Hook",
+      "year": 2009,
+      "type": "Livre (mémoires)",
+      "contribution": "Le bassiste de New Order, copropriétaire du club, raconte l'Haçienda de 1982 à 1997 : l'utopie de Factory, l'explosion acid de 1988, les gangs, l'ecstasy, les dettes. Un contrepoint précieux au mythe de « Madchester ».",
+      "themes": [
+        "Manchester",
+        "Haçienda",
+        "économie du club",
+        "violence"
+      ],
+      "genres": [
+        "acid",
+        "rave-jungle"
+      ],
+      "to_verify": false,
+      "type_en": "Book (memoir)",
+      "themes_en": [
+        "Manchester",
+        "Haçienda",
+        "club economics",
+        "violence"
+      ],
+      "contribution_en": "New Order's bassist, the club's co-owner, recounts the Haçienda from 1982 to 1997: Factory's utopia, the 1988 acid explosion, gangs, ecstasy, debts. A valuable counterpoint to the \"Madchester\" myth."
+    },
+    {
+      "id": "techno-shuffle",
+      "title": "Techno Shuffle: Rave Culture and the Melbourne Underground",
+      "author": "Paul Fleckney",
+      "year": 2018,
+      "type": "Livre (Melbourne Books, Australie)",
+      "contribution": "Le livre retrace l'explosion des raves en entrepôt à Melbourne dans les années 1990, dans le sillage de New York 1978 et de Londres 1988, et la naissance d'une danse propre à la ville, le Melbourne Shuffle. Il décentre le récit vers l'Australie : une scène locale qui invente ses propres gestes à partir de la house, de la techno et de la trance importées.",
+      "themes": [
+        "Melbourne",
+        "Australie",
+        "raves en entrepôt",
+        "Melbourne Shuffle",
+        "danse"
+      ],
+      "genres": [
+        "rave-jungle",
+        "trance",
+        "tech-house"
+      ],
+      "to_verify": false,
+      "type_en": "Book (Melbourne Books, Australia)",
+      "themes_en": [
+        "Melbourne",
+        "Australia",
+        "warehouse raves",
+        "Melbourne Shuffle",
+        "dance"
+      ],
+      "contribution_en": "Traces the explosion of warehouse raves in 1990s Melbourne, in the wake of New York 1978 and London 1988, and the birth of the city's own dance, the Melbourne Shuffle. It shifts the story to Australia: a local scene inventing its own moves from imported house, techno and trance."
+    },
+    {
+      "id": "techno-rebels",
+      "title": "Techno Rebels: The Renegades of Electronic Funk",
+      "author": "Dan Sicko",
+      "year": 1999,
+      "type": "Livre",
+      "contribution": "L'histoire de référence de la techno de Detroit, de Juan Atkins à Underground Resistance. Elle relie la techno à la ville post-industrielle, à l'électro, à la radio (The Electrifying Mojo) et à l'éthique de l'indépendance.",
+      "themes": [
+        "Detroit",
+        "techno",
+        "Belleville Three",
+        "indépendance"
+      ],
+      "genres": [
+        "detroit"
+      ],
+      "to_verify": false,
+      "type_en": "Book",
+      "themes_en": [
+        "Detroit",
+        "techno",
+        "Belleville Three",
+        "independence"
+      ],
+      "contribution_en": "The reference history of Detroit techno, from Juan Atkins to Underground Resistance. It ties techno to the post-industrial city, to electro, to radio (The Electrifying Mojo) and to an ethic of independence."
+    },
+    {
+      "id": "class-of-88",
+      "title": "Class of '88: Find the Warehouse. Lose the Hitmen. Pump the Beats",
+      "author": "Wayne Anthony",
+      "year": 1998,
+      "type": "Livre (mémoires)",
+      "contribution": "Les mémoires d'un organisateur de raves illégales (Genesis) de la fin des années 80 : warehouses, convois, police, gangsters. C'est le point de vue de l'organisateur, de l'économie souterraine de la rave.",
+      "themes": [
+        "warehouse",
+        "raves illégales",
+        "Londres",
+        "police"
+      ],
+      "genres": [
+        "acid",
+        "chicago",
+        "rave-jungle"
+      ],
+      "to_verify": false,
+      "type_en": "Book (memoir)",
+      "themes_en": [
+        "warehouse",
+        "illegal raves",
+        "London",
+        "police"
+      ],
+      "contribution_en": "The memoir of an illegal-rave organiser (Genesis) in the late 80s: warehouses, convoys, police, gangsters. The promoter's view of rave's underground economy."
+    },
+    {
+      "id": "real-story-saunders",
+      "title": "House Music… The Real Story",
+      "author": "Jesse Saunders (avec James Cummins)",
+      "year": 2007,
+      "type": "Livre (autobiographie, 167 p., SandlerComm)",
+      "contribution": "Le récit autobiographique de Jesse Saunders, auteur de « On and On », sur les débuts de la house à Chicago : production, DJing, diffusion du son. C'est un témoignage partisan et précieux sur les querelles de paternité, les pressages et les labels (Trax, DJ International).",
+      "themes": [
+        "Chicago",
+        "témoignage",
+        "paternité",
+        "labels"
+      ],
+      "genres": [
+        "chicago",
+        "deep",
+        "acid"
+      ],
+      "to_verify": false,
+      "author_en": "Jesse Saunders (with James Cummins)",
+      "type_en": "Book (autobiography, 167 pp., SandlerComm)",
+      "themes_en": [
+        "Chicago",
+        "testimony",
+        "authorship",
+        "labels"
+      ],
+      "contribution_en": "Jesse Saunders's autobiographical account, by the man behind \"On and On\", of house's beginnings in Chicago: production, DJing, the spread of the sound. A partisan but valuable testimony on authorship disputes, pressings and labels (Trax, DJ International)."
+    },
+    {
+      "id": "full-on",
+      "title": "Full On. Non-Stop. All Over.",
+      "author": "Matthew Smith (photographies et essai) ; préface de Simon Reynolds ; édité par Davy Reed",
+      "year": 2021,
+      "type": "Livre photographique (TRIP Publishing, Royaume-Uni)",
+      "contribution": "Un livre photographique sur les raves et la culture club britannique entre 2000 et 2005 (« Human Rave Behaviour »), au tournant de l'ère numérique, juste avant les smartphones. Il prolonge Energy Flash, dont l'auteur Simon Reynolds signe la préface, en montrant les corps et les publics de l'après-âge d'or : UK garage, tech house, superclubs.",
+      "themes": [
+        "photographie",
+        "Royaume-Uni",
+        "2000-2005",
+        "publics",
+        "ère numérique"
+      ],
+      "genres": [
+        "ukg",
+        "tech-house",
+        "rave-jungle"
+      ],
+      "to_verify": false,
+      "author_en": "Matthew Smith (photographs and essay); foreword by Simon Reynolds; edited by Davy Reed",
+      "type_en": "Photobook (TRIP Publishing, UK)",
+      "themes_en": [
+        "photography",
+        "United Kingdom",
+        "2000–2005",
+        "crowds",
+        "digital age"
+      ],
+      "contribution_en": "A photobook on British rave and club culture between 2000 and 2005 (\"Human Rave Behaviour\"), at the turn of the digital age, just before smartphones. It extends Energy Flash, whose author Simon Reynolds wrote the foreword, by showing the bodies and crowds of the post-golden age: UK garage, tech house, superclubs."
+    },
+    {
+      "id": "carl-cox-oh-yes",
+      "title": "Oh Yes, Oh Yes!",
+      "author": "Carl Cox & Ian Winwood",
+      "year": 2021,
+      "type": "Livre (autobiographie, White Rabbit)",
+      "contribution": "Le parcours de Carl Cox, des sound systems et mariages du sud de Londres à l'acid house de 1988, aux raves puis aux résidences à Ibiza. C'est notre source pour l'axe acid house UK, raves et Ibiza, et une autre généalogie de la house : noire, britannique et caribéenne.",
+      "themes": [
+        "acid house UK",
+        "raves",
+        "Ibiza",
+        "DJ",
+        "black british"
+      ],
+      "genres": [
+        "acid",
+        "rave-jungle",
+        "balearic",
+        "tech-house"
+      ],
+      "to_verify": false,
+      "type_en": "Book (autobiography, White Rabbit)",
+      "themes_en": [
+        "UK acid house",
+        "raves",
+        "Ibiza",
+        "DJ",
+        "Black British"
+      ],
+      "contribution_en": "Carl Cox's path from south London sound systems and weddings to 1988 acid house, the raves and his Ibiza residencies. Our source for UK acid house, rave and Ibiza, and another genealogy of house: Black, British and Caribbean."
+    },
+    {
+      "id": "disco-files",
+      "title": "The Disco Files 1973–78: New York's Underground, Week by Week",
+      "author": "Vince Aletti",
+      "year": 2009,
+      "type": "Livre (chroniques ; DJhistory.com 2009, réédition D.A.P. 2018)",
+      "contribution": "Les colonnes hebdomadaires d'Aletti dans Record World : ce que jouent les DJs du Loft, du Gallery, du Paradise Garage avant les charts. Un document de première main sur la naissance de la disco underground.",
+      "themes": [
+        "disco",
+        "New York",
+        "presse",
+        "DJ"
+      ],
+      "genres": [
+        "disco",
+        "garage-nyc"
+      ],
+      "to_verify": false,
+      "type_en": "Book (columns; DJhistory.com 2009, D.A.P. reissue 2018)",
+      "themes_en": [
+        "disco",
+        "New York",
+        "press",
+        "DJ"
+      ],
+      "contribution_en": "Aletti's weekly Record World columns: what DJs at the Loft, the Gallery and the Paradise Garage were playing before the charts caught on. A first-hand document of underground disco's birth."
+    },
+    {
+      "id": "porcelain",
+      "title": "Porcelain: A Memoir",
+      "author": "Moby",
+      "year": 2016,
+      "type": "Livre (mémoires)",
+      "contribution": "Les mémoires de Moby à New York entre 1989 et 1999 : la pauvreté, les clubs (Mars, Limelight), la rave américaine naissante. Un regard d'intérieur sur la scène mixte et queer des clubs new-yorkais.",
+      "themes": [
+        "New York",
+        "rave",
+        "clubs",
+        "mémoires"
+      ],
+      "genres": [
+        "rave-jungle",
+        "tribal-nyc"
+      ],
+      "to_verify": false,
+      "type_en": "Book (memoir)",
+      "themes_en": [
+        "New York",
+        "rave",
+        "clubs",
+        "memoir"
+      ],
+      "contribution_en": "Moby's memoir of New York between 1989 and 1999: poverty, the clubs (Mars, Limelight), the emerging American rave scene. An insider's view of the mixed and queer New York club scene."
+    },
+    {
+      "id": "electrochoc",
+      "title": "Electrochoc",
+      "author": "Laurent Garnier & David Brun-Lambert",
+      "year": 2003,
+      "type": "Livre (autobiographie)",
+      "contribution": "L'autobiographie de référence de Laurent Garnier et une histoire de la techno vue par l'un de ses acteurs. Elle commence à Manchester, où le jeune Français découvre la house à l'Haçienda à la fin des années 80 et y devient DJ. Elle se poursuit avec le retour en France : la répression des raves, les clubs parisiens (Palace, Rex) et la création de F Communications. C'est la référence pour Manchester vue de l'intérieur et pour la scène française.",
+      "themes": [
+        "Manchester",
+        "Haçienda",
+        "techno",
+        "France",
+        "raves"
+      ],
+      "genres": [
+        "acid",
+        "detroit",
+        "french-touch"
+      ],
+      "to_verify": false,
+      "type_en": "Book (autobiography)",
+      "themes_en": [
+        "Manchester",
+        "Haçienda",
+        "techno",
+        "France",
+        "raves"
+      ],
+      "contribution_en": "Laurent Garnier's definitive autobiography and a history of techno told by one of its protagonists. It opens in Manchester, where the young Frenchman discovered house at the Haçienda in the late 80s and became a DJ there, then follows his return to France: the crackdown on raves, the Paris clubs (Palace, Rex) and the founding of F Communications. The reference for Manchester from the inside and for the French scene."
+    },
+    {
+      "id": "underground-massive",
+      "title": "The Underground Is Massive: How Electronic Dance Music Conquered America",
+      "author": "Michaelangelo Matos",
+      "year": 2015,
+      "type": "Livre",
+      "contribution": "L'histoire de la dance music aux États-Unis, des raves du Midwest à l'EDM des années 2010. Elle montre le paradoxe américain : le pays invente la house et la techno, puis les redécouvre par l'Europe.",
+      "themes": [
+        "États-Unis",
+        "rave",
+        "EDM",
+        "industrie"
+      ],
+      "genres": [
+        "detroit",
+        "garage-nyc",
+        "tech-house",
+        "rave-jungle"
+      ],
+      "to_verify": false,
+      "type_en": "Book",
+      "themes_en": [
+        "United States",
+        "rave",
+        "EDM",
+        "industry"
+      ],
+      "contribution_en": "The history of dance music in the United States, from Midwest raves to 2010s EDM. It shows the American paradox: the country invented house and techno, then rediscovered them through Europe."
+    },
+    {
+      "id": "brickwork-arches",
+      "title": "Brickwork: A Biography of The Arches",
+      "author": "David Bratchpiece & Kirstin Innes",
+      "year": 2021,
+      "type": "Livre (Salamander Street, 2021)",
+      "contribution": "La biographie des Arches, voûtes de briques sous la gare centrale de Glasgow, à la fois théâtre, lieu d'art et club, fermé en 2015. C'est notre source pour la scène club écossaise : les soirées Slam, le label Soma Records et ses premiers maxis de Daft Punk.",
+      "themes": [
+        "Glasgow",
+        "Slam",
+        "Soma Records",
+        "lieu",
+        "licence"
+      ],
+      "genres": [
+        "tech-house",
+        "french-touch"
+      ],
+      "to_verify": false,
+      "type_en": "Book (Salamander Street, 2021)",
+      "themes_en": [
+        "Glasgow",
+        "Slam",
+        "Soma Records",
+        "venue",
+        "licensing"
+      ],
+      "contribution_en": "The biography of the Arches, brick vaults beneath Glasgow Central Station that were theatre, arts venue and club at once, closed in 2015. Our source for the Scottish club scene: the Slam nights, Soma Records and its first Daft Punk releases."
+    },
+    {
+      "id": "rave-on",
+      "title": "Rave On: Global Adventures in Electronic Dance Music",
+      "author": "Matthew Collin",
+      "year": 2018,
+      "type": "Livre",
+      "contribution": "Un reportage mondial sur les scènes électroniques, de Berlin à Tbilissi, de Shanghai à Las Vegas. Il sert à penser la house comme culture globale et politique, après les grands récits britanniques.",
+      "themes": [
+        "global",
+        "politique",
+        "Berlin",
+        "reportage"
+      ],
+      "genres": [
+        "trance",
+        "tech-house",
+        "afro",
+        "chicago"
+      ],
+      "to_verify": false,
+      "type_en": "Book",
+      "themes_en": [
+        "global",
+        "politics",
+        "Berlin",
+        "reportage"
+      ],
+      "contribution_en": "A global report on electronic scenes, from Berlin to Tbilisi, from Shanghai to Las Vegas. It helps think of house as a global and political culture, beyond the great British narratives."
+    },
+    {
+      "id": "state-of-bass",
+      "title": "State of Bass: The Origins of Jungle/Drum & Bass",
+      "author": "Martin James",
+      "year": 1997,
+      "type": "Livre",
+      "contribution": "L'histoire des origines de la jungle : du hardcore aux sound systems, des radios pirates aux labels (Metalheadz, Good Looking). C'est la référence pour la lignée bass britannique, après le bleep de Join the Future.",
+      "themes": [
+        "jungle",
+        "drum & bass",
+        "sound system",
+        "Londres"
+      ],
+      "genres": [
+        "rave-jungle",
+        "ukg"
+      ],
+      "to_verify": false,
+      "type_en": "Book",
+      "themes_en": [
+        "jungle",
+        "drum & bass",
+        "sound system",
+        "London"
+      ],
+      "contribution_en": "The origins of jungle: from hardcore to sound systems, from pirate radio to labels (Metalheadz, Good Looking). The reference for the British bass lineage after Join the Future's bleep."
+    },
+    {
+      "id": "hot-stuff",
+      "title": "Hot Stuff: Disco and the Remaking of American Culture",
+      "author": "Alice Echols",
+      "year": 2010,
+      "type": "Livre (histoire culturelle)",
+      "contribution": "Une histoire culturelle de la disco : sa place dans les cultures gays, noires et féministes et sa redéfinition des genres et des sexualités. On y lit aussi le backlash du « Disco Sucks ». C'est indispensable pour comprendre de quoi la house hérite.",
+      "themes": [
+        "disco",
+        "queer",
+        "genre",
+        "backlash"
+      ],
+      "genres": [
+        "disco",
+        "garage-nyc",
+        "french-touch"
+      ],
+      "to_verify": false,
+      "type_en": "Book (cultural history)",
+      "themes_en": [
+        "disco",
+        "queer",
+        "gender",
+        "backlash"
+      ],
+      "contribution_en": "A cultural history of disco: its place in gay, Black and feminist cultures and how it redefined gender and sexuality, plus the \"Disco Sucks\" backlash. Essential to understand what house inherits."
+    },
+    {
+      "id": "sonic-youth-floor",
+      "title": "Sonic Youth Slept on My Floor: Music, Manchester, and More",
+      "author": "Dave Haslam",
+      "year": 2018,
+      "type": "Livre (mémoires)",
+      "contribution": "Les mémoires de Dave Haslam, DJ résident de l'Haçienda, de 1986 à 1997. C'est la ville vue par un DJ et un journaliste, entre rock indé, house et culture locale.",
+      "themes": [
+        "Manchester",
+        "Haçienda",
+        "DJ",
+        "mémoires"
+      ],
+      "genres": [
+        "acid"
+      ],
+      "to_verify": false,
+      "type_en": "Book (memoir)",
+      "themes_en": [
+        "Manchester",
+        "Haçienda",
+        "DJ",
+        "memoir"
+      ],
+      "contribution_en": "The memoir of Dave Haslam, Haçienda resident DJ from 1986 to 1997: the city seen by a DJ and journalist, between indie rock, house and local culture."
+    },
+    {
+      "id": "hypnotised",
+      "title": "Hypnotised: A Journey Through Trance Music (1990–2005)",
+      "author": "Arjan Rietveld",
+      "year": 2022,
+      "type": "Livre (Mary Go Wild, Pays-Bas)",
+      "contribution": "Le livre retrace l'essor de la progressive house et de la trance européenne entre 1990 et 2005 : de l'acid house et des clubs britanniques et ibizencs jusqu'aux grands rassemblements néerlandais. Il situe la trance comme une ramification européenne de la house, devenue culture de masse.",
+      "themes": [
+        "trance",
+        "progressive house",
+        "Ibiza",
+        "Royaume-Uni",
+        "Pays-Bas"
+      ],
+      "genres": [
+        "trance",
+        "balearic",
+        "acid"
+      ],
+      "to_verify": false,
+      "type_en": "Book (Mary Go Wild, Netherlands)",
+      "themes_en": [
+        "trance",
+        "progressive house",
+        "Ibiza",
+        "United Kingdom",
+        "Netherlands"
+      ],
+      "contribution_en": "Traces the rise of progressive house and European trance from 1990 to 2005: from acid house and British and Ibizan clubs to the big Dutch gatherings. It places trance as a European offshoot of house that became mass culture."
+    },
+    {
+      "id": "second-summer",
+      "title": "The Second Summer of Love: How Dance Music Took Over the World",
+      "author": "Alon Shulman",
+      "year": 2019,
+      "type": "Livre (John Blake)",
+      "contribution": "Comment la house et l'acid house passent des États-Unis au Royaume-Uni à la fin des années 80 et transforment le clubbing britannique puis mondial. C'est le récit du basculement culturel de 1988-1989 : raves, presse, panique morale, puis industrie.",
+      "themes": [
+        "1988",
+        "acid house",
+        "Royaume-Uni",
+        "rave"
+      ],
+      "genres": [
+        "acid",
+        "chicago",
+        "rave-jungle",
+        "balearic"
+      ],
+      "to_verify": false,
+      "type_en": "Book (John Blake)",
+      "themes_en": [
+        "1988",
+        "acid house",
+        "United Kingdom",
+        "rave"
+      ],
+      "contribution_en": "How house and acid house crossed from the US to the UK in the late 80s and transformed British, then global, clubbing. The story of the 1988–1989 cultural shift: raves, press, moral panic, then industry."
+    },
+    {
+      "id": "musique-house-bidder",
+      "title": "Musique house",
+      "author": "Sean Bidder",
+      "year": null,
+      "type": "Livre (guide ; édition originale : The Rough Guide to House Music, 1999)",
+      "contribution": "Le guide de référence en français. Il couvre l'essor de la house à Chicago, New York et Londres à la fin des années 80, puis la French Touch (Laurent Garnier, Dimitri from Paris, Ludovic Navarre). C'est notre porte d'entrée francophone sur l'histoire du genre.",
+      "themes": [
+        "guide",
+        "Chicago",
+        "New York",
+        "Londres",
+        "France"
+      ],
+      "genres": [
+        "chicago",
+        "garage-nyc",
+        "deep",
+        "french-touch"
+      ],
+      "to_verify": false,
+      "type_en": "Book (guide; original edition: The Rough Guide to House Music, 1999)",
+      "themes_en": [
+        "guide",
+        "Chicago",
+        "New York",
+        "London",
+        "France"
+      ],
+      "contribution_en": "The reference guide in French. It covers house's rise in Chicago, New York and London in the late 80s, then the French Touch (Laurent Garnier, Dimitri from Paris, Ludovic Navarre). Our French-language entry point into the genre's history."
+    },
+    {
+      "id": "beat-scene-sound",
+      "title": "The Beat, The Scene, The Sound: A DJ's Journey Through the Rise, Fall, and Rebirth of House Music in New York City",
+      "author": "DJ Disciple & Henry Kronk",
+      "year": 2023,
+      "type": "Livre (mémoires, Rowman & Littlefield ; préface de Louie Vega)",
+      "contribution": "La house new-yorkaise vue de l'intérieur par un DJ, avec ses promoteurs et ses publics : l'essor, la chute (fermetures de clubs, années Giuliani) et la renaissance. C'est un récit de scène plutôt qu'un panorama, précieux pour le garage et le tribal des années 90.",
+      "themes": [
+        "New York",
+        "DJ",
+        "clubs",
+        "années 90"
+      ],
+      "genres": [
+        "garage-nyc",
+        "tribal-nyc"
+      ],
+      "to_verify": false,
+      "type_en": "Book (memoir, Rowman & Littlefield; foreword by Louie Vega)",
+      "themes_en": [
+        "New York",
+        "DJ",
+        "clubs",
+        "1990s"
+      ],
+      "contribution_en": "New York house from the inside, through a DJ, his promoters and crowds: the rise, the fall (club closures, the Giuliani years) and the rebirth. A scene story rather than an overview, invaluable for 90s garage and tribal."
+    },
+    {
+      "id": "decade-house-bleakman",
+      "title": "1990–2000: The Decade That Was House Music",
+      "author": "James Bleakman",
+      "year": 2026,
+      "type": "Livre (mémoires ; ebook et audio, 1er septembre 2026)",
+      "contribution": "Les mémoires d'un passionné sur la façon dont la house a façonné le collectionnement de disques, le clubbing et la culture DJ dans les années 90, de l'écoute dans la chambre aux grandes dates des clubs. C'est le point de vue du public, celui du fan, sur la décennie.",
+      "themes": [
+        "années 90",
+        "collection",
+        "clubbing",
+        "fans"
+      ],
+      "genres": [
+        "garage-nyc",
+        "french-touch",
+        "tech-house",
+        "ukg"
+      ],
+      "to_verify": false,
+      "type_en": "Book (memoir; ebook and audio, 1 September 2026)",
+      "themes_en": [
+        "1990s",
+        "collecting",
+        "clubbing",
+        "fans"
+      ],
+      "contribution_en": "A devotee's memoir of how house shaped record collecting, clubbing and DJ culture in the 1990s, from bedroom listening to landmark club nights. The audience's, the fan's, view of the decade."
+    },
+    {
+      "id": "energy-flash",
+      "title": "Energy Flash: A Journey Through Rave Music and Dance Culture",
+      "author": "Simon Reynolds",
+      "year": 1998,
+      "type": "Livre (en anglais ; publié aux États-Unis sous le titre « Generation Ecstasy »)",
+      "contribution": "La grande histoire critique de la rave, de Detroit et Chicago à l'acid house, au hardcore, à la jungle, à la trance et au UK garage. Reynolds analyse les sons (le « hardcore continuum »), les drogues et les corps : c'est le cadre théorique de nos lignées britanniques.",
+      "themes": [
+        "rave",
+        "hardcore continuum",
+        "ecstasy",
+        "critique"
+      ],
+      "genres": [
+        "acid",
+        "rave-jungle",
+        "ukg",
+        "detroit",
+        "trance"
+      ],
+      "to_verify": false,
+      "type_en": "Book (published in the US as \"Generation Ecstasy\")",
+      "themes_en": [
+        "rave",
+        "hardcore continuum",
+        "ecstasy",
+        "criticism"
+      ],
+      "contribution_en": "The great critical history of rave, from Detroit and Chicago to acid house, hardcore, jungle, trance and UK garage. Reynolds analyses sounds (the \"hardcore continuum\"), drugs and bodies: the theoretical frame for our British lineages."
+    },
+    {
+      "id": "turn-the-beat-around",
+      "title": "Turn the Beat Around: The Secret History of Disco",
+      "author": "Peter Shapiro",
+      "year": 2005,
+      "type": "Livre",
+      "contribution": "Une histoire de la disco comme musique de libération (gay, noire, féminine), puis comme industrie, jusqu'au backlash « Disco Sucks ». Shapiro, qui a aussi dirigé le livre Modulations, montre la disco comme la matrice technique et sociale de la house.",
+      "themes": [
+        "disco",
+        "libération",
+        "backlash",
+        "industrie"
+      ],
+      "genres": [
+        "disco",
+        "garage-nyc",
+        "chicago"
+      ],
+      "to_verify": false,
+      "type_en": "Book",
+      "themes_en": [
+        "disco",
+        "liberation",
+        "backlash",
+        "industry"
+      ],
+      "contribution_en": "A history of disco as a music of liberation (gay, Black, female), then as an industry, up to the \"Disco Sucks\" backlash. Shapiro, who also edited the Modulations book, shows disco as the technical and social matrix of house."
+    },
+    {
+      "id": "do-you-remember-house",
+      "title": "Do You Remember House? Chicago's Queer of Color Undergrounds",
+      "author": "Micah E. Salkind",
+      "year": 2019,
+      "type": "Livre (histoire culturelle, universitaire)",
+      "contribution": "Une histoire de la house de Chicago recentrée sur les communautés queer noires et latines qui l'ont inventée, du Warehouse et de la Music Box aux soirées actuelles. Le livre fonde l'onglet Ballroom & queer : la house comme pratique de mémoire et de survie communautaire.",
+      "themes": [
+        "Chicago",
+        "queer of color",
+        "mémoire",
+        "communauté"
+      ],
+      "genres": [
+        "chicago",
+        "acid",
+        "deep"
+      ],
+      "to_verify": false,
+      "type_en": "Book (cultural history, academic)",
+      "themes_en": [
+        "Chicago",
+        "queer of color",
+        "memory",
+        "community"
+      ],
+      "contribution_en": "A history of Chicago house refocused on the Black and Latinx queer communities that invented it, from the Warehouse and the Music Box to today's parties. It grounds our Ballroom & queer tab: house as a practice of memory and communal survival."
+    },
+    {
+      "id": "love-saves-the-day",
+      "title": "Love Saves the Day: A History of American Dance Music Culture, 1970–1979",
+      "author": "Tim Lawrence",
+      "year": 2003,
+      "type": "Livre (histoire, universitaire)",
+      "contribution": "L'histoire minutieuse des années 70 new-yorkaises : le Loft de David Mancuso, le Sanctuary, le Gallery, les débuts de Larry Levan et Frankie Knuckles, la naissance du 12\" et du remix. C'est la source la plus précise sur la préhistoire de la house.",
+      "themes": [
+        "Loft",
+        "New York",
+        "années 70",
+        "remix"
+      ],
+      "genres": [
+        "disco",
+        "garage-nyc"
+      ],
+      "to_verify": false,
+      "type_en": "Book (history, academic)",
+      "themes_en": [
+        "Loft",
+        "New York",
+        "1970s",
+        "remix"
+      ],
+      "contribution_en": "A meticulous history of 1970s New York: David Mancuso's Loft, the Sanctuary, the Gallery, the early days of Larry Levan and Frankie Knuckles, the birth of the 12\" and the remix. The most precise source on house's prehistory."
+    },
+    {
+      "id": "how-music-works",
+      "title": "How Music Works",
+      "author": "David Byrne",
+      "year": 2012,
+      "type": "Livre (essai)",
+      "contribution": "Un essai général sur la manière dont les lieux, les technologies et l'économie façonnent la musique. Il ne porte pas spécifiquement sur le DJing, mais il éclaire une idée centrale du projet : un son est conçu pour un espace (le Paradise Garage, la warehouse, l'écouteur de téléphone).",
+      "themes": [
+        "espace",
+        "technologie",
+        "économie",
+        "essai"
+      ],
+      "genres": [
+        "garage-nyc",
+        "lofi",
+        "amapiano"
+      ],
+      "to_verify": false,
+      "type_en": "Book (essay)",
+      "themes_en": [
+        "space",
+        "technology",
+        "economics",
+        "essay"
+      ],
+      "contribution_en": "A general essay on how venues, technologies and economics shape music. Not specifically about DJing, but it illuminates a core idea of the project: a sound is designed for a space (the Paradise Garage, the warehouse, the phone earbud)."
+    },
+    {
+      "id": "garnier-ramadier-2026",
+      "title": "Garnier",
+      "author": "Mathilde Ramadier",
+      "year": 2026,
+      "type": "Livre (biographie, Les Pérégrines, 160 p.)",
+      "type_en": "Book (biography, Les Pérégrines, 160 pp.)",
+      "contribution": "Une biographie de Laurent Garnier fondée sur de longs entretiens avec lui, de ses débuts à Manchester en 1987, quand il mixe sous le nom de DJ Pedro et fréquente l'Haçienda, jusqu'à sa carrière internationale. Elle complète Electrochoc par un regard extérieur.",
+      "contribution_en": "A biography of Laurent Garnier built on long conversations with him, from his beginnings in Manchester in 1987, when he played as DJ Pedro and frequented the Haçienda, to his international career. It complements Electrochoc with an outside view.",
+      "themes": [
+        "Laurent Garnier",
+        "Manchester",
+        "Haçienda",
+        "France",
+        "biographie"
+      ],
+      "themes_en": [
+        "Laurent Garnier",
+        "Manchester",
+        "Haçienda",
+        "France",
+        "biography"
+      ],
+      "genres": [
+        "french-touch",
+        "acid"
+      ],
+      "to_verify": false
+    }
+  ]
+}
