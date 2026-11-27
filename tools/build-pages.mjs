@@ -42,7 +42,7 @@ const L = {
     why: "Pourquoi ce disque", construction: "Construction", origins: "Origines et approche producteur",
     club: "Sociologie du club", queer: "Axe ballroom & scènes queer",
     gear: "Machines", source: "Référence", inStations: "Sur le plan du métro", sameStation: "Dans la même station",
-    year: "Année", label: "Label", city: "Ville", bpm: "BPM", key: "Clé Camelot", energy: "Énergie", genre: "Genre", scene: "Micro-scène", era: "Ère",
+    year: "Année", label: "Label", city: "Ville", bpm: "BPM", key: "Clé Camelot", energy: "Énergie", genre: "Genre", scene: "Micro-scène", era: "Ère", catalog: "Catalogue", released: "Sortie", physical: "Sortie physique",
     openBooth: "Ouvrir dans The Booth", listen: "Écouter sur YouTube", openMap: "Voir sur le plan du métro",
     lines: "Lignes", stationRecords: "Les disques de la station", connected: "Stations reliées", transfer: "Correspondance",
     allRecords: (n) => `Les ${n} disques`, allStations: (n) => `Les ${n} stations`,
@@ -62,7 +62,7 @@ const L = {
     why: "Why this record", construction: "How it was made", origins: "Origins and production approach",
     club: "Club sociology", queer: "Ballroom & queer scenes",
     gear: "Machines", source: "Reference", inStations: "On the metro map", sameStation: "In the same station",
-    year: "Year", label: "Label", city: "City", bpm: "BPM", key: "Camelot key", energy: "Energy", genre: "Genre", scene: "Micro-scene", era: "Era",
+    year: "Year", label: "Label", city: "City", bpm: "BPM", key: "Camelot key", energy: "Energy", genre: "Genre", scene: "Micro-scene", era: "Era", catalog: "Catalogue no.", released: "Released", physical: "Physical release",
     openBooth: "Open in The Booth", listen: "Listen on YouTube", openMap: "See it on the metro map",
     lines: "Lines", stationRecords: "Records in this station", connected: "Connected stations", transfer: "Transfer",
     allRecords: (n) => `All ${n} records`, allStations: (n) => `All ${n} stations`,
@@ -192,6 +192,15 @@ const recordItem = (lang, t) => `<li><a href="${recordPath(lang, t.id)}"><span c
 const stationName = (lang, s) => f(s, "name", lang);
 
 // ---------- page disque ----------
+// AAAA, AAAA-MM ou AAAA-MM-JJ -> date lisible ("" si absente)
+function fmtDate(v, lang) {
+  if (!v || !/^\d{4}(-\d{2}){0,2}$/.test(v)) return "";
+  const [y, m, d] = v.split("-").map(Number);
+  if (!m) return String(y);
+  const opts = { timeZone: "UTC", year: "numeric", month: "long", ...(d ? { day: "numeric" } : {}) };
+  return new Intl.DateTimeFormat(lang === "en" ? "en-GB" : "fr-FR", opts).format(new Date(Date.UTC(y, m - 1, d || 1)));
+}
+
 function recordPage(t, lang) {
   const T = L[lang];
   const g = byGenre[t.genre], era = byEra[t.era];
@@ -202,7 +211,8 @@ function recordPage(t, lang) {
   const gear = (t.gear || []).map((id) => (byMachine[id] ? byMachine[id].name : id));
   const src = t.archive_ref?.source && bySource[t.archive_ref.source];
   const facts = [
-    [T.year, t.year], [T.label, t.label], [T.city, [t.city, t.country].filter(Boolean).join(", ")],
+    [T.year, t.year], [T.released, fmtDate(t.release_date, lang)], [T.physical, fmtDate(t.physical_release_date, lang)],
+    [T.label, t.label], [T.catalog, t.catalog], [T.city, [t.city, t.country].filter(Boolean).join(", ")],
     [T.genre, g ? f(g, "name", lang) : t.genre], [T.scene, byScene[t.scene] ? f(byScene[t.scene], "name", lang) : ""], [T.bpm, t.bpm], [T.key, t.camelot_key], [T.energy, t.energy != null ? `${t.energy}/10` : ""],
   ].filter(([, v]) => v !== "" && v != null);
   const yt = t.youtube?.[0];

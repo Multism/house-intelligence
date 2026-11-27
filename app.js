@@ -227,7 +227,7 @@
       b("BPM", t.bpm),
       b("Camelot", t.camelot_key, h("span", { style: "color:var(--ink-3)" }, keyName(t.camelot_key))),
       b(_t("badge.energy"), `${t.energy}/10`, energy),
-      b(_t("badge.label"), t.label), b(_t("badge.city"), _f(t, "city")), b(_t("badge.year"), t.year));
+      b(_t("badge.label"), t.label, t.catalog ? h("span", { style: "color:var(--ink-3)" }, t.catalog) : null), b(_t("badge.city"), _f(t, "city")), b(_t("badge.year"), t.year));
     $("#now-why").textContent = _f(t, "why_this_record");
     const sp = $("#now-spotify");
     if (t.spotify?.id) { sp.href = `https://open.spotify.com/track/${t.spotify.id}`; sp.hidden = false; } else sp.hidden = true;
