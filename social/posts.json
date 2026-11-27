@@ -769,7 +769,19 @@
       "variant": 1,
       "status": "approved",
       "not_before": "2026-11-27",
-      "source_hash": "445f8c2a1332",
+      "source_hash": "028e0a2c5662",
+      "note": "Généré automatiquement depuis data/decouvertes.json ; publié sans validation (accord de Vovotte du 27/11/2026)."
+    },
+    {
+      "n": 34,
+      "slug": "coup-de-coeur-chiarello-basta-now",
+      "kind": "decouverte",
+      "decouverte": "chiarello-basta-now",
+      "channel": "coup-de-coeur",
+      "variant": 1,
+      "status": "approved",
+      "not_before": "2026-11-27",
+      "source_hash": "71b3d12f6521",
       "note": "Généré automatiquement depuis data/decouvertes.json ; publié sans validation (accord de Vovotte du 27/11/2026)."
     }
   ]
