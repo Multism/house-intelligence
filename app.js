@@ -986,6 +986,7 @@
           h("span", { class: "disc-kind" }, _t("disc.kind." + e.kind)),
           h("div", { class: "disc-head" }, pid ? playBtn(pid, queue) : null,
             h("h2", {}, who ? h("span", { class: "who" }, who + " — ") : null, title, meta ? h("small", {}, ` (${meta})`) : null)),
+          _f(e, "context") ? h("p", { class: "disc-context" }, _f(e, "context")) : null,
           _f(e, "note") ? h("p", { class: "disc-note" }, _f(e, "note")) : null,
           e.bandcamp?.id ? bcSlot(e.bandcamp) : null,
           h("div", { class: "links" },
