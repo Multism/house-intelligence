@@ -28,7 +28,9 @@ Ton travail : en faire une entrée propre dans `data/decouvertes.json`, la véri
 
 ## 2. Règles (non négociables)
 
-- **La note est celle de l'utilisateur.** On corrige l'orthographe, on traduit (FR ↔ EN), on ne rajoute aucune idée. Sans mots de sa part, on **demande** avant de publier : pas de note inventée.
+- **Le cas courant : l'utilisateur colle la page Bandcamp telle quelle** (titre, artiste, « paru le … », texte du label, crédits, biographie, parfois le code Share / Embed). On en tire tout ce qu'on peut, on prépare l'entrée, puis on la montre et on demande en une ligne : « Tes mots, une piste favorite ? Sinon je publie comme ça. » La note, la piste favorite et la station sont des compléments **facultatifs** : sans réponse ou sur un « vas-y », on publie sans note.
+- **La note est celle de l'utilisateur.** On corrige l'orthographe, on traduit (FR ↔ EN), on ne rajoute aucune idée. Jamais de note inventée : sans mots de sa part, le champ `note` reste absent (le `context` tiré du label suffit).
+- Le texte du label sert au `context`, résumé en une ou deux phrases neutres (origine des artistes, numéro de sortie, date, couleur du disque), sans superlatifs promotionnels.
 - Le texte de l'utilisateur garde son ton : « banger », « Point. »… on ne lisse pas.
 - Ne jamais aspirer les pages Bandcamp avec curl ou un script : elles ont une protection anti-robot. On travaille avec ce que l'utilisateur colle ; pour un fait manquant, recherche web classique, sinon on laisse le champ vide.
 - Pas de `verify` par défaut : l'utilisateur a choisi une entrée sans année plutôt qu'un avertissement affiché. N'en mettre que pour un doute réel sur un fait affiché, et le lui dire.
@@ -45,7 +47,7 @@ Ton travail : en faire une entrée propre dans `data/decouvertes.json`, la véri
 
 ## 4. Publier
 
-Si l'utilisateur a donné ses mots et que rien n'est ambigu, publier directement (la validation se fait d'habitude après coup) :
+Dès que l'utilisateur a répondu (ses mots, ou « vas-y » / « publie »), publier :
 
 ```sh
 git add data/decouvertes.json data/bundle.js
