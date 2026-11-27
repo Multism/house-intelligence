@@ -680,3 +680,7 @@ body { padding-bottom: 0; }
   .disc-item { grid-template-columns: 1fr; gap: 6px; }
   .disc-head h2 { font-size: 21px; }
 }
+.bc-slot { margin: 0 0 12px; }
+.bc-slot iframe { display: block; width: 100%; max-width: 560px; height: 120px; border: 0; border-radius: 8px; background: var(--bg-2); }
+.bc-btn { border-color: #1da0c3; }
+.disc-item a.bc-link { border-color: color-mix(in srgb, #1da0c3 60%, var(--line)); }

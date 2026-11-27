@@ -767,6 +767,7 @@
       if ("queue" in opts) this.queue = opts.queue;
       this.current = id; this.candidate = 0;
       if (Pulse.playing) Pulse.toggle();                     // exclusion sonore : la musique coupe le pulse
+      closeBandcamp();                                       // … et le lecteur Bandcamp d'« En ce moment »
       if (S.byId[id] && S.current?.id !== id) load(id, "écoute", { noScroll: true });
       $("#yt-empty").hidden = true;
       if ($("#fw").hidden) { $("#fw").hidden = false; window.dispatchEvent(new Event("resize")); }
@@ -785,6 +786,7 @@
       $("#fw").classList.toggle("is-playing", this.playing);
       markPlaying();
       if (st === 1 && Pulse.playing) Pulse.toggle();
+      if (st === 1) closeBandcamp();
       if (st === 0) this.next();
     },
     onError() {
@@ -795,7 +797,7 @@
     toggle() {
       if (!this.current) { const first = this.list()[0] || S.current; if (first) this.play(first.id); return; }
       if (!this.ready) return;
-      this.playing ? this.yt.pauseVideo() : this.yt.playVideo();
+      if (this.playing) this.yt.pauseVideo(); else { closeBandcamp(); this.yt.playVideo(); }
     },
     pause() { if (this.ready && this.playing) this.yt.pauseVideo(); },
     // fermer : coupe la vidéo et masque la fenêtre ; elle revient au prochain ▶
@@ -944,6 +946,18 @@
     for (const e of S.discEntries) if (!e.track && e.youtube?.length) S.disc["d:" + e.id] = { ...e, id: "d:" + e.id };
     const link = $('[data-view-link="decouverte"]'); if (link) link.hidden = !S.discEntries.length;   // rubrique masquée tant qu'elle est vide
   }
+  // Bandcamp : lecteur officiel intégré, chargé seulement au clic (aucun appel à Bandcamp avant).
+  // Un seul lecteur ouvert à la fois ; la fenêtre d'écoute YouTube se met en pause.
+  function bcSrc(b) {
+    return `https://bandcamp.com/EmbeddedPlayer/v=2/${b.type === "track" ? "track" : "album"}=${encodeURIComponent(b.id)}/size=large/bgcol=161412/linkcol=d4ff3a/tracklist=false/artwork=small/transparent=true/`;
+  }
+  function closeBandcamp() { for (const f of document.querySelectorAll(".bc-slot iframe")) f.closest(".bc-slot").replaceWith(bcSlot(JSON.parse(f.dataset.bc))); }
+  function bcSlot(b) {
+    return h("div", { class: "bc-slot" }, h("button", { class: "btn sm bc-btn", onclick: (ev) => {
+      closeBandcamp(); Player.pause(); if (Pulse.playing) Pulse.toggle();
+      ev.currentTarget.closest(".bc-slot").replaceChildren(h("iframe", { src: bcSrc(b), title: _t("disc.bcTitle"), loading: "lazy", "data-bc": JSON.stringify(b), allow: "autoplay" }));
+    } }, _t("disc.bcPlay")));
+  }
   const discPlayId = (e) => (e.track && S.byId[e.track]?.youtube?.length ? e.track : S.disc["d:" + e.id] ? "d:" + e.id : null);
   function discDate(iso) {
     try { return new Date(iso + "T12:00:00").toLocaleDateString(window.I18N.lang === "en" ? "en-GB" : "fr-FR", { day: "numeric", month: "short", year: "numeric" }); } catch { return iso; }
@@ -973,10 +987,12 @@
           h("div", { class: "disc-head" }, pid ? playBtn(pid, queue) : null,
             h("h2", {}, who ? h("span", { class: "who" }, who + " — ") : null, title, meta ? h("small", {}, ` (${meta})`) : null)),
           _f(e, "note") ? h("p", { class: "disc-note" }, _f(e, "note")) : null,
+          e.bandcamp?.id ? bcSlot(e.bandcamp) : null,
           h("div", { class: "links" },
             st ? h("a", { class: "chip", href: `#metro?st=${e.station}` }, h("span", { class: "dot" }), `${line ? "L" + line.num + " · " : ""}${_f(st, "name")}`) : null,
             cat ? h("a", { class: "chip", href: "#" + cat.id }, _t("disc.toRecord")) : null,
             src ? h("button", { class: "chip", onclick: () => openSource(src.id) }, _t("disc.toSource", { t: src.title.split(":")[0] })) : null,
+            e.bandcamp?.url ? h("a", { class: "chip bc-link", href: e.bandcamp.url, target: "_blank", rel: "noopener" }, _t("disc.bcSupport")) : null,
             e.link ? h("a", { class: "chip", href: e.link, target: "_blank", rel: "noopener" }, _t("disc.link")) : null),
           e.verify?.length ? h("p", { class: "warn-b disc-verify" }, _t("disc.verify")) : null));
     }) : [h("p", { class: "empty" }, _t("disc.empty"))]));
