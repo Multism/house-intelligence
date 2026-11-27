@@ -924,8 +924,8 @@
       "b": "qweenbeat",
       "title": "« The Ha Dance » → beats ballroom",
       "title_en": "\"The Ha Dance\" → ballroom beats",
-      "text": "Héritière des drag balls documentés dès la fin du XIXe siècle, la culture ballroom contemporaine se structure à New York à partir de la fin des années 1960. En 1991, The Ha Dance de Masters At Work fournit une matrice sonore que les artistes ballroom se réapproprient. Au cours des années 2000, Vjuan Allure transforme ce matériau avec Allure Ha. MikeQ, Qween Beat et les générations suivantes prolongent et renouvellent ce langage musical. Cette filiation concerne l'évolution de la musique ballroom, et non l'origine de la communauté qui la produit.",
-      "text_en": "Heir to the drag balls documented as early as the late 19th century, contemporary ballroom culture took shape in New York from the late 1960s. In 1991, Masters At Work's The Ha Dance provided a sonic template that ballroom artists made their own. During the 2000s, Vjuan Allure transformed this material with Allure Ha. MikeQ, Qween Beat and the generations that followed have extended and renewed this musical language. This lineage concerns the evolution of ballroom music, not the origin of the community that makes it.",
+      "text": "Héritière des drag balls documentés dès les années 1890, la culture ballroom contemporaine émerge en réaction aux discriminations raciales des concours de drag et se structure à New York autour des houses au début des années 1970. En 1967, Crystal LaBeija quitte la scène d'un concours au Town Hall de New York pour en dénoncer les critères raciaux ; en 1972, elle organise avec Lottie LaBeija le premier bal annuel de la House of LaBeija. En 1991, The Ha Dance de Masters At Work fournit une matrice sonore que les artistes ballroom se réapproprient. Au cours des années 2000, Vjuan Allure transforme ce matériau avec Allure Ha. MikeQ, Qween Beat et les générations suivantes prolongent et renouvellent ce langage musical. Cette filiation concerne l'évolution de la musique ballroom, et non l'origine de la communauté qui la produit.",
+      "text_en": "Heir to the drag balls documented as early as the 1890s, contemporary ballroom culture emerged in response to racial discrimination in drag pageants and took shape in New York around the houses in the early 1970s. In 1967, Crystal LaBeija walked off the stage of a pageant at New York's Town Hall to denounce its racial standards; in 1972, she and Lottie LaBeija threw the first annual House of LaBeija Ball. In 1991, Masters At Work's The Ha Dance provided a sonic template that ballroom artists made their own. During the 2000s, Vjuan Allure transformed this material with Allure Ha. MikeQ, Qween Beat and the generations that followed have extended and renewed this musical language. This lineage concerns the evolution of ballroom music, not the origin of the community that makes it.",
       "kind": "filiation",
       "from": "soundfactory",
       "tracks": [
@@ -935,11 +935,12 @@
         "https://daily.redbullmusicacademy.com/2019/02/key-tracks-ha-dance/",
         "https://daily.redbullmusicacademy.com/2012/02/vogue-ballroom-vivian-host/",
         "https://ra.co/exchange/501",
-        "https://peabodyballroom.library.jhu.edu/home/ballroom-history/"
+        "https://peabodyballroom.library.jhu.edu/home/ballroom-history/",
+        "https://www.royalhouseoflabeija.com/history"
       ],
       "verify": [
         "Date d'Allure Ha : 2000 selon RA (Exchange 501) et RBMA (2012) ; milieu des années 2000 selon RBMA (Key Tracks, 2019)",
-        "« Fin des années 1960 » : Peabody Ballroom Experience date la première house (House of LaBeija, Harlem) des années 1970, et situe dans les années 1960-1970 le contexte qui fait naître la culture ballroom contemporaine"
+        "Date de fondation de la House of LaBeija : 1967 (« It all started ») ou 1972 (premier bal) selon le site de la maison, qui est une source d'auto-présentation"
       ]
     }
   ]
