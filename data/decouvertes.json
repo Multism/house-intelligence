@@ -2,9 +2,25 @@
   "_meta": {
     "note": "Rubrique « En ce moment » : écoutes et lectures du moment, la plus récente en premier à l'affichage.",
     "kinds": "nouveau | redecouverte | lecture | film | mix",
-    "fields": "id, date (AAAA-MM-JJ), kind, title, artist ou author, year, label, note, note_en, youtube [ids vérifiés], track (id d'une fiche existante), station (id du métro), source (id de la Bibliothèque), link (URL), verify [points à vérifier]"
+    "fields": "id, date (AAAA-MM-JJ), kind, title, artist ou author, year, label (disque) ou publisher (livre), note, note_en, youtube [ids vérifiés], track (id d'une fiche existante), station (id du métro), source (id de la Bibliothèque), link (URL), verify [points à vérifier]"
   },
   "entries": [
+    {
+      "id": "chiarello-basta-now",
+      "date": "2026-11-27",
+      "kind": "lecture",
+      "title": "Basta Now: Women, Trans & Non-binary in Experimental Music",
+      "author": "Fanny Chiarello",
+      "publisher": "Permanent Draft",
+      "year": 2025,
+      "context": "Poétesse et romancière française, Fanny Chiarello recense 3 867 femmes, personnes trans et non binaires de la musique expérimentale, avec discographies. Deuxième édition augmentée (482 pages, en anglais), chez Permanent Draft, label et micro-maison d'édition qu'elle a fondés avec la batteuse Valentina Magaletti.",
+      "context_en": "French poet and novelist Fanny Chiarello maps 3,867 women, trans and non-binary artists in experimental music, with discographies. Expanded second edition (482 pages, in English), published by Permanent Draft, the label and micro-press she founded with drummer Valentina Magaletti.",
+      "note": "Pas un livre de house, mais celui que je garde ouvert à côté des platines en ce moment. Chaque page m'envoie écouter quelqu'un que je ne connaissais pas.",
+      "note_en": "Not a house book, but the one I keep open next to the decks right now. Every page sends me off to listen to someone I'd never heard of.",
+      "bandcamp": {
+        "url": "https://permanentdraft.bandcamp.com/merch/basta-now-women-trans-non-binary-in-experimental-music"
+      }
+    },
     {
       "id": "soul-of-hex-jet-set",
       "date": "2026-11-27",

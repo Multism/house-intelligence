@@ -983,7 +983,7 @@
     $("#disc-list").replaceChildren(...(items.length ? items.map((e) => {
       const pid = discPlayId(e), cat = e.track && S.byId[e.track];
       const title = e.title || cat?.title, who = e.artist || e.author || cat?.artist;
-      const meta = [e.label || cat?.label, e.year || cat?.year].filter(Boolean).join(", ");
+      const meta = [e.publisher || e.label || cat?.label, e.year || cat?.year].filter(Boolean).join(", ");
       const st = e.station && S.stations[e.station];
       const line = st && S.lines.find((l) => l.stations.includes(e.station));
       const src = e.source && S.sourceById[e.source];
@@ -1001,7 +1001,7 @@
             st ? h("a", { class: "chip", href: `#metro?st=${e.station}` }, h("span", { class: "dot" }), `${line ? "L" + line.num + " · " : ""}${_f(st, "name")}`) : null,
             cat ? h("a", { class: "chip", href: "#" + cat.id }, _t("disc.toRecord")) : null,
             src ? h("button", { class: "chip", onclick: () => openSource(src.id) }, _t("disc.toSource", { t: src.title.split(":")[0] })) : null,
-            e.bandcamp?.url ? h("a", { class: "chip bc-link", href: e.bandcamp.url, target: "_blank", rel: "noopener" }, _t("disc.bcSupport")) : null,
+            e.bandcamp?.url ? h("a", { class: "chip bc-link", href: e.bandcamp.url, target: "_blank", rel: "noopener" }, _t(e.kind === "lecture" ? "disc.bcPublisher" : "disc.bcSupport")) : null,
             e.link ? h("a", { class: "chip", href: e.link, target: "_blank", rel: "noopener" }, _t("disc.link")) : null),
           e.verify?.length ? h("p", { class: "warn-b disc-verify" }, _t("disc.verify")) : null));
     }) : [h("p", { class: "empty" }, _t("disc.empty"))]));
