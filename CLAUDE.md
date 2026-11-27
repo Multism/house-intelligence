@@ -49,6 +49,20 @@ Champs facultatifs : `catalog` (numéro de catalogue), `release_date` (date déc
 6. **Pas de vidéo YouTube inventée** : chaque identifiant est vérifié (oEmbed). Si on n'en trouve pas de fiable, on n'en met pas.
 7. BPM, clés Camelot et `gear` sont des valeurs éditoriales indicatives (voir `_meta.note`).
 
+## Protocole documentaire (chaque dossier, chaque lot)
+
+| Critère | Vérification |
+|---|---|
+| Discographie | Existence du disque, titre, version, label et catalogue |
+| Chronologie | Sortie originale, pressage physique et rééditions |
+| Généalogie | Influences documentées et correspondances stylistiques |
+| Représentation | Contributions historiquement sous-représentées : femmes, artistes trans et non binaires, productrices, DJs, fondatrices de labels, organisatrices de soirées |
+| Identité | Informations et pronoms uniquement attestés par les sources ; ne jamais présumer de l'identité de genre |
+| Underground | Diversité des références au-delà des artistes les plus connus |
+| Sources | Fiabilité et traçabilité des informations |
+
+La représentation se contrôle comme les dates et les labels, sans quota : on élargit le périmètre de recherche avant de sélectionner, y compris dans les scènes historiques (années 1980 à 2000). Le but est de corriger les biais du récit, pas d'écrire une histoire parallèle : ces artistes entrent dans les mêmes stations, chronologies et réseaux de labels que leurs contemporains, sans section à part.
+
 ## Rubrique « En ce moment » (`data/decouvertes.json`)
 
 Raccourci : la commande `/decouverte` (`.claude/skills/decouverte/SKILL.md`) déroule toute la procédure ci-dessous jusqu'à la mise en ligne.
