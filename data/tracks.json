@@ -426,10 +426,10 @@
       "id": "us-underground-deep",
       "name": "Deep house underground de la côte Est",
       "name_en": "East Coast underground deep house",
-      "place": "Connecticut, New York",
-      "place_en": "Connecticut, New York",
-      "desc": "Des labels indépendants (Underground Quality, Deconstruct, Novel Sound) et une deep house brute, pressée sur vinyle, loin des circuits commerciaux de la fin des années 2000.",
-      "desc_en": "Independent labels (Underground Quality, Deconstruct, Novel Sound) and raw deep house pressed on vinyl, far from the commercial circuits of the late 2000s."
+      "place": "New York, New Jersey, Connecticut",
+      "place_en": "New York, New Jersey, Connecticut",
+      "desc": "Des labels et des fêtes tenus par des producteurs et des DJ (Underground Quality, Deconstruct, Novel Sound, Mister Saturday Night) : une deep house brute, pressée sur vinyle, à l'écart des circuits commerciaux.",
+      "desc_en": "Labels and parties run by producers and DJs (Underground Quality, Deconstruct, Novel Sound, Mister Saturday Night): raw deep house pressed on vinyl, away from the commercial circuits."
     },
     {
       "id": "workshop",
@@ -437,8 +437,8 @@
       "name_en": "German hypnotic house (Workshop)",
       "place": "Berlin, Heidelberg",
       "place_en": "Berlin, Heidelberg",
-      "desc": "Le label berlinois Workshop : des maxis sans titres ni crédits détaillés, une house dépouillée, sale et répétitive.",
-      "desc_en": "The Berlin label Workshop: 12\"s without titles or detailed credits, stripped-down, dirty, repetitive house."
+      "desc": "Le label berlinois Workshop, dirigé par Lowtec et Even Tuell : des maxis numérotés aux morceaux sans titre, une house dépouillée et répétitive.",
+      "desc_en": "The Berlin label Workshop, run by Lowtec and Even Tuell: numbered 12\"s with untitled tracks, stripped-down, repetitive house."
     },
     {
       "id": "japon-mule",
@@ -466,6 +466,51 @@
       "place_en": "London",
       "desc": "La house londonienne de la fin des années 2000, entre percussions tribales, garage et basses du dubstep.",
       "desc_en": "London house of the late 2000s, between tribal percussion, garage and dubstep bass."
+    },
+    {
+      "id": "hambourg-deep",
+      "name": "Deep house hambourgeoise (Smallville)",
+      "name_en": "Hamburg deep house (Smallville)",
+      "place": "Hambourg",
+      "place_en": "Hamburg",
+      "desc": "Autour du label et disquaire Smallville : une deep house lente et mélodique, nourrie de Rhodes et de Chicago.",
+      "desc_en": "Around the Smallville label and record shop: slow, melodic deep house steeped in Rhodes and Chicago."
+    },
+    {
+      "id": "outsider-house",
+      "name": "Outsider house",
+      "name_en": "Outsider house",
+      "place": "États-Unis",
+      "place_en": "United States",
+      "desc": "Une house volontairement abîmée, lente, proche du collage ambient : l'étiquette, apparue au début des années 2010, est celle de la presse, pas des artistes.",
+      "desc_en": "Deliberately damaged, slow house, close to ambient collage: the label, coined in the early 2010s, came from the press, not from the artists."
+    },
+    {
+      "id": "queer-underground",
+      "name": "House queer underground",
+      "name_en": "Queer underground house",
+      "place": "États-Unis",
+      "place_en": "United States",
+      "desc": "Des DJ et productrices trans et queer qui font de la house un espace de communauté et de transformation, avec leurs propres labels (T4T LUV NRG).",
+      "desc_en": "Trans and queer DJs and producers who make house a space of community and transformation, with their own labels (T4T LUV NRG)."
+    },
+    {
+      "id": "cabaret",
+      "name": "Minimale japonaise (Cabaret)",
+      "name_en": "Japanese minimal (Cabaret)",
+      "place": "Japon",
+      "place_en": "Japan",
+      "desc": "Le label japonais Cabaret Recordings, fondé par DJ Masda et So Inagawa : une minimale hypnotique, pensée pour les DJ.",
+      "desc_en": "The Japanese label Cabaret Recordings, founded by DJ Masda and So Inagawa: hypnotic minimal made for DJs."
+    },
+    {
+      "id": "mood-hut",
+      "name": "Vancouver (Mood Hut)",
+      "name_en": "Vancouver (Mood Hut)",
+      "place": "Vancouver",
+      "place_en": "Vancouver",
+      "desc": "Le collectif et label Mood Hut : une house chaude et lente, entre deep house, disco et downtempo, d'abord publiée sur cassette.",
+      "desc_en": "The Mood Hut collective and label: warm, slow house between deep house, disco and downtempo, first released on cassette."
     }
   ],
   "tracks": [
@@ -8285,6 +8330,625 @@
       ],
       "verify": [
         "Origines familiales et lieu de naissance de Cooly G",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "asper-clouds",
+      "title": "Asper Clouds",
+      "artist": "Christopher Rau",
+      "year": 2010,
+      "release_date": "2010-10",
+      "label": "Smallville Records",
+      "catalog": "SMALLVILLE CD03",
+      "city": "Hambourg",
+      "city_en": "Hamburg",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "deep",
+      "era": "era-3a",
+      "scene": "hambourg-deep",
+      "bpm": 120,
+      "camelot_key": "5A",
+      "energy": 4,
+      "gear": [
+        "Piano & orgue",
+        "Synthés"
+      ],
+      "gear_en": [
+        "Piano & organ",
+        "Synths"
+      ],
+      "construction": "Premier album, neuf morceaux (« A Line », « Do Little », « The Cool World », « Always the Same », « Ne Travaillez Jamais »…). Des Rhodes, ou des claviers qui y ressemblent, partout, et des mélodies qui se développent très lentement.",
+      "construction_en": "Debut album, nine tracks (\"A Line\", \"Do Little\", \"The Cool World\", \"Always the Same\", \"Ne Travaillez Jamais\"…). Rhodes, or keyboards that sound like it, everywhere, and melodies that unfold very slowly.",
+      "producer_origins": "Christopher Rau est un producteur de Hambourg. Avant cet album, il n'avait sorti que quelques maxis, sur Gedankensport et Giegling.",
+      "producer_origins_en": "Christopher Rau is a Hamburg producer. Before this album he had released only a few 12\"s, on Gedankensport and Giegling.",
+      "club_sociology": "Resident Advisor y entend moins de la deep house qu'une « house d'automne ». Le disque reprend les sons de Chicago et de Detroit avec la retenue de la minimale allemande ; « Ne Travaillez Jamais », sorti en 2009, tournait déjà chez les DJ du label Dial.",
+      "club_sociology_en": "Resident Advisor heard it less as deep house than as \"autumnal house\". The record takes up Chicago and Detroit sounds with the restraint of German minimal; \"Ne Travaillez Jamais\", released in 2009, was already a favourite of the Dial label's DJs.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Critiques de Resident Advisor et d'Exclaim! (2010).",
+        "note_en": "Reviews in Resident Advisor and Exclaim! (2010)."
+      },
+      "why_this_record": "La deep house, version hambourgeoise : lente, mélodique, automnale.",
+      "why_this_record_en": "Deep house, Hamburg style: slow, melodic, autumnal.",
+      "tags": [
+        "europe",
+        "deep"
+      ],
+      "youtube": [
+        "Q_-GQyFKXcM"
+      ],
+      "references": [
+        "https://ra.co/reviews/8104?comments=1",
+        "https://exclaim.ca/music/article/christopher_rau-asper_clouds"
+      ],
+      "verify": [
+        "Smallville : label et disquaire de Hambourg (non confirmé par une source lue)",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "space-is-only-noise",
+      "title": "Space Is Only Noise",
+      "artist": "Nicolas Jaar",
+      "year": 2011,
+      "release_date": "2011-02",
+      "label": "Circus Company",
+      "catalog": "CCCD009",
+      "city": "New York",
+      "city_en": "New York",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "deep",
+      "era": "era-3a",
+      "bpm": 100,
+      "camelot_key": "8A",
+      "energy": 3,
+      "gear": [
+        "DAW",
+        "Sampler",
+        "Voix"
+      ],
+      "gear_en": [
+        "DAW",
+        "Sampler",
+        "Vocals"
+      ],
+      "construction": "Quatorze morceaux qui mêlent jazz parisien, IDM, house au ralenti, musique classique, musique concrète et hip-hop. Jaar se sert de sa propre voix comme d'une texture ; « I Got A » tourne autour d'une voix de Ray Charles.",
+      "construction_en": "Fourteen tracks blending Parisian jazz, IDM, slowed-down house, classical music, musique concrète and hip-hop. Jaar uses his own voice as texture; \"I Got A\" is built around a Ray Charles vocal.",
+      "producer_origins": "Nicolas Jaar, né au Chili et installé à New York, publie son premier maxi à 17 ans (« The Student », Wolf & Lamb, 2008). Space Is Only Noise est son premier album, sur le label parisien Circus Company.",
+      "producer_origins_en": "Nicolas Jaar, Chilean-born and New York-based, released his first 12\" at 17 (\"The Student\", Wolf & Lamb, 2008). Space Is Only Noise is his debut album, on the Parisian label Circus Company.",
+      "club_sociology": "Un disque de house lente qui touche un public bien au-delà des clubs. Il ouvre la voie à une house d'écoute, plus proche de l'album que du maxi.",
+      "club_sociology_en": "A slow house record that reached an audience far beyond the clubs. It opened the way for listening house, closer to the album than the 12\".",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (février 2011).",
+        "note_en": "Resident Advisor review (February 2011)."
+      },
+      "why_this_record": "La house ralentie jusqu'à devenir musique d'écoute.",
+      "why_this_record_en": "House slowed down until it became listening music.",
+      "tags": [
+        "us",
+        "sample",
+        "chill"
+      ],
+      "youtube": [
+        "rje5gvR5D4I"
+      ],
+      "references": [
+        "https://ra.co/reviews/8660"
+      ],
+      "verify": [
+        "Circus Company basé à Paris : non confirmé par une source lue",
+        "« Ouvre la voie » : formulation éditoriale, à sourcer",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "mad-disrespect",
+      "title": "Mad Disrespect EP",
+      "artist": "Anthony Naples",
+      "year": 2012,
+      "release_date": "2012-04",
+      "label": "Mister Saturday Night Records",
+      "catalog": "MSN001",
+      "city": "New York",
+      "city_en": "New York",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "deep",
+      "era": "era-3a",
+      "scene": "us-underground-deep",
+      "bpm": 122,
+      "camelot_key": "6A",
+      "energy": 6,
+      "gear": [
+        "DAW",
+        "Sampler"
+      ],
+      "gear_en": [
+        "DAW",
+        "Sampler"
+      ],
+      "construction": "Trois morceaux, « Mad Disrespect », « Slackness » et « Tusk » : des percussions héritées du garage new-yorkais, des synthés flottants à la Detroit, des boucles de batterie et de voix entremêlées. Produit à l'ordinateur, sans magnétophone.",
+      "construction_en": "Three tracks, \"Mad Disrespect\", \"Slackness\" and \"Tusk\": percussion inherited from New York garage, woozy Detroit-style synths, interlocking drum and vocal loops. Made on a computer, without a tape machine.",
+      "producer_origins": "Anthony Naples est né à Miami et s'installe à New York vers 2010. Il travaille alors chez Captured Tracks. C'est son premier disque, et le premier du label Mister Saturday Night.",
+      "producer_origins_en": "Anthony Naples was born in Miami and moved to New York around 2010, where he worked at Captured Tracks. This is his first record, and the first on the Mister Saturday Night label.",
+      "club_sociology": "Mister Saturday Night est d'abord une fête de Brooklyn, tenue par Justin Carter et Eamon Harkin, avant de devenir un label. Le disque lance son catalogue ; Four Tet demande ensuite un remix à Naples.",
+      "club_sociology_en": "Mister Saturday Night was first a Brooklyn party, run by Justin Carter and Eamon Harkin, before it became a label. The record launched its catalogue; Four Tet then asked Naples for a remix.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (avril 2012) ; entretien Juno (2012).",
+        "note_en": "Resident Advisor review (April 2012); Juno interview (2012)."
+      },
+      "why_this_record": "Une fête de Brooklyn devient label, avec un premier maxi brut et chaleureux.",
+      "why_this_record_en": "A Brooklyn party becomes a label, with a raw, warm first 12\".",
+      "tags": [
+        "us",
+        "deep",
+        "diy"
+      ],
+      "youtube": [
+        "FFR1CboigGg",
+        "_RS4sO0nrAA"
+      ],
+      "references": [
+        "https://ra.co/reviews/10834",
+        "https://www.juno.co.uk/reviews/2012/08/13/at-home-with-anthony-naples/"
+      ],
+      "verify": [
+        "Mister Saturday Night d'abord fête, puis label : à confirmer par une source sur la fête",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "between-two-selves",
+      "title": "Between Two Selves",
+      "artist": "Octo Octa",
+      "year": 2013,
+      "label": "100% Silk",
+      "catalog": "SILK046",
+      "city": "Brooklyn",
+      "city_en": "Brooklyn",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "queer-underground",
+      "bpm": 122,
+      "camelot_key": "4A",
+      "energy": 5,
+      "gear": [
+        "Synthés",
+        "Sampler",
+        "Voix"
+      ],
+      "gear_en": [
+        "Synths",
+        "Sampler",
+        "Vocals"
+      ],
+      "construction": "Huit morceaux (« Who I Will Become », « Bad Blood », « Please Don't Leave », « Come Closer », « His Kiss », « Work Me », « Uneasy », « Fear ») : des relectures soignées de la house classique, des nappes irisées, des a cappella sensuels, et des synthés de dub techno sur « Fear ».",
+      "construction_en": "Eight tracks (\"Who I Will Become\", \"Bad Blood\", \"Please Don't Leave\", \"Come Closer\", \"His Kiss\", \"Work Me\", \"Uneasy\", \"Fear\"): polished re-readings of classic house, iridescent synths, sensual a cappellas, and dub techno synths on \"Fear\".",
+      "producer_origins": "Octo Octa est Maya Bouldry-Morrison, née à Chicago en 1987. En 2013, elle vit à Brooklyn et publie sur 100% Silk, sous-label de Not Not Fun. Elle cite DJ Sprinkles parmi ses influences.",
+      "producer_origins_en": "Octo Octa is Maya Bouldry-Morrison, born in Chicago in 1987. In 2013 she lived in Brooklyn and released music on 100% Silk, a Not Not Fun sub-label. She cites DJ Sprinkles among her influences.",
+      "club_sociology": "100% Silk publie alors une house venue de la scène DIY américaine plutôt que des clubs. Octo Octa deviendra l'une des figures de la house queer des années 2010 et 2020.",
+      "club_sociology_en": "100% Silk was then releasing house that came from the American DIY scene rather than from clubs. Octo Octa would become one of the figures of queer house in the 2010s and 2020s.",
+      "queer_ballroom_axis": "Octo Octa fait son coming out trans en 2016. En 2019, elle fonde le label T4T LUV NRG avec sa compagne, la DJ Eris Drew.",
+      "queer_ballroom_axis_en": "Octo Octa came out as trans in 2016. In 2019 she founded the T4T LUV NRG label with her partner, the DJ Eris Drew.",
+      "archive_ref": {
+        "note": "Critiques d'Inverted Audio et de Groove (2013) ; article Wikipedia.",
+        "note_en": "Reviews in Inverted Audio and Groove (2013); Wikipedia article."
+      },
+      "why_this_record": "Un album de house intime, avant la scène queer qu'Octo Octa contribuera à bâtir.",
+      "why_this_record_en": "An intimate house album, before the queer scene Octo Octa would help build.",
+      "tags": [
+        "us",
+        "deep",
+        "queer",
+        "diy"
+      ],
+      "youtube": [
+        "3eHqejon5Lg"
+      ],
+      "references": [
+        "https://inverted-audio.com/review/octo-octa-between-two-selves/",
+        "https://groove.de/2013/06/15/octo-octa-between-two-selves-album-review/",
+        "https://en.wikipedia.org/wiki/Octo_Octa"
+      ],
+      "verify": [
+        "Mois de sortie (critiques de juin et juillet 2013)",
+        "« Figure de la house queer » : formulation éditoriale, à appuyer par une source (DJ Mag, Mixmag)",
+        "100% Silk venu de la scène DIY : à sourcer",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "logo-queen",
+      "title": "Logo Queen",
+      "artist": "So Inagawa",
+      "year": 2013,
+      "label": "Cabaret Recordings",
+      "catalog": "CABARET 001",
+      "city": "Tokyo",
+      "city_en": "Tokyo",
+      "country": "Japon",
+      "country_en": "Japan",
+      "continent": "Asie",
+      "continent_en": "Asia",
+      "genre": "microhouse",
+      "era": "era-3b",
+      "scene": "cabaret",
+      "bpm": 124,
+      "camelot_key": "9A",
+      "energy": 5,
+      "gear": [
+        "DAW",
+        "Synthés"
+      ],
+      "gear_en": [
+        "DAW",
+        "Synths"
+      ],
+      "construction": "Trois morceaux, « Logo Queen », « Scan Runner » et « Selfless State » : une deep house mélodique et rêveuse, faite pour rouler longtemps dans un set.",
+      "construction_en": "Three tracks, \"Logo Queen\", \"Scan Runner\" and \"Selfless State\": dreamy, melodic deep house built to roll for a long time in a set.",
+      "producer_origins": "So Inagawa est un producteur et DJ japonais, cofondateur de Cabaret Recordings avec DJ Masda. Logo Queen est le premier disque du label.",
+      "producer_origins_en": "So Inagawa is a Japanese producer and DJ, co-founder of Cabaret Recordings with DJ Masda. Logo Queen is the label's first record.",
+      "club_sociology": "Resident Advisor décrit Cabaret comme un label japonais qui donne un tour hypnotique aux sons de club classiques. Ses disques circulent surtout chez les DJ et les digueurs de minimale.",
+      "club_sociology_en": "Resident Advisor describes Cabaret as a Japanese label that puts a hypnotic twist on classic club sounds. Its records circulate mostly among DJs and minimal diggers.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "« Label of the month » de Resident Advisor (2016) ; fiche de disquaire.",
+        "note_en": "Resident Advisor \"Label of the month\" (2016); record shop listing."
+      },
+      "why_this_record": "Le premier disque d'un label japonais devenu une référence du digging.",
+      "why_this_record_en": "The first record of a Japanese label that became a digging reference.",
+      "tags": [
+        "deep",
+        "machine"
+      ],
+      "youtube": [
+        "v5gvmERdAqY",
+        "zEYsA4ZFVBo"
+      ],
+      "references": [
+        "https://allnightflightrecords.com/products/so-inagawa-logo-queen",
+        "https://ra.co/features/2761"
+      ],
+      "verify": [
+        "Ville : Tokyo, non confirmé par une source lue",
+        "Mois de sortie : août 2013 selon RA, arrivage dès juillet chez un disquaire",
+        "Repressage de 2018 signalé par des disquaires",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "colonial-patterns",
+      "title": "Colonial Patterns",
+      "artist": "Huerco S.",
+      "year": 2013,
+      "release_date": "2013-09",
+      "label": "Software",
+      "catalog": "SFT037",
+      "city": "Kansas",
+      "city_en": "Kansas",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "lofi",
+      "era": "era-3b",
+      "scene": "outsider-house",
+      "bpm": 110,
+      "camelot_key": "1A",
+      "energy": 3,
+      "gear": [
+        "Sampler",
+        "Boucles",
+        "Saturation"
+      ],
+      "gear_en": [
+        "Sampler",
+        "Loops",
+        "Saturation"
+      ],
+      "construction": "Premier album, quatorze morceaux plus proches du collage ambient que du club : tempos lents, textures ternies, une ligne de basse d'une mesure qui boucle à l'infini sur « Ragtime U.S.A. (Warning) ».",
+      "construction_en": "Debut album, fourteen tracks closer to ambient collage than to the club: slow tempos, tarnished textures, a one-bar bassline looping endlessly on \"Ragtime U.S.A. (Warning)\".",
+      "producer_origins": "Huerco S. est Brian Leeds, originaire du Kansas. L'album sort sur Software, le label de Daniel Lopatin (Oneohtrix Point Never).",
+      "producer_origins_en": "Huerco S. is Brian Leeds, from Kansas. The album came out on Software, Daniel Lopatin's (Oneohtrix Point Never) label.",
+      "club_sociology": "La critique range le disque sous l'étiquette « outsider house », lancée par la presse. Resident Advisor y entend « une sorte de pastorale corrompue », rurale et somnolente.",
+      "club_sociology_en": "Critics filed the record under \"outsider house\", a label coined by the press. Resident Advisor heard in it \"a sort of corrupted pastoral\", rural and drowsy.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (septembre 2013).",
+        "note_en": "Resident Advisor review (September 2013)."
+      },
+      "why_this_record": "La house abîmée jusqu'à devenir paysage.",
+      "why_this_record_en": "House damaged until it becomes landscape.",
+      "tags": [
+        "us",
+        "nostalgia",
+        "diy"
+      ],
+      "youtube": [
+        "0ndALY-6qWM",
+        "N2NljDP4yXc"
+      ],
+      "references": [
+        "https://ra.co/reviews/13719"
+      ],
+      "verify": [
+        "Ville précise (le Kansas est un État)",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "workshop-19",
+      "title": "Workshop 19",
+      "artist": "Kassem Mosse",
+      "year": 2014,
+      "release_date": "2014-02",
+      "label": "Workshop",
+      "catalog": "WORKSHOP 19",
+      "city": "Leipzig",
+      "city_en": "Leipzig",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "workshop",
+      "bpm": 118,
+      "camelot_key": "7A",
+      "energy": 4,
+      "gear": [
+        "Piano & orgue",
+        "Boîtes à rythmes",
+        "Synthés"
+      ],
+      "gear_en": [
+        "Piano & organ",
+        "Drum machines",
+        "Synths"
+      ],
+      "construction": "Premier album, sur deux maxis : neuf morceaux sans titre (A1 à D1). Il s'ouvre sur quelques notes de Fender Rhodes et des rimshots Roland ; des percussions qui traînent des pieds sous des nappes, un second disque plus sombre.",
+      "construction_en": "Debut album, on two 12\"s: nine untitled tracks (A1 to D1). It opens with a few Fender Rhodes notes and Roland rimshots; shuffling percussion under pads, and a darker second disc.",
+      "producer_origins": "Kassem Mosse (Gunnar Wendel) signe là son premier album. Y participent Mix Mup et les deux patrons de Workshop, Lowtec et Even Tuell.",
+      "producer_origins_en": "Kassem Mosse (Gunnar Wendel) here released his debut album. Mix Mup and Workshop's two bosses, Lowtec and Even Tuell, took part.",
+      "club_sociology": "Même un album garde chez Workshop un simple numéro de catalogue pour titre : la musique circule sans nom de morceau, par numéro et par face.",
+      "club_sociology_en": "Even an album keeps a bare catalogue number as its title at Workshop: the music circulates without track names, by number and by side.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (mars 2014).",
+        "note_en": "Resident Advisor review (March 2014)."
+      },
+      "why_this_record": "Un album sans titres, au cœur de l'esthétique Workshop.",
+      "why_this_record_en": "An album without titles, at the heart of the Workshop aesthetic.",
+      "tags": [
+        "europe",
+        "deep",
+        "machine"
+      ],
+      "youtube": [
+        "mOg-_Jd40xI",
+        "vMDR3fBhTdQ"
+      ],
+      "references": [
+        "https://ra.co/reviews/14561"
+      ],
+      "verify": [
+        "Ville : Leipzig, non confirmé",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "after-forever",
+      "title": "After Forever",
+      "artist": "Joey Anderson",
+      "year": 2014,
+      "release_date": "2014-04",
+      "label": "Dekmantel",
+      "catalog": "DKMNTL017",
+      "city": "New Jersey",
+      "city_en": "New Jersey",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "us-underground-deep",
+      "bpm": 113,
+      "camelot_key": "3A",
+      "energy": 4,
+      "gear": [
+        "tb-303",
+        "Piano",
+        "Boîtes à rythmes"
+      ],
+      "gear_en": [
+        "tb-303",
+        "Piano",
+        "Drum machines"
+      ],
+      "construction": "Onze morceaux d'une house « trippy », baignée d'ambient : pianos égrenés, batteries cassantes, nappes enveloppantes. « It's A Choice » tient à 113 BPM avec une 303 discrète ; « Sorcery » fait tourner des synthés en motifs fractals.",
+      "construction_en": "Eleven tracks of trippy house steeped in ambient: plinking pianos, brittle drums, enveloping soundscapes. \"It's A Choice\" holds at 113 BPM with a restrained 303; \"Sorcery\" spins synths in fractal patterns.",
+      "producer_origins": "Joey Anderson est un producteur du New Jersey. Avant cet album, il publie sur UntilMyHeartStops, Syncrophone et son propre label, Inimeg.",
+      "producer_origins_en": "Joey Anderson is a New Jersey producer. Before this album he released music on UntilMyHeartStops, Syncrophone and his own label, Inimeg.",
+      "club_sociology": "Un label néerlandais, Dekmantel, publie l'album : comme dans les années 1990, la deep house de la côte Est trouve une partie de son public en Europe.",
+      "club_sociology_en": "A Dutch label, Dekmantel, released the album: as in the 1990s, East Coast deep house found part of its audience in Europe.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (avril 2014).",
+        "note_en": "Resident Advisor review (April 2014)."
+      },
+      "why_this_record": "La deep house du New Jersey, lente et psychédélique.",
+      "why_this_record_en": "New Jersey deep house, slow and psychedelic.",
+      "tags": [
+        "us",
+        "deep"
+      ],
+      "youtube": [
+        "uor2tBwlQIw",
+        "1Fnb4s29eEU"
+      ],
+      "references": [
+        "https://ra.co/reviews/14744",
+        "https://www.juno.co.uk/junodaily/2014/05/16/joey-anderson-after-forever/"
+      ],
+      "verify": [
+        "Ville précise (New Jersey est un État)",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "bubble-world",
+      "title": "Bubble World",
+      "artist": "Pender Street Steppers",
+      "year": 2014,
+      "release_date": "2014-02",
+      "label": "Mood Hut",
+      "catalog": "MH004",
+      "country": "Canada",
+      "country_en": "Canada",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "city": "Vancouver",
+      "city_en": "Vancouver",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "mood-hut",
+      "bpm": 118,
+      "camelot_key": "10A",
+      "energy": 4,
+      "gear": [
+        "Synthés",
+        "Boîtes à rythmes"
+      ],
+      "gear_en": [
+        "Synths",
+        "Drum machines"
+      ],
+      "construction": "Trois morceaux, « Bubble World », « Love Theme (Angelo) » et « Temple Walk » : une house aérée, entre deep house et downtempo, la face plus sombre de Mood Hut selon Dummy.",
+      "construction_en": "Three tracks, \"Bubble World\", \"Love Theme (Angelo)\" and \"Temple Walk\": airy house between deep house and downtempo, the darker side of Mood Hut according to Dummy.",
+      "producer_origins": "Pender Street Steppers est un duo de Vancouver, dont l'une des moitiés est Jack Jutson (Jack J).",
+      "producer_origins_en": "Pender Street Steppers is a Vancouver duo, one half of which is Jack Jutson (Jack J).",
+      "club_sociology": "Mood Hut est un collectif de Vancouver, avec ses studios à Chinatown. Il publie d'abord sur cassette, puis sur vinyle : une scène locale, chaleureuse, qui trouve vite un public international.",
+      "club_sociology_en": "Mood Hut is a Vancouver collective with its studios in Chinatown. It first released music on cassette, then on vinyl: a warm local scene that quickly found an international audience.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Guide Mood Hut de Dummy (2015) ; fiche de disquaire.",
+        "note_en": "Dummy's Mood Hut guide (2015); record shop listing."
+      },
+      "why_this_record": "Vancouver invente sa house, entre deep house et downtempo.",
+      "why_this_record_en": "Vancouver invents its own house, between deep house and downtempo.",
+      "tags": [
+        "deep",
+        "chill",
+        "diy"
+      ],
+      "youtube": [
+        "r3vgl78tMEA"
+      ],
+      "references": [
+        "https://allnightflightrecords.com/products/pender-street-steppers-bubble-world",
+        "https://dmy.co/features/mood-hut-records-a-beginners-guide"
+      ],
+      "verify": [
+        "Jour de sortie : 14 février 2014 selon un disquaire",
+        "Nom du second membre du duo",
+        "« Public international » : formulation éditoriale",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "looking-forward-to-you",
+      "title": "Looking Forward To You",
+      "artist": "Jack J",
+      "year": 2014,
+      "release_date": "2014-07",
+      "label": "Mood Hut",
+      "catalog": "MH007",
+      "country": "Canada",
+      "country_en": "Canada",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "city": "Vancouver",
+      "city_en": "Vancouver",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "mood-hut",
+      "bpm": 116,
+      "camelot_key": "11B",
+      "energy": 5,
+      "gear": [
+        "Guitare",
+        "Basse",
+        "Saxophone"
+      ],
+      "gear_en": [
+        "Guitar",
+        "Bass",
+        "Saxophone"
+      ],
+      "construction": "Trois morceaux : « Looking Forward To You », « Take It To The Edge » et « Something (On My Mind) ». Une basse qui rappelle le disco-punk du début des années 1980, des guitares ensoleillées façon yacht rock, un saxophone alangui sur la face B.",
+      "construction_en": "Three tracks: \"Looking Forward To You\", \"Take It To The Edge\" and \"Something (On My Mind)\". A bassline recalling early-1980s disco-punk, sunny yacht-rock guitar licks, a languid sax on the B-side.",
+      "producer_origins": "Jack J est Jack Jutson, moitié de Pender Street Steppers. Il a d'abord publié des anthologies ambient sur cassette.",
+      "producer_origins_en": "Jack J is Jack Jutson, one half of Pender Street Steppers. He first released ambient anthologies on cassette.",
+      "club_sociology": "Le maxi fait connaître le son de Mood Hut au-delà de Vancouver : une house chaude, qui assume le disco, la pop et le soft rock.",
+      "club_sociology_en": "The 12\" carried the Mood Hut sound beyond Vancouver: warm house that embraces disco, pop and soft rock.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (juillet 2014).",
+        "note_en": "Resident Advisor review (July 2014)."
+      },
+      "why_this_record": "La house de Vancouver, ensoleillée et sans complexe.",
+      "why_this_record_en": "Vancouver house, sunny and unashamed.",
+      "tags": [
+        "deep",
+        "disco",
+        "chill"
+      ],
+      "youtube": [
+        "ya9v7jIQQ_U",
+        "n1Ua5b7y03w"
+      ],
+      "references": [
+        "https://ra.co/reviews/15270",
+        "https://www.juno.co.uk/reviews/2014/08/26/jack-j-looking-forward-to-you/",
+        "https://dmy.co/features/mood-hut-records-a-beginners-guide"
+      ],
+      "verify": [
+        "« Fait connaître le son de Mood Hut » : formulation éditoriale",
         "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
       ],
       "verified": false
