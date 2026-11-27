@@ -4,5 +4,25 @@
     "kinds": "nouveau | redecouverte | lecture | film | mix",
     "fields": "id, date (AAAA-MM-JJ), kind, title, artist ou author, year, label, note, note_en, youtube [ids vérifiés], track (id d'une fiche existante), station (id du métro), source (id de la Bibliothèque), link (URL), verify [points à vérifier]"
   },
-  "entries": []
+  "entries": [
+    {
+      "id": "soul-of-hex-jet-set",
+      "date": "2026-11-27",
+      "kind": "nouveau",
+      "title": "Faith Beat 13 - Jet Set",
+      "artist": "Soul Of Hex",
+      "label": "Faith Beat",
+      "note": "De la house pure, à son meilleur : ça touche tous les bons endroits. Piste favorite : « Feel The Power Of Love ». Une bombe.",
+      "note_en": "Pure house music at its finest. Hits all the good parts! Favourite track: \"Feel The Power Of Love\". A banger.",
+      "bandcamp": {
+        "url": "https://soulofhex.bandcamp.com/album/faith-beat-13-jet-set",
+        "type": "album",
+        "id": 1326135261
+      },
+      "station": "deep",
+      "verify": [
+        "Année de sortie"
+      ]
+    }
+  ]
 }
