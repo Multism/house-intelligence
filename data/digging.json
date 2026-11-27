@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "note": "Deep Digging : fiches légères (artiste, titre, label, catalogue, dates, sources), rangées par label. Les disques du Booth (data/tracks.json) y apparaissent aussi, sous leur label. Chaque fait est sourcé dans references ; ce qui n'est pas confirmé va dans verify.",
+    "note_en": "Deep Digging: light entries (artist, title, label, catalogue, dates, sources), grouped by label. Booth records (data/tracks.json) also appear there, under their label. Every fact is sourced in references; anything unconfirmed goes in verify."
+  },
+  "labels": [
+    { "name": "Underground Quality", "desc": "Le label de DJ Jus-Ed.", "desc_en": "DJ Jus-Ed's label.", "references": ["https://www.juno.co.uk/reviews/2010/11/03/interview-jus-ed-2/"] },
+    { "name": "Workshop", "city": "Berlin", "city_en": "Berlin", "desc": "Des maxis numérotés aux morceaux sans titre.", "desc_en": "Numbered 12\"s with untitled tracks.", "references": ["https://www.rushhour.nl/record/vinyl/workshop-08"] },
+    { "name": "Hyperdub", "city": "Londres", "city_en": "London", "desc": "Le label de Kode9.", "desc_en": "Kode9's label.", "references": ["https://www.dazeddigital.com/music/article/4435/1/cooly-g-in-the-scene"] },
+    { "name": "Deconstruct Music", "desc": "Premier disque : Levon Vincent, « Invisible Bitch Slap » (DEC-01, 2008).", "desc_en": "First release: Levon Vincent, \"Invisible Bitch Slap\" (DEC-01, 2008).", "references": ["https://soundshelter.net/vinyl/levon-vincent-invisible-bitch-slap"] }
+  ],
+  "artists": [
+    { "name": "Kassem Mosse", "real_name": "Gunnar Wendel", "references": ["https://ra.co/news/41503"] },
+    { "name": "Mr. G", "real_name": "Colin McBean", "references": ["https://ra.co/news/30289"] },
+    { "name": "DJ Jus-Ed", "real_name": "Edward McKeithen", "references": ["https://www.juno.co.uk/reviews/2010/11/03/interview-jus-ed-2/"] },
+    { "name": "Move D", "real_name": "David Moufang", "references": ["https://move-d.bandcamp.com/album/workshop-02"] },
+    { "name": "Pantha du Prince", "real_name": "Hendrik Weber", "aliases": ["Panthel", "Glühen 4"], "references": ["https://en.wikipedia.org/wiki/Pantha_du_Prince"] },
+    { "name": "DJ Sprinkles", "real_name": "Terre Thaemlitz", "references": ["https://en.wikipedia.org/wiki/Midtown_120_Blues"] }
+  ],
+  "entries": [
+    {
+      "id": "six-figures", "artist": "Levon Vincent", "title": "Six Figures", "label": "Novel Sound", "catalog": "NS02",
+      "year": 2009, "release_date": "2009-01", "format": "12\"", "scene": "us-underground-deep",
+      "tracks": ["Six Figures", "Bonus Beats", "Early Reflections", "1000 Miles From Home"],
+      "note": "Dub techno hallucinée selon la critique de RA.", "note_en": "Hallucinatory dub techno, according to RA's review.",
+      "references": ["https://fr.ra.co/reviews/5861?comments=1"]
+    },
+    {
+      "id": "solemn-days", "artist": "Levon Vincent", "title": "Solemn Days EP", "label": "Deconstruct Music", "catalog": "DEC-02",
+      "year": 2009, "release_date": "2009-05", "format": "12\"", "scene": "us-underground-deep",
+      "tracks": ["Solemn Days", "Polar Bear Make Nice With That Sea Lion"],
+      "references": ["https://pt.ra.co/reviews/6181"]
+    },
+    {
+      "id": "ns-08", "artist": "Levon Vincent", "title": "NS 08", "label": "Novel Sound", "catalog": "NS 08",
+      "year": 2013, "release_date": "2013-02-06", "format": "12\"", "scene": "us-underground-deep",
+      "tracks": ["Rainstorm II", "People", "???", "DJSF II"],
+      "note": "« DJSF II » date de 2009.", "note_en": "\"DJSF II\" dates from 2009.",
+      "references": ["https://ra.co/news/18837"]
+    },
+    {
+      "id": "workshop-12", "artist": "Kassem Mosse", "title": "Workshop 12", "label": "Workshop", "catalog": "WORKSHOP12",
+      "year": 2011, "release_date": "2011-02", "format": "12\"", "scene": "workshop",
+      "tracks": ["Untitled (A)", "Untitled (B1)", "Untitled (B2)"],
+      "references": ["https://ra.co/reviews/8978"]
+    },
+    {
+      "id": "laid-07", "artist": "Kassem Mosse & Lowtec", "title": "Workshop EP", "label": "Laid", "catalog": "Laid07",
+      "year": 2010, "release_date": "2010-07", "format": "12\"", "scene": "workshop",
+      "tracks": ["Kassem Mosse – Untitled", "Lowtec – Use Me (Laid Mix)"],
+      "note": "Malgré son titre, le disque sort sur Laid, pas sur Workshop.", "note_en": "Despite its title, the record came out on Laid, not Workshop.",
+      "references": ["https://de.ra.co/reviews/7851"]
+    },
+    {
+      "id": "gotee", "artist": "DJ Jus-Ed & Mr. G", "title": "Gotee", "label": "Underground Quality",
+      "year": 2015, "format": "12\"", "scene": "us-underground-deep",
+      "tracks": ["Mr. G – Billares Londres The Rum", "DJ Jus-Ed – Gotee Stroke", "DJ Jus-Ed – Heaven Sent", "Mr. G – Freakshow"],
+      "references": ["https://ra.co/news/30289"],
+      "verify": ["Date de sortie exacte (annoncée en juillet 2015) et numéro de catalogue"]
+    }
+  ]
+}

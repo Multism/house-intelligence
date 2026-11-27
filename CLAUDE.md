@@ -22,6 +22,7 @@ En ligne : https://house-intelligence.pages.dev · Dépôt public : https://gith
 | `styles.css`, `pages.css` | Styles de l'application / des pages statiques |
 | `data/tracks.json` | `eras` (era-1, era-2, era-3a 2005–2012, era-3b 2013–2019, era-3c 2020–), `genres`, `scenes` (micro-scènes), `tracks` (115 disques) |
 | `data/metro.json` | 9 lignes, 35 stations, 7 correspondances |
+| `data/digging.json` | Espace « Deep Digging » (`#digging`) : fiches légères (artiste, titre, label, catalogue, dates, sources), métadonnées de labels et d'artistes (vrais noms, alias). Les disques du Booth s'y rangent aussi sous leur label |
 | `data/decouvertes.json` | Rubrique « En ce moment » (`#decouverte`) : journal daté des écoutes et lectures du moment |
 | `data/machines.json`, `data/sources.json` | Fiches machines (808, 909, 303, MPC…) et œuvres de référence |
 | `data/bundle.js` | Copie embarquée des JSON pour une ouverture en `file://`. **Généré**, ne pas éditer |
@@ -29,7 +30,7 @@ En ligne : https://house-intelligence.pages.dev · Dépôt public : https://gith
 | `og/`, `og-image.png` | Images de partage. **Générées** |
 | `_archive/` | Anciennes versions (wiki statique, sauvegardes de données) : ne pas réintroduire sans demande |
 
-Routes : `#metro` (par défaut, `?st=…&ligne=…`), `#booth`, `#decouverte`, `#<id-disque>` ou `?track=<id>`, `#bibliotheque`.
+Routes : `#metro` (par défaut, `?st=…&ligne=…`), `#booth`, `#decouverte`, `#digging`, `#<id-disque>` ou `?track=<id>`, `#bibliotheque`.
 
 Lignes du métro : L1 Chicago & Acid · L2 NYC, Garage & Tribal · L3 Deep & gospel · L4 UK Sound System & Bass · L5 Escales européennes · L6 Futurisme & Machines · L7 Ballroom & queer · L8 Afriques · L9 Techno & Europe.
 
@@ -72,8 +73,8 @@ Les entrées sont triées par date, la plus récente en tête. Le lien « En ce 
 
 ```sh
 node tools/bundle-data.mjs     # régénère data/bundle.js
-node tools/build-pages.mjs     # régénère les pages statiques et le sitemap
 node tools/og-images.mjs       # images de partage (nécessite Playwright, installé hors du dépôt)
+node tools/build-pages.mjs     # pages statiques et sitemap : APRÈS og-images, car une page ne pointe vers son image que si elle existe
 ```
 
 Mettre à jour les compteurs affichés (disques, stations, lignes) dans `index.html` (méta et JSON-LD) et dans `i18n.js` s'ils changent.

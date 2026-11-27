@@ -716,6 +716,7 @@
     $("#fw-big").addEventListener("click", () => setFwSize($("#fw").dataset.size === "big" ? "normal" : "big"));
     $("#fw-open").addEventListener("click", () => { if (!Player.current) return; if (!S.byId[Player.current]) { location.hash = "#decouverte"; return; } location.hash = "#" + Player.current; if (S.current?.id !== Player.current) load(Player.current, "fiche"); showView("booth"); $("#now-playing").scrollIntoView({ behavior: "smooth", block: "center" }); });
     $("#lib-search").addEventListener("input", () => renderLibrary());
+    $("#dig-search").addEventListener("input", (e) => { DIG.q = e.target.value; renderDigging(); });
     $("#btn-play").addEventListener("click", () => Pulse.toggle());
     $("#engine-seg").addEventListener("click", (e) => { const b = e.target.closest("button"); if (b) setEngine(b.dataset.engine); });
     $("#engine-seg").addEventListener("keydown", (e) => {
@@ -876,7 +877,7 @@
   function placeFw() {
     const chosen = store.get("hi.fwSide", {})[view];
     // à gauche sur le plan (coin vide) et dans le Booth (au-dessus du Bac, la colonne de lecture reste libre à droite)
-    $("#fw").dataset.side = chosen || (view === "bibliotheque" || view === "decouverte" ? "right" : "left");
+    $("#fw").dataset.side = chosen || (view === "bibliotheque" || view === "decouverte" || view === "digging" ? "right" : "left");
   }
   function setFwSize(size) {
     const fw = $("#fw"); fw.dataset.size = size;
@@ -889,7 +890,7 @@
   }
 
   // ---------- VUES (Booth / Plan du Métro / Bibliothèque) ----------
-  const VIEWS = ["booth", "metro", "decouverte", "bibliotheque"];
+  const VIEWS = ["booth", "metro", "decouverte", "digging", "bibliotheque"];
   let view = "metro";
   function initialView() {
     const hsh = decodeURIComponent(location.hash.slice(1)), base = hsh.split(/[?/]/)[0];
@@ -904,6 +905,7 @@
     for (const a of document.querySelectorAll("[data-view-link]")) a.toggleAttribute("aria-current", a.dataset.viewLink === v), a.dataset.viewLink === v && a.setAttribute("aria-current", "page");
     if (v === "bibliotheque") renderLibrary();
     if (v === "decouverte") renderDiscovery();
+    if (v === "digging") renderDigging();
     window.dispatchEvent(new CustomEvent("hi:view", { detail: v }));
     if (focus) { $("#views").focus({ preventScroll: true }); window.scrollTo({ top: 0 }); }
   }
@@ -1019,6 +1021,69 @@
     markPlaying();
   }
 
+  // ---------- DEEP DIGGING (catalogues, labels, alias) ----------
+  // data/digging.json : fiches légères + métadonnées de labels et d'artistes (vrais noms, alias).
+  // Les disques du Booth sont rangés sous leur label avec les fiches légères.
+  const DIG = { scene: "all", q: "" };
+  async function loadDigging() {
+    const d = await loadJson("digging");
+    S.dig = { entries: (d?.entries || []).filter((e) => e.id && e.artist && e.title && e.label), labels: d?.labels || [], artists: d?.artists || [] };
+    S.dig.labelByName = Object.fromEntries(S.dig.labels.map((l) => [l.name.toLowerCase(), l]));
+    for (const e of S.dig.entries) if (e.youtube?.length) S.disc["g:" + e.id] = { ...e, id: "g:" + e.id };
+  }
+  const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  function digRows() {
+    const booth = S.tracks.map((t) => ({ kind: "booth", id: t.id, artist: t.artist, title: t.title, label: t.label, catalog: t.catalog, year: t.year, release_date: t.release_date, scene: t.scene, t }));
+    return [...booth, ...S.dig.entries.map((e) => ({ kind: "dig", ...e }))];
+  }
+  function artistInfo(name) {
+    const n = norm(name);
+    return S.dig.artists.filter((a) => n.includes(norm(a.name)));
+  }
+  function renderDigging() {
+    if (!S.dig) return;
+    const all = digRows();
+    const scenes = S.scenes.filter((sc) => all.some((r) => r.scene === sc.id));
+    $("#dig-scenes").replaceChildren(...[["all", _t("dig.all")], ...scenes.map((sc) => [sc.id, _f(sc, "name")])].map(([k, l]) =>
+      h("button", { class: "chip", "aria-pressed": DIG.scene === k ? "true" : "false", onclick: () => { DIG.scene = k; renderDigging(); } },
+        l, h("span", { class: "n" }, k === "all" ? all.length : all.filter((r) => r.scene === k).length))));
+    const q = norm(DIG.q);
+    const hay = (r) => norm([r.artist, r.title, r.label, r.catalog, r.year, ...(r.tracks || []),
+      ...artistInfo(r.artist).flatMap((a) => [a.real_name, ...(a.aliases || [])])].join(" "));
+    const rows = all.filter((r) => (DIG.scene === "all" || r.scene === DIG.scene) && (!q || hay(r).includes(q)));
+    const groups = new Map();
+    for (const r of rows) { const k = r.label.trim(); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(r); }
+    const labels = [...groups.keys()].sort((a, b) => groups.get(b).length - groups.get(a).length || a.localeCompare(b));
+    $("#dig-stats").textContent = _t("dig.stats", { l: labels.length, n: rows.length, b: rows.filter((r) => r.kind === "booth").length });
+    $("#dig-list").replaceChildren(...(labels.length ? labels.map((name) => {
+      const meta = S.dig.labelByName[name.toLowerCase()];
+      const list = groups.get(name).sort((a, b) => (a.release_date || String(a.year)).localeCompare(b.release_date || String(b.year)));
+      return h("section", { class: "dig-label" },
+        h("h2", {}, name, h("span", { class: "n" }, list.length)),
+        meta && (_f(meta, "city") || _f(meta, "desc")) ? h("p", { class: "dig-ldesc" }, [_f(meta, "city"), _f(meta, "desc")].filter(Boolean).join(" · ")) : null,
+        h("ol", { class: "dig-rows" }, ...list.map((r) => {
+          const pid = r.kind === "booth" ? (r.t.youtube?.length ? r.id : null) : S.disc["g:" + r.id] ? "g:" + r.id : null;
+          const sc = r.scene && S.sceneById[r.scene];
+          const who = artistInfo(r.artist).map((a) => [a.real_name ? _t("dig.realName", { a: a.name, r: a.real_name }) : a.name, a.aliases?.length ? _t("dig.alias", { a: a.aliases.join(", ") }) : null].filter(Boolean).join(", "));
+          return h("li", { class: "dig-row" + (r.kind === "booth" ? " is-booth" : "") },
+            h("span", { class: "dig-year" }, r.year),
+            h("div", { class: "dig-main" },
+              h("div", { class: "dig-head" }, pid ? playBtn(pid) : null,
+                h("b", {}, r.artist), " — ", h("span", { class: "dig-title" }, r.title),
+                r.catalog ? h("small", { class: "dig-cat" }, r.catalog) : null),
+              who.length ? h("p", { class: "dig-who" }, who.join(" · ")) : null,
+              r.tracks?.length ? h("p", { class: "dig-tracks" }, r.tracks.join(" / ")) : null,
+              _f(r, "note") ? h("p", { class: "dig-note" }, _f(r, "note")) : null,
+              h("div", { class: "links" },
+                r.kind === "booth" ? h("a", { class: "chip", href: "#" + r.id }, _t("dig.booth")) : null,
+                sc ? h("button", { class: "chip", onclick: () => { DIG.scene = sc.id; renderDigging(); } }, _f(sc, "name")) : null,
+                ...(r.kind === "dig" ? (r.references || []).slice(0, 2).map((u) => h("a", { class: "chip", href: u, target: "_blank", rel: "noopener" }, _t("dig.source") + " · " + new URL(u).hostname.replace(/^www\./, "").replace(/^[a-z]{2}\.(?=[^.]+\.[^.]+$)/, ""))) : []),
+                r.verify?.length ? h("span", { class: "warn-b" }, _t("dig.verify")) : null)));
+        })));
+    }) : [h("p", { class: "empty" }, _t("dig.empty"))]));
+    markPlaying();
+  }
+
   // ---------- INIT ----------
   async function init() {
     try {
@@ -1047,7 +1112,7 @@
     for (const e of S.eras) S.eraById[e.id] = e;
     for (const m of S.machines) S.machineById[m.id] = m;
     for (const s of S.sources) S.sourceById[s.id] = s;
-    await loadDiscovery();
+    await Promise.all([loadDiscovery(), loadDigging()]);
     $("#foot-sources").textContent = S.sources.map((s) => s.title).join(" · ");
 
     S.memory = store.get("hi.memory", []).filter((m) => S.byId[m.id]);
@@ -1106,6 +1171,7 @@
     markPlaying(); setFwSize($("#fw").dataset.size);
     if (view === "bibliotheque") renderLibrary();
     if (view === "decouverte") renderDiscovery();
+    if (view === "digging") renderDigging();
     if ($("#modal").open) $("#modal").close();
     $("#foot-sources").textContent = S.sources.map((s) => s.title).join(" · ");
   }
