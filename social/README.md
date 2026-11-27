@@ -11,6 +11,12 @@ Compte : @house.intelligence.archive (professionnel, relié à la Page Facebook 
    Rien n'est publié sans ce statut.
 4. **Publication** : `.github/workflows/instagram.yml` tourne lundi, mercredi et vendredi vers 18 h (Paris),
    publie le premier post `approved` (ordre de `n`), puis le marque `published` avec son lien Instagram.
+   Chaque post de la file porte la date de son créneau (`not_before`) : il ne part pas avant, même s'il est validé tôt.
+   Un second passage à 20 h (Paris) rattrape un post dont la publication de 18 h aurait échoué ; les autres jours il ne fait rien.
+   Le mode `check` affiche aussi la date d'expiration du jeton et le nombre de posts validés en attente.
+
+Types de post : `track` (disque), `feature` (fonction du site), `machine` (fiche machine) en style sombre ;
+`station` et `line` en style clair « ligne de métro ».
 
 Lancement à la main : GitHub → Actions → Instagram → Run workflow, avec `check` (tester le jeton),
 `dry-run` (voir ce qui partirait) ou `publish`.
