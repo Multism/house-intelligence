@@ -1,0 +1,53 @@
+# Publication Instagram programmée : publie le prochain post « approved » de social/posts.json.
+# Rythme : lundi, mercredi et vendredi vers 18 h, heure de Paris (17 h UTC ; 19 h l'été).
+# GitHub peut lancer une tâche programmée avec quelques minutes à une heure de retard.
+# Lancement à la main : onglet Actions → « Instagram » → Run workflow (essai à blanc ou vérification possibles).
+name: Instagram
+
+on:
+  schedule:
+    - cron: "0 17 * * 1,3,5"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "publish = publier le prochain post approuvé ; dry-run = montrer sans publier ; check = tester le jeton"
+        type: choice
+        options: [check, dry-run, publish]
+        default: check
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Publier
+        id: pub
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          MODE="${{ github.event.inputs.mode || 'publish' }}"
+          case "$MODE" in
+            check)   node tools/publish-instagram.mjs --check ;;
+            dry-run) node tools/publish-instagram.mjs --dry-run ;;
+            *)       node tools/publish-instagram.mjs ;;
+          esac
+      - name: Enregistrer le statut publié
+        if: steps.pub.outputs.slug != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add social/posts.json
+          git commit -m "Instagram : post « ${{ steps.pub.outputs.slug }} » publié"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done

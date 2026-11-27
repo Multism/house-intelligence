@@ -8,3 +8,10 @@
 *.rtf
 *.docx
 *.pdf
+# Carrousels Instagram générés (tools/instagram.mjs) : non versionnés, sauf le journal de publication
+social/*
+!social/posted.json
+!social/posts.json
+!social/README.md
+# Images approuvées, servies en https pour l'API Instagram
+!social/media/
