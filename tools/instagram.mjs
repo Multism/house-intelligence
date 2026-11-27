@@ -317,7 +317,12 @@ function discoveryPost(e, q = {}) {
   const discUrl = `${SITE_SHORT}/#decouverte`;
   const stUrl = st ? `${SITE_SHORT}/${FR ? "" : "en/"}stations/${e.station}/` : "";
   const note = f(e, "note"), context = f(e, "context");
-  const badges = [[FR ? "Label" : "Label", e.label], e.year && [W.year, e.year], e.highlight && [FR ? "★ Piste" : "★ Fav track", e.highlight], st && [W.station, SHORT[e.station] || short(f(st, "name"))]].filter((b) => b && b[1]);
+  // Livre (kind « lecture ») : éditeur au lieu du label, « je lis » au lieu de « j'écoute », pas de piste favorite.
+  const book = e.kind === "lecture";
+  const publisher = e.publisher || e.label;
+  const support = FR ? (book ? "Acheter chez l'éditeur" : "Soutenir l'artiste") : (book ? "Buy from the publisher" : "Support the artist");
+  const journal = FR ? (book ? "Ce que je lis et écoute en ce moment" : "Ce que j'écoute en ce moment") : (book ? "What I'm reading and listening to right now" : "What I'm listening to right now");
+  const badges = [book ? [FR ? "Éditeur" : "Publisher", publisher] : [FR ? "Label" : "Label", e.label], e.year && [W.year, e.year], e.highlight && [FR ? "★ Piste" : "★ Fav track", e.highlight], st && [W.station, SHORT[e.station] || short(f(st, "name"))]].filter((b) => b && b[1]);
   const lineK = line ? `${FR ? "Ligne" : "Line"} ${line.num} · ${f(line, "name")}` : kind;
   const base = { title: e.title, sub: who, year: e.year, hook: note ? `“${note}”` : "", badges, meta: context ? firstSentence(context) : "" };
   const covers = {
@@ -330,22 +335,22 @@ function discoveryPost(e, q = {}) {
     covers[v] || covers[1],
     textSlide(nowLabel, who || e.title, context || note, (context && note ? `<div class="q" style="font:italic 400 60px/1.2 'Instrument Serif',serif;margin-top:56px;border-left:4px solid var(--n);padding-left:28px">“${esc(note)}”</div>` : "")
       + (e.highlight ? `<div class="chips"><span class="chip">${FR ? "★ Piste favorite :" : "★ Favourite track:"} ${esc(e.highlight)}</span></div>` : "")),
-    content(`<div class="k nowk">${esc(nowLabel)}</div><h2>${e.bandcamp?.url ? (FR ? "Soutenir l'artiste" : "Support the artist") : (FR ? "Pour aller plus loin" : "Dig deeper")}</h2>
-      ${e.bandcamp?.url ? `<div class="cta" style="margin-top:0">${FR ? "Achat et écoute sur Bandcamp :" : "Buy and stream it on Bandcamp:"}<b>${esc(e.bandcamp.url.replace(/^https?:\/\//, ""))}</b></div>` : ""}
+    content(`<div class="k nowk">${esc(nowLabel)}</div><h2>${e.bandcamp?.url ? support : (FR ? "Pour aller plus loin" : "Dig deeper")}</h2>
+      ${e.bandcamp?.url ? `<div class="cta" style="margin-top:0">${book ? (FR ? "En vente sur Bandcamp :" : "Available on Bandcamp:") : (FR ? "Achat et écoute sur Bandcamp :" : "Buy and stream it on Bandcamp:")}<b>${esc(e.bandcamp.url.replace(/^https?:\/\//, ""))}</b></div>` : ""}
       ${recs.length ? `<div class="k" style="margin-top:56px">${FR ? "Sur le plan" : "On the map"} · ${esc(short(f(st, "name")))}</div><ul class="list" style="margin-top:12px">${recs.map((t) => `<li>${esc(short(t.title))} — ${esc(t.artist)}<span>${t.year}</span></li>`).join("")}</ul>` : ""}
-      ${rec ? `<div class="cta">${W.more}<b>${esc(`${SITE_SHORT}/${FR ? "disques" : "en/records"}/${rec.id}/`)}</b></div>` : `<div class="cta">${FR ? "Tout le journal « En ce moment » :" : "Everything I'm listening to right now:"}<b>${esc(discUrl)}</b></div>`}`),
+      ${rec ? `<div class="cta">${W.more}<b>${esc(`${SITE_SHORT}/${FR ? "disques" : "en/records"}/${rec.id}/`)}</b></div>` : `<div class="cta">${FR ? "Tout le journal « En ce moment » :" : `Everything I'm ${book ? "reading and listening to" : "listening to"} right now:`}<b>${esc(discUrl)}</b></div>`}`),
   ];
   const genreTag = st ? tag(short(f(st, "name")).replace(/ house$/i, "") + "house") : "";
   const caption = joinCaption([
     `${FR ? "Mon coup de cœur du moment" : "My current favourite"} · ${date}`, "",
-    [e.title, who, e.label, e.year].filter(Boolean).join(" · "), "",
+    [e.title, who, book ? publisher : e.label, e.year].filter(Boolean).join(" · "), "",
     context, "",
     note ? `“${note}”` : "", "",
     e.highlight ? `★ ${FR ? "Piste favorite" : "Favourite track"}: ${e.highlight}` : "", "",
-    e.bandcamp?.url ? `${FR ? "Soutenir l'artiste" : "Support the artist"}: ${e.bandcamp.url.replace(/^https?:\/\//, "")}` : "",
+    e.bandcamp?.url ? `${support}: ${e.bandcamp.url.replace(/^https?:\/\//, "")}` : "",
     st ? `${FR ? "Sur le plan" : "On the map"}: ${short(f(st, "name"))} → ${stUrl}` : "", "",
-    `🔗 ${FR ? "Ce que j'écoute en ce moment" : "What I'm listening to right now"}: ${discUrl} (${W.linkBio})`, "",
-    [...new Set(["#nowplaying", "#currentfavourite", who ? tag(who) : "", e.label ? tag(e.label) : "", genreTag, e.bandcamp ? "#bandcamp" : "", e.kind === "nouveau" ? "#newmusic" : "", "#housemusic", "#djculture", "#clubculture"])].filter((x) => x.length > 2).join(" "),
+    `🔗 ${journal}: ${discUrl} (${W.linkBio})`, "",
+    [...new Set([book ? "#nowreading" : "#nowplaying", "#currentfavourite", who ? tag(who) : "", publisher ? tag(publisher) : "", book ? "#musicbooks" : "", genreTag, e.bandcamp ? "#bandcamp" : "", e.kind === "nouveau" ? "#newmusic" : "", "#housemusic", "#djculture", "#clubculture"])].filter((x) => x.length > 2).join(" "),
   ]);
   return { slug: q.n ? `${String(q.n).padStart(2, "0")}-${q.slug}` : `decouverte-${e.id}${q.variant ? "-v" + v : ""}`, color: c, accent: NOW_ACCENT, theme: `dark now${v}`, slides, caption };
 }

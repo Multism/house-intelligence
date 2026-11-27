@@ -55,7 +55,7 @@ Raccourci : la commande `/decouverte` (`.claude/skills/decouverte/SKILL.md`) dé
 La personne qui tient le site indique ce qu'elle écoute ou lit, avec quelques mots. Claude ajoute alors une entrée :
 
 - `id` ; `date` (AAAA-MM-JJ, jour de l'ajout) ; `kind` : `nouveau`, `redecouverte`, `lecture`, `film` ou `mix` ;
-- `title` et `artist` (ou `author`), `year`, `label` ;
+- `title` et `artist` (ou `author`), `year`, `label` (ou `publisher` pour un livre) ;
 - `context` et `context_en` : une ligne de présentation de l'artiste (origine, projet), sous le titre ; source : sa propre biographie ou une source vérifiée ;
 - `highlight` : titre de la piste favorite (affiché « ★ Piste favorite : … ») ;
 - `note` et `note_en` : **la note est la sienne, pas celle de Claude**. On la met en forme sans en inventer le contenu, on la traduit, et on la fait relire si elle a été reformulée ;
