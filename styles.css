@@ -511,6 +511,14 @@ body { padding-bottom: 0; }
 .m-transfer .hit { stroke: transparent; stroke-width: 22; }
 .m-transfer .tube { stroke: #efe9dd; stroke-width: 9; stroke-linecap: round; }
 .m-transfer .dash { stroke: #0a0908; stroke-width: 4; stroke-dasharray: 2 7; stroke-linecap: round; }
+.m-transfer.k-circulation .dash { stroke-dasharray: 10 7; stroke-linecap: butt; }
+.m-transfer.k-parente .tube { display: none; }
+.m-transfer.k-parente .dash { stroke: var(--ink-2); stroke-width: 3; stroke-dasharray: 1 8; }
+.m-transfer.k-parente:hover .dash, .m-transfer.k-parente:focus-visible .dash, .m-transfer.k-parente.sel .dash { stroke: var(--accent); }
+.metro-key { flex-basis: 100%; display: flex; flex-wrap: wrap; gap: 6px 18px; list-style: none; margin: 8px 0 0; padding: 0; font-size: 13px; color: var(--ink-2); }
+.metro-key li { display: flex; align-items: center; gap: 8px; }
+.metro-key svg { flex: none; }
+.metro-bubble .kind { margin: 0 0 4px; font: 11px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
 .m-transfer:hover .tube, .m-transfer:focus-visible .tube, .m-transfer.sel .tube { stroke: var(--accent); }
 .m-st { cursor: pointer; outline: none; }
 .m-st .dot { fill: #0a0908; stroke-width: 4; transition: r .15s; }

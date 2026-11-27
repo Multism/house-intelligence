@@ -1,6 +1,7 @@
 {
   "_meta": {
-    "note": "Plan du métro généalogique. Coordonnées dans un viewBox 1200×700, tracés à 0°/45°/90°. Une station renvoie à des disques par genre (genres) et/ou par identifiant (tracks)."
+    "note": "Plan du métro généalogique. Coordonnées dans un viewBox 1200×700, tracés à 0°/45°/90°. Une station renvoie à des disques par genre (genres) et/ou par identifiant (tracks).",
+    "transfers_note": "Chaque correspondance a un type (kind) : filiation (un courant contribue directement à l'émergence d'un autre), circulation (artistes, labels ou communautés relient deux scènes) ou parente (parenté esthétique, sans influence directe démontrée)."
   },
   "lines": [
     {
@@ -847,7 +848,8 @@
       "title": "Le Warehouse ↔ Paradise Garage",
       "text": "Frankie Knuckles et Larry Levan sont deux amis new-yorkais, formés ensemble dans la scène disco (notamment aux Continental Baths). En 1977, Knuckles part pour Chicago et le Warehouse, tandis que Levan prend le Paradise Garage. Les deux clubs viennent d'une même école : la house et le garage sont des cousins germains.",
       "title_en": "The Warehouse ↔ Paradise Garage",
-      "text_en": "Frankie Knuckles and Larry Levan were two New York friends who came up together in the disco scene (notably at the Continental Baths). In 1977 Knuckles left for Chicago and the Warehouse, while Levan took over the Paradise Garage. Both clubs come from the same school: house and garage are first cousins."
+      "text_en": "Frankie Knuckles and Larry Levan were two New York friends who came up together in the disco scene (notably at the Continental Baths). In 1977 Knuckles left for Chicago and the Warehouse, while Levan took over the Paradise Garage. Both clubs come from the same school: house and garage are first cousins.",
+      "kind": "circulation"
     },
     {
       "a": "chicago",
@@ -855,7 +857,8 @@
       "title": "Chicago House ↔ Deep House",
       "text": "La deep house ne vient pas d'ailleurs : elle naît à Chicago en 1986, quand Larry Heard (Mr. Fingers) sort « Can You Feel It » sur Trax, au milieu du jack. On change de ligne sans changer de ville.",
       "title_en": "Chicago House ↔ Deep House",
-      "text_en": "Deep house didn't come from elsewhere: it was born in Chicago in 1986, when Larry Heard (Mr. Fingers) released \"Can You Feel It\" on Trax, right in the middle of jack. You change lines without changing cities."
+      "text_en": "Deep house didn't come from elsewhere: it was born in Chicago in 1986, when Larry Heard (Mr. Fingers) released \"Can You Feel It\" on Trax, right in the middle of jack. You change lines without changing cities.",
+      "kind": "filiation"
     },
     {
       "a": "acid",
@@ -863,7 +866,8 @@
       "title": "Acid House ↔ Shoom & Haçienda",
       "text": "La TB-303 traverse l'Atlantique en 1987-1988 sous forme de maxis importés et de cassettes. À Londres (Shoom) et à Manchester (Haçienda), « Acid Tracks » devient la bande-son d'une jeunesse britannique, puis A Guy Called Gerald et 808 State en tirent un acid mancunien. Ce transfert a aussi déraciné le son de son public noir et gay d'origine.",
       "title_en": "Acid House ↔ Shoom & Haçienda",
-      "text_en": "The TB-303 crossed the Atlantic in 1987–1988 as imported 12\"s and tapes. In London (Shoom) and Manchester (Haçienda), \"Acid Tracks\" became the soundtrack of British youth, and A Guy Called Gerald and 808 State drew a Mancunian acid from it. The transfer also uprooted the sound from its original Black and gay crowd."
+      "text_en": "The TB-303 crossed the Atlantic in 1987–1988 as imported 12\"s and tapes. In London (Shoom) and Manchester (Haçienda), \"Acid Tracks\" became the soundtrack of British youth, and A Guy Called Gerald and 808 State drew a Mancunian acid from it. The transfer also uprooted the sound from its original Black and gay crowd.",
+      "kind": "filiation"
     },
     {
       "a": "balearic",
@@ -871,7 +875,8 @@
       "title": "Ibiza ↔ Shoom",
       "text": "En 1987, Paul Oakenfold, Danny Rampling et leurs amis découvrent à Ibiza l'éclectisme d'Alfredo à l'Amnesia. De retour à Londres, ils recréent l'esprit balearic dans de petites soirées (Shoom, Spectrum) qui allument le Second Summer of Love.",
       "title_en": "Ibiza ↔ Shoom",
-      "text_en": "In 1987 Paul Oakenfold, Danny Rampling and friends discovered Alfredo's eclecticism at Amnesia in Ibiza. Back in London they recreated the balearic spirit at small parties (Shoom, Spectrum) that lit the fuse of the Second Summer of Love."
+      "text_en": "In 1987 Paul Oakenfold, Danny Rampling and friends discovered Alfredo's eclecticism at Amnesia in Ibiza. Back in London they recreated the balearic spirit at small parties (Shoom, Spectrum) that lit the fuse of the Second Summer of Love.",
+      "kind": "filiation"
     },
     {
       "a": "bleep",
@@ -879,7 +884,8 @@
       "title": "UK Bleep ↔ Detroit",
       "text": "À Sheffield et Leeds, les maxis de Detroit importés rencontrent la culture des sound systems caribéens. Les producteurs britanniques gardent le futurisme des machines et y ajoutent un sub-bass monumental. Matt Anniss raconte ce pont dans « Join the Future ».",
       "title_en": "UK Bleep ↔ Detroit",
-      "text_en": "In Sheffield and Leeds, imported Detroit 12\"s met Caribbean sound-system culture. British producers kept the machine futurism and added monumental sub-bass. Matt Anniss tells this story in Join the Future."
+      "text_en": "In Sheffield and Leeds, imported Detroit 12\"s met Caribbean sound-system culture. British producers kept the machine futurism and added monumental sub-bass. Matt Anniss tells this story in Join the Future.",
+      "kind": "filiation"
     },
     {
       "a": "zanzibar",
@@ -887,7 +893,8 @@
       "title": "Deep & gospel ↔ house sud-africaine (influence importée)",
       "title_en": "Deep & gospel ↔ South African house (imported influence)",
       "text": "Une influence, pas une filiation : la deep house new-yorkaise et du New Jersey arrive en Afrique du Sud par les disques et la radio, et s'y mêle au kwaito. Resident Advisor décrit l'amapiano comme un composite de deep house de style new-yorkais, de R&B et de kwaito.",
-      "text_en": "An influence, not a lineage: New York and New Jersey deep house reached South Africa through records and radio, and mixed there with kwaito. Resident Advisor describes amapiano as a composite of New York-style deep house, R&B and kwaito."
+      "text_en": "An influence, not a lineage: New York and New Jersey deep house reached South Africa through records and radio, and mixed there with kwaito. Resident Advisor describes amapiano as a composite of New York-style deep house, R&B and kwaito.",
+      "kind": "circulation"
     },
     {
       "a": "soundfactory",
@@ -895,7 +902,8 @@
       "title": "Sound Factory ↔ ballroom contemporain",
       "title_en": "Sound Factory ↔ contemporary ballroom",
       "text": "« The Ha Dance » de Masters at Work (1991), issu de la même scène house new-yorkaise que le Sound Factory, devient la colonne vertébrale de la musique des balls : MikeQ et Qween Beat en reprennent le « ha » et le crash.",
-      "text_en": "Masters at Work's \"The Ha Dance\" (1991), from the same New York house scene as the Sound Factory, became the backbone of ball music: MikeQ and Qween Beat reuse its \"ha\" and crash."
+      "text_en": "Masters at Work's \"The Ha Dance\" (1991), from the same New York house scene as the Sound Factory, became the backbone of ball music: MikeQ and Qween Beat reuse its \"ha\" and crash.",
+      "kind": "filiation"
     }
   ]
 }

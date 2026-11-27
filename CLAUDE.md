@@ -63,6 +63,8 @@ Champs facultatifs : `catalog` (numéro de catalogue), `release_date` (date déc
 
 La représentation se contrôle comme les dates et les labels, sans quota : on élargit le périmètre de recherche avant de sélectionner, y compris dans les scènes historiques (années 1980 à 2000). Le but est de corriger les biais du récit, pas d'écrire une histoire parallèle : ces artistes entrent dans les mêmes stations, chronologies et réseaux de labels que leurs contemporains, sans section à part.
 
+Correspondances du métro (`transfers[].kind` dans `data/metro.json`) : `filiation` (un courant contribue directement à l'émergence d'un autre), `circulation` (artistes, labels ou communautés relient deux scènes) ou `parente` (parenté esthétique, sans influence directe démontrée). Une correspondance sans filiation attestée est une `parente`, jamais une `filiation`. Le type s'affiche sur le plan (trait) et dans la bulle.
+
 ## Rubrique « En ce moment » (`data/decouvertes.json`)
 
 Raccourci : la commande `/decouverte` (`.claude/skills/decouverte/SKILL.md`) déroule toute la procédure ci-dessous jusqu'à la mise en ligne.
