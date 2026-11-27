@@ -7,10 +7,10 @@
 
   // ---------- STATE ----------
   const S = {
-    eras: [], genres: [], tracks: [], machines: [], sources: [],
-    byId: {}, genreById: {}, eraById: {}, machineById: {}, sourceById: {},
+    eras: [], genres: [], scenes: [], tracks: [], machines: [], sources: [],
+    byId: {}, genreById: {}, sceneById: {}, eraById: {}, machineById: {}, sourceById: {},
     disc: {}, discEntries: [], stations: {}, lines: [],   // rubrique Découverte
-    filter: { era: null, genre: null, machine: null },
+    filter: { era: null, genre: null, machine: null, scene: null },
     current: null,
     steer: null,
     reco: null,          // { best, ranked }
@@ -107,7 +107,8 @@
     return S.tracks.filter((t) =>
       (!f.era || t.era === f.era) &&
       (!f.genre || t.genre === f.genre) &&
-      (!f.machine || t.gear.includes(f.machine)));
+      (!f.machine || t.gear.includes(f.machine)) &&
+      (!f.scene || t.scene === f.scene));
   }
 
   function recommend(cur) {
@@ -172,6 +173,16 @@
       const n = S.tracks.filter((t) => t.gear.includes(m.id)).length;
       mBox.append(h("button", { class: "chip", "aria-pressed": f.machine === m.id ? "true" : "false", title: _f(m, "name"), onclick: () => setFilter({ machine: f.machine === m.id ? null : m.id }) },
         shortMachine(m), h("span", { class: "n" }, n)));
+    }
+    const sBox = $("#scene-filters");
+    if (sBox) {
+      sBox.replaceChildren(h("button", { class: "chip", "aria-pressed": !f.scene ? "true" : "false", onclick: () => setFilter({ scene: null }) }, _t("filters.allScenes")));
+      for (const sc of S.scenes) {
+        const n = S.tracks.filter((t) => t.scene === sc.id).length;
+        if (!n) continue;
+        sBox.append(h("button", { class: "chip", "aria-pressed": f.scene === sc.id ? "true" : "false", title: `${_f(sc, "place")} · ${_f(sc, "desc")}`, onclick: () => setFilter({ scene: f.scene === sc.id ? null : sc.id }) },
+          _f(sc, "name"), h("span", { class: "n" }, n)));
+      }
     }
     const era = f.era ? S.eraById[f.era] : f.genre ? S.eraById[S.genreById[f.genre].era] : null;
     $("#era-desc").textContent = era ? `${_f(era, "name")} (${_f(era, "range")}) : ${_f(era, "desc")}` : "";
@@ -1024,7 +1035,7 @@
         });
         ({ tracks: tr, machines: ma, sources: so } = window.HI_DATA);
       }
-      S.eras = tr.eras; S.genres = tr.genres; S.tracks = tr.tracks; S.machines = ma.machines; S.sources = so.sources;
+      S.eras = tr.eras; S.genres = tr.genres; S.scenes = tr.scenes || []; S.tracks = tr.tracks; S.machines = ma.machines; S.sources = so.sources;
     } catch (err) {
       document.querySelector(".layout").innerHTML = `<p class="panel" style="grid-column:1/-1">${_t("err.load", { e: esc(err.message) })}${location.protocol === "file:" ? _t("err.file") : _t("err.net")}</p>`;
       console.warn("[House Intelligence] chargement des données impossible :", err);
@@ -1032,6 +1043,7 @@
     }
     for (const t of S.tracks) S.byId[t.id] = t;
     for (const g of S.genres) S.genreById[g.id] = g;
+    for (const sc of S.scenes) S.sceneById[sc.id] = sc;
     for (const e of S.eras) S.eraById[e.id] = e;
     for (const m of S.machines) S.machineById[m.id] = m;
     for (const s of S.sources) S.sourceById[s.id] = s;
