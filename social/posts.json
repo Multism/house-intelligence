@@ -74,7 +74,7 @@
       "slug": "acid-tracks",
       "kind": "track",
       "track": "acid-tracks",
-      "status": "draft",
+      "status": "approved",
       "hook": "A bass machine designed to back up guitarists, turned into a voice that squeals and chokes.",
       "caption": "Acid Tracks · Phuture · Chicago, 1987\n\nDJ Pierre, Earl \"Spanky\" Smith Jr. and Herb J got hold of a second-hand Roland TB-303 without knowing how to use it. The accident became the method: Spanky programmed, Pierre twisted the cutoff and resonance until that sound appeared.\n\nRon Hardy played the tape several times in one night at the Music Box. The crowd rejected it, then demanded it. The name \"acid\" came from a rumour that the DJ was spiking the water.\n\nAcid was born in a Black and gay club. Once it crossed the Atlantic, the smiley partly erased where it came from.\n\n120 BPM · 10A · TB-303 + TR-707\n\n🔗 house-intelligence.pages.dev",
       "hashtags": [
@@ -89,14 +89,15 @@
         "#househistory",
         "#roland"
       ],
-      "not_before": "2026-11-30"
+      "not_before": "2026-11-30",
+      "approved_note": "lot 1 validé par Vovotte le 27/11/2026"
     },
     {
       "n": 4,
       "slug": "your-love",
       "kind": "track",
       "track": "your-love",
-      "status": "draft",
+      "status": "approved",
       "hook": "Proof that Chicago house could be tender and sensual.",
       "caption": "Your Love · Frankie Knuckles presents Jamie Principle · Chicago, 1987\n\nAn endlessly cycling arpeggio, a minimal bassline and an almost whispered vocal. Jamie Principle wrote it at home; Frankie Knuckles played it from a reel-to-reel tape at the Power Plant for years before it was ever released.\n\nThat is how Chicago worked: the DJ is the first broadcaster, the record comes later.\n\nKnuckles, the Godfather of House, was a Black gay DJ from the Bronx and the Continental Baths. \"Your Love\" is one of the founding love songs of queer house.\n\n120 BPM · 1A · Energy 6/10\n\n🔗 house-intelligence.pages.dev",
       "hashtags": [
@@ -110,7 +111,8 @@
         "#househistory",
         "#trax"
       ],
-      "not_before": "2026-12-02"
+      "not_before": "2026-12-02",
+      "approved_note": "lot 1 validé par Vovotte le 27/11/2026"
     },
     {
       "n": 5,
@@ -129,15 +131,16 @@
         "#clubculture",
         "#chicago"
       ],
-      "status": "draft",
-      "not_before": "2026-12-04"
+      "status": "approved",
+      "not_before": "2026-12-04",
+      "approved_note": "lot 1 validé par Vovotte le 27/11/2026"
     },
     {
       "n": 6,
       "slug": "strings-of-life",
       "kind": "track",
       "track": "strings-of-life",
-      "status": "draft",
+      "status": "approved",
       "hook": "The bridge between house and techno: orchestral emotion carried by the machine.",
       "caption": "Strings of Life · Rhythim Is Rhythim · Detroit, 1987\n\nSampled strings and a piano improvisation by Michael James, cut into syncopated riffs over a relentless 909. No conventional bassline, so the tension never resolves: an orchestra in free fall.\n\nDerrick May saw the machine as a way out of a city the car industry had left behind. In Europe, the record became a rave anthem.\n\nThe techno story often forgets its queer debts, starting with Ken Collier, the Black gay Detroit DJ whose sets schooled a whole generation.\n\n125 BPM · 4B · Energy 9/10\n\n🔗 house-intelligence.pages.dev",
       "hashtags": [
@@ -151,7 +154,8 @@
         "#techno",
         "#househistory"
       ],
-      "not_before": "2026-12-07"
+      "not_before": "2026-12-07",
+      "approved_note": "lot 1 validé par Vovotte le 27/11/2026"
     },
     {
       "n": 7,
@@ -173,15 +177,16 @@
         "#synth",
         "#analog"
       ],
-      "status": "draft",
-      "not_before": "2026-12-09"
+      "status": "approved",
+      "not_before": "2026-12-09",
+      "approved_note": "lot 1 validé par Vovotte le 27/11/2026"
     },
     {
       "n": 8,
       "slug": "ha-dance",
       "kind": "track",
       "track": "ha-dance",
-      "status": "draft",
+      "status": "approved",
       "hook": "Every “ha” calls for a pose, every crash for a dip.",
       "caption": "The Ha Dance · Masters At Work · New York, 1991\n\nA \"ha!\" sampled from Trading Places, a crash cymbal, a nervy rhythm. Louie Vega and Kenny \"Dope\" Gonzalez made an instrumental; ballroom made it a choreography. The crash on the fourth beat became the cue for vogue femme's dip.\n\nThe sample comes from a scene full of blackface and slurs. Black and Latina, queer and trans ballroom turned it around, and has been reissuing and remixing it for more than thirty years.\n\n122 BPM · 4A · SP-1200 + MPC60\n\n🔗 house-intelligence.pages.dev",
       "hashtags": [
@@ -197,7 +202,8 @@
         "#queerhistory"
       ],
       "station": "ballroom",
-      "not_before": "2026-12-11"
+      "not_before": "2026-12-11",
+      "approved_note": "lot 1 validé par Vovotte le 27/11/2026"
     },
     {
       "n": 9,
