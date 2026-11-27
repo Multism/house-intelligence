@@ -1,29 +1,76 @@
-Lis attentivement le fichier `CLAUDE.md` pour comprendre la vision, l'esthétique et les règles du projet.
+# HOUSE INTELLIGENCE — fiche projet pour Claude Code
 
-Je veux construire la première version complète et fonctionnelle de **HOUSE INTELLIGENCE**, un site web ludique et éditorial inspiré de `dub.ninja`, dédié à l'histoire, aux machines et à la sociologie de la musique House.
+Site éditorial et ludique, bilingue FR/EN, sur l'histoire, les machines et la sociologie de la house music, dans l'esprit de dub.ninja.
+En ligne : https://house-intelligence.pages.dev · Dépôt public : https://github.com/Multism/house-intelligence (branche `main`).
 
-Voici les étapes à exécuter dans l'ordre :
+> Ce fichier est public (dépôt GitHub et site déployé) : n'y mettre aucune donnée personnelle ni secret.
 
-1. **Structurer les données (`data/`)** :
-   - Complète `data/tracks.json` avec l'ensemble des 14 sous-genres définis (Chicago House, Acid House, Garage House NYC, Hip-House, Detroit, Deep House, Tribal House NYC incluant Victor Calderone, Balearic House, French Touch, Tech House, UK Garage, Afro House, Lo-Fi House, Amapiano), en veillant à ce que chaque morceau possède tous les champs (`construction`, `producer_origins`, `club_sociology`, `queer_ballroom_axis`, `gear`, `archive_ref`, `why_this_record`, `bpm`, `camelot_key`, `energy`).
-   - Crée `data/machines.json` avec des fiches détaillées sur le détournement historique des machines clés (`Roland TR-808`, `Roland TR-909`, `Roland TR-707`, `Roland TB-303`, `Yamaha DX100`, `Akai MPC60`, `E-mu SP-1200`, `Log Drum`).
-   - Crée `data/sources.json` résumant l'apport de nos œuvres de référence (*Modulations*, *Paris is Burning*, *Last Night a DJ Saved My Life*, *History of House* de Chris Kempster, *Join the Future* de Matt Anniss, *You Better Work!* de Kai Fikentscher, *Adventures in Wonderland* de Sheryl Garratt, *Soul Underground*, *Energy Never Dies*).
+## Vision
 
-2. **Développer l'interface interactive (`index.html`, `styles.css`, `app.js`)** :
-   - **Header & Navigation par Époques / Sous-genres** : Filtrage fluide par les 3 grandes ères historiques ou par les 14 sous-genres.
-   - **The Booth (Zone centrale façon Dub.ninja)** :
-     - Affiche le disque en cours avec ses badges techniques (`BPM`, `Clé Camelot`, `Énergie /10`, `Label`, `Ville`, `Année`).
-     - Affiche un **visualiseur de transition** vers le disque suivant recommandé (calculé via un algorithme réel de compatibilité harmonique Camelot + proximité de BPM), indiquant le delta de tempo, le mouvement de clé et l'explication narrative de transition.
-     - Intègre un **synthétiseur Web Audio API ludique (boîte à rythmes / pattern generator minimal)** qui génère un pulse rythmique au BPM exact du morceau sélectionné (avec option kick 909, sub 808 ou filtre acide 303) pour que l'utilisateur ressente immédiatement la différence de tempo et de groove entre un morceau Amapiano à 113 BPM, une Chicago House à 121 BPM et un UK Garage à 132 BPM !
-   - **Steer the Room (Boutons d'orientation)** : 6 boutons d'intention musicale et culturelle qui orientent dynamiquement la sélection suivante.
-   - **Panneau d'Archéologie Culturelle (4 onglets sur la fiche active)** :
-     - *Machines & Construction* (avec badges cliquables ouvrant la fiche machine).
-     - *Origines & Approche Producteur*.
-     - *Axe Ballroom & Scènes Queer*.
-     - *Sociologie du Club & Référence Bibliographique* (cliquable vers la fiche livre/film).
-   - **The Memory (Historique de session)** : Timeline horodatée des morceaux explorés avec bouton d'export de la tracklist en Markdown/JSON.
+- Raconter la house comme une histoire **noire, queer et populaire**, de Chicago, New York et Detroit jusqu'à Durban, Johannesburg et Berlin, à travers des disques, des clubs, des machines et des livres.
+- Ton éditorial : précis, sourcé, sans hagiographie. On distingue ce qui est établi de ce qui est discuté.
+- Expérience immersive sur une seule page : on explore à la souris ou au clavier, on écoute, on enchaîne les disques comme un DJ.
 
-3. **Vérification** :
-   - Lance un serveur local léger pour vérifier qu'il n'y a aucune erreur console et que toutes les interactions (transitions Camelot, filtres machines, audio pulse, navigation) fonctionnent parfaitement.
+## Structure du site (application d'une seule page, JavaScript sans framework)
 
-Commence par créer les fichiers de données dans `data/`, puis développe l'interface.
+| Fichier | Rôle |
+|---|---|
+| `index.html` | Coquille, méta SEO, JSON-LD, plan de métro (viewBox `40 0 1200 860`) |
+| `app.js` | Routage par hash, Booth, Bibliothèque, lecteur YouTube flottant (`#fw`), Pulse (synthé Web Audio) |
+| `metro.js` | Rendu SVG du plan de métro (lignes, stations, correspondances, pastilles `badge`) |
+| `i18n.js` | Textes d'interface FR/EN : `I18N.t(clé)` ; contenu : `I18N.f(obj, champ)` lit `champ_en` en anglais |
+| `styles.css`, `pages.css` | Styles de l'application / des pages statiques |
+| `data/tracks.json` | `eras` (era-1, era-2, era-3a 2005–2012, era-3b 2013–2019, era-3c 2020–), `genres`, `tracks` (85 disques) |
+| `data/metro.json` | 9 lignes, 35 stations, 7 correspondances |
+| `data/machines.json`, `data/sources.json` | Fiches machines (808, 909, 303, MPC…) et œuvres de référence |
+| `data/bundle.js` | Copie embarquée des JSON pour une ouverture en `file://`. **Généré**, ne pas éditer |
+| `disques/`, `stations/`, `en/records/`, `en/stations/`, `sitemap.xml` | Pages statiques SEO. **Générées** |
+| `og/`, `og-image.png` | Images de partage. **Générées** |
+| `_archive/` | Anciennes versions (wiki statique, sauvegardes de données) : ne pas réintroduire sans demande |
+
+Routes : `#metro` (par défaut, `?st=…&ligne=…`), `#booth`, `#<id-disque>` ou `?track=<id>`, `#bibliotheque`.
+
+Lignes du métro : L1 Chicago & Acid · L2 NYC, Garage & Tribal · L3 Deep & gospel · L4 UK Sound System & Bass · L5 Escales européennes · L6 Futurisme & Machines · L7 Ballroom & queer · L8 Afriques · L9 Techno & Europe.
+
+### Fiche disque (`tracks[]`)
+
+Champs obligatoires : `id, title, artist, year, label, city, country, continent, genre, era, bpm, camelot_key, energy, gear, construction, producer_origins, club_sociology, queer_ballroom_axis, archive_ref, why_this_record, tags, youtube`, et la version `*_en` de chaque texte.
+Champs facultatifs : `spotify`, `further_reading`, `story`, `timeline`, `credits`, `book_refs` (`source`, `where`, `where_en`), `references` (URL), `verify` (liste des points à vérifier), `verified` (booléen).
+
+## Règles éditoriales
+
+1. **Bilingue** : tout texte ajouté en français a son équivalent `*_en`. Le français reste la langue par défaut.
+2. **Vérifier avant d'écrire** : dates, labels, numéros de catalogue et classements sont vérifiés sur le web (Discogs, Wikipedia, Resident Advisor, presse). Un fait non confirmé va dans `verify`, pas dans le texte présenté comme établi.
+3. **Signaler les attributions discutées** : « premier disque house », paternité d'un son, etc.
+4. **Aucune allégation non jugée** contre une personne (procès, accusations) : on ne les publie pas.
+5. **Pas d'indication de pages ni de minutage** dans les références de livres ou de films.
+6. **Pas de vidéo YouTube inventée** : chaque identifiant est vérifié (oEmbed). Si on n'en trouve pas de fiable, on n'en met pas.
+7. BPM, clés Camelot et `gear` sont des valeurs éditoriales indicatives (voir `_meta.note`).
+
+## Après toute modification de `data/*.json`
+
+```sh
+node tools/bundle-data.mjs     # régénère data/bundle.js
+node tools/build-pages.mjs     # régénère les pages statiques et le sitemap
+node tools/og-images.mjs       # images de partage (nécessite Playwright, installé hors du dépôt)
+```
+
+Mettre à jour les compteurs affichés (disques, stations, lignes) dans `index.html` (méta et JSON-LD) et dans `i18n.js` s'ils changent.
+
+## Vérification
+
+Servir le dossier en local (`python3 -m http.server 8765`), puis contrôler dans un navigateur headless : aucune erreur console, rendu du métro (étiquettes qui ne se chevauchent pas), Booth, Bibliothèque, bascule FR/EN.
+
+## Git et déploiement
+
+- Identité de commit : `Multism <Multism@users.noreply.github.com>`, jamais d'e-mail personnel.
+- Ne jamais committer de secrets ni de documents de travail : `.gitignore` exclut `.env*`, `.claude/settings.local.json`, `*.rtf`, `*.docx`, `*.pdf`.
+- Pousser sur `main` **ne redéploie pas** le site : le projet Cloudflare Pages est en envoi direct. Après le push, déployer uniquement les fichiers suivis par git :
+
+```sh
+D=$(mktemp -d) && git archive HEAD | tar -x -C "$D" && rm -f "$D/.gitignore" && \
+npx wrangler pages deploy "$D" --project-name house-intelligence --branch main \
+  --commit-hash "$(git rev-parse HEAD)" --commit-message "$(git log -1 --format=%s)"
+```
+
+Puis vérifier sur https://house-intelligence.pages.dev.
