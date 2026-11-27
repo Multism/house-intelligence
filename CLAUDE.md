@@ -20,7 +20,7 @@ En ligne : https://house-intelligence.pages.dev · Dépôt public : https://gith
 | `metro.js` | Rendu SVG du plan de métro (lignes, stations, correspondances, pastilles `badge`) |
 | `i18n.js` | Textes d'interface FR/EN : `I18N.t(clé)` ; contenu : `I18N.f(obj, champ)` lit `champ_en` en anglais |
 | `styles.css`, `pages.css` | Styles de l'application / des pages statiques |
-| `data/tracks.json` | `eras` (era-1, era-2, era-3a 2005–2012, era-3b 2013–2019, era-3c 2020–), `genres`, `tracks` (85 disques) |
+| `data/tracks.json` | `eras` (era-1, era-2, era-3a 2005–2012, era-3b 2013–2019, era-3c 2020–), `genres`, `scenes` (micro-scènes), `tracks` (105 disques) |
 | `data/metro.json` | 9 lignes, 35 stations, 7 correspondances |
 | `data/decouvertes.json` | Rubrique « En ce moment » (`#decouverte`) : journal daté des écoutes et lectures du moment |
 | `data/machines.json`, `data/sources.json` | Fiches machines (808, 909, 303, MPC…) et œuvres de référence |
@@ -36,7 +36,7 @@ Lignes du métro : L1 Chicago & Acid · L2 NYC, Garage & Tribal · L3 Deep & gos
 ### Fiche disque (`tracks[]`)
 
 Champs obligatoires : `id, title, artist, year, label, city, country, continent, genre, era, bpm, camelot_key, energy, gear, construction, producer_origins, club_sociology, queer_ballroom_axis, archive_ref, why_this_record, tags, youtube`, et la version `*_en` de chaque texte.
-Champs facultatifs : `spotify`, `further_reading`, `story`, `timeline`, `credits`, `book_refs` (`source`, `where`, `where_en`), `references` (URL), `verify` (liste des points à vérifier), `verified` (booléen).
+Champs facultatifs : `scene` (id d'une micro-scène de `scenes`, filtre « Scènes » du Booth et liste dans le panneau des stations), `spotify`, `further_reading`, `story`, `timeline`, `credits`, `book_refs` (`source`, `where`, `where_en`), `references` (URL), `verify` (liste des points à vérifier), `verified` (booléen).
 
 ## Règles éditoriales
 

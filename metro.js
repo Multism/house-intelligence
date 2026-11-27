@@ -165,6 +165,11 @@
       h("p", { class: "m-sum" }, F(st, "summary")),
       st.machines?.length ? [h("h3", {}, T("h.machines")), h("div", { class: "links" }, ...st.machines.filter((m) => S.machineById[m]).map((m) =>
         h("button", { class: "gear", onclick: () => openMachine(m) }, F(S.machineById[m], "name").replace(/^(Roland|Yamaha|Akai|E-mu)\s+/, ""))))] : null,
+      (() => {
+        const sc = [...new Set(tracks.map((t) => t.scene).filter(Boolean))].map((id) => S.sceneById?.[id]).filter(Boolean);
+        return sc.length ? [h("h3", {}, T("metro.scenes")), h("div", { class: "links" }, ...sc.map((x) =>
+          h("button", { class: "chip", title: F(x, "desc"), onclick: () => { window.HI.setFilter({ scene: x.id, era: null, genre: null, machine: null }); window.HI.showView("booth"); location.hash = "#booth"; } }, F(x, "name"))))] : null;
+      })(),
       h("h3", {}, T("metro.records", { n: tracks.length })),
       tracks.length ? [
         h("button", { class: "btn sm listen", onclick: () => Player.play(ids.find((id) => S.byId[id].youtube?.length), { queue: ids }) }, T("metro.listenStation")),

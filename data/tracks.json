@@ -331,6 +331,89 @@
       "style_en": "West London, late 1990s: jazz, soul and funk over broken, syncopated rhythms, played as much as programmed."
     }
   ],
+  "scenes": [
+    {
+      "id": "chicago-2e-vague",
+      "name": "Chicago, deuxième vague",
+      "name_en": "Chicago second wave",
+      "place": "Chicago",
+      "place_en": "Chicago",
+      "desc": "Après Trax et DJ International : la deep house jazz et les tracks bruts des années 1990 (Relief, Cajual, Peacefrog, Strictly Jaz Unit).",
+      "desc_en": "After Trax and DJ International: the jazzy deep house and raw tracks of the 1990s (Relief, Cajual, Peacefrog, Strictly Jaz Unit)."
+    },
+    {
+      "id": "uk-tech-house",
+      "name": "Tech house londonienne",
+      "name_en": "London tech house",
+      "place": "Londres",
+      "place_en": "London",
+      "desc": "Les soirées Wiggle et leurs proches : une house sèche, dub et funky, entre Chicago et Detroit.",
+      "desc_en": "The Wiggle parties and their circle: a dry, dubby, funky house between Chicago and Detroit."
+    },
+    {
+      "id": "deep-suedoise",
+      "name": "Deep et tech house suédoise",
+      "name_en": "Swedish deep & tech house",
+      "place": "Stockholm",
+      "place_en": "Stockholm",
+      "desc": "Autour du label Svek (1996-2003) : une house profonde et précise venue de Stockholm.",
+      "desc_en": "Around the Svek label (1996–2003): a deep, precise house from Stockholm."
+    },
+    {
+      "id": "paris-deep",
+      "name": "Deep house parisienne",
+      "name_en": "Parisian deep house",
+      "place": "Paris",
+      "place_en": "Paris",
+      "desc": "L'autre house française, loin de la French touch filtrée : samples de jazz et de soul, maxis rares.",
+      "desc_en": "The other French house, far from filtered French touch: jazz and soul samples, rare 12\"s."
+    },
+    {
+      "id": "microhouse",
+      "name": "Microhouse",
+      "name_en": "Microhouse",
+      "place": "Francfort, Cologne, Montréal",
+      "place_en": "Frankfurt, Cologne, Montreal",
+      "desc": "La house fabriquée à l'ordinateur à partir de sons minuscules : clics, fragments de voix, sampling microscopique.",
+      "desc_en": "House built on a computer from tiny sounds: clicks, voice fragments, microscopic sampling."
+    },
+    {
+      "id": "minimal-house",
+      "name": "Minimal house (Trelik, Playhouse, Perlon)",
+      "name_en": "Minimal house (Trelik, Playhouse, Perlon)",
+      "place": "Londres, Francfort, Berlin, Paris",
+      "place_en": "London, Frankfurt, Berlin, Paris",
+      "desc": "Un réseau de labels et d'amis qui fait de la house minimale une musique d'after, longue et qui swingue.",
+      "desc_en": "A network of labels and friends that turned minimal house into long, swinging afterparty music."
+    },
+    {
+      "id": "detroit-beatdown",
+      "name": "Detroit beatdown",
+      "name_en": "Detroit beatdown",
+      "place": "Detroit",
+      "place_en": "Detroit",
+      "desc": "Une house de Detroit plus lente et plus soul que la techno exportée.",
+      "desc_en": "A Detroit house slower and more soulful than exported techno."
+    },
+    {
+      "id": "spiritual-deep",
+      "name": "Deep house spirituelle",
+      "name_en": "Spiritual deep house",
+      "place": "New York",
+      "place_en": "New York",
+      "desc": "Une deep house nourrie des musiques et des religions de la diaspora africaine.",
+      "desc_en": "Deep house fed by the musics and religions of the African diaspora."
+    },
+    {
+      "id": "broken-beat",
+      "name": "Broken beat",
+      "name_en": "Broken beat",
+      "place": "West London",
+      "place_en": "West London",
+      "desc": "Jazz, soul et funk sur des rythmes cassés : une scène noire britannique de la fin des années 1990.",
+      "desc_en": "Jazz, soul and funk over broken rhythms: a Black British scene of the late 1990s."
+    }
+  ],
   "tracks": [
     {
       "id": "on-and-on",
@@ -6382,7 +6465,8 @@
       "verify": [
         "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
       ],
-      "verified": false
+      "verified": false,
+      "scene": "microhouse"
     },
     {
       "id": "himawari",
@@ -6443,7 +6527,8 @@
         "La voix de « Illegal » est attribuée à Benjamin Zephaniah par un titre YouTube, non confirmé par une source",
         "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
       ],
-      "verified": false
+      "verified": false,
+      "scene": "uk-tech-house"
     },
     {
       "id": "paradigm",
@@ -6502,7 +6587,8 @@
       "verify": [
         "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
       ],
-      "verified": false
+      "verified": false,
+      "scene": "spiritual-deep"
     },
     {
       "id": "shapin-fluid",
@@ -6562,7 +6648,8 @@
         "Numéro de catalogue Apollo",
         "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
       ],
-      "verified": false
+      "verified": false,
+      "scene": "broken-beat"
     },
     {
       "id": "my-way",
@@ -6616,7 +6703,8 @@
       "verify": [
         "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
       ],
-      "verified": false
+      "verified": false,
+      "scene": "microhouse"
     },
     {
       "id": "detroit-beatdown",
@@ -6675,7 +6763,8 @@
         "Rôle exact de Mike Clark dans la compilation (compilateur ?)",
         "BPM et clé : valeurs indicatives pour une compilation"
       ],
-      "verified": false
+      "verified": false,
+      "scene": "detroit-beatdown"
     },
     {
       "id": "alcachofa",
@@ -6734,7 +6823,8 @@
         "Numéro de catalogue Playhouse",
         "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
       ],
-      "verified": false
+      "verified": false,
+      "scene": "minimal-house"
     },
     {
       "id": "esta-hermosa-cancion",
@@ -6792,7 +6882,8 @@
         "Crédit exact : « Abicah Soul » (Rush Hour) ou « Abicah Soul Meets Glenn Underground » (Discogs)",
         "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
       ],
-      "verified": false
+      "verified": false,
+      "scene": "chicago-2e-vague"
     },
     {
       "id": "the-meaning",
@@ -6854,7 +6945,8 @@
         "Origine de Thomas Melchior (avant Berlin)",
         "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
       ],
-      "verified": false
+      "verified": false,
+      "scene": "minimal-house"
     },
     {
       "id": "to-beach-or-not-to-beach",
@@ -6909,6 +7001,600 @@
       ],
       "verify": [
         "Mois de sortie",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false,
+      "scene": "minimal-house"
+    },
+    {
+      "id": "home-town-chicago",
+      "title": "Home Town Chicago",
+      "artist": "Boo Williams",
+      "year": 1996,
+      "label": "Relief Records",
+      "city": "Chicago",
+      "city_en": "Chicago",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "chicago",
+      "era": "era-2",
+      "scene": "chicago-2e-vague",
+      "bpm": 125,
+      "camelot_key": "8A",
+      "energy": 6,
+      "gear": [
+        "Boîtes à rythmes",
+        "Synthés"
+      ],
+      "gear_en": [
+        "Drum machines",
+        "Synths"
+      ],
+      "construction": "Huit morceaux instrumentaux pensés pour les danseurs et les DJs : des tracks de Chicago, de l'acid (« Smokin Acid ») au plus sombre (« Evil Ways », « Devil Music »).",
+      "construction_en": "Eight instrumental tracks built for dancers and DJs: Chicago tracks, from acid (\"Smokin Acid\") to darker cuts (\"Evil Ways\", \"Devil Music\").",
+      "producer_origins": "Boo Williams produit de la house à Chicago depuis 1994. Il forme avec Glenn Underground le noyau de Strictly Jaz Unit. L'album sort en 1996 ; il est réédité en 2011 sur Another Day.",
+      "producer_origins_en": "Boo Williams has made house in Chicago since 1994. With Glenn Underground he formed the core of Strictly Jaz Unit. The album came out in 1996 and was reissued in 2011 on Another Day.",
+      "club_sociology": "Le disque appartient à la deuxième vague de Chicago, celle qui continue la house locale quand les projecteurs sont passés au Royaume-Uni, et que l'Europe découvre surtout par les imports.",
+      "club_sociology_en": "The record belongs to Chicago's second wave, which kept local house going once the spotlight had moved to the UK, and which Europe discovered mostly through imports.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Critique de la réédition (The Quietus, 2011).",
+        "note_en": "Review of the reissue (The Quietus, 2011)."
+      },
+      "why_this_record": "Chicago continue de produire, loin des charts : la deuxième vague.",
+      "why_this_record_en": "Chicago kept producing, far from the charts: the second wave.",
+      "tags": [
+        "us",
+        "roots",
+        "machine"
+      ],
+      "youtube": [
+        "tjKk2aRXZuo",
+        "Dl9bWwQmG6g"
+      ],
+      "references": [
+        "https://theshfl.com/album/Home-Town-Chicago",
+        "https://thequietus.com/quietus-reviews/boo-williams-home-town-chicago-review/",
+        "https://daily.bandcamp.com/lifetime-achievement/glenn-underground-lifetime-achievement"
+      ],
+      "verify": [
+        "Label d'origine : Relief ou Cajual (les deux apparaissent sur la même fiche)",
+        "Rang dans la discographie (premier ou deuxième album)",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "atmosfear",
+      "title": "Atmosfear",
+      "artist": "Glenn Underground",
+      "year": 1996,
+      "label": "Peacefrog",
+      "city": "Chicago",
+      "city_en": "Chicago",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "deep",
+      "era": "era-2",
+      "scene": "chicago-2e-vague",
+      "bpm": 122,
+      "camelot_key": "9A",
+      "energy": 5,
+      "gear": [
+        "Piano & orgue",
+        "Synthés"
+      ],
+      "gear_en": [
+        "Piano & organ",
+        "Synths"
+      ],
+      "construction": "Premier album : huit morceaux de deep house où les accords de jazz fusion des années 1970 se posent sur des rythmes programmés (« Israelee Night Falls », « May Datroit », « Midnight Groove »).",
+      "construction_en": "Debut album: eight deep house tracks in which 1970s jazz-fusion chords sit on programmed beats (\"Israelee Night Falls\", \"May Datroit\", \"Midnight Groove\").",
+      "producer_origins": "Glenn Underground a grandi dans le South Side de Chicago. Il apprend le DJing auprès de son oncle, la production en autodidacte, et cofonde Strictly Jaz Unit avec Boo Williams. Le label londonien Peacefrog sort ce premier album en 1996.",
+      "producer_origins_en": "Glenn Underground grew up on Chicago's South Side. He learned to DJ from his uncle, taught himself production and co-founded Strictly Jaz Unit with Boo Williams. The London label Peacefrog released this debut album in 1996.",
+      "club_sociology": "C'est un label britannique qui publie l'album : dans les années 1990, la deep house noire de Chicago trouve une bonne part de son public en Europe. Peacefrog annonce une réédition pour ses 30 ans.",
+      "club_sociology_en": "A British label released the album: in the 1990s, Chicago's Black deep house found much of its audience in Europe. Peacefrog has announced a 30th-anniversary reissue.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Portrait Bandcamp Daily (2020).",
+        "note_en": "Bandcamp Daily profile (2020)."
+      },
+      "why_this_record": "Le jazz entre dans la deep house de Chicago par le Rhodes et le Juno.",
+      "why_this_record_en": "Jazz enters Chicago deep house through the Rhodes and the Juno.",
+      "tags": [
+        "us",
+        "deep",
+        "jazz"
+      ],
+      "youtube": [
+        "ojhHZcoO7Bs",
+        "iQfr3-VGoGw"
+      ],
+      "references": [
+        "https://www.rushhour.nl/record/vinyl/atmosfear-3",
+        "https://www.hhv-mag.com/review/glenn-underground-atmosfear/?lang=en",
+        "https://daily.bandcamp.com/lifetime-achievement/glenn-underground-lifetime-achievement"
+      ],
+      "verify": [
+        "Année : 1996 selon Rush Hour et la critique HHV (« 30 ans »), mais l'en-tête HHV indique 1991",
+        "Numéro de catalogue d'origine (PF043 ?)",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "little-i-ep",
+      "title": "Little 'i' EP",
+      "artist": "Fresh & Low",
+      "year": 1997,
+      "label": "West Side Records",
+      "city": "Londres",
+      "city_en": "London",
+      "country": "Royaume-Uni",
+      "country_en": "United Kingdom",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "tech-house",
+      "era": "era-2",
+      "scene": "uk-tech-house",
+      "bpm": 124,
+      "camelot_key": "6A",
+      "energy": 4,
+      "gear": [
+        "Synthés",
+        "Nappes"
+      ],
+      "gear_en": [
+        "Synths",
+        "Pads"
+      ],
+      "construction": "Quatre morceaux (« New Life », « Seven Miles Up », « No Going Back », « Dream ») à l'atmosphère détendue, presque ambient, sur un groove de deep house.",
+      "construction_en": "Four tracks (\"New Life\", \"Seven Miles Up\", \"No Going Back\", \"Dream\") with a relaxed, almost ambient atmosphere over a deep house groove.",
+      "producer_origins": "Fresh & Low est le trio britannique de Julian Dembinski, David Robertson et Calum Walker, présenté comme pionnier de la tech house. L'EP sort en 1997 sur West Side Records.",
+      "producer_origins_en": "Fresh & Low is the British trio of Julian Dembinski, David Robertson and Calum Walker, described as tech house pioneers. The EP came out in 1997 on West Side Records.",
+      "club_sociology": "Longtemps introuvable, l'EP est réédité en 2026 par Rawax : un exemple de ces maxis britanniques des années 1990 que les digueurs remettent en circulation.",
+      "club_sociology_en": "Long hard to find, the EP was reissued in 2026 by Rawax: an example of the 1990s British 12\"s that diggers have put back into circulation.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Fiche de la réédition Rawax (2026).",
+        "note_en": "Rawax reissue listing (2026)."
+      },
+      "why_this_record": "La tech house britannique dans sa version la plus rêveuse.",
+      "why_this_record_en": "British tech house at its dreamiest.",
+      "tags": [
+        "uk",
+        "deep"
+      ],
+      "youtube": [
+        "dN8vJP5HZR0",
+        "-KndjQwYbBw"
+      ],
+      "references": [
+        "https://www.horizonsmusic.co.uk/products/fresh-low-little-i-ep-reissue-clear-turquoise-vinyl",
+        "https://www.freezenet.ca/review-fresh-low-new-life-house/"
+      ],
+      "verify": [
+        "Ville du trio (Londres supposé)",
+        "Numéro de catalogue West Side",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "dubtown",
+      "title": "Dubtown",
+      "artist": "Terry Francis",
+      "year": 1997,
+      "label": "Pagan",
+      "city": "Londres",
+      "city_en": "London",
+      "country": "Royaume-Uni",
+      "country_en": "United Kingdom",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "tech-house",
+      "era": "era-2",
+      "scene": "uk-tech-house",
+      "bpm": 126,
+      "camelot_key": "4A",
+      "energy": 6,
+      "gear": [
+        "Boîtes à rythmes",
+        "Delay"
+      ],
+      "gear_en": [
+        "Drum machines",
+        "Delay"
+      ],
+      "construction": "Quatre morceaux (« Hannah's House », « Hannah's Dub », « As You Cry », « Reggae's House ») où la tech house londonienne emprunte au dub ses échos et ses basses.",
+      "construction_en": "Four tracks (\"Hannah's House\", \"Hannah's Dub\", \"As You Cry\", \"Reggae's House\") in which London tech house borrows dub's echoes and basslines.",
+      "producer_origins": "Terry Francis, DJ et producteur britannique né en 1966, est l'un des piliers des soirées Wiggle avec Nathan Coles, avec qui il produit aussi sous le nom de Housey Doingz. « Dubtown » est son premier disque solo. Il est élu meilleur nouveau DJ par Muzik en 1997, puis devient résident de fabric dès son ouverture en 1999.",
+      "producer_origins_en": "Terry Francis, a British DJ and producer born in 1966, is a pillar of the Wiggle parties with Nathan Coles, with whom he also produces as Housey Doingz. \"Dubtown\" is his first solo record. Muzik named him Best New DJ in 1997, and he became a fabric resident when it opened in 1999.",
+      "club_sociology": "Le disque est l'un des repères de la tech house londonienne des soirées Wiggle. Mint Condition l'a réédité, remasterisé avec Francis.",
+      "club_sociology_en": "The record is a landmark of the London tech house of the Wiggle parties. Mint Condition has reissued it, remastered with Francis.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Biographie Resident Advisor de Terry Francis.",
+        "note_en": "Resident Advisor biography of Terry Francis."
+      },
+      "why_this_record": "Le son Wiggle sur disque : la tech house de Londres rencontre le dub.",
+      "why_this_record_en": "The Wiggle sound on record: London tech house meets dub.",
+      "tags": [
+        "uk",
+        "dub",
+        "warehouse"
+      ],
+      "youtube": [
+        "iLPEfijLqo0",
+        "IXK0ItV-jwU"
+      ],
+      "references": [
+        "https://www.piccadillyrecords.com/150701/Terry-Francis-Dubtown-Mint-Condition",
+        "https://es-mx.ra.co/dj/terryfrancis/biography",
+        "https://en.wikipedia.org/wiki/Terry_Francis"
+      ],
+      "verify": [
+        "Label et année d'origine : Pagan (Resident Advisor) ou Rob's Records en 1996 (un disquaire)",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "keep-doing-that",
+      "title": "Keep Doing That",
+      "artist": "Omni A.M.",
+      "year": 1997,
+      "label": "Euphoria Records",
+      "city": "Chicago",
+      "city_en": "Chicago",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "tech-house",
+      "era": "era-2",
+      "scene": "chicago-2e-vague",
+      "bpm": 127,
+      "camelot_key": "11A",
+      "energy": 6,
+      "gear": [
+        "Boîtes à rythmes",
+        "Synthés"
+      ],
+      "gear_en": [
+        "Drum machines",
+        "Synths"
+      ],
+      "construction": "Un maxi de tech house américaine underground, avec « Keep Doing That » et « Can We Get ».",
+      "construction_en": "An underground American tech house 12\", with \"Keep Doing That\" and \"Can We Get\".",
+      "producer_origins": "Omni A.M. est le duo d'Adam Collins, originaire de New York, et de Marky Star, formé à Chicago. Collins cofonde le label Euphoria vers 1996 ; ce premier vinyle du duo (pochette verte ornée d'un labyrinthe) en est la deuxième sortie, en 1997.",
+      "producer_origins_en": "Omni A.M. is the duo of New York-born Adam Collins and Marky Star, formed in Chicago. Collins co-founded the Euphoria label around 1996; the duo's first vinyl (a green sleeve with a maze) was its second release, in 1997.",
+      "club_sociology": "Un disque de micro-label, réédité en numérique en 2023 avec des remixes de Mark Ambrose : la tech house n'était pas seulement londonienne.",
+      "club_sociology_en": "A micro-label record, reissued digitally in 2023 with Mark Ambrose remixes: tech house wasn't only a London thing.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "« Journey Through My Discography » d'Adam Collins (Data Transmission).",
+        "note_en": "Adam Collins's \"Journey Through My Discography\" (Data Transmission)."
+      },
+      "why_this_record": "La tech house vue de Chicago, sur un label fait maison.",
+      "why_this_record_en": "Tech house seen from Chicago, on a home-made label.",
+      "tags": [
+        "us",
+        "diy"
+      ],
+      "youtube": [
+        "SoQXdqK11Hg",
+        "OSHzXyGLMb4"
+      ],
+      "references": [
+        "https://datatransmission.co/blog/journey-through-my-discography-adam-collins/",
+        "https://www.lyramusic.io/artist/omni-am/album/omni-am-keep-doing-that"
+      ],
+      "verify": [
+        "Numéro de catalogue Euphoria",
+        "Aucune vidéo du morceau-titre original trouvée : « Can We Get » (face du même disque) et un remix de 2023",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "snowboarding-in-argentina",
+      "title": "Snowboarding in Argentina",
+      "artist": "Swayzak",
+      "year": 1998,
+      "label": "Pagan",
+      "city": "Londres",
+      "city_en": "London",
+      "country": "Royaume-Uni",
+      "country_en": "United Kingdom",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "tech-house",
+      "era": "era-2",
+      "scene": "uk-tech-house",
+      "bpm": 124,
+      "camelot_key": "7A",
+      "energy": 5,
+      "gear": [
+        "Synthés",
+        "Delay"
+      ],
+      "gear_en": [
+        "Synths",
+        "Delay"
+      ],
+      "construction": "Un premier album de tech house aux échos dub (« Bueno », « Fukumachi », « Low-Rez Skyline »).",
+      "construction_en": "A dub-echoed tech house debut album (\"Bueno\", \"Fukumachi\", \"Low-Rez Skyline\").",
+      "producer_origins": "Swayzak, duo londonien de David Brown et James S. Taylor, sort ce premier album en mars 1998, chez Pagan au Royaume-Uni et The Medicine Label aux États-Unis. Le titre désigne les vacances de rêve qu'ils s'offriraient si l'album marchait.",
+      "producer_origins_en": "Swayzak, the London duo of David Brown and James S. Taylor, released this debut album in March 1998, on Pagan in the UK and The Medicine Label in the US. The title names the dream holiday they would take if the album did well.",
+      "club_sociology": "Avec Himawari (2000), l'album place Swayzak entre la tech house britannique et la minimale allemande.",
+      "club_sociology_en": "Together with Himawari (2000), the album places Swayzak between British tech house and German minimal.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Fiche de l'album (Wikipedia).",
+        "note_en": "Album entry (Wikipedia)."
+      },
+      "why_this_record": "La tech house londonienne passe au format album.",
+      "why_this_record_en": "London tech house moves to the album format.",
+      "tags": [
+        "uk",
+        "dub",
+        "europe"
+      ],
+      "youtube": [
+        "Re61G2m6jU4"
+      ],
+      "references": [
+        "https://en.wikipedia.org/wiki/Snowboarding_in_Argentina"
+      ],
+      "verify": [
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "beau-mot-plage",
+      "title": "Beau Mot Plage",
+      "artist": "Isolée",
+      "year": 1998,
+      "label": "Playhouse",
+      "city": "Francfort",
+      "city_en": "Frankfurt",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "microhouse",
+      "era": "era-2",
+      "scene": "microhouse",
+      "bpm": 122,
+      "camelot_key": "3A",
+      "energy": 5,
+      "gear": [
+        "DAW",
+        "Guitare (sample)"
+      ],
+      "gear_en": [
+        "DAW",
+        "Guitar (sample)"
+      ],
+      "construction": "Un maxi de cinq titres (« Cité Grande Terre », « Beau Mot Plage », « Bleu », « Poisson mort », « Keep on Dancin' ») où des fragments mélodiques s'enroulent sur un groove souple et léger.",
+      "construction_en": "A five-track 12\" (\"Cité Grande Terre\", \"Beau Mot Plage\", \"Bleu\", \"Poisson mort\", \"Keep on Dancin'\") in which melodic fragments curl around a light, supple groove.",
+      "producer_origins": "Isolée est Rajko Müller, producteur allemand né à Francfort, publié par Playhouse dès 1997. « Beau Mot Plage » sort en 1998, puis figure sur son album « Rest » (2000).",
+      "producer_origins_en": "Isolée is Rajko Müller, a German producer born in Frankfurt, released by Playhouse from 1997. \"Beau Mot Plage\" came out in 1998, then appeared on his album \"Rest\" (2000).",
+      "club_sociology": "C'est le plus grand succès d'Isolée. Le label Classic de Luke Solomon le reprend, et il circule bien au-delà de la scène minimale.",
+      "club_sociology_en": "It is Isolée's biggest hit. Luke Solomon's Classic label picked it up, and it travelled well beyond the minimal scene.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Ralph Lawson, « RiL075 » (2018).",
+        "note_en": "Ralph Lawson, \"RiL075\" (2018)."
+      },
+      "why_this_record": "La microhouse trouve son tube.",
+      "why_this_record_en": "Microhouse finds its hit.",
+      "tags": [
+        "europe",
+        "software"
+      ],
+      "youtube": [
+        "cs4Pd7eiDsU",
+        "mQy2V_3LRMQ"
+      ],
+      "references": [
+        "https://en.wikipedia.org/wiki/Isolee",
+        "https://ralph-lawson.squarespace.com/ril/2018/12/11/ril075-isole-beau-mot-plage"
+      ],
+      "verify": [
+        "Label et catalogue du pressage de 1998 (Playhouse selon le contexte, non confirmé par une fiche)",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "stockholm",
+      "title": "Stockholm",
+      "artist": "The Persuader",
+      "year": 1999,
+      "label": "Svek",
+      "city": "Stockholm",
+      "city_en": "Stockholm",
+      "country": "Suède",
+      "country_en": "Sweden",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "tech-house",
+      "era": "era-2",
+      "scene": "deep-suedoise",
+      "bpm": 125,
+      "camelot_key": "5A",
+      "energy": 5,
+      "gear": [
+        "Synthés",
+        "Boîtes à rythmes"
+      ],
+      "gear_en": [
+        "Synths",
+        "Drum machines"
+      ],
+      "construction": "Un album de deep et tech house dont les morceaux portent des noms de quartiers de Stockholm (« Gamla Stan », « Vasastaden »).",
+      "construction_en": "A deep and tech house album whose tracks are named after Stockholm districts (\"Gamla Stan\", \"Vasastaden\").",
+      "producer_origins": "The Persuader est un alias de Jesper Dahlbäck, né à Stockholm en 1974. L'album sort en 1999 sur Svek, label de Stephan Grieder actif de 1996 à 2003.",
+      "producer_origins_en": "The Persuader is an alias of Jesper Dahlbäck, born in Stockholm in 1974. The album came out in 1999 on Svek, Stephan Grieder's label, active from 1996 to 2003.",
+      "club_sociology": "Détail d'archive : son édition vinyle est la toute première fiche de la base Discogs, la release n°1.",
+      "club_sociology_en": "An archival detail: its vinyl edition is the very first entry in the Discogs database, release no. 1.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Resident Advisor (2015) et « Selections: Svek » (Infinite Speeds).",
+        "note_en": "Resident Advisor (2015) and \"Selections: Svek\" (Infinite Speeds)."
+      },
+      "why_this_record": "La Suède dans l'histoire de la house, et le disque n°1 de Discogs.",
+      "why_this_record_en": "Sweden in house history, and Discogs record no. 1.",
+      "tags": [
+        "europe",
+        "deep"
+      ],
+      "youtube": [
+        "ztPcHIGyfWU",
+        "2iimHZW-nGs"
+      ],
+      "references": [
+        "https://ra.co/news/27730",
+        "https://infinitespeeds.substack.com/p/selections-svek",
+        "https://en.wikipedia.org/wiki/Jesper_Dahlb%C3%A4ck"
+      ],
+      "verify": [
+        "Numéro de catalogue Svek",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "burning",
+      "title": "Burning",
+      "artist": "Pépé Bradock",
+      "year": 1999,
+      "label": "Kif Recordings",
+      "city": "Paris",
+      "city_en": "Paris",
+      "country": "France",
+      "country_en": "France",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "deep",
+      "era": "era-2",
+      "scene": "paris-deep",
+      "bpm": 120,
+      "camelot_key": "10A",
+      "energy": 6,
+      "gear": [
+        "Sampler",
+        "Filtres"
+      ],
+      "gear_en": [
+        "Sampler",
+        "Filters"
+      ],
+      "construction": "Trois morceaux (« Burning Hot », « The Right Way », « Deep Burnt ») construits sur des samples découpés et filtrés. « Deep Burnt », en face B, devient le titre le plus connu.",
+      "construction_en": "Three tracks (\"Burning Hot\", \"The Right Way\", \"Deep Burnt\") built on chopped, filtered samples. \"Deep Burnt\", on the B-side, became the best-known track.",
+      "producer_origins": "Pépé Bradock, producteur parisien, sort ce maxi en 1999 sur Kif Recordings. Il fondera plus tard son propre label, Atavisme.",
+      "producer_origins_en": "Pépé Bradock, a Parisian producer, released this 12\" in 1999 on Kif Recordings. He later founded his own label, Atavisme.",
+      "club_sociology": "C'est un classique de la deep house française, plusieurs fois repressé (encore en 2018). Il montre une house parisienne qui doit plus au jazz et à la soul qu'au filtre de la French touch.",
+      "club_sociology_en": "It is a classic of French deep house, repressed several times (again in 2018). It shows a Parisian house that owes more to jazz and soul than to the French touch filter.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Fiche du disquaire Music Mania.",
+        "note_en": "Music Mania record shop listing."
+      },
+      "why_this_record": "L'autre house française, celle des diggers.",
+      "why_this_record_en": "The other French house, the diggers' one.",
+      "tags": [
+        "europe",
+        "sample",
+        "deep"
+      ],
+      "youtube": [
+        "Gz9c6IivbhE",
+        "QQHcyokqnKI"
+      ],
+      "references": [
+        "https://www.musicmaniarecords.be/1509-pepe-bradock/6091-burning",
+        "https://factmag.com/2015/05/11/pepe-bradock-deep-burnt-edits"
+      ],
+      "verify": [
+        "Crédit exact (« Pépé Bradock & The Grand Brûlé's Choir » selon certaines copies)",
+        "Numéro de catalogue (KIF S.A 08 ?)",
+        "Samples de « Deep Burnt » (Karen Young, The Headhunters, Freddie Hubbard selon un disquaire)",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "lady-science",
+      "title": "Lady Science (NYC Sunrise)",
+      "artist": "Soul Capsule",
+      "year": 1999,
+      "label": "Trelik",
+      "city": "Londres",
+      "city_en": "London",
+      "country": "Royaume-Uni",
+      "country_en": "United Kingdom",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "microhouse",
+      "era": "era-2",
+      "scene": "minimal-house",
+      "bpm": 124,
+      "camelot_key": "12A",
+      "energy": 5,
+      "gear": [
+        "Synthés",
+        "Voix"
+      ],
+      "gear_en": [
+        "Synths",
+        "Vocals"
+      ],
+      "construction": "Une house minimale et profonde, longue et lumineuse, comme son sous-titre l'annonce : un lever de soleil à New York.",
+      "construction_en": "A deep, minimal house track, long and luminous, as its subtitle announces: a sunrise in New York.",
+      "producer_origins": "Soul Capsule est le duo de Thomas Melchior et de Peter Adshead, alias Baby Ford. Entre 1999 et 2001, ils sortent trois EP, dont celui-ci sur Trelik en 1999.",
+      "producer_origins_en": "Soul Capsule is the duo of Thomas Melchior and Peter Adshead, aka Baby Ford. Between 1999 and 2001 they released three EPs, including this one on Trelik in 1999.",
+      "club_sociology": "Le morceau, plusieurs fois réédité, relie la deep house américaine à la minimale européenne qui s'organise autour de Trelik, Playhouse puis Perlon.",
+      "club_sociology_en": "The track, reissued several times, links American deep house to the European minimal scene organising around Trelik, Playhouse and then Perlon.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Portrait de Thomas Melchior (fabric).",
+        "note_en": "Thomas Melchior profile (fabric)."
+      },
+      "why_this_record": "Le passage de la deep house à la minimale, en un seul morceau.",
+      "why_this_record_en": "The move from deep house to minimal, in a single track.",
+      "tags": [
+        "uk",
+        "deep",
+        "sunrise"
+      ],
+      "youtube": [
+        "FrKi5QFIjh8",
+        "6X1fBwnGeBc"
+      ],
+      "references": [
+        "https://fabriclondon.com/posts/in-profile-a-potted-history-of-thomas-melchior",
+        "https://de.ra.co/dj/soulcapsule"
+      ],
+      "verify": [
+        "Titre de l'EP d'origine (« Overcome » ?) et numéro de catalogue Trelik",
         "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
       ],
       "verified": false

@@ -19,7 +19,7 @@ const SITE = "https://house-intelligence.pages.dev";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (f) => JSON.parse(readFileSync(join(ROOT, "data", f + ".json"), "utf8"));
-const { tracks, genres, eras } = read("tracks");
+const { tracks, genres, eras, scenes = [] } = read("tracks");
 const { machines } = read("machines");
 const { sources } = read("sources");
 const metro = read("metro");
@@ -28,6 +28,7 @@ const lines = metro.lines;
 
 const byTrack = Object.fromEntries(tracks.map((t) => [t.id, t]));
 const byGenre = Object.fromEntries(genres.map((g) => [g.id, g]));
+const byScene = Object.fromEntries(scenes.map((s) => [s.id, s]));
 const byEra = Object.fromEntries(eras.map((e) => [e.id, e]));
 const byMachine = Object.fromEntries(machines.map((m) => [m.id, m]));
 const bySource = Object.fromEntries(sources.map((s) => [s.id, s]));
@@ -41,7 +42,7 @@ const L = {
     why: "Pourquoi ce disque", construction: "Construction", origins: "Origines et approche producteur",
     club: "Sociologie du club", queer: "Axe ballroom & scènes queer",
     gear: "Machines", source: "Référence", inStations: "Sur le plan du métro", sameStation: "Dans la même station",
-    year: "Année", label: "Label", city: "Ville", bpm: "BPM", key: "Clé Camelot", energy: "Énergie", genre: "Genre", era: "Ère",
+    year: "Année", label: "Label", city: "Ville", bpm: "BPM", key: "Clé Camelot", energy: "Énergie", genre: "Genre", scene: "Micro-scène", era: "Ère",
     openBooth: "Ouvrir dans The Booth", listen: "Écouter sur YouTube", openMap: "Voir sur le plan du métro",
     lines: "Lignes", stationRecords: "Les disques de la station", connected: "Stations reliées", transfer: "Correspondance",
     allRecords: (n) => `Les ${n} disques`, allStations: (n) => `Les ${n} stations`,
@@ -61,7 +62,7 @@ const L = {
     why: "Why this record", construction: "How it was made", origins: "Origins and production approach",
     club: "Club sociology", queer: "Ballroom & queer scenes",
     gear: "Machines", source: "Reference", inStations: "On the metro map", sameStation: "In the same station",
-    year: "Year", label: "Label", city: "City", bpm: "BPM", key: "Camelot key", energy: "Energy", genre: "Genre", era: "Era",
+    year: "Year", label: "Label", city: "City", bpm: "BPM", key: "Camelot key", energy: "Energy", genre: "Genre", scene: "Micro-scene", era: "Era",
     openBooth: "Open in The Booth", listen: "Listen on YouTube", openMap: "See it on the metro map",
     lines: "Lines", stationRecords: "Records in this station", connected: "Connected stations", transfer: "Transfer",
     allRecords: (n) => `All ${n} records`, allStations: (n) => `All ${n} stations`,
@@ -202,7 +203,7 @@ function recordPage(t, lang) {
   const src = t.archive_ref?.source && bySource[t.archive_ref.source];
   const facts = [
     [T.year, t.year], [T.label, t.label], [T.city, [t.city, t.country].filter(Boolean).join(", ")],
-    [T.genre, g ? f(g, "name", lang) : t.genre], [T.bpm, t.bpm], [T.key, t.camelot_key], [T.energy, t.energy != null ? `${t.energy}/10` : ""],
+    [T.genre, g ? f(g, "name", lang) : t.genre], [T.scene, byScene[t.scene] ? f(byScene[t.scene], "name", lang) : ""], [T.bpm, t.bpm], [T.key, t.camelot_key], [T.energy, t.energy != null ? `${t.energy}/10` : ""],
   ].filter(([, v]) => v !== "" && v != null);
   const yt = t.youtube?.[0];
 
