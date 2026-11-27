@@ -41,6 +41,13 @@
         svgEl("line", { class: "tube", x1: a.x, y1: a.y, x2: b.x, y2: b.y }),
         svgEl("line", { class: "dash", x1: a.x, y1: a.y, x2: b.x, y2: b.y }),
       ]);
+      // flèche : seulement pour une filiation dont le sens historique est établi (from)
+      if (tr.kind === "filiation" && (tr.from === tr.a || tr.from === tr.b)) {
+        const [o, d] = tr.from === tr.a ? [a, b] : [b, a];
+        const ang = Math.atan2(d.y - o.y, d.x - o.x) * 180 / Math.PI;
+        const mx = o.x + (d.x - o.x) * 0.55, my = o.y + (d.y - o.y) * 0.55;
+        g.append(svgEl("path", { class: "arrow", d: "M -7 -8 L 8 0 L -7 8 Z", transform: `translate(${mx} ${my}) rotate(${ang})` }));
+      }
       g.append(svgEl("title", {}, [document.createTextNode(F(tr, "title"))]));
       tg.append(g);
     });
@@ -205,6 +212,9 @@
       h("button", { class: "close", "aria-label": T("mod.close"), onclick: hideBubble }, "✕"),
       h("p", { class: "kind k-" + (tr.kind || "filiation") }, T("metro.kind." + (tr.kind || "filiation"))),
       h("h3", {}, F(tr, "title")), h("p", {}, F(tr, "text")),
+      (tr.tracks || []).length ? h("div", { class: "links" }, ...tr.tracks.map((id) => window.HI.S.byId[id]).filter(Boolean).map((t) =>
+        h("button", { class: "chip", onclick: () => { location.hash = "#" + t.id; window.HI.load(t.id, "métro"); } }, `♪ ${t.artist}, ${t.title} (${t.year})`))) : "",
+      (tr.references || []).length ? h("p", { class: "refs" }, T("metro.sources"), " ", ...tr.references.flatMap((u, k) => [k ? " · " : "", h("a", { href: u, target: "_blank", rel: "noopener" }, new URL(u).hostname.replace(/^www\./, ""))])) : "",
       h("div", { class: "links" }, h("button", { class: "chip", onclick: () => select(tr.a) }, `→ ${F(a, "name")}`), h("button", { class: "chip", onclick: () => select(tr.b) }, `→ ${F(b, "name")}`)));
     box.hidden = false;
     // position : milieu de la correspondance, converti en pixels
@@ -260,7 +270,7 @@
     const style = document.createElementNS(NS, "style");
     style.textContent = `svg{background:#0d0c0b;font-family:'Space Grotesk',Arial,sans-serif}.m-grid line{stroke:#1a1816}.m-line{fill:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round}
       .m-transfer .tube{stroke:#efe9dd;stroke-width:9;stroke-linecap:round}.m-transfer .dash{stroke:#0d0c0b;stroke-width:4;stroke-dasharray:2 7;stroke-linecap:round}
-      .k-circulation .dash{stroke-dasharray:10 7;stroke-linecap:butt}.k-parente .tube{display:none}.k-parente .dash{stroke:#b4ab9c;stroke-width:3;stroke-dasharray:1 8}
+      .k-circulation .dash{stroke-dasharray:10 7;stroke-linecap:butt}.k-parente .tube{display:none}.k-parente .dash{stroke:#b4ab9c;stroke-width:3;stroke-dasharray:1 8}.m-transfer .arrow{fill:#efe9dd;stroke:#0d0c0b;stroke-width:2}
       .m-st .dot{fill:#0d0c0b;stroke-width:4}.m-st .ring{fill:#fff;stroke:#0d0c0b;stroke-width:3}.m-st .core{fill:#fff;stroke:#0d0c0b;stroke-width:2.5}
       .m-label{fill:#efe9dd;font-size:13px;font-weight:600}.m-years{fill:#8f8678;font-size:10px;font-weight:400}.m-badge text{fill:#111;font-size:13px;font-weight:700;text-anchor:middle;dominant-baseline:central}
       .m-st.empty .m-label{fill:#8f8678}.dim{opacity:.12}`;
