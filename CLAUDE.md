@@ -63,6 +63,17 @@ Champs facultatifs : `catalog` (numéro de catalogue), `release_date` (date déc
 
 La représentation se contrôle comme les dates et les labels, sans quota : on élargit le périmètre de recherche avant de sélectionner, y compris dans les scènes historiques (années 1980 à 2000). Le but est de corriger les biais du récit, pas d'écrire une histoire parallèle : ces artistes entrent dans les mêmes stations, chronologies et réseaux de labels que leurs contemporains, sans section à part.
 
+Statut des sources :
+
+| Statut | Définition | Publication | Dans les données |
+|---|---|---|---|
+| Vérifiée directement | Source consultée, passage pertinent identifié | Oui | `references` |
+| Vérifiée indirectement | Information rapportée par une autre source consultée | Avec mention explicite de la source secondaire | `references` (la source consultée) + mention dans le texte ou `verify` |
+| Identifiée, non consultée | Référence repérée, contenu non lu ou inaccessible | Non | `references_pending` (jamais affiché) |
+| Contradictoire | Sources consultées divergentes | Oui, avec mention de l'incertitude | `references` + l'écart dans `verify` |
+
+Une page d'accueil institutionnelle n'est pas une preuve : pour une archive (Peabody, bibliothèque, fonds), garder le titre du document, son URL précise et sa cote si elle existe. Une source prestigieuse non consultée ne vaut pas plus qu'une source inconnue.
+
 Correspondances du métro (`transfers[].kind` dans `data/metro.json`) : `filiation` (un courant contribue directement à l'émergence d'un autre), `circulation` (artistes, labels ou communautés relient deux scènes) ou `parente` (parenté esthétique, sans influence directe démontrée). La filiation concerne l'évolution d'un langage musical ; la circulation concerne la transmission des musiques, des pratiques, des expériences et des cultures entre scènes, et elle peut être directe, déterminante et parfaitement documentée. Une influence n'est pas nécessairement une filiation. Une correspondance sans lien attesté est une `parente`. Seule une filiation dont le sens est établi porte `from` (flèche). Champs facultatifs : `references`, `tracks`, `verify`. Le type s'affiche sur le plan (trait) et dans la bulle.
 
 ## Rubrique « En ce moment » (`data/decouvertes.json`)

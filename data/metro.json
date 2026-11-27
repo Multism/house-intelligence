@@ -1,7 +1,7 @@
 {
   "_meta": {
     "note": "Plan du métro généalogique. Coordonnées dans un viewBox 1200×700, tracés à 0°/45°/90°. Une station renvoie à des disques par genre (genres) et/ou par identifiant (tracks).",
-    "transfers_note": "Chaque correspondance a un type (kind) : filiation (un courant contribue directement à l'émergence d'un autre), circulation (artistes, labels ou communautés relient deux scènes) ou parente (parenté esthétique, sans influence directe démontrée). Une filiation dont le sens est établi porte from (id de la station d'origine) : une flèche l'indique sur le plan. Champs facultatifs : references (URL) et tracks (id de disques qui illustrent la relation). verify : points non confirmés."
+    "transfers_note": "Chaque correspondance a un type (kind) : filiation (un courant contribue directement à l'émergence d'un autre), circulation (artistes, labels ou communautés relient deux scènes) ou parente (parenté esthétique, sans influence directe démontrée). Une filiation dont le sens est établi porte from (id de la station d'origine) : une flèche l'indique sur le plan. Champs facultatifs : references (URL) et tracks (id de disques qui illustrent la relation). verify : points non confirmés. references : sources consultées directement (affichées) ; references_pending : identifiées mais non consultées (jamais affichées)."
   },
   "lines": [
     {
@@ -876,7 +876,7 @@
         "acid-tracks",
         "voodoo-ray"
       ],
-      "references": [
+      "references_pending": [
         "https://www.theguardian.com/music/2017/nov/28/how-we-made-shoom-acid-house-club-danny-rampling-pete-heller",
         "https://ra.co/features/1139",
         "https://ra.co/features/4414",
@@ -891,7 +891,7 @@
       "title_en": "Ibiza ↔ Shoom",
       "text_en": "In 1987 Paul Oakenfold, Danny Rampling and friends discovered Alfredo's eclecticism at Amnesia in Ibiza. Back in London they recreated the balearic spirit at small parties (Shoom, Spectrum) that lit the fuse of the Second Summer of Love.",
       "kind": "circulation",
-      "references": [
+      "references_pending": [
         "https://www.theguardian.com/music/2017/nov/28/how-we-made-shoom-acid-house-club-danny-rampling-pete-heller",
         "https://ra.co/features/4414"
       ]
