@@ -685,3 +685,5 @@ body { padding-bottom: 0; }
 .bc-btn { border-color: #1da0c3; }
 .disc-item a.bc-link { border-color: color-mix(in srgb, #1da0c3 60%, var(--line)); }
 .disc-context { margin: 2px 0 0; font-size: 13.5px; line-height: 1.45; color: var(--ink-3); max-width: 62ch; }
+.disc-hl { margin: -4px 0 12px; font: 12px var(--mono); color: var(--ink-3); }
+.disc-hl b { color: var(--accent); font-weight: 600; }

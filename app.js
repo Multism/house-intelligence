@@ -988,6 +988,7 @@
             h("h2", {}, who ? h("span", { class: "who" }, who + " — ") : null, title, meta ? h("small", {}, ` (${meta})`) : null)),
           _f(e, "context") ? h("p", { class: "disc-context" }, _f(e, "context")) : null,
           _f(e, "note") ? h("p", { class: "disc-note" }, _f(e, "note")) : null,
+          e.highlight ? h("p", { class: "disc-hl" }, h("span", {}, _t("disc.highlight")), " ", h("b", {}, e.highlight)) : null,
           e.bandcamp?.id ? bcSlot(e.bandcamp) : null,
           h("div", { class: "links" },
             st ? h("a", { class: "chip", href: `#metro?st=${e.station}` }, h("span", { class: "dot" }), `${line ? "L" + line.num + " · " : ""}${_f(st, "name")}`) : null,

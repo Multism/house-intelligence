@@ -55,6 +55,7 @@ La personne qui tient le site indique ce qu'elle écoute ou lit, avec quelques m
 - `id` ; `date` (AAAA-MM-JJ, jour de l'ajout) ; `kind` : `nouveau`, `redecouverte`, `lecture`, `film` ou `mix` ;
 - `title` et `artist` (ou `author`), `year`, `label` ;
 - `context` et `context_en` : une ligne de présentation de l'artiste (origine, projet), sous le titre ; source : sa propre biographie ou une source vérifiée ;
+- `highlight` : titre de la piste favorite (affiché « ★ Piste favorite : … ») ;
 - `note` et `note_en` : **la note est la sienne, pas celle de Claude**. On la met en forme sans en inventer le contenu, on la traduit, et on la fait relire si elle a été reformulée ;
 - `bandcamp` : `{ "url", "type": "album" | "track", "id" }`. C'est l'option à privilégier pour les petits artistes : le lien « Soutenir l'artiste » mène à leur page d'achat. L'`id` se lit dans le code du bouton officiel **Share / Embed** de la page (`album=123…` ou `track=123…`) ; sans code d'intégration, mettre seulement `url`. Pas de robot pour récupérer les pages Bandcamp : elles ont une protection anti-robot à respecter. Le lecteur ne se charge qu'au clic ;
 - `youtube` : identifiants vérifiés, ou `track` (id d'une fiche existante, pour une redécouverte du catalogue) ;
