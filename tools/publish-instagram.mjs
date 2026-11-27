@@ -4,6 +4,7 @@
 //   node tools/publish-instagram.mjs --check     → vérifie le jeton et le compte, ne publie rien
 //   node tools/publish-instagram.mjs --dry-run   → montre ce qui serait publié, ne publie rien
 //   node tools/publish-instagram.mjs             → publie le prochain post « approved » de social/posts.json
+//   node tools/publish-instagram.mjs --coup-de-coeur → publie le prochain coup de cœur (data/decouvertes.json), un par jour au plus
 //   node tools/publish-instagram.mjs --refresh   → renouvelle le jeton (60 jours) et l'écrit dans social/.token-refreshed
 //
 // Règles :
@@ -23,7 +24,7 @@
 //
 // Limite de l'API : la musique Instagram ne peut pas être ajoutée à un post publié ainsi.
 
-import { readFileSync, writeFileSync, readdirSync, existsSync, appendFileSync } from "node:fs";
+import { readFileSync, writeFileSync, readdirSync, existsSync, appendFileSync, statSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -39,6 +40,9 @@ const args = process.argv.slice(2);
 const CHECK = args.includes("--check");
 const REFRESH = args.includes("--refresh");
 const DRY = args.includes("--dry-run") || process.env.DRY_RUN === "true";
+// Les coups de cœur (channel "coup-de-coeur") ont leur propre workflow et sortent hors calendrier.
+const COUP = args.includes("--coup-de-coeur");
+const COUP_CHANNEL = "coup-de-coeur";
 
 const summary = (line) => {
   console.log(line);
@@ -65,7 +69,7 @@ async function graph(method, path, params = {}) {
 function nextPost(posts) {
   const today = new Date().toISOString().slice(0, 10);
   return posts
-    .filter((p) => p.status === "approved" && (!p.not_before || p.not_before <= today))
+    .filter((p) => p.status === "approved" && (!p.not_before || p.not_before <= today) && (p.channel === COUP_CHANNEL) === COUP)
     .sort((a, b) => a.n - b.n)[0];
 }
 
@@ -77,6 +81,8 @@ function mediaOf(post) {
   if (!existsSync(dir)) fail(`Images absentes : social/media/${folder}/ (lancer « node tools/instagram.mjs media ${post.n} »).`);
   const images = readdirSync(dir).filter((f) => /^\d+\.jpg$/.test(f)).sort();
   if (!images.length || images.length > 10) fail(`social/media/${folder}/ doit contenir de 1 à 10 images JPEG (trouvé ${images.length}).`);
+  // Garde-fou : une image presque vide (rendu raté, polices absentes) pèse quelques kilo-octets seulement.
+  for (const f of images) if (statSync(join(dir, f)).size < 20000) fail(`Image suspecte (presque vide) : social/media/${folder}/${f}. Rien n'a été publié.`);
   const capFile = join(dir, "caption.txt");
   const caption = existsSync(capFile) ? readFileSync(capFile, "utf8").trim() : "";
   if (!caption) fail(`Légende absente : social/media/${folder}/caption.txt`);
@@ -87,8 +93,14 @@ function mediaOf(post) {
 
 async function assertOnline(urls) {
   for (const u of urls) {
-    const res = await fetch(u, { method: "HEAD" });
-    const type = res.headers.get("content-type") || "";
+    // Juste après un push, raw.githubusercontent.com peut mettre une minute à servir un nouveau fichier.
+    let res, type = "";
+    for (let i = 0; i < 8; i++) {
+      res = await fetch(u, { method: "HEAD" });
+      type = res.headers.get("content-type") || "";
+      if (res.ok && type.includes("jpeg")) break;
+      await sleep(15000);
+    }
     if (!res.ok || !type.includes("jpeg")) fail(`Image pas encore en ligne : ${u} (HTTP ${res.status}, ${type || "sans type"}). Le post est-il bien fusionné sur main ?`);
   }
 }
@@ -119,8 +131,18 @@ if (REFRESH) {
 const queueJson = JSON.parse(readFileSync(QUEUE_FILE, "utf8"));
 const post = nextPost(queueJson.posts);
 
+if (COUP && !CHECK) {
+  // Garde-fou : un coup de cœur par jour au plus, pour qu'une série de modifications ne déclenche pas une rafale.
+  const today = new Date().toISOString().slice(0, 10);
+  const done = queueJson.posts.find((p) => p.channel === COUP_CHANNEL && (p.published_at || "").slice(0, 10) === today);
+  if (done && post) {
+    summary(`Un coup de cœur est déjà parti aujourd'hui (« ${done.slug} ») : « ${post.slug} » attend le passage de demain.`);
+    process.exit(0);
+  }
+}
+
 if (!CHECK && !post) {
-  summary("Aucun post au statut « approved » à publier aujourd'hui. Rien n'a été publié.");
+  summary(COUP ? "Aucun coup de cœur en attente. Rien n'a été publié." : "Aucun post au statut « approved » à publier aujourd'hui. Rien n'a été publié.");
   process.exit(0);
 }
 

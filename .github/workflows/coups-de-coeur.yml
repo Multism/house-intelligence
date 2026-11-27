@@ -1,0 +1,77 @@
+# Coups de cœur Instagram : chaque nouvelle entrée de data/decouvertes.json (rubrique « En ce moment ») devient un post,
+# rendu et publié automatiquement, sans validation, hors du calendrier lundi-mercredi-vendredi.
+# Garde-fous : voir tools/coups-de-coeur.mjs et tools/publish-instagram.mjs (un par jour au plus, note anglaise
+# obligatoire, image ou légende manquante = rien ne part, entrées de moins de 14 jours seulement).
+# Pour tenir une entrée à l'écart d'Instagram : "instagram": false dans l'entrée.
+# Pour tout suspendre : GitHub → Actions → « Coups de cœur » → ⋯ → Disable workflow.
+name: Coups de cœur
+
+on:
+  push:
+    branches: [main]
+    paths: [data/decouvertes.json]
+  schedule:
+    # Passage quotidien vers 13 h (Paris) : publie un coup de cœur resté en attente (limite d'un par jour, échec la veille).
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "publish = préparer et publier ; dry-run = préparer sans publier"
+        type: choice
+        options: [dry-run, publish]
+        default: dry-run
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+jobs:
+  coup-de-coeur:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      COUP_VARIANT: "1"
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Préparer les posts
+        id: sync
+        run: node tools/coups-de-coeur.mjs
+      - name: Installer Playwright
+        if: steps.sync.outputs.render != ''
+        run: |
+          npm install --no-save --no-package-lock playwright@1.63.0
+          npx playwright install --with-deps chromium
+      - name: Rendre les visuels
+        if: steps.sync.outputs.render != ''
+        run: for n in ${{ steps.sync.outputs.render }}; do node tools/instagram.mjs media "$n"; done
+      - name: Enregistrer les posts préparés
+        if: steps.sync.outputs.render != '' && github.event.inputs.mode != 'dry-run'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add social/posts.json social/media
+          git commit -m "Instagram : coup de cœur préparé (posts ${{ steps.sync.outputs.render }})"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+      - name: Publier
+        id: pub
+        if: github.event.inputs.mode != 'dry-run'
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node tools/publish-instagram.mjs --coup-de-coeur
+      - name: Enregistrer le statut publié
+        if: steps.pub.outputs.slug != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add social/posts.json
+          git commit -m "Instagram : coup de cœur « ${{ steps.pub.outputs.slug }} » publié"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done

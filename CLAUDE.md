@@ -62,6 +62,8 @@ La personne qui tient le site indique ce qu'elle écoute ou lit, avec quelques m
 - `station` : id du métro si le disque prolonge une ligne ; `source` : id de la Bibliothèque ; `link` : URL ;
 - `verify` : points non confirmés.
 
+Chaque nouvelle entrée part aussi sur Instagram, **sans validation**, comme post « coup de cœur » (voir `social/README.md`) : `note_en` est donc indispensable, et `"instagram": false` tient une entrée à l'écart.
+
 Les entrées sont triées par date, la plus récente en tête. Le lien « En ce moment » du menu reste masqué tant que la liste est vide.
 
 ## Après toute modification de `data/*.json`
