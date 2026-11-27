@@ -767,10 +767,13 @@
       "decouverte": "soul-of-hex-jet-set",
       "channel": "coup-de-coeur",
       "variant": 1,
-      "status": "approved",
+      "status": "published",
       "not_before": "2026-11-27",
       "source_hash": "028e0a2c5662",
-      "note": "Généré automatiquement depuis data/decouvertes.json ; publié sans validation (accord de Vovotte du 27/11/2026)."
+      "note": "Généré automatiquement depuis data/decouvertes.json ; publié sans validation (accord de Vovotte du 27/11/2026).",
+      "published_at": "2026-11-27T15:00:24.284Z",
+      "ig_media_id": "18365537290223982",
+      "permalink": "https://www.instagram.com/p/DgP866Gj1O2/"
     },
     {
       "n": 34,
