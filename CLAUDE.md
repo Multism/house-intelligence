@@ -20,9 +20,9 @@ En ligne : https://house-intelligence.pages.dev · Dépôt public : https://gith
 | `metro.js` | Rendu SVG du plan de métro (lignes, stations, correspondances, pastilles `badge`) |
 | `i18n.js` | Textes d'interface FR/EN : `I18N.t(clé)` ; contenu : `I18N.f(obj, champ)` lit `champ_en` en anglais |
 | `styles.css`, `pages.css` | Styles de l'application / des pages statiques |
-| `data/tracks.json` | `eras` (era-1, era-2, era-3a 2005–2012, era-3b 2013–2019, era-3c 2020–), `genres`, `scenes` (micro-scènes), `tracks` (115 disques) |
+| `data/tracks.json` | `eras` (era-1, era-2, era-3a 2005–2012, era-3b 2013–2019, era-3c 2020–), `genres`, `scenes` (micro-scènes), `tracks` (125 disques) |
 | `data/metro.json` | 9 lignes, 35 stations, 7 correspondances |
-| `data/digging.json` | Espace « Deep Digging » (`#digging`) : fiches légères (artiste, titre, label, catalogue, dates, sources), métadonnées de labels et d'artistes (vrais noms, alias). Les disques du Booth s'y rangent aussi sous leur label |
+| `data/digging.json` | Espace « Deep Digging » (`#digging`) : fiches légères (artiste, titre, label, catalogue, dates, sources), métadonnées de labels et d'artistes (vrais noms, alias), collaborations et collectifs (`type`, `members`). Les disques du Booth s'y rangent aussi sous leur label |
 | `data/decouvertes.json` | Rubrique « En ce moment » (`#decouverte`) : journal daté des écoutes et lectures du moment |
 | `data/machines.json`, `data/sources.json` | Fiches machines (808, 909, 303, MPC…) et œuvres de référence |
 | `data/bundle.js` | Copie embarquée des JSON pour une ouverture en `file://`. **Généré**, ne pas éditer |

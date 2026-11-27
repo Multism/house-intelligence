@@ -1036,9 +1036,19 @@
     const booth = S.tracks.map((t) => ({ kind: "booth", id: t.id, artist: t.artist, title: t.title, label: t.label, catalog: t.catalog, year: t.year, release_date: t.release_date, scene: t.scene, t }));
     return [...booth, ...S.dig.entries.map((e) => ({ kind: "dig", ...e }))];
   }
+  // Fiches d'artistes : alias individuels (real_name, aliases), collaborations et collectifs (type, members).
   function artistInfo(name) {
     const n = norm(name);
     return S.dig.artists.filter((a) => n.includes(norm(a.name)));
+  }
+  function artistLine(a) {
+    const groups = S.dig.artists.filter((g) => g.members?.some((m) => norm(m) === norm(a.name))).map((g) => g.name);
+    return [
+      a.real_name ? _t("dig.realName", { a: a.name, r: a.real_name }) : a.name,
+      a.members?.length ? _t(a.type === "collective" ? "dig.collective" : "dig.collab", { m: a.members.join(", ") }) : null,
+      a.aliases?.length ? _t("dig.alias", { a: a.aliases.join(", ") }) : null,
+      groups.length ? _t("dig.memberOf", { g: groups.join(", ") }) : null,
+    ].filter(Boolean).join(", ");
   }
   function renderDigging() {
     if (!S.dig) return;
@@ -1049,7 +1059,7 @@
         l, h("span", { class: "n" }, k === "all" ? all.length : all.filter((r) => r.scene === k).length))));
     const q = norm(DIG.q);
     const hay = (r) => norm([r.artist, r.title, r.label, r.catalog, r.year, ...(r.tracks || []),
-      ...artistInfo(r.artist).flatMap((a) => [a.real_name, ...(a.aliases || [])])].join(" "));
+      ...artistInfo(r.artist).flatMap((a) => [a.real_name, ...(a.aliases || []), ...(a.members || []).flatMap((m) => [m, ...artistInfo(m).map((x) => x.real_name)])])].join(" "));
     const rows = all.filter((r) => (DIG.scene === "all" || r.scene === DIG.scene) && (!q || hay(r).includes(q)));
     const groups = new Map();
     for (const r of rows) { const k = r.label.trim(); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(r); }
@@ -1064,7 +1074,7 @@
         h("ol", { class: "dig-rows" }, ...list.map((r) => {
           const pid = r.kind === "booth" ? (r.t.youtube?.length ? r.id : null) : S.disc["g:" + r.id] ? "g:" + r.id : null;
           const sc = r.scene && S.sceneById[r.scene];
-          const who = artistInfo(r.artist).map((a) => [a.real_name ? _t("dig.realName", { a: a.name, r: a.real_name }) : a.name, a.aliases?.length ? _t("dig.alias", { a: a.aliases.join(", ") }) : null].filter(Boolean).join(", "));
+          const who = artistInfo(r.artist).map(artistLine);
           return h("li", { class: "dig-row" + (r.kind === "booth" ? " is-booth" : "") },
             h("span", { class: "dig-year" }, r.year),
             h("div", { class: "dig-main" },
