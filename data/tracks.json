@@ -388,12 +388,12 @@
     },
     {
       "id": "detroit-beatdown",
-      "name": "Detroit beatdown",
-      "name_en": "Detroit beatdown",
+      "name": "Detroit deep house & beatdown",
+      "name_en": "Detroit deep house & beatdown",
       "place": "Detroit",
       "place_en": "Detroit",
-      "desc": "Une house de Detroit plus lente et plus soul que la techno exportée.",
-      "desc_en": "A Detroit house slower and more soulful than exported techno."
+      "desc": "Une house de Detroit plus lente et plus soul que la techno exportée. Le mot « Beatdown » désigne d'abord le collectif de Norm Talley, Mike « Agent X » Clark et Delano Smith, puis une esthétique plus large.",
+      "desc_en": "A Detroit house slower and more soulful than exported techno. \"Beatdown\" first refers to the collective of Norm Talley, Mike \"Agent X\" Clark and Delano Smith, then to a wider aesthetic."
     },
     {
       "id": "spiritual-deep",
@@ -412,6 +412,60 @@
       "place_en": "West London",
       "desc": "Jazz, soul et funk sur des rythmes cassés : une scène noire britannique de la fin des années 1990.",
       "desc_en": "Jazz, soul and funk over broken rhythms: a Black British scene of the late 1990s."
+    },
+    {
+      "id": "rominimal",
+      "name": "Minimale roumaine (rominimal)",
+      "name_en": "Romanian minimal (rominimal)",
+      "place": "Bucarest",
+      "place_en": "Bucharest",
+      "desc": "Autour de Rhadoo, Petre Inspirescu et Raresh (le label [a:rpia:r]) : une house minimale longue, lente et hypnotique, aux mélodies d'inspiration folklorique.",
+      "desc_en": "Around Rhadoo, Petre Inspirescu and Raresh (the [a:rpia:r] label): long, slow, hypnotic minimal house with folk-inspired melodies."
+    },
+    {
+      "id": "us-underground-deep",
+      "name": "Deep house underground de la côte Est",
+      "name_en": "East Coast underground deep house",
+      "place": "Connecticut, New York",
+      "place_en": "Connecticut, New York",
+      "desc": "Des labels indépendants (Underground Quality, Deconstruct, Novel Sound) et une deep house brute, pressée sur vinyle, loin des circuits commerciaux de la fin des années 2000.",
+      "desc_en": "Independent labels (Underground Quality, Deconstruct, Novel Sound) and raw deep house pressed on vinyl, far from the commercial circuits of the late 2000s."
+    },
+    {
+      "id": "workshop",
+      "name": "House hypnotique allemande (Workshop)",
+      "name_en": "German hypnotic house (Workshop)",
+      "place": "Berlin, Heidelberg",
+      "place_en": "Berlin, Heidelberg",
+      "desc": "Le label berlinois Workshop : des maxis sans titres ni crédits détaillés, une house dépouillée, sale et répétitive.",
+      "desc_en": "The Berlin label Workshop: 12\"s without titles or detailed credits, stripped-down, dirty, repetitive house."
+    },
+    {
+      "id": "japon-mule",
+      "name": "Deep house japonaise (Mule Musiq)",
+      "name_en": "Japanese deep house (Mule Musiq)",
+      "place": "Japon",
+      "place_en": "Japan",
+      "desc": "Une deep house japonaise qui s'ouvre au jazz, aux instruments acoustiques et aux musiques africaines et brésiliennes, publiée notamment par Mule Musiq.",
+      "desc_en": "Japanese deep house open to jazz, acoustic instruments and African and Brazilian music, released notably by Mule Musiq."
+    },
+    {
+      "id": "dial",
+      "name": "Minimale mélodique (Dial)",
+      "name_en": "Melodic minimal (Dial)",
+      "place": "Allemagne",
+      "place_en": "Germany",
+      "desc": "Le label Dial et ses proches : une house et une techno minimales, mélodiques et mélancoliques.",
+      "desc_en": "The Dial label and its circle: minimal, melodic, melancholy house and techno."
+    },
+    {
+      "id": "uk-funky",
+      "name": "UK funky",
+      "name_en": "UK funky",
+      "place": "Londres",
+      "place_en": "London",
+      "desc": "La house londonienne de la fin des années 2000, entre percussions tribales, garage et basses du dubstep.",
+      "desc_en": "London house of the late 2000s, between tribal percussion, garage and dubstep bass."
     }
   ],
   "tracks": [
@@ -7034,8 +7088,8 @@
       ],
       "construction": "Huit morceaux instrumentaux pensés pour les danseurs et les DJs : des tracks de Chicago, de l'acid (« Smokin Acid ») au plus sombre (« Evil Ways », « Devil Music »).",
       "construction_en": "Eight instrumental tracks built for dancers and DJs: Chicago tracks, from acid (\"Smokin Acid\") to darker cuts (\"Evil Ways\", \"Devil Music\").",
-      "producer_origins": "Boo Williams produit de la house à Chicago depuis 1994. Il forme avec Glenn Underground le noyau de Strictly Jaz Unit. L'album sort en 1996 ; il est réédité en 2011 sur Another Day.",
-      "producer_origins_en": "Boo Williams has made house in Chicago since 1994. With Glenn Underground he formed the core of Strictly Jaz Unit. The album came out in 1996 and was reissued in 2011 on Another Day.",
+      "producer_origins": "Boo Williams produit de la house à Chicago depuis 1994. Il forme avec Glenn Underground le noyau de Strictly Jaz Unit. L'album sort en 1996 sur Relief Records, sous-label de Cajual ; il est réédité en 2011 sur Another Day.",
+      "producer_origins_en": "Boo Williams has made house in Chicago since 1994. With Glenn Underground he formed the core of Strictly Jaz Unit. The album came out in 1996 on Relief Records, a Cajual sub-label, and was reissued in 2011 on Another Day.",
       "club_sociology": "Le disque appartient à la deuxième vague de Chicago, celle qui continue la house locale quand les projecteurs sont passés au Royaume-Uni, et que l'Europe découvre surtout par les imports.",
       "club_sociology_en": "The record belongs to Chicago's second wave, which kept local house going once the spotlight had moved to the UK, and which Europe discovered mostly through imports.",
       "queer_ballroom_axis": "Pas d'axe queer explicite.",
@@ -7058,14 +7112,16 @@
       "references": [
         "https://theshfl.com/album/Home-Town-Chicago",
         "https://thequietus.com/quietus-reviews/boo-williams-home-town-chicago-review/",
-        "https://daily.bandcamp.com/lifetime-achievement/glenn-underground-lifetime-achievement"
+        "https://daily.bandcamp.com/lifetime-achievement/glenn-underground-lifetime-achievement",
+        "https://musicforecast.org/en/products/boo-williams-home-town-chicago-lp",
+        "https://www.vinylexchange.co.uk/products/boo-williams-home-town-chicago-lp"
       ],
       "verify": [
-        "Label d'origine : Relief ou Cajual (les deux apparaissent sur la même fiche)",
         "Rang dans la discographie (premier ou deuxième album)",
         "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
       ],
-      "verified": false
+      "verified": false,
+      "catalog": "RR 766"
     },
     {
       "id": "atmosfear",
@@ -7242,10 +7298,11 @@
         "https://en.wikipedia.org/wiki/Terry_Francis"
       ],
       "verify": [
-        "Label et année d'origine : Pagan (Resident Advisor) ou Rob's Records en 1996 (un disquaire)",
-        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original",
+        "Numéro PAGAN 014 relevé sur des fiches de disquaires (titres de pages), pas sur la pochette"
       ],
-      "verified": false
+      "verified": false,
+      "catalog": "PAGAN 014"
     },
     {
       "id": "keep-doing-that",
@@ -7412,13 +7469,17 @@
       ],
       "references": [
         "https://en.wikipedia.org/wiki/Isolee",
-        "https://ralph-lawson.squarespace.com/ril/2018/12/11/ril075-isole-beau-mot-plage"
+        "https://ralph-lawson.squarespace.com/ril/2018/12/11/ril075-isole-beau-mot-plage",
+        "https://groove.de/2023/07/19/track-by-track-isolee-beau-mot-plage/",
+        "https://www.discrepancy-records.com.au/isol-e-beau-mot-plage-vinyl-WZ-2359444291"
       ],
       "verify": [
-        "Label et catalogue du pressage de 1998 (Playhouse selon le contexte, non confirmé par une fiche)",
-        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original",
+        "Numéro PLAY 22 et jour de sortie (1er septembre 1998) : à confirmer sur une fiche du pressage ; Playhouse, Allemagne, septembre 1998 sont confirmés. La licence Classic vient ensuite"
       ],
-      "verified": false
+      "verified": false,
+      "catalog": "PLAY 22",
+      "release_date": "1998-09"
     },
     {
       "id": "stockholm",
@@ -7595,6 +7656,635 @@
       ],
       "verify": [
         "Titre de l'EP d'origine (« Overcome » ?) et numéro de catalogue Trelik",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "hexigon-ep",
+      "title": "Hexigon EP",
+      "artist": "DJ Jus-Ed",
+      "year": 2007,
+      "release_date": "2007-05",
+      "label": "Underground Quality",
+      "catalog": "UQ-013",
+      "city": "Bridgeport",
+      "city_en": "Bridgeport",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "deep",
+      "era": "era-3a",
+      "scene": "us-underground-deep",
+      "bpm": 122,
+      "camelot_key": "8A",
+      "energy": 5,
+      "gear": [
+        "Boîtes à rythmes",
+        "Synthés"
+      ],
+      "gear_en": [
+        "Drum machines",
+        "Synths"
+      ],
+      "construction": "Un double maxi de six morceaux (« Come On & Dance », « Sunday Morning Blue », « No Mufukin High Hat », « Jazz House », « Oh My », « Warm ») : une deep house atmosphérique qui lorgne vers la techno chaude de Detroit.",
+      "construction_en": "A double 12\" with six tracks (\"Come On & Dance\", \"Sunday Morning Blue\", \"No Mufukin High Hat\", \"Jazz House\", \"Oh My\", \"Warm\"): atmospheric deep house leaning towards warm Detroit techno.",
+      "producer_origins": "DJ Jus-Ed (Edward McKeithen) vit à Bridgeport, dans le Connecticut. Il mixe depuis l'âge de dix ans, mais ne produit que depuis 2005. Il publie l'essentiel de sa musique sur son propre label, Underground Quality.",
+      "producer_origins_en": "DJ Jus-Ed (Edward McKeithen) lives in Bridgeport, Connecticut. He has DJed since the age of ten but only started producing in 2005. He releases most of his music on his own label, Underground Quality.",
+      "club_sociology": "Underground Quality est un label de producteur : Jus-Ed y publie sa musique et celle de ses proches, puis une collaboration avec Move D (« Brother's »). La deep house américaine se refait ainsi un réseau, en dehors des grandes maisons.",
+      "club_sociology_en": "Underground Quality is a producer-run label: Jus-Ed releases his own music and that of his circle there, and later a collaboration with Move D (\"Brother's\"). American deep house thus rebuilt a network of its own, outside the big labels.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Entretien avec Jus-Ed (Juno, 2010).",
+        "note_en": "Interview with Jus-Ed (Juno, 2010)."
+      },
+      "why_this_record": "La deep house américaine renaît hors des grandes villes, sur un label fait maison.",
+      "why_this_record_en": "American deep house reborn outside the big cities, on a homemade label.",
+      "tags": [
+        "us",
+        "deep",
+        "diy"
+      ],
+      "youtube": [
+        "ug1dC5vKNVk"
+      ],
+      "references": [
+        "https://www.horizonsmusic.co.uk/products/dj-jus-ed-hexigon-ep",
+        "https://clone.nl/all/artist/DJ+Jus-Ed",
+        "https://www.juno.co.uk/reviews/2010/11/03/interview-jus-ed-2/",
+        "https://ra.co/news/30289"
+      ],
+      "verify": [
+        "Jour de sortie : 9 mai 2007 (Horizons) ou 23 mai 2007 (date de mise en vente chez Clone)",
+        "La vidéo « Jazz House » est un envoi d'amateur : vérifier qu'il s'agit bien de la version du maxi",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "tips",
+      "title": "Tips",
+      "artist": "Petre Inspirescu",
+      "year": 2007,
+      "release_date": "2007-09",
+      "label": "Cadenza",
+      "catalog": "CADENZA 20",
+      "country": "Roumanie",
+      "country_en": "Romania",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "city": "Bucarest",
+      "city_en": "Bucharest",
+      "genre": "microhouse",
+      "era": "era-3a",
+      "scene": "rominimal",
+      "bpm": 123,
+      "camelot_key": "4A",
+      "energy": 5,
+      "gear": [
+        "DAW",
+        "Percussions"
+      ],
+      "gear_en": [
+        "DAW",
+        "Percussion"
+      ],
+      "construction": "Un double maxi de quatre morceaux (« Mostra », « Rackadoom », « Galantar », « La Crème Bonjour ») : une house lente et hypnotique, aux percussions découpées et aux mélodies qui évoquent la cithare ou le clavecin.",
+      "construction_en": "A double 12\" of four tracks (\"Mostra\", \"Rackadoom\", \"Galantar\", \"La Crème Bonjour\"): slow, hypnotic house with chopped percussion and melodies reminiscent of the zither or harpsichord.",
+      "producer_origins": "Petre Inspirescu vient de Bucarest. Avec Rhadoo et Raresh, il forme le trio qui anime le label [a:rpia:r]. « Tips » paraît sur le label Cadenza.",
+      "producer_origins_en": "Petre Inspirescu is from Bucharest. With Rhadoo and Raresh he forms the trio behind the [a:rpia:r] label. \"Tips\" came out on the Cadenza label.",
+      "club_sociology": "Fin des années 2000, Bucarest devient l'un des centres de la minimale européenne : des sets très longs, des morceaux qui dépassent souvent les dix minutes, et une scène portée par quelques DJ.",
+      "club_sociology_en": "In the late 2000s Bucharest became one of the centres of European minimal: very long sets, tracks that often run past ten minutes, and a scene carried by a few DJs.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (septembre 2007).",
+        "note_en": "Resident Advisor review (September 2007)."
+      },
+      "why_this_record": "La minimale roumaine sort de Bucarest.",
+      "why_this_record_en": "Romanian minimal leaves Bucharest.",
+      "tags": [
+        "europe",
+        "machine"
+      ],
+      "youtube": [
+        "eNv1XKUI210",
+        "S2AAGtab960"
+      ],
+      "references": [
+        "https://pt.ra.co/reviews/4781",
+        "https://www.forcedexposure.com/Catalog/petre-inspirescu-tips-2x12-/CADENZA.020EP.html"
+      ],
+      "verify": [
+        "Date de sortie : septembre 2007 (Resident Advisor) ou 29 octobre 2007 (Forced Exposure)",
+        "Orthographe du deuxième titre : « Rackadoom » (RA) ou « Racakadoom » (Forced Exposure)",
+        "Cadenza, label de Luciano : à confirmer par une source",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "this-bliss",
+      "title": "This Bliss",
+      "artist": "Pantha du Prince",
+      "year": 2007,
+      "release_date": "2007-01-29",
+      "label": "Dial",
+      "city": "Hambourg",
+      "city_en": "Hamburg",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "microhouse",
+      "era": "era-3a",
+      "scene": "dial",
+      "bpm": 124,
+      "camelot_key": "6A",
+      "energy": 5,
+      "gear": [
+        "DAW",
+        "Synthés"
+      ],
+      "gear_en": [
+        "DAW",
+        "Synths"
+      ],
+      "construction": "Deuxième album, dix morceaux et soixante-quatorze minutes : une techno minimale mélodique, avec « Saturn Strobe » (crédité au compositeur Howard Skempton), « Walden 2 » et « Urlichten », déjà sortis en maxi.",
+      "construction_en": "Second album, ten tracks and seventy-four minutes: melodic minimal techno, with \"Saturn Strobe\" (credited to the composer Howard Skempton), \"Walden 2\" and \"Urlichten\", already released on a 12\".",
+      "producer_origins": "Pantha du Prince est Hendrik Weber, né en 1975 à Bad Wildungen, en Allemagne. Producteur et artiste, il part de la house et de la minimale pour aller vers ce qu'il appelle une « sonic house », avec des instruments acoustiques et des enregistrements de terrain.",
+      "producer_origins_en": "Pantha du Prince is Hendrik Weber, born in 1975 in Bad Wildungen, Germany. A producer and artist, he moved from house and minimal towards what he calls \"sonic house\", with acoustic instruments and field recordings.",
+      "club_sociology": "L'album touche un public plus large que celui des clubs. Resident Advisor lui donne la note maximale, puis le classe parmi les meilleurs albums de la décennie.",
+      "club_sociology_en": "The album reached an audience beyond the clubs. Resident Advisor gave it full marks, then ranked it among the best albums of the decade.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Article Wikipedia de l'album (sources critiques).",
+        "note_en": "Wikipedia article on the album (critical sources)."
+      },
+      "why_this_record": "La minimale allemande devient mélodique, et presque contemplative.",
+      "why_this_record_en": "German minimal turns melodic, almost contemplative.",
+      "tags": [
+        "europe",
+        "software"
+      ],
+      "youtube": [
+        "NYY4AGPJJBo",
+        "6qpC4MlrJpU"
+      ],
+      "references": [
+        "https://en.wikipedia.org/wiki/This_Bliss",
+        "https://en.wikipedia.org/wiki/Pantha_du_Prince",
+        "https://de.ra.co/reviews/4801"
+      ],
+      "verify": [
+        "Ville : Hambourg (siège de Dial), non confirmé par une source lue",
+        "Numéro de catalogue Dial",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "all-these-things",
+      "title": "All These Things",
+      "artist": "Kuniyuki Takahashi",
+      "year": 2007,
+      "label": "Mule Musiq",
+      "city": "Sapporo",
+      "city_en": "Sapporo",
+      "country": "Japon",
+      "country_en": "Japan",
+      "continent": "Asie",
+      "continent_en": "Asia",
+      "genre": "deep",
+      "era": "era-3a",
+      "scene": "japon-mule",
+      "bpm": 120,
+      "camelot_key": "10A",
+      "energy": 4,
+      "gear": [
+        "Instruments live",
+        "Piano",
+        "Percussions"
+      ],
+      "gear_en": [
+        "Live instruments",
+        "Piano",
+        "Percussion"
+      ],
+      "construction": "Un long album (environ soixante-dix-huit minutes) où la house n'arrive que par moments : cordes, harpe, contrebasse, piano et percussions, la voix et le djembé d'Omar Guaindefall sur « Dear African Sky », Josée Hurlock sur « You Get Me » et le morceau-titre, Henrik Schwarz sur « The Session ».",
+      "construction_en": "A long album (about seventy-eight minutes) where house appears only at moments: strings, harp, double bass, piano and percussion, Omar Guaindefall's voice and djembe on \"Dear African Sky\", Josée Hurlock on \"You Get Me\" and the title track, Henrik Schwarz on \"The Session\".",
+      "producer_origins": "Kuniyuki Takahashi est un producteur japonais, proche de longue date du label Mule Musiq. « All These Things » est son deuxième album, d'abord publié en CD.",
+      "producer_origins_en": "Kuniyuki Takahashi is a Japanese producer and a longtime Mule Musiq affiliate. \"All These Things\" is his second album, first released on CD.",
+      "club_sociology": "Un disque d'after, dit la critique : la deep house japonaise s'y rapproche du jazz et des musiques africaines et brésiliennes, et Alex From Tokyo y lit un poème (« Flying Music »).",
+      "club_sociology_en": "An after-hours record, as critics put it: Japanese deep house moves towards jazz and African and Brazilian music, and Alex From Tokyo reads a poem on it (\"Flying Music\").",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Critiques de The Skinny et de Textura (avril 2008).",
+        "note_en": "Reviews in The Skinny and Textura (April 2008)."
+      },
+      "why_this_record": "La deep house japonaise, ouverte au jazz et à l'Afrique.",
+      "why_this_record_en": "Japanese deep house, open to jazz and Africa.",
+      "tags": [
+        "deep",
+        "jazz",
+        "diaspora"
+      ],
+      "youtube": [
+        "RDP1Pnn2r_w",
+        "VMMLOsnioAQ"
+      ],
+      "references": [
+        "https://www.forcedexposure.com/Catalog/kuniyuki-all-these-things-2lp/MUSIQ.248LP.html",
+        "https://www.theskinny.co.uk/clubs/reviews/kuniyuki-takahashi-all-these-things",
+        "https://www.textura.org/archives/t/takahashi.htm",
+        "https://ra.co/news/39070"
+      ],
+      "verify": [
+        "Année : CD de 2007 (Forced Exposure) ; sortie britannique annoncée au 31 mars 2008 (The Skinny)",
+        "Ville : Sapporo, non confirmé par une source lue",
+        "Premier vinyle : MUSIQ 248LP (Forced Exposure indique 2019 puis un repressage en 2023)",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "workshop-02",
+      "title": "Workshop 02",
+      "artist": "Move D feat. DJ Laté",
+      "year": 2007,
+      "label": "Workshop",
+      "catalog": "Workshop 02",
+      "city": "Heidelberg",
+      "city_en": "Heidelberg",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "deep",
+      "era": "era-3a",
+      "scene": "workshop",
+      "bpm": 122,
+      "camelot_key": "5A",
+      "energy": 5,
+      "gear": [
+        "Synthés",
+        "Boîtes à rythmes"
+      ],
+      "gear_en": [
+        "Synths",
+        "Drum machines"
+      ],
+      "construction": "Trois morceaux sans titre (A, B1, B2), comme tous les premiers maxis du label : une deep house dépouillée, faite pour durer.",
+      "construction_en": "Three untitled tracks (A, B1, B2), like all the label's early 12\"s: stripped-down deep house built to last.",
+      "producer_origins": "Move D est le producteur de Heidelberg David Moufang, qui publie aussi sur son label Source Records. Le disque est signé avec DJ Laté.",
+      "producer_origins_en": "Move D is the Heidelberg producer David Moufang, who also releases music on his label Source Records. The record is credited with DJ Laté.",
+      "club_sociology": "Workshop est un label berlinois aux maxis sans titres de morceaux : on les cherche par leur numéro, chez les disquaires spécialisés et dans les sets des DJ.",
+      "club_sociology_en": "Workshop is a Berlin label whose 12\"s have untitled tracks: people look for them by number, in specialist record shops and in DJ sets.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Réédition numérique de Move D (2025), mention de la sortie de 2007.",
+        "note_en": "Move D's digital reissue (2025), which notes the 2007 release."
+      },
+      "why_this_record": "Un maxi sans titres qui lance l'esthétique Workshop.",
+      "why_this_record_en": "An untitled 12\" that launched the Workshop aesthetic.",
+      "tags": [
+        "europe",
+        "deep",
+        "machine"
+      ],
+      "youtube": [
+        "kDFogAsbPpA",
+        "ncWvTY0USRQ"
+      ],
+      "references": [
+        "https://move-d.bandcamp.com/album/workshop-02",
+        "https://www.turntablelab.com/products/move-d-feat-dj-late-workshop-02-vinyl-12",
+        "https://www.rushhour.nl/record/vinyl/workshop-08"
+      ],
+      "verify": [
+        "Identité de DJ Laté",
+        "Les vidéos « Untitled B1 / B2 » de la chaîne officielle correspondent à la réédition de Workshop 02 : à confirmer",
+        "Un morceau circule sous le titre « Theo » : à rattacher à une face",
+        "Fondateurs et date de création de Workshop",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "dor-mit-oru",
+      "title": "Dor Mit Oru",
+      "artist": "Rhadoo",
+      "year": 2008,
+      "release_date": "2008-04",
+      "label": "Cadenza",
+      "catalog": "CADENZA 22",
+      "country": "Roumanie",
+      "country_en": "Romania",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "city": "Bucarest",
+      "city_en": "Bucharest",
+      "genre": "microhouse",
+      "era": "era-3a",
+      "scene": "rominimal",
+      "bpm": 122,
+      "camelot_key": "2A",
+      "energy": 5,
+      "gear": [
+        "DAW",
+        "Percussions"
+      ],
+      "gear_en": [
+        "DAW",
+        "Percussion"
+      ],
+      "construction": "Premier maxi de Rhadoo pour Cadenza : quatre morceaux longs (de neuf à plus de treize minutes), « Bau », « Baisbe Alt Bass », « Elan » et « Slagare ». Une house austère, aux percussions traitées et aux motifs d'inspiration tribale et folklorique.",
+      "construction_en": "Rhadoo's first 12\" for Cadenza: four long tracks (from nine to over thirteen minutes), \"Bau\", \"Baisbe Alt Bass\", \"Elan\" and \"Slagare\". Austere house with treated percussion and tribal, folk-inspired patterns.",
+      "producer_origins": "Rhadoo est DJ et producteur à Bucarest, l'un des trois fondateurs de [a:rpia:r] avec Petre Inspirescu et Raresh.",
+      "producer_origins_en": "Rhadoo is a Bucharest DJ and producer, one of the three founders of [a:rpia:r] with Petre Inspirescu and Raresh.",
+      "club_sociology": "Les morceaux sont pensés pour des sets de plusieurs heures, où la tension monte lentement. C'est la marque de la scène roumaine, que la critique de l'époque commence à désigner comme une scène à part.",
+      "club_sociology_en": "The tracks are built for sets lasting several hours, where tension rises slowly. That is the hallmark of the Romanian scene, which critics at the time began to treat as a scene of its own.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (mai 2008).",
+        "note_en": "Resident Advisor review (May 2008)."
+      },
+      "why_this_record": "Le temps long de la minimale roumaine.",
+      "why_this_record_en": "The long time of Romanian minimal.",
+      "tags": [
+        "europe",
+        "tribal"
+      ],
+      "youtube": [
+        "kB4xjnAsCPg",
+        "YOOrXt_1Mig"
+      ],
+      "references": [
+        "https://de.ra.co/reviews/5248",
+        "https://forcedexposure.com/Catalog/rhadoo-dor-mit-oru-2x12-/CADENZA.022EP.html",
+        "https://www.traxsource.com/title/101347/dor-mit-oru"
+      ],
+      "verify": [
+        "Date de sortie : mars 2008 (liste de Vovotte), avril 2008 (Resident Advisor) ou 5 août 2008 (Forced Exposure)",
+        "Rôle de Rhadoo dans la fondation de [a:rpia:r] : à confirmer par une source",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "invisible-bitch-slap",
+      "title": "Invisible Bitch Slap",
+      "artist": "Levon Vincent",
+      "year": 2008,
+      "release_date": "2008-11",
+      "label": "Deconstruct Music",
+      "catalog": "DEC-01",
+      "city": "New York",
+      "city_en": "New York",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "deep",
+      "era": "era-3a",
+      "scene": "us-underground-deep",
+      "bpm": 124,
+      "camelot_key": "11A",
+      "energy": 6,
+      "gear": [
+        "Synthés",
+        "Boîtes à rythmes"
+      ],
+      "gear_en": [
+        "Synths",
+        "Drum machines"
+      ],
+      "construction": "Un maxi de deux morceaux, « Invisible Bitch Slap » et « Woman Is The Devil » : une house brute, entre deep house et techno.",
+      "construction_en": "A two-track 12\", \"Invisible Bitch Slap\" and \"Woman Is The Devil\": raw house between deep house and techno.",
+      "producer_origins": "Levon Vincent est un producteur américain. Ce disque inaugure le catalogue de Deconstruct Music (DEC-01) ; suivent en 2009 « Six Figures » sur Novel Sound et « Solemn Days » sur Deconstruct.",
+      "producer_origins_en": "Levon Vincent is an American producer. This record opened the Deconstruct Music catalogue (DEC-01); it was followed in 2009 by \"Six Figures\" on Novel Sound and \"Solemn Days\" on Deconstruct.",
+      "club_sociology": "Avec Novel Sound et Deconstruct, une poignée de producteurs new-yorkais remet une deep house sombre et minimaliste sur vinyle, au moment où la minimale européenne domine les clubs.",
+      "club_sociology_en": "With Novel Sound and Deconstruct, a handful of New York producers put dark, minimalist deep house back on vinyl, just as European minimal dominated the clubs.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Critiques de Resident Advisor (2009) et fiche de disquaire.",
+        "note_en": "Resident Advisor reviews (2009) and a record shop listing."
+      },
+      "why_this_record": "New York revient à la deep house brute, sur des labels de producteurs.",
+      "why_this_record_en": "New York returns to raw deep house, on producer-run labels.",
+      "tags": [
+        "us",
+        "deep",
+        "diy"
+      ],
+      "youtube": [
+        "qQ6LoMav9R0",
+        "lwPkurru8rk"
+      ],
+      "references": [
+        "https://soundshelter.net/vinyl/levon-vincent-invisible-bitch-slap",
+        "https://fr.ra.co/reviews/5861?comments=1",
+        "https://pt.ra.co/reviews/6181"
+      ],
+      "verify": [
+        "Orthographe du titre : « Invisible Bitch Slap » (disquaire) ou « Invisible Bitchslap » (usage courant)",
+        "Ville en 2008 : New York, mais la critique RA de 2009 le dit installé dans l'Indiana",
+        "Jour de sortie (24 novembre 2008 selon un disquaire)",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "midtown-120-blues",
+      "title": "Midtown 120 Blues",
+      "artist": "DJ Sprinkles",
+      "year": 2008,
+      "release_date": "2008-08-09",
+      "label": "Mule Musiq",
+      "city": "New York",
+      "city_en": "New York",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "deep",
+      "era": "era-3a",
+      "bpm": 120,
+      "camelot_key": "9A",
+      "energy": 4,
+      "gear": [
+        "Sampler",
+        "Voix"
+      ],
+      "gear_en": [
+        "Sampler",
+        "Vocals"
+      ],
+      "construction": "Dix morceaux, près de quatre-vingts minutes de deep house lente, ouvertes par une voix off : « House is not universal. House is hyper-specific. » Les titres en disent le programme : « Ball'r (Madonna-Free Zone) », « House Music Is Controllable Desire You Can Own ».",
+      "construction_en": "Ten tracks, nearly eighty minutes of slow deep house, opened by a voiceover: \"House is not universal. House is hyper-specific.\" The titles spell out the programme: \"Ball'r (Madonna-Free Zone)\", \"House Music Is Controllable Desire You Can Own\".",
+      "producer_origins": "DJ Sprinkles est l'un des noms de Terre Thaemlitz. Originaire du Minnesota, Terre Thaemlitz s'installe à New York en 1986 pour étudier à la Cooper Union, puis au Japon (Kawasaki) en 2001. C'est le premier album sous ce nom ; il est réédité en 2014 par Comatonse, le label de Thaemlitz.",
+      "producer_origins_en": "DJ Sprinkles is one of Terre Thaemlitz's names. Born in Minnesota, Terre Thaemlitz moved to New York in 1986 to study at the Cooper Union, then to Japan (Kawasaki) in 2001. It is the first album under this name; it was reissued in 2014 by Thaemlitz's label Comatonse.",
+      "club_sociology": "Le disque est une critique de la deep house devenue marchandise. Il rappelle d'où elle vient : les crises sexuelles et de genre, le travail du sexe trans, les hormones du marché noir, le sida, ACT UP, Tompkins Square Park, les agressions homophobes. Resident Advisor en fait son album numéro un de 2009.",
+      "club_sociology_en": "The record is a critique of deep house turned commodity. It recalls where it came from: sexual and gender crises, trans sex work, black-market hormones, HIV, ACT UP, Tompkins Square Park, queer-bashing. Resident Advisor named it its number one album of 2009.",
+      "queer_ballroom_axis": "Central : « Ball'r (Madonna-Free Zone) » se termine par un texte qui reproche à « Vogue » de Madonna d'avoir effacé les origines queer, noires et latinos du voguing et des balls.",
+      "queer_ballroom_axis_en": "Central: \"Ball'r (Madonna-Free Zone)\" ends with a text criticising Madonna's \"Vogue\" for erasing the queer, Black and Latino origins of voguing and the balls.",
+      "archive_ref": {
+        "note": "Article Wikipedia de l'album ; profil de Thaemlitz (Textura, 2003).",
+        "note_en": "Wikipedia article on the album; Thaemlitz profile (Textura, 2003)."
+      },
+      "why_this_record": "La deep house racontée par ceux qu'elle a oubliés.",
+      "why_this_record_en": "Deep house told by the people it forgot.",
+      "tags": [
+        "us",
+        "deep",
+        "queer",
+        "ballroom",
+        "politics"
+      ],
+      "youtube": [
+        "C29-Hdw8K8k"
+      ],
+      "references": [
+        "https://en.wikipedia.org/wiki/Midtown_120_Blues",
+        "https://www.textura.org/archives/articles/thaemlitzprofile.htm",
+        "https://crackmagazine.net/article/long-reads/dj-sprinkles-midtown-120-blues/"
+      ],
+      "verify": [
+        "Ville du disque : New York est le sujet de l'album, mais il a été produit alors que Thaemlitz vivait au Japon",
+        "Classement RA « album de 2009 » pour un disque sorti en août 2008 : vérifier l'année du classement",
+        "Numéro de catalogue Mule Musiq",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "workshop-08",
+      "title": "Workshop 08",
+      "artist": "Kassem Mosse",
+      "year": 2009,
+      "release_date": "2009-05",
+      "label": "Workshop",
+      "catalog": "Workshop 08",
+      "city": "Leipzig",
+      "city_en": "Leipzig",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "deep",
+      "era": "era-3a",
+      "scene": "workshop",
+      "bpm": 120,
+      "camelot_key": "7A",
+      "energy": 5,
+      "gear": [
+        "Boîtes à rythmes",
+        "Synthés"
+      ],
+      "gear_en": [
+        "Drum machines",
+        "Synths"
+      ],
+      "construction": "Trois morceaux sans titre (A, B1, B2), bruts et dépouillés : une house voilée, au son volontairement sale.",
+      "construction_en": "Three untitled tracks (A, B1, B2), raw and stripped down: veiled house with a deliberately dirty sound.",
+      "producer_origins": "Kassem Mosse est Gunnar Wendel, producteur allemand de house et de techno à la marge. Workshop 08 est son premier disque sur le label, avant Workshop 12 (2011).",
+      "producer_origins_en": "Kassem Mosse is Gunnar Wendel, a German producer of leftfield house and techno. Workshop 08 was his first record on the label, before Workshop 12 (2011).",
+      "club_sociology": "Avec Move D et Lowtec, Kassem Mosse devient l'un des visages de Workshop, label qui sert de plateforme à une deep house ésotérique.",
+      "club_sociology_en": "With Move D and Lowtec, Kassem Mosse became one of the faces of Workshop, a label that served as a platform for an esoteric take on deep house.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Fiche Rush Hour ; critique RA de Workshop 12 (2011).",
+        "note_en": "Rush Hour listing; RA review of Workshop 12 (2011)."
+      },
+      "why_this_record": "La house la plus brute, sans titre ni nom de morceau.",
+      "why_this_record_en": "House at its rawest, with no titles and no track names.",
+      "tags": [
+        "europe",
+        "deep",
+        "machine"
+      ],
+      "youtube": [
+        "K-0A-EMFXow",
+        "rJ6xbAPYd3o"
+      ],
+      "references": [
+        "https://www.rushhour.nl/record/vinyl/workshop-08",
+        "https://ra.co/reviews/8978",
+        "https://ra.co/news/41503"
+      ],
+      "verify": [
+        "Ville : Leipzig, non confirmé comme lieu de résidence",
+        "Sortie : semaine 20 de 2009 selon Rush Hour",
+        "« Premier disque sur Workshop » : déduit de la critique RA de 2011 (« ses deux sorties sur Workshop »)",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "narst-love-dub",
+      "title": "Narst / Love Dub",
+      "artist": "Cooly G",
+      "year": 2009,
+      "release_date": "2009-05",
+      "label": "Hyperdub",
+      "catalog": "HDB020",
+      "city": "Londres",
+      "city_en": "London",
+      "country": "Royaume-Uni",
+      "country_en": "United Kingdom",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "uk-bass",
+      "era": "era-3a",
+      "scene": "uk-funky",
+      "bpm": 128,
+      "camelot_key": "3A",
+      "energy": 6,
+      "gear": [
+        "DAW",
+        "Percussions"
+      ],
+      "gear_en": [
+        "DAW",
+        "Percussion"
+      ],
+      "construction": "Premier maxi de Cooly G sur Hyperdub : « Narst », faussement agressif, et « Love Dub », atmosphérique et mesuré, suivi d'un « Refix » au kick plus appuyé. Des roulements de congas tribaux sous des voix de crooner.",
+      "construction_en": "Cooly G's first 12\" on Hyperdub: \"Narst\", mock-aggressive, and \"Love Dub\", atmospheric and measured, followed by a \"Refix\" with a heavier kick. Tribal conga rolls under crooner vocals.",
+      "producer_origins": "Cooly G vit à Brixton. En 2009, elle est à la fois footballeuse semi-professionnelle, DJ et productrice de la scène UK funky. Elle vient de la house, qu'elle mélange à la house britannique.",
+      "producer_origins_en": "Cooly G lives in Brixton. In 2009 she was a semi-professional footballer as well as a DJ and producer on the UK funky scene. She came from house, which she mixes with UK house.",
+      "club_sociology": "Hyperdub, le label de Kode9, la signe alors que la presse la présente comme « la première dame » du label : une femme productrice dans une scène bass très masculine.",
+      "club_sociology_en": "Hyperdub, Kode9's label, signed her while the press called her the label's \"first lady\": a woman producer in a very male bass scene.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (mai 2009) ; portrait de Dazed (2009).",
+        "note_en": "Resident Advisor review (May 2009); Dazed profile (2009)."
+      },
+      "why_this_record": "La house londonienne entre UK funky et dubstep.",
+      "why_this_record_en": "London house between UK funky and dubstep.",
+      "tags": [
+        "uk",
+        "black-british",
+        "tribal"
+      ],
+      "youtube": [
+        "mm-ASfM7Dd8",
+        "ozuFTLqtils"
+      ],
+      "references": [
+        "https://ra.co/reviews/6166",
+        "https://www.dazeddigital.com/music/article/4435/1/cooly-g-in-the-scene"
+      ],
+      "verify": [
+        "Origines familiales et lieu de naissance de Cooly G",
         "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
       ],
       "verified": false
