@@ -702,7 +702,8 @@
       "label": "above-right",
       "summary": "Le label de Theo Parrish, fondé en 1997. Né à Washington D.C. en 1972, élevé à Chicago, formé à Kansas City, installé dans le Michigan en 1994 : des samples soul et jazz bruts, filtrés, saturés, et des tempos qui flottent. Son influence sur l'outsider house est une lecture éditoriale, à sourcer.",
       "tracks": [
-        "summertime-is-here"
+        "summertime-is-here",
+        "detroit-beatdown"
       ],
       "summary_en": "Theo Parrish's label, founded in 1997. Born in Washington D.C. in 1972, raised in Chicago, trained in Kansas City, based in Michigan from 1994: raw, filtered, saturated soul and jazz samples and floating tempos. Its influence on outsider house is an editorial reading, to be sourced."
     },
@@ -813,6 +814,11 @@
       ],
       "sources": [
         "rave-on"
+      ],
+      "tracks": [
+        "alcachofa",
+        "the-meaning",
+        "to-beach-or-not-to-beach"
       ]
     },
     "charthouse": {
