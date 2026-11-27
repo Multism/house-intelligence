@@ -865,7 +865,7 @@
   function placeFw() {
     const chosen = store.get("hi.fwSide", {})[view];
     // à gauche sur le plan (coin vide) et dans le Booth (au-dessus du Bac, la colonne de lecture reste libre à droite)
-    $("#fw").dataset.side = chosen || (view === "bibliotheque" ? "right" : "left");
+    $("#fw").dataset.side = chosen || (view === "bibliotheque" || view === "decouverte" ? "right" : "left");
   }
   function setFwSize(size) {
     const fw = $("#fw"); fw.dataset.size = size;
@@ -946,18 +946,25 @@
     for (const e of S.discEntries) if (!e.track && e.youtube?.length) S.disc["d:" + e.id] = { ...e, id: "d:" + e.id };
     const link = $('[data-view-link="decouverte"]'); if (link) link.hidden = !S.discEntries.length;   // rubrique masquée tant qu'elle est vide
   }
-  // Bandcamp : lecteur officiel intégré, chargé seulement au clic (aucun appel à Bandcamp avant).
-  // Un seul lecteur ouvert à la fois ; la fenêtre d'écoute YouTube se met en pause.
+  // Bandcamp : lecteur officiel intégré, ouvert d'emblée (on clique sur sa lecture).
+  // Un clic dans un lecteur Bandcamp met la fenêtre YouTube en pause (le focus passe à l'iframe : événement blur).
+  // Quand YouTube reprend, le lecteur Bandcamp actif est rechargé, ce qui coupe son son.
   function bcSrc(b) {
     return `https://bandcamp.com/EmbeddedPlayer/v=2/${b.type === "track" ? "track" : "album"}=${encodeURIComponent(b.id)}/size=large/bgcol=161412/linkcol=d4ff3a/tracklist=false/artwork=small/transparent=true/`;
   }
-  function closeBandcamp() { for (const f of document.querySelectorAll(".bc-slot iframe")) f.closest(".bc-slot").replaceWith(bcSlot(JSON.parse(f.dataset.bc))); }
-  function bcSlot(b) {
-    return h("div", { class: "bc-slot" }, h("button", { class: "btn sm bc-btn", onclick: (ev) => {
-      closeBandcamp(); Player.pause(); if (Pulse.playing) Pulse.toggle();
-      ev.currentTarget.closest(".bc-slot").replaceChildren(h("iframe", { src: bcSrc(b), title: _t("disc.bcTitle"), loading: "lazy", "data-bc": JSON.stringify(b), allow: "autoplay" }));
-    } }, _t("disc.bcPlay")));
+  function closeBandcamp() {
+    for (const f of document.querySelectorAll(".bc-slot iframe[data-active]")) { f.removeAttribute("data-active"); f.src = f.src; }
   }
+  function bcSlot(b) {
+    return h("div", { class: "bc-slot" }, h("iframe", { src: bcSrc(b), title: _t("disc.bcTitle"), loading: "lazy", allow: "autoplay" }));
+  }
+  window.addEventListener("blur", () => setTimeout(() => {
+    const f = document.activeElement;
+    if (f?.tagName !== "IFRAME" || !f.closest(".bc-slot")) return;
+    for (const o of document.querySelectorAll(".bc-slot iframe[data-active]")) if (o !== f) { o.removeAttribute("data-active"); o.src = o.src; }
+    f.setAttribute("data-active", "");
+    Player.pause(); if (Pulse.playing) Pulse.toggle();
+  }, 0));
   const discPlayId = (e) => (e.track && S.byId[e.track]?.youtube?.length ? e.track : S.disc["d:" + e.id] ? "d:" + e.id : null);
   function discDate(iso) {
     try { return new Date(iso + "T12:00:00").toLocaleDateString(window.I18N.lang === "en" ? "en-GB" : "fr-FR", { day: "numeric", month: "short", year: "numeric" }); } catch { return iso; }

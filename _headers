@@ -20,14 +20,14 @@
 /og/*
   Cache-Control: public, max-age=86400
 
-# Fichiers non hachés : cache court (5 min) pour qu'un déploiement soit visible vite,
-# et service de la version précédente pendant la revalidation.
+# Fichiers non hachés : revalidés à chaque visite (réponse 304 légère si rien n'a changé),
+# pour qu'un déploiement soit visible tout de suite et que JS, CSS et données restent synchrones.
 /*.css
-  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+  Cache-Control: public, max-age=0, must-revalidate
 /*.js
-  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+  Cache-Control: public, max-age=0, must-revalidate
 /data/*
-  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+  Cache-Control: public, max-age=0, must-revalidate
 
 /og-image.png
   Cache-Control: public, max-age=604800
