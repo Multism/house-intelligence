@@ -50,6 +50,8 @@ Champs facultatifs : `spotify`, `further_reading`, `story`, `timeline`, `credits
 
 ## Rubrique « En ce moment » (`data/decouvertes.json`)
 
+Raccourci : la commande `/decouverte` (`.claude/skills/decouverte/SKILL.md`) déroule toute la procédure ci-dessous jusqu'à la mise en ligne.
+
 La personne qui tient le site indique ce qu'elle écoute ou lit, avec quelques mots. Claude ajoute alors une entrée :
 
 - `id` ; `date` (AAAA-MM-JJ, jour de l'ajout) ; `kind` : `nouveau`, `redecouverte`, `lecture`, `film` ou `mix` ;
