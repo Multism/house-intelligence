@@ -61,7 +61,15 @@ Mettre à jour les compteurs affichés (disques, stations, lignes) dans `index.h
 
 Servir le dossier en local (`python3 -m http.server 8765`), puis contrôler dans un navigateur headless : aucune erreur console, rendu du métro (étiquettes qui ne se chevauchent pas), Booth, Bibliothèque, bascule FR/EN.
 
+## Instagram (`social/`)
+
+Les carrousels sont générés à partir des données du site par `tools/instagram.mjs`. La file d'attente est `social/posts.json`, avec des textes en anglais.
+L'action GitHub `.github/workflows/instagram.yml` publie le lundi, le mercredi et le vendredi, uniquement les posts au statut `approved` : **rien ne part sans validation humaine**.
+Les jetons sont dans les secrets GitHub, jamais dans le dépôt. Mode d'emploi : `social/README.md`.
+
 ## Git et déploiement
+
+- Du travail arrive aussi par des pull requests venues d'autres sessions Claude (claude.ai/code). Toujours faire `git pull` avant de commencer.
 
 - Identité de commit : `Multism <Multism@users.noreply.github.com>`, jamais d'e-mail personnel.
 - Ne jamais committer de secrets ni de documents de travail : `.gitignore` exclut `.env*`, `.claude/settings.local.json`, `*.rtf`, `*.docx`, `*.pdf`.
