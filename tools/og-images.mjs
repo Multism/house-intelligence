@@ -60,13 +60,36 @@ const jobs = [
   ...Object.keys(metro.stations).map((sid) => ({ file: join(ROOT, "og", "stations", sid + ".jpg"), html: () => stationHtml(sid) })),
 ].filter((j) => all || !existsSync(j.file));
 
+// Image de partage du site (og-image.png) : signature et compteurs, régénérée à chaque passage.
+function homeHtml() {
+  const dots = metro.lines.map((l) => `<i style="background:${l.color}"></i>`).join("");
+  const n = Object.keys(metro.stations).length;
+  return `<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@500&display=block" rel="stylesheet">
+<style>*{box-sizing:border-box}html,body{margin:0}
+body{width:1200px;height:630px;background:#0d0c0b;color:#efe9dd;font-family:"Space Grotesk",sans-serif;position:relative;overflow:hidden;
+background-image:radial-gradient(700px 420px at 100% -80px,#ff6b3533,transparent 70%),linear-gradient(#ffffff06 1px,transparent 1px),linear-gradient(90deg,#ffffff06 1px,transparent 1px);background-size:auto,40px 40px,40px 40px}
+.in{position:absolute;left:72px;right:72px;top:64px;bottom:62px;display:flex;flex-direction:column}
+.b{font:700 34px/1 "JetBrains Mono",monospace;letter-spacing:.05em}.b span{color:#ff6b35}
+.s{font:500 22px/1.3 "Space Grotesk",sans-serif;color:#b4ab9c;margin-top:16px}
+h1{font:400 92px/1 "Instrument Serif",serif;margin:auto 0 0}h1 em{color:#d4ff3a}
+.c{font:700 19px/1 "JetBrains Mono",monospace;letter-spacing:.08em;color:#d4ff3a;margin:26px 0 auto}
+.f{display:flex;justify-content:space-between;align-items:center;font:400 16px/1 "JetBrains Mono",monospace;letter-spacing:.08em;color:#948c7f}
+.d{display:flex;gap:12px}.d i{display:block;width:11px;height:11px;border-radius:50%}</style></head><body><div class="in">
+<div class="b">HOUSE<span>/</span>INTELLIGENCE</div><div class="s">Cartographier l'histoire souterraine de la house.</div>
+<h1>Le plan du métro<br><em>généalogique</em> de la house</h1>
+<div class="c">${tracks.length} DISQUES · ${n} STATIONS · ${metro.lines.length} LIGNES · 1970 → AUJOURD'HUI</div>
+<div class="f"><span>HOUSE-INTELLIGENCE.PAGES.DEV</span><span class="d">${dots}</span></div></div></body></html>`;
+}
+jobs.push({ file: join(ROOT, "og-image.png"), html: homeHtml, png: true });
+
 const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1200, height: 630 }, deviceScaleFactor: 1 });
 for (const j of jobs) {
   mkdirSync(dirname(j.file), { recursive: true });
   await page.setContent(j.html(), { waitUntil: "networkidle" });
   await page.evaluate(() => document.fonts.ready);
-  await page.screenshot({ path: j.file, type: "jpeg", quality: 86 });
+  await page.screenshot(j.png ? { path: j.file, type: "png" } : { path: j.file, type: "jpeg", quality: 86 });
 }
 await browser.close();
 console.log(`${jobs.length} image(s) générée(s) dans og/.`);

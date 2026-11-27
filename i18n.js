@@ -8,7 +8,7 @@
     fr: {
       "skip": "Aller au contenu",
       "logo.aria": "House Intelligence, retour au plan du métro",
-      "tagline": "Booth éditorial · histoire, machines &amp; sociologie de la house · 1970 → aujourd'hui",
+      "tagline": "Cartographier l'histoire souterraine de la house.",
       "nav.aria": "Vues", "nav.metro": "Plan du Métro <small>(Généalogie)</small>", "nav.booth": "The Booth", "nav.library": "Bibliothèque",
       "lang.aria": "Langue",
       "filters.aria": "Filtres", "filters.eras": "Ères", "filters.genres": "Genres", "filters.machines": "Machines",
@@ -67,6 +67,7 @@
       "mod.contribution": "Apport au projet", "mod.themes": "Thèmes", "mod.genres": "Genres éclairés", "mod.cited": "Disques cités",
       "mod.listenAll": "▶ Écouter les {n} disques de cette lecture", "mod.verify": "⚠ Métadonnées à vérifier ou compléter.",
       "metro.title": "Plan du Métro <small>Généalogie de la house</small>",
+      "metro.lede": "House Intelligence explore l'histoire de la house à travers ses ramifications musicales, ses communautés, ses scènes locales et ses labels indépendants, en portant une attention particulière aux contributions historiquement sous-représentées.",
       "metro.intro": "Neuf lignes, de la disco du Loft à l'amapiano. Cliquez sur une station pour son histoire et ses disques, sur une correspondance (trait en pointillé) pour le pont entre deux scènes.",
       "metro.lines": "Lignes", "metro.share": "Partager la vue", "metro.export": "Exporter (SVG)", "metro.svg": "Plan du métro généalogique de la house",
       "metro.pick": "Choisissez une station",
@@ -110,7 +111,7 @@
     en: {
       "skip": "Skip to content",
       "logo.aria": "House Intelligence, back to the subway map",
-      "tagline": "Editorial booth · history, machines &amp; sociology of house music · 1970 → today",
+      "tagline": "Mapping the underground history of house music.",
       "nav.aria": "Views", "nav.metro": "Subway Map <small>(Genealogy)</small>", "nav.booth": "The Booth", "nav.library": "Library",
       "lang.aria": "Language",
       "filters.aria": "Filters", "filters.eras": "Eras", "filters.genres": "Genres", "filters.machines": "Machines",
@@ -169,6 +170,7 @@
       "mod.contribution": "What it brings to the project", "mod.themes": "Themes", "mod.genres": "Genres it sheds light on", "mod.cited": "Records cited",
       "mod.listenAll": "▶ Play the {n} records linked to this reading", "mod.verify": "⚠ Metadata to be checked or completed.",
       "metro.title": "Subway Map <small>A genealogy of house</small>",
+      "metro.lede": "House Intelligence explores the history of house music through its musical lineages, communities, local scenes and independent record labels, with particular attention to historically underrepresented contributions.",
       "metro.intro": "Nine lines, from the Loft's disco to amapiano. Click a station for its story and records, or a transfer (dotted line) for the bridge between two scenes.",
       "metro.lines": "Lines", "metro.share": "Share this view", "metro.export": "Export (SVG)", "metro.svg": "Genealogical subway map of house music",
       "metro.pick": "Pick a station",

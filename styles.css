@@ -447,6 +447,7 @@ button.gear::after { content: " ↗"; opacity: .6; }
 .view-head h1 { margin: 0; font: 400 clamp(36px, 4.5vw, 58px)/1 var(--serif); }
 .view-head h1 small { font: 12px var(--mono); color: var(--ink-3); margin-left: 8px; letter-spacing: .08em; text-transform: uppercase; }
 .view-head p { color: var(--ink-2); max-width: 75ch; margin: 10px 0 0; }
+.view-head .view-lede { color: var(--ink); font-size: 1.05em; }
 .lib-view .lib-tools, .lib-view .lib-grid { margin-left: 24px; margin-right: 24px; }
 .lib-view { padding-bottom: 40px; }
 
