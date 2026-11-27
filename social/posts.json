@@ -3,7 +3,7 @@
     "account": "house.intelligence.archive",
     "format": "Carrousels JPEG 1080x1350 (4:5), rendus dans social/media/<slug>/ par `node tools/instagram.mjs media <n>`",
     "status_values": "draft (à relire) | approved (validé, publié automatiquement au prochain créneau) | published",
-    "note": "File d'attente des premiers posts. Les textes viennent de data/tracks.json du site.",
+    "note": "File jusqu'à fin janvier 2027 (+3 posts de réserve). not_before = date du créneau prévu. Les textes viennent des données du site.",
     "publication": "GitHub Action .github/workflows/instagram.yml : un post approved par créneau, dans l'ordre de n ; champ facultatif not_before AAAA-MM-JJ"
   },
   "posts": [
@@ -88,7 +88,8 @@
         "#housemusic",
         "#househistory",
         "#roland"
-      ]
+      ],
+      "not_before": "2026-11-30"
     },
     {
       "n": 4,
@@ -108,10 +109,31 @@
         "#housemusic",
         "#househistory",
         "#trax"
-      ]
+      ],
+      "not_before": "2026-12-02"
     },
     {
       "n": 5,
+      "slug": "station-warehouse",
+      "kind": "station",
+      "station": "warehouse",
+      "hook": "The club that gave house its name.",
+      "caption": "The Warehouse · Chicago · 1977–1982\n\nFrankie Knuckles played here from 1977 until November 1982, when he left for the Power Plant. The crowd was mostly Black and gay.\n\nWhere does the word \"house\" come from? Three versions still compete: a sign Knuckles saw, the \"As heard at the Warehouse\" bins at the Importes Etc. record shop, or simply a generic name for that kind of disco.\n\nLine 1 · Chicago & Acid. Listen: Love Is the Message (MFSB, 1973) · Your Love (Frankie Knuckles presents Jamie Principle, 1987)\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#thewarehouse",
+        "#frankieknuckles",
+        "#chicagohouse",
+        "#housemusic",
+        "#househistory",
+        "#queerhistory",
+        "#clubculture",
+        "#chicago"
+      ],
+      "status": "draft",
+      "not_before": "2026-12-04"
+    },
+    {
+      "n": 6,
       "slug": "strings-of-life",
       "kind": "track",
       "track": "strings-of-life",
@@ -128,10 +150,34 @@
         "#housemusic",
         "#techno",
         "#househistory"
-      ]
+      ],
+      "not_before": "2026-12-07"
     },
     {
-      "n": 6,
+      "n": 7,
+      "slug": "machine-tr-909",
+      "kind": "machine",
+      "machine": "tr-909",
+      "title": "TR-909",
+      "ghost": "909",
+      "hook": "Too expensive, unconvincing, sold off cheap. Then it became the unit of measure.",
+      "caption": "Roland TR-909 · 1983\n\nRoland built it to succeed the 808, with sampled cymbals and MIDI sync. At launch it was judged too expensive and not realistic enough, and it was sold off cheap.\n\nThat is how it reached Detroit and Chicago. Its punchy kick became the unit of measure of house and techno, and its open hi-hat defined the off-beat of the dancefloor.\n\nHeard on: Strings of Life · Can You Feel It · Big Fun · Da Funk · Frozen (Victor Calderone)\n\nIn The Booth, the pulse plays each record at its exact tempo with a 909 kick.\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#tr909",
+        "#roland",
+        "#drummachine",
+        "#detroittechno",
+        "#chicagohouse",
+        "#housemusic",
+        "#househistory",
+        "#synth",
+        "#analog"
+      ],
+      "status": "draft",
+      "not_before": "2026-12-09"
+    },
+    {
+      "n": 8,
       "slug": "ha-dance",
       "kind": "track",
       "track": "ha-dance",
@@ -150,10 +196,32 @@
         "#housemusic",
         "#queerhistory"
       ],
-      "station": "ballroom"
+      "station": "ballroom",
+      "not_before": "2026-12-11"
     },
     {
-      "n": 7,
+      "n": 9,
+      "slug": "station-ballroom",
+      "kind": "station",
+      "station": "ballroom",
+      "hook": "Ballroom was here before house. Then they found each other.",
+      "caption": "Ballroom & Voguing · 1920s–\n\nBallroom predates house: its roots go back to the Harlem Renaissance. \"Old Way\" took hold in the 1980s (House of LaBeija, House of Corey), \"New Way\" in the early 1990s.\n\nThe link with house came through the Sound Factory (1989–1995) and The Ha Dance (1991): every \"ha\" calls for a pose.\n\nListen: You Make Me Feel (Mighty Real) · Vogue · The Ha Dance · Gypsy Woman · Show Me Love\n\nLines 2 and 7 on the house metro map.\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#ballroom",
+        "#voguing",
+        "#ballroomculture",
+        "#houseoflabeija",
+        "#soundfactory",
+        "#queerhistory",
+        "#housemusic",
+        "#househistory",
+        "#vogue"
+      ],
+      "status": "draft",
+      "not_before": "2026-12-14"
+    },
+    {
+      "n": 10,
       "slug": "tempo",
       "kind": "feature",
       "status": "draft",
@@ -188,10 +256,11 @@
         "#djtips",
         "#housemusic",
         "#beatmatching"
-      ]
+      ],
+      "not_before": "2026-12-16"
     },
     {
-      "n": 8,
+      "n": 11,
       "slug": "ke-star",
       "kind": "track",
       "track": "ke-star",
@@ -210,7 +279,456 @@
         "#afrohouse",
         "#househistory"
       ],
-      "station": "amapiano"
+      "station": "amapiano",
+      "not_before": "2026-12-18"
+    },
+    {
+      "n": 12,
+      "slug": "show-me-love",
+      "kind": "track",
+      "track": "show-me-love",
+      "hook": "A single preset colour is enough to define a decade.",
+      "caption": "Show Me Love (StoneBridge Club Mix) · Robin S · New York, 1992\n\nSwedish remixer StoneBridge threw out the original production and kept the voice: an organ bass from a Korg M1 preset, a dry kick, and Robin S soaring over it. That M1 organ became one of the sounds of the 90s.\n\nThe remix went global in 1993 and has been sampled and remixed for thirty years since. On gay dancefloors and in ballroom, it is the gospel diva voice par excellence.\n\n122 BPM · 10A · Korg M1\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#showmelove",
+        "#robins",
+        "#stonebridge",
+        "#korgm1",
+        "#garagehouse",
+        "#90shouse",
+        "#housemusic",
+        "#househistory",
+        "#ballroom"
+      ],
+      "status": "draft",
+      "not_before": "2026-12-21"
+    },
+    {
+      "n": 13,
+      "slug": "line-l8",
+      "kind": "line",
+      "line": "L8",
+      "hook": "House went back to Africa, and came back rewritten.",
+      "caption": "Line 8 · Africas\n\nAfro House → Gqom → Amapiano\n\nSouth African house was born in Hillbrow and Pretoria in the late 1980s, next to kwaito. In Durban, gqom broke the kick and travelled by taxi and WhatsApp. In Gauteng, amapiano slowed everything down and gave the melody to the log drum.\n\nHouse there is mass popular music, not a niche.\n\nListen: Township Funk · Superman · Ice Drop · Ke Star · Water · Tshwala Bam\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#afrohouse",
+        "#gqom",
+        "#amapiano",
+        "#southafrica",
+        "#durban",
+        "#logdrum",
+        "#housemusic",
+        "#househistory",
+        "#blackcoffee"
+      ],
+      "status": "draft",
+      "not_before": "2026-12-23"
+    },
+    {
+      "n": 14,
+      "slug": "love-is-the-message",
+      "kind": "track",
+      "track": "love-is-the-message",
+      "hook": "All of house descends from this break.",
+      "caption": "Love Is the Message · MFSB · Philadelphia, 1973\n\nA message for today, and the record where it all begins.\n\nGamble & Huff's studio orchestra: silky strings, horns and a bass-and-drums groove that stands on its own. The long instrumental break became DJs' raw material, looped on two decks for minutes on end. That loop, as a place of collective trance, is what house is made of.\n\nAn anthem of David Mancuso's Loft and of 1970s New York's Black and Latino gay dancefloors, where its promise of universal love became the dancefloor's own.\n\n118 BPM · 4A · Energy 6/10\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#loveisthemessage",
+        "#mfsb",
+        "#phillysound",
+        "#theloft",
+        "#davidmancuso",
+        "#disco",
+        "#housemusic",
+        "#househistory",
+        "#queerhistory"
+      ],
+      "status": "draft",
+      "not_before": "2026-12-25"
+    },
+    {
+      "n": 15,
+      "slug": "machine-tr-808",
+      "kind": "machine",
+      "machine": "tr-808",
+      "title": "TR-808",
+      "ghost": "808",
+      "hook": "It sounded like no real drum kit. That was the point.",
+      "caption": "Roland TR-808 · 1980\n\nRoland wanted a programmable, \"realistic\" drum kit to back musicians in rehearsal. It sounded like no real drums and sold poorly.\n\nResold cheap on the second-hand market, it fell into the hands of New York electro, hip-hop and then Chicago's first house producers. Its kick, a deep sine wave with a long decay, doubles as a bassline: the 808 sub.\n\nHeard on: On and On · Don't Make Me Wait · Voodoo Ray · Yo Yo Get Funky!\n\nDiscontinued after a few years, it became one of the most sampled machines in history.\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#tr808",
+        "#roland",
+        "#808",
+        "#drummachine",
+        "#chicagohouse",
+        "#electro",
+        "#housemusic",
+        "#househistory",
+        "#analog"
+      ],
+      "status": "draft",
+      "not_before": "2026-12-28"
+    },
+    {
+      "n": 16,
+      "slug": "promised-land",
+      "kind": "track",
+      "track": "promised-land",
+      "hook": "\"Brothers, sisters, one day we will be free.\"",
+      "caption": "Promised Land · Joe Smooth · Chicago, 1987\n\nThe last record of the year: luminous piano chords, a gospel progression and a lyric of hope. House as a civil-rights hymn.\n\nJoe Smooth, a Chicago DJ schooled in soul and gospel, wrote a political anthem in a genre said to be apolitical. Then the \"promised land\" of a Black and queer scene became the utopia of British ravers in 1988 and 1989, a transfer of meaning at the heart of house history.\n\n120 BPM · 3B · Energy 7/10\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#promisedland",
+        "#joesmooth",
+        "#chicagohouse",
+        "#djinternational",
+        "#gospelhouse",
+        "#pianohouse",
+        "#housemusic",
+        "#househistory"
+      ],
+      "status": "draft",
+      "not_before": "2026-12-30"
+    },
+    {
+      "n": 17,
+      "slug": "line-l1",
+      "kind": "line",
+      "line": "L1",
+      "hook": "Line 1 for day 1: where it all starts.",
+      "caption": "Line 1 · Chicago & Acid\n\nThe Loft → The Warehouse → Chicago House → Acid House → Hip-House → Footwork\n\nFrom David Mancuso's parties in New York to Frankie Knuckles at the Warehouse, from Ron Hardy at the Music Box to Phuture's 303, and on to footwork at 160 BPM. Disco reprogrammed on cheap drum machines, in under a decade.\n\nHappy new year from the archive. Start the journey at station one.\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#chicagohouse",
+        "#acidhouse",
+        "#theloft",
+        "#thewarehouse",
+        "#musicbox",
+        "#footwork",
+        "#housemusic",
+        "#househistory",
+        "#metromap"
+      ],
+      "status": "draft",
+      "not_before": "2027-01-01"
+    },
+    {
+      "n": 18,
+      "slug": "move-your-body",
+      "kind": "track",
+      "track": "move-your-body",
+      "hook": "A scene naming itself, and giving itself an anthem.",
+      "caption": "Move Your Body (The House Music Anthem) · Marshall Jefferson · Chicago, 1986\n\nHammered piano chords over a rigid drum-machine pattern, an octave bassline and Curtis McClain's church-born vocal. The birth certificate of piano house.\n\nJefferson worked at the post office and bought his machines on credit, building tracks part by part. Ron Hardy played it at the Music Box, Frankie Knuckles at the Power Plant. \"Gotta have house music, all night long\": for a Black, gay, working-class crowd, a secular church.\n\n121 BPM · 8B · TR-707\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#moveyourbody",
+        "#marshalljefferson",
+        "#chicagohouse",
+        "#pianohouse",
+        "#trax",
+        "#tr707",
+        "#musicbox",
+        "#housemusic",
+        "#househistory"
+      ],
+      "status": "draft",
+      "not_before": "2027-01-04"
+    },
+    {
+      "n": 19,
+      "slug": "can-you-feel-it",
+      "kind": "track",
+      "track": "can-you-feel-it",
+      "hook": "Emotion through chords, not effects.",
+      "caption": "Can You Feel It · Mr. Fingers · Chicago, 1986\n\nWarm pads, a round bassline and almost no variation for seven minutes. Depth comes from restraint. This is the template for all deep house.\n\nLarry Heard was a jazz-fusion drummer, and he composes as a harmonist, with sevenths and ninths. Later versions carry Chuck Roberts's sermon: \"In the beginning there was Jack.\" House as a feeling, a theology of belonging born in Black gay clubs.\n\n120 BPM · 6A · TR-909 + Juno-60\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#canyoufeelit",
+        "#mrfingers",
+        "#larryheard",
+        "#deephouse",
+        "#chicagohouse",
+        "#tr909",
+        "#juno60",
+        "#housemusic",
+        "#househistory"
+      ],
+      "status": "draft",
+      "not_before": "2027-01-06"
+    },
+    {
+      "n": 20,
+      "slug": "machine-mpc60",
+      "kind": "machine",
+      "machine": "mpc60",
+      "title": "MPC60",
+      "ghost": "MPC",
+      "hook": "Sixteen pads and a swing setting that made loops feel human.",
+      "caption": "Akai MPC60 · 1988\n\nDesigned with Roger Linn as a complete studio in a box: sampling, sequencing and playable pads.\n\nThe velocity-sensitive pads and Linn's quantise swing gave loops a human groove. Hip-hop seized it first, then New York garage and house producers who played samples like percussion. Later, UK garage.\n\nHeard on: The Ha Dance (Masters At Work, 1991)\n\n\"MPC swing\" is now a setting of its own in modern music software.\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#mpc60",
+        "#akai",
+        "#rogerlinn",
+        "#mpc",
+        "#sampler",
+        "#garagehouse",
+        "#mastersatwork",
+        "#housemusic",
+        "#househistory"
+      ],
+      "status": "draft",
+      "not_before": "2027-01-08"
+    },
+    {
+      "n": 21,
+      "slug": "station-paradise",
+      "kind": "station",
+      "station": "paradise",
+      "hook": "The dancefloor as a church. The word \"garage\" comes from here.",
+      "caption": "Paradise Garage · New York · 1977–1987\n\nAt 84 King Street, Larry Levan turned the dancefloor into a church for a mostly gay Black and Latino crowd: soul, gospel, dub effects and a legendary sound system.\n\nGarage house took its name from this room.\n\nListen: Love Is the Message · Love Sensation · Is It All Over My Face · Don't Make Me Wait\n\nLine 2 · NYC, Garage & Tribal.\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#paradisegarage",
+        "#larrylevan",
+        "#garagehouse",
+        "#nyc",
+        "#disco",
+        "#queerhistory",
+        "#housemusic",
+        "#househistory",
+        "#clubculture"
+      ],
+      "status": "draft",
+      "not_before": "2027-01-11"
+    },
+    {
+      "n": 22,
+      "slug": "frozen-calderone",
+      "kind": "track",
+      "track": "frozen-calderone",
+      "hook": "Global pop at the service of the New York queer dancefloor.",
+      "caption": "Frozen (Victor Calderone Extended Club Mix) · Madonna · New York, 1998\n\nCalderone turns a dark ballad into a tribal cathedral: cascading toms, rolling percussion, long builds and dramatic breakdowns. Madonna's voice becomes an incantation over a carpet of drums.\n\nLate-90s Manhattan: Twilo, Roxy, Sound Factory and the circuit parties, a post-AIDS culture of the body, the night and collective survival. Madonna had borrowed vogue from ballroom in 1990; here the loop closes.\n\n128 BPM · 5A · TR-909\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#victorcalderone",
+        "#madonna",
+        "#frozen",
+        "#tribalhouse",
+        "#circuitparty",
+        "#nyc",
+        "#queerhistory",
+        "#housemusic",
+        "#househistory"
+      ],
+      "status": "draft",
+      "not_before": "2027-01-13"
+    },
+    {
+      "n": 23,
+      "slug": "re-rewind",
+      "kind": "track",
+      "track": "re-rewind",
+      "hook": "Faster than Chicago, yet looser.",
+      "caption": "Re-Rewind (The Crowd Say Bo Selecta) · Artful Dodger feat. Craig David · Southampton, 1999\n\nTwo-step: the kick skips beats, the snare is syncopated, the hats shuffle and the bass bounces. Craig David's R&B vocal dances on top. Mix it after a 121 BPM Chicago record and you feel the shift.\n\nUK garage was Sunday sessions, pirate radio and MCs, with a sharp dress code. A Black British working-class culture that gave birth to grime and dubstep, and that police targeted through Form 696.\n\n132 BPM · 2A · Energy 8/10\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#rerewind",
+        "#artfuldodger",
+        "#craigdavid",
+        "#ukgarage",
+        "#2step",
+        "#pirateradio",
+        "#housemusic",
+        "#househistory",
+        "#ukg"
+      ],
+      "status": "draft",
+      "not_before": "2027-01-15"
+    },
+    {
+      "n": 24,
+      "slug": "da-funk",
+      "kind": "track",
+      "track": "da-funk",
+      "hook": "House changes as it travels: slowed down, saturated, pop.",
+      "caption": "Da Funk · Daft Punk · Paris, 1995\n\nA distorted, filtered synth-bass riff halfway between funk and acid, over a compressed 909. At 111 BPM the groove is heavy, closer to G-funk than to Chicago.\n\nIt first came out on Soma, Slam's Glasgow label, before Virgin signed the duo. The French Touch was recognised in London before Paris. And the Paris scene crystallised at the Respect nights at Queen, a gay club on the Champs-Élysées; their tour was called \"Respect Is Burning\".\n\n111 BPM · 6A · TB-303 + TR-909\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#daftpunk",
+        "#dafunk",
+        "#frenchtouch",
+        "#soma",
+        "#tb303",
+        "#tr909",
+        "#paris",
+        "#housemusic",
+        "#househistory"
+      ],
+      "status": "draft",
+      "not_before": "2027-01-18"
+    },
+    {
+      "n": 25,
+      "slug": "line-l5",
+      "kind": "line",
+      "line": "L5",
+      "hook": "Ibiza, Italy, Paris, London: house changes accent at every stop.",
+      "caption": "Line 5 · European Stopovers\n\nBalearic → Italo-House → French Touch → Tech House\n\nAlfredo mixing pop, indie and house under the open sky at Amnesia from 1984. Italian studios recycling Chicago piano into a Mediterranean jukebox. Paris filtering disco to ecstasy. London's Wiggle parties marrying techno's rigour with house's warmth.\n\nListen: Sueño Latino · Da Funk · Music Sounds Better With You · Positive Education\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#balearic",
+        "#ibiza",
+        "#italohouse",
+        "#frenchtouch",
+        "#techhouse",
+        "#amnesia",
+        "#housemusic",
+        "#househistory",
+        "#metromap"
+      ],
+      "status": "draft",
+      "not_before": "2027-01-20"
+    },
+    {
+      "n": 26,
+      "slug": "music-sounds-better",
+      "kind": "track",
+      "track": "music-sounds-better",
+      "hook": "One technical gesture, repeated to ecstasy.",
+      "caption": "Music Sounds Better With You · Stardust · Paris, 1998\n\nA loop from Chaka Khan's \"Fate\" (1981) runs through a filter that opens and closes over a four-to-the-floor kick, with Benjamin Diamond singing on top. The whole track rests on the filter's breathing.\n\nThomas Bangalter, Alan Braxe and Benjamin Diamond released only one record under this name. Filter house turned the disco of 1970s Black and gay dancefloors into raw material for a wider audience: homage or appropriation, depending on how you hear it.\n\n124 BPM · 11B · Energy 7/10\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#musicsoundsbetterwithyou",
+        "#stardust",
+        "#frenchtouch",
+        "#filterhouse",
+        "#roule",
+        "#chakakhan",
+        "#housemusic",
+        "#househistory"
+      ],
+      "status": "draft",
+      "not_before": "2027-01-22"
+    },
+    {
+      "n": 27,
+      "slug": "not-about-you",
+      "kind": "track",
+      "track": "not-about-you",
+      "hook": "Reclamation, by those who invented house.",
+      "caption": "Not About You · Honey Dijon feat. Hadiya George · Chicago / New York, 2022\n\nBright vocal house, a round bassline and Hadiya George's soul voice: Chicago house rewritten for 2022.\n\nHoney Dijon, a Chicago-born DJ and producer and a Black trans woman, co-wrote Black Girl Magic with Luke Solomon and worked on Beyoncé's Renaissance. She says she wants to re-root house in the Black and queer communities that made it.\n\n124 BPM · 8B · Energy 7/10\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#honeydijon",
+        "#hadiyageorge",
+        "#blackgirlmagic",
+        "#chicagohouse",
+        "#transvisibility",
+        "#queerhistory",
+        "#housemusic",
+        "#househistory",
+        "#classicmusiccompany"
+      ],
+      "status": "draft",
+      "not_before": "2027-01-25"
+    },
+    {
+      "n": 28,
+      "slug": "voodoo-ray",
+      "kind": "track",
+      "track": "voodoo-ray",
+      "hook": "The first great acid classic made outside the United States.",
+      "caption": "Voodoo Ray · A Guy Called Gerald · Manchester, 1988\n\nGerald Simpson, a young Black Mancunian, made it in his bedroom on second-hand gear: a more melodic 303 than Phuture's, a light 808 groove and a voice chopped into abstraction. Proof that house had become a language others could speak.\n\nAn anthem of 1988's Second Summer of Love: the Haçienda, warehouse parties, then the orbital raves around the M25, until the 1994 Criminal Justice Act.\n\n122 BPM · 9A · TB-303 + TR-808\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#voodooray",
+        "#aguycalledgerald",
+        "#acidhouse",
+        "#manchester",
+        "#hacienda",
+        "#secondsummeroflove",
+        "#tb303",
+        "#housemusic",
+        "#househistory"
+      ],
+      "status": "draft",
+      "not_before": "2027-01-27"
+    },
+    {
+      "n": 29,
+      "slug": "line-l4",
+      "kind": "line",
+      "line": "L4",
+      "hook": "Britain made house its own, and never stopped mutating it.",
+      "caption": "Line 4 · UK Sound System & Bass\n\nSound systems → Shoom & Haçienda → Bleep → Hardcore & Jungle → UK Garage → Dubstep → Chart house\n\nBefore acid house, Britain danced to Jamaican sound systems and jazz-funk all-dayers. It kept that cult of sub-bass through every mutation: bleep in Sheffield, jungle, 2-step, dubstep in Croydon, and in 2013 house at the top of the charts.\n\nListen: Keep On Movin' · Voodoo Ray · LFO · Re-Rewind · Midnight Request Line · White Noise\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#ukgarage",
+        "#jungle",
+        "#dubstep",
+        "#acidhouse",
+        "#soundsystem",
+        "#bassmusic",
+        "#housemusic",
+        "#househistory",
+        "#metromap"
+      ],
+      "status": "draft",
+      "not_before": "2027-01-29"
+    },
+    {
+      "n": 30,
+      "slug": "superman",
+      "kind": "track",
+      "track": "superman",
+      "hook": "House returning to Africa, rewritten rather than imported.",
+      "caption": "Superman · Black Coffee feat. Bucie · Durban / Johannesburg, 2009\n\nWoody, polyrhythmic percussion, melancholic pads and Bucie's voice. The groove is restrained, almost deep, but it breathes differently from American four-to-the-floor.\n\nNathi \"Black Coffee\" Maphumulo grew up in Umlazi. In 1990 he was injured when a car ploughed into a crowd celebrating Mandela's release, and lost most of the use of his left arm. He learned to mix one-handed. In South Africa, this was the hit of a generation.\n\n120 BPM · 3A · Energy 5/10\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#blackcoffee",
+        "#bucie",
+        "#superman",
+        "#afrohouse",
+        "#southafrica",
+        "#soulisticmusic",
+        "#deephouse",
+        "#housemusic",
+        "#househistory"
+      ],
+      "status": "draft",
+      "not_before": "2027-02-01",
+      "note": "réserve (début février, ou rattrapage si un créneau a échoué)"
+    },
+    {
+      "n": 31,
+      "slug": "machine-tb-303",
+      "kind": "machine",
+      "machine": "tb-303",
+      "title": "TB-303",
+      "ghost": "303",
+      "hook": "Built to replace a bass player. It started to talk instead.",
+      "caption": "Roland TB-303 · 1981\n\nRoland made it for guitarists rehearsing alone. It sounded nothing like an electric bass, flopped, and was discontinued within a few years.\n\nIn Chicago, Phuture twisted the cutoff, resonance, accent and slide live. The bass started to \"talk\", and acid house was born from that accident. Its programming is so counter-intuitive that many famous patterns came from mistakes.\n\nHeard on: Acid Tracks · Voodoo Ray · Da Funk\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#tb303",
+        "#roland",
+        "#acidhouse",
+        "#303",
+        "#phuture",
+        "#synth",
+        "#analog",
+        "#housemusic",
+        "#househistory"
+      ],
+      "status": "draft",
+      "not_before": "2027-02-03",
+      "note": "réserve (début février, ou rattrapage si un créneau a échoué)"
+    },
+    {
+      "n": 32,
+      "slug": "gypsy-woman",
+      "kind": "track",
+      "track": "gypsy-woman",
+      "hook": "A dancefloor hit that speaks about the street.",
+      "caption": "Gypsy Woman (She's Homeless) · Crystal Waters · Baltimore, 1991\n\nAn organ riff, a dry kick and the famous \"la da dee la dee da\". Crystal Waters, a poet and civil servant, wrote a song about a homeless woman, and the Basement Boys produced it in the wake of New York garage.\n\nA worldwide hit about urban poverty over a euphoric groove. In ballroom, the \"la da dee\" became a vogue classic, reused in remix after remix.\n\n122 BPM · 11A · Energy 7/10\n\n🔗 house-intelligence.pages.dev",
+      "hashtags": [
+        "#gypsywoman",
+        "#crystalwaters",
+        "#basementboys",
+        "#garagehouse",
+        "#ballroom",
+        "#vogue",
+        "#90shouse",
+        "#housemusic",
+        "#househistory"
+      ],
+      "status": "draft",
+      "not_before": "2027-02-05",
+      "note": "réserve (début février, ou rattrapage si un créneau a échoué)"
     }
   ]
 }

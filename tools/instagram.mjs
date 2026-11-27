@@ -16,7 +16,7 @@
 // social/posts.json est la file éditoriale (accroches, légendes et hashtags écrits à la main, statut).
 // Quand un disque y figure, son accroche, sa légende et ses hashtags remplacent le texte généré.
 // Types de post (champ kind) : "track" et "feature" (présentation, tempos de The Booth…) en style A, fiche d'archive sombre ;
-// "station" (champ station) et "line" (champ line, ex. "L7") en style B, ligne de métro sur papier clair.
+// "machine" (champ machine, ex. "tr-909") en style A aussi ; "station" (champ station) et "line" (champ line, ex. "L7") en style B, ligne de métro sur papier clair.
 //
 // Sortie : social/out/<nn>-<slug>/01.jpg … + caption.txt (légende + hashtags, prête à coller).
 
@@ -218,12 +218,12 @@ function featurePost(q) {
   return { slug: `${String(q.n).padStart(2, "0")}-${q.slug}`, color: c, slides, caption: joinCaption([q.caption || "", "", (q.hashtags || []).join(" ")]) };
 }
 
-function machinePost(m) {
-  const c = "#d4ff3a";
+function machinePost(m, q) {
+  const c = q?.color || "#d4ff3a";
   const url = `${SITE_SHORT}/#booth`;
   const used = (m.tracks || []).map((id) => byTrack[id]).filter(Boolean).slice(0, 6);
   const slides = [
-    cover({ kicker: W.machine, title: m.name, sub: m.maker || "", year: m.year, hook: firstSentence(f(m, "hijack")), badges: [["Type", f(m, "type").split(/[ (]/)[0]], [W.year, m.year]] }),
+    cover({ n: q?.n, kicker: W.machine, title: q?.title || m.name, ghost: q?.ghost || "", sub: f(m, "maker") || "", year: m.year, hook: q?.hook || firstSentence(f(m, "hijack")), badges: [["Type", f(m, "type").split(/[ (]/)[0]], [W.year, m.year]] }),
     textSlide(W.built4K, W.built4, f(m, "intended_use")),
     textSlide(W.hijackK, W.hijack, f(m, "hijack")),
     textSlide(W.sigK, W.sig, [f(m, "signature"), f(m, "house_usage")].filter(Boolean).join(" ")),
@@ -231,9 +231,9 @@ function machinePost(m) {
       ? content(`<div class="k">${W.heard}</div><h2>${W.records(used.length)}</h2><ul class="list">${used.map((t) => `<li>${esc(short(t.title))} — ${esc(t.artist)}<span>${t.year}</span></li>`).join("")}</ul><div class="cta">${W.booth}<b>${esc(url)}</b></div>`)
       : textSlide(W.trivia, W.trivia, f(m, "trivia"), `<div class="cta">${W.booth}<b>${esc(url)}</b></div>`),
   ];
-  const caption = joinCaption([`${m.name} (${m.year || ""})`, "", f(m, "hijack"), "", f(m, "trivia"), "", `🔗 ${url} (${W.linkBio})`, "",
+  const caption = q?.caption && !FR ? joinCaption([q.caption, "", (q.hashtags || []).join(" ")]) : joinCaption([`${m.name} (${m.year || ""})`, "", f(m, "hijack"), "", f(m, "trivia"), "", `🔗 ${url} (${W.linkBio})`, "",
     [tag(m.id), tag(m.maker || ""), "#drummachine", "#synth", ...BASE_TAGS].filter((x) => x.length > 2).join(" ")]);
-  return { slug: `machine-${m.id}`, color: c, slides, caption };
+  return { slug: q ? `${String(q.n).padStart(2, "0")}-${q.slug}` : `machine-${m.id}`, color: c, slides, caption };
 }
 
 // Posts sur les scènes (stations) et les lignes : style B, ligne de métro sur papier clair.
@@ -284,6 +284,7 @@ const fromQueue = (q) =>
   : q.kind === "track" && byTrack[q.track] ? recordPost(byTrack[q.track], q)
   : q.kind === "station" && metro.stations[q.station] ? stationPost(q.station, q)
   : q.kind === "line" && metro.lines.some((l) => l.id === q.line) ? linePost(q.line, q)
+  : q.kind === "machine" && byMachine[q.machine] ? machinePost(byMachine[q.machine], q)
   : null;
 
 // ---------- rendu ----------
