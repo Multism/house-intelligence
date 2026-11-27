@@ -22,13 +22,14 @@ En ligne : https://house-intelligence.pages.dev · Dépôt public : https://gith
 | `styles.css`, `pages.css` | Styles de l'application / des pages statiques |
 | `data/tracks.json` | `eras` (era-1, era-2, era-3a 2005–2012, era-3b 2013–2019, era-3c 2020–), `genres`, `tracks` (85 disques) |
 | `data/metro.json` | 9 lignes, 35 stations, 7 correspondances |
+| `data/decouvertes.json` | Rubrique « En ce moment » (`#decouverte`) : journal daté des écoutes et lectures du moment |
 | `data/machines.json`, `data/sources.json` | Fiches machines (808, 909, 303, MPC…) et œuvres de référence |
 | `data/bundle.js` | Copie embarquée des JSON pour une ouverture en `file://`. **Généré**, ne pas éditer |
 | `disques/`, `stations/`, `en/records/`, `en/stations/`, `sitemap.xml` | Pages statiques SEO. **Générées** |
 | `og/`, `og-image.png` | Images de partage. **Générées** |
 | `_archive/` | Anciennes versions (wiki statique, sauvegardes de données) : ne pas réintroduire sans demande |
 
-Routes : `#metro` (par défaut, `?st=…&ligne=…`), `#booth`, `#<id-disque>` ou `?track=<id>`, `#bibliotheque`.
+Routes : `#metro` (par défaut, `?st=…&ligne=…`), `#booth`, `#decouverte`, `#<id-disque>` ou `?track=<id>`, `#bibliotheque`.
 
 Lignes du métro : L1 Chicago & Acid · L2 NYC, Garage & Tribal · L3 Deep & gospel · L4 UK Sound System & Bass · L5 Escales européennes · L6 Futurisme & Machines · L7 Ballroom & queer · L8 Afriques · L9 Techno & Europe.
 
@@ -46,6 +47,19 @@ Champs facultatifs : `spotify`, `further_reading`, `story`, `timeline`, `credits
 5. **Pas d'indication de pages ni de minutage** dans les références de livres ou de films.
 6. **Pas de vidéo YouTube inventée** : chaque identifiant est vérifié (oEmbed). Si on n'en trouve pas de fiable, on n'en met pas.
 7. BPM, clés Camelot et `gear` sont des valeurs éditoriales indicatives (voir `_meta.note`).
+
+## Rubrique « En ce moment » (`data/decouvertes.json`)
+
+La personne qui tient le site indique ce qu'elle écoute ou lit, avec quelques mots. Claude ajoute alors une entrée :
+
+- `id` ; `date` (AAAA-MM-JJ, jour de l'ajout) ; `kind` : `nouveau`, `redecouverte`, `lecture`, `film` ou `mix` ;
+- `title` et `artist` (ou `author`), `year`, `label` ;
+- `note` et `note_en` : **la note est la sienne, pas celle de Claude**. On la met en forme sans en inventer le contenu, on la traduit, et on la fait relire si elle a été reformulée ;
+- `youtube` : identifiants vérifiés, ou `track` (id d'une fiche existante, pour une redécouverte du catalogue) ;
+- `station` : id du métro si le disque prolonge une ligne ; `source` : id de la Bibliothèque ; `link` : URL ;
+- `verify` : points non confirmés.
+
+Les entrées sont triées par date, la plus récente en tête. Le lien « En ce moment » du menu reste masqué tant que la liste est vide.
 
 ## Après toute modification de `data/*.json`
 

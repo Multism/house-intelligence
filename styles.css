@@ -654,3 +654,29 @@ body { padding-bottom: 0; }
   html[lang="en"] .metro-scroll::after { content: "⇠ swipe the map ⇢"; }
 }
 .foot-links a { color: var(--ink-2); }
+
+/* ---------- Découverte (« En ce moment ») ---------- */
+.disc-view { padding-bottom: calc(var(--fw-space, 0px) + 40px); }
+.disc-view .lib-tools, .disc-list { margin-left: 24px; margin-right: 24px; }
+.disc-view .lib-tools, .disc-list { max-width: 1680px; }
+.disc-list { display: flex; flex-direction: column; }
+.disc-item { max-width: 860px; }
+.disc-item { display: grid; grid-template-columns: 110px 1fr; gap: 18px; padding: 18px 0; border-top: 1px solid var(--line); }
+.disc-item:first-child { border-top: 0; }
+.disc-date { font: 11px/1.6 var(--mono); color: var(--ink-3); text-transform: uppercase; letter-spacing: .08em; padding-top: 3px; }
+.disc-body { border-left: 3px solid var(--c, var(--line)); padding-left: 16px; min-width: 0; }
+.disc-kind { font: 600 10px var(--mono); text-transform: uppercase; letter-spacing: .12em; color: var(--ink-3); }
+.disc-head { display: flex; gap: 10px; align-items: center; margin: 6px 0 4px; }
+.disc-head h2 { margin: 0; font: 400 24px/1.15 var(--serif); }
+.disc-head h2 .who { color: var(--ink-2); }
+.disc-head h2 small { font: 12px var(--mono); color: var(--ink-3); }
+.disc-note { margin: 8px 0 12px; font: italic 17px/1.45 var(--serif); color: var(--ink-2); max-width: 62ch; }
+.disc-item .links { display: flex; flex-wrap: wrap; gap: 6px; }
+.disc-item a.chip { text-decoration: none; }
+.disc-verify { font: 11px var(--mono); margin: 10px 0 0; }
+@media (min-width: 1760px) { .disc-view .lib-tools, .disc-list { margin-left: auto; margin-right: auto; } }
+@media (max-width: 700px) {
+  .disc-view .lib-tools, .disc-list { margin-left: 16px; margin-right: 16px; }
+  .disc-item { grid-template-columns: 1fr; gap: 6px; }
+  .disc-head h2 { font-size: 21px; }
+}

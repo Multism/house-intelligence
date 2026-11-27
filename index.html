@@ -40,6 +40,7 @@
       <nav class="viewnav" data-i18n-attr="aria-label=nav.aria" aria-label="Vues">
         <a href="#metro" data-view-link="metro" data-i18n="nav.metro">Plan du Métro <small>(Généalogie)</small></a>
         <a href="#booth" data-view-link="booth" data-i18n="nav.booth">The Booth</a>
+        <a href="#decouverte" data-view-link="decouverte" data-i18n="nav.disc" hidden>En ce moment</a>
         <a href="#bibliotheque" data-view-link="bibliotheque" data-i18n="nav.library">Bibliothèque</a>
       </nav>
       <div class="lang-switch" role="group" data-i18n-attr="aria-label=lang.aria" aria-label="Langue">
@@ -205,6 +206,18 @@
         <div class="metro-bubble" id="metro-bubble" role="dialog" aria-live="polite" hidden></div></div>
       <aside class="panel metro-panel" id="metro-panel" aria-live="polite"></aside>
     </div>
+  </section>
+
+  <section class="view disc-view" data-view="decouverte" aria-labelledby="disc-title" hidden>
+    <div class="view-head">
+      <h1 id="disc-title" data-i18n="disc.title">En ce moment</h1>
+      <p data-i18n="disc.intro">Le journal de bord : ce que j'écoute et ce que je lis en ce moment.</p>
+    </div>
+    <div class="lib-tools">
+      <div class="chips" id="disc-kinds"></div>
+      <button class="btn sm listen" id="disc-all" hidden></button>
+    </div>
+    <div class="disc-list" id="disc-list"></div>
   </section>
 
   <section class="view lib-view" data-view="bibliotheque" aria-labelledby="biblio-title" hidden>

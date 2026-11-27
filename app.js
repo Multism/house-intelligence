@@ -9,6 +9,7 @@
   const S = {
     eras: [], genres: [], tracks: [], machines: [], sources: [],
     byId: {}, genreById: {}, eraById: {}, machineById: {}, sourceById: {},
+    disc: {}, discEntries: [], stations: {}, lines: [],   // rubrique Découverte
     filter: { era: null, genre: null, machine: null },
     current: null,
     steer: null,
@@ -702,7 +703,7 @@
     window.addEventListener("hi:view", placeFw);
     $("#fw-close").addEventListener("click", () => Player.close());
     $("#fw-big").addEventListener("click", () => setFwSize($("#fw").dataset.size === "big" ? "normal" : "big"));
-    $("#fw-open").addEventListener("click", () => { if (!Player.current) return; location.hash = "#" + Player.current; if (S.current?.id !== Player.current) load(Player.current, "fiche"); showView("booth"); $("#now-playing").scrollIntoView({ behavior: "smooth", block: "center" }); });
+    $("#fw-open").addEventListener("click", () => { if (!Player.current) return; if (!S.byId[Player.current]) { location.hash = "#decouverte"; return; } location.hash = "#" + Player.current; if (S.current?.id !== Player.current) load(Player.current, "fiche"); showView("booth"); $("#now-playing").scrollIntoView({ behavior: "smooth", block: "center" }); });
     $("#lib-search").addEventListener("input", () => renderLibrary());
     $("#btn-play").addEventListener("click", () => Pulse.toggle());
     $("#engine-seg").addEventListener("click", (e) => { const b = e.target.closest("button"); if (b) setEngine(b.dataset.engine); });
@@ -761,12 +762,12 @@
     },
     // opts.queue : liste d'identifiants (station du métro, lecture d'un livre…)
     play(id, opts = {}) {
-      const t = S.byId[id]; if (!t) return;
+      const t = item(id); if (!t) return;
       if (!t.youtube?.length) { toast(_t("toast.noVideo")); return; }
       if ("queue" in opts) this.queue = opts.queue;
       this.current = id; this.candidate = 0;
       if (Pulse.playing) Pulse.toggle();                     // exclusion sonore : la musique coupe le pulse
-      if (S.current?.id !== id) load(id, "écoute", { noScroll: true });
+      if (S.byId[id] && S.current?.id !== id) load(id, "écoute", { noScroll: true });
       $("#yt-empty").hidden = true;
       if ($("#fw").hidden) { $("#fw").hidden = false; window.dispatchEvent(new Event("resize")); }
       if ($("#fw").dataset.size === "mini" && !Player.userMini) setFwSize("normal");
@@ -775,7 +776,7 @@
       this.cue(id, true);
     },
     cue(id, autoplay) {
-      const vid = S.byId[id].youtube[this.candidate];
+      const vid = item(id).youtube[this.candidate];
       if (autoplay) this.yt.loadVideoById(vid); else this.yt.cueVideoById(vid);
     },
     onState(st) {
@@ -787,7 +788,7 @@
       if (st === 0) this.next();
     },
     onError() {
-      const t = S.byId[this.current];
+      const t = item(this.current);
       if (t && this.candidate + 1 < t.youtube.length) { this.candidate++; this.cue(this.current, true); toast(_t("toast.altSource")); renderFw(); }
       else { toast(_t("toast.skip")); this.next(); }
     },
@@ -804,7 +805,7 @@
       window.dispatchEvent(new Event("resize"));
     },
     list() {
-      const base = this.queue ? this.queue.map((id) => S.byId[id]) : filteredTracks().sort((a, b) => a.year - b.year);
+      const base = this.queue ? this.queue.map(item) : filteredTracks().sort((a, b) => a.year - b.year);
       return base.filter((t) => t?.youtube?.length);
     },
     step(dir) {
@@ -825,7 +826,14 @@
   };
 
   function renderFw() {
-    const t = S.byId[Player.current]; if (!t) return;
+    const t = item(Player.current); if (!t) return;
+    if (!S.byId[t.id]) {   // découverte hors catalogue : pas de BPM ni de clé
+      $("#fw").style.setProperty("--fc", "var(--accent)");
+      $("#fw-info").replaceChildren(h("span", { class: "fw-title" }, t.title), h("span", { class: "fw-artist" }, t.artist || ""),
+        h("span", { class: "fw-meta" }, [_t("disc.kind." + t.kind), t.year].filter(Boolean).join(" · "),
+          Player.queue ? _t("fw.queue", { i: Player.list().findIndex((x) => x.id === t.id) + 1, n: Player.list().length }) : ""));
+      $("#fw-open").disabled = false; return;
+    }
     const g = S.genreById[t.genre];
     $("#fw").style.setProperty("--fc", g.color);
     $("#fw-info").replaceChildren(
@@ -841,12 +849,12 @@
       const on = b.dataset.play === Player.current;
       b.classList.toggle("on", on);
       b.textContent = on && Player.playing ? "⏸" : "▶";
-      b.setAttribute("aria-label", _t(on && Player.playing ? "play.pause" : "play.listen", { t: S.byId[b.dataset.play]?.title || "" }));
+      b.setAttribute("aria-label", _t(on && Player.playing ? "play.pause" : "play.listen", { t: item(b.dataset.play)?.title || "" }));
     }
   }
   // bouton ▶ réutilisable (Bac, métro, modales)
   function playBtn(id, queue) {
-    const t = S.byId[id];
+    const t = item(id);
     return h("button", { class: "play-mini", "data-play": id, disabled: !t?.youtube?.length, "aria-label": _t("play.listen", { t: t?.title || "" }),
       onclick: (e) => { e.stopPropagation(); Player.current === id ? Player.toggle() : Player.play(id, { queue: queue || null }); } },
       Player.current === id && Player.playing ? "⏸" : "▶");
@@ -868,7 +876,7 @@
   }
 
   // ---------- VUES (Booth / Plan du Métro / Bibliothèque) ----------
-  const VIEWS = ["booth", "metro", "bibliotheque"];
+  const VIEWS = ["booth", "metro", "decouverte", "bibliotheque"];
   let view = "metro";
   function initialView() {
     const hsh = decodeURIComponent(location.hash.slice(1)), base = hsh.split(/[?/]/)[0];
@@ -882,6 +890,7 @@
     for (const el of document.querySelectorAll("[data-view]")) el.hidden = el.dataset.view !== v;
     for (const a of document.querySelectorAll("[data-view-link]")) a.toggleAttribute("aria-current", a.dataset.viewLink === v), a.dataset.viewLink === v && a.setAttribute("aria-current", "page");
     if (v === "bibliotheque") renderLibrary();
+    if (v === "decouverte") renderDiscovery();
     window.dispatchEvent(new CustomEvent("hi:view", { detail: v }));
     if (focus) { $("#views").focus({ preventScroll: true }); window.scrollTo({ top: 0 }); }
   }
@@ -919,6 +928,61 @@
     }) : [h("p", { class: "empty" }, _t("lib.empty"))]));
   }
 
+  // ---------- DÉCOUVERTE (« En ce moment » : écoutes et lectures du moment) ----------
+  // data/decouvertes.json : entrées datées. Un disque peut renvoyer à une fiche du catalogue (track)
+  // ou porter ses propres vidéos (youtube) : il devient alors jouable sous l'identifiant « d:<id> ».
+  const DISC = { kind: "all" };
+  const DISC_KINDS = ["nouveau", "redecouverte", "lecture", "film", "mix"];
+  async function loadJson(name) {
+    if (location.protocol !== "file:") try { const r = await fetch(`data/${name}.json`); if (r.ok) return await r.json(); } catch { /* repli ci-dessous */ }
+    return window.HI_DATA?.[name] || null;
+  }
+  async function loadDiscovery() {
+    const [d, m] = await Promise.all([loadJson("decouvertes"), loadJson("metro")]);
+    S.stations = m?.stations || {}; S.lines = m?.lines || [];
+    S.discEntries = (d?.entries || []).filter((e) => e.id && e.date && DISC_KINDS.includes(e.kind)).sort((a, b) => b.date.localeCompare(a.date));
+    for (const e of S.discEntries) if (!e.track && e.youtube?.length) S.disc["d:" + e.id] = { ...e, id: "d:" + e.id };
+    const link = $('[data-view-link="decouverte"]'); if (link) link.hidden = !S.discEntries.length;   // rubrique masquée tant qu'elle est vide
+  }
+  const discPlayId = (e) => (e.track && S.byId[e.track]?.youtube?.length ? e.track : S.disc["d:" + e.id] ? "d:" + e.id : null);
+  function discDate(iso) {
+    try { return new Date(iso + "T12:00:00").toLocaleDateString(window.I18N.lang === "en" ? "en-GB" : "fr-FR", { day: "numeric", month: "short", year: "numeric" }); } catch { return iso; }
+  }
+  function renderDiscovery() {
+    const all = S.discEntries || [];
+    const present = DISC_KINDS.filter((k) => all.some((e) => e.kind === k));
+    $("#disc-kinds").replaceChildren(...[["all", _t("disc.all")], ...present.map((k) => [k, _t("disc.kinds." + k)])].map(([k, l]) =>
+      h("button", { class: "chip", "aria-pressed": DISC.kind === k ? "true" : "false", onclick: () => { DISC.kind = k; renderDiscovery(); } },
+        l, h("span", { class: "n" }, k === "all" ? all.length : all.filter((e) => e.kind === k).length))));
+    const items = all.filter((e) => DISC.kind === "all" || e.kind === DISC.kind);
+    const queue = items.map(discPlayId).filter(Boolean);
+    $("#disc-all").hidden = queue.length < 2;
+    $("#disc-all").textContent = _t("disc.listenAll", { n: queue.length });
+    $("#disc-all").onclick = () => Player.play(queue[0], { queue });
+    $("#disc-list").replaceChildren(...(items.length ? items.map((e) => {
+      const pid = discPlayId(e), cat = e.track && S.byId[e.track];
+      const title = e.title || cat?.title, who = e.artist || e.author || cat?.artist;
+      const meta = [e.label || cat?.label, e.year || cat?.year].filter(Boolean).join(", ");
+      const st = e.station && S.stations[e.station];
+      const line = st && S.lines.find((l) => l.stations.includes(e.station));
+      const src = e.source && S.sourceById[e.source];
+      return h("article", { class: "disc-item", id: "d-" + e.id, style: line ? `--c:${line.color}` : "" },
+        h("div", { class: "disc-date" }, h("time", { datetime: e.date }, discDate(e.date))),
+        h("div", { class: "disc-body" },
+          h("span", { class: "disc-kind" }, _t("disc.kind." + e.kind)),
+          h("div", { class: "disc-head" }, pid ? playBtn(pid, queue) : null,
+            h("h2", {}, who ? h("span", { class: "who" }, who + " — ") : null, title, meta ? h("small", {}, ` (${meta})`) : null)),
+          _f(e, "note") ? h("p", { class: "disc-note" }, _f(e, "note")) : null,
+          h("div", { class: "links" },
+            st ? h("a", { class: "chip", href: `#metro?st=${e.station}` }, h("span", { class: "dot" }), `${line ? "L" + line.num + " · " : ""}${_f(st, "name")}`) : null,
+            cat ? h("a", { class: "chip", href: "#" + cat.id }, _t("disc.toRecord")) : null,
+            src ? h("button", { class: "chip", onclick: () => openSource(src.id) }, _t("disc.toSource", { t: src.title.split(":")[0] })) : null,
+            e.link ? h("a", { class: "chip", href: e.link, target: "_blank", rel: "noopener" }, _t("disc.link")) : null),
+          e.verify?.length ? h("p", { class: "warn-b disc-verify" }, _t("disc.verify")) : null));
+    }) : [h("p", { class: "empty" }, _t("disc.empty"))]));
+    markPlaying();
+  }
+
   // ---------- INIT ----------
   async function init() {
     try {
@@ -946,6 +1010,7 @@
     for (const e of S.eras) S.eraById[e.id] = e;
     for (const m of S.machines) S.machineById[m.id] = m;
     for (const s of S.sources) S.sourceById[s.id] = s;
+    await loadDiscovery();
     $("#foot-sources").textContent = S.sources.map((s) => s.title).join(" · ");
 
     S.memory = store.get("hi.memory", []).filter((m) => S.byId[m.id]);
@@ -1003,10 +1068,12 @@
     if (Player.current) renderFw();
     markPlaying(); setFwSize($("#fw").dataset.size);
     if (view === "bibliotheque") renderLibrary();
+    if (view === "decouverte") renderDiscovery();
     if ($("#modal").open) $("#modal").close();
     $("#foot-sources").textContent = S.sources.map((s) => s.title).join(" · ");
   }
 
+  function item(id) { return S.byId[id] || S.disc[id]; }
   window.HI = { _t, _f, Player, playBtn, openMachine, openSource, showView, h, toast, store, S, recommend, camelotRelation, bpmRelation, Pulse, load, setFilter }; // debug / tests
   // manifeste PWA : seulement en HTTP(S) (en file://, le navigateur le bloque et affiche une erreur)
   if (location.protocol.startsWith("http")) { const l = document.createElement("link"); l.rel = "manifest"; l.href = "manifest.webmanifest"; document.head.append(l); }

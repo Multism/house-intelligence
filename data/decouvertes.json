@@ -1,0 +1,8 @@
+{
+  "_meta": {
+    "note": "Rubrique « En ce moment » : écoutes et lectures du moment, la plus récente en premier à l'affichage.",
+    "kinds": "nouveau | redecouverte | lecture | film | mix",
+    "fields": "id, date (AAAA-MM-JJ), kind, title, artist ou author, year, label, note, note_en, youtube [ids vérifiés], track (id d'une fiche existante), station (id du métro), source (id de la Bibliothèque), link (URL), verify [points à vérifier]"
+  },
+  "entries": []
+}
