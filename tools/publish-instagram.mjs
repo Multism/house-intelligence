@@ -131,6 +131,16 @@ if (!DRY || CHECK) {
   const lim = await graph("GET", `${IG}/content_publishing_limit`, { fields: "quota_usage,config" }).catch(() => null);
   if (lim?.data?.[0]) summary(`Quota de publication sur 24 h : ${lim.data[0].quota_usage}/${lim.data[0].config?.quota_total ?? 100}.`);
   if (CHECK) {
+    // Durée de vie du jeton : expires_at = 0 signifie « n'expire jamais » (jeton d'utilisateur système).
+    const dbg = await graph("GET", "debug_token", { input_token: TOKEN }).catch(() => null);
+    const info = dbg?.data;
+    if (info) {
+      const when = (t) => (t ? new Date(t * 1000).toISOString().slice(0, 10) : "jamais");
+      summary(`Jeton : ${info.is_valid ? "valide" : "INVALIDE"}, type ${info.type || "?"}, expire : ${when(info.expires_at)}, accès aux données jusqu'au : ${when(info.data_access_expires_at)}.`);
+      if (info.expires_at || info.data_access_expires_at) summary("⚠️ Le jeton a une date limite : le remplacer par un jeton d'utilisateur système permanent avant une longue absence.");
+    } else summary("Durée de vie du jeton : non lisible (debug_token indisponible pour ce jeton).");
+    const ahead = queueJson.posts.filter((p) => p.status === "approved").sort((a, b) => a.n - b.n);
+    summary(`Posts validés en attente : ${ahead.length}${ahead.length ? ` (dernier : n° ${ahead.at(-1).n} « ${ahead.at(-1).slug} »${ahead.at(-1).not_before ? `, prévu le ${ahead.at(-1).not_before}` : ""})` : ""}.`);
     summary(post ? `Prochain post approuvé : n° ${post.n} « ${post.slug} ».` : "Aucun post approuvé dans la file pour l'instant.");
     process.exit(0);
   }
