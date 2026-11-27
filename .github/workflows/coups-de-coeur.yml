@@ -11,8 +11,11 @@ on:
     branches: [main]
     paths: [data/decouvertes.json]
   schedule:
-    # Passage quotidien vers 13 h (Paris) : publie un coup de cœur resté en attente (limite d'un par jour, échec la veille).
-    - cron: "0 12 * * *"
+    # Deux passages quotidiens, vers 13 h 43 et 18 h 37 (Paris), décalés de l'heure pile que GitHub saute souvent.
+    # Ils publient un coup de cœur resté en attente (limite d'un par jour, push sans effet, échec précédent) ;
+    # le second rattrape le premier s'il n'a pas tourné. Le script est sans effet s'il n'y a rien à faire.
+    - cron: "43 12 * * *"
+    - cron: "37 17 * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -75,3 +78,14 @@ jobs:
           git add social/posts.json
           git commit -m "Instagram : coup de cœur « ${{ steps.pub.outputs.slug }} » publié"
           for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+      - name: Vérifier qu'aucun coup de cœur n'est bloqué
+        # Filet de sécurité : un coup de cœur validé qui attend depuis plus de 2 jours fait échouer le passage,
+        # et GitHub envoie alors un e-mail d'échec au propriétaire du dépôt.
+        if: always() && github.event.inputs.mode != 'dry-run'
+        run: |
+          node -e '
+            const { posts } = JSON.parse(require("fs").readFileSync("social/posts.json", "utf8"));
+            const limit = new Date(Date.now() - 2 * 86400e3).toISOString().slice(0, 10);
+            const stuck = posts.filter((p) => p.channel === "coup-de-coeur" && p.status === "approved" && (p.not_before || "") < limit);
+            if (stuck.length) { console.log("::error::Coup de cœur bloqué depuis plus de 2 jours : " + stuck.map((p) => p.slug).join(", ")); process.exit(1); }
+            console.log("Aucun coup de cœur bloqué.");'

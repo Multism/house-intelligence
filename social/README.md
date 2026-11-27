@@ -27,7 +27,7 @@ Chaque nouvelle entrée de `data/decouvertes.json` devient un post « Current fa
 et la date, légende à la première personne qui reprend la note telle quelle. **Ces posts partent sans validation**, hors calendrier.
 
 - Déclencheur : `.github/workflows/coups-de-coeur.yml`, à chaque push sur `main` qui modifie `data/decouvertes.json`,
-  plus un passage quotidien vers 13 h (Paris) pour un coup de cœur resté en attente.
+  plus deux passages quotidiens vers 13 h 43 et 18 h 37 (Paris) pour un coup de cœur resté en attente. Un coup de cœur bloqué depuis plus de 2 jours fait échouer le passage, et GitHub envoie un e-mail d'échec.
 - `tools/coups-de-coeur.mjs` ajoute le post à `posts.json` (`"channel": "coup-de-coeur"`), le workflow rend les images
   (`node tools/instagram.mjs media <n>`), les pousse, puis `node tools/publish-instagram.mjs --coup-de-coeur` publie.
 - Garde-fous : un coup de cœur par jour au plus (les suivants sortent les jours d'après) ; rien ne part sans titre,
