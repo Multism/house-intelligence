@@ -924,8 +924,8 @@
       "b": "qweenbeat",
       "title": "« The Ha Dance » → beats ballroom",
       "title_en": "\"The Ha Dance\" → ballroom beats",
-      "text": "La culture ballroom est bien plus ancienne que le Sound Factory : les balls des personnes queer et trans noires et latines remontent aux années 1960. Ce qui passe d'une ligne à l'autre, c'est un langage musical. « The Ha Dance » de Masters at Work (1991), issu de la même scène house new-yorkaise que le Sound Factory, devient un classique des balls. Au milieu des années 2000, la relecture de Vjuan Allure, le « Allure Ha », ouvre la voie aux beats ballroom actuels, ceux de MikeQ et de Qween Beat.",
-      "text_en": "Ballroom culture is much older than the Sound Factory: balls thrown by Black and Latino queer and trans people go back to the 1960s. What passes from one line to the other is a musical language. Masters at Work's \"The Ha Dance\" (1991), from the same New York house scene as the Sound Factory, became a ballroom classic. In the mid-2000s, Vjuan Allure's reworking, the \"Allure Ha\", opened the way for today's ballroom beats, those of MikeQ and Qween Beat.",
+      "text": "Héritière des drag balls documentés dès la fin du XIXe siècle, la culture ballroom contemporaine se structure à New York à partir de la fin des années 1960. En 1991, The Ha Dance de Masters At Work fournit une matrice sonore que les artistes ballroom se réapproprient. Au cours des années 2000, Vjuan Allure transforme ce matériau avec Allure Ha. MikeQ, Qween Beat et les générations suivantes prolongent et renouvellent ce langage musical. Cette filiation concerne l'évolution de la musique ballroom, et non l'origine de la communauté qui la produit.",
+      "text_en": "Heir to the drag balls documented as early as the late 19th century, contemporary ballroom culture took shape in New York from the late 1960s. In 1991, Masters At Work's The Ha Dance provided a sonic template that ballroom artists made their own. During the 2000s, Vjuan Allure transformed this material with Allure Ha. MikeQ, Qween Beat and the generations that followed have extended and renewed this musical language. This lineage concerns the evolution of ballroom music, not the origin of the community that makes it.",
       "kind": "filiation",
       "from": "soundfactory",
       "tracks": [
@@ -933,11 +933,12 @@
       ],
       "references": [
         "https://daily.redbullmusicacademy.com/2019/02/key-tracks-ha-dance/",
-        "https://ra.co/news/74930"
+        "https://daily.redbullmusicacademy.com/2012/02/vogue-ballroom-vivian-host/",
+        "https://ra.co/exchange/501",
+        "https://peabodyballroom.library.jhu.edu/"
       ],
       "verify": [
-        "Date du « Allure Ha » : 2000 selon le dossier, milieu des années 2000 selon Red Bull Music Academy",
-        "« Latines » : RBMA dit « black and brown »"
+        "Date d'Allure Ha : 2000 selon RA (Exchange 501) et RBMA (2012) ; milieu des années 2000 selon RBMA (Key Tracks, 2019)"
       ]
     }
   ]
