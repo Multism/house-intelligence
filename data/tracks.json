@@ -67,7 +67,7 @@
       "era": "era-1",
       "color": "#d4ff3a",
       "groove": "acid",
-      "swing": 0.0,
+      "swing": 0,
       "style": "La TB-303 qui couine et mute sur un kick sec : la basse devient voix, la piste entre en transe.",
       "style_en": "The TB-303 squealing and mutating over a dry kick: the bass becomes a voice, the floor goes into trance."
     },
@@ -97,7 +97,7 @@
       "era": "era-1",
       "color": "#5ad2ff",
       "groove": "four",
-      "swing": 0.0,
+      "swing": 0,
       "style": "Futurisme machine, nappes orchestrales et 909 implacable : la techno née de la ville post-industrielle.",
       "style_en": "Machine futurism, orchestral pads and a relentless 909: techno born of the post-industrial city."
     },
@@ -192,6 +192,16 @@
       "style_en": "Gliding log drum, constant shakers and a slow tempo: a groove that sways more than it pushes."
     },
     {
+      "id": "microhouse",
+      "name": "Microhouse & minimal",
+      "era": "era-2",
+      "color": "#b8f2e6",
+      "groove": "four",
+      "swing": 0.05,
+      "style": "Des sons minuscules découpés à l'ordinateur, des kicks feutrés et beaucoup d'espace : la house se fait miniature et la répétition devient matière.",
+      "style_en": "Tiny sounds cut up on a computer, muted kicks and lots of space: house goes miniature and repetition becomes texture."
+    },
+    {
       "id": "disco",
       "name": "Disco & proto-house",
       "era": "era-1",
@@ -232,7 +242,7 @@
       "era": "era-2",
       "color": "#9b5cff",
       "groove": "trance",
-      "swing": 0.0,
+      "swing": 0,
       "family": "cousin",
       "style": "Arpèges en spirale, montées et breaks euphoriques : la ramification européenne de la house.",
       "style_en": "Spiralling arpeggios, builds and euphoric breakdowns: house's European offshoot."
@@ -256,7 +266,7 @@
       "era": "era-3a",
       "color": "#94a3b8",
       "groove": "four",
-      "swing": 0.0,
+      "swing": 0,
       "family": "cousin",
       "style": "Kick sec, basses sourdes et nuits sans fin : la techno de Detroit réécrite à Francfort puis à Berlin.",
       "style_en": "Dry kick, muffled basslines and endless nights: Detroit techno rewritten in Frankfurt, then Berlin."
@@ -308,6 +318,17 @@
       "family": "cousin",
       "style": "Basses rondes, voix pop et radio : la deep house et le garage reviennent en tête des classements.",
       "style_en": "Round basslines, pop vocals and radio: deep house and garage return to the top of the charts."
+    },
+    {
+      "id": "broken-beat",
+      "name": "Broken beat",
+      "era": "era-2",
+      "color": "#e07a5f",
+      "groove": "breakbeat",
+      "swing": 0.08,
+      "family": "cousin",
+      "style": "West London, fin des années 1990 : jazz, soul et funk sur des rythmes cassés et syncopés, joués autant que programmés.",
+      "style_en": "West London, late 1990s: jazz, soul and funk over broken, syncopated rhythms, played as much as programmed."
     }
   ],
   "tracks": [
@@ -6303,6 +6324,594 @@
       "spotify": {
         "id": "0H1UQcJXx2oXZhDRckrHgL"
       }
+    },
+    {
+      "id": "vocalcity",
+      "title": "Vocalcity",
+      "artist": "Luomo",
+      "year": 2000,
+      "label": "Force Tracks",
+      "city": "Helsinki",
+      "city_en": "Helsinki",
+      "country": "Finlande",
+      "country_en": "Finland",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "microhouse",
+      "era": "era-2",
+      "bpm": 122,
+      "camelot_key": "8A",
+      "energy": 5,
+      "gear": [
+        "DAW",
+        "Delay",
+        "Voix"
+      ],
+      "gear_en": [
+        "DAW",
+        "Delay",
+        "Vocals"
+      ],
+      "construction": "Six longs morceaux (de 10 à 16 minutes) où des fragments de voix, de basse et d'accords sont découpés, retardés et recousus. La voix de « Market » n'arrive qu'après la cinquième minute : l'album prend le temps de la deep house.",
+      "construction_en": "Six long tracks (10 to 16 minutes) in which fragments of voice, bass and chords are cut up, delayed and stitched back together. The vocal on \"Market\" only arrives after the fifth minute: the album takes deep house's time.",
+      "producer_origins": "Luomo est l'alias house de Sasu Ripatti, producteur finlandais déjà connu pour l'ambient dub de Vladislav Delay. L'album sort en mai 2000 sur Force Tracks (FT14), sous-label du réseau Force Inc. de Francfort. La chanteuse Johanna Iivanainen y prête sa voix.",
+      "producer_origins_en": "Luomo is the house alias of Sasu Ripatti, a Finnish producer already known for the dub ambient of Vladislav Delay. The album came out in May 2000 on Force Tracks (FT14), a sub-label of Frankfurt's Force Inc. network. Singer Johanna Iivanainen lends her voice.",
+      "club_sociology": "Album de référence de la microhouse : Resident Advisor le classe 13e meilleur album des années 2000 et Pitchfork lui donne 9,7/10 en 2005. Ripatti a pourtant dit en 2010 que c'était son album le moins aimé.",
+      "club_sociology_en": "A reference album of microhouse: Resident Advisor ranked it the 13th best album of the 2000s and Pitchfork gave it 9.7/10 in 2005. Ripatti nonetheless said in 2010 it was his least favourite album.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Rétrospective Resident Advisor (2020).",
+        "note_en": "Resident Advisor retrospective (2020)."
+      },
+      "why_this_record": "La preuve que la microhouse pouvait chanter : de la house vocale fabriquée avec les outils de l'ordinateur.",
+      "why_this_record_en": "Proof that microhouse could sing: vocal house built with the tools of the computer.",
+      "tags": [
+        "europe",
+        "software",
+        "deep"
+      ],
+      "youtube": [
+        "KDXcdFIdOZg",
+        "W8_D2etw8uA"
+      ],
+      "references": [
+        "https://en.wikipedia.org/wiki/Vocalcity",
+        "https://ra.co/reviews/25099"
+      ],
+      "verify": [
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "himawari",
+      "title": "Himawari",
+      "artist": "Swayzak",
+      "year": 2000,
+      "label": "The Medicine Label",
+      "city": "Londres",
+      "city_en": "London",
+      "country": "Royaume-Uni",
+      "country_en": "United Kingdom",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "tech-house",
+      "era": "era-2",
+      "bpm": 124,
+      "camelot_key": "5A",
+      "energy": 5,
+      "gear": [
+        "Synthés",
+        "Delay",
+        "Voix"
+      ],
+      "gear_en": [
+        "Synths",
+        "Delay",
+        "Vocals"
+      ],
+      "construction": "Douze morceaux de tech house aux basses dub et aux textures minimales. « Illegal », qui ouvre l'album, est porté par une voix parlée.",
+      "construction_en": "Twelve tech house tracks with dub basslines and minimal textures. \"Illegal\", the opener, is carried by a spoken voice.",
+      "producer_origins": "Swayzak est le duo londonien de David Brown et James S. Taylor, actif depuis 1993. Après « Snowboarding in Argentina » (1998), « Himawari » est leur deuxième album, sorti en 2000.",
+      "producer_origins_en": "Swayzak is the London duo of David Brown and James S. Taylor, active since 1993. After \"Snowboarding in Argentina\" (1998), \"Himawari\" is their second album, released in 2000.",
+      "club_sociology": "Le duo fait le lien entre la tech house britannique et la minimale allemande : ses albums suivants sortent chez !K7, à Berlin.",
+      "club_sociology_en": "The duo bridges British tech house and German minimal: its following albums came out on !K7, in Berlin.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Discographie de Swayzak (Wikipedia).",
+        "note_en": "Swayzak discography (Wikipedia)."
+      },
+      "why_this_record": "Le chaînon entre la tech house de Londres et la minimale de Berlin.",
+      "why_this_record_en": "The missing link between London tech house and Berlin minimal.",
+      "tags": [
+        "uk",
+        "dub",
+        "europe"
+      ],
+      "youtube": [
+        "fOviivyGRHc",
+        "EanAeyI_-x4"
+      ],
+      "references": [
+        "https://en.wikipedia.org/wiki/Himawari_(album)",
+        "https://en.wikipedia.org/wiki/Swayzak"
+      ],
+      "verify": [
+        "Label d'origine : The Medicine Label selon Qobuz et la discographie Wikipedia, Sanctuary selon la page de l'album",
+        "La voix de « Illegal » est attribuée à Benjamin Zephaniah par un titre YouTube, non confirmé par une source",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "paradigm",
+      "title": "Paradigm",
+      "artist": "Osunlade",
+      "year": 2001,
+      "label": "Soul Jazz Records",
+      "city": "New York",
+      "city_en": "New York",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "deep",
+      "era": "era-2",
+      "bpm": 120,
+      "camelot_key": "10A",
+      "energy": 5,
+      "gear": [
+        "Instruments live",
+        "Percussions",
+        "Voix"
+      ],
+      "gear_en": [
+        "Live instruments",
+        "Percussion",
+        "Vocals"
+      ],
+      "construction": "Un double album de deep house spirituelle où les percussions afro-latines, les claviers et les voix (dont Wunmi sur « Rader Du ») priment sur les machines. Les titres empruntent au vocabulaire yoruba (« Oxossi Da Focha Branca », « 2thousandcowries »).",
+      "construction_en": "A double album of spiritual deep house in which Afro-Latin percussion, keys and voices (including Wunmi on \"Rader Du\") take precedence over the machines. Titles borrow from Yoruba vocabulary (\"Oxossi Da Focha Branca\", \"2thousandcowries\").",
+      "producer_origins": "Osunlade, né à Saint-Louis (Missouri) en 1969, a composé pour Sesame Street et travaillé avec Patti LaBelle avant de fonder Yoruba Records à New York. Il est prêtre de la religion yoruba d'Ifá. « Paradigm » sort en 2001 sur le label londonien Soul Jazz (SJRLP52).",
+      "producer_origins_en": "Osunlade, born in St. Louis, Missouri, in 1969, composed for Sesame Street and worked with Patti LaBelle before founding Yoruba Records in New York. He is a priest of the Yoruba religion of Ifá. \"Paradigm\" came out in 2001 on London's Soul Jazz label (SJRLP52).",
+      "club_sociology": "Le disque appartient à la deep house « spirituelle » new-yorkaise du début des années 2000, qui relie la house aux musiques et aux religions de la diaspora africaine.",
+      "club_sociology_en": "The record belongs to New York's early-2000s \"spiritual\" deep house, which links house to the musics and religions of the African diaspora.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Biographie d'Osunlade (Wikipedia).",
+        "note_en": "Osunlade biography (Wikipedia)."
+      },
+      "why_this_record": "La deep house comme pratique spirituelle de la diaspora.",
+      "why_this_record_en": "Deep house as a spiritual practice of the diaspora.",
+      "tags": [
+        "us",
+        "deep",
+        "diaspora",
+        "soul"
+      ],
+      "youtube": [
+        "hjqPNbuB3d0",
+        "JaZBTfK14RA"
+      ],
+      "references": [
+        "https://en.wikipedia.org/wiki/Osunlade"
+      ],
+      "verify": [
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "shapin-fluid",
+      "title": "Shapin' Fluid",
+      "artist": "Afronaught",
+      "year": 2001,
+      "label": "Apollo",
+      "city": "Londres",
+      "city_en": "London",
+      "country": "Royaume-Uni",
+      "country_en": "United Kingdom",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "broken-beat",
+      "era": "era-2",
+      "bpm": 125,
+      "camelot_key": "7A",
+      "energy": 6,
+      "gear": [
+        "Breakbeats",
+        "Instruments live",
+        "Synthés"
+      ],
+      "gear_en": [
+        "Breakbeats",
+        "Live instruments",
+        "Synths"
+      ],
+      "construction": "Des rythmes cassés et syncopés, des claviers jazz et des basses funk : un album de broken beat avec des invités de la scène, dont Kaidi Tatham et Beaujolais.",
+      "construction_en": "Broken, syncopated rhythms, jazz keys and funk basslines: a broken beat album with guests from the scene, including Kaidi Tatham and Beaujolais.",
+      "producer_origins": "Afronaught est l'alias principal d'Orin Walters, l'un des moteurs de la scène broken beat de West London et membre fondateur du collectif Bugz in the Attic. Il a vécu à Chicago au milieu des années 1990. Ce premier album sort en 2001 sur Apollo, sous-label de R&S.",
+      "producer_origins_en": "Afronaught is the main alias of Orin Walters, one of the driving forces of West London's broken beat scene and a founding member of the Bugz in the Attic collective. He lived in Chicago in the mid-1990s. This debut album came out in 2001 on Apollo, an R&S sub-label.",
+      "club_sociology": "Le broken beat naît dans les studios et les clubs de West London, une scène noire britannique qui mélange jazz, soul, house et drum and bass.",
+      "club_sociology_en": "Broken beat was born in West London's studios and clubs, a Black British scene mixing jazz, soul, house and drum and bass.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Biographie NTS d'Afronaught.",
+        "note_en": "NTS biography of Afronaught."
+      },
+      "why_this_record": "West London casse le kick de la house et y fait entrer le jazz.",
+      "why_this_record_en": "West London breaks the house kick and lets jazz in.",
+      "tags": [
+        "uk",
+        "black-british",
+        "jazz"
+      ],
+      "youtube": [
+        "KyUHDtueV5E",
+        "jFBsqhl06b4"
+      ],
+      "references": [
+        "https://www.nts.live/artists/6714-afronaught",
+        "https://ondarock.com/miscellaneous/brokenbeat/"
+      ],
+      "verify": [
+        "Numéro de catalogue Apollo",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "my-way",
+      "title": "My Way",
+      "artist": "Akufen",
+      "year": 2002,
+      "label": "Force Inc. Music Works",
+      "city": "Montréal",
+      "city_en": "Montreal",
+      "country": "Canada",
+      "country_en": "Canada",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "microhouse",
+      "era": "era-2",
+      "bpm": 126,
+      "camelot_key": "11A",
+      "energy": 6,
+      "gear": [
+        "Sampler",
+        "DAW"
+      ],
+      "gear_en": [
+        "Sampler",
+        "DAW"
+      ],
+      "construction": "Plus de 2 000 fragments de radio captés au hasard, découpés en éclats d'une fraction de seconde puis replacés sur la grille house. La technique est souvent appelée « microsampling ».",
+      "construction_en": "More than 2,000 fragments of radio caught at random, cut into slivers of a fraction of a second and set back on the house grid. The technique is often called \"microsampling\".",
+      "producer_origins": "Akufen est le Montréalais Marc Leclair. « My Way », son premier album, sort le 14 mai 2002 chez Force Inc. à Francfort. Le single « Deck the House » le précède.",
+      "producer_origins_en": "Akufen is Montreal's Marc Leclair. \"My Way\", his debut album, came out on 14 May 2002 on Force Inc. in Frankfurt. The single \"Deck the House\" preceded it.",
+      "club_sociology": "Resident Advisor le classe 12e meilleur album des années 2000. L'album montre que la microhouse n'est pas seulement allemande : Montréal, avec le festival Mutek, en devient un pôle.",
+      "club_sociology_en": "Resident Advisor ranked it the 12th best album of the 2000s. The album shows that microhouse was not only German: Montreal, with the Mutek festival, became a hub.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Fiche de l'album (Wikipedia).",
+        "note_en": "Album entry (Wikipedia)."
+      },
+      "why_this_record": "Le sample devient poussière : la radio entière passe dans une boucle house.",
+      "why_this_record_en": "The sample turns to dust: a whole radio dial fits into a house loop.",
+      "tags": [
+        "sampler",
+        "software"
+      ],
+      "youtube": [
+        "w7nNF0FJ3-I"
+      ],
+      "references": [
+        "https://en.wikipedia.org/wiki/My_Way_(Akufen_album)"
+      ],
+      "verify": [
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "detroit-beatdown",
+      "title": "Detroit Beatdown Volume One",
+      "artist": "Various Artists",
+      "year": 2002,
+      "label": "Third Ear Recordings",
+      "city": "Detroit",
+      "city_en": "Detroit",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "detroit",
+      "era": "era-2",
+      "bpm": 118,
+      "camelot_key": "4A",
+      "energy": 5,
+      "gear": [
+        "Sampler",
+        "Instruments live"
+      ],
+      "gear_en": [
+        "Sampler",
+        "Live instruments"
+      ],
+      "construction": "Quatorze morceaux inédits de deep house lente et soul, entre samples et instruments joués : Malik Alston, Alton Miller, Theo Parrish (« Falling Up »), Rick Wilhite, Norm Talley, Mike Clark, Delano Smith, Eddie Fowlkes…",
+      "construction_en": "Fourteen previously unreleased tracks of slow, soulful deep house, between samples and played instruments: Malik Alston, Alton Miller, Theo Parrish (\"Falling Up\"), Rick Wilhite, Norm Talley, Mike Clark, Delano Smith, Eddie Fowlkes…",
+      "producer_origins": "La compilation sort le 18 novembre 2002 sur le label britannique Third Ear (3E 001CD), en double CD avec un graphisme de The Designers Republic. Elle réunit la deuxième génération de Detroit.",
+      "producer_origins_en": "The compilation came out on 18 November 2002 on the British label Third Ear (3E 001CD), as a double CD with artwork by The Designers Republic. It gathers Detroit's second generation.",
+      "club_sociology": "Elle donne un nom, « beatdown », à une house de Detroit plus lente, plus noire et plus soul que la techno exportée. Le fondateur de Third Ear, Guy McCreery, en a expliqué le terme.",
+      "club_sociology_en": "It gave a name, \"beatdown\", to a Detroit house that was slower, Blacker and more soulful than the exported techno. Third Ear founder Guy McCreery has explained the term.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "source": "techno-rebels",
+        "note": "Detroit après la première vague techno.",
+        "note_en": "Detroit after the first techno wave."
+      },
+      "why_this_record": "Detroit ralentit et revendique sa soul : le beatdown reçoit son nom.",
+      "why_this_record_en": "Detroit slows down and claims its soul: beatdown gets its name.",
+      "tags": [
+        "us",
+        "deep",
+        "soul"
+      ],
+      "youtube": [
+        "3llOr2k_MTM",
+        "dpzALooUqj0"
+      ],
+      "references": [
+        "https://musicismysanctuary.com/detroit-beatdown-compilation-2002",
+        "https://forcedexposure.com/Catalog/3E.001CD.html"
+      ],
+      "verify": [
+        "Rôle exact de Mike Clark dans la compilation (compilateur ?)",
+        "BPM et clé : valeurs indicatives pour une compilation"
+      ],
+      "verified": false
+    },
+    {
+      "id": "alcachofa",
+      "title": "Alcachofa",
+      "artist": "Ricardo Villalobos",
+      "year": 2003,
+      "label": "Playhouse",
+      "city": "Francfort",
+      "city_en": "Frankfurt",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "microhouse",
+      "era": "era-2",
+      "bpm": 124,
+      "camelot_key": "2A",
+      "energy": 5,
+      "gear": [
+        "Percussions",
+        "DAW",
+        "Voix"
+      ],
+      "gear_en": [
+        "Percussion",
+        "DAW",
+        "Vocals"
+      ],
+      "construction": "Des pistes longues aux percussions dub et sinueuses, où le rythme devient mélodie. « Easy Lee » part d'une voix au vocoder pour devenir un long groove funk minimal.",
+      "construction_en": "Long tracks with dubby, winding percussion, where rhythm turns into melody. \"Easy Lee\" starts from a vocoded voice and becomes a long minimal funk groove.",
+      "producer_origins": "Ricardo Villalobos, né au Chili et arrivé enfant en Allemagne, publie ce premier album le 19 septembre 2003 sur Playhouse, label de Francfort, sept ans après son premier maxi.",
+      "producer_origins_en": "Ricardo Villalobos, born in Chile and brought to Germany as a child, released this debut album on 19 September 2003 on Playhouse, a Frankfurt label, seven years after his first 12\".",
+      "club_sociology": "Resident Advisor l'a classé premier album des années 2000. Villalobos devient ensuite l'une des figures des longues nuits minimales de Berlin.",
+      "club_sociology_en": "Resident Advisor ranked it the number one album of the 2000s. Villalobos then became one of the figures of Berlin's long minimal nights.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "« Records Revisited » (HHV Mag).",
+        "note_en": "\"Records Revisited\" (HHV Mag)."
+      },
+      "why_this_record": "L'album qui fait de la minimale un art d'auteur.",
+      "why_this_record_en": "The album that turned minimal into auteur work.",
+      "tags": [
+        "europe",
+        "software"
+      ],
+      "youtube": [
+        "GUDS0GhDE2U",
+        "EAxI2YtuxTc"
+      ],
+      "references": [
+        "https://en.wikipedia.org/wiki/Alcachofa_(album)",
+        "https://www.hhv-mag.com/feature/records-revisited-ricardo-villalobos-alcachofa/?lang=en"
+      ],
+      "verify": [
+        "Numéro de catalogue Playhouse",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "esta-hermosa-cancion",
+      "title": "Esta Hermosa Cancion",
+      "artist": "Abicah Soul meets Glenn Underground",
+      "year": 2003,
+      "label": "Moods & Grooves",
+      "city": "Chicago",
+      "city_en": "Chicago",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "deep",
+      "era": "era-2",
+      "bpm": 122,
+      "camelot_key": "9A",
+      "energy": 5,
+      "gear": [
+        "Percussions",
+        "Instruments live"
+      ],
+      "gear_en": [
+        "Percussion",
+        "Live instruments"
+      ],
+      "construction": "Un morceau léger et percussif, avec des claviers mélodiques et un solo joué par Glenn Underground. La face B est plus latine.",
+      "construction_en": "A light, percussive track with melodic keys and a live solo by Glenn Underground. The flip is more Latin-inspired.",
+      "producer_origins": "Abicah Soul est l'alias du Chicagoan DJ Stax. Glenn Underground, figure de la deep house jazz de Chicago (Strictly Jaz Unit avec Boo Williams, Peacefrog, Guidance), apprend le DJing auprès de son oncle et la production en autodidacte. Le maxi sort en mai 2003 sur Moods & Grooves (MG 021), label deep house de Detroit dirigé par Mike Grant.",
+      "producer_origins_en": "Abicah Soul is the alias of Chicago's DJ Stax. Glenn Underground, a figure of Chicago's jazzy deep house (Strictly Jaz Unit with Boo Williams, Peacefrog, Guidance), learned to DJ from his uncle and taught himself production. The 12\" came out in May 2003 on Moods & Grooves (MG 021), a Detroit deep house label run by Mike Grant.",
+      "club_sociology": "Ce maxi relie Chicago et Detroit au moment où la deep house noire américaine circule surtout par le vinyle et les disquaires européens.",
+      "club_sociology_en": "This 12\" connects Chicago and Detroit at a time when Black American deep house circulated mostly through vinyl and European record shops.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Fiche Rush Hour (2003).",
+        "note_en": "Rush Hour listing (2003)."
+      },
+      "why_this_record": "La deep house jazz de Chicago, jouée à la main, en pleine ère de la minimale.",
+      "why_this_record_en": "Chicago's jazzy deep house, played by hand, in the middle of the minimal era.",
+      "tags": [
+        "us",
+        "deep",
+        "jazz"
+      ],
+      "youtube": [
+        "Dv44I6WjpLY"
+      ],
+      "references": [
+        "https://www.rushhour.nl/record/vinyl/esta-hermosa-cancion",
+        "https://de.ra.co/labels/1237",
+        "https://daily.bandcamp.com/lifetime-achievement/glenn-underground-lifetime-achievement"
+      ],
+      "verify": [
+        "Crédit exact : « Abicah Soul » (Rush Hour) ou « Abicah Soul Meets Glenn Underground » (Discogs)",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "the-meaning",
+      "title": "The Meaning",
+      "artist": "Melchior Productions",
+      "year": 2004,
+      "label": "Playhouse",
+      "city": "Berlin",
+      "city_en": "Berlin",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "microhouse",
+      "era": "era-2",
+      "bpm": 123,
+      "camelot_key": "6A",
+      "energy": 4,
+      "gear": [
+        "DAW",
+        "Piano",
+        "Percussions"
+      ],
+      "gear_en": [
+        "DAW",
+        "Piano",
+        "Percussion"
+      ],
+      "construction": "Onze morceaux de microhouse qui swinguent, sans hâte, avec des variations discrètes : des charleys qui passent de fermés à ouverts, des touches de piano jazz, une mélodie proche de la flûte. « It's Coming » clôt l'album sur neuf minutes.",
+      "construction_en": "Eleven swinging, unhurried microhouse cuts with discreet variations: hi-hats that move from closed to open, touches of jazz piano, a flute-like melody. \"It's Coming\" closes the album over nine minutes.",
+      "producer_origins": "Thomas Melchior, installé à Berlin dans l'entourage de Perlon, a fait ses débuts sur Trelik et Playhouse. Avec Baby Ford (Peter Adshead), il a formé Soul Capsule, auteur de « Lady Science » (Trelik, 1999). « The Meaning » est son premier album solo pour Playhouse, en 2004.",
+      "producer_origins_en": "Thomas Melchior, based in Berlin within the Perlon circle, started out on Trelik and Playhouse. With Baby Ford (Peter Adshead), he formed Soul Capsule, behind \"Lady Science\" (Trelik, 1999). \"The Meaning\" is his first solo album for Playhouse, in 2004.",
+      "club_sociology": "L'album appartient au cercle Perlon et Playhouse qui fait de la house minimale une musique d'after, longue et hypnotique.",
+      "club_sociology_en": "The album belongs to the Perlon and Playhouse circle that turned minimal house into long, hypnotic afterparty music.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Critique de Textura (octobre 2004).",
+        "note_en": "Textura review (October 2004)."
+      },
+      "why_this_record": "La deep house racontée à voix basse : le swing de la minimale.",
+      "why_this_record_en": "Deep house told in a whisper: the swing of minimal.",
+      "tags": [
+        "europe",
+        "deep",
+        "jazz"
+      ],
+      "youtube": [
+        "PNfAS_cCew4",
+        "aUqcULpeoSw"
+      ],
+      "references": [
+        "https://www.textura.org/archives/m/melchiorreview.htm",
+        "https://fabriclondon.com/posts/in-profile-a-potted-history-of-thomas-melchior",
+        "https://de.ra.co/dj/soulcapsule"
+      ],
+      "verify": [
+        "Numéro de catalogue (PLAYHCD 011 selon un disquaire) et date exacte (14 juin 2004 selon un disquaire)",
+        "Origine de Thomas Melchior (avant Berlin)",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "id": "to-beach-or-not-to-beach",
+      "title": "To Beach Or Not To Beach",
+      "artist": "Copacabannark",
+      "year": 2004,
+      "label": "Perlon",
+      "city": "Paris",
+      "city_en": "Paris",
+      "country": "France",
+      "country_en": "France",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "microhouse",
+      "era": "era-2",
+      "bpm": 124,
+      "camelot_key": "1A",
+      "energy": 5,
+      "gear": [
+        "Sampler",
+        "Guitare (sample)"
+      ],
+      "gear_en": [
+        "Sampler",
+        "Guitar (sample)"
+      ],
+      "construction": "Un maxi qui mêle un morceau downtempo haché (« Hip Hop »), des pistes latines et « Garden Parade », remixé par Dandy Jack.",
+      "construction_en": "A 12\" mixing a choppy downtempo track (\"Hip Hop\"), Latin-flavoured cuts and \"Garden Parade\", remixed by Dandy Jack.",
+      "producer_origins": "Copacabannark est le duo des Parisiens Ark (Guillaume Berroyer) et Cabanne, guitariste de jazz de formation et directeur du label Telegraph. Leur collaboration commence en 2001, avec un premier maxi sur Perlon (PERL 25). « To Beach Or Not To Beach » (PERL 041) sort en 2004.",
+      "producer_origins_en": "Copacabannark is the duo of Parisians Ark (Guillaume Berroyer) and Cabanne, a jazz-trained guitarist and director of the Telegraph label. Their collaboration began in 2001, with a first 12\" on Perlon (PERL 25). \"To Beach Or Not To Beach\" (PERL 041) came out in 2004.",
+      "club_sociology": "Paris a sa propre scène minimale, autour des labels Logistic et Telegraph, puis de la soirée Concrete, dont Cabanne est résident. Perlon, label allemand, la fait circuler.",
+      "club_sociology_en": "Paris had its own minimal scene, around the Logistic and Telegraph labels, then the Concrete party, where Cabanne was a resident. Perlon, a German label, carried it abroad.",
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "archive_ref": {
+        "note": "Discographie officielle d'Ark.",
+        "note_en": "Ark's official discography."
+      },
+      "why_this_record": "La minimale française, entre humour et percussions latines.",
+      "why_this_record_en": "French minimal, between humour and Latin percussion.",
+      "tags": [
+        "europe",
+        "sample"
+      ],
+      "youtube": [
+        "ZdmELuYnzlk"
+      ],
+      "references": [
+        "http://www.djouls.com/ark/discog_singl_copacabannar2.htm",
+        "https://mutek.org/en/artists/copacabannark",
+        "https://www.fabriclondon.com/posts/a-quick-chat-with-copacabannark"
+      ],
+      "verify": [
+        "Mois de sortie",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
     }
   ]
 }
