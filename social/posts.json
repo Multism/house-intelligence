@@ -759,6 +759,18 @@
       "not_before": "2027-02-05",
       "note": "réserve (début février, ou rattrapage si un créneau a échoué)",
       "approved_note": "lot 3 et suivants validés par Vovotte le 27/11/2026 (« tout est validé »)"
+    },
+    {
+      "n": 33,
+      "slug": "coup-de-coeur-soul-of-hex-jet-set",
+      "kind": "decouverte",
+      "decouverte": "soul-of-hex-jet-set",
+      "channel": "coup-de-coeur",
+      "variant": 1,
+      "status": "approved",
+      "not_before": "2026-11-27",
+      "source_hash": "445f8c2a1332",
+      "note": "Généré automatiquement depuis data/decouvertes.json ; publié sans validation (accord de Vovotte du 27/11/2026)."
     }
   ]
 }

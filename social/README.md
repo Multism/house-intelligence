@@ -21,6 +21,21 @@ Types de post : `track` (disque), `feature` (fonction du site), `machine` (fiche
 Lancement à la main : GitHub → Actions → Instagram → Run workflow, avec `check` (tester le jeton),
 `dry-run` (voir ce qui partirait) ou `publish`.
 
+## Coups de cœur (rubrique « En ce moment »)
+
+Chaque nouvelle entrée de `data/decouvertes.json` devient un post « Current favourite » : style sombre avec un bandeau jaune
+et la date, légende à la première personne qui reprend la note telle quelle. **Ces posts partent sans validation**, hors calendrier.
+
+- Déclencheur : `.github/workflows/coups-de-coeur.yml`, à chaque push sur `main` qui modifie `data/decouvertes.json`,
+  plus un passage quotidien vers 13 h (Paris) pour un coup de cœur resté en attente.
+- `tools/coups-de-coeur.mjs` ajoute le post à `posts.json` (`"channel": "coup-de-coeur"`), le workflow rend les images
+  (`node tools/instagram.mjs media <n>`), les pousse, puis `node tools/publish-instagram.mjs --coup-de-coeur` publie.
+- Garde-fous : un coup de cœur par jour au plus (les suivants sortent les jours d'après) ; rien ne part sans titre,
+  artiste ou auteur et note anglaise (`note_en`), ni si une image est absente ou presque vide, ni si la légende manque ;
+  seules les entrées de moins de 14 jours sont prises ; une entrée déjà publiée n'est jamais republiée, même modifiée.
+- Tenir une entrée à l'écart : `"instagram": false` dans l'entrée. Tout suspendre : Actions → Coups de cœur → Disable workflow.
+- Aperçu local des trois variantes de couverture : `node tools/instagram.mjs decouverte <id> --variant=all`.
+
 ## Secrets (GitHub → Settings → Secrets and variables → Actions)
 
 - `IG_USER_ID` : identifiant du compte Instagram professionnel.

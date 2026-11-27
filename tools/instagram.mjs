@@ -8,6 +8,7 @@
 //   node tools/instagram.mjs machine tr-909         → une machine
 //   node tools/instagram.mjs station warehouse      → une station (style B, ligne de métro)
 //   node tools/instagram.mjs ligne L7               → une ligne de métro entière (style B)
+//   node tools/instagram.mjs decouverte <id>        → une entrée « En ce moment » (data/decouvertes.json), --variant=1|2|3|all
 //   node tools/instagram.mjs --next 4               → les 4 prochains disques ni dans la file ni publiés
 //   node tools/instagram.mjs --posted on-and-on     → marque un disque comme publié (social/posted.json)
 //   node tools/instagram.mjs media 3                → rend le post n° 3 dans social/media/<slug>/ (versionné, servi en https
@@ -32,6 +33,8 @@ const read = (f) => JSON.parse(readFileSync(join(ROOT, "data", f + ".json"), "ut
 const { tracks, genres, eras } = read("tracks");
 const { machines } = read("machines");
 const metro = read("metro");
+const DISC = existsSync(join(ROOT, "data", "decouvertes.json")) ? read("decouvertes").entries || [] : [];
+const byDisc = Object.fromEntries(DISC.map((e) => [e.id, e]));
 const byTrack = Object.fromEntries(tracks.map((t) => [t.id, t]));
 const byGenre = Object.fromEntries(genres.map((g) => [g.id, g]));
 const byEra = Object.fromEntries(eras.map((e) => [e.id, e]));
@@ -128,20 +131,33 @@ body.light .foot{color:#6b645a}body.light .foot b{color:#111}body.light .swipe{c
 .bodyB .sub{font:500 40px/1.2 "Space Grotesk",sans-serif;margin-top:16px;color:#3b362f}
 .bodyB .q{font:italic 400 42px/1.25 "Instrument Serif",serif;margin-top:28px;color:#3b362f}
 .ticket{position:absolute;left:0;right:0;bottom:140px;height:120px;background:#111;color:#f4efe4;display:flex;align-items:center;padding:0 80px;gap:40px;font:600 26px/1 "JetBrains Mono",monospace;letter-spacing:.08em;text-transform:uppercase}
-.ticket b{color:var(--c)}`;
+.ticket b{color:var(--c)}
+/* « En ce moment » : variante du style sombre, marqueur d'actualité + date (accent fixe --n) */
+.nowbar{position:absolute;left:0;right:0;top:0;height:96px;background:var(--n);color:#0d0c0b;display:flex;align-items:center;justify-content:space-between;padding:0 80px 0 96px;font:700 30px/1 "JetBrains Mono",monospace;letter-spacing:.16em;text-transform:uppercase}
+.nowbar i{font-style:normal;display:inline-block;width:22px;height:22px;border-radius:50%;background:#0d0c0b;margin-right:18px;vertical-align:-1px}
+body.now1 .cover{top:150px}body.now1 .bar{top:96px}
+.onair{display:inline-flex;align-items:center;gap:16px;border:3px solid var(--n);color:var(--n);border-radius:99px;padding:14px 26px 12px;font:700 28px/1 "JetBrains Mono",monospace;letter-spacing:.16em;text-transform:uppercase}
+.onair:before{content:"";width:22px;height:22px;border-radius:50%;background:var(--n);box-shadow:0 0 0 8px color-mix(in srgb, var(--n) 25%, transparent)}
+.datestamp{position:absolute;right:60px;top:120px;font:700 250px/1 "JetBrains Mono",monospace;letter-spacing:-.05em;color:transparent;-webkit-text-stroke:2px color-mix(in srgb, var(--n) 55%, transparent);text-align:right}
+.datestamp small{display:block;font-size:110px;letter-spacing:-.02em}
+body.now2 .bar{background:var(--n)}
+.sticker{position:absolute;right:70px;top:150px;width:300px;height:300px;border-radius:50%;background:var(--n);color:#0d0c0b;transform:rotate(-12deg);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;box-shadow:0 18px 50px rgba(0,0,0,.5)}
+.sticker b{font:400 92px/.9 "Instrument Serif",serif;font-style:italic}
+.sticker span{font:700 26px/1.3 "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;margin-top:12px}
+.nowk{color:var(--n)}.nowk:before{background:var(--n)}`;
 
-const slide = (color, n, total, inner, theme = "dark") => `<!doctype html><html><head><meta charset="utf-8">${FONTS}<style>${CSS}</style></head>
-<body class="${theme}" style="--c:${color}"><div class="glow"></div><div class="grain"></div><div class="bar"></div>${inner}
+const slide = (color, n, total, inner, theme = "dark", accent = "") => `<!doctype html><html><head><meta charset="utf-8">${FONTS}<style>${CSS}</style></head>
+<body class="${theme}" style="--c:${color}${accent ? ";--n:" + accent : ""}"><div class="glow"></div><div class="grain"></div><div class="bar"></div>${inner}
 <div class="foot"><span>${n}/${total}${n < total ? ' <span class="swipe">→</span>' : ""}</span><b>HOUSE<span>/</span>INTELLIGENCE</b></div></body></html>`;
 const content = (inner) => `<div class="in">${inner}</div>`;
 const textSlide = (kicker, title, text, extra = "") => content(`<div class="k">${esc(kicker)}</div><h2>${esc(title)}</h2><div class="fit"><p>${esc(text)}</p>${extra}</div>`);
 
 // La couverture : fiche d'archive avec le BPM (ou un autre chiffre) en filigrane, l'accroche et les badges.
-function cover({ n, kicker, title, sub, year, hook, badges = [], meta = "", ghost = "" }) {
+function cover({ n, kicker, title, sub, year, hook, badges = [], meta = "", ghost = "", topRight = "", kickHtml = "", before = "" }) {
   const size = title.length > 26 ? 104 : title.length > 16 ? 128 : 160;
-  return `${ghost ? `<div class="ghost">${esc(ghost)}</div>` : ""}<div class="cover">
-<div class="top"><b>House <i>Intelligence</i></b><span>${n ? "Nº " + String(n).padStart(3, "0") : ""}</span></div>
-<div class="kick">${esc(kicker)}</div>
+  return `${before}${ghost ? `<div class="ghost">${esc(ghost)}</div>` : ""}<div class="cover">
+<div class="top"><b>House <i>Intelligence</i></b><span>${topRight ? esc(topRight) : n ? "Nº " + String(n).padStart(3, "0") : ""}</span></div>
+${kickHtml || `<div class="kick">${esc(kicker)}</div>`}
 <h1 style="font-size:${size}px">${esc(title)}</h1>
 <div class="sub"><span>${esc(sub)}</span>${year ? ` · ${year}` : ""}</div>
 ${hook ? `<div class="q">${esc(hook)}</div>` : ""}
@@ -278,6 +294,62 @@ function linePost(lid, q) {
   return { slug: q ? `${String(q.n).padStart(2, "0")}-${q.slug}` : `ligne-${lid}`, color: c, theme: "light", slides, caption };
 }
 
+// Post « En ce moment » (data/decouvertes.json) : variante du style sombre, avec un marqueur d'actualité et la date,
+// pour qu'on distingue dans la grille une écoute du moment d'une fiche d'archive. Accent fixe pour toutes les découvertes.
+// Variantes de couverture : 1 bandeau en haut, 2 « on air » + date en filigrane, 3 pastille ronde.
+const NOW_ACCENT = "#d4ff3a";
+const DISC_KIND = FR
+  ? { nouveau: "Nouveauté", redecouverte: "Redécouverte", lecture: "Lecture", film: "Film", mix: "Mix" }
+  : { nouveau: "New find", redecouverte: "Rediscovery", lecture: "Reading", film: "Watching", mix: "Mix" };
+const MONTHS = FR ? ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."]
+  : ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const longDate = (d) => { const [y, m, j] = d.split("-").map(Number); return FR ? `${j} ${MONTHS[m - 1]} ${y}` : `${j} ${MONTHS[m - 1]} ${y}`; };
+
+function discoveryPost(e, q = {}) {
+  const v = Number(q.variant || 1);
+  const who = e.artist || e.author || "";
+  const st = e.station && metro.stations[e.station], line = st && mainLine(e.station);
+  const rec = e.track && byTrack[e.track];
+  const c = line?.color || NOW_ACCENT;
+  const kind = DISC_KIND[e.kind] || DISC_KIND.nouveau;
+  const nowLabel = FR ? "Coup de cœur" : "Current favourite";
+  const date = longDate(e.date), [yy, mm, dd] = e.date.split("-");
+  const discUrl = `${SITE_SHORT}/#decouverte`;
+  const stUrl = st ? `${SITE_SHORT}/${FR ? "" : "en/"}stations/${e.station}/` : "";
+  const note = f(e, "note"), context = f(e, "context");
+  const badges = [[FR ? "Label" : "Label", e.label], e.year && [W.year, e.year], e.highlight && [FR ? "★ Piste" : "★ Fav track", e.highlight], st && [W.station, SHORT[e.station] || short(f(st, "name"))]].filter((b) => b && b[1]);
+  const lineK = line ? `${FR ? "Ligne" : "Line"} ${line.num} · ${f(line, "name")}` : kind;
+  const base = { title: e.title, sub: who, year: e.year, hook: note ? `“${note}”` : "", badges, meta: context ? firstSentence(context) : "" };
+  const covers = {
+    1: cover({ ...base, before: `<div class="nowbar"><span><i></i>${esc(nowLabel)}</span><span>${esc(date)}</span></div>`, kicker: lineK }),
+    2: cover({ ...base, before: `<div class="datestamp">${dd}.${mm}<small>${yy}</small></div>`, topRight: date, kickHtml: `<div style="margin-top:auto"><span class="onair">${esc(nowLabel)}</span></div>` }),
+    3: cover({ ...base, before: `<div class="sticker"><b>${FR ? "Coup de<br>cœur" : "Current<br>fave"}</b><span>${esc(`${Number(dd)} ${MONTHS[Number(mm) - 1]}`)}</span></div>`, topRight: date, kicker: lineK }),
+  };
+  const recs = st ? stationRecords(e.station).slice(-4) : [];
+  const slides = [
+    covers[v] || covers[1],
+    textSlide(nowLabel, who || e.title, context || note, (context && note ? `<div class="q" style="font:italic 400 60px/1.2 'Instrument Serif',serif;margin-top:56px;border-left:4px solid var(--n);padding-left:28px">“${esc(note)}”</div>` : "")
+      + (e.highlight ? `<div class="chips"><span class="chip">${FR ? "★ Piste favorite :" : "★ Favourite track:"} ${esc(e.highlight)}</span></div>` : "")),
+    content(`<div class="k nowk">${esc(nowLabel)}</div><h2>${e.bandcamp?.url ? (FR ? "Soutenir l'artiste" : "Support the artist") : (FR ? "Pour aller plus loin" : "Dig deeper")}</h2>
+      ${e.bandcamp?.url ? `<div class="cta" style="margin-top:0">${FR ? "Achat et écoute sur Bandcamp :" : "Buy and stream it on Bandcamp:"}<b>${esc(e.bandcamp.url.replace(/^https?:\/\//, ""))}</b></div>` : ""}
+      ${recs.length ? `<div class="k" style="margin-top:56px">${FR ? "Sur le plan" : "On the map"} · ${esc(short(f(st, "name")))}</div><ul class="list" style="margin-top:12px">${recs.map((t) => `<li>${esc(short(t.title))} — ${esc(t.artist)}<span>${t.year}</span></li>`).join("")}</ul>` : ""}
+      ${rec ? `<div class="cta">${W.more}<b>${esc(`${SITE_SHORT}/${FR ? "disques" : "en/records"}/${rec.id}/`)}</b></div>` : `<div class="cta">${FR ? "Tout le journal « En ce moment » :" : "Everything I'm listening to right now:"}<b>${esc(discUrl)}</b></div>`}`),
+  ];
+  const genreTag = st ? tag(short(f(st, "name")).replace(/ house$/i, "") + "house") : "";
+  const caption = joinCaption([
+    `${FR ? "Mon coup de cœur du moment" : "My current favourite"} · ${date}`, "",
+    [e.title, who, e.label, e.year].filter(Boolean).join(" · "), "",
+    context, "",
+    note ? `“${note}”` : "", "",
+    e.highlight ? `★ ${FR ? "Piste favorite" : "Favourite track"}: ${e.highlight}` : "", "",
+    e.bandcamp?.url ? `${FR ? "Soutenir l'artiste" : "Support the artist"}: ${e.bandcamp.url.replace(/^https?:\/\//, "")}` : "",
+    st ? `${FR ? "Sur le plan" : "On the map"}: ${short(f(st, "name"))} → ${stUrl}` : "", "",
+    `🔗 ${FR ? "Ce que j'écoute en ce moment" : "What I'm listening to right now"}: ${discUrl} (${W.linkBio})`, "",
+    [...new Set(["#nowplaying", "#currentfavourite", who ? tag(who) : "", e.label ? tag(e.label) : "", genreTag, e.bandcamp ? "#bandcamp" : "", e.kind === "nouveau" ? "#newmusic" : "", "#housemusic", "#djculture", "#clubculture"])].filter((x) => x.length > 2).join(" "),
+  ]);
+  return { slug: q.n ? `${String(q.n).padStart(2, "0")}-${q.slug}` : `decouverte-${e.id}${q.variant ? "-v" + v : ""}`, color: c, accent: NOW_ACCENT, theme: `dark now${v}`, slides, caption };
+}
+
 // Style selon le type : disques et fonctions du site en style A (sombre), stations et lignes en style B (clair).
 const fromQueue = (q) =>
   q.kind === "feature" ? featurePost(q)
@@ -285,6 +357,7 @@ const fromQueue = (q) =>
   : q.kind === "station" && metro.stations[q.station] ? stationPost(q.station, q)
   : q.kind === "line" && metro.lines.some((l) => l.id === q.line) ? linePost(q.line, q)
   : q.kind === "machine" && byMachine[q.machine] ? machinePost(byMachine[q.machine], q)
+  : q.kind === "decouverte" && byDisc[q.decouverte] ? discoveryPost(byDisc[q.decouverte], q)
   : null;
 
 // ---------- rendu ----------
@@ -297,7 +370,7 @@ async function render(posts, outDir = "out") {
     rmSync(dir, { recursive: true, force: true });
     mkdirSync(dir, { recursive: true });
     for (let i = 0; i < p.slides.length; i++) {
-      await page.setContent(slide(p.color, i + 1, p.slides.length, p.slides[i], p.theme), { waitUntil: "networkidle" });
+      await page.setContent(slide(p.color, i + 1, p.slides.length, p.slides[i], p.theme, p.accent), { waitUntil: "networkidle" });
       await page.evaluate(async () => {
         await document.fonts.ready;
         for (const box of document.querySelectorAll(".fit")) {
@@ -318,7 +391,7 @@ async function render(posts, outDir = "out") {
 }
 
 // ---------- ligne de commande ----------
-const [cmd, arg] = args.filter((a) => a !== "--fr");
+const [cmd, arg] = args.filter((a) => a !== "--fr" && !a.startsWith("--variant="));
 if (cmd === "--posted") {
   if (!byTrack[arg]) throw new Error(`Disque inconnu : ${arg}`);
   if (!posted.some((p) => p.id === arg)) posted.push({ id: arg, date: new Date().toISOString().slice(0, 10) });
@@ -341,6 +414,10 @@ if (cmd === "--posted") {
   const next = [...tracks].sort((a, b) => a.year - b.year).filter((t) => !done.has(t.id)).slice(0, Number(arg) || 1);
   await render(next.map((t) => recordPost(t)));
 } else if (cmd === "disque" && byTrack[arg]) await render([recordPost(byTrack[arg])]);
+else if (cmd === "decouverte" && byDisc[arg]) {
+  const v = (args.find((a) => a.startsWith("--variant=")) || "").split("=")[1];
+  await render((v === "all" ? [1, 2, 3] : [Number(v) || 1]).map((variant) => discoveryPost(byDisc[arg], { variant })));
+}
 else if (cmd === "machine" && byMachine[arg]) await render([machinePost(byMachine[arg])]);
 else if (cmd === "station" && metro.stations[arg]) await render([stationPost(arg)]);
 else if (cmd === "ligne" && metro.lines.some((l) => l.id === arg)) await render([linePost(arg)]);
