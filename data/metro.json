@@ -1,7 +1,7 @@
 {
   "_meta": {
     "note": "Plan du métro généalogique. Coordonnées dans un viewBox 1200×700, tracés à 0°/45°/90°. Une station renvoie à des disques par genre (genres) et/ou par identifiant (tracks).",
-    "transfers_note": "Chaque correspondance a un type (kind) : filiation (un courant contribue directement à l'émergence d'un autre), circulation (artistes, labels ou communautés relient deux scènes) ou parente (parenté esthétique, sans influence directe démontrée). Une filiation dont le sens est établi porte from (id de la station d'origine) : une flèche l'indique sur le plan. Champs facultatifs : references (URL) et tracks (id de disques qui illustrent la relation)."
+    "transfers_note": "Chaque correspondance a un type (kind) : filiation (un courant contribue directement à l'émergence d'un autre), circulation (artistes, labels ou communautés relient deux scènes) ou parente (parenté esthétique, sans influence directe démontrée). Une filiation dont le sens est établi porte from (id de la station d'origine) : une flèche l'indique sur le plan. Champs facultatifs : references (URL) et tracks (id de disques qui illustrent la relation). verify : points non confirmés."
   },
   "lines": [
     {
@@ -868,14 +868,19 @@
       "a": "acid",
       "b": "shoom",
       "title": "Acid House ↔ Shoom & Haçienda",
-      "text": "La TB-303 traverse l'Atlantique en 1987-1988 sous forme de maxis importés et de cassettes. À Londres (Shoom) et à Manchester (Haçienda), « Acid Tracks » devient la bande-son d'une jeunesse britannique, puis A Guy Called Gerald et 808 State en tirent un acid mancunien. Ce transfert a aussi déraciné le son de son public noir et gay d'origine.",
+      "text": "À partir de 1986, les productions house de Chicago circulent dans les clubs britanniques. Shoom à Londres et la Haçienda à Manchester deviennent des lieux majeurs de leur diffusion et de leur réappropriation. La rencontre entre acid house américaine, culture baléarique et pratiques festives locales contribue à l’émergence de la rave britannique.",
       "title_en": "Acid House ↔ Shoom & Haçienda",
-      "text_en": "The TB-303 crossed the Atlantic in 1987–1988 as imported 12\"s and tapes. In London (Shoom) and Manchester (Haçienda), \"Acid Tracks\" became the soundtrack of British youth, and A Guy Called Gerald and 808 State drew a Mancunian acid from it. The transfer also uprooted the sound from its original Black and gay crowd.",
-      "kind": "filiation",
-      "from": "acid",
+      "text_en": "From 1986 onwards, Chicago house records circulated through British clubs. London's Shoom and Manchester's Haçienda became major spaces for their dissemination and reinterpretation. The encounter between American acid house, Balearic culture and local club practices contributed to the emergence of British rave culture.",
+      "kind": "circulation",
       "tracks": [
         "acid-tracks",
         "voodoo-ray"
+      ],
+      "references": [
+        "https://www.theguardian.com/music/2017/nov/28/how-we-made-shoom-acid-house-club-danny-rampling-pete-heller",
+        "https://ra.co/features/1139",
+        "https://ra.co/features/4414",
+        "https://daily.bandcamp.com/lists/30-tracks-to-celebrate-the-30th-anniversary-of-acid"
       ]
     },
     {
@@ -886,7 +891,11 @@
       "title_en": "Ibiza ↔ Shoom",
       "text_en": "In 1987 Paul Oakenfold, Danny Rampling and friends discovered Alfredo's eclecticism at Amnesia in Ibiza. Back in London they recreated the balearic spirit at small parties (Shoom, Spectrum) that lit the fuse of the Second Summer of Love.",
       "kind": "filiation",
-      "from": "balearic"
+      "from": "balearic",
+      "references": [
+        "https://www.theguardian.com/music/2017/nov/28/how-we-made-shoom-acid-house-club-danny-rampling-pete-heller",
+        "https://ra.co/features/4414"
+      ]
     },
     {
       "a": "bleep",
@@ -914,14 +923,22 @@
     {
       "a": "soundfactory",
       "b": "qweenbeat",
-      "title": "Sound Factory ↔ ballroom contemporain",
-      "title_en": "Sound Factory ↔ contemporary ballroom",
-      "text": "« The Ha Dance » de Masters at Work (1991), issu de la même scène house new-yorkaise que le Sound Factory, devient la colonne vertébrale de la musique des balls : MikeQ et Qween Beat en reprennent le « ha » et le crash.",
-      "text_en": "Masters at Work's \"The Ha Dance\" (1991), from the same New York house scene as the Sound Factory, became the backbone of ball music: MikeQ and Qween Beat reuse its \"ha\" and crash.",
+      "title": "« The Ha Dance » → beats ballroom",
+      "title_en": "\"The Ha Dance\" → ballroom beats",
+      "text": "La culture ballroom est bien plus ancienne que le Sound Factory : les balls des personnes queer et trans noires et latines remontent aux années 1960. Ce qui passe d'une ligne à l'autre, c'est un langage musical. « The Ha Dance » de Masters at Work (1991), issu de la même scène house new-yorkaise que le Sound Factory, devient un classique des balls. Au milieu des années 2000, la relecture de Vjuan Allure, le « Allure Ha », ouvre la voie aux beats ballroom actuels, ceux de MikeQ et de Qween Beat.",
+      "text_en": "Ballroom culture is much older than the Sound Factory: balls thrown by Black and Latino queer and trans people go back to the 1960s. What passes from one line to the other is a musical language. Masters at Work's \"The Ha Dance\" (1991), from the same New York house scene as the Sound Factory, became a ballroom classic. In the mid-2000s, Vjuan Allure's reworking, the \"Allure Ha\", opened the way for today's ballroom beats, those of MikeQ and Qween Beat.",
       "kind": "filiation",
       "from": "soundfactory",
       "tracks": [
         "ha-dance"
+      ],
+      "references": [
+        "https://daily.redbullmusicacademy.com/2019/02/key-tracks-ha-dance/",
+        "https://ra.co/news/74930"
+      ],
+      "verify": [
+        "Date du « Allure Ha » : 2000 selon le dossier, milieu des années 2000 selon Red Bull Music Academy",
+        "« Latines » : RBMA dit « black and brown »"
       ]
     }
   ]
