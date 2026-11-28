@@ -4,7 +4,8 @@
   "use strict";
   const NS = "http://www.w3.org/2000/svg";
   const $ = (s, el = document) => el.querySelector(s);
-  const M = { data: null, built: false, sel: null, focusLine: null, isolated: null, bubbleIdx: null };
+  const M = { data: null, built: false, sel: null, focusLine: null, isolated: null, bubbleIdx: null, playing: null };
+  const VB = { x: 40, y: 0, w: 1200, h: 860 }, view = { ...VB };   // plan entier, et vue courante (zoom)
   const T = (k, v) => window.I18N.t(k, v), F = (o, k) => window.I18N.f(o, k);
 
   const svgEl = (tag, attrs = {}, kids = []) => {
@@ -87,11 +88,13 @@
       sg.append(g);
     }
     svg.append(sg);
+    markPlaying();
 
     // interactions (posées une seule fois : le SVG est reconstruit au changement de langue)
     if (!M.built) {
       svg.addEventListener("click", onClick);
       svg.addEventListener("keydown", (e) => { if ((e.key === "Enter" || e.key === " ") && e.target.closest(".m-st, .m-transfer")) { e.preventDefault(); onClick(e); } });
+      panZoom(svg);
     }
     M.built = true;
   }
@@ -145,6 +148,7 @@
 
   // ---------- sélection ----------
   function onClick(e) {
+    if (M.dragged) { M.dragged = false; return; }   // fin d'un glisser : pas de clic
     const st = e.target.closest(".m-st"), tr = e.target.closest(".m-transfer");
     if (st) select(st.dataset.st);
     else if (tr) bubble(+tr.dataset.tr);
@@ -240,6 +244,56 @@
     for (const g of $("#metro-svg").querySelectorAll(".m-transfer")) g.classList.remove("sel");
   }
 
+  // ---------- zoom et déplacement ----------
+  function setView(v) {
+    const w = Math.min(VB.w, Math.max(VB.w / 4, v.w)), h = w * VB.h / VB.w;
+    const x = Math.min(VB.x + VB.w - w, Math.max(VB.x, v.x)), y = Math.min(VB.y + VB.h - h, Math.max(VB.y, v.y));
+    Object.assign(view, { x, y, w, h });
+    const svg = $("#metro-svg");
+    svg.setAttribute("viewBox", `${x} ${y} ${w} ${h}`);
+    const zoomed = w < VB.w - 0.5;
+    svg.classList.toggle("zoomed", zoomed);
+    $("#metro-zreset").disabled = !zoomed;
+    $("#metro-zin").disabled = w <= VB.w / 4 + 0.5;
+    $("#metro-zout").disabled = !zoomed;
+    if (M.bubbleIdx != null) bubble(M.bubbleIdx);
+  }
+  function zoom(f, cx = view.x + view.w / 2, cy = view.y + view.h / 2) {
+    const w = Math.min(VB.w, Math.max(VB.w / 4, view.w / f)), k = w / view.w;
+    setView({ x: cx - (cx - view.x) * k, y: cy - (cy - view.y) * k, w });
+  }
+  function panZoom(svg) {
+    const toSvg = (e) => { const r = svg.getBoundingClientRect(); return [view.x + (e.clientX - r.left) / r.width * view.w, view.y + (e.clientY - r.top) / r.height * view.h]; };
+    svg.addEventListener("wheel", (e) => { if (!e.ctrlKey && !e.metaKey) return; e.preventDefault(); zoom(e.deltaY < 0 ? 1.25 : 0.8, ...toSvg(e)); }, { passive: false });
+    let drag = null;
+    svg.addEventListener("pointerdown", (e) => {
+      if (view.w >= VB.w - 0.5 || e.button !== 0) return;   // on ne déplace que le plan zoomé
+      drag = { x: e.clientX, y: e.clientY, vx: view.x, vy: view.y, moved: false, id: e.pointerId };
+    });
+    svg.addEventListener("pointermove", (e) => {
+      if (!drag || e.pointerId !== drag.id) return;
+      const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+      if (!drag.moved && Math.hypot(dx, dy) < 5) return;
+      if (!drag.moved) { drag.moved = true; svg.setPointerCapture(e.pointerId); svg.classList.add("dragging"); }
+      const r = svg.getBoundingClientRect();
+      setView({ x: drag.vx - dx / r.width * view.w, y: drag.vy - dy / r.height * view.h, w: view.w });
+    });
+    const end = () => { if (drag?.moved) M.dragged = true; drag = null; svg.classList.remove("dragging"); };
+    svg.addEventListener("pointerup", end); svg.addEventListener("pointercancel", end);
+    $("#metro-zin").addEventListener("click", () => zoom(1.5));
+    $("#metro-zout").addEventListener("click", () => zoom(1 / 1.5));
+    $("#metro-zreset").addEventListener("click", () => setView(VB));
+  }
+
+  // ---------- station du disque en écoute ----------
+  function markPlaying() {
+    const id = M.playing;
+    for (const g of $("#metro-svg").querySelectorAll(".m-st")) {
+      const on = !!id && tracksOf(M.data.stations[g.dataset.st]).some((t) => t.id === id);
+      g.classList.toggle("playing", on);
+    }
+  }
+
   // ---------- partage & export ----------
   function updateHash() {
     const q = new URLSearchParams();
@@ -275,10 +329,31 @@
       .m-label{fill:#efe9dd;font-size:13px;font-weight:600}.m-years{fill:#8f8678;font-size:10px;font-weight:400}.m-badge text{fill:#111;font-size:13px;font-weight:700;text-anchor:middle;dominant-baseline:central}
       .m-st.empty .m-label{fill:#8f8678}.dim{opacity:.12}`;
     svg.prepend(style);
-    const title = document.createElementNS(NS, "text");
-    Object.assign(title, { textContent: T("metro.svgFooter") });
-    title.setAttribute("x", 60); title.setAttribute("y", 850); title.setAttribute("fill", "#8f8678"); title.setAttribute("font-size", "12");
-    svg.append(title);
+    // fichier autonome : plan entier, fond plein, titre en tête, légende des lignes et des correspondances en pied
+    svg.querySelectorAll(".playing").forEach((n) => n.classList.remove("playing"));
+    const top = 90, cols = 3, rowH = 26, rows = Math.ceil(M.data.lines.length / cols);
+    const legY = VB.y + VB.h + 20, kindY = legY + rows * rowH + 18, H = top + VB.h + 20 + rows * rowH + 18 + 30 + 34;
+    svg.setAttribute("viewBox", `${VB.x} ${VB.y - top} ${VB.w} ${H}`);
+    svg.setAttribute("width", VB.w); svg.setAttribute("height", H);
+    const txt = (x, y, str, attrs = {}) => Object.assign(svgEl("text", { x, y, ...attrs }), { textContent: str });
+    svg.insertBefore(svgEl("rect", { x: VB.x, y: VB.y - top, width: VB.w, height: H, fill: "#0d0c0b" }), style.nextSibling);
+    svg.append(
+      txt(VB.x + 24, VB.y - top + 44, "HOUSE/INTELLIGENCE", { fill: "#efe9dd", "font-size": 26, "font-weight": 700, "letter-spacing": 2 }),
+      txt(VB.x + 24, VB.y - top + 70, T("metro.title").replace(/\s*<small>/, " · ").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(), { fill: "#8f8678", "font-size": 14 }));
+    const colW = (VB.w - 48) / cols;
+    M.data.lines.forEach((l, i) => {
+      const x = VB.x + 24 + (i % cols) * colW, y = legY + Math.floor(i / cols) * rowH;
+      svg.append(svgEl("line", { x1: x, y1: y, x2: x + 34, y2: y, stroke: l.color, "stroke-width": 8, "stroke-linecap": "round" }),
+        txt(x + 48, y + 5, `${l.num}  ${F(l, "name")}`, { fill: "#efe9dd", "font-size": 13 }));
+    });
+    const kinds = [["filiation", "2 7", "#efe9dd"], ["circulation", "10 7", "#efe9dd"], ["parente", "1 8", null]];
+    kinds.forEach(([k, dash, tube], i) => {
+      const x = VB.x + 24 + i * colW, y = kindY;
+      if (tube) svg.append(svgEl("line", { x1: x, y1: y, x2: x + 34, y2: y, stroke: tube, "stroke-width": 9, "stroke-linecap": "round" }));
+      svg.append(svgEl("line", { x1: x, y1: y, x2: x + 34, y2: y, stroke: tube ? "#0d0c0b" : "#b4ab9c", "stroke-width": tube ? 4 : 3, "stroke-dasharray": dash, "stroke-linecap": k === "circulation" ? "butt" : "round" }),
+        txt(x + 48, y + 5, T("metro.kind." + k), { fill: "#efe9dd", "font-size": 13 }));
+    });
+    svg.append(txt(VB.x + 24, VB.y - top + H - 16, `${T("metro.svgFooter")} · house-intelligence.pages.dev`, { fill: "#8f8678", "font-size": 12 }));
     const blob = new Blob([new XMLSerializer().serializeToString(svg)], { type: "image/svg+xml" });
     const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "house-intelligence-plan-metro.svg";
     document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
@@ -301,6 +376,7 @@
     }
     readHash();
   }
+  window.addEventListener("hi:playing", (e) => { M.playing = e.detail.playing ? e.detail.id : null; if (M.built) markPlaying(); });
   window.addEventListener("hi:view", (e) => { if (e.detail === "metro") ensure(); });
   // changement de langue : on reconstruit le plan et on rouvre ce qui était ouvert (station, bulle, ligne isolée)
   window.addEventListener("hi:lang", () => {

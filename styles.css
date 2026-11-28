@@ -731,3 +731,34 @@ body { padding-bottom: 0; }
 .audit-status::before { content: "○ "; }
 .audit-status.done { color: var(--ink-2); }
 .audit-status.done::before { content: "✓ "; }
+/* sous-titres français des titres d'interface anglais (vides en anglais) */
+.sub-fr { margin-left: 6px; font: 400 11px var(--mono); letter-spacing: .04em; text-transform: none; color: var(--ink-3); }
+.sub-fr:empty { display: none; }
+.memory .panel-head .count { margin-right: auto; margin-left: 8px; }
+.panel-head h2 .sub-fr { display: block; margin: 5px 0 0; line-height: 1.2; white-space: nowrap; }
+.memory .panel-head .count { white-space: nowrap; }
+
+/* mobile : la fenêtre d'écoute ne masque plus la platine */
+@media (max-width: 900px) {
+  #fw-side { display: none; }                       /* pleine largeur : changer de côté n'a pas de sens */
+  .fw:has(#fw-open:disabled) .fw-video,
+  .fw:has(#fw-open:disabled) .fw-info,
+  .fw:has(#fw-open:disabled) .fw-controls,
+  .fw:has(#fw-open:disabled) #fw-size,
+  .fw:has(#fw-open:disabled) #fw-big { display: none; }   /* aucun disque : une simple barre */
+  .fw:has(#fw-open:disabled) .fw-label::after { content: " · " attr(data-hint); text-transform: none; letter-spacing: 0; font-weight: 400; }
+  .fw[data-size="mini"] .fw-artist, .fw[data-size="mini"] #fw-open { display: none; }
+  .fw[data-size="mini"] .fw-info { padding-top: 0; }
+}
+
+/* plan du métro : zoom, déplacement, station en écoute */
+.metro-zoom { display: flex; gap: 4px; }
+.metro-zoom .btn { min-width: 34px; justify-content: center; font-size: 15px; }
+.metro-zoom .btn:disabled { opacity: .4; cursor: default; }
+#metro-svg { touch-action: pan-x pan-y; }
+#metro-svg.zoomed { cursor: grab; touch-action: none; }
+#metro-svg.dragging { cursor: grabbing; }
+#metro-svg.dragging * { cursor: grabbing; }
+.m-st.playing .dot, .m-st.playing .ring { stroke: #ff3e5a; animation: st-pulse 1.4s ease-in-out infinite; }
+@keyframes st-pulse { 0%, 100% { stroke-width: 4; filter: none; } 50% { stroke-width: 7; filter: drop-shadow(0 0 6px #ff3e5a); } }
+@media (prefers-reduced-motion: reduce) { .m-st.playing .dot, .m-st.playing .ring { animation: none; stroke-width: 6; } }

@@ -89,7 +89,7 @@
       <article class="deck now" id="now-playing">
         <div class="vinyl-wrap"><div class="vinyl" id="vinyl"><div class="vinyl-label" id="vinyl-label"></div></div></div>
         <div class="deck-info">
-          <p class="kicker"><span data-i18n="deck.kicker">Sur la platine</span> · <span id="now-genre"></span></p>
+          <p class="kicker"><span data-i18n="deck.kicker">Sur la platine</span><span id="now-genre"></span></p>
           <h3 class="title" id="now-title"></h3>
           <p class="artist" id="now-artist"></p>
           <ul class="badges" id="now-badges"></ul>
@@ -108,7 +108,8 @@
           <details class="glossary"><summary data-i18n="tr.how">Comment ça marche ?</summary><div data-i18n="tr.how.body">
             <p><b>Camelot</b> : les 24 tonalités sont rangées sur une roue de 1 à 12 (A = mineur, B = majeur). Deux disques voisins sur la roue se superposent sans fausse note.</p>
             <p><b>Pitch</b> : le curseur de vitesse d'une platine, généralement ±8 %. Au-delà, on ne peut plus caler les deux disques.</p>
-            <p><b>Compatibilité</b> : un score sur 100 qui combine l'harmonie (48 %), la proximité de tempo (37 %) et l'intention choisie dans « Steer the Room ».</p></div>
+            <p><b>Compatibilité</b> : un score sur 100 qui combine l'harmonie (48 %), la proximité de tempo (37 %) et l'intention choisie dans « Steer the Room ».</p>
+            <p><b>Accordage</b> : beaucoup de disques des années 1970 et 1980, enregistrés et pressés depuis la bande, ne sont pas accordés exactement sur le la 440 Hz. Et sans verrouillage de tonalité, chaque tranche d'environ 6 % de pitch déplace la note d'un demi-ton. Les clés indiquées sont donc des repères à vérifier à l'oreille.</p></div>
           </details>
         </div>
         <div class="tr-grid">
@@ -131,7 +132,7 @@
 
       <section class="steer" aria-labelledby="steer-title">
         <div class="section-head">
-          <h3 id="steer-title">Steer the Room</h3>
+          <h3 id="steer-title">Steer the Room <small class="sub-fr" data-i18n="steer.sub">orienter la piste</small></h3>
           <span class="algo-note" id="steer-state"></span>
         </div>
         <div class="steer-grid" id="steer-grid"></div>
@@ -170,7 +171,7 @@
           <button role="tab" id="tab-machines" aria-controls="tp-machines" aria-selected="true" data-i18n="tab.machines">Machines &amp; construction</button>
           <button role="tab" id="tab-origins" aria-controls="tp-origins" aria-selected="false" tabindex="-1" data-i18n="tab.origins">Origines</button>
           <button role="tab" id="tab-queer" aria-controls="tp-queer" aria-selected="false" tabindex="-1" data-i18n="tab.queer">Ballroom &amp; queer</button>
-          <button role="tab" id="tab-socio" aria-controls="tp-socio" aria-selected="false" tabindex="-1" data-i18n="tab.socio">Sociologie &amp; source</button>
+          <button role="tab" id="tab-socio" aria-controls="tp-socio" aria-selected="false" tabindex="-1" data-i18n="tab.socio">Sociologie &amp; sources</button>
         </div>
         <div class="tabpanel" role="tabpanel" id="tp-story" aria-labelledby="tab-story" hidden></div>
         <div class="tabpanel" role="tabpanel" id="tp-machines" aria-labelledby="tab-machines"></div>
@@ -181,10 +182,11 @@
 
       <section class="panel memory" aria-labelledby="mem-title">
         <div class="panel-head">
-          <h2 id="mem-title">The Memory</h2>
+          <h2 id="mem-title">The Memory <small class="sub-fr" data-i18n="mem.sub">historique de la session</small></h2>
+          <span class="count" id="mem-count"></span>
           <div class="mem-actions">
-            <button class="btn ghost sm" id="exp-md">.md</button>
-            <button class="btn ghost sm" id="exp-json">.json</button>
+            <button class="btn ghost sm" id="exp-md" data-i18n-attr="title=mem.expMd;aria-label=mem.expMd" title="Exporter la session en Markdown (tracklist lisible)">.md</button>
+            <button class="btn ghost sm" id="exp-json" data-i18n-attr="title=mem.expJson;aria-label=mem.expJson" title="Exporter la session en JSON (données réutilisables)">.json</button>
             <button class="btn ghost sm" id="mem-clear" data-i18n-attr="title=mem.clear;aria-label=mem.clear" title="Effacer la session">✕</button>
           </div>
         </div>
@@ -209,6 +211,11 @@
         <li><svg width="44" height="12" aria-hidden="true"><line x1="6" y1="6" x2="38" y2="6" stroke="#b4ab9c" stroke-width="3" stroke-dasharray="1 8" stroke-linecap="round"/></svg><span><b data-i18n="metro.kind.parente">Parenté esthétique</b> · <span data-i18n="metro.kind.parente.d">proximité musicale sans filiation démontrée</span></span></li>
       </ul>
       <div class="metro-actions">
+        <div class="metro-zoom" role="group" data-i18n-attr="aria-label=metro.zoom" aria-label="Zoom">
+          <button class="btn sm" id="metro-zout" data-i18n-attr="aria-label=metro.zoomOut;title=metro.zoomOut" aria-label="Dézoomer" title="Dézoomer">−</button>
+          <button class="btn sm" id="metro-zin" data-i18n-attr="aria-label=metro.zoomIn;title=metro.zoomIn" aria-label="Zoomer" title="Zoomer">+</button>
+          <button class="btn sm" id="metro-zreset" data-i18n-attr="aria-label=metro.zoomReset;title=metro.zoomReset" aria-label="Revenir au plan entier" title="Revenir au plan entier" disabled>⟲</button>
+        </div>
         <button class="btn sm" id="metro-share" data-i18n="metro.share">Partager la vue</button>
         <button class="btn sm" id="metro-export" data-i18n="metro.export">Exporter (SVG)</button>
       </div>
@@ -262,11 +269,11 @@
   <aside class="fw" id="fw" data-size="mini" data-i18n-attr="aria-label=fw.aria" aria-label="Fenêtre d'écoute">
     <div class="fw-head">
       <span class="fw-dot" aria-hidden="true"></span>
-      <span class="fw-label" data-i18n="fw.label">Fenêtre d'écoute</span>
+      <span class="fw-label" data-i18n="fw.label" data-i18n-attr="data-hint=fw.empty" data-hint="Cliquez ▶ sur un disque">Fenêtre d'écoute</span>
       <button class="fw-icon" id="fw-side" data-i18n-attr="aria-label=fw.side;title=fw.sideTitle" aria-label="Déplacer la fenêtre de l'autre côté" title="Changer de côté">⇆</button>
-      <button class="fw-icon" id="fw-size" aria-label="Réduire la fenêtre" >▁</button>
+      <button class="fw-icon" id="fw-size" data-i18n-attr="aria-label=fw.expand;title=fw.expand" aria-label="Déplier la fenêtre" title="Déplier la fenêtre">▢</button>
       <button class="fw-icon" id="fw-close" data-i18n-attr="aria-label=fw.close;title=fw.close" aria-label="Fermer la fenêtre" title="Fermer la fenêtre">✕</button>
-      <button class="fw-icon" id="fw-big" aria-label="Agrandir la fenêtre" >⤢</button>
+      <button class="fw-icon" id="fw-big" data-i18n-attr="aria-label=fw.big;title=fw.big" aria-label="Agrandir la fenêtre" title="Agrandir la fenêtre">⤢</button>
     </div>
     <div class="fw-video"><div id="yt-player"></div><div class="yt-empty" id="yt-empty" data-i18n="fw.empty">Cliquez ▶ sur un disque</div></div>
     <div class="fw-info" id="fw-info"><span class="fw-title" data-i18n="fw.none">Aucun disque en cours</span><span class="fw-meta" data-i18n="fw.noneHint">Le Bac, le Booth ou une station du métro</span></div>
@@ -275,14 +282,14 @@
       <button class="btn sm primary" id="fw-toggle" data-i18n-attr="aria-label=fw.toggle" aria-label="Lecture ou pause">▶</button>
       <button class="btn sm" id="fw-next" data-i18n-attr="aria-label=fw.next" aria-label="Disque suivant">⏭</button>
       <label class="fw-mode"><span class="sr-only" data-i18n="fw.mode">Enchaînement</span>
-        <select id="fw-mode"><option value="list" data-i18n="fw.mode.list">Suite de la liste</option><option value="algo" data-i18n="fw.mode.algo">Transition Camelot</option><option value="shuffle" data-i18n="fw.mode.shuffle">Aléatoire</option></select></label>
+        <select id="fw-mode" data-i18n-attr="title=fw.modeTitle" title="Ordre de lecture : quel disque vient après"><option value="list" data-i18n="fw.mode.list">Suite de la liste</option><option value="algo" data-i18n="fw.mode.algo">Transition Camelot</option><option value="shuffle" data-i18n="fw.mode.shuffle">Aléatoire</option></select></label>
       <button class="btn sm ghost" id="fw-open" disabled data-i18n="fw.open">Voir dans The Booth</button>
     </div>
   </aside>
 
   <footer class="foot">
     <p><span data-i18n="foot">House Intelligence · v1 — BPM et clés : valeurs éditoriales indicatives. Sources : </span></p>
-    <p class="foot-links"><a href="/disques/" hreflang="fr">Les 82 disques</a> · <a href="/stations/" hreflang="fr">Les 35 stations</a> · <a href="/en/records/" hreflang="en" lang="en">All records</a> · <a href="/en/stations/" hreflang="en" lang="en">All stations</a></p>
+    <p class="foot-links" data-i18n="foot.links"><a href="/disques/" hreflang="fr">Tous les disques</a> · <a href="/stations/" hreflang="fr">Toutes les stations</a> · <a href="/en/records/" hreflang="en" lang="en">All records</a> · <a href="/en/stations/" hreflang="en" lang="en">All stations</a></p>
     <details class="foot-src"><summary data-i18n="foot.sources">Les sources du projet</summary><p id="foot-sources"></p></details>
   </footer>
 

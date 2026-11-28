@@ -217,7 +217,7 @@
   function renderNow() {
     const t = S.current, g = S.genreById[t.genre];
     document.documentElement.style.setProperty("--g", g.color);
-    $("#now-genre").textContent = `${_f(g, "name")} · ${_f(S.eraById[t.era], "name")}`;
+    $("#now-genre").textContent = ` · ${_f(g, "name")} · ${_f(S.eraById[t.era], "name")}`;
     $("#now-title").textContent = t.title;
     $("#now-artist").textContent = t.artist;
     $("#vinyl-label").textContent = t.label;
@@ -443,6 +443,8 @@
   }
   function renderMemory() {
     const tl = $("#timeline"); tl.replaceChildren();
+    const n = S.memory.filter((m) => S.byId[m.id]).length;
+    $("#mem-count").textContent = n ? _t("mem.count", { n, s: n > 1 ? "s" : "" }) : "";
     if (!S.memory.length) { tl.append(h("li", { class: "empty", style: "--c:transparent" }, _t("mem.empty"))); return; }
     for (const m of [...S.memory].reverse()) {
       const t = S.byId[m.id]; if (!t) continue;
@@ -801,6 +803,7 @@
       $("#fw-toggle").textContent = this.playing ? "⏸" : "▶";
       $("#fw").classList.toggle("is-playing", this.playing);
       markPlaying();
+      window.dispatchEvent(new CustomEvent("hi:playing", { detail: { id: this.current, playing: this.playing } }));
       if (st === 1 && Pulse.playing) Pulse.toggle();
       if (st === 1) closeBandcamp();
       if (st === 0) this.next();
