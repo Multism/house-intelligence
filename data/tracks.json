@@ -548,10 +548,12 @@
       "camelot_key": "5A",
       "energy": 6,
       "gear": [
-        "tr-808"
+        "tr-808",
+        "Korg Poly-61",
+        "tb-303"
       ],
-      "construction": "Une TR-808 programmée en boucle, une basse synthétique qui rebondit et une voix réduite à un mantra. Saunders recrée de mémoire un edit bootleg qu'il jouait en club et qu'on lui avait volé : la house commence comme une copie domestique d'un disque disparu.",
-      "producer_origins": "DJ du club The Playground, Saunders travaille avec Vince Lawrence et fait presser le disque à l'usine Musical Products de Larry Sherman, future maison de Trax Records. Le modèle est posé : un DJ, une machine d'occasion, un pressage indépendant et une sortie directe vers les bacs locaux.",
+      "construction": "Une TR-808 programmée en boucle, une basse synthétique qui rebondit et une voix réduite à un mantra. Saunders recrée un edit disco qu'il jouait en club, « On & On » de Mach, et qu'on lui avait volé : la house commence comme une copie domestique d'un disque disparu.",
+      "producer_origins": "DJ résident du Playground au début des années 1980, Saunders enregistre le morceau en 1983 avec Vince Lawrence et le sort début 1984 sur leur propre label, Jes Say Records. Le disque est pressé chez Larry Sherman, qui tient alors la seule usine de pressage de la ville et fondera Trax Records. Le modèle est posé : un DJ, des machines, un pressage indépendant et une sortie directe vers les bacs locaux.",
       "club_sociology": "Chicago sort du « Disco Demolition Night » de 1979, quand la radio rock a déclaré la disco morte. Elle survit pourtant dans les clubs du South Side et sur WBMX, où les Hot Mix 5 diffusent des mixes que les ados enregistrent sur cassette. Le 12\" auto-produit répond à une pénurie : il n'y a plus assez de disco neuve pour nourrir les pistes.",
       "queer_ballroom_axis": "Selon la version la plus répandue, le mot « house » viendrait du Warehouse, club fréquenté majoritairement par des hommes gays noirs où Frankie Knuckles mixe de 1977 à 1982 (l'étymologie reste disputée). Saunders appartient à une scène plus mixte et plus jeune : le son a quitté très tôt son berceau queer pour circuler dans toute la ville.",
       "archive_ref": {
@@ -559,7 +561,7 @@
         "note": "Débats sur le « premier disque house » et rôle des pressages indépendants de Chicago.",
         "note_en": "Debates over the \"first house record\" and the role of Chicago's independent pressings."
       },
-      "why_this_record": "C'est le disque le plus souvent cité comme premier 12\" house pressé. Il est moins important pour sa musique que pour le geste qu'il incarne : n'importe qui avec une 808 peut désormais faire un disque.",
+      "why_this_record": "C'est le disque le plus souvent cité comme premier 12\" house pressé, une attribution discutée : des précédents existent, et RA juge la face A elle-même « discutable ». Il compte moins pour sa musique que pour le geste qu'il incarne : n'importe qui avec une 808 peut désormais faire un disque.",
       "tags": [
         "roots",
         "diy",
@@ -575,12 +577,28 @@
         "Be7o_ym2dNc",
         "NQ7ISClDz3U"
       ],
-      "construction_en": "A looped TR-808, a bouncing synth bass and a vocal pared down to a mantra. Saunders rebuilt from memory a bootleg edit he used to play out and that had been stolen from him: house begins as a home-made copy of a vanished record.",
-      "producer_origins_en": "A DJ at The Playground, Saunders worked with Vince Lawrence and had the record pressed at Larry Sherman's Musical Products plant, the future home of Trax Records. The template was set: a DJ, a second-hand machine, an independent pressing and a straight line to the local record shops.",
+      "construction_en": "A looped TR-808, a bouncing synth bass and a vocal reduced to a mantra. Saunders recreated a disco edit he played in clubs, Mach's \"On & On\", which had been stolen from him: house begins as a homemade copy of a vanished record.",
+      "producer_origins_en": "A resident DJ at the Playground in the early 1980s, Saunders recorded the track in 1983 with Vince Lawrence and released it in early 1984 on their own label, Jes Say Records. It was pressed by Larry Sherman, who then ran the city's only pressing plant and would go on to found Trax Records. The model was set: a DJ, some machines, an independent pressing and a direct route to local record bins.",
       "club_sociology_en": "Chicago was coming out of the 1979 \"Disco Demolition Night\", when rock radio declared disco dead. Yet disco survived in South Side clubs and on WBMX, where the Hot Mix 5 broadcast mixes that teenagers taped off the radio. The self-released 12\" answered a shortage: there simply wasn't enough new disco left to feed the dancefloors.",
       "queer_ballroom_axis_en": "According to the most common version, the word \"house\" comes from the Warehouse, a club whose crowd was mostly Black gay men and where Frankie Knuckles played from 1977 to 1982 (the etymology is disputed). Saunders belonged to a younger, more mixed scene: the sound left its queer cradle very early and spread across the city.",
-      "why_this_record_en": "It is the record most often cited as the first house 12\" ever pressed. It matters less for its music than for the gesture it embodies: from now on, anyone with an 808 can make a record.",
-      "verified": false
+      "why_this_record_en": "It is the record most often cited as the first house 12\" ever pressed, a debated attribution: there are precedents, and RA calls the A-side itself \"debatable\". It matters less for its music than for the gesture it embodies: anyone with an 808 could now make a record.",
+      "verified": false,
+      "catalog": "JS9999",
+      "gear_en": [
+        "tr-808",
+        "Korg Poly-61",
+        "tb-303"
+      ],
+      "references": [
+        "https://ra.co/reviews/25429",
+        "https://en.wikipedia.org/wiki/Jesse_Saunders"
+      ],
+      "verify": [
+        "Playground : Saunders y est résident selon RA, il l'ouvre en 1982 selon Wikipedia",
+        "Korg Poly-61 et TB-303 : d'après Wikipedia seulement (source secondaire)",
+        "Disques bouclés dans l'edit de Mach : Munich Machine et Donna Summer selon RA, autres titres sur Wikipedia (non sourcé)",
+        "Contexte (Disco Demolition Night, WBMX et Hot Mix 5, pénurie de disco neuve) : non lu dans les sources consultées pour cette fiche"
+      ]
     },
     {
       "id": "move-your-body",
@@ -2417,9 +2435,9 @@
     {
       "id": "your-love",
       "title": "Your Love",
-      "artist": "Frankie Knuckles presents Jamie Principle",
-      "year": 1987,
-      "label": "Trax Records",
+      "artist": "Jamie Principle",
+      "year": 1986,
+      "label": "Persona",
       "city": "Chicago",
       "country": "USA",
       "continent": "Amérique du Nord",
@@ -2429,12 +2447,12 @@
       "camelot_key": "1A",
       "energy": 6,
       "gear": [
-        "Synthétiseur (arpège)",
-        "Boîte à rythmes"
+        "tr-909",
+        "Synthétiseur (arpège)"
       ],
-      "construction": "Un arpège de synthé qui tourne sans fin, une basse minimale et la voix sensuelle, presque murmurée, de Jamie Principle. C'est un disque de nuit et de désir, l'opposé du jack frénétique.",
-      "producer_origins": "Jamie Principle compose chez lui une chanson d'amour électronique. Frankie Knuckles la joue d'abord en cassette au Power Plant pendant des années avant sa sortie officielle.",
-      "club_sociology": "La cassette exclusive, jouée seulement par un DJ, est un modèle de l'économie des clubs de Chicago : le DJ est le premier diffuseur, le disque vient après.",
+      "construction": "Un arpège de synthé qui tourne sans fin, une basse minimale et la voix sensuelle, presque murmurée, de Jamie Principle. L'intro au synthé et la basse sont ajoutées par Mark « Hot Rod » Trollan. C'est un disque de nuit et de désir, l'opposé du jack frénétique.",
+      "producer_origins": "Jamie Principle, chanteur amateur qui travaille le jour, écrit une chanson d'amour électronique. Frankie Knuckles la joue sur bande dans les clubs pendant plus d'un an avant sa sortie en vinyle, en avril 1986 chez Persona, au seul nom de Principle. En 1987, Trax en publie une version créditée à Knuckles, Principle restant crédité comme auteur.",
+      "club_sociology": "La bande exclusive, jouée seulement par un DJ, est un modèle de l'économie des clubs de Chicago : le DJ est le premier diffuseur, le disque vient après. Au Power Plant, où Knuckles joue chaque week-end, le morceau existe d'abord sur bande et en dubplate.",
       "queer_ballroom_axis": "Knuckles, « parrain de la house », est un DJ gay noir venu du Bronx et de la Continental Baths. « Your Love » est l'une des chansons d'amour fondatrices de la house queer.",
       "archive_ref": {
         "source": "do-you-remember-house",
@@ -2461,16 +2479,27 @@
         "LOLE1YE_oFQ",
         "rB8tFzTG3Xo"
       ],
-      "construction_en": "An endlessly cycling synth arpeggio, a minimal bassline and Jamie Principle's sensual, almost whispered vocal. A record of night and desire, the opposite of frantic jack.",
-      "producer_origins_en": "Jamie Principle wrote an electronic love song at home. Frankie Knuckles played it from a reel-to-reel tape at the Power Plant for years before its official release.",
-      "club_sociology_en": "The exclusive tape, played by one DJ only, is a model of Chicago club economics: the DJ is the first broadcaster, the record comes later.",
+      "construction_en": "An endlessly cycling synth arpeggio, a minimal bassline and Jamie Principle's sensual, almost whispered vocal. The synth intro and bassline were added by Mark \"Hot Rod\" Trollan. It is a record of night and desire, the opposite of frantic jack.",
+      "producer_origins_en": "Jamie Principle, an amateur singer with a day job, wrote an electronic love song. Frankie Knuckles played it from tape in clubs for over a year before its vinyl release, in April 1986 on Persona, credited to Principle alone. In 1987 Trax released a version credited to Knuckles, with Principle credited as songwriter.",
+      "club_sociology_en": "The exclusive tape, played by a single DJ, is a model of Chicago's club economy: the DJ is the first broadcaster, the record comes later. At the Power Plant, where Knuckles played every weekend, the track first existed on tape and dubplate.",
       "queer_ballroom_axis_en": "Knuckles, the \"Godfather of House\", was a Black gay DJ from the Bronx and the Continental Baths. \"Your Love\" is one of the founding love songs of queer house.",
       "why_this_record_en": "Proof that Chicago house could be tender and sensual.",
       "gear_en": [
-        "Synthesizer (arpeggio)",
-        "Drum machine"
+        "tr-909",
+        "Synthesizer (arpeggio)"
       ],
-      "verified": false
+      "verified": false,
+      "catalog": "JP-222",
+      "release_date": "1986-04",
+      "references": [
+        "https://en.wikipedia.org/wiki/Your_Love_(Jamie_Principle_song)",
+        "https://ra.co/reviews/23579"
+      ],
+      "verify": [
+        "La fiche présentait le disque comme « Frankie Knuckles presents Jamie Principle », Trax 1987 : la première sortie est Persona (avril 1986, JP-222) au seul nom de Principle ; la version Trax de 1987 (TX150) est créditée à Knuckles",
+        "Knuckles venu du Bronx et de la Continental Baths : non lu dans les sources consultées pour cette fiche",
+        "Pressage DJ International mentionné par RA : à documenter"
+      ]
     },
     {
       "id": "love-cant-turn-around",
@@ -2491,8 +2520,8 @@
         "Piano"
       ],
       "construction": "Une ligne de basse rebondissante et des stabs de piano. Surtout, la voix d'opéra-gospel de Darryl Pandy, qui pousse la chanson jusqu'au cri.",
-      "producer_origins": "Farley Keith Williams est un DJ des Hot Mix 5 sur WBMX : la radio est sa scène. Le morceau reprend une idée d'Isaac Hayes, ce qui alimente les querelles de crédit typiques de Chicago.",
-      "club_sociology": "Il entre dans le top 10 britannique en 1986. C'est l'une des premières fois que la house de Chicago s'impose dans les charts européens, avant même l'explosion acid.",
+      "producer_origins": "Farley Keith Williams est l'un des premiers DJ des Hot Mix 5 sur WBMX : la radio est sa scène. Le morceau reprend « I Can't Turn Around » d'Isaac Hayes, déjà repris par Steve « Silk » Hurley ; Farley en fait sa version avec Jesse Saunders, sur des paroles de Vince Lawrence. Hurley y voit le vol de sa propre production : une querelle de crédit typique de Chicago.",
+      "club_sociology": "Il atteint la 10e place des ventes britanniques en 1986 : la house de Chicago entre dans les charts européens avant même l'explosion acid.",
       "queer_ballroom_axis": "Lecture éditoriale, à sourcer : la voix flamboyante de Darryl Pandy prolonge la tradition des chanteurs gospel de la house. Sa place dans l'histoire queer du genre reste à documenter par des entretiens.",
       "archive_ref": {
         "source": "real-story-saunders",
@@ -2522,18 +2551,28 @@
         "RB6puxjzU9k"
       ],
       "construction_en": "A bouncing bassline and piano stabs. Above all, Darryl Pandy's operatic gospel voice, pushing the song all the way to a scream.",
-      "producer_origins_en": "Farley Keith Williams was a DJ in WBMX's Hot Mix 5: radio was his stage. The track reworks an Isaac Hayes idea, fuelling the credit disputes typical of Chicago.",
-      "club_sociology_en": "It made the UK top 10 in 1986, one of the first times Chicago house broke into the European charts, even before the acid explosion.",
+      "producer_origins_en": "Farley Keith Williams was one of the original Hot Mix 5 DJs on WBMX: radio was his stage. The track reworks Isaac Hayes's \"I Can't Turn Around\", already covered by Steve \"Silk\" Hurley; Farley made his own version with Jesse Saunders, with lyrics by Vince Lawrence. Hurley saw it as the theft of his own production: a typical Chicago credit dispute.",
+      "club_sociology_en": "It reached number 10 on the UK singles chart in 1986: Chicago house entered the European charts even before the acid explosion.",
       "queer_ballroom_axis_en": "Editorial reading, to be sourced: Darryl Pandy's flamboyant voice extends house's tradition of gospel singers. His place in the genre's queer history still needs documenting through interviews.",
       "why_this_record_en": "House's first crossover into Europe.",
-      "verified": false
+      "verified": false,
+      "references": [
+        "https://en.wikipedia.org/wiki/Farley_%22Jackmaster%22_Funk",
+        "https://en.wikipedia.org/wiki/Steve_%22Silk%22_Hurley",
+        "https://ra.co/reviews/25429"
+      ],
+      "verify": [
+        "Label de la première édition (DJ International ?) : non confirmé par une source lue",
+        "« Le premier crossover vers l'Europe » : formulation éditoriale",
+        "TR-808 et piano : non documentés"
+      ]
     },
     {
       "id": "jack-your-body",
       "title": "Jack Your Body",
       "artist": "Steve \"Silk\" Hurley",
       "year": 1986,
-      "label": "DJ International",
+      "label": "Underground",
       "city": "Chicago",
       "country": "USA",
       "continent": "Amérique du Nord",
@@ -2543,12 +2582,11 @@
       "camelot_key": "8A",
       "energy": 8,
       "gear": [
-        "Boîte à rythmes",
-        "Sampler"
+        "Machines Roland"
       ],
       "construction": "Une basse martelée, un kick mécanique et une voix samplée et bégayée (« jack-jack-jack your body »). C'est le jack dans sa forme la plus pure : un ordre adressé au corps.",
-      "producer_origins": "Steve Hurley est DJ de radio et de club. Le morceau naît de bandes éditées pour ses sets avant d'être pressé.",
-      "club_sociology": "C'est le premier numéro 1 house au Royaume-Uni, en janvier 1987, presque sans paroles. L'Angleterre découvre que la house est un phénomène massif.",
+      "producer_origins": "Steve Hurley est DJ de club et se fait connaître à la radio, dans l'émission Saturday Night Live Ain't No Jive Dance Party de WBMX.",
+      "club_sociology": "Il reste deux semaines numéro 1 au Royaume-Uni en janvier 1987, presque sans paroles ; Rolling Stone y voit le premier numéro 1 house britannique. L'Angleterre découvre que la house est un phénomène massif.",
       "queer_ballroom_axis": "Le « jack » est une danse et une sexualité de la piste : un vocabulaire né des clubs gays noirs de Chicago que les charts britanniques importent sans le savoir.",
       "archive_ref": {
         "source": "rave-on",
@@ -2577,15 +2615,24 @@
         "_eDf8IGSh0Q"
       ],
       "construction_en": "A hammering bassline, a mechanical kick and a sampled, stuttering voice (\"jack-jack-jack your body\"). Jack in its purest form: an order addressed to the body.",
-      "producer_origins_en": "Steve Hurley was a radio and club DJ. The track grew out of tape edits made for his sets before it was pressed.",
-      "club_sociology_en": "The first house number one in the UK, in January 1987, with barely any lyrics. Britain discovered house was a mass phenomenon.",
+      "producer_origins_en": "Steve Hurley was a club DJ who made his name on radio, on WBMX's Saturday Night Live Ain't No Jive Dance Party.",
+      "club_sociology_en": "It spent two weeks at number one in the UK in January 1987, with almost no lyrics; Rolling Stone calls it the first house song to top the UK chart. Britain discovered that house was a mass phenomenon.",
       "queer_ballroom_axis_en": "\"Jack\" is a dance and a sexuality of the dancefloor: a vocabulary born in Chicago's Black gay clubs that the British charts imported without knowing it.",
       "why_this_record_en": "The moment jack conquered the charts.",
       "gear_en": [
-        "Drum machine",
-        "Sampler"
+        "Roland machines"
       ],
-      "verified": false
+      "verified": false,
+      "references": [
+        "https://en.wikipedia.org/wiki/Jack_Your_Body",
+        "https://en.wikipedia.org/wiki/Steve_%22Silk%22_Hurley"
+      ],
+      "verify": [
+        "Label : Underground selon Wikipedia (la fiche indiquait DJ International) ; lien entre Underground et DJ International à documenter",
+        "Morceau né de bandes éditées pour ses sets : non lu dans les sources consultées, retiré du texte",
+        "Sampler : non documenté, retiré des machines ; Rolling Stone parle d'une « colonne vertébrale électronique centrée sur Roland »",
+        "Vocabulaire du jack né dans les clubs gays noirs : lecture éditoriale à sourcer"
+      ]
     },
     {
       "id": "promised-land",
