@@ -223,12 +223,16 @@
     $("#vinyl-label").textContent = t.label;
     const energy = h("span", { class: "energy-bar", "aria-hidden": "true" }, ...Array.from({ length: 10 }, (_, i) => h("i", { class: i < t.energy ? "on" : "" })));
     const b = (k, v, extra) => h("li", { class: "badge" }, h("small", {}, k), h("b", {}, v), extra);
+    // Valeurs de jeu : estimées tant qu'aucune source (mesure ou déclaration documentée) n'est indiquée.
+    const est = (k, src) => src ? h("span", { class: "est ok", title: _f(t, src) }, k, " ✓") : h("span", { class: "est", title: _t("badge.estTip") }, k, " ≈");
     $("#now-badges").replaceChildren(
-      b("BPM", t.bpm),
-      b("Camelot", t.camelot_key, h("span", { style: "color:var(--ink-3)" }, keyName(t.camelot_key))),
-      b(_t("badge.energy"), `${t.energy}/10`, energy),
+      b(est("BPM", t.bpm_source && "bpm_source"), t.bpm),
+      b(est("Camelot", t.key_source && "key_source"), t.camelot_key, h("span", { style: "color:var(--ink-3)" }, keyName(t.camelot_key))),
+      b(h("span", { class: "est", title: _t("badge.energyTip") }, _t("badge.energy")), `${t.energy}/10`, energy),
       b(_t("badge.label"), t.label, t.catalog ? h("span", { style: "color:var(--ink-3)" }, t.catalog) : null), b(_t("badge.city"), _f(t, "city")), b(_t("badge.year"), t.year));
     $("#now-why").textContent = _f(t, "why_this_record");
+    const st = $("#now-status");
+    if (st) { st.className = "audit-status" + (t.audit?.date ? " done" : ""); st.textContent = t.audit?.date ? _t("audit.done", { d: t.audit.date }) : _t("audit.pending"); st.title = t.audit?.date ? "" : _t("audit.pendingTip"); }
     const sp = $("#now-spotify");
     if (t.spotify?.id) { sp.href = `https://open.spotify.com/track/${t.spotify.id}`; sp.hidden = false; } else sp.hidden = true;
     $("#btn-listen").disabled = !t.youtube?.length;

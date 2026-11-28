@@ -75,6 +75,85 @@
       "references": [
         "https://en.wikipedia.org/wiki/Octo_Octa"
       ]
+    },
+    {
+      "name": "T4T LUV NRG",
+      "desc": "Label d'Octo Octa et d'Eris Drew.",
+      "desc_en": "Octo Octa and Eris Drew's label.",
+      "references": [
+        "https://ra.co/reviews/24087"
+      ]
+    },
+    {
+      "name": "Incienso",
+      "city": "New York",
+      "city_en": "New York",
+      "desc": "Label d'Anthony Naples et de Jenny Slattery.",
+      "desc_en": "Anthony Naples and Jenny Slattery's label.",
+      "references": [
+        "https://ra.co/reviews/24300"
+      ]
+    },
+    {
+      "name": "Coastal Haze",
+      "city": "Londres",
+      "city_en": "London",
+      "desc": "Label de Seb Wildblood et Hollick.",
+      "desc_en": "Seb Wildblood and Hollick's label.",
+      "references": [
+        "https://ra.co/news/42595",
+        "https://ra.co/reviews/23329"
+      ]
+    },
+    {
+      "name": "NAFF",
+      "city": "Montréal",
+      "city_en": "Montreal",
+      "desc": "Label codirigé par Priori et Ex-Terrestrial.",
+      "desc_en": "Label co-run by Priori and Ex-Terrestrial.",
+      "references": [
+        "https://www.factmag.com/2019/09/04/priori-debuts-on-naff-with-on-a-nimbus/"
+      ]
+    },
+    {
+      "name": "Peach Discs",
+      "city": "Bristol",
+      "city_en": "Bristol",
+      "desc": "Label fondé par Shanti Celeste en 2016.",
+      "desc_en": "Label founded by Shanti Celeste in 2016.",
+      "references": [
+        "https://www.factmag.com/2016/11/29/shanti-celeste-launches-peach-discs-label/"
+      ]
+    },
+    {
+      "name": "Don't Be Afraid",
+      "city": "Bristol",
+      "city_en": "Bristol",
+      "desc": "Label de Bristol.",
+      "desc_en": "Bristol label.",
+      "references": [
+        "https://www.factmag.com/2017/12/06/rroxymore-fact-rated/"
+      ]
+    },
+    {
+      "name": "Stay True Sounds",
+      "city": "Afrique du Sud",
+      "city_en": "South Africa",
+      "desc": "Fondé par Kid Fonque et Jullian Gomes.",
+      "desc_en": "Founded by Kid Fonque and Jullian Gomes.",
+      "references": [
+        "https://djmag.com/features/sound-stay-true-sounds"
+      ]
+    },
+    {
+      "name": "Movin' Records",
+      "city": "East Orange (New Jersey)",
+      "city_en": "East Orange (New Jersey)",
+      "desc": "Label et disquaire fondés par Abigail Adams ; la boutique ouvre en 1980.",
+      "desc_en": "Label and record shop founded by Abigail Adams; the shop opened in 1980.",
+      "references": [
+        "https://www.thevinylfactory.com/features/abigail-adams-movin-records"
+      ]
     }
   ],
   "artists": [
@@ -156,6 +235,67 @@
       "real_name": "Brian Leeds",
       "references": [
         "https://ra.co/reviews/13719"
+      ]
+    },
+    {
+      "name": "Palms Trax",
+      "real_name": "Jay Donaldson",
+      "references": [
+        "https://ra.co/reviews/16618"
+      ]
+    },
+    {
+      "name": "Youandewan",
+      "real_name": "Ewan Smith",
+      "references": [
+        "https://ra.co/reviews/19989"
+      ]
+    },
+    {
+      "name": "D. Tiffany",
+      "real_name": "Sophie Sweetland",
+      "aliases": [
+        "DJ Zozi"
+      ],
+      "references": [
+        "https://ra.co/reviews/21353"
+      ]
+    },
+    {
+      "name": "Ciel",
+      "real_name": "Cindy Li",
+      "references": [
+        "https://ra.co/news/42595"
+      ]
+    },
+    {
+      "name": "DJ Python",
+      "real_name": "Brian Piñeyro",
+      "aliases": [
+        "DJ Wey",
+        "Deejay Xanax",
+        "Luis"
+      ],
+      "references": [
+        "https://crackmagazine.net/article/album-reviews/dj-python-dulce-compania/"
+      ]
+    },
+    {
+      "name": "rRoxymore",
+      "real_name": "Hermione Frank",
+      "references": [
+        "https://www.factmag.com/2017/12/06/rroxymore-fact-rated/"
+      ]
+    },
+    {
+      "name": "Sleep D",
+      "type": "collaboration",
+      "members": [
+        "Corey Kikos",
+        "Maryos Syawish"
+      ],
+      "references": [
+        "https://ra.co/reviews/24300"
       ]
     }
   ],

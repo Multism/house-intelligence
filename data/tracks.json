@@ -1,7 +1,8 @@
 {
   "_meta": {
     "version": "1.0",
-    "note": "BPM, clés Camelot et listes de machines (gear) sont des valeurs éditoriales indicatives, établies pour le jeu de transitions. Elles doivent être vérifiées sur pressage original avant toute publication définitive."
+    "note": "BPM, clés Camelot et listes de machines (gear) sont des valeurs éditoriales indicatives, établies pour le jeu de transitions. Elles doivent être vérifiées sur pressage original avant toute publication définitive.",
+    "audit_note": "audit : { date } est posé quand toutes les affirmations de la fiche ont été vérifiées selon le protocole (CLAUDE.md) ; sinon la fiche s’affiche « en cours de vérification ». bpm_source / key_source (+ _en) : mesure sur la version exacte ou déclaration documentée ; sans elles, BPM et clé s’affichent comme valeurs estimées. L’énergie reste une appréciation éditoriale."
   },
   "eras": [
     {
@@ -491,8 +492,8 @@
       "name_en": "Queer underground house",
       "place": "États-Unis",
       "place_en": "United States",
-      "desc": "Des DJ et productrices trans et queer qui font de la house un espace de communauté et de transformation, avec leurs propres labels (T4T LUV NRG).",
-      "desc_en": "Trans and queer DJs and producers who make house a space of community and transformation, with their own labels (T4T LUV NRG)."
+      "desc": "Des DJ et productrices trans et queer qui font de la house un espace de communauté et de transformation, avec leurs propres labels (T4T LUV NRG, fondé par Octo Octa et Eris Drew).",
+      "desc_en": "Trans and queer DJs and producers who make house a space of community and transformation, with their own labels (T4T LUV NRG, run by Octo Octa and Eris Drew)."
     },
     {
       "id": "cabaret",
@@ -511,6 +512,24 @@
       "place_en": "Vancouver",
       "desc": "Le collectif et label Mood Hut : une house chaude et lente, entre deep house, disco et downtempo, d'abord publiée sur cassette.",
       "desc_en": "The Mood Hut collective and label: warm, slow house between deep house, disco and downtempo, first released on cassette."
+    },
+    {
+      "id": "melbourne-naarm",
+      "name": "Melbourne / Naarm",
+      "name_en": "Melbourne / Naarm",
+      "place": "Melbourne",
+      "place_en": "Melbourne",
+      "desc": "Une scène qui mêle house, électro, breaks, ambient et psychédélisme, portée par des labels et des fêtes indépendants (Butter Sessions, Kalahari Oyster Cult). On parle parfois d'« Australian hypnotic house » : c'est une étiquette éditoriale, pas un genre codifié.",
+      "desc_en": "A scene that blends house, electro, breaks, ambient and psychedelia, driven by independent labels and parties (Butter Sessions, Kalahari Oyster Cult). It is sometimes called \"Australian hypnotic house\": an editorial label, not a codified genre."
+    },
+    {
+      "id": "canada-house",
+      "name": "Canada : Vancouver, Toronto, Montréal",
+      "name_en": "Canada: Vancouver, Toronto, Montreal",
+      "place": "Canada",
+      "place_en": "Canada",
+      "desc": "Une house lente, cosmique ou bricolée, publiée par de petits labels tenus par les artistes eux-mêmes (Pacific Rhythm, NAFF, Peach Discs pour Ciel). Mood Hut, à Vancouver, a sa propre micro-scène.",
+      "desc_en": "Slow, cosmic or homemade house, released by small artist-run labels (Pacific Rhythm, NAFF, Peach Discs for Ciel). Vancouver's Mood Hut has its own micro-scene."
     }
   ],
   "tracks": [
@@ -529,10 +548,12 @@
       "camelot_key": "5A",
       "energy": 6,
       "gear": [
-        "tr-808"
+        "tr-808",
+        "Korg Poly-61",
+        "tb-303"
       ],
-      "construction": "Une TR-808 programmée en boucle, une basse synthétique qui rebondit et une voix réduite à un mantra. Saunders recrée de mémoire un edit bootleg qu'il jouait en club et qu'on lui avait volé : la house commence comme une copie domestique d'un disque disparu.",
-      "producer_origins": "DJ du club The Playground, Saunders travaille avec Vince Lawrence et fait presser le disque à l'usine Musical Products de Larry Sherman, future maison de Trax Records. Le modèle est posé : un DJ, une machine d'occasion, un pressage indépendant et une sortie directe vers les bacs locaux.",
+      "construction": "Une TR-808 programmée en boucle, une basse synthétique qui rebondit et une voix réduite à un mantra. Saunders recrée un edit disco qu'il jouait en club, « On & On » de Mach, et qu'on lui avait volé : la house commence comme une copie domestique d'un disque disparu.",
+      "producer_origins": "DJ résident du Playground au début des années 1980, Saunders enregistre le morceau en 1983 avec Vince Lawrence et le sort début 1984 sur leur propre label, Jes Say Records. Le disque est pressé chez Larry Sherman, qui tient alors la seule usine de pressage de la ville et fondera Trax Records. Le modèle est posé : un DJ, des machines, un pressage indépendant et une sortie directe vers les bacs locaux.",
       "club_sociology": "Chicago sort du « Disco Demolition Night » de 1979, quand la radio rock a déclaré la disco morte. Elle survit pourtant dans les clubs du South Side et sur WBMX, où les Hot Mix 5 diffusent des mixes que les ados enregistrent sur cassette. Le 12\" auto-produit répond à une pénurie : il n'y a plus assez de disco neuve pour nourrir les pistes.",
       "queer_ballroom_axis": "Selon la version la plus répandue, le mot « house » viendrait du Warehouse, club fréquenté majoritairement par des hommes gays noirs où Frankie Knuckles mixe de 1977 à 1982 (l'étymologie reste disputée). Saunders appartient à une scène plus mixte et plus jeune : le son a quitté très tôt son berceau queer pour circuler dans toute la ville.",
       "archive_ref": {
@@ -540,7 +561,7 @@
         "note": "Débats sur le « premier disque house » et rôle des pressages indépendants de Chicago.",
         "note_en": "Debates over the \"first house record\" and the role of Chicago's independent pressings."
       },
-      "why_this_record": "C'est le disque le plus souvent cité comme premier 12\" house pressé. Il est moins important pour sa musique que pour le geste qu'il incarne : n'importe qui avec une 808 peut désormais faire un disque.",
+      "why_this_record": "C'est le disque le plus souvent cité comme premier 12\" house pressé, une attribution discutée : des précédents existent, et RA juge la face A elle-même « discutable ». Il compte moins pour sa musique que pour le geste qu'il incarne : n'importe qui avec une 808 peut désormais faire un disque.",
       "tags": [
         "roots",
         "diy",
@@ -556,12 +577,28 @@
         "Be7o_ym2dNc",
         "NQ7ISClDz3U"
       ],
-      "construction_en": "A looped TR-808, a bouncing synth bass and a vocal pared down to a mantra. Saunders rebuilt from memory a bootleg edit he used to play out and that had been stolen from him: house begins as a home-made copy of a vanished record.",
-      "producer_origins_en": "A DJ at The Playground, Saunders worked with Vince Lawrence and had the record pressed at Larry Sherman's Musical Products plant, the future home of Trax Records. The template was set: a DJ, a second-hand machine, an independent pressing and a straight line to the local record shops.",
+      "construction_en": "A looped TR-808, a bouncing synth bass and a vocal reduced to a mantra. Saunders recreated a disco edit he played in clubs, Mach's \"On & On\", which had been stolen from him: house begins as a homemade copy of a vanished record.",
+      "producer_origins_en": "A resident DJ at the Playground in the early 1980s, Saunders recorded the track in 1983 with Vince Lawrence and released it in early 1984 on their own label, Jes Say Records. It was pressed by Larry Sherman, who then ran the city's only pressing plant and would go on to found Trax Records. The model was set: a DJ, some machines, an independent pressing and a direct route to local record bins.",
       "club_sociology_en": "Chicago was coming out of the 1979 \"Disco Demolition Night\", when rock radio declared disco dead. Yet disco survived in South Side clubs and on WBMX, where the Hot Mix 5 broadcast mixes that teenagers taped off the radio. The self-released 12\" answered a shortage: there simply wasn't enough new disco left to feed the dancefloors.",
       "queer_ballroom_axis_en": "According to the most common version, the word \"house\" comes from the Warehouse, a club whose crowd was mostly Black gay men and where Frankie Knuckles played from 1977 to 1982 (the etymology is disputed). Saunders belonged to a younger, more mixed scene: the sound left its queer cradle very early and spread across the city.",
-      "why_this_record_en": "It is the record most often cited as the first house 12\" ever pressed. It matters less for its music than for the gesture it embodies: from now on, anyone with an 808 can make a record.",
-      "verified": false
+      "why_this_record_en": "It is the record most often cited as the first house 12\" ever pressed, a debated attribution: there are precedents, and RA calls the A-side itself \"debatable\". It matters less for its music than for the gesture it embodies: anyone with an 808 could now make a record.",
+      "verified": false,
+      "catalog": "JS9999",
+      "gear_en": [
+        "tr-808",
+        "Korg Poly-61",
+        "tb-303"
+      ],
+      "references": [
+        "https://ra.co/reviews/25429",
+        "https://en.wikipedia.org/wiki/Jesse_Saunders"
+      ],
+      "verify": [
+        "Playground : Saunders y est résident selon RA, il l'ouvre en 1982 selon Wikipedia",
+        "Korg Poly-61 et TB-303 : d'après Wikipedia seulement (source secondaire)",
+        "Disques bouclés dans l'edit de Mach : Munich Machine et Donna Summer selon RA, autres titres sur Wikipedia (non sourcé)",
+        "Contexte (Disco Demolition Night, WBMX et Hot Mix 5, pénurie de disco neuve) : non lu dans les sources consultées pour cette fiche"
+      ]
     },
     {
       "id": "move-your-body",
@@ -574,12 +611,12 @@
       "continent": "Amérique du Nord",
       "genre": "chicago",
       "era": "era-1",
-      "bpm": 121,
+      "bpm": 122,
       "camelot_key": "8B",
       "energy": 8,
       "gear": [
-        "tr-707",
-        "Piano acoustique (overdub)"
+        "Prophet 2000 (échantillonneur, son de piano)",
+        "tr-707"
       ],
       "construction": "Des accords de piano martelés sur un pattern de boîte à rythmes rigide, une basse en octaves et un chant d'église porté par Curtis McClain. C'est l'acte de naissance du piano house : la ferveur gospel posée sur une grille mécanique.",
       "producer_origins": "Jefferson travaille à la poste et découvre le matériel en autodidacte, en achetant des machines à crédit. Il ne vient pas du conservatoire : il compose en enregistrant des pistes une à une et assume une approche « non-musicien » qui deviendra la norme de la house.",
@@ -618,10 +655,21 @@
       "queer_ballroom_axis_en": "The Music Box drew a Black, gay, working-class crowd for whom the dancefloor worked like a secular church. The lyrics (\"gotta have house music, all night long\") turn that dance-bound community into ritual.",
       "why_this_record_en": "It proves house can be euphoric and melodic without losing any of its rhythmic grit.",
       "gear_en": [
-        "tr-707",
-        "Acoustic piano (overdub)"
+        "Prophet 2000 (sampler, piano sound)",
+        "tr-707"
       ],
-      "verified": false
+      "verified": false,
+      "references": [
+        "https://www.muzines.co.uk/articles/emotional-foundations/2201",
+        "https://daily.redbullmusicacademy.com/2016/08/marshall-jefferson-interview"
+      ],
+      "verify": [
+        "122 BPM : tempo de production déclaré par Jefferson (RBMA, 2016 : basse jouée à 40 BPM puis accélérée à 122), à mesurer sur le pressage Trax",
+        "TR-707 sur ce disque : non documenté ; Music Technology (1989) cite une TR-808 et une 707 pour son studio en général",
+        "Parcours (poste, machines à crédit) : non lu dans les sources consultées"
+      ],
+      "bpm_source": "Tempo de production déclaré par Marshall Jefferson (Red Bull Music Academy, 2016)",
+      "bpm_source_en": "Production tempo stated by Marshall Jefferson (Red Bull Music Academy, 2016)"
     },
     {
       "id": "acid-tracks",
@@ -639,11 +687,12 @@
       "energy": 7,
       "gear": [
         "tb-303",
-        "tr-707"
+        "tr-707",
+        "TR-727"
       ],
-      "construction": "Douze minutes de TB-303 dont on tourne en continu les potards de cutoff, de résonance et d'enveloppe sur une 707 sèche. La mélodie compte peu : tout se joue dans la mutation du timbre, une basse qui « parle », couine et s'étrangle.",
-      "producer_origins": "DJ Pierre, Earl « Spanky » Smith Jr. et Herb J. bricolent une 303 achetée d'occasion sans savoir s'en servir. L'accident devient méthode : Spanky programme, Pierre triture les réglages jusqu'à trouver ce son.",
-      "club_sociology": "Ron Hardy joue la cassette plusieurs fois dans la même nuit à la Music Box. Le public la rejette d'abord, puis la réclame. Le nom « acid » naît de la rumeur selon laquelle le DJ mettait du LSD dans l'eau. La légende précède le disque.",
+      "construction": "Douze minutes de TB-303 dont on tourne en continu les potards de cutoff, de résonance et d'enveloppe sur une 707 et une 727 sèches. La mélodie compte peu : tout se joue dans la mutation du timbre, une basse qui « parle », couine et s'étrangle.",
+      "producer_origins": "DJ Pierre, Earl « Spanky » Smith Jr. et Herb J bricolent une TB-303 achetée une quarantaine de dollars sans savoir s'en servir. L'accident devient méthode : Spanky programme, Pierre triture les réglages jusqu'à trouver ce son. Ils l'enregistrent vers 128 BPM ; Marshall Jefferson leur demande de ralentir, et le morceau passe à 120.",
+      "club_sociology": "Ron Hardy joue la cassette plusieurs fois dans la même nuit à la Music Box. Le public l'appelle « Ron Hardy's Acid Track » ; le groupe garde le surnom, retire le nom du DJ, et le disque sort chez Trax en 1987 sous le titre « Acid Tracks ».",
       "queer_ballroom_axis": "L'acide naît dans l'espace noir et gay de la Music Box. Lorsqu'il traverse l'Atlantique, il est réapproprié par la jeunesse blanche britannique de la rave. Le smiley efface en partie ses origines : c'est un cas d'école de déracinement culturel.",
       "archive_ref": {
         "source": "modulations",
@@ -673,12 +722,29 @@
         "igNBeo3QSqc",
         "PJJ5FxpVGUY"
       ],
-      "construction_en": "Twelve minutes of TB-303 whose cutoff, resonance and envelope knobs are twisted non-stop over a bone-dry 707. The melody barely matters: everything happens in the mutating timbre, a bassline that \"talks\", squeals and chokes.",
-      "producer_origins_en": "DJ Pierre, Earl \"Spanky\" Smith Jr. and Herb J tinkered with a second-hand 303 without knowing how to use it. The accident became the method: Spanky programmed, Pierre tweaked the settings until that sound appeared.",
-      "club_sociology_en": "Ron Hardy played the tape several times in one night at the Music Box. The crowd rejected it at first, then demanded it. The name \"acid\" came from a rumour that the DJ was spiking the water with LSD. The legend arrived before the record.",
+      "construction_en": "Twelve minutes of TB-303 whose cutoff, resonance and envelope knobs are twisted non-stop over a bone-dry 707 and 727. The melody barely matters: everything happens in the mutating timbre, a bassline that \"talks\", squeals and chokes.",
+      "producer_origins_en": "DJ Pierre, Earl \"Spanky\" Smith Jr. and Herb J tinkered with a TB-303 bought for around $40 without knowing how to use it. The accident became the method: Spanky programmed, Pierre tweaked the settings until that sound appeared. They recorded it at around 128 BPM; Marshall Jefferson told them to slow it down, and the track settled at 120.",
+      "club_sociology_en": "Ron Hardy played the tape several times in one night at the Music Box. The crowd called it \"Ron Hardy's Acid Track\"; the group kept the nickname, dropped the DJ's name, and the record came out on Trax in 1987 as \"Acid Tracks\".",
       "queer_ballroom_axis_en": "Acid was born in the Black and gay space of the Music Box. Once it crossed the Atlantic, it was re-appropriated by Britain's white rave youth, and the smiley partly erased its origins: a textbook case of cultural uprooting.",
       "why_this_record_en": "It shows, in its purest form, how an instrument designed for one job becomes something else entirely in the hands of young DJs.",
-      "verified": false
+      "verified": false,
+      "gear_en": [
+        "tb-303",
+        "tr-707",
+        "TR-727"
+      ],
+      "references": [
+        "https://daily.redbullmusicacademy.com/2012/12/dj-pierre-interview",
+        "https://articles.roland.com/lifetime-achievement-dj-pierre-and-phuture/"
+      ],
+      "verify": [
+        "Origine du mot « acid » liée à une rumeur de LSD dans l'eau : non étayée par les sources consultées (RBMA 2012, Roland 2022), retirée du texte",
+        "Propriétaire de la TB-303 : Spanky selon DJ Pierre et Roland, Marshall Jefferson selon Music Technology (1989)",
+        "Réaction initiale du public de la Music Box : à préciser à partir du récit de DJ Pierre",
+        "Titre de travail « In Your Mind » (Roland 2022) : non recoupé"
+      ],
+      "bpm_source": "Tempo déclaré par DJ Pierre (Red Bull Music Academy, 2012)",
+      "bpm_source_en": "Tempo stated by DJ Pierre (Red Bull Music Academy, 2012)"
     },
     {
       "id": "voodoo-ray",
@@ -876,7 +942,17 @@
       "club_sociology_en": "The Paradise Garage at 84 King Street (1977–1987) was members-only, served no alcohol and ran until Sunday morning. Richard Long's sound and Levan's marathon sets made it a place of worship, people called it \"Saturday Mass\".",
       "queer_ballroom_axis_en": "The Garage was one of the founding spaces of Black and Latino gay social life in New York. The AIDS epidemic hit it head-on; Levan died in 1992. \"Garage\" is first and foremost an archive of that community.",
       "why_this_record_en": "It lets you hear garage before house: an aesthetic of dub, space and fervour that runs through everything that follows.",
-      "verified": false
+      "verified": false,
+      "references": [
+        "https://www.nts.live/artists/5444-peech-boys"
+      ],
+      "verify": [
+        "Production par Larry Levan et Michael de Benedictus : non confirmée par une source lue (NTS cite de Benedictus comme membre du groupe)",
+        "Voix de Bernard Fowler : NTS le cite comme membre, sans préciser le chant",
+        "Année : 1982 (fiches de disque NTS) ou 1981 (texte de NTS) ; catalogue WES 22140 non lu",
+        "Paradise Garage (84 King Street, 1977-1987, adhésion, sans alcool, Richard Long, « Saturday Mass ») : non lu dans les sources consultées pour cette fiche",
+        "TR-808 et claps noyés dans l'écho : non documentés"
+      ]
     },
     {
       "id": "ha-dance",
@@ -1029,7 +1105,7 @@
       ],
       "construction": "Un kick house à quatre temps, des stabs de cuivres samplés et un flow rap qui exhorte la piste. Le MC remplace la diva, l'injonction remplace la supplique.",
       "producer_origins": "Fast Eddie Smith, DJ de la Hot Mix 5 de WBMX, vient de la radio et du mix. Le hip-house est une tentative de faire dialoguer les deux cultures noires dominantes de Chicago.",
-      "club_sociology": "Fin des années 80, les labels de Chicago (DJ International, Trax) cherchent un second souffle commercial. Le hip-house est un format crossover destiné aux charts et aux clubs hétéros.",
+      "club_sociology": "Fin des années 80, les labels de Chicago (DJ International, Trax) cherchent un second souffle commercial, et les majors soutiennent le hip-house. Le disque entre dans les ventes britanniques en mars 1989 (54e place).",
       "queer_ballroom_axis": "Le hip-house s'appuie sur la masculinité du rap pour élargir l'audience de la house au-delà de ses publics queer. On peut y lire une tentative de « dé-queeriser » le son de Chicago, même si la frontière reste poreuse.",
       "archive_ref": {
         "source": "history-of-house",
@@ -1057,10 +1133,20 @@
       ],
       "construction_en": "A four-to-the-floor house kick, sampled horn stabs and a rap flow that exhorts the floor. The MC replaces the diva; command replaces supplication.",
       "producer_origins_en": "Fast Eddie Smith, a DJ in WBMX's Hot Mix 5, came from radio and mixing. Hip-house was an attempt to put Chicago's two dominant Black musics in dialogue.",
-      "club_sociology_en": "In the late 80s Chicago labels (DJ International, Trax) were looking for a second commercial wind. Hip-house was a crossover format aimed at the charts and straight clubs.",
+      "club_sociology_en": "In the late '80s Chicago labels (DJ International, Trax) were looking for a commercial second wind, and major labels backed hip-house. The record entered the UK singles chart in March 1989 (number 54).",
       "queer_ballroom_axis_en": "Hip-house leaned on rap's masculinity to widen house's audience beyond its queer crowds. You can read it as an attempt to \"de-queer\" the Chicago sound, even if the border stayed porous.",
       "why_this_record_en": "A precious document of how house negotiated its identity in the face of hip-hop.",
-      "verified": false
+      "verified": false,
+      "catalog": "DJIN7",
+      "references": [
+        "https://www.officialcharts.com/songs/dj-fast-eddie-yo-yo-get-funky/"
+      ],
+      "verify": [
+        "Fast Eddie membre des Hot Mix 5 de WBMX : non lu dans les sources consultées",
+        "Instrumentation (TR-808, cuivres samplés) : non documentée",
+        "Fast Eddie dit avoir inventé le hip-house en 1987 : rapporté par un blog (12edit), à recouper",
+        "Lecture du hip-house comme « dé-queerisation » : interprétation éditoriale à sourcer"
+      ]
     },
     {
       "id": "ill-house-you",
@@ -1077,11 +1163,12 @@
       "camelot_key": "2A",
       "energy": 7,
       "gear": [
-        "sp-1200"
+        "Échantillonneur",
+        "Boîte à rythmes"
       ],
-      "construction": "Le groupe rappe sur l'instrumental de « Can You Party » de Royal House, produit par Todd Terry. C'est un collage sampler typique de Terry : des boucles brutes et du kick, sans ornement.",
-      "producer_origins": "Les Jungle Brothers, membres du collectif Native Tongues, ont une approche afrocentrée et ludique du rap. Todd Terry, venu du hip-hop, applique la logique du sampler à la house.",
-      "club_sociology": "Le morceau passe dans les clubs house comme sur les radios rap new-yorkaises, preuve que les deux scènes partageaient les mêmes quartiers et les mêmes DJs avant que l'industrie ne les sépare.",
+      "construction": "Le groupe rappe sur « Can You Party » de Royal House, produit par Todd Terry et largement samplé : des boucles brutes et du kick, sans ornement.",
+      "producer_origins": "Les Jungle Brothers sont parmi les fondateurs du collectif Native Tongues, à l'approche afrocentrée et ludique du rap. Todd Terry, qui produisait du hip-hop avant la house, applique la logique du sample à la house.",
+      "club_sociology": "À l'été 1988, les DJs house de New York le jouent dans les clubs de tous les quartiers : les deux scènes partagent alors les mêmes quartiers et les mêmes disques.",
       "queer_ballroom_axis": "Venus du hip-hop « conscient », les Native Tongues se montrent plus ouverts que le mainstream rap de l'époque. Le morceau reste toutefois adressé à un public hétéro et marque l'entrée du rap dans les clubs.",
       "archive_ref": {
         "source": "last-night-dj",
@@ -1106,12 +1193,26 @@
       "further_reading": [
         "soul-underground"
       ],
-      "construction_en": "The group raps over the instrumental of Royal House's \"Can You Party\", produced by Todd Terry. A typical Terry sampler collage: raw loops and kick, no ornament.",
-      "producer_origins_en": "The Jungle Brothers, members of the Native Tongues collective, took an Afrocentric, playful approach to rap. Todd Terry, who came up through hip-hop, applied sampler logic to house.",
-      "club_sociology_en": "The track played in house clubs and on New York rap radio alike, proof that both scenes shared the same neighbourhoods and DJs before the industry pulled them apart.",
+      "construction_en": "The group raps over Royal House's \"Can You Party\", produced by Todd Terry and heavily sampled: raw loops and kick drum, no frills.",
+      "producer_origins_en": "The Jungle Brothers were founding members of the Native Tongues collective, with an Afrocentric, playful approach to rap. Todd Terry, who produced hip-hop before house, brought sampling logic to house.",
+      "club_sociology_en": "In summer 1988 New York's house DJs played it in clubs across the boroughs: the two scenes then shared the same neighbourhoods and the same records.",
       "queer_ballroom_axis_en": "Coming from \"conscious\" hip-hop, the Native Tongues were more open than the rap mainstream of the time. Still, the record speaks to a straight audience and marks rap's entry into the clubs.",
       "why_this_record_en": "New York's take on hip-house: more sampler than drum machine.",
-      "verified": false
+      "verified": false,
+      "gear_en": [
+        "Sampler",
+        "Drum machine"
+      ],
+      "references": [
+        "https://djtropicaldisco.com/how-ill-house-you-by-the-jungle-brothers-came-to-be/",
+        "https://www.babystepmagazine.com/single-post/2020/01/28/the-blue-print-interview-with-jungle-brothers-about-ill-house-you",
+        "https://en.wikipedia.org/wiki/Todd_Terry"
+      ],
+      "verify": [
+        "Label : Idlers selon DJ Tropical Disco, Warlock cité comme distributeur (la fiche indique Warlock)",
+        "SP-1200 : aucun modèle d'échantillonneur nommé dans les sources lues, retiré",
+        "Diffusion sur les radios rap new-yorkaises : non lue pour ce disque"
+      ]
     },
     {
       "id": "strings-of-life",
@@ -2195,7 +2296,7 @@
       "title": "I Feel Love",
       "artist": "Donna Summer",
       "year": 1977,
-      "label": "Casablanca / GTO",
+      "label": "Casablanca",
       "city": "Munich",
       "country": "Allemagne",
       "continent": "Europe",
@@ -2206,12 +2307,13 @@
       "energy": 8,
       "gear": [
         "moog-modular",
-        "Séquenceur analogique"
+        "Séquenceur",
+        "Batterie (grosse caisse, Keith Forsey)"
       ],
-      "construction": "Tout est synthétique sauf le kick et la voix : une basse séquencée en arpège au Moog modulaire, des doubles croches qui pulsent, la voix de Summer qui flotte en apesanteur. C'est la première fois que la machine porte entièrement une chanson disco.",
-      "producer_origins": "Giorgio Moroder et Pete Bellotte travaillent depuis Munich, loin de la soul américaine. Ils imaginent un disque « du futur » pour clore un album-concept qui traverse les décennies.",
-      "club_sociology": "Le disque fait le lien entre la disco orchestrale et la musique électronique de danse. On raconte que Brian Eno y a entendu « le son du futur » des clubs.",
-      "queer_ballroom_axis": "Donna Summer est l'icône absolue des pistes gays de la fin des années 70. « I Feel Love » prépare le hi-NRG, la disco électronique des clubs gays des années 80, et via Patrick Cowley tout un pan de la musique queer.",
+      "construction": "Tout est synthétique sauf la voix et la grosse caisse, jouée sur une vraie batterie par Keith Forsey : une basse séquencée au Moog, des charlestons de bruit blanc, la voix de Summer, enregistrée d'une seule prise, qui flotte en apesanteur. C'est la première fois que la machine porte entièrement une chanson disco.",
+      "producer_origins": "Giorgio Moroder et Pete Bellotte travaillent au studio Musicland de Munich, loin de la soul américaine. L'album I Remember Yesterday évoque une décennie par morceau ; pour le dernier, « I Feel Love », ils veulent une ambiance du futur. Le Moog est emprunté à Eberhard Schoener.",
+      "club_sociology": "Numéro 1 au Royaume-Uni pendant quatre semaines en juillet 1977, le disque fait le lien entre la disco orchestrale et la musique électronique de danse. Selon David Bowie, Brian Eno arrive en studio en disant avoir entendu « le son du futur ».",
+      "queer_ballroom_axis": "Donna Summer est une icône des pistes gays de la fin des années 70. « I Feel Love » annonce le hi-NRG, et le remix étendu de Patrick Cowley devient un classique underground de San Francisco.",
       "archive_ref": {
         "source": "hot-stuff",
         "note": "Disco, technologie et culture gay américaine.",
@@ -2234,17 +2336,28 @@
         "9ZqqvrWCs3Q",
         "ufGLhImwnYg"
       ],
-      "construction_en": "Everything is synthetic except the kick and the vocal: an arpeggiated bass sequenced on a Moog modular, pulsing sixteenth notes, Summer's voice floating weightless. For the first time a machine carries an entire disco song.",
-      "producer_origins_en": "Giorgio Moroder and Pete Bellotte worked out of Munich, far from American soul. They imagined a record \"from the future\" to close a concept album travelling through the decades.",
-      "club_sociology_en": "The record links orchestral disco and electronic dance music. Brian Eno reportedly heard in it \"the sound of the future\" of clubbing.",
-      "queer_ballroom_axis_en": "Donna Summer was the absolute icon of late-70s gay dancefloors. \"I Feel Love\" paved the way for hi-NRG, the electronic disco of 1980s gay clubs, and, via Patrick Cowley, for a whole strand of queer music.",
+      "construction_en": "Everything is synthetic except the vocal and the kick, played on a real kit by Keith Forsey: a sequenced Moog bassline, white-noise hi-hats, and Summer's vocal, recorded in a single take, floating weightlessly. It is the first time a machine carries a disco song entirely.",
+      "producer_origins_en": "Giorgio Moroder and Pete Bellotte worked at Musicland studios in Munich, far from American soul. The album I Remember Yesterday evokes one decade per track; for the last one, \"I Feel Love\", they wanted a futuristic mood. The Moog was borrowed from Eberhard Schoener.",
+      "club_sociology_en": "Number one in the UK for four weeks in July 1977, the record bridges orchestral disco and electronic dance music. According to David Bowie, Brian Eno came into the studio saying he had heard \"the sound of the future\".",
+      "queer_ballroom_axis_en": "Donna Summer was an icon of late-'70s gay dancefloors. \"I Feel Love\" heralds hi-NRG, and Patrick Cowley's extended remix became an underground classic in San Francisco.",
       "why_this_record_en": "The direct link between disco and machine house.",
       "country_en": "Germany",
       "gear_en": [
         "moog-modular",
-        "Analogue sequencer"
+        "Sequencer",
+        "Drum kit (kick, Keith Forsey)"
       ],
-      "verified": false
+      "verified": false,
+      "release_date": "1977-07-02",
+      "references": [
+        "https://en.wikipedia.org/wiki/I_Feel_Love",
+        "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/MoroderInterview.pdf"
+      ],
+      "verify": [
+        "Moroder dit que tout sauf la voix vient du Moog ; Wikipedia attribue la grosse caisse à Keith Forsey (sources divergentes)",
+        "Moog modulaire : les sources lues disent seulement « Moog »",
+        "Édition britannique GTO : non confirmée par une source lue"
+      ]
     },
     {
       "id": "mighty-real",
@@ -2265,9 +2378,9 @@
         "Section rythmique"
       ],
       "construction": "Un kick insistant, des synthés stridents ajoutés par Patrick Cowley et la voix de fausset gospel de Sylvester au sommet. L'énergie est hi-NRG avant la lettre : plus rapide, plus électronique, plus extatique que la disco new-yorkaise.",
-      "producer_origins": "Sylvester James, formé à l'église pentecôtiste de Los Angeles, débarque à San Francisco dans la scène drag et contre-culturelle (les Cockettes). Patrick Cowley, ingénieur et synthésiste, devient son alter ego technique.",
-      "club_sociology": "Le morceau domine les clubs de Castro et devient un tube international. San Francisco construit un circuit gay de la disco électronique, parallèle à New York.",
-      "queer_ballroom_axis": "Sylvester, ouvertement gay, noir et gender-nonconforming, est la figure la plus explicitement queer de la disco. Cowley meurt du sida en 1982, Sylvester en 1988 : leur histoire est aussi celle de l'épidémie.",
+      "producer_origins": "Sylvester James grandit en chantant dans les églises pentecôtistes de Los Angeles, puis s'installe en 1970 à San Francisco, au cœur de la contre-culture, où il rejoint la troupe des Cockettes. Signé chez Fantasy en 1976, il fait appel à Patrick Cowley pour jouer les synthés de « Mighty Real ».",
+      "club_sociology": "Le morceau domine les clubs du Castro et devient numéro 1 disco dans la plupart des grandes villes américaines, puis entre dans le top 10 de nombreux pays, de l'Angleterre au Brésil et à Hong Kong. San Francisco construit un circuit gay de la disco électronique, parallèle à New York.",
+      "queer_ballroom_axis": "Sylvester, ouvertement gay et noir, androgyne et habillé en femme sur scène (« gender fluid » selon Red Bull Music Academy), est la figure la plus explicitement queer de la disco. Patrick Cowley meurt du sida en novembre 1982, parmi les mille premiers malades emportés ; Sylvester meurt en 1988, au cœur de l'épidémie : leur histoire est aussi celle du sida.",
       "archive_ref": {
         "source": "hot-stuff",
         "note": "Le chapitre sur Sylvester et la disco gay de San Francisco.",
@@ -2296,15 +2409,24 @@
         "VgFk-tLr6eo"
       ],
       "construction_en": "A relentless kick, piercing synths added by Patrick Cowley and Sylvester's gospel falsetto on top. Hi-NRG before the name: faster, more electronic and more ecstatic than New York disco.",
-      "producer_origins_en": "Sylvester James, raised in a Los Angeles Pentecostal church, landed in San Francisco's drag and countercultural scene (the Cockettes). Patrick Cowley, engineer and synthesist, became his technical alter ego.",
-      "club_sociology_en": "The track ruled the Castro's clubs and became an international hit. San Francisco built its own gay circuit of electronic disco, parallel to New York.",
-      "queer_ballroom_axis_en": "Openly gay, Black and gender-nonconforming, Sylvester is disco's most explicitly queer figure. Cowley died of AIDS in 1982, Sylvester in 1988: their story is also the epidemic's.",
+      "producer_origins_en": "Sylvester James grew up singing in Pentecostal churches in Los Angeles, then moved in 1970 to San Francisco, the heart of the counterculture, where he joined the Cockettes troupe. Signed to Fantasy in 1976, he brought in Patrick Cowley to play synths on \"Mighty Real\".",
+      "club_sociology_en": "The track ruled the Castro's clubs and became the number one disco song in most major US cities, then hit the top ten in many countries, from England to Brazil and Hong Kong. San Francisco built a gay circuit of electronic disco, parallel to New York.",
+      "queer_ballroom_axis_en": "Sylvester, openly gay and Black, androgynous and cross-dressing on stage (\"gender fluid\" in Red Bull Music Academy's words), is disco's most explicitly queer figure. Patrick Cowley died of AIDS in November 1982, among the first thousand people it killed; Sylvester died in 1988, in the midst of the epidemic: their story is also that of AIDS.",
       "why_this_record_en": "\"Mighty Real\" is a manifesto: queer fervour as the engine of the dancefloor.",
       "gear_en": [
         "Synthesizers (Patrick Cowley)",
         "Rhythm section"
       ],
-      "verified": false
+      "verified": false,
+      "references": [
+        "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/YouMakeMeFeel.pdf",
+        "https://daily.redbullmusicacademy.com/2018/08/sylvester-cover-songs/"
+      ],
+      "verify": [
+        "Identité : les sources lues emploient « openly gay », « androgynous, cross-dressing » (Joshua Gamson, Library of Congress) et « gender fluid » (RBMA), et le pronom « he » ; la fiche disait « gender-nonconforming »",
+        "Cause du décès de Sylvester : non précisée dans les sources lues",
+        "Classements précis (Royaume-Uni, États-Unis) : non lus"
+      ]
     },
     {
       "id": "love-sensation",
@@ -2324,9 +2446,9 @@
         "Orchestre disco",
         "Section rythmique live"
       ],
-      "construction": "Une production disco de Dan Hartman au service d'une voix gospel monumentale. Les cris de Loleatta Holloway deviendront l'un des samples vocaux les plus utilisés de la house.",
-      "producer_origins": "Holloway, chanteuse de gospel de Chicago, enregistre pour Salsoul, le label new-yorkais dont les mixes 12\" (Walter Gibbons, Tom Moulton) inventent le remix de club.",
-      "club_sociology": "En 1989, Black Box sample sa voix sans la créditer pour « Ride on Time », numéro 1 au Royaume-Uni. L'affaire devient un cas d'école des droits du sample et du sort réservé aux chanteuses noires.",
+      "construction": "Une production disco de Dan Hartman, qui écrit et produit le morceau, au service d'une voix gospel monumentale. Selon The Independent, Loleatta Holloway est la chanteuse la plus samplée de la musique populaire.",
+      "producer_origins": "Née à Chicago en 1946, Holloway chante le gospel avec sa mère dans les Holloway Community Singers, avant d'enregistrer pour Gold Mind, filiale de Salsoul, le label new-yorkais dont les mixes 12\" inventent le remix de club.",
+      "club_sociology": "En 1989, Black Box sample sa voix sans autorisation ni crédit pour « Ride on Time », six semaines numéro 1 et meilleure vente de l'année au Royaume-Uni. Holloway et Hartman attaquent le groupe en 1990 et obtiennent un accord amiable ; Holloway est ensuite créditée comme chanteuse. L'affaire devient un cas d'école des droits du sample et du sort réservé aux chanteuses noires.",
       "queer_ballroom_axis": "C'est la diva gospel, figure centrale de l'imaginaire queer de la piste. Sa voix, découpée par d'autres, raconte aussi l'effacement des femmes noires dans la dance music.",
       "archive_ref": {
         "source": "disco-files",
@@ -2355,23 +2477,31 @@
         "Kr5zQZq33-c",
         "v-S5jD2fP2Y"
       ],
-      "construction_en": "A Dan Hartman disco production in service of a monumental gospel voice. Loleatta Holloway's wails would become one of the most sampled vocals in house.",
-      "producer_origins_en": "Holloway, a Chicago gospel singer, recorded for Salsoul, the New York label whose 12\" mixes (Walter Gibbons, Tom Moulton) invented the club remix.",
-      "club_sociology_en": "In 1989 Black Box sampled her voice uncredited for \"Ride on Time\", a UK number one. The affair became a textbook case of sample rights and of how Black women singers were treated.",
+      "construction_en": "A disco production by Dan Hartman, who wrote and produced the track, built around a monumental gospel voice. According to The Independent, Loleatta Holloway is the most sampled female singer in popular music.",
+      "producer_origins_en": "Born in Chicago in 1946, Holloway sang gospel with her mother in the Holloway Community Singers before recording for Gold Mind, a subsidiary of Salsoul, the New York label whose 12\" mixes invented the club remix.",
+      "club_sociology_en": "In 1989 Black Box sampled her voice without permission or credit for \"Ride on Time\", six weeks at number one and the UK's best-selling single of the year. Holloway and Hartman sued the group in 1990 and reached an out-of-court settlement; Holloway was later credited as featured vocalist. The case became a textbook example of sampling rights and of how Black women singers were treated.",
       "queer_ballroom_axis_en": "The gospel diva, a central figure of the dancefloor's queer imagination. Her voice, chopped up by others, also tells of the erasure of Black women in dance music.",
       "why_this_record_en": "The direct bridge between Salsoul disco and sample-based Italo house.",
       "gear_en": [
         "Disco orchestra",
         "Live rhythm section"
       ],
-      "verified": false
+      "verified": false,
+      "references": [
+        "https://en.wikipedia.org/wiki/Loleatta_Holloway",
+        "https://en.wikipedia.org/wiki/Starlight_(band)"
+      ],
+      "verify": [
+        "Répartition de l'accord amiable : sources divergentes (Daniele Davoli, 2018, dit que seul Salsoul a été payé)",
+        "Walter Gibbons et Tom Moulton comme inventeurs du remix chez Salsoul : non lu dans les sources consultées pour cette fiche"
+      ]
     },
     {
       "id": "your-love",
       "title": "Your Love",
-      "artist": "Frankie Knuckles presents Jamie Principle",
-      "year": 1987,
-      "label": "Trax Records",
+      "artist": "Jamie Principle",
+      "year": 1986,
+      "label": "Persona",
       "city": "Chicago",
       "country": "USA",
       "continent": "Amérique du Nord",
@@ -2381,12 +2511,12 @@
       "camelot_key": "1A",
       "energy": 6,
       "gear": [
-        "Synthétiseur (arpège)",
-        "Boîte à rythmes"
+        "tr-909",
+        "Synthétiseur (arpège)"
       ],
-      "construction": "Un arpège de synthé qui tourne sans fin, une basse minimale et la voix sensuelle, presque murmurée, de Jamie Principle. C'est un disque de nuit et de désir, l'opposé du jack frénétique.",
-      "producer_origins": "Jamie Principle compose chez lui une chanson d'amour électronique. Frankie Knuckles la joue d'abord en cassette au Power Plant pendant des années avant sa sortie officielle.",
-      "club_sociology": "La cassette exclusive, jouée seulement par un DJ, est un modèle de l'économie des clubs de Chicago : le DJ est le premier diffuseur, le disque vient après.",
+      "construction": "Un arpège de synthé qui tourne sans fin, une basse minimale et la voix sensuelle, presque murmurée, de Jamie Principle. L'intro au synthé et la basse sont ajoutées par Mark « Hot Rod » Trollan. C'est un disque de nuit et de désir, l'opposé du jack frénétique.",
+      "producer_origins": "Jamie Principle, chanteur amateur qui travaille le jour, écrit une chanson d'amour électronique. Frankie Knuckles la joue sur bande dans les clubs pendant plus d'un an avant sa sortie en vinyle, en avril 1986 chez Persona, au seul nom de Principle. En 1987, Trax en publie une version créditée à Knuckles, Principle restant crédité comme auteur.",
+      "club_sociology": "La bande exclusive, jouée seulement par un DJ, est un modèle de l'économie des clubs de Chicago : le DJ est le premier diffuseur, le disque vient après. Au Power Plant, où Knuckles joue chaque week-end, le morceau existe d'abord sur bande et en dubplate.",
       "queer_ballroom_axis": "Knuckles, « parrain de la house », est un DJ gay noir venu du Bronx et de la Continental Baths. « Your Love » est l'une des chansons d'amour fondatrices de la house queer.",
       "archive_ref": {
         "source": "do-you-remember-house",
@@ -2413,16 +2543,27 @@
         "LOLE1YE_oFQ",
         "rB8tFzTG3Xo"
       ],
-      "construction_en": "An endlessly cycling synth arpeggio, a minimal bassline and Jamie Principle's sensual, almost whispered vocal. A record of night and desire, the opposite of frantic jack.",
-      "producer_origins_en": "Jamie Principle wrote an electronic love song at home. Frankie Knuckles played it from a reel-to-reel tape at the Power Plant for years before its official release.",
-      "club_sociology_en": "The exclusive tape, played by one DJ only, is a model of Chicago club economics: the DJ is the first broadcaster, the record comes later.",
+      "construction_en": "An endlessly cycling synth arpeggio, a minimal bassline and Jamie Principle's sensual, almost whispered vocal. The synth intro and bassline were added by Mark \"Hot Rod\" Trollan. It is a record of night and desire, the opposite of frantic jack.",
+      "producer_origins_en": "Jamie Principle, an amateur singer with a day job, wrote an electronic love song. Frankie Knuckles played it from tape in clubs for over a year before its vinyl release, in April 1986 on Persona, credited to Principle alone. In 1987 Trax released a version credited to Knuckles, with Principle credited as songwriter.",
+      "club_sociology_en": "The exclusive tape, played by a single DJ, is a model of Chicago's club economy: the DJ is the first broadcaster, the record comes later. At the Power Plant, where Knuckles played every weekend, the track first existed on tape and dubplate.",
       "queer_ballroom_axis_en": "Knuckles, the \"Godfather of House\", was a Black gay DJ from the Bronx and the Continental Baths. \"Your Love\" is one of the founding love songs of queer house.",
       "why_this_record_en": "Proof that Chicago house could be tender and sensual.",
       "gear_en": [
-        "Synthesizer (arpeggio)",
-        "Drum machine"
+        "tr-909",
+        "Synthesizer (arpeggio)"
       ],
-      "verified": false
+      "verified": false,
+      "catalog": "JP-222",
+      "release_date": "1986-04",
+      "references": [
+        "https://en.wikipedia.org/wiki/Your_Love_(Jamie_Principle_song)",
+        "https://ra.co/reviews/23579"
+      ],
+      "verify": [
+        "La fiche présentait le disque comme « Frankie Knuckles presents Jamie Principle », Trax 1987 : la première sortie est Persona (avril 1986, JP-222) au seul nom de Principle ; la version Trax de 1987 (TX150) est créditée à Knuckles",
+        "Knuckles venu du Bronx et de la Continental Baths : non lu dans les sources consultées pour cette fiche",
+        "Pressage DJ International mentionné par RA : à documenter"
+      ]
     },
     {
       "id": "love-cant-turn-around",
@@ -2443,8 +2584,8 @@
         "Piano"
       ],
       "construction": "Une ligne de basse rebondissante et des stabs de piano. Surtout, la voix d'opéra-gospel de Darryl Pandy, qui pousse la chanson jusqu'au cri.",
-      "producer_origins": "Farley Keith Williams est un DJ des Hot Mix 5 sur WBMX : la radio est sa scène. Le morceau reprend une idée d'Isaac Hayes, ce qui alimente les querelles de crédit typiques de Chicago.",
-      "club_sociology": "Il entre dans le top 10 britannique en 1986. C'est l'une des premières fois que la house de Chicago s'impose dans les charts européens, avant même l'explosion acid.",
+      "producer_origins": "Farley Keith Williams est l'un des premiers DJ des Hot Mix 5 sur WBMX : la radio est sa scène. Le morceau reprend « I Can't Turn Around » d'Isaac Hayes, déjà repris par Steve « Silk » Hurley ; Farley en fait sa version avec Jesse Saunders, sur des paroles de Vince Lawrence. Hurley y voit le vol de sa propre production : une querelle de crédit typique de Chicago.",
+      "club_sociology": "Il atteint la 10e place des ventes britanniques en 1986 : la house de Chicago entre dans les charts européens avant même l'explosion acid.",
       "queer_ballroom_axis": "Lecture éditoriale, à sourcer : la voix flamboyante de Darryl Pandy prolonge la tradition des chanteurs gospel de la house. Sa place dans l'histoire queer du genre reste à documenter par des entretiens.",
       "archive_ref": {
         "source": "real-story-saunders",
@@ -2474,18 +2615,28 @@
         "RB6puxjzU9k"
       ],
       "construction_en": "A bouncing bassline and piano stabs. Above all, Darryl Pandy's operatic gospel voice, pushing the song all the way to a scream.",
-      "producer_origins_en": "Farley Keith Williams was a DJ in WBMX's Hot Mix 5: radio was his stage. The track reworks an Isaac Hayes idea, fuelling the credit disputes typical of Chicago.",
-      "club_sociology_en": "It made the UK top 10 in 1986, one of the first times Chicago house broke into the European charts, even before the acid explosion.",
+      "producer_origins_en": "Farley Keith Williams was one of the original Hot Mix 5 DJs on WBMX: radio was his stage. The track reworks Isaac Hayes's \"I Can't Turn Around\", already covered by Steve \"Silk\" Hurley; Farley made his own version with Jesse Saunders, with lyrics by Vince Lawrence. Hurley saw it as the theft of his own production: a typical Chicago credit dispute.",
+      "club_sociology_en": "It reached number 10 on the UK singles chart in 1986: Chicago house entered the European charts even before the acid explosion.",
       "queer_ballroom_axis_en": "Editorial reading, to be sourced: Darryl Pandy's flamboyant voice extends house's tradition of gospel singers. His place in the genre's queer history still needs documenting through interviews.",
       "why_this_record_en": "House's first crossover into Europe.",
-      "verified": false
+      "verified": false,
+      "references": [
+        "https://en.wikipedia.org/wiki/Farley_%22Jackmaster%22_Funk",
+        "https://en.wikipedia.org/wiki/Steve_%22Silk%22_Hurley",
+        "https://ra.co/reviews/25429"
+      ],
+      "verify": [
+        "Label de la première édition (DJ International ?) : non confirmé par une source lue",
+        "« Le premier crossover vers l'Europe » : formulation éditoriale",
+        "TR-808 et piano : non documentés"
+      ]
     },
     {
       "id": "jack-your-body",
       "title": "Jack Your Body",
       "artist": "Steve \"Silk\" Hurley",
       "year": 1986,
-      "label": "DJ International",
+      "label": "Underground",
       "city": "Chicago",
       "country": "USA",
       "continent": "Amérique du Nord",
@@ -2495,12 +2646,11 @@
       "camelot_key": "8A",
       "energy": 8,
       "gear": [
-        "Boîte à rythmes",
-        "Sampler"
+        "Machines Roland"
       ],
       "construction": "Une basse martelée, un kick mécanique et une voix samplée et bégayée (« jack-jack-jack your body »). C'est le jack dans sa forme la plus pure : un ordre adressé au corps.",
-      "producer_origins": "Steve Hurley est DJ de radio et de club. Le morceau naît de bandes éditées pour ses sets avant d'être pressé.",
-      "club_sociology": "C'est le premier numéro 1 house au Royaume-Uni, en janvier 1987, presque sans paroles. L'Angleterre découvre que la house est un phénomène massif.",
+      "producer_origins": "Steve Hurley est DJ de club et se fait connaître à la radio, dans l'émission Saturday Night Live Ain't No Jive Dance Party de WBMX.",
+      "club_sociology": "Il reste deux semaines numéro 1 au Royaume-Uni en janvier 1987, presque sans paroles ; Rolling Stone y voit le premier numéro 1 house britannique. L'Angleterre découvre que la house est un phénomène massif.",
       "queer_ballroom_axis": "Le « jack » est une danse et une sexualité de la piste : un vocabulaire né des clubs gays noirs de Chicago que les charts britanniques importent sans le savoir.",
       "archive_ref": {
         "source": "rave-on",
@@ -2529,15 +2679,24 @@
         "_eDf8IGSh0Q"
       ],
       "construction_en": "A hammering bassline, a mechanical kick and a sampled, stuttering voice (\"jack-jack-jack your body\"). Jack in its purest form: an order addressed to the body.",
-      "producer_origins_en": "Steve Hurley was a radio and club DJ. The track grew out of tape edits made for his sets before it was pressed.",
-      "club_sociology_en": "The first house number one in the UK, in January 1987, with barely any lyrics. Britain discovered house was a mass phenomenon.",
+      "producer_origins_en": "Steve Hurley was a club DJ who made his name on radio, on WBMX's Saturday Night Live Ain't No Jive Dance Party.",
+      "club_sociology_en": "It spent two weeks at number one in the UK in January 1987, with almost no lyrics; Rolling Stone calls it the first house song to top the UK chart. Britain discovered that house was a mass phenomenon.",
       "queer_ballroom_axis_en": "\"Jack\" is a dance and a sexuality of the dancefloor: a vocabulary born in Chicago's Black gay clubs that the British charts imported without knowing it.",
       "why_this_record_en": "The moment jack conquered the charts.",
       "gear_en": [
-        "Drum machine",
-        "Sampler"
+        "Roland machines"
       ],
-      "verified": false
+      "verified": false,
+      "references": [
+        "https://en.wikipedia.org/wiki/Jack_Your_Body",
+        "https://en.wikipedia.org/wiki/Steve_%22Silk%22_Hurley"
+      ],
+      "verify": [
+        "Label : Underground selon Wikipedia (la fiche indiquait DJ International) ; lien entre Underground et DJ International à documenter",
+        "Morceau né de bandes éditées pour ses sets : non lu dans les sources consultées, retiré du texte",
+        "Sampler : non documenté, retiré des machines ; Rolling Stone parle d'une « colonne vertébrale électronique centrée sur Roland »",
+        "Vocabulaire du jack né dans les clubs gays noirs : lecture éditoriale à sourcer"
+      ]
     },
     {
       "id": "promised-land",
@@ -2687,7 +2846,7 @@
       "title": "French Kiss",
       "artist": "Lil Louis",
       "year": 1989,
-      "label": "Diamond Records / FFRR",
+      "label": "FFRR / Epic",
       "city": "Chicago",
       "country": "USA",
       "continent": "Amérique du Nord",
@@ -2700,9 +2859,9 @@
         "Boîte à rythmes",
         "Synthétiseur"
       ],
-      "construction": "Un riff de synthé obsédant, une voix féminine qui gémit et surtout un tempo qui ralentit jusqu'à s'arrêter presque, puis repart. C'est l'un des rares tubes de club bâtis sur un ralentissement du BPM.",
-      "producer_origins": "Marvin Louis Burns, fils de musicien de blues, est un DJ qui organise de grandes soirées à Chicago. Il construit le morceau comme une montée dramatique, pensée pour la piste.",
-      "club_sociology": "Il est interdit sur de nombreuses radios à cause de ses gémissements, ce qui en fait un tube européen. Il est emblématique de la culture du club comme espace d'érotisme assumé.",
+      "construction": "Un riff de synthé obsédant, des gémissements féminins sans paroles et surtout un tempo qui ralentit jusqu'à l'arrêt complet, puis repart. C'est l'un des rares tubes de club bâtis sur un ralentissement du BPM. Des voix chantées s'ajoutent ensuite : Shawn Christopher aux États-Unis, une chanteuse connue sous le seul nom de Pasquale en Europe.",
+      "producer_origins": "Lil Louis, de son vrai nom Marvin Louis Burns, est un DJ et producteur né à Chicago en 1962. Il signe le morceau avec Karlana Johnson et le construit comme une montée dramatique, pensée pour la piste.",
+      "club_sociology": "La BBC le bannit de ses ondes, ce qui ne l'empêche pas d'atteindre la 2e place des ventes au Royaume-Uni et la 1re aux Pays-Bas, et de dominer les clubs américains. Il est emblématique de la culture du club comme espace d'érotisme assumé.",
       "queer_ballroom_axis": "L'érotisme explicite du morceau prolonge l'héritage des pistes gays de Chicago, pour lesquelles la danse et le sexe ne sont pas séparés.",
       "archive_ref": {
         "source": "last-night-dj",
@@ -2727,16 +2886,27 @@
         "cH-ikdYOZhM",
         "rmOAVfEDyhA"
       ],
-      "construction_en": "A haunting synth riff, a moaning female voice and, above all, a tempo that slows almost to a halt before starting up again. One of the rare club hits built on a BPM slowdown.",
-      "producer_origins_en": "Marvin Louis Burns, son of a blues musician, was a DJ who threw big parties in Chicago. He built the track as a dramatic build designed for the floor.",
-      "club_sociology_en": "Banned by many radio stations for its moans, it became a European hit. It epitomises the club as a space of open eroticism.",
+      "construction_en": "An obsessive synth riff, wordless female moans and above all a tempo that slows to a complete stop, then picks up again. It is one of the few club hits built on a slowing BPM. Sung vocals were added later: Shawn Christopher in the US, a singer known only as Pasquale in Europe.",
+      "producer_origins_en": "Lil Louis, born Marvin Louis Burns in Chicago in 1962, is a DJ and producer. He co-wrote the track with Karlana Johnson and built it as a dramatic rise, made for the dancefloor.",
+      "club_sociology_en": "The BBC banned it, which did not stop it reaching number 2 in the UK and number 1 in the Netherlands, and topping US club charts. It is emblematic of club culture as a space of openly assumed eroticism.",
       "queer_ballroom_axis_en": "Its explicit eroticism extends the legacy of Chicago's gay dancefloors, where dancing and sex were never separate.",
       "why_this_record_en": "Start the Pulse: the record's real tempo is itself a BPM manipulation.",
       "gear_en": [
         "Drum machine",
         "Synthesizer"
       ],
-      "verified": false
+      "verified": false,
+      "release_date": "1989-07-17",
+      "references": [
+        "https://en.wikipedia.org/wiki/French_Kiss_(Lil_Louis_song)",
+        "https://en.wikipedia.org/wiki/Lil_Louis"
+      ],
+      "verify": [
+        "Première édition : Diamond Records (cité par la fiche) avant la sortie FFRR / Epic de juillet 1989 : non confirmé par une source lue",
+        "Père musicien de blues, grandes soirées à Chicago : non lu dans les sources consultées, retiré du texte",
+        "Identité de la voix des gémissements : non documentée",
+        "Lien avec l'héritage des pistes gays de Chicago : lecture éditoriale à sourcer"
+      ]
     },
     {
       "id": "pacific-state",
@@ -3036,13 +3206,13 @@
       "camelot_key": "11A",
       "energy": 7,
       "gear": [
-        "Orgue (preset)",
+        "Clavier (riff)",
         "Boîte à rythmes"
       ],
-      "construction": "Un orgue en riff, un kick sec et le célèbre « la da dee la dee da » scatté. C'est un tube de club au texte social : la chanson parle d'une femme sans abri.",
-      "producer_origins": "Crystal Waters, poétesse et fonctionnaire, écrit le texte. Les Basement Boys de Baltimore le produisent, dans le prolongement du garage new-yorkais.",
-      "club_sociology": "Le disque est un succès mondial. Il montre que la house américaine des années 90 peut raconter la pauvreté urbaine des années Reagan-Bush sur un groove euphorique.",
-      "queer_ballroom_axis": "Le « la da dee » est devenu un classique de ballroom et de vogue. La voix est réutilisée sans fin dans les remixes ballroom.",
+      "construction": "Un riff de clavier, une basse lourde et le célèbre « la da dee, la da da » scatté. C'est un tube de club au texte social : la chanson décrit une femme sans abri qui se maquille et se trouve belle en chantant dans la rue.",
+      "producer_origins": "Crystal Waters écrit de la poésie depuis l'enfance et travaille pour l'administration de Washington, au service informatique qui émet les mandats d'arrêt. Elle écrit le texte avec Neal Conway, inspirée par une femme croisée devant l'hôtel Mayflower. Les Basement Boys de Baltimore produisent le disque.",
+      "club_sociology": "Numéro 2 au Royaume-Uni, numéro 8 aux États-Unis et numéro 1 des clubs américains et de plusieurs pays européens : un succès mondial. Il montre que la house américaine du début des années 90 peut raconter la pauvreté urbaine sur un groove euphorique.",
+      "queer_ballroom_axis": "Lecture éditoriale, à sourcer : le « la da dee » circule dans les remixes ballroom et sur les pistes de vogue.",
       "archive_ref": {
         "source": "underground-massive",
         "note": "La house américaine au début des années 90.",
@@ -3064,23 +3234,31 @@
         "IF-Lz5roIWc",
         "DZbtIjHtQU4"
       ],
-      "construction_en": "An organ riff, a dry kick and the famous scatted \"la da dee la dee da\". A club hit with a social lyric: the song is about a homeless woman.",
-      "producer_origins_en": "Crystal Waters, poet and civil servant, wrote the words. Baltimore's Basement Boys produced it, in the wake of New York garage.",
-      "club_sociology_en": "A worldwide hit, it showed 1990s American house could tell of urban poverty in the Reagan–Bush years over a euphoric groove.",
-      "queer_ballroom_axis_en": "The \"la da dee\" became a ballroom and vogue classic; the vocal is endlessly reused in ballroom remixes.",
+      "construction_en": "A keyboard riff, a heavy bassline and the famous scatted \"la da dee, la da da\". It is a club hit with a social lyric: the song portrays a homeless woman who wears make-up and sees herself as beautiful while busking.",
+      "producer_origins_en": "Crystal Waters had written poetry since childhood and worked for the District of Columbia government, in the computer division issuing arrest warrants. She wrote the lyric with Neal Conway, inspired by a woman she saw outside the Mayflower Hotel. Baltimore's Basement Boys produced the record.",
+      "club_sociology_en": "Number 2 in the UK, number 8 in the US and number one on US club charts and in several European countries: a worldwide hit. It shows that early-'90s American house could tell of urban poverty over a euphoric groove.",
+      "queer_ballroom_axis_en": "Editorial reading, to be sourced: the \"la da dee\" circulates in ballroom remixes and on vogue floors.",
       "why_this_record_en": "A dancefloor hit that speaks about the street.",
       "gear_en": [
-        "Organ (preset)",
+        "Keyboard (riff)",
         "Drum machine"
       ],
-      "verified": false
+      "verified": false,
+      "release_date": "1991-04-03",
+      "references": [
+        "https://en.wikipedia.org/wiki/Gypsy_Woman_(Crystal_Waters_song)"
+      ],
+      "verify": [
+        "Usage du morceau en ballroom et vogue : non documenté dans la source lue",
+        "Orgue : la source parle d'un riff de clavier"
+      ]
     },
     {
       "id": "show-me-love",
       "title": "Show Me Love (StoneBridge Club Mix)",
       "artist": "Robin S",
       "year": 1992,
-      "label": "Champion / Big Beat",
+      "label": "Champion",
       "city": "New York",
       "country": "USA",
       "continent": "Amérique du Nord",
@@ -3092,9 +3270,9 @@
       "gear": [
         "korg-m1"
       ],
-      "construction": "Le remix de StoneBridge remplace la production originale par une basse d'orgue tirée d'un preset du Korg M1, un kick sec et une voix gospel qui monte. Ce son d'orgue M1 devient l'une des signatures des années 90.",
-      "producer_origins": "Robin Stone est une chanteuse new-yorkaise. Le remixeur suédois StoneBridge transforme une ballade house en tube de club : la circulation transatlantique fonctionne à plein.",
-      "club_sociology": "Le remix, d'abord édité au Royaume-Uni, devient un hit mondial en 1993. Il sera samplé et remixé pendant trente ans, jusqu'à la vague « 90s revival » des années 2020.",
+      "construction": "Le remix de StoneBridge ne garde que la voix et la grosse caisse de l'original. En passant au preset suivant de son Korg M1, « Organ 2 », il trouve la basse d'orgue qui devient l'une des signatures des années 90.",
+      "producer_origins": "Robin S. (Robin Jackson Maynard) vient du R&B et de la pop. La version originale, produite par Allen George et Fred McFarlane, sort chez Champion en octobre 1990 sans succès ; la maquette avait été chantée par Andrea Martin. Le remixeur suédois StoneBridge en fait un tube de club : la circulation transatlantique fonctionne à plein.",
+      "club_sociology": "Mixé en 1992 et sorti en 1993, le remix atteint la 6e place au Royaume-Uni, la 5e aux États-Unis et la 1re des clubs américains. Il est samplé ou repris pendant trente ans, de Jason Derulo à Charli XCX et à « Break My Soul » de Beyoncé.",
       "queer_ballroom_axis": "C'est la voix de diva gospel par excellence pour les pistes gays et la ballroom.",
       "archive_ref": {
         "source": "rave-on",
@@ -3121,12 +3299,22 @@
         "O7k81MF6ByA",
         "Ps2Jc28tQrw"
       ],
-      "construction_en": "StoneBridge's remix replaces the original production with an organ bass from a Korg M1 preset, a dry kick and a soaring gospel vocal. That M1 organ sound became one of the signatures of the 90s.",
-      "producer_origins_en": "Robin Stone is a New York singer. Swedish remixer StoneBridge turned a house ballad into a club smash: transatlantic circulation at full throttle.",
-      "club_sociology_en": "First released in the UK, the remix became a global hit in 1993. It would be sampled and remixed for thirty years, up to the 2020s \"90s revival\".",
+      "construction_en": "StoneBridge's remix kept only the vocal and kick drum of the original. Moving to the next preset on his Korg M1, \"Organ 2\", he found the organ bass that became one of the signatures of the '90s.",
+      "producer_origins_en": "Robin S. (Robin Jackson Maynard) came from R&B and pop. The original version, produced by Allen George and Fred McFarlane, came out on Champion in October 1990 and flopped; the demo had been sung by Andrea Martin. Swedish remixer StoneBridge turned it into a club hit: transatlantic circulation at full power.",
+      "club_sociology_en": "Mixed in 1992 and released in 1993, the remix reached number 6 in the UK, number 5 in the US and number one on US club charts. It has been sampled or reworked for thirty years, from Jason Derulo to Charli XCX and Beyoncé's \"Break My Soul\".",
       "queer_ballroom_axis_en": "The gospel diva voice par excellence for gay dancefloors and ballroom.",
       "why_this_record_en": "A single preset colour is enough to define a decade.",
-      "verified": false
+      "verified": false,
+      "release_date": "1990-10-13",
+      "references": [
+        "https://en.wikipedia.org/wiki/Show_Me_Love_(Robin_S._song)",
+        "https://djmag.com/longreads/solid-gold-how-robin-s-show-me-love-became-one-dance-music-s-most-iconic-anthems"
+      ],
+      "verify": [
+        "Date du remix : 1992 selon Wikipedia, mixé en 1992 et sorti en 1993 selon StoneBridge (DJ Mag)",
+        "Nom de la chanteuse : Robin Jackson Maynard (Wikipedia), Robin Stone (DJ Mag)",
+        "Place du disque en ballroom : lecture éditoriale à sourcer"
+      ]
     },
     {
       "id": "thats-the-way-love-is",
@@ -4772,8 +4960,8 @@
         "Boîte à rythmes"
       ],
       "construction": "Un groove garage nerveux, des riffs d'orgue et la voix gospel de Barbara Tucker qui appelle la piste. C'est le garage new-yorkais des années 90 dans sa forme la plus festive.",
-      "producer_origins": "Production de Little Louie Vega (Masters At Work) pour Strictly Rhythm, le label new-yorkais qui domine la house américaine de la décennie. Tucker est aussi danseuse et organisatrice de soirées.",
-      "club_sociology": "C'est l'âge d'or du garage new-yorkais (Sound Factory, Sound Factory Bar, Shelter), avant les fermetures des années Giuliani que DJ Disciple raconte comme la « chute » de la scène.",
+      "producer_origins": "Barbara Tucker, danseuse et chorégraphe pour C&C Music Factory, Soul System ou Deee-Lite, rencontre « Little » Louie Vega en 1992 à l'Underground Network. Elle écrit le morceau avec India, Lem Springsteen et Vega ; Gladys « Ski » Pizarro, Kenny « Dope » Gonzalez et Louie Vega le produisent pour Strictly Rhythm, le label new-yorkais qui domine la house américaine de la décennie.",
+      "club_sociology": "Numéro 1 des clubs américains en avril 1994 et des charts dance britanniques, c'est l'âge d'or du garage new-yorkais (Sound Factory, Sound Factory Bar, Shelter), avant les fermetures des années Giuliani que DJ Disciple raconte comme la « chute » de la scène.",
       "queer_ballroom_axis": "Le titre et le refrain célèbrent la beauté collective de la piste. C'est un hymne des clubs gays et mixtes de Manhattan, porté par une diva gospel.",
       "archive_ref": {
         "source": "beat-scene-sound",
@@ -4801,15 +4989,23 @@
         "oNDaholHRpE"
       ],
       "construction_en": "A nervy garage groove, organ riffs and Barbara Tucker's gospel voice calling the floor: 1990s New York garage at its most festive.",
-      "producer_origins_en": "Produced by Little Louie Vega (Masters At Work) for Strictly Rhythm, the New York label that dominated American house that decade. Tucker was also a dancer and party promoter.",
-      "club_sociology_en": "The golden age of New York garage (Sound Factory, Sound Factory Bar, Shelter), before the Giuliani-era closures that DJ Disciple describes as the scene's \"fall\".",
+      "producer_origins_en": "Barbara Tucker, a dancer and choreographer for C&C Music Factory, Soul System and Deee-Lite, met \"Little\" Louie Vega in 1992 at the Underground Network. She wrote the track with India, Lem Springsteen and Vega; Gladys \"Ski\" Pizarro, Kenny \"Dope\" Gonzalez and Louie Vega produced it for Strictly Rhythm, the New York label that dominated '90s American house.",
+      "club_sociology_en": "Number one on US club charts in April 1994 and on the UK dance charts, it marks the golden age of New York garage (Sound Factory, Sound Factory Bar, Shelter), before the Giuliani-era closures that DJ Disciple describes as the scene's \"fall\".",
       "queer_ballroom_axis_en": "Title and chorus celebrate the collective beauty of the dancefloor: an anthem of Manhattan's gay and mixed clubs, carried by a gospel diva.",
       "why_this_record_en": "It lets you hear 1990s New York before the clubs closed.",
       "gear_en": [
         "Organ",
         "Drum machine"
       ],
-      "verified": false
+      "verified": false,
+      "release_date": "1994-03-02",
+      "references": [
+        "https://en.wikipedia.org/wiki/Beautiful_People_(Barbara_Tucker_song)"
+      ],
+      "verify": [
+        "Barbara Tucker organisatrice de soirées (Underground Network ?) : non lu dans la source consultée",
+        "Fermetures des années Giuliani et récit de DJ Disciple : non lus dans les sources consultées pour cette fiche"
+      ]
     },
     {
       "id": "blue-monday",
@@ -5199,14 +5395,14 @@
         "Live percussion",
         "Vocals"
       ],
-      "construction": "Une rythmique de percussions déliée, un groove dub et une voix féminine qui flotte au-dessus. La version « female vocal » mixée par Larry Levan devient la référence du Paradise Garage.",
-      "construction_en": "Loose percussion, a dub groove and a female vocal drifting above. The \"female vocal\" version mixed by Larry Levan became the Paradise Garage reference.",
-      "producer_origins": "Loose Joints est un projet d'Arthur Russell, compositeur et violoncelliste de l'avant-garde new-yorkaise, avec le DJ Steve D'Acquisto.",
-      "producer_origins_en": "Loose Joints was a project of Arthur Russell, a composer and cellist from New York's avant-garde, with DJ Steve D'Acquisto.",
+      "construction": "Une rythmique de percussions déliée, un groove dub et une voix féminine qui flotte au-dessus. La version « Female Vocal », remixée par Larry Levan, devient un classique de ses sets au Paradise Garage.",
+      "construction_en": "A loose percussion groove, a dubby feel and a female vocal floating on top. The \"Female Vocal\" version, remixed by Larry Levan, became an enduring staple of his Paradise Garage sets.",
+      "producer_origins": "Loose Joints est le duo d'Arthur Russell, violoncelliste et compositeur de l'avant-garde du Lower Manhattan, et du DJ new-yorkais Steve D'Acquisto, entourés de chanteurs et de musiciens. Ils produisent le disque, sorti chez West End en 1980.",
+      "producer_origins_en": "Loose Joints was the duo of Arthur Russell, a cellist and composer from Lower Manhattan's avant-garde, and New York DJ Steve D'Acquisto, surrounded by singers and musicians. They produced the record, released on West End in 1980.",
       "club_sociology": "Le disque circule d'abord en club avant de sortir. Levan et D'Acquisto en portent la version dans le circuit gay noir et latino, au moment où le Paradise Garage s'impose.",
       "club_sociology_en": "The record circulated in clubs before release. Levan and D'Acquisto carried the version through the Black and Latino gay circuit as the Paradise Garage rose.",
-      "queer_ballroom_axis": "Arthur Russell était gay ; sa musique relie l'avant-garde du downtown et les pistes de danse. Un cas rare de passerelle entre ces deux scènes.",
-      "queer_ballroom_axis_en": "Arthur Russell was gay; his music links the downtown avant-garde and the dance floor. A rare bridge between those two scenes.",
+      "queer_ballroom_axis": "La musique d'Arthur Russell relie l'avant-garde du downtown et les pistes de danse new-yorkaises, dont le Paradise Garage, espace de la sociabilité gay noire et latino : un cas rare de passerelle entre ces deux scènes.",
+      "queer_ballroom_axis_en": "Arthur Russell's music connected the downtown avant-garde with New York dancefloors, including the Paradise Garage, a space of Black and Latino gay sociability: a rare bridge between these two scenes.",
       "why_this_record": "Là où le disco devient dub, expérimental et profondément queer.",
       "why_this_record_en": "Where disco turns dub, experimental and deeply queer.",
       "archive_ref": {
@@ -5222,7 +5418,11 @@
       "verify": [
         "différence entre versions (male vs female vocal)",
         "rôle exact de Levan (mix vs production)",
-        "personnel"
+        "personnel",
+        "Chanteuse de la version Female Vocal : non créditée dans les sources lues",
+        "François Kevorkian, co-mixeur non crédité selon Wikipedia : à recouper",
+        "Identité d'Arthur Russell : la fiche disait « gay » ; Wikipedia mentionne ses relations avec des hommes à partir de 1976 sans employer de terme ; à reformuler d'après une source qui le nomme",
+        "Circulation en club avant la sortie : non lu dans les sources consultées"
       ],
       "bpm": 112,
       "camelot_key": "3A",
@@ -5243,7 +5443,13 @@
       "spotify": {
         "id": "1WtsuRKEu7GVJrxkOJXPO7",
         "version": "Larry Levan Female Vocal Version"
-      }
+      },
+      "catalog": "WES-22128 ; WES-22129 (Female Vocal)",
+      "references": [
+        "https://www.factmag.com/2014/05/21/arthur-russell-and-steve-dacquistos-loose-joints-classics-reissued-by-west-end-records/",
+        "https://en.wikipedia.org/wiki/Arthur_Russell_(musician)",
+        "https://www.timlawrence.info/arthur-russell-discography"
+      ]
     },
     {
       "id": "energy-flash-beltram",
@@ -5320,17 +5526,23 @@
       "genre": "acid",
       "era": "era-2",
       "gear": [
-        "tb-303"
+        "tb-303",
+        "tb-303 (deuxième)",
+        "tr-909",
+        "Pédale de distorsion DOD"
       ],
       "gear_en": [
-        "tb-303"
+        "tb-303",
+        "tb-303 (second)",
+        "tr-909",
+        "DOD distortion pedal"
       ],
-      "construction": "Une seule ligne de 303 dont le filtre monte sans jamais redescendre, sur un kick sec : la tension est le sujet du disque. Il rappelle Acid Tracks de Phuture huit ans plus tard.",
-      "construction_en": "A single 303 line whose filter keeps climbing, over a dry kick: tension is the subject of the record. It recalls Phuture's Acid Tracks eight years on.",
-      "producer_origins": "Josh Wink vient de Philadelphie, où il cofonde le label Ovum avec King Britt. Le morceau sort d'abord en mars 1995 sur Strictly Rhythm, à New York : il remet l'acid au premier plan quand la house vocale domine.",
-      "producer_origins_en": "Josh Wink comes from Philadelphia, where he co-founded the Ovum label with King Britt. The track first came out in March 1995 on New York's Strictly Rhythm, putting acid back in the spotlight while vocal house dominated.",
-      "club_sociology": "Le disque est un tube de club mondial en 1995, y compris au Royaume-Uni, où la mémoire acid de 1988 est encore vive.",
-      "club_sociology_en": "The record was a worldwide club hit in 1995, including in the UK where the 1988 acid memory was still alive.",
+      "construction": "Deux TB-303, une TR-909 et une pédale de distorsion DOD : une ligne acid qui s'insinue et monte en tension sur un kick sec. La tension est le sujet du disque, qui rappelle Acid Tracks de Phuture huit ans plus tard.",
+      "construction_en": "Two TB-303s, a TR-909 and a DOD distortion pedal: a creeping acid line building tension over a dry kick. Tension is the record's subject, echoing Phuture's Acid Tracks eight years on.",
+      "producer_origins": "Josh Wink, né à Philadelphie, y fonde le label Ovum avec King Britt. Achevé en 1994, le morceau sort en mars 1995 sur Strictly Rhythm, à New York, crédité parfois au seul nom de Wink : il remet l'acid au premier plan quand la house vocale domine.",
+      "producer_origins_en": "Josh Wink, born in Philadelphia, founded the Ovum label there with King Britt. Finished in 1994, the track came out in March 1995 on Strictly Rhythm in New York, sometimes credited simply to Wink: it brought acid back to the fore when vocal house dominated.",
+      "club_sociology": "Le disque est un tube de club mondial en 1995 : numéro 8 des ventes et numéro 1 des charts dance au Royaume-Uni en octobre 1995 (sortie Manifesto), où la mémoire acid de 1988 est encore vive.",
+      "club_sociology_en": "A worldwide club hit in 1995: number 8 on the UK singles chart and number one on the UK dance chart in October 1995 (Manifesto release), where the memory of 1988 acid was still vivid.",
       "queer_ballroom_axis": "Comme pour Acid Tracks, la lignée remonte à la Music Box de Chicago, scène noire et gay, effacée par le récit de la rave.",
       "queer_ballroom_axis_en": "As with Acid Tracks, the lineage goes back to Chicago's Music Box, a Black and gay scene that rave narratives erased.",
       "why_this_record": "La preuve que l'acid n'est jamais mort.",
@@ -5346,8 +5558,8 @@
         "energy-flash"
       ],
       "verify": [
-        "sortie originale vs réédition 1995",
-        "rôle de King Britt"
+        "Classement britannique : 8e selon Official Charts et Wikipedia, 9e selon Groove (2019)",
+        "Une première version sur la compilation Strictly Rhythm The Deep and Slow, non datée"
       ],
       "bpm": 130,
       "camelot_key": "8A",
@@ -5365,7 +5577,13 @@
       "spotify": {
         "id": "6cJ3yBgG1VzRpf4xrKsfB8",
         "version": "Tweekin Acid Funk"
-      }
+      },
+      "release_date": "1995-03",
+      "references": [
+        "https://en.wikipedia.org/wiki/Higher_State_of_Consciousness",
+        "https://www.officialcharts.com/songs/josh-wink-higher-state-of-consciousness/",
+        "https://groove.de/2019/08/15/zeitgeschichten-josh-wink/"
+      ]
     },
     {
       "id": "technopolis",
@@ -5440,19 +5658,21 @@
       "genre": "garage-nyc",
       "era": "era-2",
       "gear": [
-        "Boîte à rythmes",
-        "Synthétiseurs (production Shep Pettibone)"
+        "Piano",
+        "Claviers, basse et programmation (Fred McFarlane)",
+        "Batterie programmée (Alan Friedman)"
       ],
       "gear_en": [
-        "Drum machine",
-        "Synthesizers (Shep Pettibone production)"
+        "Piano",
+        "Keyboards, bass and programming (Fred McFarlane)",
+        "Programmed drums (Alan Friedman)"
       ],
-      "construction": "Une ligne de piano house, une basse garage et une liste parlée de noms d'icônes d'Hollywood. Shep Pettibone, producteur new-yorkais venu des clubs, signe un titre pensé pour la piste autant que pour la radio.",
-      "construction_en": "A house piano line, a garage bassline and a spoken list of Hollywood icons. Shep Pettibone, a New York producer from the clubs, shaped a track made for the floor as much as for radio.",
-      "producer_origins": "Madonna avait fréquenté le downtown new-yorkais et la scène des clubs gays dès les années 80 ; Pettibone vient du remix de club.",
-      "producer_origins_en": "Madonna had frequented downtown New York and gay club scenes since the 80s; Pettibone came from club remixing.",
-      "club_sociology": "Le disque et le clip popularisent le vogue au-delà de Harlem. Des danseurs de la House of Xtravaganza participent à la tournée de Madonna, et le film Paris Is Burning sort la même année.",
-      "club_sociology_en": "The record and video popularized vogue beyond Harlem. Dancers from the House of Xtravaganza joined Madonna's tour, and the film Paris Is Burning came out the same year.",
+      "construction": "Un piano syncopé, une basse garage et, au milieu, un rap qui égrène les icônes du Hollywood classique (Garbo, Monroe, Dietrich, Brando, Dean). Écrit et produit par Madonna et Shep Pettibone, producteur new-yorkais venu du remix de club.",
+      "construction_en": "Syncopated piano, a garage bassline and, in the middle, a rap that name-checks classic Hollywood icons (Garbo, Monroe, Dietrich, Brando, Dean). Written and produced by Madonna and Shep Pettibone, a New York producer from the club-remix world.",
+      "producer_origins": "Madonna découvre le voguing en voyant danser au Sound Factory ; la chanson en est directement inspirée. Pettibone vient du remix de club.",
+      "producer_origins_en": "Madonna discovered voguing by watching dancers at the Sound Factory; the song was directly inspired by it. Pettibone came from club remixing.",
+      "club_sociology": "Numéro 1 dans plus de trente pays, le disque et le clip popularisent le vogue au-delà des balls. Luis Camacho et Jose Gutierez, de la House of Xtravaganza, chorégraphient et dansent dans le clip et sur la tournée Blond Ambition ; le documentaire Paris Is Burning sort la même année.",
+      "club_sociology_en": "Number one in more than thirty countries, the record and video took voguing beyond the balls. Luis Camacho and Jose Gutierez of the House of Xtravaganza choreographed and danced in the video and on the Blond Ambition tour; the documentary Paris Is Burning came out the same year.",
       "queer_ballroom_axis": "Le disque est au centre du débat sur l'appropriation : la culture ballroom noire et latina queer est montrée au monde, mais sans que ses créateurs en tirent le même bénéfice.",
       "queer_ballroom_axis_en": "The record is central to the appropriation debate: Black and Latino queer ballroom culture was shown to the world without its creators sharing the same benefit.",
       "why_this_record": "Le pont entre ballroom, house et pop mondiale.",
@@ -5469,7 +5689,8 @@
       ],
       "verify": [
         "liste exacte des danseurs de la tournée",
-        "crédits d'écriture"
+        "Paris Is Burning : documentaire de 1990 selon Wikipedia, sortie Miramax en 1991 dans sa référence",
+        "Débat sur l'appropriation : critiques (Boston.com, Rolling Stone, Slant, Steven Canals) repérés, non lus directement"
       ],
       "bpm": 116,
       "camelot_key": "4B",
@@ -5488,7 +5709,12 @@
       ],
       "spotify": {
         "id": "4vNuuqBFdid5yTSWtppBYx"
-      }
+      },
+      "release_date": "1990-03-20",
+      "references": [
+        "https://en.wikipedia.org/wiki/Vogue_(song)",
+        "https://en.wikipedia.org/wiki/Jose_Gutierez_Xtravaganza"
+      ]
     },
     {
       "id": "break-my-soul",
@@ -5508,12 +5734,12 @@
       "gear_en": [
         "Samples: \"Show Me Love\" (Robin S), \"Explode\" (Big Freedia)"
       ],
-      "construction": "Un sample de « Show Me Love » de Robin S (et de son orgue M1) et une interpolation de « Explode » de Big Freedia, rappeuse bounce de La Nouvelle-Orléans. Le refrain est pensé pour la piste ; la production est signée Beyoncé, The-Dream et Tricky Stewart.",
-      "construction_en": "A sample of Robin S's \"Show Me Love\" (and its M1 organ) and an interpolation of \"Explode\" by New Orleans bounce artist Big Freedia. The hook is built for the floor; production by Beyoncé, The-Dream and Tricky Stewart.",
-      "producer_origins": "Beyoncé revendique sur l'album Renaissance une lignée de musiques noires de club, avec un hommage explicite aux pionniers de la house.",
-      "producer_origins_en": "On Renaissance Beyoncé claims a lineage of Black club music, with an explicit tribute to house pioneers.",
-      "club_sociology": "Le titre devient numéro un du Billboard Hot 100 et du classement dance américain, rouvrant la question de la visibilité de la house hors de ses scènes d'origine.",
-      "club_sociology_en": "The track went to number one on the Billboard Hot 100 and the US dance chart, reopening the question of house's visibility beyond its original scenes.",
+      "construction": "Une production qui s'inspire largement de « Show Me Love » de Robin S et sample « Explode » (2014) de Big Freedia, figure de la bounce de La Nouvelle-Orléans. Le refrain est pensé pour la piste ; la production est signée Beyoncé, The-Dream et Tricky Stewart, avec Christian Isaksen.",
+      "construction_en": "A production heavily inspired by Robin S's \"Show Me Love\" that samples \"Explode\" (2014) by Big Freedia, a New Orleans bounce figure. The hook is built for the dancefloor; production is by Beyoncé, The-Dream and Tricky Stewart, with Christian Isaksen.",
+      "producer_origins": "Sur Renaissance, Beyoncé puise dans la musique des années 90 enracinée dans les communautés noires et queer ; la critique salue un hommage aux origines noires et queer de la dance music. Honey Dijon remixe le titre avec Terry Hunter, will.i.am et Nita Aviance.",
+      "producer_origins_en": "On Renaissance, Beyoncé drew on '90s music rooted in Black and queer communities; critics praised it for honouring dance music's Black and queer origins. Honey Dijon remixed the track alongside Terry Hunter, will.i.am and Nita Aviance.",
+      "club_sociology": "Le titre devient numéro un du Billboard Hot 100 en août 2022, pour deux semaines, et du classement dance/électronique américain, rouvrant la question de la visibilité de la house hors de ses scènes d'origine.",
+      "club_sociology_en": "The track topped the Billboard Hot 100 in August 2022, for two weeks, and the US dance/electronic chart, reopening the question of house's visibility beyond its original scenes.",
       "queer_ballroom_axis": "Le disque fait directement référence à la culture ballroom et à la house queer noire, en position d'hommage mainstream : à lire avec Vogue (1990) et Show Me Love.",
       "queer_ballroom_axis_en": "The record directly references ballroom and Black queer house, as a mainstream tribute: read alongside Vogue (1990) and Show Me Love.",
       "why_this_record": "La boucle est bouclée : la house revient en tête des charts en revendiquant sa lignée noire et queer.",
@@ -5529,8 +5755,8 @@
         "underground-massive"
       ],
       "verify": [
-        "crédits de production et d'écriture exacts (dont Honey Dijon)",
-        "position dans le classement"
+        "La fiche parlait d'une interpolation de « Explode » : Wikipedia parle d'un sample",
+        "Références explicites à la ballroom : à documenter"
       ],
       "bpm": 115,
       "camelot_key": "6A",
@@ -5549,7 +5775,11 @@
       ],
       "spotify": {
         "id": "5pyoxDZ1PX0KxBxiRVxA4U"
-      }
+      },
+      "release_date": "2022-06-20",
+      "references": [
+        "https://en.wikipedia.org/wiki/Break_My_Soul"
+      ]
     },
     {
       "id": "tshwala-bam",
@@ -5632,10 +5862,10 @@
       ],
       "construction": "Un groove garage souple, des accords chauds et une voix soul qui « tend la main » : le son gospel et deep du New Jersey, moins frontal que celui de Manhattan.",
       "construction_en": "A loose garage groove, warm chords and a soul vocal \"reaching\" out: New Jersey's gospel, deep sound, less frontal than Manhattan's.",
-      "producer_origins": "Phase II est un nom collectif utilisé par des figures des clubs du New Jersey, dont les membres de Blaze (Josh Milan, Kevin Hedge, Chris Herbert). Le disque est l'un des premiers succès de Movin' Records, label du New Jersey.",
-      "producer_origins_en": "Phase II was a collective name used by New Jersey club figures, including the members of Blaze (Josh Milan, Kevin Hedge, Chris Herbert). The record was one of the first hits for the New Jersey label Movin' Records.",
-      "club_sociology": "C'est le son du Club Zanzibar de Newark, où Tony Humphries est résident de 1982 à 1994 et qui devient, après la fermeture du Paradise Garage en 1987, un centre de la house de la région.",
-      "club_sociology_en": "This is the sound of Newark's Club Zanzibar, where Tony Humphries was resident from 1982 to 1994 and which became, after the Paradise Garage closed in 1987, a centre of the region's house.",
+      "producer_origins": "Phase II réunit les trois membres d'origine de Blaze, Kevin Hedge, Josh Milan et Chris Herbert, avec Vincent Herbert, le petit frère de Chris, au chant. Le disque fait connaître Movin' Records, le label d'Abigail Adams : elle ouvre la boutique Movin' à East Orange en 1980, d'abord magasin de rollers puis disquaire, avant de presser ses propres disques. Josh Milan la décrit comme « la bonne fée de la house ».",
+      "producer_origins_en": "Phase II brought together the three original members of Blaze, Kevin Hedge, Josh Milan and Chris Herbert, with Chris's younger brother Vincent Herbert on vocals. The record put Movin' Records on the map, Abigail Adams's label: she opened the Movin' shop in East Orange in 1980, first a skate shop then a record store, before releasing her own records. Josh Milan calls her \"everyone's fairy godmother of house music\".",
+      "club_sociology": "C'est le son du Club Zanzibar de Newark, point de ralliement de la house naissante, où Tony Humphries est résident, et qui devient, après la fermeture du Paradise Garage en 1987, un centre de la house de la région.",
+      "club_sociology_en": "It is the sound of Newark's Club Zanzibar, a nexus of early house, where Tony Humphries was resident, and which became a regional house centre after the Paradise Garage closed in 1987.",
       "queer_ballroom_axis": "Le garage du New Jersey prolonge la ferveur gospel des clubs noirs et gays new-yorkais ; la composition du public du Zanzibar reste à documenter précisément.",
       "queer_ballroom_axis_en": "New Jersey garage extends the gospel fervour of New York's Black and gay clubs; the exact make-up of Zanzibar's crowd still needs documenting.",
       "why_this_record": "Il fait exister le New Jersey comme matrice distincte de New York.",
@@ -5660,7 +5890,9 @@
         "last-night-dj"
       ],
       "verify": [
-        "Crédits exacts de Phase II sur ce disque"
+        "Crédits exacts de Phase II sur ce disque",
+        "Année 1988 : non donnée par la source lue (premier disque de Movin' en 1987)",
+        "Dates de la résidence de Tony Humphries au Zanzibar (1982-1994) : non lues dans la source consultée"
       ],
       "youtube": [
         "rV_mmxsaPeM",
@@ -5669,7 +5901,10 @@
       "spotify": {
         "id": "6KlbbkiO0VC9mqdNWT3XtI",
         "version": "Brotherhood Mix"
-      }
+      },
+      "references": [
+        "https://www.thevinylfactory.com/features/abigail-adams-movin-records"
+      ]
     },
     {
       "id": "keep-on-movin",
@@ -6115,12 +6350,12 @@
       ],
       "construction": "Une house vocale lumineuse, une basse ronde et la voix soul de Hadiya George : la house de Chicago réécrite pour 2022.",
       "construction_en": "Bright vocal house, a round bassline and Hadiya George's soul voice: Chicago house rewritten for 2022.",
-      "producer_origins": "Honey Dijon, DJ et productrice née à Chicago, femme trans noire, coécrit l'album Black Girl Magic avec Luke Solomon ; elle travaille aussi sur Renaissance de Beyoncé.",
-      "producer_origins_en": "Honey Dijon, a Chicago-born DJ and producer and a Black trans woman, co-wrote the album Black Girl Magic with Luke Solomon; she also worked on Beyoncé's Renaissance.",
-      "club_sociology": "Le single tourne sur BBC Radio 1 avant la sortie de l'album en novembre 2022 : la house noire et queer revient au cœur de la pop.",
-      "club_sociology_en": "The single was playlisted on BBC Radio 1 before the album's release in November 2022: Black and queer house returns to the heart of pop.",
-      "queer_ballroom_axis": "Honey Dijon dit vouloir réancrer la house dans ses communautés d'origine, noires et queer.",
-      "queer_ballroom_axis_en": "Honey Dijon says she wants to re-root house in its original Black and queer communities.",
+      "producer_origins": "Honey Dijon, DJ et productrice, découvre la house à 12 ans dans sa ville natale. Elle coproduit l'album Black Girl Magic avec Luke Solomon et Chris Penny, et produit deux titres de Renaissance de Beyoncé, dont elle remixe aussi « Break My Soul ».",
+      "producer_origins_en": "Honey Dijon, a DJ and producer, discovered house at 12 in her hometown. She co-produced the album Black Girl Magic with Luke Solomon and Chris Penny, and produced two tracks on Beyoncé's Renaissance, also remixing \"Break My Soul\".",
+      "club_sociology": "Le single avec Hadiya George, chanteuse d'Atlanta, entre dans la playlist de BBC Radio 1 avant la sortie de l'album, le 18 novembre 2022 : la house noire et queer revient au cœur de la pop.",
+      "club_sociology_en": "The single with Atlanta singer Hadiya George was playlisted on BBC Radio 1 before the album came out on 18 November 2022: Black and queer house returned to the heart of pop.",
+      "queer_ballroom_axis": "Honey Dijon dit vouloir « garder cette culture dans la conversation » ; pour RA, chacun de ses disques cherche à réancrer la house dans les communautés noires et queer qui l'ont portée.",
+      "queer_ballroom_axis_en": "Honey Dijon says she wants to \"keep this culture in the conversation\"; for RA, each of her records tries to reground house in the Black and queer communities that originally upheld it.",
       "why_this_record": "La réappropriation, par celles et ceux qui ont inventé la house.",
       "why_this_record_en": "Reclamation, by those who invented house.",
       "archive_ref": {
@@ -6148,7 +6383,16 @@
       ],
       "spotify": {
         "id": "3F152F42cdRCeKMCP9by6X"
-      }
+      },
+      "references": [
+        "https://ra.co/news/77866",
+        "https://ra.co/reviews/35205",
+        "https://defected.com/news/post/honey-dijon-unveils-details-for-black-girl-magic"
+      ],
+      "verify": [
+        "Ville natale (Chicago) et présentation comme femme trans noire : non nommées dans les sources lues, à sourcer",
+        "Date et label du single : non lus (album : Classic Music Company, CMCLP 140, 18 novembre 2022)"
+      ]
     },
     {
       "id": "u-seinfeld",
@@ -8949,6 +9193,1013 @@
       ],
       "verify": [
         "« Fait connaître le son de Mood Hut » : formulation éditoriale",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "in-gold",
+      "title": "In Gold",
+      "artist": "Palms Trax",
+      "year": 2015,
+      "release_date": "2015-03",
+      "label": "Dekmantel",
+      "catalog": "DKMNTL024",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "city": "Berlin",
+      "city_en": "Berlin",
+      "genre": "deep",
+      "era": "era-3b",
+      "bpm": 122,
+      "camelot_key": "8A",
+      "energy": 6,
+      "gear": [
+        "Synthés",
+        "Boîtes à rythmes"
+      ],
+      "gear_en": [
+        "Synths",
+        "Drum machines"
+      ],
+      "construction": "Trois morceaux : « In Gold », « People Of Tusk » et « Sumo Acid Crew ». Des jams house brumeuses qui citent Chicago et Detroit ; « In Gold » est le plus porté par les nappes, avec des arpèges qui papillonnent et des batteries plus sèches.",
+      "construction_en": "Three tracks: \"In Gold\", \"People Of Tusk\" and \"Sumo Acid Crew\". Hazy house jams that reference Chicago and Detroit; \"In Gold\" is the most pad-driven, with fluttering arps and snappier drums.",
+      "producer_origins": "Palms Trax est Jay Donaldson, un Anglais installé à Berlin. Avant ce maxi, il avait publié sur Lobster Theremin.",
+      "producer_origins_en": "Palms Trax is Jay Donaldson, an Englishman based in Berlin. Before this 12\" he had released music on Lobster Theremin.",
+      "club_sociology": "Le maxi sort sur Dekmantel, label et festival d'Amsterdam. DJ Mag désigne Palms Trax « producteur révélation » de l'année 2015.",
+      "club_sociology_en": "The 12\" came out on Dekmantel, the Amsterdam label and festival. DJ Mag named Palms Trax its breakthrough producer of 2015.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (mars 2015) ; DJ Mag, Best of British 2015.",
+        "note_en": "Resident Advisor review (March 2015); DJ Mag, Best of British 2015."
+      },
+      "why_this_record": "La house des années 2010 qui regarde vers Chicago et Detroit sans les copier.",
+      "why_this_record_en": "2010s house that looks towards Chicago and Detroit without copying them.",
+      "tags": [
+        "europe",
+        "deep"
+      ],
+      "youtube": [
+        "5UsLQ59N48U",
+        "eHcpRmQ7xoI"
+      ],
+      "references": [
+        "https://ra.co/reviews/16618"
+      ],
+      "references_pending": [
+        "https://djmag.com/features/bob-2015-palms-trax-breakthrough-producer"
+      ],
+      "verify": [
+        "Distinction DJ Mag 2015 : page identifiée, non lue",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "art-of-war",
+      "title": "Art Of War",
+      "artist": "Peggy Gou",
+      "year": 2016,
+      "release_date": "2016-01",
+      "label": "Rekids",
+      "catalog": "REKIDS085",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "city": "Berlin",
+      "city_en": "Berlin",
+      "genre": "deep",
+      "era": "era-3b",
+      "bpm": 123,
+      "camelot_key": "2A",
+      "energy": 6,
+      "gear": [
+        "Synthés",
+        "Boîtes à rythmes"
+      ],
+      "gear_en": [
+        "Synths",
+        "Drum machines"
+      ],
+      "construction": "Trois morceaux : « Troop », « In Sum » et un remix de « Troop » par Galcher Lustwerk. Un synthé ample à la Detroit, un clap sec et un kick profond.",
+      "construction_en": "Three tracks: \"Troop\", \"In Sum\" and a Galcher Lustwerk remix of \"Troop\". A regal Detroit-style synth, a smacking clap and a deep, concussive kick.",
+      "producer_origins": "Peggy Gou est une DJ et productrice née en Corée du Sud, passée par Londres avant de s'installer à Berlin. Art Of War est son premier disque.",
+      "producer_origins_en": "Peggy Gou is a South Korean-born DJ and producer who lived in London before moving to Berlin. Art Of War is her debut record.",
+      "club_sociology": "Un premier maxi underground, sur le label de Radio Slave, bien avant la célébrité internationale de la fin des années 2010.",
+      "club_sociology_en": "An underground debut 12\", on Radio Slave's label, well before the international fame of the late 2010s.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (janvier 2016).",
+        "note_en": "Resident Advisor review (January 2016)."
+      },
+      "why_this_record": "Les débuts underground d'une DJ devenue star.",
+      "why_this_record_en": "The underground beginnings of a DJ who became a star.",
+      "tags": [
+        "europe",
+        "deep"
+      ],
+      "youtube": [],
+      "references": [
+        "https://ra.co/reviews/18392"
+      ],
+      "verify": [
+        "Rekids, label de Radio Slave : non lu dans une source",
+        "Vidéo YouTube à trouver et contrôler",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "there-is-no-right-time",
+      "title": "There Is No Right Time",
+      "artist": "Youandewan",
+      "year": 2016,
+      "release_date": "2016-10",
+      "label": "Aus Music",
+      "catalog": "AUSLP008",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "city": "Berlin",
+      "city_en": "Berlin",
+      "genre": "deep",
+      "era": "era-3b",
+      "bpm": 120,
+      "camelot_key": "10A",
+      "energy": 5,
+      "gear": [
+        "Synthés",
+        "Boîtes à rythmes"
+      ],
+      "gear_en": [
+        "Synths",
+        "Drum machines"
+      ],
+      "construction": "Premier album, dix morceaux (« Have The Guts », « Be Good To Me, Poly », « Time To Leave (Can't Mix) », « Our Odyssey »…) : des accords qui retombent en drapé, de la house qui pompe, de l'italo qui frappe du pied et une électro aérienne.",
+      "construction_en": "Debut album, ten tracks (\"Have The Guts\", \"Be Good To Me, Poly\", \"Time To Leave (Can't Mix)\", \"Our Odyssey\"…): draped, drooping chords, pumping house, stomping italo and heavenly electro.",
+      "producer_origins": "Youandewan est Ewan Smith, un Écossais qui a grandi dans le Yorkshire et vit à Berlin.",
+      "producer_origins_en": "Youandewan is Ewan Smith, a Scot raised in Yorkshire and based in Berlin.",
+      "club_sociology": "Un album de house pensé pour l'écoute autant que pour le club, sur le label londonien d'Appleblim et de Will Saul.",
+      "club_sociology_en": "A house album made for listening as much as for the club.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (octobre 2016).",
+        "note_en": "Resident Advisor review (October 2016)."
+      },
+      "why_this_record": "La house mélancolique, en format album.",
+      "why_this_record_en": "Melancholy house, in album form.",
+      "tags": [
+        "europe",
+        "deep",
+        "uk-link"
+      ],
+      "youtube": [
+        "P5lW5lN9MjQ"
+      ],
+      "references": [
+        "https://ra.co/reviews/19989"
+      ],
+      "verify": [
+        "Aus Music, label de Will Saul : non lu dans une source",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "narcissus-in-retrograde",
+      "title": "Narcissus In Retrograde",
+      "artist": "Avalon Emerson",
+      "year": 2016,
+      "release_date": "2016-11",
+      "label": "Spectral Sound",
+      "catalog": "SPC137",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "city": "Berlin",
+      "city_en": "Berlin",
+      "genre": "techno",
+      "era": "era-3b",
+      "bpm": 126,
+      "camelot_key": "5A",
+      "energy": 7,
+      "gear": [
+        "Synthés",
+        "Boîtes à rythmes"
+      ],
+      "gear_en": [
+        "Synths",
+        "Drum machines"
+      ],
+      "construction": "Quatre morceaux : « Natural Impasse », « Dystopian Daddy », « Why Does It Hurt » et « Groundwater ». De la douceur à la Kompakt d'un côté, le monochrome industriel de « Why Does It Hurt » de l'autre.",
+      "construction_en": "Four tracks: \"Natural Impasse\", \"Dystopian Daddy\", \"Why Does It Hurt\" and \"Groundwater\". Kompakt-style sweetness on one side, the industrial monochrome of \"Why Does It Hurt\" on the other.",
+      "producer_origins": "Avalon Emerson est une DJ et productrice américaine ; Narcissus In Retrograde est sorti sur Spectral Sound.",
+      "producer_origins_en": "Avalon Emerson is an American DJ and producer; Narcissus In Retrograde came out on Spectral Sound.",
+      "club_sociology": "Un disque à cheval entre house et techno, qui circule autant dans les clubs de techno que dans les sets house.",
+      "club_sociology_en": "A record straddling house and techno, played in techno clubs as much as in house sets.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (novembre 2016).",
+        "note_en": "Resident Advisor review (November 2016)."
+      },
+      "why_this_record": "Entre douceur mélodique et techno industrielle.",
+      "why_this_record_en": "Between melodic sweetness and industrial techno.",
+      "tags": [
+        "us",
+        "machine"
+      ],
+      "youtube": [],
+      "references": [
+        "https://ra.co/reviews/20165"
+      ],
+      "verify": [
+        "Ville (Berlin) et origine (Arizona, San Francisco) : non confirmées par une source lue",
+        "Le dossier citait Whities : RA indique Spectral Sound",
+        "Vidéo YouTube à trouver et contrôler",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "organ-smith",
+      "title": "Organ Smith",
+      "artist": "rRoxymore",
+      "year": 2016,
+      "release_date": "2016-11",
+      "label": "Don't Be Afraid",
+      "catalog": "DBA028",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "city": "Berlin",
+      "city_en": "Berlin",
+      "genre": "deep",
+      "era": "era-3b",
+      "bpm": 124,
+      "camelot_key": "9A",
+      "energy": 6,
+      "gear": [
+        "Orgue",
+        "Percussions",
+        "Synthés"
+      ],
+      "gear_en": [
+        "Organ",
+        "Percussion",
+        "Synths"
+      ],
+      "construction": "Trois morceaux : « Organ Smith », « About Finding The Right Balance » et « Uchi's House ». Une boucle d'orgue à la Cajmere au milieu des cloches et des souffles, puis un hybride nerveux qui lorgne vers la bass music anglaise.",
+      "construction_en": "Three tracks: \"Organ Smith\", \"About Finding The Right Balance\" and \"Uchi's House\". A Cajmere-style organ loop amid bells and gasps, then a nervous hybrid leaning towards UK bass music.",
+      "producer_origins": "rRoxymore est Hermione Frank, originaire de Montpellier. Elle a d'abord été DJ à Paris avant de s'installer à Berlin, et a collaboré avec Planningtorock et Paula Temple.",
+      "producer_origins_en": "rRoxymore is Hermione Frank, from Montpellier. She first DJed in Paris before moving to Berlin, and has worked with Planningtorock and Paula Temple.",
+      "club_sociology": "Le maxi sort sur Don't Be Afraid, un label de Bristol : la house de rRoxymore circule entre Berlin et la scène anglaise.",
+      "club_sociology_en": "The 12\" came out on Don't Be Afraid, a Bristol label: rRoxymore's house moves between Berlin and the UK scene.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (novembre 2016) ; portrait FACT (décembre 2017).",
+        "note_en": "Resident Advisor review (November 2016); FACT profile (December 2017)."
+      },
+      "why_this_record": "Une house rythmiquement inventive, entre Chicago et bass music.",
+      "why_this_record_en": "Rhythmically inventive house, between Chicago and bass music.",
+      "tags": [
+        "europe",
+        "machine"
+      ],
+      "youtube": [],
+      "references": [
+        "https://ra.co/reviews/20019",
+        "https://www.factmag.com/2017/12/06/rroxymore-fact-rated/"
+      ],
+      "verify": [
+        "Vidéo YouTube à trouver et contrôler",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "loop-one-selector",
+      "title": "Untitled (Loop One / Selector)",
+      "artist": "Shanti Celeste",
+      "year": 2017,
+      "release_date": "2017-02",
+      "label": "Peach Discs",
+      "catalog": "PARTY001",
+      "city": "Bristol",
+      "city_en": "Bristol",
+      "country": "Royaume-Uni",
+      "country_en": "United Kingdom",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "deep",
+      "era": "era-3b",
+      "bpm": 124,
+      "camelot_key": "7A",
+      "energy": 7,
+      "gear": [
+        "Synthés",
+        "Samples vocaux",
+        "Breakbeats"
+      ],
+      "gear_en": [
+        "Synths",
+        "Vocal samples",
+        "Breakbeats"
+      ],
+      "construction": "Deux morceaux, « Loop One » et « Selector » : un beat house droit, des samples de voix qui bavardent et un riff de synthé à lever les bras ; la face B est plus dure, chargée en basses.",
+      "construction_en": "Two tracks, \"Loop One\" and \"Selector\": a straight house beat, chattering vocal samples and a hands-in-the-air synth riff; the B-side is tougher and bass-heavy.",
+      "producer_origins": "Shanti Celeste est une DJ et productrice de Bristol. Ce maxi est le premier de son propre label, Peach Discs, qu'elle présente comme la maison principale de sa musique.",
+      "producer_origins_en": "Shanti Celeste is a Bristol DJ and producer. This 12\" is the first release on her own label, Peach Discs, which she describes as the main home for her music.",
+      "club_sociology": "Une productrice qui fonde son label pour publier sa musique et celle d'autres artistes de Bristol : la transmission passe aussi par la structure.",
+      "club_sociology_en": "A producer who founded her own label to release her music and that of other Bristol artists: transmission also happens through structures.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (février 2017) ; annonce de FACT (novembre 2016).",
+        "note_en": "Resident Advisor review (February 2017); FACT announcement (November 2016)."
+      },
+      "why_this_record": "Le premier disque d'un label fondé par une productrice.",
+      "why_this_record_en": "The first release on a label founded by a producer.",
+      "tags": [
+        "uk",
+        "deep",
+        "diy"
+      ],
+      "youtube": [],
+      "references": [
+        "https://ra.co/reviews/20629",
+        "https://www.factmag.com/2016/11/29/shanti-celeste-launches-peach-discs-label/"
+      ],
+      "verify": [
+        "Vidéo YouTube à trouver et contrôler",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "sendas",
+      "title": "Sendas EP",
+      "artist": "Z@P",
+      "year": 2017,
+      "release_date": "2017-03",
+      "label": "Traffic",
+      "catalog": "TRAFFIC010",
+      "city": "Montevideo",
+      "city_en": "Montevideo",
+      "country": "Uruguay",
+      "country_en": "Uruguay",
+      "continent": "Amérique du Sud",
+      "continent_en": "South America",
+      "genre": "microhouse",
+      "era": "era-3b",
+      "bpm": 126,
+      "camelot_key": "4A",
+      "energy": 6,
+      "gear": [
+        "Basse",
+        "Boîtes à rythmes",
+        "Synthés"
+      ],
+      "gear_en": [
+        "Bass",
+        "Drum machines",
+        "Synths"
+      ],
+      "construction": "Quatre morceaux : « Sendas », « Basement », « S&T » et « PTN2 ». Une basse qui sonne joué en direct, une mélodie sifflée, une courte voix robotique.",
+      "construction_en": "Four tracks: \"Sendas\", \"Basement\", \"S&T\" and \"PTN2\". A live-sounding bassline, a whistling melody, a short robotic vocal.",
+      "producer_origins": "Z@P est un Uruguayen lié au Phonotheque, un club de Montevideo.",
+      "producer_origins_en": "Z@P is a Uruguayan producer with ties to Montevideo's Phonotheque club.",
+      "club_sociology": "Montevideo, autour du Phonotheque, devient dans les années 2010 un foyer de house minimale et d'électro reconnu en Europe.",
+      "club_sociology_en": "In the 2010s Montevideo, around the Phonotheque, became a hub of minimal house and electro recognised in Europe.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (avril 2017).",
+        "note_en": "Resident Advisor review (April 2017)."
+      },
+      "why_this_record": "La scène de Montevideo, vue depuis un de ses clubs.",
+      "why_this_record_en": "The Montevideo scene, seen from one of its clubs.",
+      "tags": [
+        "machine"
+      ],
+      "youtube": [
+        "UQ0pITgzmmw"
+      ],
+      "references": [
+        "https://ra.co/reviews/20856"
+      ],
+      "verify": [
+        "« Foyer reconnu en Europe » : formulation éditoriale, à sourcer (podcasts RA de DJ Koolt et Z@P)",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "h-powder",
+      "title": "H",
+      "artist": "Powder",
+      "year": 2017,
+      "release_date": "2017-03",
+      "label": "CockTail d'Amore",
+      "catalog": "CDA017",
+      "city": "Tokyo",
+      "city_en": "Tokyo",
+      "country": "Japon",
+      "country_en": "Japan",
+      "continent": "Asie",
+      "continent_en": "Asia",
+      "genre": "microhouse",
+      "era": "era-3b",
+      "bpm": 125,
+      "camelot_key": "6A",
+      "energy": 7,
+      "gear": [
+        "tb-303",
+        "Boîtes à rythmes"
+      ],
+      "gear_en": [
+        "tb-303",
+        "Drum machines"
+      ],
+      "construction": "Quatre morceaux, dont le titre de l'EP donne l'initiale : « Hip », « Heart », « Hole » et « Hair ». Des giclées d'acid sur le premier, des rythmes industriels moites ailleurs.",
+      "construction_en": "Four tracks, all starting with the EP's initial: \"Hip\", \"Heart\", \"Hole\" and \"Hair\". Pumping spurts of acid on the opener, dank industrial rhythms elsewhere.",
+      "producer_origins": "Powder est une DJ et productrice japonaise. Resident Advisor souligne sa polyvalence, en DJ comme en studio.",
+      "producer_origins_en": "Powder is a Japanese DJ and producer. Resident Advisor highlights her versatility, as a DJ and in the studio.",
+      "club_sociology": "L'EP sort sur CockTail d'Amore, label d'une fête queer berlinoise : une scène japonaise qui circule dans les réseaux queer européens.",
+      "club_sociology_en": "The EP came out on CockTail d'Amore, the label of a Berlin queer party: a Japanese scene circulating through European queer networks.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (avril 2017).",
+        "note_en": "Resident Advisor review (April 2017)."
+      },
+      "why_this_record": "Une house hypnotique et acide, de Tokyo à Berlin.",
+      "why_this_record_en": "Hypnotic, acid house, from Tokyo to Berlin.",
+      "tags": [
+        "machine",
+        "queer"
+      ],
+      "youtube": [],
+      "references": [
+        "https://ra.co/reviews/20801"
+      ],
+      "verify": [
+        "Ville (Tokyo) : non confirmée par une source lue",
+        "CockTail d'Amore, fête queer de Berlin : non lu dans une source",
+        "Vidéo YouTube à trouver et contrôler",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "blue-dream",
+      "title": "Blue Dream",
+      "artist": "D. Tiffany",
+      "year": 2017,
+      "release_date": "2017-06",
+      "label": "Pacific Rhythm",
+      "catalog": "PR001",
+      "country": "Canada",
+      "country_en": "Canada",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "city": "Vancouver",
+      "city_en": "Vancouver",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "canada-house",
+      "bpm": 120,
+      "camelot_key": "11A",
+      "energy": 5,
+      "gear": [
+        "Percussions",
+        "Breakbeats",
+        "Basse"
+      ],
+      "gear_en": [
+        "Percussion",
+        "Breakbeats",
+        "Bass"
+      ],
+      "construction": "Quatre morceaux : « Get Back To You Soon », « Blue Dream », « How RU Plush » (avec Regularfantasy) et « Something About You ». Des percussions à la main, des breaks bruts, des bongos balayés par le vent : une house de Vancouver détendue et chargée en basses.",
+      "construction_en": "Four tracks: \"Get Back To You Soon\", \"Blue Dream\", \"How RU Plush\" (with Regularfantasy) and \"Something About You\". Crafty hand percussion, crude breaks, windswept bongos: laid-back, bass-heavy Vancouver house.",
+      "producer_origins": "D. Tiffany est Sophie Sweetland, l'une des artistes les plus singulières de la scène de Vancouver. Elle produit aussi sous le nom de DJ Zozi.",
+      "producer_origins_en": "D. Tiffany is Sophie Sweetland, one of the most distinctive artists to emerge from Vancouver's scene. She also produces as DJ Zozi.",
+      "club_sociology": "Le premier EP solo du label Pacific Rhythm : Vancouver ne se résume pas à Mood Hut.",
+      "club_sociology_en": "The first solo EP on the Pacific Rhythm label: Vancouver is about more than Mood Hut.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (août 2017).",
+        "note_en": "Resident Advisor review (August 2017)."
+      },
+      "why_this_record": "La house psychédélique et bricolée de Vancouver.",
+      "why_this_record_en": "Vancouver's psychedelic, homemade house.",
+      "tags": [
+        "deep",
+        "diy",
+        "chill"
+      ],
+      "youtube": [
+        "h5CV_4rnhkY",
+        "XZwtj_UF8lU"
+      ],
+      "references": [
+        "https://ra.co/reviews/21353"
+      ],
+      "verify": [
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "dulce-compania",
+      "title": "Dulce Compañia",
+      "artist": "DJ Python",
+      "year": 2017,
+      "label": "Incienso",
+      "city": "New York",
+      "city_en": "New York",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "deep",
+      "era": "era-3b",
+      "bpm": 105,
+      "camelot_key": "3A",
+      "energy": 3,
+      "gear": [
+        "Synthés",
+        "Percussions"
+      ],
+      "gear_en": [
+        "Synths",
+        "Percussion"
+      ],
+      "construction": "Une house enfumée, avec beaucoup de grain new-yorkais, où le reggaeton n'est qu'une suggestion rythmique ; un romantisme ambient enveloppe le tout (« Todo Era Azul (Versión Afuera) », « Acostados »).",
+      "construction_en": "A smoky strain of house with plenty of NYC grit, where reggaeton is a subtle rhythmic suggestion; ambient romanticism swirls around it all (\"Todo Era Azul (Versión Afuera)\", \"Acostados\").",
+      "producer_origins": "DJ Python est Brian Piñeyro, né à New York. Il a aussi publié sous les noms DJ Wey, Deejay Xanax et Luis.",
+      "producer_origins_en": "DJ Python is Brian Piñeyro, a New York native. He has also released music as DJ Wey, Deejay Xanax and Luis.",
+      "club_sociology": "Incienso est le label d'Anthony Naples et de Jenny Slattery, à New York. Le disque fait de la house un espace d'écoute, entre club et chambre.",
+      "club_sociology_en": "Incienso is Anthony Naples and Jenny Slattery's New York label. The record makes house a listening space, between club and bedroom.",
+      "archive_ref": {
+        "note": "Critique de Crack Magazine (octobre 2017).",
+        "note_en": "Crack Magazine review (October 2017)."
+      },
+      "why_this_record": "La house new-yorkaise rencontre le reggaeton, au ralenti.",
+      "why_this_record_en": "New York house meets reggaeton, in slow motion.",
+      "tags": [
+        "us",
+        "chill",
+        "diaspora"
+      ],
+      "youtube": [
+        "XNisMcWvZ3Q"
+      ],
+      "references": [
+        "https://crackmagazine.net/article/album-reviews/dj-python-dulce-compania/",
+        "https://ra.co/reviews/24300"
+      ],
+      "verify": [
+        "Mois de sortie et numéro de catalogue",
+        "Le terme « deep reggaeton » souvent associé à DJ Python : non lu dans une source",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "impulsiv",
+      "title": "Impulsiv",
+      "artist": "Dwson",
+      "year": 2018,
+      "release_date": "2018-06-08",
+      "label": "Stay True Sounds",
+      "city": "Le Cap",
+      "city_en": "Cape Town",
+      "country": "Afrique du Sud",
+      "country_en": "South Africa",
+      "continent": "Afrique",
+      "continent_en": "Africa",
+      "genre": "deep",
+      "era": "era-3b",
+      "bpm": 122,
+      "camelot_key": "8A",
+      "energy": 5,
+      "gear": [
+        "Synthés",
+        "Voix"
+      ],
+      "gear_en": [
+        "Synths",
+        "Vocals"
+      ],
+      "construction": "Premier album, onze morceaux, dont plusieurs avec des voix invitées : « Brighter Day » avec Jackie Queens, « Forbidden » avec Sio, « Poseidon » avec Kymac, « Changes » avec Ziyon.",
+      "construction_en": "Debut album, eleven tracks, several with guest vocalists: \"Brighter Day\" with Jackie Queens, \"Forbidden\" with Sio, \"Poseidon\" with Kymac, \"Changes\" with Ziyon.",
+      "producer_origins": "Dwson (prononcer « Dawson ») est un producteur du Cap. DJ dès l'adolescence, il suit une formation à l'institut de musique Soul Candi et publie depuis 2015.",
+      "producer_origins_en": "Dwson (pronounced \"Dawson\") is a Cape Town producer. A DJ since his teens, he studied production at the Soul Candi institute of music and has been releasing music since 2015.",
+      "club_sociology": "Stay True Sounds, fondé par Kid Fonque et Jullian Gomes, se présente comme le plus grand label indépendant d'Afrique du Sud : la deep house sud-africaine a ses propres structures.",
+      "club_sociology_en": "Stay True Sounds, founded by Kid Fonque and Jullian Gomes, is described as South Africa's biggest independent label: South African deep house has its own structures.",
+      "archive_ref": {
+        "note": "Biographie Resident Advisor ; Pan African Music (2019) ; DJ Mag, The Sound Of: Stay True Sounds.",
+        "note_en": "Resident Advisor biography; Pan African Music (2019); DJ Mag, The Sound Of: Stay True Sounds."
+      },
+      "why_this_record": "La deep house sud-africaine, hors du circuit européen.",
+      "why_this_record_en": "South African deep house, outside the European circuit.",
+      "tags": [
+        "africa",
+        "deep",
+        "soul"
+      ],
+      "youtube": [],
+      "references": [
+        "https://essentialhouse.club/2018/06/dwson-impulsiv-stay-true-sounds/",
+        "https://ra.co/dj/dwson/biography",
+        "https://pan-african-music.com/en/dwson-say-less/",
+        "https://djmag.com/features/sound-stay-true-sounds"
+      ],
+      "verify": [
+        "Numéro de catalogue",
+        "Vidéo YouTube à trouver et contrôler",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "mwah",
+      "title": "Mwah",
+      "artist": "Roza Terenzi",
+      "year": 2018,
+      "release_date": "2018-04",
+      "label": "Kalahari Oyster Cult",
+      "catalog": "OYSTER9",
+      "country": "Australie",
+      "country_en": "Australia",
+      "continent": "Océanie",
+      "continent_en": "Oceania",
+      "city": "Melbourne",
+      "city_en": "Melbourne",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "melbourne-naarm",
+      "bpm": 128,
+      "camelot_key": "12A",
+      "energy": 7,
+      "gear": [
+        "tb-303",
+        "Breakbeats",
+        "Synthés"
+      ],
+      "gear_en": [
+        "tb-303",
+        "Breakbeats",
+        "Synths"
+      ],
+      "construction": "Quatre morceaux : « Mwah », « Gigi », « Rare High » et « Soft ». Entre électro, house, techno et hymnes rave des débuts : des lignes acid qui se tortillent, des caisses claires qui claquent, des cordes qui s'envolent.",
+      "construction_en": "Four tracks: \"Mwah\", \"Gigi\", \"Rare High\" and \"Soft\". Between electro, house, techno and early rave anthems: squirming acid lines, snapping snares, soaring strings.",
+      "producer_origins": "Roza Terenzi a grandi à Perth, où elle a commencé à faire de la musique, avant de s'installer à Melbourne. Elle publie sur Good Company, Planet Euphorique, Butter Sessions, Kalahari Oyster Cult et Dekmantel.",
+      "producer_origins_en": "Roza Terenzi grew up in Perth, where she started making music, before moving to Melbourne. She has released music on Good Company, Planet Euphorique, Butter Sessions, Kalahari Oyster Cult and Dekmantel.",
+      "club_sociology": "Une productrice australienne qui relie la house aux breaks et à l'électro des années 1990, et circule entre l'Australie et les labels européens.",
+      "club_sociology_en": "An Australian producer who connects house with 1990s breaks and electro, moving between Australia and European labels.",
+      "archive_ref": {
+        "note": "Fiches Rush Hour et Boomkat ; entretiens Truants (2018) et The Ransom Note (2021).",
+        "note_en": "Rush Hour and Boomkat listings; Truants (2018) and The Ransom Note (2021) interviews."
+      },
+      "why_this_record": "Melbourne, entre house, acid et rave.",
+      "why_this_record_en": "Melbourne, between house, acid and rave.",
+      "tags": [
+        "rave",
+        "machine"
+      ],
+      "youtube": [
+        "P7SZ5NOyNPE"
+      ],
+      "references": [
+        "https://www.rushhour.nl/record/vinyl/mwah",
+        "https://boomkat.com/products/mwah-ep",
+        "https://truantsblog.com/2018/interview-roza-terenzi/",
+        "https://www.theransomnote.com/music/interviews/realigning-perspective-roza-terenzi-talks/"
+      ],
+      "verify": [
+        "Date de sortie : semaine 15 de 2018 selon Rush Hour, 24 janvier 2019 selon Boomkat (sources contradictoires)",
+        "Kalahari Oyster Cult : label néerlandais ? non lu dans une source",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "hundred-flowers",
+      "title": "Hundred Flowers",
+      "artist": "Ciel",
+      "year": 2018,
+      "release_date": "2018-11",
+      "label": "Coastal Haze",
+      "catalog": "HAZE009",
+      "country": "Canada",
+      "country_en": "Canada",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "city": "Toronto",
+      "city_en": "Toronto",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "canada-house",
+      "bpm": 122,
+      "camelot_key": "9A",
+      "energy": 5,
+      "gear": [
+        "Boîtes à rythmes",
+        "Samples",
+        "Synthés"
+      ],
+      "gear_en": [
+        "Drum machines",
+        "Samples",
+        "Synths"
+      ],
+      "construction": "Quatre morceaux : « Hundred Flowers Groove », « Blo A Wish », « The Twirler » et un remix de Central. Discret et groovy, mené par une programmation de batterie agile et des samples flous ; l'EP fait signe à la Chine de 1956 et à My Bloody Valentine.",
+      "construction_en": "Four tracks: \"Hundred Flowers Groove\", \"Blo A Wish\", \"The Twirler\" and a Central remix. Understated and groovy, led by nimble drum programming and soft-focus samples; the EP nods to 1956 China and My Bloody Valentine.",
+      "producer_origins": "Ciel est Cindy Li, productrice de Toronto. Hundred Flowers suit Electrical Encounters (Peach Discs, 2017).",
+      "producer_origins_en": "Ciel is Cindy Li, a Toronto producer. Hundred Flowers follows Electrical Encounters (Peach Discs, 2017).",
+      "club_sociology": "« The Twirler » rend hommage à une figure des pistes de danse de Toronto. L'EP sort sur Coastal Haze, le label londonien de Seb Wildblood et Hollick.",
+      "club_sociology_en": "\"The Twirler\" pays tribute to a Toronto dancefloor figure. The EP came out on Coastal Haze, Seb Wildblood and Hollick's London label.",
+      "archive_ref": {
+        "note": "Critique et annonce de Resident Advisor (octobre et décembre 2018).",
+        "note_en": "Resident Advisor review and news (October and December 2018)."
+      },
+      "why_this_record": "La house de Toronto, discrète et pleine de références.",
+      "why_this_record_en": "Toronto house, understated and full of references.",
+      "tags": [
+        "deep",
+        "sample"
+      ],
+      "youtube": [
+        "PgdMzE-zI6g"
+      ],
+      "references": [
+        "https://ra.co/reviews/23329",
+        "https://ra.co/news/42595"
+      ],
+      "verify": [
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Un album porté par une artiste trans, sur un label trans fondé avec Eris Drew : « My Body Is Powerful » en donne le ton.",
+      "queer_ballroom_axis_en": "An album by a trans artist, on a trans label co-founded with Eris Drew: \"My Body Is Powerful\" sets the tone.",
+      "id": "resonant-body",
+      "title": "Resonant Body",
+      "artist": "Octo Octa",
+      "year": 2019,
+      "release_date": "2019-09",
+      "label": "T4T LUV NRG",
+      "catalog": "T4T002",
+      "city": "New Hampshire",
+      "city_en": "New Hampshire",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "queer-underground",
+      "bpm": 128,
+      "camelot_key": "1B",
+      "energy": 8,
+      "gear": [
+        "Breakbeats",
+        "Synthés",
+        "Voix"
+      ],
+      "gear_en": [
+        "Breakbeats",
+        "Synths",
+        "Vocals"
+      ],
+      "construction": "Huit morceaux (« Imminent Spirit Arrival », « Move Your Body », « Deep Connections », « Spin Girl, Let's Activate! », « Ecstatic Beat », « Can You See Me? », « My Body Is Powerful », « Power To The People ») : tempos plus rapides, breakbeats plus sauvages, bombes house au style des années 1990.",
+      "construction_en": "Eight tracks (\"Imminent Spirit Arrival\", \"Move Your Body\", \"Deep Connections\", \"Spin Girl, Let's Activate!\", \"Ecstatic Beat\", \"Can You See Me?\", \"My Body Is Powerful\", \"Power To The People\"): faster tempos, wilder breakbeats, quirky '90s-style house bombs.",
+      "producer_origins": "Octo Octa est Maya Bouldry-Morrison. L'album sort sur T4T LUV NRG, le label qu'elle dirige avec Eris Drew.",
+      "producer_origins_en": "Octo Octa is Maya Bouldry-Morrison. The album came out on T4T LUV NRG, the label she runs with Eris Drew.",
+      "club_sociology": "Des breakbeats et des morceaux house portés par un message personnel : le corps, la puissance, la communauté.",
+      "club_sociology_en": "Breakbeats and house bangers delivered with a stirring personal message: the body, power, community.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (septembre 2019).",
+        "note_en": "Resident Advisor review (September 2019)."
+      },
+      "why_this_record": "La house comme affirmation du corps et de la communauté.",
+      "why_this_record_en": "House as an affirmation of body and community.",
+      "tags": [
+        "us",
+        "queer",
+        "rave",
+        "diy"
+      ],
+      "youtube": [
+        "fPqdySiBpZ4"
+      ],
+      "references": [
+        "https://ra.co/reviews/24087",
+        "https://en.wikipedia.org/wiki/Octo_Octa"
+      ],
+      "verify": [
+        "Catalogue : « T4T2 » chez RA, « T4T002 » sur YouTube",
+        "Ville (New Hampshire) : d'après Wikipedia, à dater",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "on-a-nimbus",
+      "title": "On A Nimbus",
+      "artist": "Priori",
+      "year": 2019,
+      "release_date": "2019-09",
+      "label": "NAFF",
+      "catalog": "NAFF006",
+      "country": "Canada",
+      "country_en": "Canada",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "city": "Montréal",
+      "city_en": "Montreal",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "canada-house",
+      "bpm": 118,
+      "camelot_key": "4B",
+      "energy": 5,
+      "gear": [
+        "Synthés"
+      ],
+      "gear_en": [
+        "Synths"
+      ],
+      "construction": "Onze morceaux d'une house aux accents cosmiques : synthés qui couinent et bulles graves sur une palette rythmique très spatiale.",
+      "construction_en": "Eleven tracks of cosmically-inflected house: tweaky synths and deep bloops atop a distinctly spaced-out rhythmic palette.",
+      "producer_origins": "Priori est un producteur de Montréal, qui codirige le label NAFF avec Ex-Terrestrial. On A Nimbus est son premier disque sur NAFF.",
+      "producer_origins_en": "Priori is a Montreal producer who co-runs the NAFF label with Ex-Terrestrial. On A Nimbus is his first record on NAFF.",
+      "club_sociology": "Montréal développe sa propre house, glacée et cosmique, autour de labels tenus par les artistes.",
+      "club_sociology_en": "Montreal developed its own icy, cosmic house, around artist-run labels.",
+      "archive_ref": {
+        "note": "Annonce de FACT (septembre 2019).",
+        "note_en": "FACT announcement (September 2019)."
+      },
+      "why_this_record": "La house cosmique de Montréal.",
+      "why_this_record_en": "Montreal's cosmic house.",
+      "tags": [
+        "chill",
+        "diy"
+      ],
+      "youtube": [
+        "ZHLn92DTTmU",
+        "vulMoU6_lDw"
+      ],
+      "references": [
+        "https://www.factmag.com/2019/09/04/priori-debuts-on-naff-with-on-a-nimbus/"
+      ],
+      "verify": [
+        "Catalogue NAFF006 : d'après le titre d'une vidéo, non lu dans une source",
+        "« Glacée » : d'après un article de Bandcamp Daily non lu",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "rebel-force",
+      "title": "Rebel Force",
+      "artist": "Sleep D",
+      "year": 2019,
+      "release_date": "2019-10",
+      "label": "Incienso",
+      "catalog": "INC007",
+      "country": "Australie",
+      "country_en": "Australia",
+      "continent": "Océanie",
+      "continent_en": "Oceania",
+      "city": "Melbourne",
+      "city_en": "Melbourne",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "melbourne-naarm",
+      "bpm": 124,
+      "camelot_key": "8B",
+      "energy": 6,
+      "gear": [
+        "Synthés",
+        "Basse",
+        "Arpégiateur"
+      ],
+      "gear_en": [
+        "Synths",
+        "Bass",
+        "Arpeggiator"
+      ],
+      "construction": "Dix morceaux (« Red Rock (IV Mix) », « Central », « Danza Mart », « Reggatron », « Morning Sequence »…) : des morceaux de danse très polis, chargés de mélodies, avec un synthé de basse qui rote et des arpèges qui pulsent.",
+      "construction_en": "Ten tracks (\"Red Rock (IV Mix)\", \"Central\", \"Danza Mart\", \"Reggatron\", \"Morning Sequence\"…): ultra-polished dance tracks loaded with melody, with a belching bass synth and pulsating arps.",
+      "producer_origins": "Sleep D est le duo de Corey Kikos et Maryos Syawish, de Melbourne. Ils sortent leur premier disque à 18 ans, quand ils vivent à Frankston, en banlieue. Ils tiennent Butter Sessions, d'abord un blog, devenu série de mixes, fête et label.",
+      "producer_origins_en": "Sleep D is the Melbourne duo of Corey Kikos and Maryos Syawish. They released their first record at 18, while living in suburban Frankston. They run Butter Sessions, first a blog, then a mix series, party and label.",
+      "club_sociology": "Un album de Melbourne publié à New York sur Incienso : la scène australienne circule dans les réseaux underground internationaux.",
+      "club_sociology_en": "A Melbourne album released in New York on Incienso: the Australian scene circulates through international underground networks.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (novembre 2019).",
+        "note_en": "Resident Advisor review (November 2019)."
+      },
+      "why_this_record": "Melbourne, de la banlieue au label new-yorkais.",
+      "why_this_record_en": "Melbourne, from the suburbs to a New York label.",
+      "tags": [
+        "diy",
+        "machine"
+      ],
+      "youtube": [
+        "3magS0lxuy0",
+        "tEAMvkadkKM"
+      ],
+      "references": [
+        "https://ra.co/reviews/24300"
+      ],
+      "verify": [
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "dream-machine",
+      "title": "Dream Machine",
+      "artist": "Fantastic Man",
+      "year": 2015,
+      "label": "Love On The Rocks",
+      "country": "Australie",
+      "country_en": "Australia",
+      "continent": "Océanie",
+      "continent_en": "Oceania",
+      "city": "Melbourne",
+      "city_en": "Melbourne",
+      "genre": "balearic",
+      "era": "era-3b",
+      "scene": "melbourne-naarm",
+      "bpm": 118,
+      "camelot_key": "10B",
+      "energy": 5,
+      "gear": [
+        "tb-303",
+        "Percussions",
+        "Synthés"
+      ],
+      "gear_en": [
+        "tb-303",
+        "Percussion",
+        "Synths"
+      ],
+      "construction": "Une house teintée de balearic : une ligne acid classique en ouverture, des percussions africaines, des mélodies de xylophone scintillantes (« Fountain Gate », « Dream Machine », « St. Elmo's Street »).",
+      "construction_en": "Balearic-tinged house: a classic acid line to open, African tribal percussion, twinkly xylophone melodies (\"Fountain Gate\", \"Dream Machine\", \"St. Elmo's Street\").",
+      "producer_origins": "Fantastic Man est un producteur de Melbourne. Le disque sort sur Love On The Rocks, un label berlinois.",
+      "producer_origins_en": "Fantastic Man is a Melbourne producer. The record came out on Love On The Rocks, a Berlin label.",
+      "club_sociology": "Une des premières percées internationales de la scène de Melbourne des années 2010, entre balearic, acid et dream house.",
+      "club_sociology_en": "One of the first international breakthroughs of 2010s Melbourne, between balearic, acid and dream house.",
+      "archive_ref": {
+        "note": "Critique de Stamp The Wax (juin 2015).",
+        "note_en": "Stamp The Wax review (June 2015)."
+      },
+      "why_this_record": "Melbourne, entre Ibiza et rêve électronique.",
+      "why_this_record_en": "Melbourne, between Ibiza and electronic dream.",
+      "tags": [
+        "sunrise",
+        "chill"
+      ],
+      "youtube": [
+        "63o3_KRi63w"
+      ],
+      "references": [
+        "https://www.stampthewax.com/2015/06/19/fantastic-man-dream-machine-ep/"
+      ],
+      "verify": [
+        "Mois de sortie et numéro de catalogue (LOTR005 ?)",
+        "« Première percée internationale » : formulation éditoriale",
         "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
       ],
       "verified": false
