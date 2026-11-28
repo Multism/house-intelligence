@@ -198,7 +198,7 @@ function recordPost(t, q = queued(t.id)) {
   const url = `${SITE_SHORT}/${FR ? "disques" : "en/records"}/${t.id}/`;
   const hook = q?.hook || firstSentence(f(t, "why_this_record"));
   const slides = [
-    cover({ n: q?.n, kicker: f(g, "name") || t.genre, title: short(t.title), sub: t.artist, year: t.year, hook, ghost: String(t.bpm),
+    cover({ n: q?.n, kicker: f(g, "name") || t.genre, title: short(t.title), sub: t.artist, year: q?.year || t.year, hook, ghost: String(t.bpm),
       badges: [["BPM", t.bpm], [W.key, t.camelot_key], [W.energy, `${t.energy}/10`], [W.city, short(t.city)]],
       meta: [short(t.label), gear.join(" · ")].filter(Boolean).join("  ·  ") }),
     textSlide(`${f(e, "name")} · ${f(g, "name")}`, W.why, f(t, "why_this_record")),
@@ -206,7 +206,7 @@ function recordPost(t, q = queued(t.id)) {
     textSlide(W.clubK, W.club, f(t, "club_sociology")),
     content(`<div class="k">${W.specs}</div><h2>${esc(short(t.title))}</h2>
      <dl class="facts"><div><dt>BPM</dt><dd>${t.bpm}</dd></div><div><dt>${W.key}</dt><dd>${esc(t.camelot_key)}</dd></div>
-     <div><dt>${W.energy}</dt><dd>${t.energy}/10</dd></div><div><dt>${W.year}</dt><dd>${t.year}</dd></div></dl>
+     <div><dt>${W.energy}</dt><dd>${t.energy}/10</dd></div><div><dt>${W.year}</dt><dd>${q?.year || t.year}</dd></div></dl>
      <div class="cta">${W.more}<b>${esc(url)}</b></div>`),
   ];
   const caption = q?.caption && !FR
