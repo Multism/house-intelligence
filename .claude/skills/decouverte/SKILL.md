@@ -53,11 +53,10 @@ Dès que l'utilisateur a répondu (ses mots, ou « vas-y » / « publie »), pub
 git add data/decouvertes.json data/bundle.js
 git commit -m "En ce moment : <Artiste> — <Titre>"   # + ligne Co-Authored-By habituelle
 git pull --no-rebase origin main && git push origin main
-D=$(mktemp -d) && git archive HEAD | tar -x -C "$D" && rm -f "$D/.gitignore" && \
-npx wrangler pages deploy "$D" --project-name house-intelligence --branch main \
-  --commit-hash "$(git rev-parse HEAD)" --commit-message "$(git log -1 --format=%s)"
 ```
 
-Puis vérifier que `https://house-intelligence.pages.dev/data/decouvertes.json` contient l'entrée, et donner le lien `https://house-intelligence.pages.dev/#decouverte`.
+Le push sur `main` déclenche la mise en ligne automatique (`.github/workflows/deploy.yml`, une à deux minutes ; suivre avec `gh run watch` si `gh` est disponible). Puis vérifier que `https://house-intelligence.pages.dev/data/decouvertes.json` contient l'entrée, et donner le lien `https://house-intelligence.pages.dev/#decouverte`.
 
-Depuis claude.ai/code (pas de wrangler) : pousser sur une branche et ouvrir une pull request ; le déploiement se fera depuis l'ordinateur.
+Depuis claude.ai/code ou le téléphone : pousser sur une branche et ouvrir une pull request, puis dire à l'utilisateur d'appuyer sur *Merge* (application GitHub) : le site se met à jour tout seul.
+
+Si l'action échoue, déploiement manuel depuis l'ordinateur où wrangler est connecté : voir « Git et déploiement » dans `CLAUDE.md`.

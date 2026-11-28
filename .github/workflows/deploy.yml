@@ -1,0 +1,46 @@
+# Mise en ligne automatique : chaque push sur main (y compris une pull request acceptée depuis
+# l'application GitHub) est déployé sur Cloudflare Pages (house-intelligence.pages.dev).
+# Seuls les fichiers suivis par git partent (git archive), comme pour le déploiement manuel.
+# Secrets requis : CLOUDFLARE_API_TOKEN (droit « Cloudflare Pages : Edit ») et CLOUDFLARE_ACCOUNT_ID.
+# Relancer à la main : GitHub → Actions → « Déploiement » → Run workflow.
+name: Déploiement
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Préparer les fichiers suivis
+        run: |
+          mkdir -p "$RUNNER_TEMP/site"
+          git archive HEAD | tar -x -C "$RUNNER_TEMP/site"
+          rm -f "$RUNNER_TEMP/site/.gitignore"
+          rm -rf "$RUNNER_TEMP/site/.github"
+      - name: Déployer sur Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          npx --yes wrangler@4.169.0 pages deploy "$RUNNER_TEMP/site" \
+            --project-name house-intelligence --branch main \
+            --commit-hash "$GITHUB_SHA" --commit-message "$(git log -1 --format=%s)"
+      - name: Vérifier
+        run: |
+          sleep 10
+          curl -fsS -o /dev/null -w "HTTP %{http_code}\n" https://house-intelligence.pages.dev/
