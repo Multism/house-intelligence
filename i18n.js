@@ -19,7 +19,7 @@
       "deck.kicker": "Sur la platine", "deck.listen": "▶ Écouter le disque", "deck.spotify": "Ouvrir dans Spotify ↗",
       "badge.energy": "Énergie", "badge.label": "Label", "badge.city": "Ville", "badge.year": "Année",
       "tr.title": "Transition recommandée", "tr.how": "Comment ça marche ?",
-      "tr.how.body": "<p><b>Camelot</b> : les 24 tonalités sont rangées sur une roue de 1 à 12 (A = mineur, B = majeur). Deux disques voisins sur la roue se superposent sans fausse note.</p><p><b>Pitch</b> : le curseur de vitesse d'une platine, généralement ±8 %. Au-delà, on ne peut plus caler les deux disques.</p><p><b>Compatibilité</b> : un score sur 100 qui combine l'harmonie (48 %), la proximité de tempo (37 %) et l'intention choisie dans « Steer the Room ».</p>",
+      "tr.how.body": "<p><b>Camelot</b> : les 24 tonalités sont rangées sur une roue de 1 à 12 (A = mineur, B = majeur). Deux disques voisins sur la roue se superposent sans fausse note.</p><p><b>Pitch</b> : le curseur de vitesse d'une platine, généralement ±8 %. Au-delà, on ne peut plus caler les deux disques.</p><p><b>Compatibilité</b> : un score sur 100 qui combine l'harmonie (48 %), la proximité de tempo (37 %) et l'intention choisie dans « Steer the Room ».</p><p><b>Accordage</b> : beaucoup de disques des années 1970 et 1980, enregistrés et pressés depuis la bande, ne sont pas accordés exactement sur le la 440 Hz. Et sans verrouillage de tonalité, chaque tranche d'environ 6 % de pitch déplace la note d'un demi-ton. Les clés indiquées sont donc des repères à vérifier à l'oreille.</p>",
       "tr.wheel": "Roue Camelot", "tr.tempo": "Delta de tempo", "tr.mix": "Enchaîner →", "tr.none": "Aucun disque disponible.",
       "tr.legend": "zone ombrée = pitch ±8 % autour de A",
       "m.tempo": "Δ Tempo", "m.pitch": "Pitch B", "m.key": "Clé", "m.compat": "Compatibilité", "m.move": "Mouvement {m}",
@@ -53,10 +53,10 @@
       "pulse.noAudio": "Web Audio non supporté par ce navigateur",
       "tab.story": "Histoire &amp; chronologie", "h.story": "Histoire", "h.timeline": "Chronologie", "h.credits": "Crédits", "h.books": "Dans les livres",
       "h.web": "Sources web", "book.pages": "p. {p}", "book.noPages": "pages à relever", "story.verify": "Points encore à vérifier",
-      "arch.title": "Archéologie culturelle", "tab.machines": "Machines &amp; construction", "tab.origins": "Origines", "tab.queer": "Ballroom &amp; queer", "tab.socio": "Sociologie &amp; source",
+      "arch.title": "Archéologie culturelle", "tab.machines": "Machines &amp; construction", "tab.origins": "Origines", "tab.queer": "Ballroom &amp; queer", "tab.socio": "Sociologie &amp; sources",
       "h.machines": "Machines", "h.construction": "Construction", "h.queer": "Axe ballroom & scènes queer", "h.socio": "Sociologie du club",
       "h.ref": "Référence bibliographique", "h.further": "Lectures complémentaires", "ref.missing": "Référence à compléter.",
-      "mem.title": "The Memory", "mem.clear": "Effacer la session", "mem.empty": "La session commence ici.", "mem.via": "via {v}",
+      "mem.title": "The Memory", "mem.sub": "historique de la session", "mem.count": "{n} disque{s}", "mem.expMd": "Exporter la session en Markdown (tracklist lisible)", "mem.expJson": "Exporter la session en JSON (données réutilisables)", "steer.sub": "orienter la piste", "mem.clear": "Effacer la session", "mem.empty": "La session commence ici.", "mem.via": "via {v}",
       "mem.cleared": "Session effacée", "mem.exportEmpty": "Session vide : rien à exporter", "mem.exported": "Tracklist exportée (.{f})",
       "md.title": "House Intelligence · Tracklist de session", "md.date": "Exportée le {d}",
       "md.head": "| # | Heure | Artiste | Titre | Genre | BPM | Clé | Transition |",
@@ -97,13 +97,13 @@
       "fw.aria": "Fenêtre d'écoute", "fw.label": "Fenêtre d'écoute", "fw.side": "Déplacer la fenêtre de l'autre côté", "fw.sideTitle": "Changer de côté",
       "fw.reduce": "Réduire la fenêtre", "fw.expand": "Déplier la fenêtre", "fw.big": "Agrandir la fenêtre", "fw.normal": "Taille normale",
       "fw.empty": "Cliquez ▶ sur un disque", "fw.none": "Aucun disque en cours", "fw.noneHint": "Le Bac, le Booth ou une station du métro",
-      "fw.prev": "Disque précédent", "fw.toggle": "Lecture ou pause", "fw.next": "Disque suivant", "fw.mode": "Enchaînement",
+      "fw.prev": "Disque précédent", "fw.toggle": "Lecture ou pause", "fw.next": "Disque suivant", "fw.mode": "Enchaînement", "fw.modeTitle": "Ordre de lecture : quel disque vient après",
       "fw.mode.list": "Suite de la liste", "fw.mode.algo": "Transition Camelot", "fw.mode.shuffle": "Aléatoire",
       "fw.open": "Voir dans The Booth", "fw.queue": " · file : {i}/{n}", "fw.alt": "Source alternative (vidéo principale bloquée)",
       "play.listen": "Écouter {t}", "play.pause": "Mettre en pause {t}",
       "toast.noVideo": "Pas de vidéo disponible pour ce disque", "toast.ytFail": "Impossible de charger le lecteur YouTube (connexion ?)",
       "toast.altSource": "Vidéo bloquée : source alternative", "toast.skip": "Vidéo indisponible : disque suivant",
-      "foot": "House Intelligence · v1 — BPM et clés : valeurs éditoriales indicatives.", "foot.sources": "Les sources du projet", "fw.close": "Fermer la fenêtre",
+      "foot": "House Intelligence · v1 — BPM et clés : valeurs éditoriales indicatives.", "foot.sources": "Les sources du projet", "foot.links": "<a href=\"/disques/\" hreflang=\"fr\">Tous les disques</a> · <a href=\"/stations/\" hreflang=\"fr\">Toutes les stations</a>", "fw.close": "Fermer la fenêtre",
       "err.load": "Impossible de charger les données ({e}).",
       "err.file": " La page a été ouverte directement depuis le disque : ouvrez plutôt <code>http://localhost:8765/</code> après avoir lancé <code>python3 -m http.server 8765</code> dans le dossier du site.",
       "err.net": " Vérifiez la connexion puis rechargez la page.",
@@ -122,7 +122,7 @@
       "deck.kicker": "On deck", "deck.listen": "▶ Play the record", "deck.spotify": "Open in Spotify ↗",
       "badge.energy": "Energy", "badge.label": "Label", "badge.city": "City", "badge.year": "Year",
       "tr.title": "Recommended transition", "tr.how": "How does it work?",
-      "tr.how.body": "<p><b>Camelot</b>: the 24 keys sit on a wheel numbered 1 to 12 (A = minor, B = major). Two records that are neighbours on the wheel layer without clashing.</p><p><b>Pitch</b>: the turntable's speed fader, usually ±8%. Beyond that you can no longer beatmatch the two records.</p><p><b>Compatibility</b>: a score out of 100 combining harmony (48%), tempo proximity (37%) and the intention chosen in \"Steer the Room\".</p>",
+      "tr.how.body": "<p><b>Camelot</b>: the 24 keys sit on a wheel numbered 1 to 12 (A = minor, B = major). Two records that are neighbours on the wheel layer without clashing.</p><p><b>Pitch</b>: the turntable's speed fader, usually ±8%. Beyond that you can no longer beatmatch the two records.</p><p><b>Compatibility</b>: a score out of 100 combining harmony (48%), tempo proximity (37%) and the intention chosen in \"Steer the Room\".</p><p><b>Tuning</b>: many 1970s and 1980s records, recorded and cut from tape, are not tuned exactly to A = 440 Hz. And without key lock, every 6% or so of pitch moves the music by a semitone. The keys shown are guides to check by ear.</p>",
       "tr.wheel": "Camelot wheel", "tr.tempo": "Tempo delta", "tr.mix": "Mix it in →", "tr.none": "No record available.",
       "tr.legend": "shaded zone = ±8% pitch range around A",
       "m.tempo": "Δ Tempo", "m.pitch": "Pitch B", "m.key": "Key", "m.compat": "Compatibility", "m.move": "Move {m}",
@@ -156,10 +156,10 @@
       "pulse.noAudio": "Web Audio is not supported by this browser",
       "tab.story": "Story &amp; timeline", "h.story": "Story", "h.timeline": "Timeline", "h.credits": "Credits", "h.books": "In the books",
       "h.web": "Web sources", "book.pages": "p. {p}", "book.noPages": "pages to be added", "story.verify": "Still to be checked",
-      "arch.title": "Cultural archaeology", "tab.machines": "Machines &amp; construction", "tab.origins": "Origins", "tab.queer": "Ballroom &amp; queer", "tab.socio": "Sociology &amp; source",
+      "arch.title": "Cultural archaeology", "tab.machines": "Machines &amp; construction", "tab.origins": "Origins", "tab.queer": "Ballroom &amp; queer", "tab.socio": "Sociology &amp; sources",
       "h.machines": "Machines", "h.construction": "Construction", "h.queer": "Ballroom axis & queer scenes", "h.socio": "Club sociology",
       "h.ref": "Bibliographic reference", "h.further": "Further reading", "ref.missing": "Reference to be added.",
-      "mem.title": "The Memory", "mem.clear": "Clear the session", "mem.empty": "The session starts here.", "mem.via": "via {v}",
+      "mem.title": "The Memory", "mem.sub": "", "mem.count": "{n} record{s}", "mem.expMd": "Export the session as Markdown (readable tracklist)", "mem.expJson": "Export the session as JSON (reusable data)", "steer.sub": "", "mem.clear": "Clear the session", "mem.empty": "The session starts here.", "mem.via": "via {v}",
       "mem.cleared": "Session cleared", "mem.exportEmpty": "Empty session: nothing to export", "mem.exported": "Tracklist exported (.{f})",
       "md.title": "House Intelligence · Session tracklist", "md.date": "Exported on {d}",
       "md.head": "| # | Time | Artist | Title | Genre | BPM | Key | Transition |",
@@ -200,13 +200,13 @@
       "fw.aria": "Listening window", "fw.label": "Listening window", "fw.side": "Move the window to the other side", "fw.sideTitle": "Switch side",
       "fw.reduce": "Collapse the window", "fw.expand": "Expand the window", "fw.big": "Enlarge the window", "fw.normal": "Normal size",
       "fw.empty": "Click ▶ on a record", "fw.none": "Nothing playing", "fw.noneHint": "The Crate, the Booth or a subway station",
-      "fw.prev": "Previous record", "fw.toggle": "Play or pause", "fw.next": "Next record", "fw.mode": "Playback order",
+      "fw.prev": "Previous record", "fw.toggle": "Play or pause", "fw.next": "Next record", "fw.mode": "Playback order", "fw.modeTitle": "Playback order: which record comes next",
       "fw.mode.list": "List order", "fw.mode.algo": "Camelot transition", "fw.mode.shuffle": "Shuffle",
       "fw.open": "Open in The Booth", "fw.queue": " · queue: {i}/{n}", "fw.alt": "Alternative source (main video blocked)",
       "play.listen": "Play {t}", "play.pause": "Pause {t}",
       "toast.noVideo": "No video available for this record", "toast.ytFail": "Could not load the YouTube player (connection?)",
       "toast.altSource": "Video blocked: alternative source", "toast.skip": "Video unavailable: next record",
-      "foot": "House Intelligence · v1 — BPM and keys are indicative editorial values.", "foot.sources": "The project's sources", "fw.close": "Close the window",
+      "foot": "House Intelligence · v1 — BPM and keys are indicative editorial values.", "foot.sources": "The project's sources", "foot.links": "<a href=\"/en/records/\" hreflang=\"en\">All records</a> · <a href=\"/en/stations/\" hreflang=\"en\">All stations</a>", "fw.close": "Close the window",
       "err.load": "Could not load the data ({e}).",
       "err.file": " The page was opened straight from disk: open <code>http://localhost:8765/</code> instead, after running <code>python3 -m http.server 8765</code> in the site folder.",
       "err.net": " Check your connection and reload the page.",
@@ -224,10 +224,12 @@
   // ?lang=en (liens depuis les pages statiques /en/…) : prioritaire sur la préférence enregistrée.
   try { const q = new URLSearchParams(location.search).get("lang"); if (q === "en" || q === "fr") { lang = q; localStorage.setItem("hi.lang", q); } } catch { /* ignore */ }
 
+  // typographie française : espace fine insécable avant ; : ! ? et à l'intérieur des guillemets « »
+  const frSpaces = (s) => typeof s !== "string" ? s : s.replace(/ ([;:!?»])/g, "\u202f$1").replace(/« /g, "«\u202f");
   const t = (key, vars = {}) => {
     let s = STR[lang][key] ?? STR.fr[key] ?? key;
     for (const [k, v] of Object.entries(vars)) s = s.split(`{${k}}`).join(v);
-    return s;
+    return lang === "fr" ? frSpaces(s) : s;
   };
   const f = (obj, field) => (obj == null ? "" : lang === "en" && obj[field + "_en"] != null ? obj[field + "_en"] : obj[field]);
   const key = (k) => KEYS[lang][k] || "";
