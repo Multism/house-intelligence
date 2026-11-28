@@ -491,8 +491,8 @@
       "name_en": "Queer underground house",
       "place": "États-Unis",
       "place_en": "United States",
-      "desc": "Des DJ et productrices trans et queer qui font de la house un espace de communauté et de transformation, avec leurs propres labels (T4T LUV NRG).",
-      "desc_en": "Trans and queer DJs and producers who make house a space of community and transformation, with their own labels (T4T LUV NRG)."
+      "desc": "Des DJ et productrices trans et queer qui font de la house un espace de communauté et de transformation, avec leurs propres labels (T4T LUV NRG, fondé par Octo Octa et Eris Drew).",
+      "desc_en": "Trans and queer DJs and producers who make house a space of community and transformation, with their own labels (T4T LUV NRG, run by Octo Octa and Eris Drew)."
     },
     {
       "id": "cabaret",
@@ -511,6 +511,24 @@
       "place_en": "Vancouver",
       "desc": "Le collectif et label Mood Hut : une house chaude et lente, entre deep house, disco et downtempo, d'abord publiée sur cassette.",
       "desc_en": "The Mood Hut collective and label: warm, slow house between deep house, disco and downtempo, first released on cassette."
+    },
+    {
+      "id": "melbourne-naarm",
+      "name": "Melbourne / Naarm",
+      "name_en": "Melbourne / Naarm",
+      "place": "Melbourne",
+      "place_en": "Melbourne",
+      "desc": "Une scène qui mêle house, électro, breaks, ambient et psychédélisme, portée par des labels et des fêtes indépendants (Butter Sessions, Kalahari Oyster Cult). On parle parfois d'« Australian hypnotic house » : c'est une étiquette éditoriale, pas un genre codifié.",
+      "desc_en": "A scene that blends house, electro, breaks, ambient and psychedelia, driven by independent labels and parties (Butter Sessions, Kalahari Oyster Cult). It is sometimes called \"Australian hypnotic house\": an editorial label, not a codified genre."
+    },
+    {
+      "id": "canada-house",
+      "name": "Canada : Vancouver, Toronto, Montréal",
+      "name_en": "Canada: Vancouver, Toronto, Montreal",
+      "place": "Canada",
+      "place_en": "Canada",
+      "desc": "Une house lente, cosmique ou bricolée, publiée par de petits labels tenus par les artistes eux-mêmes (Pacific Rhythm, NAFF, Peach Discs pour Ciel). Mood Hut, à Vancouver, a sa propre micro-scène.",
+      "desc_en": "Slow, cosmic or homemade house, released by small artist-run labels (Pacific Rhythm, NAFF, Peach Discs for Ciel). Vancouver's Mood Hut has its own micro-scene."
     }
   ],
   "tracks": [
@@ -8949,6 +8967,1013 @@
       ],
       "verify": [
         "« Fait connaître le son de Mood Hut » : formulation éditoriale",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "in-gold",
+      "title": "In Gold",
+      "artist": "Palms Trax",
+      "year": 2015,
+      "release_date": "2015-03",
+      "label": "Dekmantel",
+      "catalog": "DKMNTL024",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "city": "Berlin",
+      "city_en": "Berlin",
+      "genre": "deep",
+      "era": "era-3b",
+      "bpm": 122,
+      "camelot_key": "8A",
+      "energy": 6,
+      "gear": [
+        "Synthés",
+        "Boîtes à rythmes"
+      ],
+      "gear_en": [
+        "Synths",
+        "Drum machines"
+      ],
+      "construction": "Trois morceaux : « In Gold », « People Of Tusk » et « Sumo Acid Crew ». Des jams house brumeuses qui citent Chicago et Detroit ; « In Gold » est le plus porté par les nappes, avec des arpèges qui papillonnent et des batteries plus sèches.",
+      "construction_en": "Three tracks: \"In Gold\", \"People Of Tusk\" and \"Sumo Acid Crew\". Hazy house jams that reference Chicago and Detroit; \"In Gold\" is the most pad-driven, with fluttering arps and snappier drums.",
+      "producer_origins": "Palms Trax est Jay Donaldson, un Anglais installé à Berlin. Avant ce maxi, il avait publié sur Lobster Theremin.",
+      "producer_origins_en": "Palms Trax is Jay Donaldson, an Englishman based in Berlin. Before this 12\" he had released music on Lobster Theremin.",
+      "club_sociology": "Le maxi sort sur Dekmantel, label et festival d'Amsterdam. DJ Mag désigne Palms Trax « producteur révélation » de l'année 2015.",
+      "club_sociology_en": "The 12\" came out on Dekmantel, the Amsterdam label and festival. DJ Mag named Palms Trax its breakthrough producer of 2015.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (mars 2015) ; DJ Mag, Best of British 2015.",
+        "note_en": "Resident Advisor review (March 2015); DJ Mag, Best of British 2015."
+      },
+      "why_this_record": "La house des années 2010 qui regarde vers Chicago et Detroit sans les copier.",
+      "why_this_record_en": "2010s house that looks towards Chicago and Detroit without copying them.",
+      "tags": [
+        "europe",
+        "deep"
+      ],
+      "youtube": [
+        "5UsLQ59N48U",
+        "eHcpRmQ7xoI"
+      ],
+      "references": [
+        "https://ra.co/reviews/16618"
+      ],
+      "references_pending": [
+        "https://djmag.com/features/bob-2015-palms-trax-breakthrough-producer"
+      ],
+      "verify": [
+        "Distinction DJ Mag 2015 : page identifiée, non lue",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "art-of-war",
+      "title": "Art Of War",
+      "artist": "Peggy Gou",
+      "year": 2016,
+      "release_date": "2016-01",
+      "label": "Rekids",
+      "catalog": "REKIDS085",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "city": "Berlin",
+      "city_en": "Berlin",
+      "genre": "deep",
+      "era": "era-3b",
+      "bpm": 123,
+      "camelot_key": "2A",
+      "energy": 6,
+      "gear": [
+        "Synthés",
+        "Boîtes à rythmes"
+      ],
+      "gear_en": [
+        "Synths",
+        "Drum machines"
+      ],
+      "construction": "Trois morceaux : « Troop », « In Sum » et un remix de « Troop » par Galcher Lustwerk. Un synthé ample à la Detroit, un clap sec et un kick profond.",
+      "construction_en": "Three tracks: \"Troop\", \"In Sum\" and a Galcher Lustwerk remix of \"Troop\". A regal Detroit-style synth, a smacking clap and a deep, concussive kick.",
+      "producer_origins": "Peggy Gou est une DJ et productrice née en Corée du Sud, passée par Londres avant de s'installer à Berlin. Art Of War est son premier disque.",
+      "producer_origins_en": "Peggy Gou is a South Korean-born DJ and producer who lived in London before moving to Berlin. Art Of War is her debut record.",
+      "club_sociology": "Un premier maxi underground, sur le label de Radio Slave, bien avant la célébrité internationale de la fin des années 2010.",
+      "club_sociology_en": "An underground debut 12\", on Radio Slave's label, well before the international fame of the late 2010s.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (janvier 2016).",
+        "note_en": "Resident Advisor review (January 2016)."
+      },
+      "why_this_record": "Les débuts underground d'une DJ devenue star.",
+      "why_this_record_en": "The underground beginnings of a DJ who became a star.",
+      "tags": [
+        "europe",
+        "deep"
+      ],
+      "youtube": [],
+      "references": [
+        "https://ra.co/reviews/18392"
+      ],
+      "verify": [
+        "Rekids, label de Radio Slave : non lu dans une source",
+        "Vidéo YouTube à trouver et contrôler",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "there-is-no-right-time",
+      "title": "There Is No Right Time",
+      "artist": "Youandewan",
+      "year": 2016,
+      "release_date": "2016-10",
+      "label": "Aus Music",
+      "catalog": "AUSLP008",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "city": "Berlin",
+      "city_en": "Berlin",
+      "genre": "deep",
+      "era": "era-3b",
+      "bpm": 120,
+      "camelot_key": "10A",
+      "energy": 5,
+      "gear": [
+        "Synthés",
+        "Boîtes à rythmes"
+      ],
+      "gear_en": [
+        "Synths",
+        "Drum machines"
+      ],
+      "construction": "Premier album, dix morceaux (« Have The Guts », « Be Good To Me, Poly », « Time To Leave (Can't Mix) », « Our Odyssey »…) : des accords qui retombent en drapé, de la house qui pompe, de l'italo qui frappe du pied et une électro aérienne.",
+      "construction_en": "Debut album, ten tracks (\"Have The Guts\", \"Be Good To Me, Poly\", \"Time To Leave (Can't Mix)\", \"Our Odyssey\"…): draped, drooping chords, pumping house, stomping italo and heavenly electro.",
+      "producer_origins": "Youandewan est Ewan Smith, un Écossais qui a grandi dans le Yorkshire et vit à Berlin.",
+      "producer_origins_en": "Youandewan is Ewan Smith, a Scot raised in Yorkshire and based in Berlin.",
+      "club_sociology": "Un album de house pensé pour l'écoute autant que pour le club, sur le label londonien d'Appleblim et de Will Saul.",
+      "club_sociology_en": "A house album made for listening as much as for the club.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (octobre 2016).",
+        "note_en": "Resident Advisor review (October 2016)."
+      },
+      "why_this_record": "La house mélancolique, en format album.",
+      "why_this_record_en": "Melancholy house, in album form.",
+      "tags": [
+        "europe",
+        "deep",
+        "uk-link"
+      ],
+      "youtube": [
+        "P5lW5lN9MjQ"
+      ],
+      "references": [
+        "https://ra.co/reviews/19989"
+      ],
+      "verify": [
+        "Aus Music, label de Will Saul : non lu dans une source",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "narcissus-in-retrograde",
+      "title": "Narcissus In Retrograde",
+      "artist": "Avalon Emerson",
+      "year": 2016,
+      "release_date": "2016-11",
+      "label": "Spectral Sound",
+      "catalog": "SPC137",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "city": "Berlin",
+      "city_en": "Berlin",
+      "genre": "techno",
+      "era": "era-3b",
+      "bpm": 126,
+      "camelot_key": "5A",
+      "energy": 7,
+      "gear": [
+        "Synthés",
+        "Boîtes à rythmes"
+      ],
+      "gear_en": [
+        "Synths",
+        "Drum machines"
+      ],
+      "construction": "Quatre morceaux : « Natural Impasse », « Dystopian Daddy », « Why Does It Hurt » et « Groundwater ». De la douceur à la Kompakt d'un côté, le monochrome industriel de « Why Does It Hurt » de l'autre.",
+      "construction_en": "Four tracks: \"Natural Impasse\", \"Dystopian Daddy\", \"Why Does It Hurt\" and \"Groundwater\". Kompakt-style sweetness on one side, the industrial monochrome of \"Why Does It Hurt\" on the other.",
+      "producer_origins": "Avalon Emerson est une DJ et productrice américaine ; Narcissus In Retrograde est sorti sur Spectral Sound.",
+      "producer_origins_en": "Avalon Emerson is an American DJ and producer; Narcissus In Retrograde came out on Spectral Sound.",
+      "club_sociology": "Un disque à cheval entre house et techno, qui circule autant dans les clubs de techno que dans les sets house.",
+      "club_sociology_en": "A record straddling house and techno, played in techno clubs as much as in house sets.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (novembre 2016).",
+        "note_en": "Resident Advisor review (November 2016)."
+      },
+      "why_this_record": "Entre douceur mélodique et techno industrielle.",
+      "why_this_record_en": "Between melodic sweetness and industrial techno.",
+      "tags": [
+        "us",
+        "machine"
+      ],
+      "youtube": [],
+      "references": [
+        "https://ra.co/reviews/20165"
+      ],
+      "verify": [
+        "Ville (Berlin) et origine (Arizona, San Francisco) : non confirmées par une source lue",
+        "Le dossier citait Whities : RA indique Spectral Sound",
+        "Vidéo YouTube à trouver et contrôler",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "organ-smith",
+      "title": "Organ Smith",
+      "artist": "rRoxymore",
+      "year": 2016,
+      "release_date": "2016-11",
+      "label": "Don't Be Afraid",
+      "catalog": "DBA028",
+      "country": "Allemagne",
+      "country_en": "Germany",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "city": "Berlin",
+      "city_en": "Berlin",
+      "genre": "deep",
+      "era": "era-3b",
+      "bpm": 124,
+      "camelot_key": "9A",
+      "energy": 6,
+      "gear": [
+        "Orgue",
+        "Percussions",
+        "Synthés"
+      ],
+      "gear_en": [
+        "Organ",
+        "Percussion",
+        "Synths"
+      ],
+      "construction": "Trois morceaux : « Organ Smith », « About Finding The Right Balance » et « Uchi's House ». Une boucle d'orgue à la Cajmere au milieu des cloches et des souffles, puis un hybride nerveux qui lorgne vers la bass music anglaise.",
+      "construction_en": "Three tracks: \"Organ Smith\", \"About Finding The Right Balance\" and \"Uchi's House\". A Cajmere-style organ loop amid bells and gasps, then a nervous hybrid leaning towards UK bass music.",
+      "producer_origins": "rRoxymore est Hermione Frank, originaire de Montpellier. Elle a d'abord été DJ à Paris avant de s'installer à Berlin, et a collaboré avec Planningtorock et Paula Temple.",
+      "producer_origins_en": "rRoxymore is Hermione Frank, from Montpellier. She first DJed in Paris before moving to Berlin, and has worked with Planningtorock and Paula Temple.",
+      "club_sociology": "Le maxi sort sur Don't Be Afraid, un label de Bristol : la house de rRoxymore circule entre Berlin et la scène anglaise.",
+      "club_sociology_en": "The 12\" came out on Don't Be Afraid, a Bristol label: rRoxymore's house moves between Berlin and the UK scene.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (novembre 2016) ; portrait FACT (décembre 2017).",
+        "note_en": "Resident Advisor review (November 2016); FACT profile (December 2017)."
+      },
+      "why_this_record": "Une house rythmiquement inventive, entre Chicago et bass music.",
+      "why_this_record_en": "Rhythmically inventive house, between Chicago and bass music.",
+      "tags": [
+        "europe",
+        "machine"
+      ],
+      "youtube": [],
+      "references": [
+        "https://ra.co/reviews/20019",
+        "https://www.factmag.com/2017/12/06/rroxymore-fact-rated/"
+      ],
+      "verify": [
+        "Vidéo YouTube à trouver et contrôler",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "loop-one-selector",
+      "title": "Untitled (Loop One / Selector)",
+      "artist": "Shanti Celeste",
+      "year": 2017,
+      "release_date": "2017-02",
+      "label": "Peach Discs",
+      "catalog": "PARTY001",
+      "city": "Bristol",
+      "city_en": "Bristol",
+      "country": "Royaume-Uni",
+      "country_en": "United Kingdom",
+      "continent": "Europe",
+      "continent_en": "Europe",
+      "genre": "deep",
+      "era": "era-3b",
+      "bpm": 124,
+      "camelot_key": "7A",
+      "energy": 7,
+      "gear": [
+        "Synthés",
+        "Samples vocaux",
+        "Breakbeats"
+      ],
+      "gear_en": [
+        "Synths",
+        "Vocal samples",
+        "Breakbeats"
+      ],
+      "construction": "Deux morceaux, « Loop One » et « Selector » : un beat house droit, des samples de voix qui bavardent et un riff de synthé à lever les bras ; la face B est plus dure, chargée en basses.",
+      "construction_en": "Two tracks, \"Loop One\" and \"Selector\": a straight house beat, chattering vocal samples and a hands-in-the-air synth riff; the B-side is tougher and bass-heavy.",
+      "producer_origins": "Shanti Celeste est une DJ et productrice de Bristol. Ce maxi est le premier de son propre label, Peach Discs, qu'elle présente comme la maison principale de sa musique.",
+      "producer_origins_en": "Shanti Celeste is a Bristol DJ and producer. This 12\" is the first release on her own label, Peach Discs, which she describes as the main home for her music.",
+      "club_sociology": "Une productrice qui fonde son label pour publier sa musique et celle d'autres artistes de Bristol : la transmission passe aussi par la structure.",
+      "club_sociology_en": "A producer who founded her own label to release her music and that of other Bristol artists: transmission also happens through structures.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (février 2017) ; annonce de FACT (novembre 2016).",
+        "note_en": "Resident Advisor review (February 2017); FACT announcement (November 2016)."
+      },
+      "why_this_record": "Le premier disque d'un label fondé par une productrice.",
+      "why_this_record_en": "The first release on a label founded by a producer.",
+      "tags": [
+        "uk",
+        "deep",
+        "diy"
+      ],
+      "youtube": [],
+      "references": [
+        "https://ra.co/reviews/20629",
+        "https://www.factmag.com/2016/11/29/shanti-celeste-launches-peach-discs-label/"
+      ],
+      "verify": [
+        "Vidéo YouTube à trouver et contrôler",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "sendas",
+      "title": "Sendas EP",
+      "artist": "Z@P",
+      "year": 2017,
+      "release_date": "2017-03",
+      "label": "Traffic",
+      "catalog": "TRAFFIC010",
+      "city": "Montevideo",
+      "city_en": "Montevideo",
+      "country": "Uruguay",
+      "country_en": "Uruguay",
+      "continent": "Amérique du Sud",
+      "continent_en": "South America",
+      "genre": "microhouse",
+      "era": "era-3b",
+      "bpm": 126,
+      "camelot_key": "4A",
+      "energy": 6,
+      "gear": [
+        "Basse",
+        "Boîtes à rythmes",
+        "Synthés"
+      ],
+      "gear_en": [
+        "Bass",
+        "Drum machines",
+        "Synths"
+      ],
+      "construction": "Quatre morceaux : « Sendas », « Basement », « S&T » et « PTN2 ». Une basse qui sonne joué en direct, une mélodie sifflée, une courte voix robotique.",
+      "construction_en": "Four tracks: \"Sendas\", \"Basement\", \"S&T\" and \"PTN2\". A live-sounding bassline, a whistling melody, a short robotic vocal.",
+      "producer_origins": "Z@P est un Uruguayen lié au Phonotheque, un club de Montevideo.",
+      "producer_origins_en": "Z@P is a Uruguayan producer with ties to Montevideo's Phonotheque club.",
+      "club_sociology": "Montevideo, autour du Phonotheque, devient dans les années 2010 un foyer de house minimale et d'électro reconnu en Europe.",
+      "club_sociology_en": "In the 2010s Montevideo, around the Phonotheque, became a hub of minimal house and electro recognised in Europe.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (avril 2017).",
+        "note_en": "Resident Advisor review (April 2017)."
+      },
+      "why_this_record": "La scène de Montevideo, vue depuis un de ses clubs.",
+      "why_this_record_en": "The Montevideo scene, seen from one of its clubs.",
+      "tags": [
+        "machine"
+      ],
+      "youtube": [
+        "UQ0pITgzmmw"
+      ],
+      "references": [
+        "https://ra.co/reviews/20856"
+      ],
+      "verify": [
+        "« Foyer reconnu en Europe » : formulation éditoriale, à sourcer (podcasts RA de DJ Koolt et Z@P)",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "h-powder",
+      "title": "H",
+      "artist": "Powder",
+      "year": 2017,
+      "release_date": "2017-03",
+      "label": "CockTail d'Amore",
+      "catalog": "CDA017",
+      "city": "Tokyo",
+      "city_en": "Tokyo",
+      "country": "Japon",
+      "country_en": "Japan",
+      "continent": "Asie",
+      "continent_en": "Asia",
+      "genre": "microhouse",
+      "era": "era-3b",
+      "bpm": 125,
+      "camelot_key": "6A",
+      "energy": 7,
+      "gear": [
+        "tb-303",
+        "Boîtes à rythmes"
+      ],
+      "gear_en": [
+        "tb-303",
+        "Drum machines"
+      ],
+      "construction": "Quatre morceaux, dont le titre de l'EP donne l'initiale : « Hip », « Heart », « Hole » et « Hair ». Des giclées d'acid sur le premier, des rythmes industriels moites ailleurs.",
+      "construction_en": "Four tracks, all starting with the EP's initial: \"Hip\", \"Heart\", \"Hole\" and \"Hair\". Pumping spurts of acid on the opener, dank industrial rhythms elsewhere.",
+      "producer_origins": "Powder est une DJ et productrice japonaise. Resident Advisor souligne sa polyvalence, en DJ comme en studio.",
+      "producer_origins_en": "Powder is a Japanese DJ and producer. Resident Advisor highlights her versatility, as a DJ and in the studio.",
+      "club_sociology": "L'EP sort sur CockTail d'Amore, label d'une fête queer berlinoise : une scène japonaise qui circule dans les réseaux queer européens.",
+      "club_sociology_en": "The EP came out on CockTail d'Amore, the label of a Berlin queer party: a Japanese scene circulating through European queer networks.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (avril 2017).",
+        "note_en": "Resident Advisor review (April 2017)."
+      },
+      "why_this_record": "Une house hypnotique et acide, de Tokyo à Berlin.",
+      "why_this_record_en": "Hypnotic, acid house, from Tokyo to Berlin.",
+      "tags": [
+        "machine",
+        "queer"
+      ],
+      "youtube": [],
+      "references": [
+        "https://ra.co/reviews/20801"
+      ],
+      "verify": [
+        "Ville (Tokyo) : non confirmée par une source lue",
+        "CockTail d'Amore, fête queer de Berlin : non lu dans une source",
+        "Vidéo YouTube à trouver et contrôler",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "blue-dream",
+      "title": "Blue Dream",
+      "artist": "D. Tiffany",
+      "year": 2017,
+      "release_date": "2017-06",
+      "label": "Pacific Rhythm",
+      "catalog": "PR001",
+      "country": "Canada",
+      "country_en": "Canada",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "city": "Vancouver",
+      "city_en": "Vancouver",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "canada-house",
+      "bpm": 120,
+      "camelot_key": "11A",
+      "energy": 5,
+      "gear": [
+        "Percussions",
+        "Breakbeats",
+        "Basse"
+      ],
+      "gear_en": [
+        "Percussion",
+        "Breakbeats",
+        "Bass"
+      ],
+      "construction": "Quatre morceaux : « Get Back To You Soon », « Blue Dream », « How RU Plush » (avec Regularfantasy) et « Something About You ». Des percussions à la main, des breaks bruts, des bongos balayés par le vent : une house de Vancouver détendue et chargée en basses.",
+      "construction_en": "Four tracks: \"Get Back To You Soon\", \"Blue Dream\", \"How RU Plush\" (with Regularfantasy) and \"Something About You\". Crafty hand percussion, crude breaks, windswept bongos: laid-back, bass-heavy Vancouver house.",
+      "producer_origins": "D. Tiffany est Sophie Sweetland, l'une des artistes les plus singulières de la scène de Vancouver. Elle produit aussi sous le nom de DJ Zozi.",
+      "producer_origins_en": "D. Tiffany is Sophie Sweetland, one of the most distinctive artists to emerge from Vancouver's scene. She also produces as DJ Zozi.",
+      "club_sociology": "Le premier EP solo du label Pacific Rhythm : Vancouver ne se résume pas à Mood Hut.",
+      "club_sociology_en": "The first solo EP on the Pacific Rhythm label: Vancouver is about more than Mood Hut.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (août 2017).",
+        "note_en": "Resident Advisor review (August 2017)."
+      },
+      "why_this_record": "La house psychédélique et bricolée de Vancouver.",
+      "why_this_record_en": "Vancouver's psychedelic, homemade house.",
+      "tags": [
+        "deep",
+        "diy",
+        "chill"
+      ],
+      "youtube": [
+        "h5CV_4rnhkY",
+        "XZwtj_UF8lU"
+      ],
+      "references": [
+        "https://ra.co/reviews/21353"
+      ],
+      "verify": [
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "dulce-compania",
+      "title": "Dulce Compañia",
+      "artist": "DJ Python",
+      "year": 2017,
+      "label": "Incienso",
+      "city": "New York",
+      "city_en": "New York",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "deep",
+      "era": "era-3b",
+      "bpm": 105,
+      "camelot_key": "3A",
+      "energy": 3,
+      "gear": [
+        "Synthés",
+        "Percussions"
+      ],
+      "gear_en": [
+        "Synths",
+        "Percussion"
+      ],
+      "construction": "Une house enfumée, avec beaucoup de grain new-yorkais, où le reggaeton n'est qu'une suggestion rythmique ; un romantisme ambient enveloppe le tout (« Todo Era Azul (Versión Afuera) », « Acostados »).",
+      "construction_en": "A smoky strain of house with plenty of NYC grit, where reggaeton is a subtle rhythmic suggestion; ambient romanticism swirls around it all (\"Todo Era Azul (Versión Afuera)\", \"Acostados\").",
+      "producer_origins": "DJ Python est Brian Piñeyro, né à New York. Il a aussi publié sous les noms DJ Wey, Deejay Xanax et Luis.",
+      "producer_origins_en": "DJ Python is Brian Piñeyro, a New York native. He has also released music as DJ Wey, Deejay Xanax and Luis.",
+      "club_sociology": "Incienso est le label d'Anthony Naples et de Jenny Slattery, à New York. Le disque fait de la house un espace d'écoute, entre club et chambre.",
+      "club_sociology_en": "Incienso is Anthony Naples and Jenny Slattery's New York label. The record makes house a listening space, between club and bedroom.",
+      "archive_ref": {
+        "note": "Critique de Crack Magazine (octobre 2017).",
+        "note_en": "Crack Magazine review (October 2017)."
+      },
+      "why_this_record": "La house new-yorkaise rencontre le reggaeton, au ralenti.",
+      "why_this_record_en": "New York house meets reggaeton, in slow motion.",
+      "tags": [
+        "us",
+        "chill",
+        "diaspora"
+      ],
+      "youtube": [
+        "XNisMcWvZ3Q"
+      ],
+      "references": [
+        "https://crackmagazine.net/article/album-reviews/dj-python-dulce-compania/",
+        "https://ra.co/reviews/24300"
+      ],
+      "verify": [
+        "Mois de sortie et numéro de catalogue",
+        "Le terme « deep reggaeton » souvent associé à DJ Python : non lu dans une source",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "impulsiv",
+      "title": "Impulsiv",
+      "artist": "Dwson",
+      "year": 2018,
+      "release_date": "2018-06-08",
+      "label": "Stay True Sounds",
+      "city": "Le Cap",
+      "city_en": "Cape Town",
+      "country": "Afrique du Sud",
+      "country_en": "South Africa",
+      "continent": "Afrique",
+      "continent_en": "Africa",
+      "genre": "deep",
+      "era": "era-3b",
+      "bpm": 122,
+      "camelot_key": "8A",
+      "energy": 5,
+      "gear": [
+        "Synthés",
+        "Voix"
+      ],
+      "gear_en": [
+        "Synths",
+        "Vocals"
+      ],
+      "construction": "Premier album, onze morceaux, dont plusieurs avec des voix invitées : « Brighter Day » avec Jackie Queens, « Forbidden » avec Sio, « Poseidon » avec Kymac, « Changes » avec Ziyon.",
+      "construction_en": "Debut album, eleven tracks, several with guest vocalists: \"Brighter Day\" with Jackie Queens, \"Forbidden\" with Sio, \"Poseidon\" with Kymac, \"Changes\" with Ziyon.",
+      "producer_origins": "Dwson (prononcer « Dawson ») est un producteur du Cap. DJ dès l'adolescence, il suit une formation à l'institut de musique Soul Candi et publie depuis 2015.",
+      "producer_origins_en": "Dwson (pronounced \"Dawson\") is a Cape Town producer. A DJ since his teens, he studied production at the Soul Candi institute of music and has been releasing music since 2015.",
+      "club_sociology": "Stay True Sounds, fondé par Kid Fonque et Jullian Gomes, se présente comme le plus grand label indépendant d'Afrique du Sud : la deep house sud-africaine a ses propres structures.",
+      "club_sociology_en": "Stay True Sounds, founded by Kid Fonque and Jullian Gomes, is described as South Africa's biggest independent label: South African deep house has its own structures.",
+      "archive_ref": {
+        "note": "Biographie Resident Advisor ; Pan African Music (2019) ; DJ Mag, The Sound Of: Stay True Sounds.",
+        "note_en": "Resident Advisor biography; Pan African Music (2019); DJ Mag, The Sound Of: Stay True Sounds."
+      },
+      "why_this_record": "La deep house sud-africaine, hors du circuit européen.",
+      "why_this_record_en": "South African deep house, outside the European circuit.",
+      "tags": [
+        "africa",
+        "deep",
+        "soul"
+      ],
+      "youtube": [],
+      "references": [
+        "https://essentialhouse.club/2018/06/dwson-impulsiv-stay-true-sounds/",
+        "https://ra.co/dj/dwson/biography",
+        "https://pan-african-music.com/en/dwson-say-less/",
+        "https://djmag.com/features/sound-stay-true-sounds"
+      ],
+      "verify": [
+        "Numéro de catalogue",
+        "Vidéo YouTube à trouver et contrôler",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "mwah",
+      "title": "Mwah",
+      "artist": "Roza Terenzi",
+      "year": 2018,
+      "release_date": "2018-04",
+      "label": "Kalahari Oyster Cult",
+      "catalog": "OYSTER9",
+      "country": "Australie",
+      "country_en": "Australia",
+      "continent": "Océanie",
+      "continent_en": "Oceania",
+      "city": "Melbourne",
+      "city_en": "Melbourne",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "melbourne-naarm",
+      "bpm": 128,
+      "camelot_key": "12A",
+      "energy": 7,
+      "gear": [
+        "tb-303",
+        "Breakbeats",
+        "Synthés"
+      ],
+      "gear_en": [
+        "tb-303",
+        "Breakbeats",
+        "Synths"
+      ],
+      "construction": "Quatre morceaux : « Mwah », « Gigi », « Rare High » et « Soft ». Entre électro, house, techno et hymnes rave des débuts : des lignes acid qui se tortillent, des caisses claires qui claquent, des cordes qui s'envolent.",
+      "construction_en": "Four tracks: \"Mwah\", \"Gigi\", \"Rare High\" and \"Soft\". Between electro, house, techno and early rave anthems: squirming acid lines, snapping snares, soaring strings.",
+      "producer_origins": "Roza Terenzi a grandi à Perth, où elle a commencé à faire de la musique, avant de s'installer à Melbourne. Elle publie sur Good Company, Planet Euphorique, Butter Sessions, Kalahari Oyster Cult et Dekmantel.",
+      "producer_origins_en": "Roza Terenzi grew up in Perth, where she started making music, before moving to Melbourne. She has released music on Good Company, Planet Euphorique, Butter Sessions, Kalahari Oyster Cult and Dekmantel.",
+      "club_sociology": "Une productrice australienne qui relie la house aux breaks et à l'électro des années 1990, et circule entre l'Australie et les labels européens.",
+      "club_sociology_en": "An Australian producer who connects house with 1990s breaks and electro, moving between Australia and European labels.",
+      "archive_ref": {
+        "note": "Fiches Rush Hour et Boomkat ; entretiens Truants (2018) et The Ransom Note (2021).",
+        "note_en": "Rush Hour and Boomkat listings; Truants (2018) and The Ransom Note (2021) interviews."
+      },
+      "why_this_record": "Melbourne, entre house, acid et rave.",
+      "why_this_record_en": "Melbourne, between house, acid and rave.",
+      "tags": [
+        "rave",
+        "machine"
+      ],
+      "youtube": [
+        "P7SZ5NOyNPE"
+      ],
+      "references": [
+        "https://www.rushhour.nl/record/vinyl/mwah",
+        "https://boomkat.com/products/mwah-ep",
+        "https://truantsblog.com/2018/interview-roza-terenzi/",
+        "https://www.theransomnote.com/music/interviews/realigning-perspective-roza-terenzi-talks/"
+      ],
+      "verify": [
+        "Date de sortie : semaine 15 de 2018 selon Rush Hour, 24 janvier 2019 selon Boomkat (sources contradictoires)",
+        "Kalahari Oyster Cult : label néerlandais ? non lu dans une source",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "hundred-flowers",
+      "title": "Hundred Flowers",
+      "artist": "Ciel",
+      "year": 2018,
+      "release_date": "2018-11",
+      "label": "Coastal Haze",
+      "catalog": "HAZE009",
+      "country": "Canada",
+      "country_en": "Canada",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "city": "Toronto",
+      "city_en": "Toronto",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "canada-house",
+      "bpm": 122,
+      "camelot_key": "9A",
+      "energy": 5,
+      "gear": [
+        "Boîtes à rythmes",
+        "Samples",
+        "Synthés"
+      ],
+      "gear_en": [
+        "Drum machines",
+        "Samples",
+        "Synths"
+      ],
+      "construction": "Quatre morceaux : « Hundred Flowers Groove », « Blo A Wish », « The Twirler » et un remix de Central. Discret et groovy, mené par une programmation de batterie agile et des samples flous ; l'EP fait signe à la Chine de 1956 et à My Bloody Valentine.",
+      "construction_en": "Four tracks: \"Hundred Flowers Groove\", \"Blo A Wish\", \"The Twirler\" and a Central remix. Understated and groovy, led by nimble drum programming and soft-focus samples; the EP nods to 1956 China and My Bloody Valentine.",
+      "producer_origins": "Ciel est Cindy Li, productrice de Toronto. Hundred Flowers suit Electrical Encounters (Peach Discs, 2017).",
+      "producer_origins_en": "Ciel is Cindy Li, a Toronto producer. Hundred Flowers follows Electrical Encounters (Peach Discs, 2017).",
+      "club_sociology": "« The Twirler » rend hommage à une figure des pistes de danse de Toronto. L'EP sort sur Coastal Haze, le label londonien de Seb Wildblood et Hollick.",
+      "club_sociology_en": "\"The Twirler\" pays tribute to a Toronto dancefloor figure. The EP came out on Coastal Haze, Seb Wildblood and Hollick's London label.",
+      "archive_ref": {
+        "note": "Critique et annonce de Resident Advisor (octobre et décembre 2018).",
+        "note_en": "Resident Advisor review and news (October and December 2018)."
+      },
+      "why_this_record": "La house de Toronto, discrète et pleine de références.",
+      "why_this_record_en": "Toronto house, understated and full of references.",
+      "tags": [
+        "deep",
+        "sample"
+      ],
+      "youtube": [
+        "PgdMzE-zI6g"
+      ],
+      "references": [
+        "https://ra.co/reviews/23329",
+        "https://ra.co/news/42595"
+      ],
+      "verify": [
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Un album porté par une artiste trans, sur un label trans fondé avec Eris Drew : « My Body Is Powerful » en donne le ton.",
+      "queer_ballroom_axis_en": "An album by a trans artist, on a trans label co-founded with Eris Drew: \"My Body Is Powerful\" sets the tone.",
+      "id": "resonant-body",
+      "title": "Resonant Body",
+      "artist": "Octo Octa",
+      "year": 2019,
+      "release_date": "2019-09",
+      "label": "T4T LUV NRG",
+      "catalog": "T4T002",
+      "city": "New Hampshire",
+      "city_en": "New Hampshire",
+      "country": "USA",
+      "country_en": "USA",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "queer-underground",
+      "bpm": 128,
+      "camelot_key": "1B",
+      "energy": 8,
+      "gear": [
+        "Breakbeats",
+        "Synthés",
+        "Voix"
+      ],
+      "gear_en": [
+        "Breakbeats",
+        "Synths",
+        "Vocals"
+      ],
+      "construction": "Huit morceaux (« Imminent Spirit Arrival », « Move Your Body », « Deep Connections », « Spin Girl, Let's Activate! », « Ecstatic Beat », « Can You See Me? », « My Body Is Powerful », « Power To The People ») : tempos plus rapides, breakbeats plus sauvages, bombes house au style des années 1990.",
+      "construction_en": "Eight tracks (\"Imminent Spirit Arrival\", \"Move Your Body\", \"Deep Connections\", \"Spin Girl, Let's Activate!\", \"Ecstatic Beat\", \"Can You See Me?\", \"My Body Is Powerful\", \"Power To The People\"): faster tempos, wilder breakbeats, quirky '90s-style house bombs.",
+      "producer_origins": "Octo Octa est Maya Bouldry-Morrison. L'album sort sur T4T LUV NRG, le label qu'elle dirige avec Eris Drew.",
+      "producer_origins_en": "Octo Octa is Maya Bouldry-Morrison. The album came out on T4T LUV NRG, the label she runs with Eris Drew.",
+      "club_sociology": "Des breakbeats et des morceaux house portés par un message personnel : le corps, la puissance, la communauté.",
+      "club_sociology_en": "Breakbeats and house bangers delivered with a stirring personal message: the body, power, community.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (septembre 2019).",
+        "note_en": "Resident Advisor review (September 2019)."
+      },
+      "why_this_record": "La house comme affirmation du corps et de la communauté.",
+      "why_this_record_en": "House as an affirmation of body and community.",
+      "tags": [
+        "us",
+        "queer",
+        "rave",
+        "diy"
+      ],
+      "youtube": [
+        "fPqdySiBpZ4"
+      ],
+      "references": [
+        "https://ra.co/reviews/24087",
+        "https://en.wikipedia.org/wiki/Octo_Octa"
+      ],
+      "verify": [
+        "Catalogue : « T4T2 » chez RA, « T4T002 » sur YouTube",
+        "Ville (New Hampshire) : d'après Wikipedia, à dater",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "on-a-nimbus",
+      "title": "On A Nimbus",
+      "artist": "Priori",
+      "year": 2019,
+      "release_date": "2019-09",
+      "label": "NAFF",
+      "catalog": "NAFF006",
+      "country": "Canada",
+      "country_en": "Canada",
+      "continent": "Amérique du Nord",
+      "continent_en": "North America",
+      "city": "Montréal",
+      "city_en": "Montreal",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "canada-house",
+      "bpm": 118,
+      "camelot_key": "4B",
+      "energy": 5,
+      "gear": [
+        "Synthés"
+      ],
+      "gear_en": [
+        "Synths"
+      ],
+      "construction": "Onze morceaux d'une house aux accents cosmiques : synthés qui couinent et bulles graves sur une palette rythmique très spatiale.",
+      "construction_en": "Eleven tracks of cosmically-inflected house: tweaky synths and deep bloops atop a distinctly spaced-out rhythmic palette.",
+      "producer_origins": "Priori est un producteur de Montréal, qui codirige le label NAFF avec Ex-Terrestrial. On A Nimbus est son premier disque sur NAFF.",
+      "producer_origins_en": "Priori is a Montreal producer who co-runs the NAFF label with Ex-Terrestrial. On A Nimbus is his first record on NAFF.",
+      "club_sociology": "Montréal développe sa propre house, glacée et cosmique, autour de labels tenus par les artistes.",
+      "club_sociology_en": "Montreal developed its own icy, cosmic house, around artist-run labels.",
+      "archive_ref": {
+        "note": "Annonce de FACT (septembre 2019).",
+        "note_en": "FACT announcement (September 2019)."
+      },
+      "why_this_record": "La house cosmique de Montréal.",
+      "why_this_record_en": "Montreal's cosmic house.",
+      "tags": [
+        "chill",
+        "diy"
+      ],
+      "youtube": [
+        "ZHLn92DTTmU",
+        "vulMoU6_lDw"
+      ],
+      "references": [
+        "https://www.factmag.com/2019/09/04/priori-debuts-on-naff-with-on-a-nimbus/"
+      ],
+      "verify": [
+        "Catalogue NAFF006 : d'après le titre d'une vidéo, non lu dans une source",
+        "« Glacée » : d'après un article de Bandcamp Daily non lu",
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "rebel-force",
+      "title": "Rebel Force",
+      "artist": "Sleep D",
+      "year": 2019,
+      "release_date": "2019-10",
+      "label": "Incienso",
+      "catalog": "INC007",
+      "country": "Australie",
+      "country_en": "Australia",
+      "continent": "Océanie",
+      "continent_en": "Oceania",
+      "city": "Melbourne",
+      "city_en": "Melbourne",
+      "genre": "deep",
+      "era": "era-3b",
+      "scene": "melbourne-naarm",
+      "bpm": 124,
+      "camelot_key": "8B",
+      "energy": 6,
+      "gear": [
+        "Synthés",
+        "Basse",
+        "Arpégiateur"
+      ],
+      "gear_en": [
+        "Synths",
+        "Bass",
+        "Arpeggiator"
+      ],
+      "construction": "Dix morceaux (« Red Rock (IV Mix) », « Central », « Danza Mart », « Reggatron », « Morning Sequence »…) : des morceaux de danse très polis, chargés de mélodies, avec un synthé de basse qui rote et des arpèges qui pulsent.",
+      "construction_en": "Ten tracks (\"Red Rock (IV Mix)\", \"Central\", \"Danza Mart\", \"Reggatron\", \"Morning Sequence\"…): ultra-polished dance tracks loaded with melody, with a belching bass synth and pulsating arps.",
+      "producer_origins": "Sleep D est le duo de Corey Kikos et Maryos Syawish, de Melbourne. Ils sortent leur premier disque à 18 ans, quand ils vivent à Frankston, en banlieue. Ils tiennent Butter Sessions, d'abord un blog, devenu série de mixes, fête et label.",
+      "producer_origins_en": "Sleep D is the Melbourne duo of Corey Kikos and Maryos Syawish. They released their first record at 18, while living in suburban Frankston. They run Butter Sessions, first a blog, then a mix series, party and label.",
+      "club_sociology": "Un album de Melbourne publié à New York sur Incienso : la scène australienne circule dans les réseaux underground internationaux.",
+      "club_sociology_en": "A Melbourne album released in New York on Incienso: the Australian scene circulates through international underground networks.",
+      "archive_ref": {
+        "note": "Critique de Resident Advisor (novembre 2019).",
+        "note_en": "Resident Advisor review (November 2019)."
+      },
+      "why_this_record": "Melbourne, de la banlieue au label new-yorkais.",
+      "why_this_record_en": "Melbourne, from the suburbs to a New York label.",
+      "tags": [
+        "diy",
+        "machine"
+      ],
+      "youtube": [
+        "3magS0lxuy0",
+        "tEAMvkadkKM"
+      ],
+      "references": [
+        "https://ra.co/reviews/24300"
+      ],
+      "verify": [
+        "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
+      ],
+      "verified": false
+    },
+    {
+      "queer_ballroom_axis": "Pas d'axe queer explicite.",
+      "queer_ballroom_axis_en": "No explicit queer axis.",
+      "id": "dream-machine",
+      "title": "Dream Machine",
+      "artist": "Fantastic Man",
+      "year": 2015,
+      "label": "Love On The Rocks",
+      "country": "Australie",
+      "country_en": "Australia",
+      "continent": "Océanie",
+      "continent_en": "Oceania",
+      "city": "Melbourne",
+      "city_en": "Melbourne",
+      "genre": "balearic",
+      "era": "era-3b",
+      "scene": "melbourne-naarm",
+      "bpm": 118,
+      "camelot_key": "10B",
+      "energy": 5,
+      "gear": [
+        "tb-303",
+        "Percussions",
+        "Synthés"
+      ],
+      "gear_en": [
+        "tb-303",
+        "Percussion",
+        "Synths"
+      ],
+      "construction": "Une house teintée de balearic : une ligne acid classique en ouverture, des percussions africaines, des mélodies de xylophone scintillantes (« Fountain Gate », « Dream Machine », « St. Elmo's Street »).",
+      "construction_en": "Balearic-tinged house: a classic acid line to open, African tribal percussion, twinkly xylophone melodies (\"Fountain Gate\", \"Dream Machine\", \"St. Elmo's Street\").",
+      "producer_origins": "Fantastic Man est un producteur de Melbourne. Le disque sort sur Love On The Rocks, un label berlinois.",
+      "producer_origins_en": "Fantastic Man is a Melbourne producer. The record came out on Love On The Rocks, a Berlin label.",
+      "club_sociology": "Une des premières percées internationales de la scène de Melbourne des années 2010, entre balearic, acid et dream house.",
+      "club_sociology_en": "One of the first international breakthroughs of 2010s Melbourne, between balearic, acid and dream house.",
+      "archive_ref": {
+        "note": "Critique de Stamp The Wax (juin 2015).",
+        "note_en": "Stamp The Wax review (June 2015)."
+      },
+      "why_this_record": "Melbourne, entre Ibiza et rêve électronique.",
+      "why_this_record_en": "Melbourne, between Ibiza and electronic dream.",
+      "tags": [
+        "sunrise",
+        "chill"
+      ],
+      "youtube": [
+        "63o3_KRi63w"
+      ],
+      "references": [
+        "https://www.stampthewax.com/2015/06/19/fantastic-man-dream-machine-ep/"
+      ],
+      "verify": [
+        "Mois de sortie et numéro de catalogue (LOTR005 ?)",
+        "« Première percée internationale » : formulation éditoriale",
         "BPM, clé Camelot et énergie : valeurs éditoriales à mesurer sur le pressage original"
       ],
       "verified": false

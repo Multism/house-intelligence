@@ -3,12 +3,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://house-intelligence.pages.dev/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/"/>
@@ -16,7 +16,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/"/>
@@ -24,7 +24,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/"/>
@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/"/>
@@ -40,7 +40,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/loft/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/loft/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/loft/"/>
@@ -48,7 +48,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/loft/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/loft/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/loft/"/>
@@ -56,7 +56,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/warehouse/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/warehouse/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/warehouse/"/>
@@ -64,7 +64,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/warehouse/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/warehouse/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/warehouse/"/>
@@ -72,7 +72,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/chicago/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/chicago/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/chicago/"/>
@@ -80,7 +80,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/chicago/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/chicago/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/chicago/"/>
@@ -88,7 +88,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/acid/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/acid/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/acid/"/>
@@ -96,7 +96,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/acid/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/acid/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/acid/"/>
@@ -104,7 +104,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/hiphouse/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/hiphouse/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/hiphouse/"/>
@@ -112,7 +112,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/hiphouse/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/hiphouse/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/hiphouse/"/>
@@ -120,7 +120,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/paradise/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/paradise/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/paradise/"/>
@@ -128,7 +128,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/paradise/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/paradise/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/paradise/"/>
@@ -136,7 +136,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/garage/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/garage/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/garage/"/>
@@ -144,7 +144,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/garage/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/garage/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/garage/"/>
@@ -152,7 +152,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/zanzibar/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/zanzibar/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/zanzibar/"/>
@@ -160,7 +160,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/zanzibar/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/zanzibar/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/zanzibar/"/>
@@ -168,7 +168,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/ballroom/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/ballroom/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/ballroom/"/>
@@ -176,7 +176,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/ballroom/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/ballroom/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/ballroom/"/>
@@ -184,7 +184,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/soundfactory/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/soundfactory/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/soundfactory/"/>
@@ -192,7 +192,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/soundfactory/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/soundfactory/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/soundfactory/"/>
@@ -200,7 +200,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/tribal/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/tribal/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/tribal/"/>
@@ -208,7 +208,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/tribal/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/tribal/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/tribal/"/>
@@ -216,7 +216,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/deep/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/deep/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/deep/"/>
@@ -224,7 +224,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/deep/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/deep/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/deep/"/>
@@ -232,7 +232,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/afro/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/afro/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/afro/"/>
@@ -240,7 +240,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/afro/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/afro/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/afro/"/>
@@ -248,7 +248,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/amapiano/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/amapiano/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/amapiano/"/>
@@ -256,7 +256,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/amapiano/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/amapiano/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/amapiano/"/>
@@ -264,7 +264,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/soundsystem/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/soundsystem/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/soundsystem/"/>
@@ -272,7 +272,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/soundsystem/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/soundsystem/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/soundsystem/"/>
@@ -280,7 +280,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/shoom/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/shoom/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/shoom/"/>
@@ -288,7 +288,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/shoom/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/shoom/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/shoom/"/>
@@ -296,7 +296,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/bleep/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/bleep/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/bleep/"/>
@@ -304,7 +304,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/bleep/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/bleep/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/bleep/"/>
@@ -312,7 +312,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/hardcore/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/hardcore/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/hardcore/"/>
@@ -320,7 +320,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/hardcore/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/hardcore/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/hardcore/"/>
@@ -328,7 +328,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/ukg/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/ukg/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/ukg/"/>
@@ -336,7 +336,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/ukg/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/ukg/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/ukg/"/>
@@ -344,7 +344,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/dubstep/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/dubstep/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/dubstep/"/>
@@ -352,7 +352,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/dubstep/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/dubstep/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/dubstep/"/>
@@ -360,7 +360,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/balearic/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/balearic/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/balearic/"/>
@@ -368,7 +368,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/balearic/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/balearic/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/balearic/"/>
@@ -376,7 +376,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/italo/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/italo/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/italo/"/>
@@ -384,7 +384,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/italo/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/italo/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/italo/"/>
@@ -392,7 +392,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/trance/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/trance/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/trance/"/>
@@ -400,7 +400,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/trance/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/trance/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/trance/"/>
@@ -408,7 +408,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/french/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/french/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/french/"/>
@@ -416,7 +416,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/french/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/french/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/french/"/>
@@ -424,7 +424,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/techhouse/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/techhouse/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/techhouse/"/>
@@ -432,7 +432,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/techhouse/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/techhouse/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/techhouse/"/>
@@ -440,7 +440,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/detroit/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/detroit/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/detroit/"/>
@@ -448,7 +448,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/detroit/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/detroit/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/detroit/"/>
@@ -456,7 +456,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/soundsig/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/soundsig/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/soundsig/"/>
@@ -464,7 +464,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/soundsig/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/soundsig/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/soundsig/"/>
@@ -472,7 +472,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/lofi/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/lofi/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/lofi/"/>
@@ -480,7 +480,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/lofi/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/lofi/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/lofi/"/>
@@ -488,7 +488,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/electro/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/electro/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/electro/"/>
@@ -496,7 +496,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/electro/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/electro/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/electro/"/>
@@ -504,7 +504,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/footwork/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/footwork/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/footwork/"/>
@@ -512,7 +512,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/footwork/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/footwork/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/footwork/"/>
@@ -520,7 +520,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/gqom/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/gqom/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/gqom/"/>
@@ -528,7 +528,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/gqom/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/gqom/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/gqom/"/>
@@ -536,7 +536,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/qweenbeat/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/qweenbeat/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/qweenbeat/"/>
@@ -544,7 +544,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/qweenbeat/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/qweenbeat/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/qweenbeat/"/>
@@ -552,7 +552,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/renaissance/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/renaissance/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/renaissance/"/>
@@ -560,7 +560,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/renaissance/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/renaissance/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/renaissance/"/>
@@ -568,7 +568,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/berlin/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/berlin/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/berlin/"/>
@@ -576,7 +576,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/berlin/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/berlin/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/berlin/"/>
@@ -584,7 +584,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/stations/charthouse/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/charthouse/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/charthouse/"/>
@@ -592,7 +592,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/stations/charthouse/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/stations/charthouse/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/stations/charthouse/"/>
@@ -600,7 +600,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/on-and-on/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/on-and-on/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/on-and-on/"/>
@@ -608,7 +608,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/on-and-on/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/on-and-on/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/on-and-on/"/>
@@ -616,7 +616,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/move-your-body/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/move-your-body/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/move-your-body/"/>
@@ -624,7 +624,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/move-your-body/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/move-your-body/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/move-your-body/"/>
@@ -632,7 +632,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/acid-tracks/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/acid-tracks/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/acid-tracks/"/>
@@ -640,7 +640,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/acid-tracks/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/acid-tracks/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/acid-tracks/"/>
@@ -648,7 +648,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/voodoo-ray/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/voodoo-ray/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/voodoo-ray/"/>
@@ -656,7 +656,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/voodoo-ray/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/voodoo-ray/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/voodoo-ray/"/>
@@ -664,7 +664,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/dont-make-me-wait/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dont-make-me-wait/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dont-make-me-wait/"/>
@@ -672,7 +672,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/dont-make-me-wait/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dont-make-me-wait/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dont-make-me-wait/"/>
@@ -680,7 +680,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/ha-dance/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ha-dance/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ha-dance/"/>
@@ -688,7 +688,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/ha-dance/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ha-dance/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ha-dance/"/>
@@ -696,7 +696,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/yo-yo-get-funky/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/yo-yo-get-funky/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/yo-yo-get-funky/"/>
@@ -704,7 +704,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/yo-yo-get-funky/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/yo-yo-get-funky/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/yo-yo-get-funky/"/>
@@ -712,7 +712,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/ill-house-you/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ill-house-you/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ill-house-you/"/>
@@ -720,7 +720,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/ill-house-you/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ill-house-you/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ill-house-you/"/>
@@ -728,7 +728,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/strings-of-life/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/strings-of-life/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/strings-of-life/"/>
@@ -736,7 +736,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/strings-of-life/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/strings-of-life/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/strings-of-life/"/>
@@ -744,7 +744,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/big-fun/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/big-fun/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/big-fun/"/>
@@ -752,7 +752,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/big-fun/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/big-fun/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/big-fun/"/>
@@ -760,7 +760,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/can-you-feel-it/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/can-you-feel-it/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/can-you-feel-it/"/>
@@ -768,7 +768,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/can-you-feel-it/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/can-you-feel-it/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/can-you-feel-it/"/>
@@ -776,7 +776,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/frozen-calderone/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/frozen-calderone/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/frozen-calderone/"/>
@@ -784,7 +784,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/frozen-calderone/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/frozen-calderone/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/frozen-calderone/"/>
@@ -792,7 +792,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/music-is-the-answer/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/music-is-the-answer/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/music-is-the-answer/"/>
@@ -800,7 +800,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/music-is-the-answer/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/music-is-the-answer/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/music-is-the-answer/"/>
@@ -808,7 +808,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/sueno-latino/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/sueno-latino/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/sueno-latino/"/>
@@ -816,7 +816,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/sueno-latino/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/sueno-latino/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/sueno-latino/"/>
@@ -824,7 +824,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/da-funk/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/da-funk/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/da-funk/"/>
@@ -832,7 +832,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/da-funk/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/da-funk/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/da-funk/"/>
@@ -840,7 +840,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/music-sounds-better/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/music-sounds-better/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/music-sounds-better/"/>
@@ -848,7 +848,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/music-sounds-better/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/music-sounds-better/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/music-sounds-better/"/>
@@ -856,7 +856,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/right-on/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/right-on/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/right-on/"/>
@@ -864,7 +864,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/right-on/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/right-on/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/right-on/"/>
@@ -872,7 +872,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/losing-it/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/losing-it/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/losing-it/"/>
@@ -880,7 +880,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/losing-it/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/losing-it/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/losing-it/"/>
@@ -888,7 +888,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/re-rewind/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/re-rewind/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/re-rewind/"/>
@@ -896,7 +896,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/re-rewind/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/re-rewind/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/re-rewind/"/>
@@ -904,7 +904,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/superman/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/superman/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/superman/"/>
@@ -912,7 +912,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/superman/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/superman/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/superman/"/>
@@ -920,7 +920,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/township-funk/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/township-funk/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/township-funk/"/>
@@ -928,7 +928,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/township-funk/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/township-funk/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/township-funk/"/>
@@ -936,7 +936,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/winona/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/winona/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/winona/"/>
@@ -944,7 +944,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/winona/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/winona/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/winona/"/>
@@ -952,7 +952,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/talk-to-me/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/talk-to-me/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/talk-to-me/"/>
@@ -960,7 +960,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/talk-to-me/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/talk-to-me/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/talk-to-me/"/>
@@ -968,7 +968,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/ke-star/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ke-star/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ke-star/"/>
@@ -976,7 +976,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/ke-star/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ke-star/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ke-star/"/>
@@ -984,7 +984,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/water-tyla/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/water-tyla/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/water-tyla/"/>
@@ -992,7 +992,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/water-tyla/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/water-tyla/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/water-tyla/"/>
@@ -1000,7 +1000,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/love-is-the-message/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/love-is-the-message/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/love-is-the-message/"/>
@@ -1008,7 +1008,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/love-is-the-message/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/love-is-the-message/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/love-is-the-message/"/>
@@ -1016,7 +1016,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/i-feel-love/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/i-feel-love/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/i-feel-love/"/>
@@ -1024,7 +1024,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/i-feel-love/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/i-feel-love/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/i-feel-love/"/>
@@ -1032,7 +1032,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/mighty-real/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/mighty-real/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/mighty-real/"/>
@@ -1040,7 +1040,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/mighty-real/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/mighty-real/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/mighty-real/"/>
@@ -1048,7 +1048,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/love-sensation/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/love-sensation/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/love-sensation/"/>
@@ -1056,7 +1056,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/love-sensation/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/love-sensation/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/love-sensation/"/>
@@ -1064,7 +1064,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/your-love/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/your-love/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/your-love/"/>
@@ -1072,7 +1072,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/your-love/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/your-love/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/your-love/"/>
@@ -1080,7 +1080,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/love-cant-turn-around/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/love-cant-turn-around/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/love-cant-turn-around/"/>
@@ -1088,7 +1088,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/love-cant-turn-around/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/love-cant-turn-around/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/love-cant-turn-around/"/>
@@ -1096,7 +1096,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/jack-your-body/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/jack-your-body/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/jack-your-body/"/>
@@ -1104,7 +1104,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/jack-your-body/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/jack-your-body/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/jack-your-body/"/>
@@ -1112,7 +1112,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/promised-land/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/promised-land/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/promised-land/"/>
@@ -1120,7 +1120,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/promised-land/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/promised-land/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/promised-land/"/>
@@ -1128,7 +1128,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/french-kiss/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/french-kiss/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/french-kiss/"/>
@@ -1136,7 +1136,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/french-kiss/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/french-kiss/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/french-kiss/"/>
@@ -1144,7 +1144,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/pacific-state/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/pacific-state/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/pacific-state/"/>
@@ -1152,7 +1152,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/pacific-state/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/pacific-state/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/pacific-state/"/>
@@ -1160,7 +1160,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/stakker-humanoid/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/stakker-humanoid/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/stakker-humanoid/"/>
@@ -1168,7 +1168,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/stakker-humanoid/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/stakker-humanoid/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/stakker-humanoid/"/>
@@ -1176,7 +1176,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/gypsy-woman/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/gypsy-woman/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/gypsy-woman/"/>
@@ -1184,7 +1184,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/gypsy-woman/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/gypsy-woman/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/gypsy-woman/"/>
@@ -1192,7 +1192,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/show-me-love/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/show-me-love/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/show-me-love/"/>
@@ -1200,7 +1200,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/show-me-love/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/show-me-love/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/show-me-love/"/>
@@ -1208,7 +1208,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/thats-the-way-love-is/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/thats-the-way-love-is/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/thats-the-way-love-is/"/>
@@ -1216,7 +1216,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/thats-the-way-love-is/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/thats-the-way-love-is/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/thats-the-way-love-is/"/>
@@ -1224,7 +1224,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/clear/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/clear/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/clear/"/>
@@ -1232,7 +1232,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/clear/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/clear/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/clear/"/>
@@ -1240,7 +1240,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/no-ufos/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/no-ufos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/no-ufos/"/>
@@ -1248,7 +1248,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/no-ufos/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/no-ufos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/no-ufos/"/>
@@ -1256,7 +1256,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/knights-of-the-jaguar/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/knights-of-the-jaguar/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/knights-of-the-jaguar/"/>
@@ -1264,7 +1264,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/knights-of-the-jaguar/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/knights-of-the-jaguar/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/knights-of-the-jaguar/"/>
@@ -1272,7 +1272,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/crispy-bacon/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/crispy-bacon/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/crispy-bacon/"/>
@@ -1280,7 +1280,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/crispy-bacon/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/crispy-bacon/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/crispy-bacon/"/>
@@ -1288,7 +1288,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/cassius-1999/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/cassius-1999/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/cassius-1999/"/>
@@ -1296,7 +1296,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/cassius-1999/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/cassius-1999/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/cassius-1999/"/>
@@ -1304,7 +1304,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/lady-modjo/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/lady-modjo/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/lady-modjo/"/>
@@ -1312,7 +1312,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/lady-modjo/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/lady-modjo/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/lady-modjo/"/>
@@ -1320,7 +1320,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/positive-education/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/positive-education/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/positive-education/"/>
@@ -1328,7 +1328,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/positive-education/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/positive-education/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/positive-education/"/>
@@ -1336,7 +1336,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/charly/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/charly/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/charly/"/>
@@ -1344,7 +1344,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/charly/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/charly/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/charly/"/>
@@ -1352,7 +1352,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/i-want-you-forever/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/i-want-you-forever/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/i-want-you-forever/"/>
@@ -1360,7 +1360,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/i-want-you-forever/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/i-want-you-forever/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/i-want-you-forever/"/>
@@ -1368,7 +1368,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/go-moby/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/go-moby/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/go-moby/"/>
@@ -1376,7 +1376,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/go-moby/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/go-moby/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/go-moby/"/>
@@ -1384,7 +1384,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/music-bukem/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/music-bukem/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/music-bukem/"/>
@@ -1392,7 +1392,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/music-bukem/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/music-bukem/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/music-bukem/"/>
@@ -1400,7 +1400,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/inner-city-life/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/inner-city-life/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/inner-city-life/"/>
@@ -1408,7 +1408,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/inner-city-life/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/inner-city-life/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/inner-city-life/"/>
@@ -1416,7 +1416,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/incredible/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/incredible/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/incredible/"/>
@@ -1424,7 +1424,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/incredible/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/incredible/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/incredible/"/>
@@ -1432,7 +1432,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/age-of-love/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/age-of-love/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/age-of-love/"/>
@@ -1440,7 +1440,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/age-of-love/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/age-of-love/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/age-of-love/"/>
@@ -1448,7 +1448,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/cafe-del-mar/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/cafe-del-mar/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/cafe-del-mar/"/>
@@ -1456,7 +1456,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/cafe-del-mar/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/cafe-del-mar/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/cafe-del-mar/"/>
@@ -1464,7 +1464,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/for-an-angel/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/for-an-angel/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/for-an-angel/"/>
@@ -1472,7 +1472,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/for-an-angel/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/for-an-angel/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/for-an-angel/"/>
@@ -1480,7 +1480,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/children/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/children/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/children/"/>
@@ -1488,7 +1488,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/children/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/children/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/children/"/>
@@ -1496,7 +1496,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/alabama-blues/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/alabama-blues/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/alabama-blues/"/>
@@ -1504,7 +1504,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/alabama-blues/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/alabama-blues/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/alabama-blues/"/>
@@ -1512,7 +1512,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/beautiful-people/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/beautiful-people/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/beautiful-people/"/>
@@ -1520,7 +1520,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/beautiful-people/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/beautiful-people/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/beautiful-people/"/>
@@ -1528,7 +1528,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/blue-monday/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/blue-monday/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/blue-monday/"/>
@@ -1536,7 +1536,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/blue-monday/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/blue-monday/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/blue-monday/"/>
@@ -1544,7 +1544,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/planet-rock/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/planet-rock/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/planet-rock/"/>
@@ -1552,7 +1552,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/planet-rock/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/planet-rock/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/planet-rock/"/>
@@ -1560,7 +1560,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/ten-percent/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ten-percent/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ten-percent/"/>
@@ -1568,7 +1568,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/ten-percent/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ten-percent/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ten-percent/"/>
@@ -1576,7 +1576,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/is-it-all-over-my-face/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/is-it-all-over-my-face/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/is-it-all-over-my-face/"/>
@@ -1584,7 +1584,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/is-it-all-over-my-face/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/is-it-all-over-my-face/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/is-it-all-over-my-face/"/>
@@ -1592,7 +1592,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/energy-flash-beltram/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/energy-flash-beltram/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/energy-flash-beltram/"/>
@@ -1600,7 +1600,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/energy-flash-beltram/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/energy-flash-beltram/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/energy-flash-beltram/"/>
@@ -1608,7 +1608,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/higher-state-of-consciousness/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/higher-state-of-consciousness/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/higher-state-of-consciousness/"/>
@@ -1616,7 +1616,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/higher-state-of-consciousness/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/higher-state-of-consciousness/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/higher-state-of-consciousness/"/>
@@ -1624,7 +1624,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/technopolis/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/technopolis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/technopolis/"/>
@@ -1632,7 +1632,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/technopolis/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/technopolis/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/technopolis/"/>
@@ -1640,7 +1640,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/vogue/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/vogue/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/vogue/"/>
@@ -1648,7 +1648,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/vogue/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/vogue/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/vogue/"/>
@@ -1656,7 +1656,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/break-my-soul/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/break-my-soul/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/break-my-soul/"/>
@@ -1664,7 +1664,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/break-my-soul/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/break-my-soul/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/break-my-soul/"/>
@@ -1672,7 +1672,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/tshwala-bam/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/tshwala-bam/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/tshwala-bam/"/>
@@ -1680,7 +1680,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/tshwala-bam/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/tshwala-bam/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/tshwala-bam/"/>
@@ -1688,7 +1688,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/reachin/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/reachin/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/reachin/"/>
@@ -1696,7 +1696,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/reachin/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/reachin/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/reachin/"/>
@@ -1704,7 +1704,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/keep-on-movin/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/keep-on-movin/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/keep-on-movin/"/>
@@ -1712,7 +1712,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/keep-on-movin/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/keep-on-movin/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/keep-on-movin/"/>
@@ -1720,7 +1720,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/lfo/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/lfo/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/lfo/"/>
@@ -1728,7 +1728,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/lfo/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/lfo/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/lfo/"/>
@@ -1736,7 +1736,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/midnight-request-line/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/midnight-request-line/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/midnight-request-line/"/>
@@ -1744,7 +1744,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/midnight-request-line/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/midnight-request-line/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/midnight-request-line/"/>
@@ -1752,7 +1752,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/summertime-is-here/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/summertime-is-here/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/summertime-is-here/"/>
@@ -1760,7 +1760,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/summertime-is-here/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/summertime-is-here/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/summertime-is-here/"/>
@@ -1768,7 +1768,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/ice-drop/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ice-drop/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ice-drop/"/>
@@ -1776,7 +1776,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/ice-drop/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/ice-drop/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/ice-drop/"/>
@@ -1784,7 +1784,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/double-cup/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/double-cup/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/double-cup/"/>
@@ -1792,7 +1792,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/double-cup/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/double-cup/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/double-cup/"/>
@@ -1800,7 +1800,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/feels-like/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/feels-like/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/feels-like/"/>
@@ -1808,7 +1808,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/feels-like/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/feels-like/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/feels-like/"/>
@@ -1816,7 +1816,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/dawning/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dawning/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dawning/"/>
@@ -1824,7 +1824,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/dawning/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dawning/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dawning/"/>
@@ -1832,7 +1832,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/not-about-you/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/not-about-you/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/not-about-you/"/>
@@ -1840,7 +1840,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/not-about-you/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/not-about-you/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/not-about-you/"/>
@@ -1848,7 +1848,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/u-seinfeld/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/u-seinfeld/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/u-seinfeld/"/>
@@ -1856,7 +1856,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/u-seinfeld/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/u-seinfeld/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/u-seinfeld/"/>
@@ -1864,7 +1864,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/black-mahogani/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/black-mahogani/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/black-mahogani/"/>
@@ -1872,7 +1872,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/black-mahogani/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/black-mahogani/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/black-mahogani/"/>
@@ -1880,7 +1880,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/dance-justice/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dance-justice/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dance-justice/"/>
@@ -1888,7 +1888,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/dance-justice/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dance-justice/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dance-justice/"/>
@@ -1896,7 +1896,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/need-u/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/need-u/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/need-u/"/>
@@ -1904,7 +1904,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/need-u/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/need-u/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/need-u/"/>
@@ -1912,7 +1912,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/spongebob/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/spongebob/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/spongebob/"/>
@@ -1920,7 +1920,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/spongebob/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/spongebob/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/spongebob/"/>
@@ -1928,7 +1928,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/white-noise/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/white-noise/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/white-noise/"/>
@@ -1936,7 +1936,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/white-noise/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/white-noise/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/white-noise/"/>
@@ -1944,7 +1944,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/fizheuer-zieheuer/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/fizheuer-zieheuer/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/fizheuer-zieheuer/"/>
@@ -1952,7 +1952,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/fizheuer-zieheuer/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/fizheuer-zieheuer/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/fizheuer-zieheuer/"/>
@@ -1960,7 +1960,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/vocalcity/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/vocalcity/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/vocalcity/"/>
@@ -1968,7 +1968,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/vocalcity/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/vocalcity/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/vocalcity/"/>
@@ -1976,7 +1976,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/himawari/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/himawari/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/himawari/"/>
@@ -1984,7 +1984,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/himawari/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/himawari/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/himawari/"/>
@@ -1992,7 +1992,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/paradigm/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/paradigm/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/paradigm/"/>
@@ -2000,7 +2000,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/paradigm/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/paradigm/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/paradigm/"/>
@@ -2008,7 +2008,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/shapin-fluid/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/shapin-fluid/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/shapin-fluid/"/>
@@ -2016,7 +2016,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/shapin-fluid/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/shapin-fluid/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/shapin-fluid/"/>
@@ -2024,7 +2024,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/my-way/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/my-way/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/my-way/"/>
@@ -2032,7 +2032,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/my-way/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/my-way/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/my-way/"/>
@@ -2040,7 +2040,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/detroit-beatdown/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/detroit-beatdown/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/detroit-beatdown/"/>
@@ -2048,7 +2048,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/detroit-beatdown/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/detroit-beatdown/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/detroit-beatdown/"/>
@@ -2056,7 +2056,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/alcachofa/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/alcachofa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/alcachofa/"/>
@@ -2064,7 +2064,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/alcachofa/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/alcachofa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/alcachofa/"/>
@@ -2072,7 +2072,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/esta-hermosa-cancion/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/esta-hermosa-cancion/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/esta-hermosa-cancion/"/>
@@ -2080,7 +2080,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/esta-hermosa-cancion/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/esta-hermosa-cancion/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/esta-hermosa-cancion/"/>
@@ -2088,7 +2088,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/the-meaning/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/the-meaning/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/the-meaning/"/>
@@ -2096,7 +2096,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/the-meaning/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/the-meaning/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/the-meaning/"/>
@@ -2104,7 +2104,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/to-beach-or-not-to-beach/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/to-beach-or-not-to-beach/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/to-beach-or-not-to-beach/"/>
@@ -2112,7 +2112,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/to-beach-or-not-to-beach/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/to-beach-or-not-to-beach/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/to-beach-or-not-to-beach/"/>
@@ -2120,7 +2120,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/home-town-chicago/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/home-town-chicago/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/home-town-chicago/"/>
@@ -2128,7 +2128,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/home-town-chicago/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/home-town-chicago/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/home-town-chicago/"/>
@@ -2136,7 +2136,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/atmosfear/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/atmosfear/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/atmosfear/"/>
@@ -2144,7 +2144,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/atmosfear/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/atmosfear/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/atmosfear/"/>
@@ -2152,7 +2152,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/little-i-ep/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/little-i-ep/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/little-i-ep/"/>
@@ -2160,7 +2160,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/little-i-ep/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/little-i-ep/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/little-i-ep/"/>
@@ -2168,7 +2168,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/dubtown/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dubtown/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dubtown/"/>
@@ -2176,7 +2176,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/dubtown/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dubtown/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dubtown/"/>
@@ -2184,7 +2184,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/keep-doing-that/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/keep-doing-that/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/keep-doing-that/"/>
@@ -2192,7 +2192,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/keep-doing-that/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/keep-doing-that/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/keep-doing-that/"/>
@@ -2200,7 +2200,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/snowboarding-in-argentina/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/snowboarding-in-argentina/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/snowboarding-in-argentina/"/>
@@ -2208,7 +2208,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/snowboarding-in-argentina/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/snowboarding-in-argentina/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/snowboarding-in-argentina/"/>
@@ -2216,7 +2216,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/beau-mot-plage/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/beau-mot-plage/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/beau-mot-plage/"/>
@@ -2224,7 +2224,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/beau-mot-plage/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/beau-mot-plage/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/beau-mot-plage/"/>
@@ -2232,7 +2232,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/stockholm/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/stockholm/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/stockholm/"/>
@@ -2240,7 +2240,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/stockholm/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/stockholm/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/stockholm/"/>
@@ -2248,7 +2248,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/burning/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/burning/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/burning/"/>
@@ -2256,7 +2256,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/burning/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/burning/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/burning/"/>
@@ -2264,7 +2264,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/lady-science/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/lady-science/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/lady-science/"/>
@@ -2272,7 +2272,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/lady-science/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/lady-science/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/lady-science/"/>
@@ -2280,7 +2280,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/hexigon-ep/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/hexigon-ep/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/hexigon-ep/"/>
@@ -2288,7 +2288,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/hexigon-ep/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/hexigon-ep/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/hexigon-ep/"/>
@@ -2296,7 +2296,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/tips/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/tips/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/tips/"/>
@@ -2304,7 +2304,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/tips/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/tips/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/tips/"/>
@@ -2312,7 +2312,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/this-bliss/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/this-bliss/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/this-bliss/"/>
@@ -2320,7 +2320,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/this-bliss/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/this-bliss/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/this-bliss/"/>
@@ -2328,7 +2328,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/all-these-things/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/all-these-things/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/all-these-things/"/>
@@ -2336,7 +2336,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/all-these-things/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/all-these-things/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/all-these-things/"/>
@@ -2344,7 +2344,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/workshop-02/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/workshop-02/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/workshop-02/"/>
@@ -2352,7 +2352,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/workshop-02/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/workshop-02/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/workshop-02/"/>
@@ -2360,7 +2360,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/dor-mit-oru/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dor-mit-oru/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dor-mit-oru/"/>
@@ -2368,7 +2368,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/dor-mit-oru/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dor-mit-oru/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dor-mit-oru/"/>
@@ -2376,7 +2376,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/invisible-bitch-slap/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/invisible-bitch-slap/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/invisible-bitch-slap/"/>
@@ -2384,7 +2384,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/invisible-bitch-slap/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/invisible-bitch-slap/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/invisible-bitch-slap/"/>
@@ -2392,7 +2392,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/midtown-120-blues/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/midtown-120-blues/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/midtown-120-blues/"/>
@@ -2400,7 +2400,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/midtown-120-blues/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/midtown-120-blues/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/midtown-120-blues/"/>
@@ -2408,7 +2408,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/workshop-08/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/workshop-08/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/workshop-08/"/>
@@ -2416,7 +2416,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/workshop-08/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/workshop-08/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/workshop-08/"/>
@@ -2424,7 +2424,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/narst-love-dub/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/narst-love-dub/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/narst-love-dub/"/>
@@ -2432,7 +2432,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/narst-love-dub/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/narst-love-dub/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/narst-love-dub/"/>
@@ -2440,7 +2440,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/asper-clouds/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/asper-clouds/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/asper-clouds/"/>
@@ -2448,7 +2448,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/asper-clouds/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/asper-clouds/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/asper-clouds/"/>
@@ -2456,7 +2456,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/space-is-only-noise/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/space-is-only-noise/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/space-is-only-noise/"/>
@@ -2464,7 +2464,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/space-is-only-noise/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/space-is-only-noise/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/space-is-only-noise/"/>
@@ -2472,7 +2472,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/mad-disrespect/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/mad-disrespect/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/mad-disrespect/"/>
@@ -2480,7 +2480,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/mad-disrespect/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/mad-disrespect/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/mad-disrespect/"/>
@@ -2488,7 +2488,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/between-two-selves/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/between-two-selves/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/between-two-selves/"/>
@@ -2496,7 +2496,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/between-two-selves/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/between-two-selves/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/between-two-selves/"/>
@@ -2504,7 +2504,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/logo-queen/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/logo-queen/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/logo-queen/"/>
@@ -2512,7 +2512,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/logo-queen/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/logo-queen/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/logo-queen/"/>
@@ -2520,7 +2520,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/colonial-patterns/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/colonial-patterns/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/colonial-patterns/"/>
@@ -2528,7 +2528,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/colonial-patterns/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/colonial-patterns/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/colonial-patterns/"/>
@@ -2536,7 +2536,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/workshop-19/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/workshop-19/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/workshop-19/"/>
@@ -2544,7 +2544,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/workshop-19/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/workshop-19/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/workshop-19/"/>
@@ -2552,7 +2552,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/after-forever/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/after-forever/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/after-forever/"/>
@@ -2560,7 +2560,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/after-forever/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/after-forever/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/after-forever/"/>
@@ -2568,7 +2568,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/bubble-world/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/bubble-world/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/bubble-world/"/>
@@ -2576,7 +2576,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/bubble-world/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/bubble-world/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/bubble-world/"/>
@@ -2584,7 +2584,7 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/disques/looking-forward-to-you/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/looking-forward-to-you/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/looking-forward-to-you/"/>
@@ -2592,10 +2592,282 @@
   </url>
   <url>
     <loc>https://house-intelligence.pages.dev/en/records/looking-forward-to-you/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/looking-forward-to-you/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/looking-forward-to-you/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/looking-forward-to-you/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/in-gold/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/in-gold/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/in-gold/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/in-gold/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/in-gold/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/in-gold/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/in-gold/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/in-gold/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/art-of-war/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/art-of-war/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/art-of-war/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/art-of-war/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/art-of-war/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/art-of-war/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/art-of-war/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/art-of-war/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/there-is-no-right-time/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/there-is-no-right-time/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/there-is-no-right-time/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/there-is-no-right-time/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/there-is-no-right-time/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/there-is-no-right-time/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/there-is-no-right-time/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/there-is-no-right-time/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/narcissus-in-retrograde/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/narcissus-in-retrograde/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/narcissus-in-retrograde/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/narcissus-in-retrograde/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/narcissus-in-retrograde/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/narcissus-in-retrograde/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/narcissus-in-retrograde/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/narcissus-in-retrograde/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/organ-smith/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/organ-smith/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/organ-smith/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/organ-smith/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/organ-smith/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/organ-smith/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/organ-smith/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/organ-smith/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/loop-one-selector/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/loop-one-selector/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/loop-one-selector/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/loop-one-selector/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/loop-one-selector/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/loop-one-selector/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/loop-one-selector/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/loop-one-selector/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/sendas/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/sendas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/sendas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/sendas/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/sendas/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/sendas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/sendas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/sendas/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/h-powder/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/h-powder/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/h-powder/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/h-powder/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/h-powder/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/h-powder/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/h-powder/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/h-powder/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/blue-dream/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/blue-dream/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/blue-dream/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/blue-dream/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/blue-dream/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/blue-dream/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/blue-dream/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/blue-dream/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/dulce-compania/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dulce-compania/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dulce-compania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/dulce-compania/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/dulce-compania/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dulce-compania/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dulce-compania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/dulce-compania/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/impulsiv/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/impulsiv/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/impulsiv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/impulsiv/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/impulsiv/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/impulsiv/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/impulsiv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/impulsiv/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/mwah/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/mwah/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/mwah/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/mwah/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/mwah/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/mwah/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/mwah/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/mwah/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/hundred-flowers/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/hundred-flowers/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/hundred-flowers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/hundred-flowers/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/hundred-flowers/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/hundred-flowers/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/hundred-flowers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/hundred-flowers/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/resonant-body/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/resonant-body/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/resonant-body/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/resonant-body/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/resonant-body/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/resonant-body/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/resonant-body/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/resonant-body/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/on-a-nimbus/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/on-a-nimbus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/on-a-nimbus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/on-a-nimbus/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/on-a-nimbus/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/on-a-nimbus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/on-a-nimbus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/on-a-nimbus/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/rebel-force/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/rebel-force/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/rebel-force/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/rebel-force/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/rebel-force/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/rebel-force/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/rebel-force/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/rebel-force/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/disques/dream-machine/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dream-machine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dream-machine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/dream-machine/"/>
+  </url>
+  <url>
+    <loc>https://house-intelligence.pages.dev/en/records/dream-machine/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://house-intelligence.pages.dev/disques/dream-machine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://house-intelligence.pages.dev/en/records/dream-machine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://house-intelligence.pages.dev/disques/dream-machine/"/>
   </url>
 </urlset>
