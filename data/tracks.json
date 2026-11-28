@@ -942,7 +942,17 @@
       "club_sociology_en": "The Paradise Garage at 84 King Street (1977–1987) was members-only, served no alcohol and ran until Sunday morning. Richard Long's sound and Levan's marathon sets made it a place of worship, people called it \"Saturday Mass\".",
       "queer_ballroom_axis_en": "The Garage was one of the founding spaces of Black and Latino gay social life in New York. The AIDS epidemic hit it head-on; Levan died in 1992. \"Garage\" is first and foremost an archive of that community.",
       "why_this_record_en": "It lets you hear garage before house: an aesthetic of dub, space and fervour that runs through everything that follows.",
-      "verified": false
+      "verified": false,
+      "references": [
+        "https://www.nts.live/artists/5444-peech-boys"
+      ],
+      "verify": [
+        "Production par Larry Levan et Michael de Benedictus : non confirmée par une source lue (NTS cite de Benedictus comme membre du groupe)",
+        "Voix de Bernard Fowler : NTS le cite comme membre, sans préciser le chant",
+        "Année : 1982 (fiches de disque NTS) ou 1981 (texte de NTS) ; catalogue WES 22140 non lu",
+        "Paradise Garage (84 King Street, 1977-1987, adhésion, sans alcool, Richard Long, « Saturday Mass ») : non lu dans les sources consultées pour cette fiche",
+        "TR-808 et claps noyés dans l'écho : non documentés"
+      ]
     },
     {
       "id": "ha-dance",
@@ -2261,7 +2271,7 @@
       "title": "I Feel Love",
       "artist": "Donna Summer",
       "year": 1977,
-      "label": "Casablanca / GTO",
+      "label": "Casablanca",
       "city": "Munich",
       "country": "Allemagne",
       "continent": "Europe",
@@ -2272,12 +2282,13 @@
       "energy": 8,
       "gear": [
         "moog-modular",
-        "Séquenceur analogique"
+        "Séquenceur",
+        "Batterie (grosse caisse, Keith Forsey)"
       ],
-      "construction": "Tout est synthétique sauf le kick et la voix : une basse séquencée en arpège au Moog modulaire, des doubles croches qui pulsent, la voix de Summer qui flotte en apesanteur. C'est la première fois que la machine porte entièrement une chanson disco.",
-      "producer_origins": "Giorgio Moroder et Pete Bellotte travaillent depuis Munich, loin de la soul américaine. Ils imaginent un disque « du futur » pour clore un album-concept qui traverse les décennies.",
-      "club_sociology": "Le disque fait le lien entre la disco orchestrale et la musique électronique de danse. On raconte que Brian Eno y a entendu « le son du futur » des clubs.",
-      "queer_ballroom_axis": "Donna Summer est l'icône absolue des pistes gays de la fin des années 70. « I Feel Love » prépare le hi-NRG, la disco électronique des clubs gays des années 80, et via Patrick Cowley tout un pan de la musique queer.",
+      "construction": "Tout est synthétique sauf la voix et la grosse caisse, jouée sur une vraie batterie par Keith Forsey : une basse séquencée au Moog, des charlestons de bruit blanc, la voix de Summer, enregistrée d'une seule prise, qui flotte en apesanteur. C'est la première fois que la machine porte entièrement une chanson disco.",
+      "producer_origins": "Giorgio Moroder et Pete Bellotte travaillent au studio Musicland de Munich, loin de la soul américaine. L'album I Remember Yesterday évoque une décennie par morceau ; pour le dernier, « I Feel Love », ils veulent une ambiance du futur. Le Moog est emprunté à Eberhard Schoener.",
+      "club_sociology": "Numéro 1 au Royaume-Uni pendant quatre semaines en juillet 1977, le disque fait le lien entre la disco orchestrale et la musique électronique de danse. Selon David Bowie, Brian Eno arrive en studio en disant avoir entendu « le son du futur ».",
+      "queer_ballroom_axis": "Donna Summer est une icône des pistes gays de la fin des années 70. « I Feel Love » annonce le hi-NRG, et le remix étendu de Patrick Cowley devient un classique underground de San Francisco.",
       "archive_ref": {
         "source": "hot-stuff",
         "note": "Disco, technologie et culture gay américaine.",
@@ -2300,17 +2311,28 @@
         "9ZqqvrWCs3Q",
         "ufGLhImwnYg"
       ],
-      "construction_en": "Everything is synthetic except the kick and the vocal: an arpeggiated bass sequenced on a Moog modular, pulsing sixteenth notes, Summer's voice floating weightless. For the first time a machine carries an entire disco song.",
-      "producer_origins_en": "Giorgio Moroder and Pete Bellotte worked out of Munich, far from American soul. They imagined a record \"from the future\" to close a concept album travelling through the decades.",
-      "club_sociology_en": "The record links orchestral disco and electronic dance music. Brian Eno reportedly heard in it \"the sound of the future\" of clubbing.",
-      "queer_ballroom_axis_en": "Donna Summer was the absolute icon of late-70s gay dancefloors. \"I Feel Love\" paved the way for hi-NRG, the electronic disco of 1980s gay clubs, and, via Patrick Cowley, for a whole strand of queer music.",
+      "construction_en": "Everything is synthetic except the vocal and the kick, played on a real kit by Keith Forsey: a sequenced Moog bassline, white-noise hi-hats, and Summer's vocal, recorded in a single take, floating weightlessly. It is the first time a machine carries a disco song entirely.",
+      "producer_origins_en": "Giorgio Moroder and Pete Bellotte worked at Musicland studios in Munich, far from American soul. The album I Remember Yesterday evokes one decade per track; for the last one, \"I Feel Love\", they wanted a futuristic mood. The Moog was borrowed from Eberhard Schoener.",
+      "club_sociology_en": "Number one in the UK for four weeks in July 1977, the record bridges orchestral disco and electronic dance music. According to David Bowie, Brian Eno came into the studio saying he had heard \"the sound of the future\".",
+      "queer_ballroom_axis_en": "Donna Summer was an icon of late-'70s gay dancefloors. \"I Feel Love\" heralds hi-NRG, and Patrick Cowley's extended remix became an underground classic in San Francisco.",
       "why_this_record_en": "The direct link between disco and machine house.",
       "country_en": "Germany",
       "gear_en": [
         "moog-modular",
-        "Analogue sequencer"
+        "Sequencer",
+        "Drum kit (kick, Keith Forsey)"
       ],
-      "verified": false
+      "verified": false,
+      "release_date": "1977-07-02",
+      "references": [
+        "https://en.wikipedia.org/wiki/I_Feel_Love",
+        "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/MoroderInterview.pdf"
+      ],
+      "verify": [
+        "Moroder dit que tout sauf la voix vient du Moog ; Wikipedia attribue la grosse caisse à Keith Forsey (sources divergentes)",
+        "Moog modulaire : les sources lues disent seulement « Moog »",
+        "Édition britannique GTO : non confirmée par une source lue"
+      ]
     },
     {
       "id": "mighty-real",
@@ -2331,9 +2353,9 @@
         "Section rythmique"
       ],
       "construction": "Un kick insistant, des synthés stridents ajoutés par Patrick Cowley et la voix de fausset gospel de Sylvester au sommet. L'énergie est hi-NRG avant la lettre : plus rapide, plus électronique, plus extatique que la disco new-yorkaise.",
-      "producer_origins": "Sylvester James, formé à l'église pentecôtiste de Los Angeles, débarque à San Francisco dans la scène drag et contre-culturelle (les Cockettes). Patrick Cowley, ingénieur et synthésiste, devient son alter ego technique.",
-      "club_sociology": "Le morceau domine les clubs de Castro et devient un tube international. San Francisco construit un circuit gay de la disco électronique, parallèle à New York.",
-      "queer_ballroom_axis": "Sylvester, ouvertement gay, noir et gender-nonconforming, est la figure la plus explicitement queer de la disco. Cowley meurt du sida en 1982, Sylvester en 1988 : leur histoire est aussi celle de l'épidémie.",
+      "producer_origins": "Sylvester James grandit en chantant dans les églises pentecôtistes de Los Angeles, puis s'installe en 1970 à San Francisco, au cœur de la contre-culture, où il rejoint la troupe des Cockettes. Signé chez Fantasy en 1976, il fait appel à Patrick Cowley pour jouer les synthés de « Mighty Real ».",
+      "club_sociology": "Le morceau domine les clubs du Castro et devient numéro 1 disco dans la plupart des grandes villes américaines, puis entre dans le top 10 de nombreux pays, de l'Angleterre au Brésil et à Hong Kong. San Francisco construit un circuit gay de la disco électronique, parallèle à New York.",
+      "queer_ballroom_axis": "Sylvester, ouvertement gay et noir, androgyne et habillé en femme sur scène (« gender fluid » selon Red Bull Music Academy), est la figure la plus explicitement queer de la disco. Patrick Cowley meurt du sida en novembre 1982, parmi les mille premiers malades emportés ; Sylvester meurt en 1988, au cœur de l'épidémie : leur histoire est aussi celle du sida.",
       "archive_ref": {
         "source": "hot-stuff",
         "note": "Le chapitre sur Sylvester et la disco gay de San Francisco.",
@@ -2362,15 +2384,24 @@
         "VgFk-tLr6eo"
       ],
       "construction_en": "A relentless kick, piercing synths added by Patrick Cowley and Sylvester's gospel falsetto on top. Hi-NRG before the name: faster, more electronic and more ecstatic than New York disco.",
-      "producer_origins_en": "Sylvester James, raised in a Los Angeles Pentecostal church, landed in San Francisco's drag and countercultural scene (the Cockettes). Patrick Cowley, engineer and synthesist, became his technical alter ego.",
-      "club_sociology_en": "The track ruled the Castro's clubs and became an international hit. San Francisco built its own gay circuit of electronic disco, parallel to New York.",
-      "queer_ballroom_axis_en": "Openly gay, Black and gender-nonconforming, Sylvester is disco's most explicitly queer figure. Cowley died of AIDS in 1982, Sylvester in 1988: their story is also the epidemic's.",
+      "producer_origins_en": "Sylvester James grew up singing in Pentecostal churches in Los Angeles, then moved in 1970 to San Francisco, the heart of the counterculture, where he joined the Cockettes troupe. Signed to Fantasy in 1976, he brought in Patrick Cowley to play synths on \"Mighty Real\".",
+      "club_sociology_en": "The track ruled the Castro's clubs and became the number one disco song in most major US cities, then hit the top ten in many countries, from England to Brazil and Hong Kong. San Francisco built a gay circuit of electronic disco, parallel to New York.",
+      "queer_ballroom_axis_en": "Sylvester, openly gay and Black, androgynous and cross-dressing on stage (\"gender fluid\" in Red Bull Music Academy's words), is disco's most explicitly queer figure. Patrick Cowley died of AIDS in November 1982, among the first thousand people it killed; Sylvester died in 1988, in the midst of the epidemic: their story is also that of AIDS.",
       "why_this_record_en": "\"Mighty Real\" is a manifesto: queer fervour as the engine of the dancefloor.",
       "gear_en": [
         "Synthesizers (Patrick Cowley)",
         "Rhythm section"
       ],
-      "verified": false
+      "verified": false,
+      "references": [
+        "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/YouMakeMeFeel.pdf",
+        "https://daily.redbullmusicacademy.com/2018/08/sylvester-cover-songs/"
+      ],
+      "verify": [
+        "Identité : les sources lues emploient « openly gay », « androgynous, cross-dressing » (Joshua Gamson, Library of Congress) et « gender fluid » (RBMA), et le pronom « he » ; la fiche disait « gender-nonconforming »",
+        "Cause du décès de Sylvester : non précisée dans les sources lues",
+        "Classements précis (Royaume-Uni, États-Unis) : non lus"
+      ]
     },
     {
       "id": "love-sensation",
@@ -2390,9 +2421,9 @@
         "Orchestre disco",
         "Section rythmique live"
       ],
-      "construction": "Une production disco de Dan Hartman au service d'une voix gospel monumentale. Les cris de Loleatta Holloway deviendront l'un des samples vocaux les plus utilisés de la house.",
-      "producer_origins": "Holloway, chanteuse de gospel de Chicago, enregistre pour Salsoul, le label new-yorkais dont les mixes 12\" (Walter Gibbons, Tom Moulton) inventent le remix de club.",
-      "club_sociology": "En 1989, Black Box sample sa voix sans la créditer pour « Ride on Time », numéro 1 au Royaume-Uni. L'affaire devient un cas d'école des droits du sample et du sort réservé aux chanteuses noires.",
+      "construction": "Une production disco de Dan Hartman, qui écrit et produit le morceau, au service d'une voix gospel monumentale. Selon The Independent, Loleatta Holloway est la chanteuse la plus samplée de la musique populaire.",
+      "producer_origins": "Née à Chicago en 1946, Holloway chante le gospel avec sa mère dans les Holloway Community Singers, avant d'enregistrer pour Gold Mind, filiale de Salsoul, le label new-yorkais dont les mixes 12\" inventent le remix de club.",
+      "club_sociology": "En 1989, Black Box sample sa voix sans autorisation ni crédit pour « Ride on Time », six semaines numéro 1 et meilleure vente de l'année au Royaume-Uni. Holloway et Hartman attaquent le groupe en 1990 et obtiennent un accord amiable ; Holloway est ensuite créditée comme chanteuse. L'affaire devient un cas d'école des droits du sample et du sort réservé aux chanteuses noires.",
       "queer_ballroom_axis": "C'est la diva gospel, figure centrale de l'imaginaire queer de la piste. Sa voix, découpée par d'autres, raconte aussi l'effacement des femmes noires dans la dance music.",
       "archive_ref": {
         "source": "disco-files",
@@ -2421,16 +2452,24 @@
         "Kr5zQZq33-c",
         "v-S5jD2fP2Y"
       ],
-      "construction_en": "A Dan Hartman disco production in service of a monumental gospel voice. Loleatta Holloway's wails would become one of the most sampled vocals in house.",
-      "producer_origins_en": "Holloway, a Chicago gospel singer, recorded for Salsoul, the New York label whose 12\" mixes (Walter Gibbons, Tom Moulton) invented the club remix.",
-      "club_sociology_en": "In 1989 Black Box sampled her voice uncredited for \"Ride on Time\", a UK number one. The affair became a textbook case of sample rights and of how Black women singers were treated.",
+      "construction_en": "A disco production by Dan Hartman, who wrote and produced the track, built around a monumental gospel voice. According to The Independent, Loleatta Holloway is the most sampled female singer in popular music.",
+      "producer_origins_en": "Born in Chicago in 1946, Holloway sang gospel with her mother in the Holloway Community Singers before recording for Gold Mind, a subsidiary of Salsoul, the New York label whose 12\" mixes invented the club remix.",
+      "club_sociology_en": "In 1989 Black Box sampled her voice without permission or credit for \"Ride on Time\", six weeks at number one and the UK's best-selling single of the year. Holloway and Hartman sued the group in 1990 and reached an out-of-court settlement; Holloway was later credited as featured vocalist. The case became a textbook example of sampling rights and of how Black women singers were treated.",
       "queer_ballroom_axis_en": "The gospel diva, a central figure of the dancefloor's queer imagination. Her voice, chopped up by others, also tells of the erasure of Black women in dance music.",
       "why_this_record_en": "The direct bridge between Salsoul disco and sample-based Italo house.",
       "gear_en": [
         "Disco orchestra",
         "Live rhythm section"
       ],
-      "verified": false
+      "verified": false,
+      "references": [
+        "https://en.wikipedia.org/wiki/Loleatta_Holloway",
+        "https://en.wikipedia.org/wiki/Starlight_(band)"
+      ],
+      "verify": [
+        "Répartition de l'accord amiable : sources divergentes (Daniele Davoli, 2018, dit que seul Salsoul a été payé)",
+        "Walter Gibbons et Tom Moulton comme inventeurs du remix chez Salsoul : non lu dans les sources consultées pour cette fiche"
+      ]
     },
     {
       "id": "your-love",
