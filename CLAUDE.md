@@ -124,7 +124,8 @@ Les jetons sont dans les secrets GitHub, jamais dans le dépôt. Mode d'emploi :
 
 - Identité de commit : `Multism <Multism@users.noreply.github.com>`, jamais d'e-mail personnel.
 - Ne jamais committer de secrets ni de documents de travail : `.gitignore` exclut `.env*`, `.claude/settings.local.json`, `*.rtf`, `*.docx`, `*.pdf`.
-- Pousser sur `main` **ne redéploie pas** le site : le projet Cloudflare Pages est en envoi direct. Après le push, déployer uniquement les fichiers suivis par git :
+- **Mise en ligne automatique** : chaque push sur `main` (ou pull request acceptée) déclenche `.github/workflows/deploy.yml`, qui déploie les fichiers suivis par git sur Cloudflare Pages (secrets `CLOUDFLARE_API_TOKEN` et `CLOUDFLARE_ACCOUNT_ID`). Depuis claude.ai/code ou le téléphone : ouvrir une pull request, la faire accepter (*Merge*), le site se met à jour en une à deux minutes. Les commits poussés par une autre action GitHub (jeton `GITHUB_TOKEN`) ne déclenchent pas ce déploiement.
+- Déploiement manuel de secours, depuis l'ordinateur où wrangler est connecté :
 
 ```sh
 D=$(mktemp -d) && git archive HEAD | tar -x -C "$D" && rm -f "$D/.gitignore" && \
