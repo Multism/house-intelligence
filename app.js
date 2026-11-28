@@ -1264,7 +1264,9 @@
   }
 
   function item(id) { return S.byId[id] || S.disc[id]; }
-  window.HI = { _t, _f, Player, playBtn, openMachine, openSource, showView, h, toast, store, S, recommend, camelotRelation, bpmRelation, Pulse, load, setFilter }; // debug / tests
+  window.HI = { _t, _f, Player, playBtn, openMachine, openSource, showView, h, toast, store, S, recommend, camelotRelation, bpmRelation, Pulse, load, setFilter,
+    norm, artistInfo, digOpen: (id) => { const r = digRows().find((x) => x.kind === "dig" && x.id === id); if (r) openDig(r); },
+    digGo: (q, scene) => { location.hash = "#digging"; showView("digging"); DIG.scene = scene || "all"; DIG.q = q || ""; $("#dig-search").value = DIG.q; renderDigging(); } }; // debug / tests
   // manifeste PWA : seulement en HTTP(S) (en file://, le navigateur le bloque et affiche une erreur)
   if (location.protocol.startsWith("http")) { const l = document.createElement("link"); l.rel = "manifest"; l.href = "manifest.webmanifest"; document.head.append(l); }
   document.addEventListener("DOMContentLoaded", init);

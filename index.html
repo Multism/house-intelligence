@@ -44,6 +44,7 @@
         <a href="#digging" data-view-link="digging" data-i18n="nav.digging">Deep Digging</a>
         <a href="#bibliotheque" data-view-link="bibliotheque" data-i18n="nav.library">Bibliothèque</a>
       </nav>
+      <button type="button" class="qs-open" id="qs-open" data-i18n-attr="aria-label=qs.aria;title=qs.aria" aria-label="Rechercher dans tout le site" title="Rechercher dans tout le site"><svg viewBox="0 0 20 20" width="15" height="15" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span data-i18n="qs.btn">Rechercher</span><kbd>⌘K</kbd></button>
       <div class="lang-switch" role="group" data-i18n-attr="aria-label=lang.aria" aria-label="Langue">
         <button type="button" data-lang="fr" aria-pressed="true" lang="fr">FR</button><button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
       </div>
@@ -273,7 +274,15 @@
     </div>
     <div class="lib-grid" id="lib-grid"></div>
   </section>
-  </main><!-- /views -->
+  </main>
+
+  <dialog class="qs" id="qs" data-i18n-attr="aria-label=qs.aria" aria-label="Rechercher dans tout le site">
+    <div class="qs-box">
+      <input type="text" id="qs-input" role="combobox" aria-expanded="true" aria-controls="qs-list" aria-autocomplete="list" autocomplete="off" spellcheck="false" placeholder="Artiste, disque, label, station, machine…" data-i18n-attr="placeholder=qs.ph">
+      <ul id="qs-list" role="listbox" data-i18n-attr="aria-label=qs.results" aria-label="Résultats"></ul>
+      <p class="qs-foot" data-i18n="qs.foot">↑ ↓ pour choisir · Entrée pour ouvrir · Échap pour fermer</p>
+    </div>
+  </dialog><!-- /views -->
 
   <!-- FENÊTRE D'ÉCOUTE PERSISTANTE -->
   <aside class="fw" id="fw" data-size="mini" data-i18n-attr="aria-label=fw.aria" aria-label="Fenêtre d'écoute">
@@ -313,5 +322,6 @@
   <script src="i18n.js" defer></script>
   <script src="app.js" defer></script>
   <script src="metro.js" defer></script>
+  <script src="search.js" defer></script>
 </body>
 </html>

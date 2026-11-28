@@ -17,6 +17,7 @@ En ligne : https://house-intelligence.pages.dev · Dépôt public : https://gith
 |---|---|
 | `index.html` | Coquille, méta SEO, JSON-LD, plan de métro (viewBox `40 0 1200 860`) |
 | `app.js` | Routage par hash, Booth, Bibliothèque, lecteur YouTube flottant (`#fw`), Pulse (synthé Web Audio) |
+| `search.js` | Recherche rapide (Cmd/Ctrl+K, « / », loupe) : disques, fiches digging, artistes et alias, labels, stations, scènes, machines, Bibliothèque |
 | `metro.js` | Rendu SVG du plan de métro (lignes, stations, correspondances, pastilles `badge`) |
 | `i18n.js` | Textes d'interface FR/EN : `I18N.t(clé)` ; contenu : `I18N.f(obj, champ)` lit `champ_en` en anglais |
 | `styles.css`, `pages.css` | Styles de l'application / des pages statiques |
