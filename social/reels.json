@@ -1,0 +1,135 @@
+[
+ {
+  "slug": "tr-909-four-to-the-floor",
+  "machine": "Roland TR-909",
+  "year": 1983,
+  "style": "Four to the floor",
+  "bpm": 124,
+  "engine": "909",
+  "lanes": [
+   {
+    "k": "kick",
+    "name": "Kick",
+    "p": "x...x...x...x...",
+    "txt": "Kick on 1, 2, 3 and 4. Four to the floor: the 909 kick has a hard attack that cuts through a club system."
+   },
+   {
+    "k": "clap",
+    "name": "Clap",
+    "p": "....x.......x...",
+    "txt": "Clap on 2 and 4, the backbeat. The 909 clap is analog: a burst of filtered noise, triggered several times in a row."
+   },
+   {
+    "k": "ch",
+    "name": "Closed hat",
+    "p": "xx.xxx.xxx.xxx.x",
+    "txt": "Closed hat on the 16ths, with a gap on every 'and'. On the 909 the hats are 6-bit samples, not analog circuits."
+   },
+   {
+    "k": "oh",
+    "name": "Open hat",
+    "p": "..x...x...x...x.",
+    "txt": "Open hat on every off-beat, the 'and'. A closed hat chokes it, so the two lines share the bar."
+   }
+  ],
+  "status": "draft",
+  "verify": [
+   "Hats et cymbales de la 909 en samples 6 bits, kick/snare/clap analogiques : à confirmer sur le manuel Roland ou une source technique avant publication",
+   "Charleston fermée qui coupe l'ouverte sur la 909 : idem"
+  ]
+ },
+ {
+  "slug": "tr-808-jack",
+  "machine": "Roland TR-808",
+  "year": 1980,
+  "style": "Jack",
+  "bpm": 120,
+  "engine": "808",
+  "lanes": [
+   {
+    "k": "kick",
+    "name": "Kick",
+    "p": "x...x...x...x...",
+    "txt": "Kick on every beat. The 808 kick is a sine wave with a long Decay knob: turn it up and it becomes a boom."
+   },
+   {
+    "k": "clap",
+    "name": "Clap",
+    "p": "....x.......x..x",
+    "txt": "Clap on 2 and 4, plus one on the 'a' of 4. That last 16th pushes the loop back to the 1."
+   },
+   {
+    "k": "ch",
+    "name": "Closed hat",
+    "p": "x.x.x.x.x.x.x.x.",
+    "txt": "Closed hat on the 8ths, straight. Thin and metallic: six square-wave oscillators mixed together."
+   },
+   {
+    "k": "cb",
+    "name": "Cowbell",
+    "p": "..x....x..x..x..",
+    "txt": "Cowbell on the 'and' of 1, the 'a' of 2, the 'and' of 3 and the 'e' of 4. Two square waves, detuned."
+   }
+  ],
+  "status": "draft",
+  "verify": [
+   "Kick 808 réglé par Tone/Decay/Level, charlestons à six oscillateurs carrés, cowbell à deux carrés désaccordés : à confirmer sur le manuel de service Roland avant publication"
+  ]
+ },
+ {
+  "slug": "tb-303-acid-line",
+  "machine": "Roland TB-303",
+  "year": 1981,
+  "style": "Acid line",
+  "bpm": 125,
+  "engine": "303",
+  "lanes": [
+   {
+    "k": "kick",
+    "name": "Kick",
+    "p": "x...x...x...x...",
+    "txt": "A plain four-to-the-floor kick to hold the floor. The 303 has no drums: it is a bass synth with a 16-step sequencer."
+   },
+   {
+    "k": "bass",
+    "name": "303 notes",
+    "p": "xxxxxxxxxxxxxxxx",
+    "notes": [
+     0,
+     0,
+     12,
+     0,
+     3,
+     0,
+     15,
+     12,
+     0,
+     7,
+     0,
+     10,
+     12,
+     0,
+     3,
+     5
+    ],
+    "txt": "One note per step. The 303 stores pitch and rhythm in two separate passes, which makes programming it famously awkward."
+   },
+   {
+    "k": "acc",
+    "name": "Accent",
+    "p": "x.x..xx.x..xx..x",
+    "txt": "Accent: the note is louder and the filter opens wider. This is where the squelch comes from."
+   },
+   {
+    "k": "sld",
+    "name": "Slide",
+    "p": "..x...x....x..x.",
+    "txt": "Slide: the note glides into the next one and the gate stays open. No retrigger, just a bend."
+   }
+  ],
+  "status": "draft",
+  "verify": [
+   "Programmation en deux passes (Pitch mode / Time mode), effet de l'accent sur le volume et le filtre, slide qui garde la porte ouverte : à confirmer sur le manuel Roland avant publication"
+  ]
+ }
+]

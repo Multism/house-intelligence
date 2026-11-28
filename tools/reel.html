@@ -1,0 +1,116 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;600;700&family=Space+Grotesk:wght@400;500;700&display=block" rel="stylesheet">
+<style>html,body{margin:0;background:#000}canvas{display:block}</style></head><body>
+<canvas id="c" width="1080" height="1920"></canvas>
+<script>
+const W=1080,H=1920,cv=document.getElementById('c'),g=cv.getContext('2d');
+let R,TH,SEG,BAR,STEP,DUR;
+const THEMES={
+ dark:{bg:'#0d0c0b',ink:'#efe9dd',mute:'#948c7f',line:'#2e2a26',cell:'#1b1916',on:'#5ad2ff',hit:'#ff6b35',focus:'#ff6b35',panel:'#161412',title:'400 150px "Instrument Serif"'},
+ light:{bg:'#f4efe4',ink:'#111111',mute:'#6b645a',line:'#d8d0c2',cell:'#e6dfd1',on:'#7fb8e6',hit:'#e8402a',focus:'#e8402a',panel:'#ebe4d6',title:'700 128px "Space Grotesk"'}
+};
+window.setup=async(reel,theme)=>{await Promise.all(['400 150px "Instrument Serif"','700 40px "JetBrains Mono"','600 26px "JetBrains Mono"','400 22px "JetBrains Mono"','700 36px "Space Grotesk"','500 44px "Space Grotesk"'].map(f=>document.fonts.load(f)));R=reel;TH=THEMES[theme];BAR=240/R.bpm;STEP=BAR/16;
+ SEG=[{t:'full',bars:2,txt:'The full pattern. Now line by line.'}];
+ R.lanes.forEach((l,i)=>SEG.push({t:'lane',i,bars:2,txt:l.txt}));
+ SEG.push({t:'end',bars:2,txt:'Every machine, every record: house-intelligence.pages.dev'});
+ let a=0;SEG.forEach(s=>{s.start=a;a+=s.bars*BAR;s.end=a});DUR=a;return DUR};
+const segAt=t=>SEG.find(s=>t<s.end)||SEG[SEG.length-1];
+function wrap(txt,font,maxW){g.font=font;const w=txt.split(' '),out=[];let l='';for(const x of w){const tt=l?l+' '+x:x;if(g.measureText(tt).width>maxW&&l){out.push(l);l=x}else l=tt}out.push(l);return out}
+function rr(x,y,w,h,r){g.beginPath();g.roundRect(x,y,w,h,r);g.fill()}
+const NOTE=['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
+const mix=(a,b,k)=>{const p=c=>[1,3,5].map(i=>parseInt(c.slice(i,i+2),16));const A=p(a),B=p(b);return'rgb('+A.map((v,i)=>Math.round(v+(B[i]-v)*k)).join(',')+')'};
+window.render=(t)=>{
+ const s=segAt(t),pos=(t%BAR)/STEP,step=Math.floor(pos),frac=pos-step;
+ g.fillStyle=TH.bg;g.fillRect(0,0,W,H);
+ const X0=80,GW=W-160;
+ // brand
+ g.fillStyle=TH.mute;g.font='600 26px "JetBrains Mono"';g.textBaseline='alphabetic';
+ g.fillText('HOUSE INTELLIGENCE',X0,120);g.textAlign='right';g.fillText('MACHINES · '+(SEG.indexOf(s)+1)+'/'+SEG.length,X0+GW,120);g.textAlign='left';
+ g.fillStyle=TH.focus;g.fillRect(X0,146,GW*(t/DUR),4);g.fillStyle=TH.line;g.fillRect(X0+GW*(t/DUR),146,GW*(1-t/DUR),4);
+ // header
+ g.fillStyle=TH.ink;{let fs=parseInt(TH.title.split(' ')[1]);const fam=TH.title.replace(/^\S+ \S+ /,''),wt=TH.title.split(' ')[0];do{g.font=wt+' '+fs+'px '+fam;fs-=4}while(g.measureText(R.style).width>GW+6);g.fillText(R.style,X0-6,330);}
+ g.font='700 54px "JetBrains Mono"';g.fillText(R.bpm+' BPM',X0,430);
+ const bw=g.measureText(R.bpm+' BPM  ').width;g.font='500 44px "Space Grotesk"';g.fillStyle=TH.mute;
+ g.fillText('·  '+R.machine+' ('+R.year+')',X0+bw,428);
+ // beat numbers
+ const GY=560,gap=22,cw=(GW-3*gap-15*6)/16; const cx=i=>X0+i*(cw+6)+Math.floor(i/4)*(gap-6);
+ g.font='700 40px "JetBrains Mono"';g.textAlign='center';
+ for(let b=0;b<4;b++){const on=step>=b*4&&step<b*4+4;g.fillStyle=on?TH.ink:TH.mute;g.fillText(String(b+1),(cx(b*4)+cx(b*4+3)+cw)/2,GY)}
+ g.font='400 22px "JetBrains Mono"';g.fillStyle=TH.mute;
+ for(let i=0;i<16;i++)g.fillText(['1','e','&','a'][i%4]==='1'?'':['','e','&','a'][i%4],cx(i)+cw/2,GY+38);
+ g.textAlign='left';
+ // lanes
+ const LH=180,LY=GY+80;
+ R.lanes.forEach((l,li)=>{
+  const y=LY+li*LH,foc=s.t==='lane'&&s.i===li,dim=s.t==='lane'&&!foc;
+  g.globalAlpha=dim?0.28:1;
+  g.font='700 36px "Space Grotesk"';g.fillStyle=foc?TH.focus:TH.ink;g.fillText(l.name,X0,y+40);
+  const ch=110,cy=y+60;
+  for(let i=0;i<16;i++){
+   const on=l.p[i]==='x',x=cx(i),hitNow=on&&i===step;
+   let col=TH.cell;
+   if(on)col=foc?TH.focus:TH.on;
+   if(hitNow){const k=Math.max(0,1-frac*1.2);col=mix(foc?TH.focus:TH.on,TH.ink==='#111111'?'#ffffff':'#ffffff',k*0.55);if(!foc)col=mix(TH.on,TH.hit,k)}
+   g.fillStyle=col;rr(x,cy,cw,ch,10);
+   if(i===step){g.strokeStyle=TH.ink;g.lineWidth=4;g.beginPath();g.roundRect(x-5,cy-5,cw+10,ch+10,13);g.stroke()}
+   if(l.notes&&on){g.fillStyle=TH.bg;g.font='700 24px "JetBrains Mono"';g.textAlign='center';const n=l.notes[i];g.fillText(NOTE[n%12],x+cw/2,cy+ch/2+4);if(n>=12)g.fillText('↑',x+cw/2,cy+ch/2+32);g.textAlign='left'}
+  }
+  g.globalAlpha=1;
+ });
+ // caption panel
+ const PY=LY+R.lanes.length*LH+30;
+ g.fillStyle=TH.panel;rr(X0-20,PY,GW+40,H-PY-210,26);
+ const segT=t-s.start,fade=Math.min(1,segT/0.35);g.globalAlpha=fade;
+ const lab=s.t==='lane'?R.lanes[s.i].name.toUpperCase():s.t==='full'?'FULL PATTERN':'HOUSE INTELLIGENCE';
+ g.fillStyle=TH.focus;g.font='700 30px "JetBrains Mono"';g.fillText(lab,X0+20,PY+76);
+ g.fillStyle=TH.ink;const L=wrap(s.txt,'500 46px "Space Grotesk"',GW-40);L.forEach((ln,i)=>g.fillText(ln,X0+20,PY+150+i*62));
+ g.globalAlpha=1;
+ // footer
+ g.fillStyle=TH.ink;g.font='700 30px "JetBrains Mono"';g.fillText('house-intelligence.pages.dev',X0,H-130);
+ g.fillStyle=TH.mute;g.font='400 22px "JetBrains Mono"';g.fillText('Sound: browser emulation of the machine, not a recording of it',X0,H-88);
+};
+window.frame=(t,q)=>{render(t);return cv.toDataURL('image/jpeg',q||0.9)};
+
+// ---------- audio (adapted from the site's Pulse engine) ----------
+window.audio=async()=>{
+ const SR=44100,ac=new OfflineAudioContext(2,Math.ceil((DUR+1)*SR),SR);
+ const comp=ac.createDynamicsCompressor();comp.threshold.value=-14;comp.ratio.value=4;const master=ac.createGain();master.gain.value=0.8;comp.connect(master).connect(ac.destination);
+ const nb=ac.createBuffer(1,SR,SR),d=nb.getChannelData(0);for(let i=0;i<SR;i++)d[i]=Math.random()*2-1;
+ const env=(gn,t,p,dec)=>{gn.gain.setValueAtTime(0.0001,t);gn.gain.exponentialRampToValueAtTime(p,t+0.003);gn.gain.exponentialRampToValueAtTime(0.0001,t+dec)};
+ const out=v=>{const x=ac.createGain();x.gain.value=v;x.connect(comp);return x};
+ const kick909=(t,v)=>{const o=ac.createOscillator(),gn=ac.createGain();o.frequency.setValueAtTime(190,t);o.frequency.exponentialRampToValueAtTime(48,t+0.12);env(gn,t,1,0.32);o.connect(gn).connect(out(v));o.start(t);o.stop(t+0.35);
+  const n=ac.createBufferSource(),ng=ac.createGain(),f=ac.createBiquadFilter();n.buffer=nb;f.type='highpass';f.frequency.value=2500;env(ng,t,0.35,0.012);n.connect(f).connect(ng).connect(out(v));n.start(t);n.stop(t+0.03)};
+ const kick808=(t,v)=>{const o=ac.createOscillator(),gn=ac.createGain();o.frequency.setValueAtTime(120,t);o.frequency.exponentialRampToValueAtTime(52,t+0.06);env(gn,t,1,0.9);o.connect(gn).connect(out(v));o.start(t);o.stop(t+0.95)};
+ const clap=(t,v,dry)=>{const n=ac.createBufferSource(),f=ac.createBiquadFilter(),gn=ac.createGain();n.buffer=nb;f.type='bandpass';f.frequency.value=dry?1500:1100;f.Q.value=1.2;gn.gain.setValueAtTime(0.0001,t);
+  [0,0.01,0.02].forEach(dd=>{gn.gain.setValueAtTime(0.5,t+dd);gn.gain.exponentialRampToValueAtTime(0.05,t+dd+0.009)});gn.gain.setValueAtTime(0.4,t+0.03);gn.gain.exponentialRampToValueAtTime(0.0001,t+(dry?0.12:0.22));n.connect(f).connect(gn).connect(out(v));n.start(t);n.stop(t+0.25)};
+ const hat=(t,v,dec,vol)=>{const n=ac.createBufferSource(),f=ac.createBiquadFilter(),gn=ac.createGain();n.buffer=nb;n.playbackRate.value=1.4;f.type='highpass';f.frequency.value=7500;env(gn,t,vol,dec);n.connect(f).connect(gn).connect(out(v));n.start(t);n.stop(t+dec+0.02)};
+ const cowbell=(t,v)=>{const f=ac.createBiquadFilter(),gn=ac.createGain();f.type='bandpass';f.frequency.value=2640;f.Q.value=1.5;env(gn,t,0.22,0.25);[540,800].forEach(fr=>{const o=ac.createOscillator();o.type='square';o.frequency.value=fr;o.connect(f);o.start(t);o.stop(t+0.3)});f.connect(gn).connect(out(v))};
+ // 303 voice
+ const ao=ac.createOscillator();ao.type='sawtooth';const af=ac.createBiquadFilter();af.type='lowpass';af.Q.value=14;af.frequency.value=200;const aa=ac.createGain();aa.gain.value=0;const ag=ac.createGain();ao.connect(af).connect(aa).connect(ag).connect(comp);ao.start(0);
+ const ln=k=>R.lanes.find(l=>l.k===k);
+ let t0=0.05;
+ for(const s of SEG){
+  for(let b=0;b<s.bars;b++)for(let i=0;i<16;i++){
+   const t=t0+s.start+b*BAR+i*STEP;
+   const vol=k=>{if(s.t!=='lane')return 1;const f=R.lanes[s.i].k;if(R.engine==='303'&&['bass','acc','sld'].includes(f)&&['bass','acc','sld'].includes(k))return 1;return f===k?1:0.12};
+   for(const l of R.lanes){if(l.p[i]!=='x')continue;const v=vol(l.k);
+    if(l.k==='kick')(R.engine==='808'?kick808:kick909)(t,v);
+    if(l.k==='clap')clap(t,v,R.engine==='808');
+    if(l.k==='ch')hat(t,v,0.035,R.engine==='808'?0.16:(i%4===2?0.22:0.13));
+    if(l.k==='oh')hat(t,v,0.18,0.17);
+    if(l.k==='cb')cowbell(t,v);}
+   if(R.engine==='303'){const N=ln('bass').notes,fi=s.t==='lane'?R.lanes[s.i].k:'all';
+    const useAcc=fi!=='bass',useSld=fi==='all'||fi==='sld'||fi==='kick';
+    const acc=useAcc&&ln('acc').p[i]==='x',sl=useSld&&ln('sld').p[i]==='x',prevSl=useSld&&ln('sld').p[(i+15)%16]==='x';
+    const fr=32.703*Math.pow(2,(N[i]+9)/12)*4;const v=vol('bass');ag.gain.setValueAtTime(v,t);
+    if(prevSl)ao.frequency.setTargetAtTime(fr,t,STEP*0.35);else ao.frequency.setValueAtTime(fr,t);
+    af.frequency.cancelScheduledValues(t);af.frequency.setValueAtTime(acc?3800:1300,t);af.frequency.exponentialRampToValueAtTime(180,t+STEP*(acc?1.4:0.9));
+    aa.gain.cancelScheduledValues(t);aa.gain.setValueAtTime(acc?0.36:0.2,t);if(!sl)aa.gain.setTargetAtTime(0,t+STEP*0.7,0.02);}
+  }}
+ const buf=await ac.startRendering();
+ // WAV 16-bit
+ const n=buf.length,ch=2,bytes=44+n*ch*2,ab=new ArrayBuffer(bytes),dv=new DataView(ab);let p=0;
+ const ws=s=>{for(const c of s)dv.setUint8(p++,c.charCodeAt(0))};ws('RIFF');dv.setUint32(p,bytes-8,true);p+=4;ws('WAVEfmt ');dv.setUint32(p,16,true);p+=4;dv.setUint16(p,1,true);p+=2;dv.setUint16(p,ch,true);p+=2;dv.setUint32(p,SR,true);p+=4;dv.setUint32(p,SR*ch*2,true);p+=4;dv.setUint16(p,ch*2,true);p+=2;dv.setUint16(p,16,true);p+=2;ws('data');dv.setUint32(p,n*ch*2,true);p+=4;
+ const L=buf.getChannelData(0),Rr=buf.getChannelData(1);for(let i=0;i<n;i++){for(const c of[L,Rr]){const x=Math.max(-1,Math.min(1,c[i]));dv.setInt16(p,x*32767,true);p+=2}}
+ let bin='';const u=new Uint8Array(ab);for(let i=0;i<u.length;i+=32768)bin+=String.fromCharCode.apply(null,u.subarray(i,i+32768));return btoa(bin)};
+</script></body></html>
