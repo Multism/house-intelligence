@@ -1,0 +1,46 @@
+# Contrôle hebdomadaire des vidéos YouTube du site (tools/check-youtube.mjs).
+# Les vidéos supprimées, privées ou non intégrables sont listées dans une issue « Vidéos YouTube à remplacer »,
+# mise à jour à chaque passage et fermée d'elle-même quand tout est réparé. Rien n'est modifié dans les données :
+# le remplacement d'une vidéo reste une vérification humaine (règle 6).
+name: Vidéos YouTube
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"   # lundi vers 7 h 17 (Paris)
+  workflow_dispatch:
+  pull_request:   # sur une PR qui touche au contrôle lui-même : rapport dans le journal, aucune issue
+    paths: [tools/check-youtube.mjs, .github/workflows/youtube-check.yml]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Vérifier les vidéos
+        id: check
+        run: |
+          set +e
+          node tools/check-youtube.mjs --md report.md
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+      - name: Ouvrir, mettre à jour ou fermer l'issue
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CODE: ${{ steps.check.outputs.code }}
+        run: |
+          TITLE="Vidéos YouTube à remplacer"
+          NUM=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number --jq '.[0].number')
+          if [ "$CODE" = "1" ]; then
+            if [ -n "$NUM" ]; then gh issue edit "$NUM" --body-file report.md; else gh issue create --title "$TITLE" --body-file report.md; fi
+          elif [ "$CODE" = "0" ] && [ -n "$NUM" ]; then
+            gh issue close "$NUM" --comment "Toutes les vidéos sont de nouveau lisibles."
+          elif [ "$CODE" = "2" ]; then
+            echo "YouTube injoignable, rien n'est changé."; exit 1
+          fi

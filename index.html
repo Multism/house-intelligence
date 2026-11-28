@@ -44,6 +44,7 @@
         <a href="#digging" data-view-link="digging" data-i18n="nav.digging">Deep Digging</a>
         <a href="#bibliotheque" data-view-link="bibliotheque" data-i18n="nav.library">Bibliothèque</a>
       </nav>
+      <button type="button" class="qs-open" id="qs-open" data-i18n-attr="aria-label=qs.aria;title=qs.aria" aria-label="Rechercher dans tout le site" title="Rechercher dans tout le site"><svg viewBox="0 0 20 20" width="15" height="15" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span data-i18n="qs.btn">Rechercher</span><kbd>⌘K</kbd></button>
       <div class="lang-switch" role="group" data-i18n-attr="aria-label=lang.aria" aria-label="Langue">
         <button type="button" data-lang="fr" aria-pressed="true" lang="fr">FR</button><button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
       </div>
@@ -225,6 +226,14 @@
         <div class="metro-bubble" id="metro-bubble" role="dialog" aria-live="polite" hidden></div></div>
       <aside class="panel metro-panel" id="metro-panel" aria-live="polite"></aside>
     </div>
+    <aside class="dig-teaser" aria-labelledby="dig-teaser-title">
+      <div class="dt-head">
+        <h2 id="dig-teaser-title" data-i18n="dig.title">Deep Digging</h2>
+        <p data-i18n="dig.teaser">Sous le plan, les catalogues : labels, alias et maxis confidentiels, chacun sourcé.</p>
+        <a class="btn sm" href="#digging" data-i18n="dig.teaserGo">Explorer les catalogues →</a>
+      </div>
+      <div class="dt-row" id="dig-teaser"></div>
+    </aside>
   </section>
 
   <section class="view disc-view" data-view="decouverte" aria-labelledby="disc-title" hidden>
@@ -247,6 +256,8 @@
     <div class="lib-tools">
       <input type="search" id="dig-search" placeholder="Artiste, alias, titre, label, catalogue…" aria-label="Chercher dans Deep Digging" data-i18n-attr="placeholder=dig.search;aria-label=dig.searchAria">
       <p class="dig-stats" id="dig-stats"></p>
+      <div class="seg" id="dig-mode" role="group" aria-label="Affichage" data-i18n-attr="aria-label=dig.modeAria"><button type="button" data-mode="grid" aria-pressed="true" data-i18n="dig.grid">Pochettes</button><button type="button" data-mode="list" aria-pressed="false" data-i18n="dig.list">Liste</button></div>
+      <p class="dig-snote" id="dig-snote" data-i18n="dig.sleeveNote">Pochettes d'archive dessinées par le site, pas les pochettes originales : la couleur suit le label, le motif le numéro de catalogue.</p>
     </div>
     <div class="lib-tools"><div class="chips" id="dig-scenes"></div></div>
     <div class="dig-list" id="dig-list"></div>
@@ -263,7 +274,15 @@
     </div>
     <div class="lib-grid" id="lib-grid"></div>
   </section>
-  </main><!-- /views -->
+  </main>
+
+  <dialog class="qs" id="qs" data-i18n-attr="aria-label=qs.aria" aria-label="Rechercher dans tout le site">
+    <div class="qs-box">
+      <input type="text" id="qs-input" role="combobox" aria-expanded="true" aria-controls="qs-list" aria-autocomplete="list" autocomplete="off" spellcheck="false" placeholder="Artiste, disque, label, station, machine…" data-i18n-attr="placeholder=qs.ph">
+      <ul id="qs-list" role="listbox" data-i18n-attr="aria-label=qs.results" aria-label="Résultats"></ul>
+      <p class="qs-foot" data-i18n="qs.foot">↑ ↓ pour choisir · Entrée pour ouvrir · Échap pour fermer</p>
+    </div>
+  </dialog><!-- /views -->
 
   <!-- FENÊTRE D'ÉCOUTE PERSISTANTE -->
   <aside class="fw" id="fw" data-size="mini" data-i18n-attr="aria-label=fw.aria" aria-label="Fenêtre d'écoute">
@@ -303,5 +322,6 @@
   <script src="i18n.js" defer></script>
   <script src="app.js" defer></script>
   <script src="metro.js" defer></script>
+  <script src="search.js" defer></script>
 </body>
 </html>
