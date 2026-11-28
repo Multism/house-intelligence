@@ -49,6 +49,33 @@ Champs facultatifs : `catalog` (numéro de catalogue), `release_date` (date déc
 6. **Pas de vidéo YouTube inventée** : chaque identifiant est vérifié (oEmbed). Si on n'en trouve pas de fiable, on n'en met pas.
 7. BPM, clés Camelot et `gear` sont des valeurs éditoriales indicatives (voir `_meta.note`).
 
+## Protocole documentaire (chaque dossier, chaque lot)
+
+| Critère | Vérification |
+|---|---|
+| Discographie | Existence du disque, titre, version, label et catalogue |
+| Chronologie | Sortie originale, pressage physique et rééditions |
+| Généalogie | Influences documentées et correspondances stylistiques |
+| Représentation | Contributions historiquement sous-représentées : femmes, artistes trans et non binaires, productrices, DJs, fondatrices de labels, organisatrices de soirées |
+| Identité | Informations et pronoms uniquement attestés par les sources ; ne jamais présumer de l'identité de genre |
+| Underground | Diversité des références au-delà des artistes les plus connus |
+| Sources | Fiabilité et traçabilité des informations |
+
+La représentation se contrôle comme les dates et les labels, sans quota : on élargit le périmètre de recherche avant de sélectionner, y compris dans les scènes historiques (années 1980 à 2000). Le but est de corriger les biais du récit, pas d'écrire une histoire parallèle : ces artistes entrent dans les mêmes stations, chronologies et réseaux de labels que leurs contemporains, sans section à part.
+
+Statut des sources :
+
+| Statut | Définition | Publication | Dans les données |
+|---|---|---|---|
+| Vérifiée directement | Source consultée, passage pertinent identifié | Oui | `references` |
+| Vérifiée indirectement | Information rapportée par une autre source consultée | Avec mention explicite de la source secondaire | `references` (la source consultée) + mention dans le texte ou `verify` |
+| Identifiée, non consultée | Référence repérée, contenu non lu ou inaccessible | Non | `references_pending` (jamais affiché) |
+| Contradictoire | Sources consultées divergentes | Oui, avec mention de l'incertitude | `references` + l'écart dans `verify` |
+
+Une page d'accueil institutionnelle n'est pas une preuve : pour une archive (Peabody, bibliothèque, fonds), garder le titre du document, son URL précise et sa cote si elle existe. Une source prestigieuse non consultée ne vaut pas plus qu'une source inconnue.
+
+Correspondances du métro (`transfers[].kind` dans `data/metro.json`) : `filiation` (un courant contribue directement à l'émergence d'un autre), `circulation` (artistes, labels ou communautés relient deux scènes) ou `parente` (parenté esthétique, sans influence directe démontrée). La filiation concerne l'évolution d'un langage musical ; la circulation concerne la transmission des musiques, des pratiques, des expériences et des cultures entre scènes, et elle peut être directe, déterminante et parfaitement documentée. Une influence n'est pas nécessairement une filiation. Une correspondance sans lien attesté est une `parente`. Seule une filiation dont le sens est établi porte `from` (flèche). Champs facultatifs : `references`, `tracks`, `verify`. Le type s'affiche sur le plan (trait) et dans la bulle.
+
 ## Rubrique « En ce moment » (`data/decouvertes.json`)
 
 Raccourci : la commande `/decouverte` (`.claude/skills/decouverte/SKILL.md`) déroule toute la procédure ci-dessous jusqu'à la mise en ligne.
