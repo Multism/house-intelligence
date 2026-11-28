@@ -225,6 +225,14 @@
         <div class="metro-bubble" id="metro-bubble" role="dialog" aria-live="polite" hidden></div></div>
       <aside class="panel metro-panel" id="metro-panel" aria-live="polite"></aside>
     </div>
+    <aside class="dig-teaser" aria-labelledby="dig-teaser-title">
+      <div class="dt-head">
+        <h2 id="dig-teaser-title" data-i18n="dig.title">Deep Digging</h2>
+        <p data-i18n="dig.teaser">Sous le plan, les catalogues : labels, alias et maxis confidentiels, chacun sourcé.</p>
+        <a class="btn sm" href="#digging" data-i18n="dig.teaserGo">Explorer les catalogues →</a>
+      </div>
+      <div class="dt-row" id="dig-teaser"></div>
+    </aside>
   </section>
 
   <section class="view disc-view" data-view="decouverte" aria-labelledby="disc-title" hidden>
@@ -247,6 +255,8 @@
     <div class="lib-tools">
       <input type="search" id="dig-search" placeholder="Artiste, alias, titre, label, catalogue…" aria-label="Chercher dans Deep Digging" data-i18n-attr="placeholder=dig.search;aria-label=dig.searchAria">
       <p class="dig-stats" id="dig-stats"></p>
+      <div class="seg" id="dig-mode" role="group" aria-label="Affichage" data-i18n-attr="aria-label=dig.modeAria"><button type="button" data-mode="grid" aria-pressed="true" data-i18n="dig.grid">Pochettes</button><button type="button" data-mode="list" aria-pressed="false" data-i18n="dig.list">Liste</button></div>
+      <p class="dig-snote" id="dig-snote" data-i18n="dig.sleeveNote">Pochettes d'archive dessinées par le site, pas les pochettes originales : la couleur suit le label, le motif le numéro de catalogue.</p>
     </div>
     <div class="lib-tools"><div class="chips" id="dig-scenes"></div></div>
     <div class="dig-list" id="dig-list"></div>

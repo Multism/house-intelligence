@@ -723,6 +723,7 @@
     $("#fw-open").addEventListener("click", () => { if (!Player.current) return; if (!S.byId[Player.current]) { location.hash = "#decouverte"; return; } location.hash = "#" + Player.current; if (S.current?.id !== Player.current) load(Player.current, "fiche"); showView("booth"); $("#now-playing").scrollIntoView({ behavior: "smooth", block: "center" }); });
     $("#lib-search").addEventListener("input", () => renderLibrary());
     $("#dig-search").addEventListener("input", (e) => { DIG.q = e.target.value; renderDigging(); });
+    for (const b of document.querySelectorAll("#dig-mode button")) b.addEventListener("click", () => { DIG.mode = b.dataset.mode; store.set("hi.digMode", DIG.mode); renderDigging(); });
     $("#btn-play").addEventListener("click", () => Pulse.toggle());
     $("#engine-seg").addEventListener("click", (e) => { const b = e.target.closest("button"); if (b) setEngine(b.dataset.engine); });
     $("#engine-seg").addEventListener("keydown", (e) => {
@@ -913,6 +914,7 @@
     if (v === "bibliotheque") renderLibrary();
     if (v === "decouverte") renderDiscovery();
     if (v === "digging") renderDigging();
+    if (v === "metro") renderDigTeaser();
     window.dispatchEvent(new CustomEvent("hi:view", { detail: v }));
     if (focus) { $("#views").focus({ preventScroll: true }); window.scrollTo({ top: 0 }); }
   }
@@ -1031,7 +1033,7 @@
   // ---------- DEEP DIGGING (catalogues, labels, alias) ----------
   // data/digging.json : fiches légères + métadonnées de labels et d'artistes (vrais noms, alias).
   // Les disques du Booth sont rangés sous leur label avec les fiches légères.
-  const DIG = { scene: "all", q: "" };
+  const DIG = { scene: "all", q: "", mode: store.get("hi.digMode", "grid") === "list" ? "list" : "grid" };
   async function loadDigging() {
     const d = await loadJson("digging");
     S.dig = { entries: (d?.entries || []).filter((e) => e.id && e.artist && e.title && e.label), labels: d?.labels || [], artists: d?.artists || [] };
@@ -1057,6 +1059,61 @@
       groups.length ? _t("dig.memberOf", { g: groups.join(", ") }) : null,
     ].filter(Boolean).join(", ");
   }
+  // Pochette d'archive générée : aucune image extérieure, rien d'incertain. La teinte suit le label
+  // (tous les disques d'un label se ressemblent), le motif varie avec le catalogue.
+  const hash = (s) => { let x = 2166136261; for (const c of String(s)) x = Math.imul(x ^ c.codePointAt(0), 16777619); return x >>> 0; };
+  function sleeve(r) {
+    const hl = hash(norm(r.label.trim())), hr = hash(r.catalog || r.id);
+    const motifs = ["ring", "bands", "grid", "type", "split"];
+    return h("div", { class: `sleeve m-${motifs[hr % motifs.length]}`, style: `--sh:${hl % 360};--sa:${28 + (hl >> 9) % 30}%`, "aria-hidden": "true" },
+      h("span", { class: "sl-label" }, r.label),
+      h("span", { class: "sl-cat" }, r.catalog || ""),
+      h("span", { class: "sl-hole" }, h("span", { class: "sl-center" }, h("span", {}, r.artist))),
+      h("span", { class: "sl-year" }, r.year || ""));
+  }
+  const digPlayId = (r) => r.kind === "booth" ? (r.t.youtube?.length ? r.id : null) : S.disc["g:" + r.id] ? "g:" + r.id : null;
+  // Détails d'un disque, partagés par la vue liste et la fiche ouverte depuis la grille
+  function digDetails(r, inModal) {
+    const sc = r.scene && S.sceneById[r.scene];
+    const who = artistInfo(r.artist).map(artistLine);
+    const close = () => { if (inModal) $("#modal").close(); };
+    return [
+      who.length ? h("p", { class: "dig-who" }, who.join(" · ")) : null,
+      r.tracks?.length ? h("p", { class: "dig-tracks" }, r.tracks.join(" / ")) : null,
+      _f(r, "note") ? h("p", { class: "dig-note" }, _f(r, "note")) : null,
+      h("div", { class: "links" },
+        r.kind === "booth" ? h("a", { class: "chip", href: "#" + r.id, onclick: close }, _t("dig.booth")) : null,
+        sc ? h("button", { class: "chip", onclick: () => { close(); DIG.scene = sc.id; renderDigging(); } }, _f(sc, "name")) : null,
+        ...(r.kind === "dig" ? (r.references || []).slice(0, 2).map((u) => h("a", { class: "chip", href: u, target: "_blank", rel: "noopener" }, _t("dig.source") + " · " + new URL(u).hostname.replace(/^www\./, "").replace(/^[a-z]{2}\.(?=[^.]+\.[^.]+$)/, ""))) : []),
+        r.verify?.length ? h("span", { class: "warn-b" }, _t("dig.verify")) : null)];
+  }
+  function openDig(r) {
+    const pid = digPlayId(r), meta = S.dig.labelByName[r.label.trim().toLowerCase()];
+    const date = r.release_date && r.release_date !== String(r.year) ? r.release_date : r.year;
+    openModal(h("div", { class: "dig-modal" },
+      h("div", { class: "dig-mhead" }, sleeve(r),
+        h("div", {},
+          h("h3", {}, r.title),
+          h("p", { class: "dig-martist" }, r.artist),
+          h("p", { class: "meta" }, [r.label, r.catalog, date, r.format].filter(Boolean).join(" · ")),
+          meta && (_f(meta, "city") || _f(meta, "desc")) ? h("p", { class: "dig-ldesc" }, [_f(meta, "city"), _f(meta, "desc")].filter(Boolean).join(" · ")) : null,
+          h("div", { class: "links" },
+            pid ? h("button", { class: "btn sm listen", onclick: () => Player.play(pid) }, _t("dig.listen")) : null,
+            h("button", { class: "btn sm ghost", onclick: () => { $("#modal").close(); digFilter(r.label.trim()); } }, _t("dig.allLabel", { l: r.label.trim() }))))),
+      h("div", { class: "dig-mbody" }, ...digDetails(r, true))));
+  }
+  function digFilter(q) {
+    DIG.q = q; DIG.scene = "all"; $("#dig-search").value = q; renderDigging();
+    $("#dig-search").scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+  // Vitrine sous le plan du métro : huit labels différents, tirés au sort chaque jour
+  function renderDigTeaser() {
+    const row = $("#dig-teaser"); if (!S.dig || !row || row.childElementCount) return;
+    const day = new Date().toISOString().slice(0, 10), seen = new Set();
+    const pick = digRows().sort((a, b) => hash(day + a.id) - hash(day + b.id))
+      .filter((r) => { const k = norm(r.label.trim()); if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, 8);
+    row.replaceChildren(...pick.map((r) => h("button", { class: "dig-cover", onclick: () => openDig(r), "aria-label": _t("dig.open", { a: r.artist, t: r.title }), title: `${r.artist} — ${r.title}` }, sleeve(r))));
+  }
   function renderDigging() {
     if (!S.dig) return;
     const all = digRows();
@@ -1064,6 +1121,7 @@
     $("#dig-scenes").replaceChildren(...[["all", _t("dig.all")], ...scenes.map((sc) => [sc.id, _f(sc, "name")])].map(([k, l]) =>
       h("button", { class: "chip", "aria-pressed": DIG.scene === k ? "true" : "false", onclick: () => { DIG.scene = k; renderDigging(); } },
         l, h("span", { class: "n" }, k === "all" ? all.length : all.filter((r) => r.scene === k).length))));
+    for (const b of document.querySelectorAll("#dig-mode button")) b.setAttribute("aria-pressed", b.dataset.mode === DIG.mode ? "true" : "false");
     const q = norm(DIG.q);
     const hay = (r) => norm([r.artist, r.title, r.label, r.catalog, r.year, ...(r.tracks || []),
       ...artistInfo(r.artist).flatMap((a) => [a.real_name, ...(a.aliases || []), ...(a.members || []).flatMap((m) => [m, ...artistInfo(m).map((x) => x.real_name)])])].join(" "));
@@ -1071,33 +1129,45 @@
     const groups = new Map();
     for (const r of rows) { const k = r.label.trim(); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(r); }
     const labels = [...groups.keys()].sort((a, b) => groups.get(b).length - groups.get(a).length || a.localeCompare(b));
+    for (const k of labels) groups.get(k).sort((a, b) => (a.release_date || String(a.year)).localeCompare(b.release_date || String(b.year)));
     $("#dig-stats").textContent = _t("dig.stats", { l: labels.length, n: rows.length, b: rows.filter((r) => r.kind === "booth").length });
-    $("#dig-list").replaceChildren(...(labels.length ? labels.map((name) => {
+    const list = $("#dig-list");
+    list.classList.toggle("is-grid", DIG.mode === "grid");
+    $("#dig-snote").hidden = DIG.mode !== "grid";
+    if (!labels.length) { list.replaceChildren(h("p", { class: "empty" }, _t("dig.empty"))); return; }
+    if (DIG.mode === "grid") {
+      // Grille de pochettes : les disques d'un même label restent côte à côte, du plus fourni au plus rare
+      const flat = labels.flatMap((k) => groups.get(k));
+      const queue = flat.map(digPlayId).filter(Boolean);
+      list.replaceChildren(...flat.map((r) => {
+        const pid = digPlayId(r);
+        return h("article", { class: "dig-card" + (r.kind === "booth" ? " is-booth" : "") },
+          h("div", { class: "dig-art" },
+            h("button", { class: "dig-cover", onclick: () => openDig(r), "aria-label": _t("dig.open", { a: r.artist, t: r.title }) }, sleeve(r)),
+            pid ? playBtn(pid, queue) : null),
+          h("div", { class: "dig-cap" },
+            h("b", {}, r.artist), h("span", { class: "dig-title" }, r.title),
+            h("button", { class: "dig-lab", onclick: () => digFilter(r.label.trim()), title: _t("dig.allLabel", { l: r.label.trim() }) },
+              r.label.trim(), r.catalog ? " · " + r.catalog : "")));
+      }));
+      markPlaying(); return;
+    }
+    list.replaceChildren(...labels.map((name) => {
       const meta = S.dig.labelByName[name.toLowerCase()];
-      const list = groups.get(name).sort((a, b) => (a.release_date || String(a.year)).localeCompare(b.release_date || String(b.year)));
       return h("section", { class: "dig-label" },
-        h("h2", {}, name, h("span", { class: "n" }, list.length)),
+        h("h2", {}, name, h("span", { class: "n" }, groups.get(name).length)),
         meta && (_f(meta, "city") || _f(meta, "desc")) ? h("p", { class: "dig-ldesc" }, [_f(meta, "city"), _f(meta, "desc")].filter(Boolean).join(" · ")) : null,
-        h("ol", { class: "dig-rows" }, ...list.map((r) => {
-          const pid = r.kind === "booth" ? (r.t.youtube?.length ? r.id : null) : S.disc["g:" + r.id] ? "g:" + r.id : null;
-          const sc = r.scene && S.sceneById[r.scene];
-          const who = artistInfo(r.artist).map(artistLine);
+        h("ol", { class: "dig-rows" }, ...groups.get(name).map((r) => {
+          const pid = digPlayId(r);
           return h("li", { class: "dig-row" + (r.kind === "booth" ? " is-booth" : "") },
             h("span", { class: "dig-year" }, r.year),
             h("div", { class: "dig-main" },
               h("div", { class: "dig-head" }, pid ? playBtn(pid) : null,
                 h("b", {}, r.artist), " — ", h("span", { class: "dig-title" }, r.title),
                 r.catalog ? h("small", { class: "dig-cat" }, r.catalog) : null),
-              who.length ? h("p", { class: "dig-who" }, who.join(" · ")) : null,
-              r.tracks?.length ? h("p", { class: "dig-tracks" }, r.tracks.join(" / ")) : null,
-              _f(r, "note") ? h("p", { class: "dig-note" }, _f(r, "note")) : null,
-              h("div", { class: "links" },
-                r.kind === "booth" ? h("a", { class: "chip", href: "#" + r.id }, _t("dig.booth")) : null,
-                sc ? h("button", { class: "chip", onclick: () => { DIG.scene = sc.id; renderDigging(); } }, _f(sc, "name")) : null,
-                ...(r.kind === "dig" ? (r.references || []).slice(0, 2).map((u) => h("a", { class: "chip", href: u, target: "_blank", rel: "noopener" }, _t("dig.source") + " · " + new URL(u).hostname.replace(/^www\./, "").replace(/^[a-z]{2}\.(?=[^.]+\.[^.]+$)/, ""))) : []),
-                r.verify?.length ? h("span", { class: "warn-b" }, _t("dig.verify")) : null)));
+              ...digDetails(r, false)));
         })));
-    }) : [h("p", { class: "empty" }, _t("dig.empty"))]));
+    }));
     markPlaying();
   }
 

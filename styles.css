@@ -723,6 +723,69 @@ body { padding-bottom: 0; }
 .dig-main .links .chip { font-size: 11px; }
 .dig-main .warn-b { font: 10.5px var(--mono); color: #ffb627; align-self: center; }
 @media (max-width: 700px) { .dig-view .lib-tools, .dig-list { margin-left: 16px; margin-right: 16px; } }
+/* Deep Digging en grille : pochettes d'archive générées (teinte = label, motif = catalogue), aucune image extérieure */
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.dig-list.is-grid { grid-template-columns: repeat(auto-fill, minmax(min(46%, 168px), 1fr)); gap: 22px 16px; }
+.dig-card { position: relative; min-width: 0; }
+.dig-cover { display: block; width: 100%; padding: 0; border: 0; background: none; border-radius: 3px; cursor: pointer; }
+.dig-cover:hover .sleeve, .dig-cover:focus-visible .sleeve { transform: translateY(-3px) rotate(-.6deg); box-shadow: 0 14px 28px rgba(0,0,0,.55); }
+.dig-art { position: relative; }
+.dig-art .play-mini { position: absolute; right: 8px; bottom: 8px; z-index: 3; background: rgba(13,12,11,.85); }
+.dig-card .dig-cap { margin-top: 8px; display: flex; flex-direction: column; gap: 1px; font-size: 13px; line-height: 1.3; }
+.dig-card .dig-cap b { font-weight: 600; overflow-wrap: anywhere; }
+.dig-card .dig-title { color: var(--ink-2); overflow-wrap: anywhere; }
+.dig-lab { all: unset; cursor: pointer; margin-top: 3px; font: 10.5px/1.4 var(--mono); color: var(--ink-3); text-transform: uppercase; letter-spacing: .04em; overflow-wrap: anywhere; }
+.dig-lab:hover, .dig-lab:focus-visible { color: var(--ink); text-decoration: underline; }
+.dig-snote { flex-basis: 100%; margin: -4px 0 0; font-size: 12px; color: var(--ink-3); }
+@media (max-width: 700px) {
+  #dig-scenes { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-bottom: 4px; margin-right: -16px; padding-right: 16px; }
+  #dig-scenes .chip { flex: none; }
+}
+
+.sleeve {
+  --base: hsl(var(--sh) var(--sa) 22%); --tone: hsl(var(--sh) calc(var(--sa) + 20%) 58%); --pale: hsl(var(--sh) 30% 86%);
+  position: relative; display: block; aspect-ratio: 1; overflow: hidden; border-radius: 3px; background: var(--base);
+  box-shadow: 0 6px 16px rgba(0,0,0,.4), inset 0 0 0 1px rgba(255,255,255,.06); transition: transform .2s, box-shadow .2s;
+  font: 600 10px/1.15 var(--mono); color: var(--pale); text-transform: uppercase; letter-spacing: .06em; text-align: left;
+}
+.sleeve::before { content: ""; position: absolute; inset: 0; pointer-events: none; }
+.sleeve::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(135deg, rgba(255,255,255,.08), transparent 40%, rgba(0,0,0,.25)); }
+.sl-label { position: absolute; left: 9%; top: 8%; right: 34%; z-index: 2; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.sl-cat { position: absolute; right: 8%; top: 8%; z-index: 2; max-width: 34%; text-align: right; font-weight: 400; opacity: .85; overflow-wrap: anywhere; }
+.sl-year { position: absolute; left: 9%; bottom: 8%; z-index: 2; font-weight: 400; opacity: .85; }
+.sl-hole { position: absolute; left: 50%; top: 52%; width: 50%; aspect-ratio: 1; transform: translate(-50%, -50%); border-radius: 50%; z-index: 1;
+  background: radial-gradient(circle, #0b0a09 0 63%, transparent 63.5%), repeating-radial-gradient(circle, #141210 0 1px, #0b0a09 1px 2.5px);
+  box-shadow: inset 0 0 0 2px rgba(0,0,0,.5), 0 0 0 3px var(--base); }
+.sl-center { position: absolute; inset: 22%; border-radius: 50%; background: var(--tone); color: #111; display: grid; place-items: center; padding: 8%;
+  font: 700 clamp(5.5px, .62vw, 8px)/1.1 var(--mono); text-align: center; letter-spacing: -.02em; overflow: hidden; }
+.sl-center span { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; max-width: 100%; }
+/* motifs */
+.m-ring::before { background: repeating-radial-gradient(circle at 50% 52%, transparent 0 14px, rgba(255,255,255,.05) 14px 15px); }
+.m-bands::before { background: linear-gradient(transparent 70%, var(--tone) 70% 76%, transparent 76% 80%, var(--tone) 80% 82%, transparent 82%); opacity: .7; }
+.m-grid::before { background-image: linear-gradient(rgba(255,255,255,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.07) 1px, transparent 1px); background-size: 12.5% 12.5%; }
+.m-type .sl-cat { left: 9%; right: auto; top: auto; bottom: 6%; max-width: 82%; text-align: left; font: 700 clamp(18px, 3vw, 30px)/.9 var(--mono); letter-spacing: -.02em; color: var(--tone); opacity: 1; }
+.m-type .sl-year { left: auto; right: 8%; top: 8%; bottom: auto; }
+.m-type .sl-hole { top: 44%; width: 40%; }
+.m-split { background: linear-gradient(90deg, var(--base) 50%, hsl(var(--sh) var(--sa) 30%) 50%); }
+.m-split::before { background: linear-gradient(var(--tone), var(--tone)) 50% 0 / 2px 100% no-repeat; opacity: .5; }
+
+.dig-teaser { margin: 0 24px 30px; padding: 18px 0 0; border-top: 1px solid var(--line); display: grid; grid-template-columns: minmax(220px, 300px) 1fr; gap: 24px; align-items: center; }
+.dt-head h2 { margin: 0 0 6px; font: 400 32px/1 var(--serif); }
+.dt-head p { margin: 0 0 12px; color: var(--ink-2); font-size: 14px; }
+.dt-row { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 12px; }
+.dt-row .sleeve { font-size: 8px; }
+.dt-head a.btn { display: inline-flex; align-items: center; color: var(--ink); text-decoration: none; }
+.dt-row .sl-center span { display: none; }
+@media (max-width: 1100px) { .dig-teaser { grid-template-columns: 1fr; } }
+@media (max-width: 700px) { .dig-teaser { margin: 0 16px calc(var(--fw-space, 0px) + 24px); } .dt-row { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; } .dt-row > :nth-child(n+5), .dt-row .sl-cat { display: none; } }
+.dig-modal .dig-mhead { display: grid; grid-template-columns: 180px 1fr; gap: 20px; align-items: start; }
+.dig-modal .dig-mhead .sleeve { font-size: 9px; }
+.dig-modal .dig-mhead .sl-center { font-size: 7.5px; }
+.dig-martist { font: 600 15px var(--sans, inherit) !important; margin: 2px 0 8px !important; }
+.dig-modal .dig-mbody { margin-top: 18px; }
+.dig-modal .dig-mbody p { font: 14px/1.5 var(--sans); }
+@media (max-width: 560px) { .dig-modal .dig-mhead { grid-template-columns: 110px 1fr; gap: 14px; } .dig-modal h3 { font-size: 26px; } }
+
 
 /* Statut documentaire de la fiche et valeurs estimées */
 .badge .est { cursor: help; }
