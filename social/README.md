@@ -47,3 +47,14 @@ Jamais dans le dépôt.
 
 - L'API ne permet pas d'ajouter une musique Instagram : pour un post avec musique, publier à la main.
 - 1 à 10 images JPEG par post, légende de 2 200 caractères et 30 hashtags au plus, 100 publications par 24 h.
+
+## Reels « séquenceur » (machines)
+
+Vidéos verticales de 23 s environ, avec le son : une machine (TR-909, TR-808, TB-303…), un motif de 16 pas,
+le motif complet puis chaque ligne isolée avec une phrase d'explication. Style sombre « fiche d'archive » (choisi le 28/11/2026).
+
+- Données : `social/reels.json` (textes en anglais, `status`, `verify`). Gabarit : `tools/reel.html`.
+- Rendu : `node tools/reels.mjs [slug] [--stills]` → `social/reels/<slug>.mp4` (non versionné). Nécessite Playwright et ffmpeg.
+- Le son est une émulation (moteur Pulse du site), l'écran le dit. Les textes décrivent le fonctionnement des machines ;
+  aucune attribution machine → disque sans source. Les points de `verify` sont levés avant toute publication.
+- Pas encore de publication automatique : ce format vient en plus de la file, après validation.
