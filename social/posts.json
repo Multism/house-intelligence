@@ -785,10 +785,13 @@
       "decouverte": "chiarello-basta-now",
       "channel": "coup-de-coeur",
       "variant": 1,
-      "status": "approved",
+      "status": "published",
       "not_before": "2026-11-27",
       "source_hash": "71b3d12f6521",
-      "note": "Généré automatiquement depuis data/decouvertes.json ; publié sans validation (accord de Vovotte du 27/11/2026)."
+      "note": "Généré automatiquement depuis data/decouvertes.json ; publié sans validation (accord de Vovotte du 27/11/2026).",
+      "published_at": "2026-11-28T00:41:28.941Z",
+      "ig_media_id": "18119242286039368",
+      "permalink": "https://www.instagram.com/p/DgQ_bAEFcN5/"
     }
   ]
 }
