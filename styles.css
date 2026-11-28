@@ -711,3 +711,10 @@ body { padding-bottom: 0; }
 .dig-main .links .chip { font-size: 11px; }
 .dig-main .warn-b { font: 10.5px var(--mono); color: #ffb627; align-self: center; }
 @media (max-width: 700px) { .dig-view .lib-tools, .dig-list { margin-left: 16px; margin-right: 16px; } }
+
+/* sous-titres français des titres d'interface anglais (vides en anglais) */
+.sub-fr { margin-left: 6px; font: 400 11px var(--mono); letter-spacing: .04em; text-transform: none; color: var(--ink-3); }
+.sub-fr:empty { display: none; }
+.memory .panel-head .count { margin-right: auto; margin-left: 8px; }
+.panel-head h2 .sub-fr { display: block; margin: 5px 0 0; line-height: 1.2; white-space: nowrap; }
+.memory .panel-head .count { white-space: nowrap; }
