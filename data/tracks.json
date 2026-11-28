@@ -1105,7 +1105,7 @@
       ],
       "construction": "Un kick house à quatre temps, des stabs de cuivres samplés et un flow rap qui exhorte la piste. Le MC remplace la diva, l'injonction remplace la supplique.",
       "producer_origins": "Fast Eddie Smith, DJ de la Hot Mix 5 de WBMX, vient de la radio et du mix. Le hip-house est une tentative de faire dialoguer les deux cultures noires dominantes de Chicago.",
-      "club_sociology": "Fin des années 80, les labels de Chicago (DJ International, Trax) cherchent un second souffle commercial. Le hip-house est un format crossover destiné aux charts et aux clubs hétéros.",
+      "club_sociology": "Fin des années 80, les labels de Chicago (DJ International, Trax) cherchent un second souffle commercial, et les majors soutiennent le hip-house. Le disque entre dans les ventes britanniques en mars 1989 (54e place).",
       "queer_ballroom_axis": "Le hip-house s'appuie sur la masculinité du rap pour élargir l'audience de la house au-delà de ses publics queer. On peut y lire une tentative de « dé-queeriser » le son de Chicago, même si la frontière reste poreuse.",
       "archive_ref": {
         "source": "history-of-house",
@@ -1133,10 +1133,20 @@
       ],
       "construction_en": "A four-to-the-floor house kick, sampled horn stabs and a rap flow that exhorts the floor. The MC replaces the diva; command replaces supplication.",
       "producer_origins_en": "Fast Eddie Smith, a DJ in WBMX's Hot Mix 5, came from radio and mixing. Hip-house was an attempt to put Chicago's two dominant Black musics in dialogue.",
-      "club_sociology_en": "In the late 80s Chicago labels (DJ International, Trax) were looking for a second commercial wind. Hip-house was a crossover format aimed at the charts and straight clubs.",
+      "club_sociology_en": "In the late '80s Chicago labels (DJ International, Trax) were looking for a commercial second wind, and major labels backed hip-house. The record entered the UK singles chart in March 1989 (number 54).",
       "queer_ballroom_axis_en": "Hip-house leaned on rap's masculinity to widen house's audience beyond its queer crowds. You can read it as an attempt to \"de-queer\" the Chicago sound, even if the border stayed porous.",
       "why_this_record_en": "A precious document of how house negotiated its identity in the face of hip-hop.",
-      "verified": false
+      "verified": false,
+      "catalog": "DJIN7",
+      "references": [
+        "https://www.officialcharts.com/songs/dj-fast-eddie-yo-yo-get-funky/"
+      ],
+      "verify": [
+        "Fast Eddie membre des Hot Mix 5 de WBMX : non lu dans les sources consultées",
+        "Instrumentation (TR-808, cuivres samplés) : non documentée",
+        "Fast Eddie dit avoir inventé le hip-house en 1987 : rapporté par un blog (12edit), à recouper",
+        "Lecture du hip-house comme « dé-queerisation » : interprétation éditoriale à sourcer"
+      ]
     },
     {
       "id": "ill-house-you",
@@ -1153,11 +1163,12 @@
       "camelot_key": "2A",
       "energy": 7,
       "gear": [
-        "sp-1200"
+        "Échantillonneur",
+        "Boîte à rythmes"
       ],
-      "construction": "Le groupe rappe sur l'instrumental de « Can You Party » de Royal House, produit par Todd Terry. C'est un collage sampler typique de Terry : des boucles brutes et du kick, sans ornement.",
-      "producer_origins": "Les Jungle Brothers, membres du collectif Native Tongues, ont une approche afrocentrée et ludique du rap. Todd Terry, venu du hip-hop, applique la logique du sampler à la house.",
-      "club_sociology": "Le morceau passe dans les clubs house comme sur les radios rap new-yorkaises, preuve que les deux scènes partageaient les mêmes quartiers et les mêmes DJs avant que l'industrie ne les sépare.",
+      "construction": "Le groupe rappe sur « Can You Party » de Royal House, produit par Todd Terry et largement samplé : des boucles brutes et du kick, sans ornement.",
+      "producer_origins": "Les Jungle Brothers sont parmi les fondateurs du collectif Native Tongues, à l'approche afrocentrée et ludique du rap. Todd Terry, qui produisait du hip-hop avant la house, applique la logique du sample à la house.",
+      "club_sociology": "À l'été 1988, les DJs house de New York le jouent dans les clubs de tous les quartiers : les deux scènes partagent alors les mêmes quartiers et les mêmes disques.",
       "queer_ballroom_axis": "Venus du hip-hop « conscient », les Native Tongues se montrent plus ouverts que le mainstream rap de l'époque. Le morceau reste toutefois adressé à un public hétéro et marque l'entrée du rap dans les clubs.",
       "archive_ref": {
         "source": "last-night-dj",
@@ -1182,12 +1193,26 @@
       "further_reading": [
         "soul-underground"
       ],
-      "construction_en": "The group raps over the instrumental of Royal House's \"Can You Party\", produced by Todd Terry. A typical Terry sampler collage: raw loops and kick, no ornament.",
-      "producer_origins_en": "The Jungle Brothers, members of the Native Tongues collective, took an Afrocentric, playful approach to rap. Todd Terry, who came up through hip-hop, applied sampler logic to house.",
-      "club_sociology_en": "The track played in house clubs and on New York rap radio alike, proof that both scenes shared the same neighbourhoods and DJs before the industry pulled them apart.",
+      "construction_en": "The group raps over Royal House's \"Can You Party\", produced by Todd Terry and heavily sampled: raw loops and kick drum, no frills.",
+      "producer_origins_en": "The Jungle Brothers were founding members of the Native Tongues collective, with an Afrocentric, playful approach to rap. Todd Terry, who produced hip-hop before house, brought sampling logic to house.",
+      "club_sociology_en": "In summer 1988 New York's house DJs played it in clubs across the boroughs: the two scenes then shared the same neighbourhoods and the same records.",
       "queer_ballroom_axis_en": "Coming from \"conscious\" hip-hop, the Native Tongues were more open than the rap mainstream of the time. Still, the record speaks to a straight audience and marks rap's entry into the clubs.",
       "why_this_record_en": "New York's take on hip-house: more sampler than drum machine.",
-      "verified": false
+      "verified": false,
+      "gear_en": [
+        "Sampler",
+        "Drum machine"
+      ],
+      "references": [
+        "https://djtropicaldisco.com/how-ill-house-you-by-the-jungle-brothers-came-to-be/",
+        "https://www.babystepmagazine.com/single-post/2020/01/28/the-blue-print-interview-with-jungle-brothers-about-ill-house-you",
+        "https://en.wikipedia.org/wiki/Todd_Terry"
+      ],
+      "verify": [
+        "Label : Idlers selon DJ Tropical Disco, Warlock cité comme distributeur (la fiche indique Warlock)",
+        "SP-1200 : aucun modèle d'échantillonneur nommé dans les sources lues, retiré",
+        "Diffusion sur les radios rap new-yorkaises : non lue pour ce disque"
+      ]
     },
     {
       "id": "strings-of-life",
@@ -5501,17 +5526,23 @@
       "genre": "acid",
       "era": "era-2",
       "gear": [
-        "tb-303"
+        "tb-303",
+        "tb-303 (deuxième)",
+        "tr-909",
+        "Pédale de distorsion DOD"
       ],
       "gear_en": [
-        "tb-303"
+        "tb-303",
+        "tb-303 (second)",
+        "tr-909",
+        "DOD distortion pedal"
       ],
-      "construction": "Une seule ligne de 303 dont le filtre monte sans jamais redescendre, sur un kick sec : la tension est le sujet du disque. Il rappelle Acid Tracks de Phuture huit ans plus tard.",
-      "construction_en": "A single 303 line whose filter keeps climbing, over a dry kick: tension is the subject of the record. It recalls Phuture's Acid Tracks eight years on.",
-      "producer_origins": "Josh Wink vient de Philadelphie, où il cofonde le label Ovum avec King Britt. Le morceau sort d'abord en mars 1995 sur Strictly Rhythm, à New York : il remet l'acid au premier plan quand la house vocale domine.",
-      "producer_origins_en": "Josh Wink comes from Philadelphia, where he co-founded the Ovum label with King Britt. The track first came out in March 1995 on New York's Strictly Rhythm, putting acid back in the spotlight while vocal house dominated.",
-      "club_sociology": "Le disque est un tube de club mondial en 1995, y compris au Royaume-Uni, où la mémoire acid de 1988 est encore vive.",
-      "club_sociology_en": "The record was a worldwide club hit in 1995, including in the UK where the 1988 acid memory was still alive.",
+      "construction": "Deux TB-303, une TR-909 et une pédale de distorsion DOD : une ligne acid qui s'insinue et monte en tension sur un kick sec. La tension est le sujet du disque, qui rappelle Acid Tracks de Phuture huit ans plus tard.",
+      "construction_en": "Two TB-303s, a TR-909 and a DOD distortion pedal: a creeping acid line building tension over a dry kick. Tension is the record's subject, echoing Phuture's Acid Tracks eight years on.",
+      "producer_origins": "Josh Wink, né à Philadelphie, y fonde le label Ovum avec King Britt. Achevé en 1994, le morceau sort en mars 1995 sur Strictly Rhythm, à New York, crédité parfois au seul nom de Wink : il remet l'acid au premier plan quand la house vocale domine.",
+      "producer_origins_en": "Josh Wink, born in Philadelphia, founded the Ovum label there with King Britt. Finished in 1994, the track came out in March 1995 on Strictly Rhythm in New York, sometimes credited simply to Wink: it brought acid back to the fore when vocal house dominated.",
+      "club_sociology": "Le disque est un tube de club mondial en 1995 : numéro 8 des ventes et numéro 1 des charts dance au Royaume-Uni en octobre 1995 (sortie Manifesto), où la mémoire acid de 1988 est encore vive.",
+      "club_sociology_en": "A worldwide club hit in 1995: number 8 on the UK singles chart and number one on the UK dance chart in October 1995 (Manifesto release), where the memory of 1988 acid was still vivid.",
       "queer_ballroom_axis": "Comme pour Acid Tracks, la lignée remonte à la Music Box de Chicago, scène noire et gay, effacée par le récit de la rave.",
       "queer_ballroom_axis_en": "As with Acid Tracks, the lineage goes back to Chicago's Music Box, a Black and gay scene that rave narratives erased.",
       "why_this_record": "La preuve que l'acid n'est jamais mort.",
@@ -5527,8 +5558,8 @@
         "energy-flash"
       ],
       "verify": [
-        "sortie originale vs réédition 1995",
-        "rôle de King Britt"
+        "Classement britannique : 8e selon Official Charts et Wikipedia, 9e selon Groove (2019)",
+        "Une première version sur la compilation Strictly Rhythm The Deep and Slow, non datée"
       ],
       "bpm": 130,
       "camelot_key": "8A",
@@ -5546,7 +5577,13 @@
       "spotify": {
         "id": "6cJ3yBgG1VzRpf4xrKsfB8",
         "version": "Tweekin Acid Funk"
-      }
+      },
+      "release_date": "1995-03",
+      "references": [
+        "https://en.wikipedia.org/wiki/Higher_State_of_Consciousness",
+        "https://www.officialcharts.com/songs/josh-wink-higher-state-of-consciousness/",
+        "https://groove.de/2019/08/15/zeitgeschichten-josh-wink/"
+      ]
     },
     {
       "id": "technopolis",
@@ -5697,12 +5734,12 @@
       "gear_en": [
         "Samples: \"Show Me Love\" (Robin S), \"Explode\" (Big Freedia)"
       ],
-      "construction": "Un sample de « Show Me Love » de Robin S (et de son orgue M1) et une interpolation de « Explode » de Big Freedia, rappeuse bounce de La Nouvelle-Orléans. Le refrain est pensé pour la piste ; la production est signée Beyoncé, The-Dream et Tricky Stewart.",
-      "construction_en": "A sample of Robin S's \"Show Me Love\" (and its M1 organ) and an interpolation of \"Explode\" by New Orleans bounce artist Big Freedia. The hook is built for the floor; production by Beyoncé, The-Dream and Tricky Stewart.",
-      "producer_origins": "Beyoncé revendique sur l'album Renaissance une lignée de musiques noires de club, avec un hommage explicite aux pionniers de la house.",
-      "producer_origins_en": "On Renaissance Beyoncé claims a lineage of Black club music, with an explicit tribute to house pioneers.",
-      "club_sociology": "Le titre devient numéro un du Billboard Hot 100 et du classement dance américain, rouvrant la question de la visibilité de la house hors de ses scènes d'origine.",
-      "club_sociology_en": "The track went to number one on the Billboard Hot 100 and the US dance chart, reopening the question of house's visibility beyond its original scenes.",
+      "construction": "Une production qui s'inspire largement de « Show Me Love » de Robin S et sample « Explode » (2014) de Big Freedia, figure de la bounce de La Nouvelle-Orléans. Le refrain est pensé pour la piste ; la production est signée Beyoncé, The-Dream et Tricky Stewart, avec Christian Isaksen.",
+      "construction_en": "A production heavily inspired by Robin S's \"Show Me Love\" that samples \"Explode\" (2014) by Big Freedia, a New Orleans bounce figure. The hook is built for the dancefloor; production is by Beyoncé, The-Dream and Tricky Stewart, with Christian Isaksen.",
+      "producer_origins": "Sur Renaissance, Beyoncé puise dans la musique des années 90 enracinée dans les communautés noires et queer ; la critique salue un hommage aux origines noires et queer de la dance music. Honey Dijon remixe le titre avec Terry Hunter, will.i.am et Nita Aviance.",
+      "producer_origins_en": "On Renaissance, Beyoncé drew on '90s music rooted in Black and queer communities; critics praised it for honouring dance music's Black and queer origins. Honey Dijon remixed the track alongside Terry Hunter, will.i.am and Nita Aviance.",
+      "club_sociology": "Le titre devient numéro un du Billboard Hot 100 en août 2022, pour deux semaines, et du classement dance/électronique américain, rouvrant la question de la visibilité de la house hors de ses scènes d'origine.",
+      "club_sociology_en": "The track topped the Billboard Hot 100 in August 2022, for two weeks, and the US dance/electronic chart, reopening the question of house's visibility beyond its original scenes.",
       "queer_ballroom_axis": "Le disque fait directement référence à la culture ballroom et à la house queer noire, en position d'hommage mainstream : à lire avec Vogue (1990) et Show Me Love.",
       "queer_ballroom_axis_en": "The record directly references ballroom and Black queer house, as a mainstream tribute: read alongside Vogue (1990) and Show Me Love.",
       "why_this_record": "La boucle est bouclée : la house revient en tête des charts en revendiquant sa lignée noire et queer.",
@@ -5718,8 +5755,8 @@
         "underground-massive"
       ],
       "verify": [
-        "crédits de production et d'écriture exacts (dont Honey Dijon)",
-        "position dans le classement"
+        "La fiche parlait d'une interpolation de « Explode » : Wikipedia parle d'un sample",
+        "Références explicites à la ballroom : à documenter"
       ],
       "bpm": 115,
       "camelot_key": "6A",
@@ -5738,7 +5775,11 @@
       ],
       "spotify": {
         "id": "5pyoxDZ1PX0KxBxiRVxA4U"
-      }
+      },
+      "release_date": "2022-06-20",
+      "references": [
+        "https://en.wikipedia.org/wiki/Break_My_Soul"
+      ]
     },
     {
       "id": "tshwala-bam",
@@ -6309,12 +6350,12 @@
       ],
       "construction": "Une house vocale lumineuse, une basse ronde et la voix soul de Hadiya George : la house de Chicago réécrite pour 2022.",
       "construction_en": "Bright vocal house, a round bassline and Hadiya George's soul voice: Chicago house rewritten for 2022.",
-      "producer_origins": "Honey Dijon, DJ et productrice née à Chicago, femme trans noire, coécrit l'album Black Girl Magic avec Luke Solomon ; elle travaille aussi sur Renaissance de Beyoncé.",
-      "producer_origins_en": "Honey Dijon, a Chicago-born DJ and producer and a Black trans woman, co-wrote the album Black Girl Magic with Luke Solomon; she also worked on Beyoncé's Renaissance.",
-      "club_sociology": "Le single tourne sur BBC Radio 1 avant la sortie de l'album en novembre 2022 : la house noire et queer revient au cœur de la pop.",
-      "club_sociology_en": "The single was playlisted on BBC Radio 1 before the album's release in November 2022: Black and queer house returns to the heart of pop.",
-      "queer_ballroom_axis": "Honey Dijon dit vouloir réancrer la house dans ses communautés d'origine, noires et queer.",
-      "queer_ballroom_axis_en": "Honey Dijon says she wants to re-root house in its original Black and queer communities.",
+      "producer_origins": "Honey Dijon, DJ et productrice, découvre la house à 12 ans dans sa ville natale. Elle coproduit l'album Black Girl Magic avec Luke Solomon et Chris Penny, et produit deux titres de Renaissance de Beyoncé, dont elle remixe aussi « Break My Soul ».",
+      "producer_origins_en": "Honey Dijon, a DJ and producer, discovered house at 12 in her hometown. She co-produced the album Black Girl Magic with Luke Solomon and Chris Penny, and produced two tracks on Beyoncé's Renaissance, also remixing \"Break My Soul\".",
+      "club_sociology": "Le single avec Hadiya George, chanteuse d'Atlanta, entre dans la playlist de BBC Radio 1 avant la sortie de l'album, le 18 novembre 2022 : la house noire et queer revient au cœur de la pop.",
+      "club_sociology_en": "The single with Atlanta singer Hadiya George was playlisted on BBC Radio 1 before the album came out on 18 November 2022: Black and queer house returned to the heart of pop.",
+      "queer_ballroom_axis": "Honey Dijon dit vouloir « garder cette culture dans la conversation » ; pour RA, chacun de ses disques cherche à réancrer la house dans les communautés noires et queer qui l'ont portée.",
+      "queer_ballroom_axis_en": "Honey Dijon says she wants to \"keep this culture in the conversation\"; for RA, each of her records tries to reground house in the Black and queer communities that originally upheld it.",
       "why_this_record": "La réappropriation, par celles et ceux qui ont inventé la house.",
       "why_this_record_en": "Reclamation, by those who invented house.",
       "archive_ref": {
@@ -6342,7 +6383,16 @@
       ],
       "spotify": {
         "id": "3F152F42cdRCeKMCP9by6X"
-      }
+      },
+      "references": [
+        "https://ra.co/news/77866",
+        "https://ra.co/reviews/35205",
+        "https://defected.com/news/post/honey-dijon-unveils-details-for-black-girl-magic"
+      ],
+      "verify": [
+        "Ville natale (Chicago) et présentation comme femme trans noire : non nommées dans les sources lues, à sourcer",
+        "Date et label du single : non lus (album : Classic Music Company, CMCLP 140, 18 novembre 2022)"
+      ]
     },
     {
       "id": "u-seinfeld",
