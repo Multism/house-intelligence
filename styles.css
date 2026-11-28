@@ -743,3 +743,15 @@ body { padding-bottom: 0; }
   .fw[data-size="mini"] .fw-artist, .fw[data-size="mini"] #fw-open { display: none; }
   .fw[data-size="mini"] .fw-info { padding-top: 0; }
 }
+
+/* plan du métro : zoom, déplacement, station en écoute */
+.metro-zoom { display: flex; gap: 4px; }
+.metro-zoom .btn { min-width: 34px; justify-content: center; font-size: 15px; }
+.metro-zoom .btn:disabled { opacity: .4; cursor: default; }
+#metro-svg { touch-action: pan-x pan-y; }
+#metro-svg.zoomed { cursor: grab; touch-action: none; }
+#metro-svg.dragging { cursor: grabbing; }
+#metro-svg.dragging * { cursor: grabbing; }
+.m-st.playing .dot, .m-st.playing .ring { stroke: #ff3e5a; animation: st-pulse 1.4s ease-in-out infinite; }
+@keyframes st-pulse { 0%, 100% { stroke-width: 4; filter: none; } 50% { stroke-width: 7; filter: drop-shadow(0 0 6px #ff3e5a); } }
+@media (prefers-reduced-motion: reduce) { .m-st.playing .dot, .m-st.playing .ring { animation: none; stroke-width: 6; } }
