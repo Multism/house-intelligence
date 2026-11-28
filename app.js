@@ -1059,16 +1059,34 @@
       groups.length ? _t("dig.memberOf", { g: groups.join(", ") }) : null,
     ].filter(Boolean).join(", ");
   }
-  // Pochette d'archive générée : aucune image extérieure, rien d'incertain. La teinte suit le label
-  // (tous les disques d'un label se ressemblent), le motif varie avec le catalogue.
+  // Pochette d'archive générée, sans image extérieure ni logo réel. Le label fixe la famille de teintes et un monogramme
+  // dessiné par le site ; chaque disque tire sa teinte exacte, sa composition, sa typographie et son papier.
   const hash = (s) => { let x = 2166136261; for (const c of String(s)) x = Math.imul(x ^ c.codePointAt(0), 16777619); return x >>> 0; };
+  const LAYOUTS = ["vinyl", "stripes", "dots", "arcs", "blocks", "sun", "type", "title"];
+  const FONTS = ["serif", "mono", "sans"];
+  function monogram(label) {
+    const words = label.replace(/[^\p{L}\p{N}\s'-]/gu, " ").split(/\s+/)
+      .filter((w) => w && !/^(records?|recordings|music|musiq|discs?|the|label|audio)$/i.test(w));
+    if (words.length > 1) return words.slice(0, 3).map((w) => w[0]).join("").toUpperCase();
+    const w = words[0] || label; return w.length <= 3 ? w.toUpperCase() : w.slice(0, 2).toUpperCase();
+  }
   function sleeve(r) {
-    const hl = hash(norm(r.label.trim())), hr = hash(r.catalog || r.id);
-    const motifs = ["ring", "bands", "grid", "type", "split"];
-    return h("div", { class: `sleeve m-${motifs[hr % motifs.length]}`, style: `--sh:${hl % 360};--sa:${28 + (hl >> 9) % 30}%`, "aria-hidden": "true" },
-      h("span", { class: "sl-label" }, r.label),
+    const label = r.label.trim(), hl = hash(norm(label)), hr = hash(r.id + "|" + (r.catalog || ""));
+    const h1 = (hl % 360 + (hr >>> 3) % 70 - 35 + 360) % 360, h2 = (h1 + 130 + (hr >>> 9) % 100) % 360;
+    const paper = (hr >>> 15) % 3 === 0, sat = 55 + (hl >>> 5) % 30;
+    const vars = paper
+      ? `--bg:hsl(${h1} 35% 88%);--ink:hsl(${h1} 45% 13%);--c1:hsl(${h1} ${sat}% 42%);--c2:hsl(${h2} 75% 50%)`
+      : `--bg:hsl(${h1} ${sat - 15}% ${18 + (hr >>> 19) % 12}%);--ink:hsl(${h1} 35% 92%);--c1:hsl(${h1} ${sat + 10}% 58%);--c2:hsl(${h2} 85% 62%)`;
+    const layout = LAYOUTS[hr % LAYOUTS.length], bigYear = layout === "type" && !(r.catalog && r.catalog.length <= 7), font = FONTS[(hr >>> 21) % FONTS.length];
+    const badge = ["", "mb-square", "mb-solid"][(hl >>> 11) % 3];
+    const big = layout === "type" ? (r.catalog && r.catalog.length <= 7 ? r.catalog : String(r.year || ""))
+      : layout === "title" ? [h("b", {}, r.artist), r.title] : null;
+    return h("div", { class: `sleeve L-${layout} f-${font} ${badge}${bigYear ? " big-year" : ""}`, style: vars, "aria-hidden": "true" },
+      h("span", { class: "sl-art" }),
+      h("span", { class: "sl-label" }, label),
+      h("span", { class: "sl-mono" }, monogram(label)),
+      big ? h("span", { class: "sl-big" }, big) : null,
       h("span", { class: "sl-cat" }, r.catalog || ""),
-      h("span", { class: "sl-hole" }, h("span", { class: "sl-center" }, h("span", {}, r.artist))),
       h("span", { class: "sl-year" }, r.year || ""));
   }
   const digPlayId = (r) => r.kind === "booth" ? (r.t.youtube?.length ? r.id : null) : S.disc["g:" + r.id] ? "g:" + r.id : null;
