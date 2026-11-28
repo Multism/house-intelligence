@@ -37,7 +37,7 @@ Lignes du métro : L1 Chicago & Acid · L2 NYC, Garage & Tribal · L3 Deep & gos
 ### Fiche disque (`tracks[]`)
 
 Champs obligatoires : `id, title, artist, year, label, city, country, continent, genre, era, bpm, camelot_key, energy, gear, construction, producer_origins, club_sociology, queer_ballroom_axis, archive_ref, why_this_record, tags, youtube`, et la version `*_en` de chaque texte.
-Champs facultatifs : `catalog` (numéro de catalogue), `release_date` (date déclarée par le label ou l'artiste) et `physical_release_date` (pressage), au format `AAAA-MM-JJ` ou `AAAA-MM` ; `year` reste le champ des filtres, et un écart entre sources va dans `verify`. `scene` (id d'une micro-scène de `scenes`, filtre « Scènes » du Booth et liste dans le panneau des stations), `spotify`, `further_reading`, `story`, `timeline`, `credits`, `book_refs` (`source`, `where`, `where_en`), `references` (URL), `verify` (liste des points à vérifier), `verified` (booléen).
+Champs facultatifs : `catalog` (numéro de catalogue), `release_date` (date déclarée par le label ou l'artiste) et `physical_release_date` (pressage), au format `AAAA-MM-JJ` ou `AAAA-MM` ; `year` reste le champ des filtres, et un écart entre sources va dans `verify`. `scene` (id d'une micro-scène de `scenes`, filtre « Scènes » du Booth et liste dans le panneau des stations), `spotify`, `further_reading`, `story`, `timeline`, `credits`, `book_refs` (`source`, `where`, `where_en`), `references` (URL), `verify` (liste des points à vérifier), `verified` (booléen), `audit` (`{ "date": "AAAA-MM-JJ" }`, posé seulement quand toute la fiche a été vérifiée selon le protocole : la fiche s'affiche alors « auditée », sinon « en cours de vérification »), `bpm_source` et `key_source` (+ `_en` : mesure sur la version exacte, avec la méthode, ou déclaration documentée ; sans elles, BPM et clé s'affichent comme estimés).
 
 ## Règles éditoriales
 
@@ -47,7 +47,8 @@ Champs facultatifs : `catalog` (numéro de catalogue), `release_date` (date déc
 4. **Aucune allégation non jugée** contre une personne (procès, accusations) : on ne les publie pas.
 5. **Pas d'indication de pages ni de minutage** dans les références de livres ou de films.
 6. **Pas de vidéo YouTube inventée** : chaque identifiant est vérifié (oEmbed). Si on n'en trouve pas de fiable, on n'en met pas.
-7. BPM, clés Camelot et `gear` sont des valeurs éditoriales indicatives (voir `_meta.note`).
+7. BPM, clés Camelot et `gear` sont des valeurs éditoriales indicatives (voir `_meta.note`). Données de jeu et données historiques ne se confondent pas : BPM mesuré sur la version exacte ou déclaration documentée ; tonalité par analyse audio avec la méthode ; énergie assumée comme appréciation éditoriale ; machines appuyées sur un témoignage, un entretien technique ou une documentation de studio ; samples sur crédits ou sources concordantes ; la construction musicale est une analyse d'écoute présentée comme telle.
+8. **Audit des fiches anciennes** : par lots thématiques, une PR par lot (Chicago, Paradise Garage et disco ; acid house et rave britannique ; ballroom et cultures queer ; Detroit et deep house ; UK garage, jungle et bass music ; French Touch et progressive ; afro house, gqom et amapiano ; productions contemporaines). Aucune fiche supprimée ; les affirmations sensibles non étayées et les références non consultées sortent de l'affichage.
 
 ## Protocole documentaire (chaque dossier, chaque lot)
 

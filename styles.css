@@ -723,3 +723,11 @@ body { padding-bottom: 0; }
 .dig-main .links .chip { font-size: 11px; }
 .dig-main .warn-b { font: 10.5px var(--mono); color: #ffb627; align-self: center; }
 @media (max-width: 700px) { .dig-view .lib-tools, .dig-list { margin-left: 16px; margin-right: 16px; } }
+
+/* Statut documentaire de la fiche et valeurs estimées */
+.badge .est { cursor: help; }
+.badge .est.ok { color: var(--ink-2); }
+.audit-status { margin: -6px 0 14px; font-size: 11px; letter-spacing: .04em; color: var(--ink-3); }
+.audit-status::before { content: "○ "; }
+.audit-status.done { color: var(--ink-2); }
+.audit-status.done::before { content: "✓ "; }

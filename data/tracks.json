@@ -1,7 +1,8 @@
 {
   "_meta": {
     "version": "1.0",
-    "note": "BPM, clés Camelot et listes de machines (gear) sont des valeurs éditoriales indicatives, établies pour le jeu de transitions. Elles doivent être vérifiées sur pressage original avant toute publication définitive."
+    "note": "BPM, clés Camelot et listes de machines (gear) sont des valeurs éditoriales indicatives, établies pour le jeu de transitions. Elles doivent être vérifiées sur pressage original avant toute publication définitive.",
+    "audit_note": "audit : { date } est posé quand toutes les affirmations de la fiche ont été vérifiées selon le protocole (CLAUDE.md) ; sinon la fiche s’affiche « en cours de vérification ». bpm_source / key_source (+ _en) : mesure sur la version exacte ou déclaration documentée ; sans elles, BPM et clé s’affichent comme valeurs estimées. L’énergie reste une appréciation éditoriale."
   },
   "eras": [
     {
@@ -592,12 +593,12 @@
       "continent": "Amérique du Nord",
       "genre": "chicago",
       "era": "era-1",
-      "bpm": 121,
+      "bpm": 122,
       "camelot_key": "8B",
       "energy": 8,
       "gear": [
-        "tr-707",
-        "Piano acoustique (overdub)"
+        "Prophet 2000 (échantillonneur, son de piano)",
+        "tr-707"
       ],
       "construction": "Des accords de piano martelés sur un pattern de boîte à rythmes rigide, une basse en octaves et un chant d'église porté par Curtis McClain. C'est l'acte de naissance du piano house : la ferveur gospel posée sur une grille mécanique.",
       "producer_origins": "Jefferson travaille à la poste et découvre le matériel en autodidacte, en achetant des machines à crédit. Il ne vient pas du conservatoire : il compose en enregistrant des pistes une à une et assume une approche « non-musicien » qui deviendra la norme de la house.",
@@ -636,10 +637,21 @@
       "queer_ballroom_axis_en": "The Music Box drew a Black, gay, working-class crowd for whom the dancefloor worked like a secular church. The lyrics (\"gotta have house music, all night long\") turn that dance-bound community into ritual.",
       "why_this_record_en": "It proves house can be euphoric and melodic without losing any of its rhythmic grit.",
       "gear_en": [
-        "tr-707",
-        "Acoustic piano (overdub)"
+        "Prophet 2000 (sampler, piano sound)",
+        "tr-707"
       ],
-      "verified": false
+      "verified": false,
+      "references": [
+        "https://www.muzines.co.uk/articles/emotional-foundations/2201",
+        "https://daily.redbullmusicacademy.com/2016/08/marshall-jefferson-interview"
+      ],
+      "verify": [
+        "122 BPM : tempo de production déclaré par Jefferson (RBMA, 2016 : basse jouée à 40 BPM puis accélérée à 122), à mesurer sur le pressage Trax",
+        "TR-707 sur ce disque : non documenté ; Music Technology (1989) cite une TR-808 et une 707 pour son studio en général",
+        "Parcours (poste, machines à crédit) : non lu dans les sources consultées"
+      ],
+      "bpm_source": "Tempo de production déclaré par Marshall Jefferson (Red Bull Music Academy, 2016)",
+      "bpm_source_en": "Production tempo stated by Marshall Jefferson (Red Bull Music Academy, 2016)"
     },
     {
       "id": "acid-tracks",
@@ -657,11 +669,12 @@
       "energy": 7,
       "gear": [
         "tb-303",
-        "tr-707"
+        "tr-707",
+        "TR-727"
       ],
-      "construction": "Douze minutes de TB-303 dont on tourne en continu les potards de cutoff, de résonance et d'enveloppe sur une 707 sèche. La mélodie compte peu : tout se joue dans la mutation du timbre, une basse qui « parle », couine et s'étrangle.",
-      "producer_origins": "DJ Pierre, Earl « Spanky » Smith Jr. et Herb J. bricolent une 303 achetée d'occasion sans savoir s'en servir. L'accident devient méthode : Spanky programme, Pierre triture les réglages jusqu'à trouver ce son.",
-      "club_sociology": "Ron Hardy joue la cassette plusieurs fois dans la même nuit à la Music Box. Le public la rejette d'abord, puis la réclame. Le nom « acid » naît de la rumeur selon laquelle le DJ mettait du LSD dans l'eau. La légende précède le disque.",
+      "construction": "Douze minutes de TB-303 dont on tourne en continu les potards de cutoff, de résonance et d'enveloppe sur une 707 et une 727 sèches. La mélodie compte peu : tout se joue dans la mutation du timbre, une basse qui « parle », couine et s'étrangle.",
+      "producer_origins": "DJ Pierre, Earl « Spanky » Smith Jr. et Herb J bricolent une TB-303 achetée une quarantaine de dollars sans savoir s'en servir. L'accident devient méthode : Spanky programme, Pierre triture les réglages jusqu'à trouver ce son. Ils l'enregistrent vers 128 BPM ; Marshall Jefferson leur demande de ralentir, et le morceau passe à 120.",
+      "club_sociology": "Ron Hardy joue la cassette plusieurs fois dans la même nuit à la Music Box. Le public l'appelle « Ron Hardy's Acid Track » ; le groupe garde le surnom, retire le nom du DJ, et le disque sort chez Trax en 1987 sous le titre « Acid Tracks ».",
       "queer_ballroom_axis": "L'acide naît dans l'espace noir et gay de la Music Box. Lorsqu'il traverse l'Atlantique, il est réapproprié par la jeunesse blanche britannique de la rave. Le smiley efface en partie ses origines : c'est un cas d'école de déracinement culturel.",
       "archive_ref": {
         "source": "modulations",
@@ -691,12 +704,29 @@
         "igNBeo3QSqc",
         "PJJ5FxpVGUY"
       ],
-      "construction_en": "Twelve minutes of TB-303 whose cutoff, resonance and envelope knobs are twisted non-stop over a bone-dry 707. The melody barely matters: everything happens in the mutating timbre, a bassline that \"talks\", squeals and chokes.",
-      "producer_origins_en": "DJ Pierre, Earl \"Spanky\" Smith Jr. and Herb J tinkered with a second-hand 303 without knowing how to use it. The accident became the method: Spanky programmed, Pierre tweaked the settings until that sound appeared.",
-      "club_sociology_en": "Ron Hardy played the tape several times in one night at the Music Box. The crowd rejected it at first, then demanded it. The name \"acid\" came from a rumour that the DJ was spiking the water with LSD. The legend arrived before the record.",
+      "construction_en": "Twelve minutes of TB-303 whose cutoff, resonance and envelope knobs are twisted non-stop over a bone-dry 707 and 727. The melody barely matters: everything happens in the mutating timbre, a bassline that \"talks\", squeals and chokes.",
+      "producer_origins_en": "DJ Pierre, Earl \"Spanky\" Smith Jr. and Herb J tinkered with a TB-303 bought for around $40 without knowing how to use it. The accident became the method: Spanky programmed, Pierre tweaked the settings until that sound appeared. They recorded it at around 128 BPM; Marshall Jefferson told them to slow it down, and the track settled at 120.",
+      "club_sociology_en": "Ron Hardy played the tape several times in one night at the Music Box. The crowd called it \"Ron Hardy's Acid Track\"; the group kept the nickname, dropped the DJ's name, and the record came out on Trax in 1987 as \"Acid Tracks\".",
       "queer_ballroom_axis_en": "Acid was born in the Black and gay space of the Music Box. Once it crossed the Atlantic, it was re-appropriated by Britain's white rave youth, and the smiley partly erased its origins: a textbook case of cultural uprooting.",
       "why_this_record_en": "It shows, in its purest form, how an instrument designed for one job becomes something else entirely in the hands of young DJs.",
-      "verified": false
+      "verified": false,
+      "gear_en": [
+        "tb-303",
+        "tr-707",
+        "TR-727"
+      ],
+      "references": [
+        "https://daily.redbullmusicacademy.com/2012/12/dj-pierre-interview",
+        "https://articles.roland.com/lifetime-achievement-dj-pierre-and-phuture/"
+      ],
+      "verify": [
+        "Origine du mot « acid » liée à une rumeur de LSD dans l'eau : non étayée par les sources consultées (RBMA 2012, Roland 2022), retirée du texte",
+        "Propriétaire de la TB-303 : Spanky selon DJ Pierre et Roland, Marshall Jefferson selon Music Technology (1989)",
+        "Réaction initiale du public de la Music Box : à préciser à partir du récit de DJ Pierre",
+        "Titre de travail « In Your Mind » (Roland 2022) : non recoupé"
+      ],
+      "bpm_source": "Tempo déclaré par DJ Pierre (Red Bull Music Academy, 2012)",
+      "bpm_source_en": "Tempo stated by DJ Pierre (Red Bull Music Academy, 2012)"
     },
     {
       "id": "voodoo-ray",
