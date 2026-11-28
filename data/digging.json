@@ -144,6 +144,16 @@
       "references": [
         "https://djmag.com/features/sound-stay-true-sounds"
       ]
+    },
+    {
+      "name": "Movin' Records",
+      "city": "East Orange (New Jersey)",
+      "city_en": "East Orange (New Jersey)",
+      "desc": "Label et disquaire fondés par Abigail Adams ; la boutique ouvre en 1980.",
+      "desc_en": "Label and record shop founded by Abigail Adams; the shop opened in 1980.",
+      "references": [
+        "https://www.thevinylfactory.com/features/abigail-adams-movin-records"
+      ]
     }
   ],
   "artists": [

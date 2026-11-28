@@ -2782,7 +2782,7 @@
       "title": "French Kiss",
       "artist": "Lil Louis",
       "year": 1989,
-      "label": "Diamond Records / FFRR",
+      "label": "FFRR / Epic",
       "city": "Chicago",
       "country": "USA",
       "continent": "Amérique du Nord",
@@ -2795,9 +2795,9 @@
         "Boîte à rythmes",
         "Synthétiseur"
       ],
-      "construction": "Un riff de synthé obsédant, une voix féminine qui gémit et surtout un tempo qui ralentit jusqu'à s'arrêter presque, puis repart. C'est l'un des rares tubes de club bâtis sur un ralentissement du BPM.",
-      "producer_origins": "Marvin Louis Burns, fils de musicien de blues, est un DJ qui organise de grandes soirées à Chicago. Il construit le morceau comme une montée dramatique, pensée pour la piste.",
-      "club_sociology": "Il est interdit sur de nombreuses radios à cause de ses gémissements, ce qui en fait un tube européen. Il est emblématique de la culture du club comme espace d'érotisme assumé.",
+      "construction": "Un riff de synthé obsédant, des gémissements féminins sans paroles et surtout un tempo qui ralentit jusqu'à l'arrêt complet, puis repart. C'est l'un des rares tubes de club bâtis sur un ralentissement du BPM. Des voix chantées s'ajoutent ensuite : Shawn Christopher aux États-Unis, une chanteuse connue sous le seul nom de Pasquale en Europe.",
+      "producer_origins": "Lil Louis, de son vrai nom Marvin Louis Burns, est un DJ et producteur né à Chicago en 1962. Il signe le morceau avec Karlana Johnson et le construit comme une montée dramatique, pensée pour la piste.",
+      "club_sociology": "La BBC le bannit de ses ondes, ce qui ne l'empêche pas d'atteindre la 2e place des ventes au Royaume-Uni et la 1re aux Pays-Bas, et de dominer les clubs américains. Il est emblématique de la culture du club comme espace d'érotisme assumé.",
       "queer_ballroom_axis": "L'érotisme explicite du morceau prolonge l'héritage des pistes gays de Chicago, pour lesquelles la danse et le sexe ne sont pas séparés.",
       "archive_ref": {
         "source": "last-night-dj",
@@ -2822,16 +2822,27 @@
         "cH-ikdYOZhM",
         "rmOAVfEDyhA"
       ],
-      "construction_en": "A haunting synth riff, a moaning female voice and, above all, a tempo that slows almost to a halt before starting up again. One of the rare club hits built on a BPM slowdown.",
-      "producer_origins_en": "Marvin Louis Burns, son of a blues musician, was a DJ who threw big parties in Chicago. He built the track as a dramatic build designed for the floor.",
-      "club_sociology_en": "Banned by many radio stations for its moans, it became a European hit. It epitomises the club as a space of open eroticism.",
+      "construction_en": "An obsessive synth riff, wordless female moans and above all a tempo that slows to a complete stop, then picks up again. It is one of the few club hits built on a slowing BPM. Sung vocals were added later: Shawn Christopher in the US, a singer known only as Pasquale in Europe.",
+      "producer_origins_en": "Lil Louis, born Marvin Louis Burns in Chicago in 1962, is a DJ and producer. He co-wrote the track with Karlana Johnson and built it as a dramatic rise, made for the dancefloor.",
+      "club_sociology_en": "The BBC banned it, which did not stop it reaching number 2 in the UK and number 1 in the Netherlands, and topping US club charts. It is emblematic of club culture as a space of openly assumed eroticism.",
       "queer_ballroom_axis_en": "Its explicit eroticism extends the legacy of Chicago's gay dancefloors, where dancing and sex were never separate.",
       "why_this_record_en": "Start the Pulse: the record's real tempo is itself a BPM manipulation.",
       "gear_en": [
         "Drum machine",
         "Synthesizer"
       ],
-      "verified": false
+      "verified": false,
+      "release_date": "1989-07-17",
+      "references": [
+        "https://en.wikipedia.org/wiki/French_Kiss_(Lil_Louis_song)",
+        "https://en.wikipedia.org/wiki/Lil_Louis"
+      ],
+      "verify": [
+        "Première édition : Diamond Records (cité par la fiche) avant la sortie FFRR / Epic de juillet 1989 : non confirmé par une source lue",
+        "Père musicien de blues, grandes soirées à Chicago : non lu dans les sources consultées, retiré du texte",
+        "Identité de la voix des gémissements : non documentée",
+        "Lien avec l'héritage des pistes gays de Chicago : lecture éditoriale à sourcer"
+      ]
     },
     {
       "id": "pacific-state",
@@ -5294,14 +5305,14 @@
         "Live percussion",
         "Vocals"
       ],
-      "construction": "Une rythmique de percussions déliée, un groove dub et une voix féminine qui flotte au-dessus. La version « female vocal » mixée par Larry Levan devient la référence du Paradise Garage.",
-      "construction_en": "Loose percussion, a dub groove and a female vocal drifting above. The \"female vocal\" version mixed by Larry Levan became the Paradise Garage reference.",
-      "producer_origins": "Loose Joints est un projet d'Arthur Russell, compositeur et violoncelliste de l'avant-garde new-yorkaise, avec le DJ Steve D'Acquisto.",
-      "producer_origins_en": "Loose Joints was a project of Arthur Russell, a composer and cellist from New York's avant-garde, with DJ Steve D'Acquisto.",
+      "construction": "Une rythmique de percussions déliée, un groove dub et une voix féminine qui flotte au-dessus. La version « Female Vocal », remixée par Larry Levan, devient un classique de ses sets au Paradise Garage.",
+      "construction_en": "A loose percussion groove, a dubby feel and a female vocal floating on top. The \"Female Vocal\" version, remixed by Larry Levan, became an enduring staple of his Paradise Garage sets.",
+      "producer_origins": "Loose Joints est le duo d'Arthur Russell, violoncelliste et compositeur de l'avant-garde du Lower Manhattan, et du DJ new-yorkais Steve D'Acquisto, entourés de chanteurs et de musiciens. Ils produisent le disque, sorti chez West End en 1980.",
+      "producer_origins_en": "Loose Joints was the duo of Arthur Russell, a cellist and composer from Lower Manhattan's avant-garde, and New York DJ Steve D'Acquisto, surrounded by singers and musicians. They produced the record, released on West End in 1980.",
       "club_sociology": "Le disque circule d'abord en club avant de sortir. Levan et D'Acquisto en portent la version dans le circuit gay noir et latino, au moment où le Paradise Garage s'impose.",
       "club_sociology_en": "The record circulated in clubs before release. Levan and D'Acquisto carried the version through the Black and Latino gay circuit as the Paradise Garage rose.",
-      "queer_ballroom_axis": "Arthur Russell était gay ; sa musique relie l'avant-garde du downtown et les pistes de danse. Un cas rare de passerelle entre ces deux scènes.",
-      "queer_ballroom_axis_en": "Arthur Russell was gay; his music links the downtown avant-garde and the dance floor. A rare bridge between those two scenes.",
+      "queer_ballroom_axis": "La musique d'Arthur Russell relie l'avant-garde du downtown et les pistes de danse new-yorkaises, dont le Paradise Garage, espace de la sociabilité gay noire et latino : un cas rare de passerelle entre ces deux scènes.",
+      "queer_ballroom_axis_en": "Arthur Russell's music connected the downtown avant-garde with New York dancefloors, including the Paradise Garage, a space of Black and Latino gay sociability: a rare bridge between these two scenes.",
       "why_this_record": "Là où le disco devient dub, expérimental et profondément queer.",
       "why_this_record_en": "Where disco turns dub, experimental and deeply queer.",
       "archive_ref": {
@@ -5317,7 +5328,11 @@
       "verify": [
         "différence entre versions (male vs female vocal)",
         "rôle exact de Levan (mix vs production)",
-        "personnel"
+        "personnel",
+        "Chanteuse de la version Female Vocal : non créditée dans les sources lues",
+        "François Kevorkian, co-mixeur non crédité selon Wikipedia : à recouper",
+        "Identité d'Arthur Russell : la fiche disait « gay » ; Wikipedia mentionne ses relations avec des hommes à partir de 1976 sans employer de terme ; à reformuler d'après une source qui le nomme",
+        "Circulation en club avant la sortie : non lu dans les sources consultées"
       ],
       "bpm": 112,
       "camelot_key": "3A",
@@ -5338,7 +5353,13 @@
       "spotify": {
         "id": "1WtsuRKEu7GVJrxkOJXPO7",
         "version": "Larry Levan Female Vocal Version"
-      }
+      },
+      "catalog": "WES-22128 ; WES-22129 (Female Vocal)",
+      "references": [
+        "https://www.factmag.com/2014/05/21/arthur-russell-and-steve-dacquistos-loose-joints-classics-reissued-by-west-end-records/",
+        "https://en.wikipedia.org/wiki/Arthur_Russell_(musician)",
+        "https://www.timlawrence.info/arthur-russell-discography"
+      ]
     },
     {
       "id": "energy-flash-beltram",
@@ -5727,10 +5748,10 @@
       ],
       "construction": "Un groove garage souple, des accords chauds et une voix soul qui « tend la main » : le son gospel et deep du New Jersey, moins frontal que celui de Manhattan.",
       "construction_en": "A loose garage groove, warm chords and a soul vocal \"reaching\" out: New Jersey's gospel, deep sound, less frontal than Manhattan's.",
-      "producer_origins": "Phase II est un nom collectif utilisé par des figures des clubs du New Jersey, dont les membres de Blaze (Josh Milan, Kevin Hedge, Chris Herbert). Le disque est l'un des premiers succès de Movin' Records, label du New Jersey.",
-      "producer_origins_en": "Phase II was a collective name used by New Jersey club figures, including the members of Blaze (Josh Milan, Kevin Hedge, Chris Herbert). The record was one of the first hits for the New Jersey label Movin' Records.",
-      "club_sociology": "C'est le son du Club Zanzibar de Newark, où Tony Humphries est résident de 1982 à 1994 et qui devient, après la fermeture du Paradise Garage en 1987, un centre de la house de la région.",
-      "club_sociology_en": "This is the sound of Newark's Club Zanzibar, where Tony Humphries was resident from 1982 to 1994 and which became, after the Paradise Garage closed in 1987, a centre of the region's house.",
+      "producer_origins": "Phase II réunit les trois membres d'origine de Blaze, Kevin Hedge, Josh Milan et Chris Herbert, avec Vincent Herbert, le petit frère de Chris, au chant. Le disque fait connaître Movin' Records, le label d'Abigail Adams : elle ouvre la boutique Movin' à East Orange en 1980, d'abord magasin de rollers puis disquaire, avant de presser ses propres disques. Josh Milan la décrit comme « la bonne fée de la house ».",
+      "producer_origins_en": "Phase II brought together the three original members of Blaze, Kevin Hedge, Josh Milan and Chris Herbert, with Chris's younger brother Vincent Herbert on vocals. The record put Movin' Records on the map, Abigail Adams's label: she opened the Movin' shop in East Orange in 1980, first a skate shop then a record store, before releasing her own records. Josh Milan calls her \"everyone's fairy godmother of house music\".",
+      "club_sociology": "C'est le son du Club Zanzibar de Newark, point de ralliement de la house naissante, où Tony Humphries est résident, et qui devient, après la fermeture du Paradise Garage en 1987, un centre de la house de la région.",
+      "club_sociology_en": "It is the sound of Newark's Club Zanzibar, a nexus of early house, where Tony Humphries was resident, and which became a regional house centre after the Paradise Garage closed in 1987.",
       "queer_ballroom_axis": "Le garage du New Jersey prolonge la ferveur gospel des clubs noirs et gays new-yorkais ; la composition du public du Zanzibar reste à documenter précisément.",
       "queer_ballroom_axis_en": "New Jersey garage extends the gospel fervour of New York's Black and gay clubs; the exact make-up of Zanzibar's crowd still needs documenting.",
       "why_this_record": "Il fait exister le New Jersey comme matrice distincte de New York.",
@@ -5755,7 +5776,9 @@
         "last-night-dj"
       ],
       "verify": [
-        "Crédits exacts de Phase II sur ce disque"
+        "Crédits exacts de Phase II sur ce disque",
+        "Année 1988 : non donnée par la source lue (premier disque de Movin' en 1987)",
+        "Dates de la résidence de Tony Humphries au Zanzibar (1982-1994) : non lues dans la source consultée"
       ],
       "youtube": [
         "rV_mmxsaPeM",
@@ -5764,7 +5787,10 @@
       "spotify": {
         "id": "6KlbbkiO0VC9mqdNWT3XtI",
         "version": "Brotherhood Mix"
-      }
+      },
+      "references": [
+        "https://www.thevinylfactory.com/features/abigail-adams-movin-records"
+      ]
     },
     {
       "id": "keep-on-movin",
