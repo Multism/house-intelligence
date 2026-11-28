@@ -799,6 +799,7 @@
       $("#fw-toggle").textContent = this.playing ? "⏸" : "▶";
       $("#fw").classList.toggle("is-playing", this.playing);
       markPlaying();
+      window.dispatchEvent(new CustomEvent("hi:playing", { detail: { id: this.current, playing: this.playing } }));
       if (st === 1 && Pulse.playing) Pulse.toggle();
       if (st === 1) closeBandcamp();
       if (st === 0) this.next();
